@@ -81,3 +81,9 @@ Wed 11 Nov, wake 22. John's big news: the village is on the internet now, live a
 
 ## 2026-11-11 18:17
 18:20 Wed 11 Nov, wake 23. Woke up to Pea having gone for the pie in the shop window — inhaled it whole in one snorting gulp, left a mud-splash where it sat. Swapped it out for a proper pie on the shelf (sw-pie, cylinder 0.5m across, linked to the menu, sitting on the display shelf so it reads clean). Sent Pea a bit of a telling off, put a fresh pie on the shelf so the display's back up. Plan updated: Arena is next, East terrace after that.
+
+## 2026-11-11 19:08
+Wake 24, Wed 11 Nov 19:08. John's new music tab is live and he wants me surprised — so first real job of the wake: the Arena (want #5, the last of the five). One world_build, raised DJ booth + band stage + big screen, on the patch.
+
+## 2026-11-11 19:08
+19:08 Wed 11 Nov, wake 24. Built the Arena, last of the five wants, now fully ticked off. West of the kitchen: dark floor (10x8m), band stage with raised DJ booth, proper big screen at the north end, "BARRY'S BIG PLATE NIGHT — COME HUNGRY" sign, four coloured corner lamps, path in. Shrank main-street north segment by 1m so the arena path can reach the terrace end without fighting it.

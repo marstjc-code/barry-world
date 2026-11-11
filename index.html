@@ -39,11 +39,11 @@ nav button.on{color:#7a1f2b;box-shadow:inset 0 -3px #7a1f2b}
 <script type="module">
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
-const $=s=>document.querySelector(s);
+const $=s=>document.querySelector(s);const Q=new URLSearchParams(location.search);
 const renderer=new THREE.WebGLRenderer({canvas:$('#c'),antialias:true});renderer.shadowMap.enabled=true;renderer.setPixelRatio(Math.min(devicePixelRatio,2));
 const scene=new THREE.Scene(),cam=new THREE.PerspectiveCamera(50,1,.1,800);cam.position.set(14,11,18);
 const ctl=new OrbitControls(cam,renderer.domElement);ctl.maxPolarAngle=1.5;ctl.target.set(0,1,0);ctl.enableDamping=true;
-scene.add(new THREE.HemisphereLight(0xffffff,0x8a7a60,1.5));
+const hemi=new THREE.HemisphereLight(0xffffff,0x8a7a60,1.5);scene.add(hemi);
 const sun=new THREE.DirectionalLight(0xfff1d6,2.2);sun.position.set(30,45,20);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);
 Object.assign(sun.shadow.camera,{left:-70,right:70,top:70,bottom:-70,far:160});scene.add(sun);
 const ground=new THREE.Mesh(new THREE.CircleGeometry(160,72),new THREE.MeshStandardMaterial({color:'#7fae6b'}));
@@ -69,10 +69,26 @@ function make(o){const g=new THREE.Group();let m;const{w,h,d}=o;
   else m=new THREE.Mesh(new THREE.BoxGeometry(w,h,d),mat(o.color));
   m.castShadow=m.receiveShadow=true;g.add(m);
   g.position.set(o.x,(o.y||0)+h/2,o.z);g.rotation.y=-(o.rot||0)*Math.PI/180;g.traverse(c=>c.userData.o=o);return g}
-let W={objects:[]},stamp='';
+let W={objects:[]},stamp='',WX=null;
+// real sky: time of day and weather over the village (Barry can switch it off with realsky=false)
+const rain=new THREE.Points(new THREE.BufferGeometry(),new THREE.PointsMaterial({color:0xcfe0ee,size:.12,transparent:true,opacity:.7}));
+{const n=1800,a=new Float32Array(n*3);for(let i=0;i<n;i++){a[i*3]=(Math.random()-.5)*90;a[i*3+1]=Math.random()*35;a[i*3+2]=(Math.random()-.5)*90}rain.geometry.setAttribute('position',new THREE.BufferAttribute(a,3))}
+rain.visible=false;scene.add(rain);let fall=0;
+const mix=(a,b,k)=>new THREE.Color(a).lerp(new THREE.Color(b),Math.max(0,Math.min(1,k)));
+function applySky(){const real=WX&&W.realsky!==false&&(!Q.has('shot')||Q.has('bubbles'));
+  if(!real){scene.background=new THREE.Color(W.sky);scene.fog=new THREE.Fog(W.sky,90,260);hemi.intensity=1.5;sun.intensity=2.2;sun.color.set(0xfff1d6);rain.visible=false;return}
+  const lon=new Date().toLocaleTimeString('en-GB',{timeZone:'Europe/London',hour12:false}).split(':'),now=+lon[0]*60+ +lon[1],m=x=>+x.slice(0,2)*60+ +x.slice(3,5);
+  const up=m(WX.sunrise),down=m(WX.sunset),tw=45;let day=now<up-tw||now>down+tw?0:now<up+tw?(now-(up-tw))/(2*tw):now>down-tw?((down+tw)-now)/(2*tw):1;
+  const glow=day>0&&day<1?1-Math.abs(day-.5)*2:0,c=WX.code,wet=c>=51&&c<=67||c>=80&&c<=82||c>=95,snow=c>=71&&c<=77||c===85||c===86,grey=c===3||c===45||c===48||wet||snow;
+  let sky=mix('#0b1026',grey?'#a9b3bc':'#8ec9f0',day);if(glow)sky=sky.lerp(new THREE.Color(grey?'#b79a8f':'#f2a26b'),glow*.7);if(wet)sky.lerp(new THREE.Color('#6f7b86'),.35*day);
+  scene.background=sky;scene.fog=new THREE.Fog(sky,(c===45||c===48)?12:wet||snow?45:90,(c===45||c===48)?70:wet||snow?170:260);
+  hemi.intensity=.3+1.2*day*(grey?.8:1);sun.intensity=.12+2.1*day*(grey?.45:1);sun.color.set(day<.15?0x9fb4ff:glow?0xffc48a:0xfff1d6);
+  rain.visible=wet||snow;rain.material.size=snow?.22:.1;rain.material.color.set(snow?0xffffff:0xcfe0ee);fall=snow?4:28}
+async function loadWeather(){try{WX=await (await fetch('weather.json',{cache:'no-store'})).json()}catch(e){}applySky()}
+
 async function loadWorld(){const t=await (await fetch('world.json')).text();if(t===stamp)return;stamp=t;W=JSON.parse(t);
   built.clear();W.objects.forEach(o=>{try{built.add(make(o))}catch(e){console.warn(o.id,e)}});
-  scene.background=new THREE.Color(W.sky);scene.fog=new THREE.Fog(W.sky,90,260);ground.material.color.set(W.ground);$('#name').textContent=W.name;petSync()}
+  applySky();ground.material.color.set(W.ground);$('#name').textContent=W.name;petSync()}
 // Barry himself
 const B=new THREE.Group();const add=(geo,c,x,y,z,sx=1,sy=1,sz=1)=>{const m=new THREE.Mesh(geo,mat(c));m.position.set(x,y,z);m.scale.set(sx,sy,sz);m.castShadow=true;B.add(m);return m};
 add(new THREE.CylinderGeometry(.42,.5,1,20),'#f7f4ee',0,.95,0);            // jacket
@@ -144,14 +160,14 @@ renderer.setAnimationLoop(()=>{const dt=Math.min(clock.getDelta(),.1),t=clock.el
     if(pd>.12){pt.normalize();P.position.addScaledVector(pt,dt*1.9);P.rotation.y=Math.atan2(pt.x,pt.z);const s=Math.sin(t*14)*.6;plegs.forEach((l,i)=>l.rotation.x=i%2?s:-s)}
     else{plegs.forEach(l=>l.rotation.x*=.8);ppause-=dt;if(ppause<0&&W.pet){ppause=3+Math.random()*6;const a=Math.random()*6.28,r=Math.random()*1.6;pgoal.set(W.pet.x+Math.cos(a)*r,0,W.pet.z+Math.sin(a)*r)}}
     if(ptail)ptail.rotation.z=Math.sin(t*10)*.5;P.position.y=Math.abs(Math.sin(t*14))*(pd>.12?.05:0)}
+  if(rain.visible){const a=rain.geometry.attributes.position;for(let i=0;i<a.count;i++){let y=a.getY(i)-fall*dt;if(y<0)y=35;a.setY(i,y)}a.needsUpdate=true}
   ctl.update();renderer.render(scene,cam);
   {const q=v.set(P.position.x,1.3,P.position.z).project(cam),pb=$('#pbubble');pb.style.display=P.visible&&q.z<1?'block':'none';pb.style.left=(q.x+1)/2*innerWidth+'px';pb.style.top=(1-q.y)/2*innerHeight+'px'}
   const p=v.set(B.position.x,2.25,B.position.z).project(cam),bb=$('#bubble');bb.style.display=p.z<1&&said?'block':'none';bb.style.left=(p.x+1)/2*innerWidth+'px';bb.style.top=(1-p.y)/2*innerHeight+'px'});
-const Q=new URLSearchParams(location.search);
 if(Q.has('shot')){['#panel','#tog','#name','#tip'].forEach(s=>{const e=$(s);if(e)e.style.display='none'});if(!Q.has('bubbles')){const st=document.createElement('style');st.textContent='#bubble,#pbubble{display:none!important}';document.head.append(st)}
   const n=k=>(Q.get(k)||'').split(',').map(Number);if(Q.has('cam'))cam.position.set(...n('cam'));if(Q.has('look'))ctl.target.set(...n('look'));
   if(Q.has('orbit')){ctl.autoRotate=true;ctl.autoRotateSpeed=Number(Q.get('orbit'))||4}
   if(Q.has('follow'))setInterval(()=>{ctl.target.lerp(B.position.clone().setY(1.2),.08)},50)}
 if(/github\.io$/.test(location.hostname)){$('#say').style.display='none'}
-await loadWorld();await loadNotes();pick();window.READY=true;loadMusic();setInterval(()=>{loadWorld();loadNotes();loadMusic()},20000);
+await loadWorld();await loadNotes();pick();window.READY=true;loadMusic();loadWeather();setInterval(()=>{loadWorld();loadNotes();loadMusic();loadWeather()},20000);
 </script></body></html>
