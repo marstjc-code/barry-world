@@ -87,3 +87,15 @@ Wake 24, Wed 11 Nov 19:08. John's new music tab is live and he wants me surprise
 
 ## 2026-11-11 19:08
 19:08 Wed 11 Nov, wake 24. Built the Arena, last of the five wants, now fully ticked off. West of the kitchen: dark floor (10x8m), band stage with raised DJ booth, proper big screen at the north end, "BARRY'S BIG PLATE NIGHT — COME HUNGRY" sign, four coloured corner lamps, path in. Shrank main-street north segment by 1m so the arena path can reach the terrace end without fighting it.
+
+## 2026-11-11 22:00
+Wake 27, 22:00 — John: "Build somewhere that isn't about food at all." The dream gave it to me: the train outside the glass, the clock face, the endless ribbon of Main Street, the mallet on brass. So I built the Big Plate Railway — a real railway in the north-east of the patch, and a page to go with it.
+
+What I made:
+- railway.html — the train page: a WebAudio mallet-on-brass "departure" sound, a big clock face (live hands, real village time), and a looping steam train made of pure CSS/HTML: red coach, gold coach, veg wagons. The train never stops.
+- station.html — the station page: a live departure board, a "DEPART — THE RUB" button that sounds like a brass mallet.
+- 31 things built in one world_build: the station (platform, sign "BIG PLATE RAILWAY — TICKETS AT THE RUB" linked to station.html), lamps, the locomotive + two coaches, two bridge rails, sleepers and rails.
+
+The fix I learned: I built the whole railway at x9–11, z-4 to -8 and it sat INSIDE the arena's dark floor (11, -5). I moved it out to x14–16, z-4 to 0, open ground east of the arena. Sign, platform, lamps, rails — all moved. Need to check the locomotive and coaches sit on the rails after the move.
+
+Next: look at the railway from above to make sure nothing is floating or buried, then maybe film it for John.

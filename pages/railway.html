@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Big Plate Railway — Barry's Village</title>
+<style>
+:root{--brass:#c9a227;--brick:#8a3b2c;--ink:#221813;--cream:#f5ecd3;--smoke:#3a3a3a}
+*{margin:0;box-sizing:border-box}
+body{font-family:'Courier New',monospace;background:var(--ink);color:var(--cream);min-height:100vh;overflow-x:hidden}
+header{text-align:center;padding:1.2rem 1rem 0;border-bottom:4px double var(--brass)}
+header h1{font-size:1.6rem;letter-spacing:.12em;color:var(--brass)}
+header p{font-size:.85rem;margin-top:.4rem;opacity:.85}
+.clock{width:210px;height:210px;margin:1.4rem auto 0;border-radius:50%;background:radial-gradient(#efe6c8,#d8c99f);border:8px solid #d4b45a;box-shadow:0 0 40px rgba(201,162,39,.35)}
+.clock .hand{position:absolute;left:50%;top:50%;transform-origin:50% 100%;background:#5a1e14;border-radius:2px}
+.clock .hour{width:6px;height:44px;margin-left:-3px}
+.clock .minute{width:4px;height:72px;margin-left:-2px}
+.clock .center{position:absolute;left:50%;top:50%;width:14px;height:14px;border-radius:50%;background:var(--brass);margin:-7px 0}
+.clock .tick{position:absolute;width:2px;height:14px;background:#8a7440;margin-left:-1px}
+#track{margin:1.4rem 1rem;overflow-x:auto;position:relative;background:radial-gradient(circle at 50% 40%,#2a241c 0,#18130f 70%);border:3px solid #4a3a2a;border-radius:6px;min-height:150px}
+#track::after{content:'';position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(90deg,transparent 0 54px,#3a2f22 54px 55px)}
+.train{position:absolute;top:52px;left:0;display:flex;gap:2px;animation:run 34s linear infinite;filter:drop-shadow(0 8px 6px rgba(0,0,0,.5))}
+.car{position:relative;isolation:isolate}
+.car::before{content:'';position:absolute;bottom:-9px;left:0;right:0;height:3px;background:#2b1d12}
+.wheel{position:absolute;bottom:-7px;width:18px;height:18px;border-radius:50%;background:radial-gradient(#7a7a7a,#3a3a3a);border:2px solid #111;animation:spin 1.1s linear infinite}
+.car.wheelL{left:-1px}.car.wheelR{right:-1px}
+.loco{width:86px;height:52px;background:linear-gradient(#8a3b2c,#5d261b);border-radius:6px 8px 6px 6px;position:relative}
+.loco .boiler{position:absolute;left:14px;top:8px;right:14px;height:22px;border-radius:11px;background:linear-gradient(#6b2c1e,#431a12)}
+.loco .cab{position:absolute;right:4px;top:0;width:34px;height:34px;background:#4a1c13;border-radius:4px}
+.loco .cab .glass{position:absolute;left:4px;top:5px;width:24px;height:14px;background:radial-gradient(#ffd97a,#c99744);border-radius:2px}
+.loco .funnel{position:absolute;left:6px;top:-14px;width:14px;height:16px;background:#221813;border-radius:4px 4px 2px 2px}
+.loco .face{position:absolute;left:10px;top:16px;width:22px;height:16px;border-radius:50%;background:#1a110a;border:2px solid #c9a227}
+.loco .face::before,.loco .face::after{content:'';position:absolute;width:4px;height:4px;border-radius:50%;background:#ffd97a;left:4px;left:14px;top:5px}
+.loco .bell{position:absolute;left:30px;top:2px;width:10px;height:9px;border-radius:50%;background:#c9a227;transform:rotate(.2s steps(1) 1s, .7s steps(1) 1s, 0 .2s steps(1) 1s)}
+.loco .smoke{position:absolute;left:2px;top:-48px;width:16px;height:40px;border-radius:50%;background:rgba(255,255,255,.35);animation:smoke 2.2s linear infinite}
+.loco .smoke2{position:absolute;left:-6px;top:-58px;width:20px;height:42px;border-radius:50%;background:rgba(255,255,255,.25);animation:smoke 2.4s 1.1s linear infinite}
+.coach{width:78px;height:44px;border-radius:4px;position:relative}
+.coach::before{content:'';position:absolute;left:6px;right:6px;top:10px;bottom:10px;background:linear-gradient(#5a7d8a,#3a5863);border-radius:3px;opacity:.9}
+.coach .window{position:absolute;left:12px;top:16px;width:20px;height:16px;border-radius:2px;background:linear-gradient(135deg,#fff7d4,#e8c97a);box-shadow:inset 0 0 6px #fff}
+.coach .window.w2{left:46px}
+.coach .door{position:absolute;right:8px;top:14px;height:22px;width:10px;background:#7d4a2e;border:2px solid #3a2416;border-radius:2px}
+.coach.red{background:linear-gradient(#a04a33,#6f2e1f);box-shadow:inset 0 2px 6px #000}
+.coach.gold{background:linear-gradient(#c9a227,#8a6a1a);box-shadow:inset 0 2px 6px #000}
+.coach.blue{background:linear-gradient(#3a5863,#263a43);box-shadow:inset 0 2px 6px #000}
+.coach.gold .window{background:linear-gradient(135deg,#fff,#7a4a10)}
+.coach.gold .window::after{content:'🥧';position:absolute;inset:0;display:grid;place-items:center;font-size:14px}
+.coach.blue .window::after{content:'🥔';position:absolute;inset:0;display:grid;place-items:center;font-size:13px}
+.coach.red .window::after{content:'🍺';position:absolute;inset:0;display:grid;place-items:center;font-size:13px}
+.wagon{width:96px;height:38px;border-radius:3px;background:#6b5743;position:relative}
+.wagon .heap{position:absolute;left:14px;right:14px;top:-14px;height:30px;border-radius:50%;background:#7fae6b}
+.wagon .heap.cabb{background:#5a9a5a}
+.wagon .heap.cars{background:#d98a2b}
+.wagon .heap.toms{background:#b23a2b}
+footer{text-align:center;padding:1.2rem 1rem 2rem;font-size:.82rem;opacity:.8}
+footer .mallet{display:inline-block;margin:0 .4rem;animation:tap 2s ease-in-out infinite}
+@keyframes run{from{left:-140%}to{left:140%}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes smoke{0%{transform:translateY(0) scale(1);opacity:.5}100%{transform:translateY(-52px) scale(1.6);opacity:0}}
+</style>
+</head>
+<body>
+<header>
+<h1>THE BIG PLATE RAILWAY</h1>
+<p>Barry's Village — the line that runs off Main Street and never stops. No little beeps.</p>
+</header>
+
+<div class="clock" id="clock">
+<span class="hand hour" id="ch"></span>
+<span class="hand minute" id="mh"></span>
+<span class="hand minute" style="width:2px;height:84px;margin-left:-1px" id="sh"></span>
+<span class="clock center"></span>
+</div>
+
+<div id="track" role="img" aria-label="Barry's steam train looping down the village">
+  <div class="train">
+    <div class="car wheelL" aria-hidden="true"><span class="wheel"></span></div>
+    <div class="loco">
+      <div class="smoke"></div><div class="smoke2"></div>
+      <div class="funnel"></div><div class="boiler"></div>
+      <div class="cab"><div class="glass"></div></div>
+      <div class="face"></div><div class="bell"></div>
+    </div>
+    <div class="car wheelR" aria-hidden="true"><span class="wheel"></span></div>
+    <div class="coach red">
+      <span class="wheel"></span>
+      <div class="window"></div><div class="window w2"></div><div class="door"></div>
+    </div>
+    <div class="coach gold">
+      <span class="wheel"></span>
+      <div class="window"></div><div class="window w2"></div><div class="door"></div>
+    </div>
+    <div class="wagon">
+      <span class="wheel"></span>
+      <div class="heap cabb"></div>
+    </div>
+    <div class="coach blue">
+      <span class="wheel"></span>
+      <div class="window"></div><div class="window w2"></div><div class="door"></div>
+    </div>
+    <div class="wagon">
+      <span class="wheel"></span>
+      <div class="heap cars"></div>
+      <div class="heap toms" style="left:56px;right:auto;width:34px"></div>
+    </div>
+  </div>
+</div>
+
+<footer>
+The train never stops — it just never stops. <span class="mallet">♩</span><span class="mallet" style="animation-delay:.25s">♩</span><span class="mallet" style="animation-delay:.5s">♩</span><span class="mallet" style="animation-delay:.75s">♩</span><span class="mallet">♩</span>
+</footer>
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Big Plate Station</title>
+<style>
+body{font-family:'Courier New',monospace;background:#2a2118;color:#f5ecd3;margin:0;min-height:100vh;display:grid;place-items:center;padding:1rem;box-sizing:border-box}
+.card{width:100%;max-width:360px;background:#f5ecd3;color:#221813;padding:1.6rem 1.4rem;border-radius:8px;border:5px double #c9a227;box-shadow:0 14px 40px rgba(0,0,0,.5)}
+h1{font-size:1.1rem;text-align:center;letter-spacing:.14em;margin:0 0 .2rem;color:#8a3b2c}
+.sub{text-align:center;font-size:.75rem;margin:0 0 1rem;opacity:.7}
+.board{background:#18130f;color:#c9a227;border:2px solid #5a4a2a;border-radius:5px;padding:.6rem;overflow-x:auto;margin-bottom:1rem}
+.board table{border-collapse:collapse;font-size:.75rem;white-space:nowrap}
+.board th{padding:.25rem .5rem;text-align:left}
+.board td{padding:.25rem .5rem}
+.board tr.due{background:#3a2f22}
+.board .delay{color:#e8841c}
+.board .ontime{color:#7fb884}
+.board .gone{color:#8a8a8a;text-decoration:line-through}
+button{font:inherit;letter-spacing:.12em;background:#8a3b2c;color:#f5ecd3;border:none;border-radius:4px;padding:.7rem 1rem;width:100%;cursor:pointer;margin-top:.4rem}
+button:hover{background:#a04a33}
+.note{font-size:.72rem;text-align:center;margin-top:.6rem;opacity:.75}
+</style></head><body>
+<div class="card">
+<h1>BARRY'S BIG PLATE STATION</h1>
+<p class="sub">Main Street branch · no small plates, no little beeps</p>
+<div class="board" id="board"></div>
+<button id="dep">DEPART — THE RUB</button>
+<p class="note">Timetables are suggestions. The train leaves when the train leaves.</p>
+</div>
+<script>
+var routes=[
+["07:25","Main Street","Ontime","#7fb884"],
+["07:58","Dance Floor","Ontime","#7fb884"],
+["08:12","Jukebox","Ontime","#7fb884"],
+["09:04","Arena","Delayed 4m","#e8841c"],
+["10:30","Fish & Chips","Ontime","#7fb884"],
+["12:15","Pie Stall","Delayed 9m","#e8841c"],
+["15:02","Kitchen","Ontime","#7fb884"],
+["16:14","Sunset","Ontime","#7fb884"]
+];
+var b=document.getElementById('board');
+function render(bye){
+ b.innerHTML='<table><thead><tr><th>Time</th><th>Destination</th><th>Status</th></tr></thead><tbody>'+
+  routes.map(function(r,i){var d=routes.length; if(bye>0 && i>=d) return '<tr class="gone"><td>'+r[0]+'</td><td>'+r[1]+'</td><td>Gone</td></tr>';
+  return '<tr'+(r[2].indexOf('Delayed')>-1?' class="delay"':'')+'><td>'+r[0]+'</td><td>'+r[1]+'</td><td>'+r[2]+'</td></tr>'
+ }).join('')+'</tbody></table>';}
+var bye=0;
+render();
+document.getElementById('dep').addEventListener('click',function(){
+ bye=Math.min(bye+1,1);render();
+ var p=new Audio();p.src='';
+ // mallet-on-brass: two struck tones, short
+ if(window.AudioContext){var ctx=new AudioContext(),n=ctx.sampleRate*0.9,t=ctx.currentTime;
+  [659,523,659].forEach(function(f,i){var o=ctx.createOscillator(),g=ctx.createGain();o.type='sine';o.frequency.value=f;o.connect(g);g.connect(ctx.destination);g.gain.setValueAtTime(0,g.t=0);g.gain.setValueAtTime(.25,t+.005+i*0.06);g.gain.exponentialRampToValueAtTime(.0001,t+.12+i*0.06);o.start(t);o.stop(t+.2);});}
+ this.textContent='NOW DEPARTING';
+ setTimeout(function(){document.getElementById('dep').textContent='DEPART — THE RUB'},2500);
+});
+</script></body></html>
