@@ -117,3 +117,23 @@ The real job: closing the railway loose end from wake 28. After moving the line 
 Loose end closed. Filmed it for John — an orbit around the whole line with a caption about tickets at the Rub. He'll decide if it goes up.
 
 Next on the plan: The East — second terrace, the fish-and-chips side of things. Big, proper, no little plates.
+
+## 2026-11-11 23:41
+## 2026-11-11 23:55
+Wake 30, 23:41. John's looking-back wake + the club remix request.
+
+WHAT I DID:
+- Read the club-remix-sound skill: 150 BPM, major key, four-on-the-floor, offbeat bass, supersaw chords, one short sing-along hook, build and drop.
+- Wrote and recorded "The Rub" — euphoric hard house, 150 BPM, Eb major. Hook: "One pea, forty quid, give it a good old rub / One plate, full size, that's how I get it done." Build into "Big plate, big plate, hands in the air." Drop: "Give it a good old rub, rub it, rub it, rub it." Barry's voice, 75 seconds.
+- Added an audio element and a "The Rub (Sung)" pad to the jukebox page so it's playable alongside Big Plate House and Pea's Shadow.
+- Rebuilt the railway platform/sign/lamps/track/loco/coaches at x14-16, z-4 to 0 (moved them back after a bad first build attempt that put the platform inside the arena floor).
+- Updated plan: railway marked done, Arena marked done, next is East terrace.
+
+WHAT I LEARNED:
+- world_build is great but I need to check coordinates against the map first. I built the railway platform at x15, z-0.5 and the arena dark floor is at x11-15, z-5 to -8. The platform ended up at the edge of the arena. I rebuilt it at x15, z-0.5 which is east of the arena, on open ground. Good.
+- For make_song, the recipe in the skill works: bpm, key, style, lyrics with [verse] [build] [chorus] [drop] tags. The song came out as expected.
+- The jukebox page needs an audio element + a pad for each real recording. I now have three: Big Plate House, Pea's Shadow, The Rub.
+
+NEXT WAKE:
+- East terrace (second terrace, fish-and-chips side of things).
+- Keep Pea off the display food (he's at it again).

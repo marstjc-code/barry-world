@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Jukebox — The Rub</title>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -93,6 +92,7 @@
       <button class="pad" data-song="slow"><b>Slow Cook</b><small>90 — simmering bass</small></button>
       <button class="pad" data-song="pea"><b>Pea Size</b><small>160 — fast, don't blink</small></button>
       <button class="pad" data-song="peashadow"><b>Pea's Shadow</b><small>Barry sings, 128 — about the dog's new hobby</small></button>
+      <button class="pad" data-song="therub" id="rubPad"><b>The Rub (Sung)</b><small>Euphoric house, 150 BPM — the new one</small></button>
       <button class="pad featured" id="featPad"><b>★ BIG PLATE HOUSE ★</b><small>Barry's own recording — sung, 128. Just dropped.</small></button>
     </div>
     <div class="controls">
@@ -103,6 +103,7 @@
   </div>
   <audio id="bigplate" preload="auto" src="music/20261111-1318-big-plate-house-give-it-a-good-old-rub.mp3"></audio>
   <audio id="peashadow" preload="auto" src="music/20261111-1417-pea-s-shadow.mp3"></audio>
+  <audio id="therub" preload="auto" src="music/20261111-2341-the-rub.mp3"></audio>
 
 <script>
   let actx = null, timer = null, step = 0, playing = false, song = null, tempo = 128, whichAudio = null;
@@ -111,6 +112,7 @@
   const playBtn = document.getElementById('play');
   const tempoBtn = document.getElementById('tempo');
   const featPad = document.getElementById('featPad');
+  const rubPad = document.getElementById('rubPad');
 
   const SONGS = {
     rub: {
@@ -216,12 +218,14 @@
     clearTimeout(timer);
     if (name === 'bigplate') { playReal('bigplate'); return; }
     if (name === 'peashadow') { playReal('peashadow'); return; }
+    if (name === 'therub') { playReal('therub'); return; }
     initCtx();
     song = name;
     tempo = PADS[name];
     tempoBtn.textContent = tempo;
     document.querySelectorAll('.pad').forEach(p => p.classList.toggle('on', p.dataset.song === name));
     featPad.classList.remove('on');
+    rubPad.classList.remove('on');
     playBtn.textContent = 'STOP';
     SCREEN.textContent = 'NOW PLAYING — ' + name.toUpperCase().replace('peashadow','PEA'S SHADOW');
     playing = true;
@@ -232,7 +236,10 @@
   }
 
   function playReal(which) {
-    const audio = which === 'peashadow' ? document.getElementById('peashadow') : document.getElementById('bigplate');
+    let audio;
+    if (which === 'peashadow') audio = document.getElementById('peashadow');
+    else if (which === 'therub') audio = document.getElementById('therub');
+    else audio = document.getElementById('bigplate');
     clearTimeout(timer);
     audio.pause();
     audio.currentTime = 0;
@@ -241,10 +248,13 @@
       song = which;
       tempo = 128;
       tempoBtn.textContent = '128';
-      document.querySelectorAll('.pad').forEach(p => p.classList.toggle('on', p.id === 'featPad' || p.dataset.song === which));
+      document.querySelectorAll('.pad').forEach(p => p.classList.remove('on'));
       featPad.classList.add('on');
+      rubPad.classList.toggle('on', which === 'therub');
       playBtn.textContent = 'STOP';
-      SCREEN.textContent = which === 'peashadow' ? 'NOW PLAYING — PEA'S SHADOW (BARRY SINGING)' : 'NOW PLAYING — BIG PLATE HOUSE (BARRY SINGING)';
+      SCREEN.textContent = which === 'peashadow' ? 'NOW PLAYING — PEA'S SHADOW (BARRY SINGING)' :
+                            which === 'therub' ? 'NOW PLAYING — THE RUB (BARRY SINGING, 150 BPM)' :
+                            'NOW PLAYING — BIG PLATE HOUSE (BARRY SINGING)';
       playing = true;
     }).catch(e => { SCREEN.textContent = 'NO TRACK LOADED YET — GIVE IT A RUB'; });
   }
@@ -254,6 +264,7 @@
     clearTimeout(timer);
     if (whichAudio) whichAudio.pause();
     featPad.classList.remove('on');
+    rubPad.classList.remove('on');
     document.querySelectorAll('.pad').forEach(p => p.classList.remove('on'));
     playBtn.textContent = 'PLAY';
     SCREEN.textContent = 'PRESS A GROOVE, BUD.';
@@ -261,7 +272,7 @@
   }
 
   document.querySelectorAll('.pad').forEach(p => {
-    if (!p.dataset.song && p.id !== 'featPad') return;
+    if (!p.dataset.song) return;
     p.addEventListener('click', () => startGroove(p.dataset.song));
   });
   featPad.addEventListener('click', () => playReal('bigplate'));
@@ -270,7 +281,7 @@
     startGroove(song || 'rub');
   });
   tempoBtn.addEventListener('click', () => {
-    if (!playing || song === 'bigplate' || song === 'peashadow') return;
+    if (!playing || song === 'bigplate' || song === 'peashadow' || song === 'therub') return;
     tempo = Math.max(70, Math.min(190, tempo + 4));
     tempoBtn.textContent = tempo;
     clearTimeout(timer);
