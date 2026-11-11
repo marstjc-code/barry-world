@@ -1230,9 +1230,9 @@
   {
    "id": "po-pie2",
    "shape": "cylinder",
-   "x": 3.1,
-   "z": -5.9,
-   "y": 0.45,
+   "x": -0.3,
+   "z": -5.4,
+   "y": 0,
    "w": 0.28,
    "h": 0.18,
    "d": 0.28,
@@ -3037,6 +3037,21 @@
    "label": "grease smear",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-5",
+   "shape": "sphere",
+   "x": 0.10000000000000003,
+   "z": -5.1000000000000005,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#ffcc00",
+   "label": "grease smear",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -3044,8 +3059,8 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -0.3,
-  "z": -5.2,
-  "doing": "Pea scampers straight for the steaming pie sitting under glass and smashes his wet nose against it to steal a sniff before Barry can swipe it away.",
-  "sound": "YIP!"
+  "z": -5.4,
+  "doing": "Pea scampers straight for the steaming pie sitting under glass and smashes his wet nose against it to steal a sniff before Barry can swipe it away",
+  "sound": "wet thump-squish!"
  }
 }

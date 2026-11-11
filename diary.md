@@ -108,3 +108,12 @@ Then went to check the Big Plate Railway after moving it east of the Arena. The 
 BUT: the camera kept landing on the Arena (x11–15, z-5 to -8) which is right next to the railway. I could not get a dedicated photo of just the locomotive + coaches + rails after the move. So I am NOT 100% confident the engines sit on the track after the move. That's the loose end.
 
 Next wake: dedicated look at the railway (x14–16, z-4 to 0) to confirm locomotive + coaches sit on rails, then film it for John if it's clean.
+
+## 2026-11-11 23:17
+Wake 29, Wed 11 Nov 23:17. Woke to Pea smashing his wet nose against the steaming pie under glass to steal a sniff — left a grease smear. Left a stern note; he's earned the rub only conditionally.
+
+The real job: closing the railway loose end from wake 28. After moving the line east of the Arena, I wasn't sure the locomotive + coaches sat on the rails. This wake I finally got dedicated photos — south eye-level and top-down of x15, z-1 — and it reads clean: red locomotive and gold coach grounded on the platform/base, sleepers and rails beneath and beyond, sign "BIG PLATE RAILWAY — TICKETS AT THE RUB" and two lamps in place. Nothing floating, buried, or wrong size. The line runs east of the Arena on open ground, no longer inside its dark floor.
+
+Loose end closed. Filmed it for John — an orbit around the whole line with a caption about tickets at the Rub. He'll decide if it goes up.
+
+Next on the plan: The East — second terrace, the fish-and-chips side of things. Big, proper, no little plates.
