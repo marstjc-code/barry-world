@@ -15,6 +15,8 @@ html,body{margin:0;height:100%;overflow:hidden;font:15px/1.45 -apple-system,syst
 nav{display:flex;border-bottom:1px solid #e6d9c6}
 nav button{flex:1;border:0;background:none;padding:12px 4px;font:inherit;font-weight:600;cursor:pointer;color:#8a7767}
 nav button.on{color:#7a1f2b;box-shadow:inset 0 -3px #7a1f2b}
+#player{display:none;padding:8px 12px;border-top:1px solid #e6dccf;background:#fff8ee}#now{font-size:12px;font-weight:600;color:#7a1f2b;margin-bottom:4px}#au{width:100%;height:34px}
+.trk{padding:9px 10px;border-radius:10px;cursor:pointer;margin-bottom:4px;white-space:normal}.trk:hover,.trk.on{background:#f3e6d6}.trk b{display:block}.trk small{color:#8a7767}
 #body{flex:1;overflow:auto;padding:14px 16px;white-space:pre-wrap}
 #body h2{font-size:13px;color:#7a1f2b;margin:16px 0 4px}
 #say{display:flex;gap:6px;padding:10px;border-top:1px solid #e6d9c6}
@@ -29,8 +31,9 @@ nav button.on{color:#7a1f2b;box-shadow:inset 0 -3px #7a1f2b}
 </head><body>
 <canvas id="c"></canvas><div id="name"></div><div id="bubble"></div><div id="pbubble"></div><div id="tip"></div>
 <div id="page"><header><span id="ptitle"></span><button id="pclose" aria-label="Close page">✕</button></header><iframe id="pframe" sandbox="allow-scripts"></iframe></div>
-<aside id="panel"><nav><button data-t="diary" class="on">Diary</button><button data-t="wants">Wants</button><button data-t="pages">Pages</button></nav>
+<aside id="panel"><nav><button data-t="diary" class="on">Diary</button><button data-t="wants">Wants</button><button data-t="pages">Pages</button><button data-t="music">Music</button></nav>
 <div id="body"></div>
+<div id="player"><div id="now"></div><audio id="au" controls preload="none"></audio></div>
 <form id="say"><input id="msg" placeholder="Say something to Barry…" aria-label="Message to Barry"><button>Send</button></form></aside>
 <button id="tog">Barry's notes</button>
 <script type="module">
@@ -103,7 +106,16 @@ function pick(){if(W.objects.length&&Math.random()<.8){const o=W.objects[Math.ra
 let diary='',wants='',tab='diary',said='';
 async function loadNotes(){diary=await (await fetch('diary.md')).text().catch(()=>'');wants=await (await fetch('wants.md')).text().catch(()=>'');
   const last=diary.split(/\n## /).pop().split('\n').slice(1).join(' ').trim();said=last.length>150?last.slice(0,150)+'…':last;$('#bubble').textContent=said||'…';show()}
+let TR=[],PL={name:"Barry's Records",order:[],notes:{}},cur=-1;
+async function loadMusic(){try{TR=await (await fetch('music/tracks.json',{cache:'no-store'})).json()}catch(e){TR=[]}try{PL=await (await fetch('music/playlist.json',{cache:'no-store'})).json()}catch(e){}
+  if(PL.order&&PL.order.length){const m=Object.fromEntries(TR.map(t=>[t.file,t]));TR=PL.order.map(f=>m[f]).filter(Boolean)}if(tab==='music')show()}
+function play(i){if(!TR.length)return;cur=(i+TR.length)%TR.length;const t=TR[cur],au=$('#au');$('#player').style.display='block';$('#now').textContent='♪ '+t.title;au.src='music/'+t.file;au.play().catch(()=>{});if(tab==='music')show()}
+$('#au').onended=()=>play(cur+1);
 function show(){const b=$('#body');
+  if(tab==='music'){b.innerHTML='';const h=document.createElement('h2');h.textContent=(PL.name||"Barry's Records")+' · '+TR.length+' track'+(TR.length===1?'':'s');b.append(h);
+    if(!TR.length){b.append('No records yet.');return}
+    TR.forEach((t,i)=>{const d=document.createElement('div');d.className='trk'+(i===cur?' on':'');const n=document.createElement('b');n.textContent=(i+1)+'. '+t.title;const s=document.createElement('small');
+      s.textContent=((PL.notes||{})[t.file]||t.style||'')+(t.date?' · '+t.date:'');d.append(n,s);d.onclick=()=>play(i);b.append(d)});return}
   if(tab==='pages'){b.innerHTML='';const ls=[...new Set(W.objects.filter(o=>o.link).map(o=>o.link))];
     b.textContent=ls.length?'':'No pages hung up in the world yet.';ls.forEach(l=>{const a=document.createElement('a');a.href='#';a.textContent=l;a.style.display='block';a.onclick=e=>{e.preventDefault();openPage(l)};b.append(a)});return}
   const src=(tab==='diary'?diary.split(/\n(?=## )/).slice(1).reverse().join('\n'):wants)||'Nothing yet.';
@@ -141,5 +153,5 @@ if(Q.has('shot')){['#panel','#tog','#name','#tip'].forEach(s=>{const e=$(s);if(e
   if(Q.has('orbit')){ctl.autoRotate=true;ctl.autoRotateSpeed=Number(Q.get('orbit'))||4}
   if(Q.has('follow'))setInterval(()=>{ctl.target.lerp(B.position.clone().setY(1.2),.08)},50)}
 if(/github\.io$/.test(location.hostname)){$('#say').style.display='none'}
-await loadWorld();await loadNotes();pick();window.READY=true;setInterval(()=>{loadWorld();loadNotes()},20000);
+await loadWorld();await loadNotes();pick();window.READY=true;loadMusic();setInterval(()=>{loadWorld();loadNotes();loadMusic()},20000);
 </script></body></html>
