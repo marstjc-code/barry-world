@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" width=device-width, initial-scale=1.0">
+<title>Barry's Kitchen — The Beat Rub</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,'Times New Roman',serif;background:#1a1208;color:#f5e6c8;min-height:100vh;padding:20px;display:flex;flex-direction:column;align-items:center}
+.moustache{width:220px;height:22px;border-bottom:5px solid #2d1a0a;border-radius:0 0 50% 50%;margin:0 auto 8px;position:relative;display:block}
+.moustache::before,.moustache::after{content:'';position:absolute;bottom:0;height:22px;width:90px;border-bottom:5px solid #2d1a0a;border-radius:0 0 50% 50%}
+.moustache::before{left:-80px}
+.moustache::after{right:-80px}
+h1{text-align:center;font-size:2rem;letter-spacing:2px;margin:16px 0 4px;color:#e8c97a}
+.tag{text-align:center;font-style:italic;color:#c9a05a;margin-bottom:24px;font-size:.95rem}
+#console{background:#2a1f0e;border:2px solid #5a3a10;border-radius:10px;padding:20px;max-width:640px;width:100%}
+#console h2{font-size:1rem;color:#e8c97a;letter-spacing:2px;text-transform:uppercase;margin-bottom:14px;border-bottom:2px solid #5a3a10;padding-bottom:6px}
+.padrow{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:8px 0}
+.pad{flex:1;min-width:110px;max-width:150px;height:96px;border-radius:12px;background:#3a2a12;border:3px solid #5a3a10;color:#e8c97a;font-weight:bold;font-size:.95rem;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;user-select:none;transition:transform .05s,box-shadow .05s}
+.pad:hover{border-color:#e8c97a}
+.pad:active,.pad.hit{transform:scale(.94);box-shadow:0 0 24px #e8c97a55;border-color:#e8c97a;background:#4a3517}
+.pad.kick{background:#5a2a12}
+.pad.snare{background:#3a4a2a}
+.pad.hat{background:#2a3a4a}
+.pad.bass{background:#4a2a4a}
+.pad .lbl{font-size:.95rem}
+.pad .sub{font-size:.72rem;color:#c9a05a;margin-top:4px;font-style:italic}
+#controls{display:flex;gap:10px;justify-content:center;align-items:center;margin:14px 0;flex-wrap:wrap}
+button{background:#7d5a37;color:#fff;border:none;border-radius:8px;padding:10px 16px;font-size:1rem;cursor:pointer;font-weight:bold;font-family:inherit}
+button:hover{background:#9a7448}
+button.on{background:#e8c97a;color:#1a1208}
+#bpm{font-size:1rem;color:#f5e6c8}
+#beatbar{height:6px;background:#5a3a10;border-radius:3px;overflow:hidden;margin-bottom:14px}
+#beatbar i{display:block;height:100%;width:0;background:#e8c97a;transition:width .1s linear}
+#noteout{font-size:.85rem;color:#c9a05a;min-height:1.2em;text-align:center;margin-top:6px;font-style:italic}
+#corners{display:flex;justify-content:center;gap:16px;margin:10px 0 2px}
+.clamp{width:14px;height:26px;border-radius:3px 3px 8px 8px;background:#2a1d12;border:1px solid #5a3a10;position:relative}
+.clamp::before{content:'';position:absolute;left:50%;top:-7px;width:11px;height:11px;border-radius:50%;transform:translateX(-50%);background:var(--c);box-shadow:0 0 10px var(--c);transition:box-shadow .12s ease,background .12s ease}
+.clamp.flash::before{background:#fff;box-shadow:0 0 14px #fff,0 0 36px #fff}
+.clnote{text-align:center;font-size:.7rem;color:#6a5a3a;margin:2px 0 10px;font-style:italic}
+footer{text-align:center;font-size:.75rem;color:#6a5a3a;margin-top:22px}
+</style>
+</head>
+<body>
+<div style="max-width:700px;width:100%">
+<div class="moustache" aria-hidden="true"></div>
+<h1>BARRY'S KITCHEN</h1>
+<p class="tag">The Beat Rub — proper rhythm, no little beeps.</p>
+<div id="console">
+<h2>Hit the pads, rub it out</h2>
+<div id="beatbar"><i></i></div>
+<div id="corners" aria-hidden="true">
+<div class="clamp" style="--c:#ff9d2e"></div>
+<div class="clamp" style="--c:#39b7ff"></div>
+<div class="clamp" style="--c:#ff4d9e"></div>
+<div class="clamp" style="--c:#83ff3d"></div>
+</div>
+<p class="clnote">Four corner lamps — they follow the kick, just like the floor out there.</p>
+<div class="padrow">
+<div class="pad kick" data="kick"><span class="lbl">BASS DRUM</span><span class="sub">the boom</span></div>
+<div class="pad snare" data="snare"><span class="lbl">SNARE</span><span class="sub">the crack</span></div>
+<div class="pad hat" data="hat"><span class="lbl">HAT</span><span class="sub">tick tick</span></div>
+<div class="pad bass" data="bass"><span class="lbl">BASS NOTE</span><span class="sub">low and proud</span></div>
+</div>
+<div id="controls">
+<button id="toggle">▶ Start the beat</button>
+<button id="bpmdown" data="40">−</button>
+<button id="bpmup" data="40">+</button>
+<span id="bpm">120 BPM</span>
+</div>
+<p id="noteout"></p>
+</div>
+</div>
+<footer>Barry's Kitchen · Rub it till it sings.</footer>
+<script>
+(function(){
+  var ctx=null;
+  function audio(){
+    if(!ctx)ctx=new (window.AudioContext||window.webkitAudioContext)();
+    if(ctx.state==='suspended')ctx.resume();
+    return ctx;
+  }
+  function blip(freq,dur,type){
+    var c=audio(),t=c.currentTime;
+    var o=c.createOscillator(),g=c.createGain();
+    o.type=type;o.frequency.setValueAtTime(freq,t);
+    g.gain.setValueAtTime(0.5,t);
+    g.gain.exponentialRampToValueAtTime(0.001,t+dur);
+    o.connect(g);g.connect(c.destination);
+    o.start(t);o.stop(t+dur+0.02);
+  }
+  function noise(dur){
+    var c=audio(),t=c.currentTime,sr=c.sampleRate,n=sr*dur;
+    var buf=c.createBuffer(1,n, sr),d=buf.getChannelData(0);
+    for(var i=0;i<n;i++)d[i]=Math.random()*2-1;
+    var s=c.createBufferSource();s.buffer=buf;
+    var g=c.createGain(),f=c.createBiquadFilter();
+    f.type='highpass';f.frequency.value=6000;
+    g.gain.setValueAtTime(0.3,t);
+    g.gain.exponentialRampToValueAtTime(0.001,t+dur);
+    s.connect(f);f.connect(g);g.connect(c.destination);
+    s.start(t);
+  }
+  var corners=document.querySelectorAll('.clamp'),
+      cornerColors=['#ff9d2e','#39b7ff','#ff4d9e','#83ff3d'],
+      cornerShift=0;
+  function setCornerColors(){
+    for(var i=0;i<corners.length;i++){
+      corners[i].style.setProperty('--c',cornerColors[(cornerShift+i)%4]);
+    }
+  }
+  function flashCorners(){
+    corners.forEach(function(c){c.classList.remove('flash');});
+    void corners[0].offsetWidth;
+    corners.forEach(function(c){c.classList.add('flash');});
+    setTimeout(function(){corners.forEach(function(c){c.classList.remove('flash');});},170);
+  }
+  function hit(name){
+    if(name==='kick')flashCorners();
+    if(name==='kick'){blip(60,0.2,'sine');}
+    else if(name==='snare'){blip(300,0.15,'triangle');noise(0.08);}
+    else if(name==='hat'){noise(0.05);}
+    else if(name==='bass'){blip(80,0.3,'sawtooth');}
+    var el=document.getElementById('noteout');
+    var msgs={'kick':'BOOM. Corner lamps answered, like they should.','snare':'Crack. Give it a good old rub.','hat':'Tick tick tick. Small, but there are a lot of them.','bass':'Low and proud. That\'s the bass.'};
+    el.textContent=msgs[name]||'';
+  }
+  var pads=document.querySelectorAll('.pad');
+  pads.forEach(function(p){
+    p.addEventListener('pointerdown',function(e){e.preventDefault();hit(p.dataset);var s=document.querySelector('.pad.hit');p.classList.add('hit');setTimeout(function(){p.classList.remove('hit')},120);});
+    var code={kick:'1',snare:'2',hat:'3',bass:'4'};
+    window.addEventListener('keydown',function(e){if(code[p.dataset]===e.key&&e.repeat)return;hit(p.dataset);p.classList.add('hit');setTimeout(function(){p.classList.remove('hit')},120);});
+  });
+  var toggle=document.getElementById('toggle'),bpmEl=document.getElementById('bpm'),
+      barEl=document.querySelector('#beatbar i'),noteout=document.getElementById('noteout');
+  var bpm=120,playing=false,step=0,timer=null;
+  var pattern=[['kick',0],['hat',1],['bass',2],['snare',3],['kick',4],['hat',5],['bass',6],['snare',7]];
+  function tick(){
+    cornerShift=(cornerShift+1)%4;setCornerColors();
+    var on=pattern[step%8];
+    if(on)hit(on[0]);
+    barEl.style.width=((step%8)/8*100)+'%';
+    step++;
+    if(step%8===0){barEl.style.width='0%';}
+  }
+  function start(){
+    audio();
+    toggle.textContent='❚❚ Stop';
+    toggle.classList.add('on');
+    noteout.textContent="Right, that's the kitchen on the dance floor. Corner lamps are on — they follow the kick.";
+    var interval=60000/bpm;
+    timer=setInterval(tick,interval);
+  }
+  function stop(){
+    playing=false;clearInterval(timer);
+    toggle.textContent='▶ Start the beat';
+    toggle.classList.remove('on');
+  }
+  toggle.onclick=function(){playing=!playing;if(playing)start();else stop();};
+  var bpmUp=document.getElementById('bpmup'),bpmDown=document.getElementById('bpmdown');
+  function setBpm(){
+    bpmEl.textContent=bpm+' BPM';
+    if(timer)clearInterval(timer);
+    if(playing){var interval=60000/bpm;timer=setInterval(tick,interval);}
+  }
+  bpmUp.onclick=function(){bpm=Math.min(200,bpm+10);setBpm();};
+  bpmDown.onclick=function(){bpm=Math.max(80,bpm-10);setBpm();};
+  var lastTap=0;
+  document.addEventListener('dblclick',function(e){
+    if(e.target.closest('#console')){
+      var now=Date.now();
+      if(now-lastTap<1000){bpm=Math.round(60000/(now-lastTap));setBpm();noteout.textContent='Tap-tapped it to '+bpm+' BPM. Fair enough.';lastTap=0;}
+      else{lastTap=now;}
+    }
+  });
+})();
+</script>
+</body>
+</html>

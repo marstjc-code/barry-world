@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barry's Kitchen — The Menu</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #1a1208;
+    color: #f5e6c8;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  .moustache {
+    width: 220px; height: 22px;
+    border-bottom: 5px solid #2d1a0a;
+    border-radius: 0 0 50% 50%;
+    margin: 0 auto 8px;
+    position: relative;
+    display: block;
+    box-shadow: 0 0 0 3px #2d1a0a;
+  }
+  .moustache::before,
+  .moustache::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 22px;
+    width: 90px;
+    border-bottom: 5px solid #2d1a0a;
+    border-radius: 0 0 50% 50%;
+  }
+  .moustache::before { left: -80px; }
+  .moustache::after { right: -80px; }
+  h1 {
+    text-align: center;
+    font-size: 2.2rem;
+    letter-spacing: 3px;
+    margin: 20px 0 5px;
+    color: #e8c97a;
+    text-shadow: 0 2px 0 #5a3a10;
+  }
+  .tag {
+    text-align: center;
+    font-size: 0.95rem;
+    font-style: italic;
+    color: #c9a05a;
+    margin-bottom: 30px;
+  }
+  .section {
+    background: #2a1f0e;
+    border: 2px solid #5a3a10;
+    border-radius: 6px;
+    padding: 18px 22px;
+    margin-bottom: 18px;
+  }
+  .section h2 {
+    font-size: 1.1rem;
+    color: #e8c97a;
+    border-bottom: 2px solid #5a3a10;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+    letter-spacing: 2px;
+  }
+  .dish {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    padding: 8px 0;
+    border-bottom: 1px dashed #3a2a12;
+  }
+  .dish:last-child { border-bottom: none; }
+  .dish-name {
+    font-size: 1rem;
+    font-weight: bold;
+    flex: 1;
+  }
+  .dish-desc {
+    font-size: 0.8rem;
+    font-style: italic;
+    color: #b8955a;
+    margin-top: 3px;
+  }
+  .dish-price {
+    font-size: 1.15rem;
+    font-weight: bold;
+    color: #e8c97a;
+    white-space: nowrap;
+    min-width: 56px;
+    text-align: right;
+  }
+  .complaint {
+    background: #2d0f0f;
+    border: 2px solid #8a2a1a;
+    border-radius: 6px;
+    padding: 14px 18px;
+    margin-bottom: 18px;
+  }
+  .complaint h3 {
+    color: #e88a7a;
+    font-size: 0.85rem;
+    letter-spacing: 3px;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+  }
+  .complaint p {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    color: #e8c97a;
+  }
+  .complaint strong { color: #f5a06a; }
+  .rub {
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+    color: #c9a05a;
+    margin: 25px 0 15px;
+    padding: 10px;
+    border-top: 2px solid #5a3a10;
+  }
+  .rub span { font-size: 1.4rem; }
+  footer {
+    text-align: center;
+    font-size: 0.75rem;
+    color: #6a5a3a;
+    margin-top: 25px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="moustache" aria-hidden="true"></div>
+  <h1>BARRY'S KITCHEN</h1>
+  <p class="tag">Proper plates. No nonsense. No one-pea forty-quid nonsense.</p>
+
+  <div class="complaint">
+    <h3>⚠️ Barry's Complaint of the Day</h3>
+    <p><strong>"One pea. Forty quid."</strong> I was at a restaurant in Covent Garden and they put <strong>one</strong> pea on my plate and called it "deconstructed heritage legume, single origin, foraged at dawn." I looked at that pea. That pea looked at me. I said <em>"give it a good old rub, you little liar."</em> Next time I'm bringing my own peas.</p>
+  </div>
+
+  <div class="section">
+    <h2>Starters</h2>
+    <div class="dish">
+      <div>
+        <span class="dish-name">Scotch Eggs, the Real Ones</span>
+        <div class="dish-desc">Two of them. Proper sausage, proper egg, proper breading. Frittered, not "crispy-fried." That's two words I hate, but here I go.</div>
+      </div>
+      <span class="dish-price">£9</span>
+    </div>
+    <div class="dish">
+      <div>
+        <span class="dish-name">Pea Soup — Actually Full of Peas</span>
+        <div class="dish-desc">Not "a pea-inspired liquid." A pot of peas. A ladle of it. A spoon of cream. I counted. Forty-three peas per bowl minimum. You can taste the peas. They're the point.</div>
+      </div>
+      <span class="dish-price">£8</span>
+    </div>
+    <div class="dish">
+      <div>
+        <span class="dish-name">Scotch Eggs, but I Said I'd Give 'em a Good Old Rub</span>
+        <div class="dish-desc">Same as above but I got angry at the breading and rubbed it harder. They're better now. Probably.</div>
+      </div>
+      <span class="dish-price">£9</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Mains</h2>
+    <div class="dish">
+      <div>
+        <span class="dish-name">Steak &amp; Kidney Pie</span>
+        <div class="dish-desc">Two pies. Not one. A proper steak &amp; kidney, not a "steak and kidney-inspired confection." With mash. A mountain of mash. Gravy on the side, and it's not a "gravy reduction." It's gravy. It's got beef in it.</div>
+      </div>
+      <span class="dish-price">£18</span>
+    </div>
+    <div class="dish">
+      <div>
+        <span class="dish-name">Sunday Roast</span>
+        <div class="dish-desc">Beef, potatoes (enough for two people and a child), carrots, parsnips, Yorkshire pudding. The pudding is a Yorkshire pudding. It's got a hole in the middle. It's not "a puffed flour cylinder." It's a pudding. You eat it with gravy.</div>
+      </div>
+      <span class="dish-price">£24</span>
+    </div>
+    <div class="dish">
+      <div>
+        <span class="dish-name">Baked Beans on Toast</span>
+        <div class="dish-desc">Yes. Really. Two slices of toast, a whole tin of baked beans, and a small splash of ketchup. I was going to put this in the "mains" section and I'm not sorry. Some nights you want beans. And you want them in a big bowl, not on a plate the size of a postcard.</div>
+      </div>
+      <span class="dish-price">£7</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Sides</h2>
+    <div class="dish">
+      <div>
+        <span class="dish-name">Mashed Potatoes</span>
+        <div class="dish-desc">A proper ladle. Not a "mash quenelle." If you want a quenelle, go to Covent Garden.</div>
+      </div>
+      <span class="dish-price">£4</span>
+    </div>
+    <div class="dish">
+      <div>
+        <span class="dish-name">Gravy</span>
+        <div class="dish-desc">In a bowl. In a bowl. In a bowl. I won't stop saying that. You put it on your plate yourself. I'm not spooning it for you. That's not what we're here for.</div>
+      </div>
+      <span class="dish-price">£3</span>
+    </div>
+  </div>
+
+  <div class="section">
+    <h2>Desserts</h2>
+    <div class="dish">
+      <div>
+        <span class="dish-name">Trifle</span>
+        <div class="dish-desc">A whole trifle. Not "a trifle-inspired layered confection." A trifle. With the brandy at the bottom and the cream at the top and the sponge in the middle and the custard and the fruit. You eat it with a spoon, not a tiny teaspoon that only fits one bite.</div>
+      </div>
+      <span class="dish-price">£9</span>
+    </div>
+    <div class="dish">
+      <div>
+        <span class="dish-name">Baked Apple with Custard</span>
+        <div class="dish-desc">Whole apple. Baked. With custard. And a spoon. A real spoon, not a "dipping tool."</div>
+      </div>
+      <span class="dish-price">£7</span>
+    </div>
+    <div class="dish">
+      <div>
+        <span class="dish-name">Tea &amp; Shortbread</span>
+        <div class="dish-desc">Because after all that food, you need tea. And the shortbread is a whole cookie, not a "shortbread crumble." I made it myself. I counted. Six. Not three. Six.</div>
+      </div>
+      <span class="dish-price">£5</span>
+    </div>
+  </div>
+
+  <p class="rub">"Give it a good old rub." — Barry, every night, about something on the menu</p>
+
+  <footer>Barry's Kitchen · Patch 0,0 · No reservations, just come in and get fed.</footer>
+</div>
+</body>
+</html>

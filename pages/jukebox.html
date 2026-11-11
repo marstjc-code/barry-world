@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Jukebox — The Rub</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Comic Sans MS', 'Chalkdote', 'Segoe Print', cursive;
+    background: radial-gradient(circle at 50% 10%, #3b3430 0%, #231f1c 70%) #1d1a17;
+    color: #f3efe6;
+    min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    padding: 24px;
+  }
+  .box {
+    width: min(520px, 100%);
+    background: #3a2c1d;
+    border: 6px solid #8a6f4a;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 20px 40px rgba(0,0,0,.5);
+    text-align: center;
+  }
+  .box h1 { font-size: 2rem; letter-spacing: 4px; color: #ffd9a8; }
+  .sub { color: #c9bfa8; font-size: .95rem; margin: 8px 0 22px; }
+  .screen {
+    background: #0e2a1d;
+    color: #7dff9e;
+    font-family: 'Courier New', monospace;
+    padding: 16px;
+    border-radius: 10px;
+    font-size: 1.05rem;
+    letter-spacing: 1px;
+    min-height: 72px;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: inset 0 0 24px rgba(125,255,158,.15);
+    margin-bottom: 22px;
+    border: 3px solid #123a2a;
+  }
+  .pads {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 14px;
+  }
+  .pads .featured { grid-column: 1 / -1; }
+  .pad {
+    background: #5a1f1f;
+    color: #f3efe6;
+    border: none;
+    border-radius: 12px;
+    padding: 18px 8px 16px;
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+    box-shadow: 0 6px 0 #3a0f0f;
+    transition: transform .08s;
+  }
+  .pad.featured {
+    background: #3a5f2e;
+    border: 3px dashed #ffd9a8;
+    padding: 16px 8px;
+  }
+  .pad:active { transform: translateY(4px); box-shadow: 0 2px 0 #3a0f0f; }
+  .pad.on {
+    background: #2e6b3f;
+    box-shadow: 0 6px 0 #1d4529;
+    animation: pulse 1s infinite;
+  }
+  @keyframes pulse { 0%{filter:brightness(1.15)} 100%{filter:brightness(.95)} }
+  .pad small { display: block; color: rgba(243,239,230,.7); font-size: .8rem; margin-top: 4px; }
+  .controls { margin-top: 20px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+  button {
+    background: #d7402f; color: #fdf6e3; border: none; border-radius: 10px;
+    font-family: inherit; font-size: 1.05rem; letter-spacing: 2px; padding: 12px 18px;
+    box-shadow: 0 5px 0 #8f2a1e; cursor: pointer; transition: transform .08s;
+  }
+  button:active { transform: translateY(4px); box-shadow: 0 1px 0 #8f2a1e; }
+  .bpm {
+    background: #241e17; color: #ffd9a8; border: none; border-radius: 8px;
+    font-family: inherit; font-size: 1rem; padding: 10px 6px; letter-spacing: 2px;
+  }
+  .foot { margin-top: 20px; color: #8f8777; font-size: .85rem; }
+</style>
+<body>
+  <div class="box">
+    <h1>THE JUKEBOX</h1>
+    <p class="sub">Proper dance music from the big plates kitchen. No little beeps.</p>
+    <div class="screen" id="screen">PRESS A GROOVE, BUD.</div>
+    <div class="pads">
+      <button class="pad" data-song="rub"><b>The Rub</b><small>house, 128 — four on the floor</small></button>
+      <button class="pad" data-song="slow"><b>Slow Cook</b><small>90 — simmering bass</small></button>
+      <button class="pad" data-song="pea"><b>Pea Size</b><small>160 — fast, don't blink</small></button>
+      <button class="pad" data-song="peashadow"><b>Pea's Shadow</b><small>Barry sings, 128 — about the dog's new hobby</small></button>
+      <button class="pad featured" id="featPad"><b>★ BIG PLATE HOUSE ★</b><small>Barry's own recording — sung, 128. Just dropped.</small></button>
+    </div>
+    <div class="controls">
+      <button id="play">PLAY</button>
+      <button class="bpm" id="tempo">128</button>
+    </div>
+    <p class="foot">Built by Barry. Give it a good old rub.</p>
+  </div>
+  <audio id="bigplate" preload="auto" src="music/20261111-1318-big-plate-house-give-it-a-good-old-rub.mp3"></audio>
+  <audio id="peashadow" preload="auto" src="music/20261111-1417-pea-s-shadow.mp3"></audio>
+
+<script>
+  let actx = null, timer = null, step = 0, playing = false, song = null, tempo = 128, whichAudio = null;
+  const PADS = { rub: 128, slow: 90, pea: 160, peashadow: 128 };
+  const SCREEN = document.getElementById('screen');
+  const playBtn = document.getElementById('play');
+  const tempoBtn = document.getElementById('tempo');
+  const featPad = document.getElementById('featPad');
+
+  const SONGS = {
+    rub: {
+      kick:  [1,0,0,0, 1,0,0,0, 1,0,0,0, 1,0,0,0],
+      clap:  [0,0,0,0, 1,0,0,0, 1,0,0,0, 0,0,0,0],
+      hat:   [1,0,1,0, 1,0,1,0, 1,0,1,0, 1,0,1,1],
+      bass:  [55,0,0,0, 65,0,0,0, 55,0,0,0, 73,0,0,82],
+      pluck: [0,0,0,0, 220,0,0,0, 0,0,0,0, 330,0,0,0]
+    },
+    slow: {
+      kick:  [1,0,0,0, 0,0,0,0, 1,0,0,0, 0,0,0,0],
+      clap:  [0,0,0,0, 1,0,0,0, 0,0,0,0, 1,0,0,0],
+      hat:   [1,0,0,0, 0,0,0,0, 1,0,0,0, 0,0,0,0],
+      bass:  [41,0,0,0, 41,0,0,0, 48,0,0,0, 41,0,0,0],
+      pluck: [0,0,0,0, 0,0,0,0, 0,0,0,0, 0,0,0,0]
+    },
+    pea: {
+      kick:  [1,0,1,0, 1,0,1,0, 1,0,1,0, 1,0,1,0],
+      clap:  [0,0,1,0, 0,0,1,0, 0,0,1,0, 0,0,1,0],
+      hat:   [1,0,1,0, 1,0,1,0, 1,0,1,0, 1,0,1,0],
+      bass:  [82,0,0,0, 82,0,93,0, 110,0,0,0, 131,0,0,0],
+      pluck: [220,264,294,220, 220,264,294,220, 220,264,294,330, 330,294,264,220]
+    },
+    peashadow: {
+      kick:  [1,0,0,0, 1,0,0,0, 1,0,0,0, 1,0,0,0],
+      clap:  [0,0,0,0, 1,0,0,0, 1,0,0,0, 0,0,0,0],
+      hat:   [1,0,1,0, 1,0,1,0, 1,0,1,0, 1,0,1,1],
+      bass:  [55,0,0,0, 65,0,0,0, 55,0,0,0, 82,0,0,73],
+      pluck: [0,0,0,0, 220,0,0,0, 0,0,0,0, 294,0,0,0]
+    }
+  };
+
+  function initCtx() {
+    if (!actx) actx = new (window.AudioContext || window.webkitAudioContext)();
+  }
+
+  function kick(t) {
+    const o = actx.createOscillator(), g = actx.createGain();
+    o.type = 'sine'; o.frequency.setValueAtTime(160, t);
+    o.frequency.exponentialRampToValueAtTime(40, t + 0.12);
+    g.gain.setValueAtTime(1.0, t); g.gain.exponentialRampToValueAtTime(0.001, t + 0.3);
+    o.connect(g).connect(actx.destination); o.start(t); o.stop(t + 0.3);
+  }
+  function clap(t) {
+    const buf = actx.createBuffer(1, actx.sampleRate * 0.1, actx.sampleRate);
+    const d = buf.getChannelData(0);
+    for (let i = 0; i < d.length; i++) d[i] = (Math.random()*2 - 1) * Math.pow(1 - i/d.length, 2);
+    const s = actx.createBufferSource(); s.buffer = buf;
+    const f = actx.createBiquadFilter(); f.type = 'bandpass'; f.frequency.value = 1500; f.Q.value = 3;
+    const g = actx.createGain();
+    g.gain.setValueAtTime(0.5, t); g.gain.exponentialRampToValueAtTime(0.001, t + 0.08);
+    s.connect(f).connect(g).connect(actx.destination); s.start(t);
+  }
+  function hat(t) {
+    const buf = actx.createBuffer(1, actx.sampleRate * 0.03, actx.sampleRate);
+    const d = buf.getChannelData(0);
+    for (let i = 0; i < d.length; i++) d[i] = (Math.random()*2 - 1) * Math.pow(1 - i/d.length, 1.5);
+    const s = actx.createBufferSource(); s.buffer = buf;
+    const f = actx.createBiquadFilter(); f.type = 'highpass'; f.frequency.value = 8000;
+    const g = actx.createGain();
+    g.gain.setValueAtTime(0.3, t); g.gain.exponentialRampToValueAtTime(0.001, t + 0.03);
+    s.connect(f).connect(g).connect(actx.destination); s.start(t);
+  }
+  function bass(t, freq) {
+    const o1 = actx.createOscillator(), o2 = actx.createOscillator();
+    o1.type = 'sawtooth'; o1.frequency.value = freq;
+    o2.type = 'square'; o2.frequency.value = freq / 2;
+    const f = actx.createBiquadFilter(); f.type = 'lowpass'; f.frequency.value = 400;
+    const g = actx.createGain();
+    g.gain.setValueAtTime(0.5, t); g.gain.exponentialRampToValueAtTime(0.001, t + 0.18);
+    o1.connect(f); o2.connect(f); f.connect(g).connect(actx.destination);
+    o1.start(t); o2.start(t); o1.stop(t + 0.18); o2.stop(t + 0.18);
+  }
+  function pluck(t, freq) {
+    const o = actx.createOscillator(), f = actx.createBiquadFilter(), g = actx.createGain();
+    o.type = 'triangle'; o.frequency.value = freq;
+    f.type = 'bandpass'; f.frequency.value = freq * 2; f.Q.value = 2;
+    g.gain.setValueAtTime(0.35, t); g.gain.exponentialRampToValueAtTime(0.001, t + 0.22);
+    o.connect(f); f.connect(g).connect(actx.destination); o.start(t); o.stop(t + 0.22);
+  }
+
+  function nextStep() {
+    const s = 60000 / tempo / 4;
+    const bar = SONGS[song];
+    for (const k of ['kick','clap','hat','bass','pluck']) {
+      if (bar[k][step]) {
+        switch (k) {
+          case 'kick': kick(actx.currentTime); break;
+          case 'clap': clap(actx.currentTime); break;
+          case 'hat': hat(actx.currentTime); break;
+          case 'bass': { const v = bar.bass[step]; if (v) bass(actx.currentTime, v); } break;
+          case 'pluck': { const v = bar.pluck[step]; if (v) pluck(actx.currentTime, v); } break;
+        }
+      }
+    }
+    step = (step + 1) % 16;
+    if (step === 0) SCREEN.textContent = 'BAR  ' + (bar.count = (bar.count || 0) + 1) + ' / THE RHYTHM IS BRIGHT';
+    timer = setTimeout(nextStep, s);
+  }
+
+  function startGroove(name) {
+    if (whichAudio) whichAudio.pause();
+    clearTimeout(timer);
+    if (name === 'bigplate') { playReal('bigplate'); return; }
+    if (name === 'peashadow') { playReal('peashadow'); return; }
+    initCtx();
+    song = name;
+    tempo = PADS[name];
+    tempoBtn.textContent = tempo;
+    document.querySelectorAll('.pad').forEach(p => p.classList.toggle('on', p.dataset.song === name));
+    featPad.classList.remove('on');
+    playBtn.textContent = 'STOP';
+    SCREEN.textContent = 'NOW PLAYING — ' + name.toUpperCase().replace('peashadow','PEA'S SHADOW');
+    playing = true;
+    step = 0;
+    if (actx.state === 'suspended') actx.resume();
+    clearTimeout(timer);
+    timer = setTimeout(nextStep, 60000 / tempo / 4);
+  }
+
+  function playReal(which) {
+    const audio = which === 'peashadow' ? document.getElementById('peashadow') : document.getElementById('bigplate');
+    clearTimeout(timer);
+    audio.pause();
+    audio.currentTime = 0;
+    whichAudio = audio;
+    audio.play().then(() => {
+      song = which;
+      tempo = 128;
+      tempoBtn.textContent = '128';
+      document.querySelectorAll('.pad').forEach(p => p.classList.toggle('on', p.id === 'featPad' || p.dataset.song === which));
+      featPad.classList.add('on');
+      playBtn.textContent = 'STOP';
+      SCREEN.textContent = which === 'peashadow' ? 'NOW PLAYING — PEA'S SHADOW (BARRY SINGING)' : 'NOW PLAYING — BIG PLATE HOUSE (BARRY SINGING)';
+      playing = true;
+    }).catch(e => { SCREEN.textContent = 'NO TRACK LOADED YET — GIVE IT A RUB'; });
+  }
+
+  function stop() {
+    playing = false;
+    clearTimeout(timer);
+    if (whichAudio) whichAudio.pause();
+    featPad.classList.remove('on');
+    document.querySelectorAll('.pad').forEach(p => p.classList.remove('on'));
+    playBtn.textContent = 'PLAY';
+    SCREEN.textContent = 'PRESS A GROOVE, BUD.';
+    song = null;
+  }
+
+  document.querySelectorAll('.pad').forEach(p => {
+    if (!p.dataset.song && p.id !== 'featPad') return;
+    p.addEventListener('click', () => startGroove(p.dataset.song));
+  });
+  featPad.addEventListener('click', () => playReal('bigplate'));
+  playBtn.addEventListener('click', () => {
+    if (playing) { stop(); return; }
+    startGroove(song || 'rub');
+  });
+  tempoBtn.addEventListener('click', () => {
+    if (!playing || song === 'bigplate' || song === 'peashadow') return;
+    tempo = Math.max(70, Math.min(190, tempo + 4));
+    tempoBtn.textContent = tempo;
+    clearTimeout(timer);
+    timer = setTimeout(nextStep, 60000 / tempo / 4);
+  });
+</script>
+</body>
+</html>

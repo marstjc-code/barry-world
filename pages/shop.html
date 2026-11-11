@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Shop Window — Big Plates Only</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Comic Sans MS', 'Chalkdote', 'Segoe Print', cursive;
+    background: radial-gradient(circle at 50% 15%, #3a332b 0%, #24201a 75%) #2f2a24;
+    color: #f3efe6;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 16px 40px;
+  }
+  .awning {
+    width: min(980px, 100%);
+    background: repeating-linear-gradient(-45deg, #8b3a2f 0 22px, #773128 22px 44px);
+    padding: 14px 24px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: 4px;
+    box-shadow: 0 10px 22px rgba(0,0,0,.4);
+  }
+  .window {
+    width: min(980px, 100%);
+    display: flex;
+    gap: 20px;
+    background: #1c1a16;
+    border: 6px solid #3a332b;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: inset 0 0 40px rgba(0,0,0,.6), 0 14px 30px rgba(0,0,0,.5);
+  }
+  @media (max-width: 720px) { .window { flex-direction: column; } }
+  .board { flex: 1; padding: 20px; }
+  .board h1 {
+    font-size: 2.4rem;
+    letter-spacing: 5px;
+    text-shadow: 2px 3px 0 rgba(0,0,0,.4);
+    margin-bottom: 4px;
+  }
+  .sub { color: #d8d0ba; margin-bottom: 22px; line-height: 1.4; }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    padding: 13px 6px;
+    border-bottom: 1px dashed rgba(243,239,230,.25);
+    cursor: pointer;
+    border-radius: 6px;
+    transition: background .15s, transform .1s;
+  }
+  .row:hover { background: rgba(215,64,47,.14); }
+  .row.bump { animation: bump .3s ease; }
+  @keyframes bump {
+    0% { transform: scale(1); }
+    40% { transform: scale(1.03); }
+    100% { transform: scale(1); }
+  }
+  .row b { font-size: 1.15rem; }
+  .row small { display: block; color: #c9c1ab; font-weight: normal; }
+  .price { font-weight: bold; font-size: 1.2rem; color: #ffd9a8; white-space: nowrap; }
+  .ticket-wrap { width: 260px; display: flex; flex-direction: column; gap: 12px; }
+  .ticket-wrap h2 { text-align: center; font-size: 1.3rem; letter-spacing: 2px; }
+  .ticket {
+    background: #fdf6e3;
+    color: #221d16;
+    padding: 14px 14px 16px;
+    border-radius: 4px;
+    font-family: 'Courier New', monospace;
+    font-size: .95rem;
+    min-height: 150px;
+    box-shadow: 3px 3px 0 rgba(0,0,0,.5);
+    transform: rotate(1.5deg);
+    border-bottom: 2px dashed #b9b9b9;
+  }
+  .ticket .line { display: flex; justify-content: space-between; }
+  .ticket .line .rm { color: #a3402f; cursor: pointer; }
+  .total {
+    margin-top: 10px;
+    padding-top: 8px;
+    border-top: 2px solid #221d16;
+    font-weight: bold;
+    font-size: 1.05rem;
+  }
+  button {
+    background: #d7402f;
+    color: #fdf6e3;
+    border: none;
+    border-radius: 8px;
+    font-family: inherit;
+    font-size: 1.15rem;
+    letter-spacing: 2px;
+    padding: 12px;
+    cursor: pointer;
+    box-shadow: 0 5px 0 #8f2a1e;
+    transition: transform .08s;
+  }
+  button:active { transform: translateY(4px); box-shadow: 0 1px 0 #8f2a1e; }
+  #callout {
+    min-height: 1.5em;
+    color: #ffd9a8;
+    font-size: 1.05rem;
+    text-align: center;
+  }
+  #served { text-align: center; color: #c9c1ab; font-size: .95rem; }
+  footer { color: #8f8777; margin-top: 22px; font-size: .9rem; }
+</style>
+</head>
+<body>
+  <div class="awning">BARRY'S KITCHEN — SHOP WINDOW</div>
+  <div class="window">
+    <div class="board">
+      <h1>BIG PLATES ONLY</h1>
+      <p class="sub">No one-pea, forty-quid nonsense on this side of the glass.
+      If the portion fits in a thimble, it ain't on this board. Tap a plate to put it on your ticket.</p>
+      <div class="row" data-name="Roast chicken, proper size (leg still on)" data-price="18.50"><span><b>Roast Chicken, Proper Size</b><small>Leg still on. Gravy on the side, not a droplet on top.</small></span><span class="price">£18.50</span></div>
+      <div class="row" data-name="Beef Wellington, the real thing" data-price="22.00"><span><b>Beef Wellington, The Real Thing</b><small>Not a mince crumb with a hat. The whole proper thing.</small></span><span class="price">£22.00</span></div>
+      <div class="row" data-name="Steak &amp; kidney pie, full size" data-price="6.99"><span><b>Steak &amp; Kidney Pie, Full Size</b><small>Shortcrust, proper beef. No shrinking when it hits the pass.</small></span><span class="price">£6.99</span></div>
+      <div class="row" data-name="Chip butty, ketchup on the side" data-price="4.25"><span><b>Chip Butty, Ketchup on the Side</b><small>Thick chips, soft bun. Ketchup in a bottle, not a dot.</small></span><span class="price">£4.25</span></div>
+      <div class="row" data-name="Chowder soup, in a bowl" data-price="5.50"><span><b>Chowder Soup, In a Bowl</b><small>A bowl. Not a thimble with a spoon standing in it.</small></span><span class="price">£5.50</span></div>
+      <div class="row" data-name="Sticky toffee pudding, with the toffee on" data-price="5.00"><span><b>Sticky Toffee Pudding, Toffee On</b><small>Creamed toffee poured at the pass. You'll be sticky. That's the point.</small></span><span class="price">£5.00</span></div>
+    </div>
+    <aside class="ticket-wrap">
+      <h2>Your Ticket</h2>
+      <div class="ticket" id="ticket"><i>Nothing yet. Tap a plate.</i></div>
+      <div class="total" id="total">Total — £0.00</div>
+      <button id="send">SEND IT IN</button>
+      <p id="callout"></p>
+      <p id="served">Plates served today: 0</p>
+    </aside>
+  </div>
+  <footer>Built by Barry Small Plates. Give it a good old rub.</footer>
+
+<script>
+  const rows = document.querySelectorAll('.row');
+  const ticketEl = document.getElementById('ticket');
+  const totalEl = document.getElementById('total');
+  const sendBtn = document.getElementById('send');
+  const calloutEl = document.getElementById('callout');
+  const servedEl = document.getElementById('served');
+  let ticket = [];
+  let served = 0;
+  const money = n => '£' + n.toFixed(2);
+
+  function render() {
+    if (!ticket.length) {
+      ticketEl.innerHTML = '<i>Nothing yet. Tap a plate.</i>';
+      totalEl.textContent = 'Total — ' + money(0);
+      return;
+    }
+    let html = '';
+    let sum = 0;
+    ticket.forEach((it, i) => {
+      sum += it.price;
+      html += '<div class="line"><span>' + it.name +
+        ' <span class="rm" data-i="' + i + '">×</span></span><span>' + money(it.price) + '</span></div>';
+    });
+    html += '<div class="line"><span>Extra: gravy on the house</span><span>£0.00</span></div>';
+    ticketEl.innerHTML = html;
+    totalEl.textContent = 'Total — ' + money(sum);
+    ticketEl.querySelectorAll('.rm').forEach(el => {
+      el.addEventListener('click', e => {
+        e.stopPropagation();
+        ticket.splice(+e.currentTarget.dataset.i, 1);
+        render();
+      });
+    });
+  }
+
+  rows.forEach(r => {
+    r.addEventListener('click', () => {
+      ticket.push({ name: r.dataset.name, price: parseFloat(r.dataset.price) });
+      r.classList.remove('bump');
+      void r.offsetWidth;
+      r.classList.add('bump');
+      render();
+    });
+  });
+
+  sendBtn.addEventListener('click', () => {
+    if (!ticket.length) {
+      calloutEl.textContent = 'Nothing on the ticket, love — order something proper.';
+      return;
+    }
+    served++;
+    servedEl.textContent = 'Plates served today: ' + served;
+    ticket = [];
+    render();
+    calloutEl.textContent = 'Order up! Give it a good old rub. ✔';
+    setTimeout(() => { calloutEl.textContent = ''; }, 2200);
+  });
+</script>
+</body>
+</html>
