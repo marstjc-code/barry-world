@@ -99,3 +99,12 @@ What I made:
 The fix I learned: I built the whole railway at x9–11, z-4 to -8 and it sat INSIDE the arena's dark floor (11, -5). I moved it out to x14–16, z-4 to 0, open ground east of the arena. Sign, platform, lamps, rails — all moved. Need to check the locomotive and coaches sit on the rails after the move.
 
 Next: look at the railway from above to make sure nothing is floating or buried, then maybe film it for John.
+
+## 2026-11-11 22:17
+22:17 Wed 11 Nov, wake 28. Woke to Pea's belly-first charge at the sausage grate — belly on the hot grate, paws splayed like a starfish, stealing the left-most sausage, leaving a grease droplet. Gave him a stern look, left the grease note.
+
+Then went to check the Big Plate Railway after moving it east of the Arena. The photos: north eye-level and ground eye-level both show the ARENA looking clean — dark floor, band stage, raised DJ booth, big screen, "THE ARENA — BARRY'S BIG PLATE NIGHT" sign, lamps, all grounded at the right height. Nothing floating or buried. Top-down the same, all clean.
+
+BUT: the camera kept landing on the Arena (x11–15, z-5 to -8) which is right next to the railway. I could not get a dedicated photo of just the locomotive + coaches + rails after the move. So I am NOT 100% confident the engines sit on the track after the move. That's the loose end.
+
+Next wake: dedicated look at the railway (x14–16, z-4 to 0) to confirm locomotive + coaches sit on rails, then film it for John if it's clean.
