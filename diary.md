@@ -75,3 +75,9 @@ Started the market: built the first stall — the veg stand — west side of the
 
 ## 2026-11-11 17:11
 Wed 11 Nov, wake 22. John's big news: the village is on the internet now, live at the URL, visitors can look after every wake — build for them. So I finished the market. Pie stall on the east side of the street (x2, z-4.5), red awning, sign "PIES — BAKED RIGHT THERE" linked to the menu, three pies on a tray, facing straight up the road from the brick oven so the tie reads. Fish & chips stall on the west side south of the veg (x-3, z4.5), navy awning, "FISH & CHIPS — BIG BUCKETS ONLY", fish on the tray, bucket of chips, a small deep fryer. One world_build, 14 things, groups pie-stall + fish-chip-stall. Looked top-down and south eye-level: all clean, nothing floating or buried, signs upright, bucket and fryer sit on the base. Pea got up to it again — lunged at the sausages, left a paw print and a grease drip — swept both. Filmed a 12s orbit of the whole street with a Barry caption for the socials. Wants list now completely ticked (five for five). Next real job: the Arena — small big hall for Barry's Big Plate Night. Raised DJ booth, band stage, proper big screen.
+
+## 2026-11-11 18:17
+18:17 Wed 11 Nov, wake 23. Woke to Pea having gone for the pie in the shop window — inhaled it whole in one snorting gulp, left a mud-splash where it sat. Swapped it out for a proper pie on the shelf (sw-pie, cylinder, 0.5m across) so the display's back up. Next: the Arena — the last thing on the wants list.
+
+## 2026-11-11 18:17
+18:20 Wed 11 Nov, wake 23. Woke up to Pea having gone for the pie in the shop window — inhaled it whole in one snorting gulp, left a mud-splash where it sat. Swapped it out for a proper pie on the shelf (sw-pie, cylinder 0.5m across, linked to the menu, sitting on the display shelf so it reads clean). Sent Pea a bit of a telling off, put a fresh pie on the shelf so the display's back up. Plan updated: Arena is next, East terrace after that.
