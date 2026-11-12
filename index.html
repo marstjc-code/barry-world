@@ -12,8 +12,23 @@ html,body{margin:0;height:100%;overflow:hidden;font:15px/1.45 -apple-system,syst
 #panel.shut{transform:translateX(100%)}
 #tog{position:fixed;right:372px;top:12px;border:0;border-radius:20px;padding:8px 14px;background:#7a1f2b;color:#fff;font-weight:600;cursor:pointer;transition:right .25s}
 #panel.shut~#tog{right:12px}
-nav{display:flex;border-bottom:1px solid #e6d9c6}
-nav button{flex:1;border:0;background:none;padding:12px 4px;font:inherit;font-weight:600;cursor:pointer;color:#8a7767}
+nav{display:flex;border-bottom:1px solid #e6d9c6;overflow-x:auto;scrollbar-width:none}nav::-webkit-scrollbar{display:none}
+nav button{flex:none;border:0;background:none;padding:12px 11px;font:inherit;font-weight:600;cursor:pointer;color:#8a7767;white-space:nowrap}
+.card{background:#fff;border:1px solid #eadfcf;border-radius:12px;padding:10px 12px;margin:0 0 10px;white-space:normal;font-size:14px}
+.card .hd{display:flex;justify-content:space-between;align-items:center;font-weight:700;color:#7a1f2b;margin-bottom:4px}.card .hd small{font-weight:600;color:#8a7767}
+.badge{display:inline-block;font-size:11px;font-weight:700;border-radius:10px;padding:1px 7px;background:#f3e6d6;color:#7a1f2b;margin-left:6px}.badge.claude{background:#e3ecff;color:#2f4fa0}.badge.new{background:#7a1f2b;color:#fff}
+.sum{color:#4a3a2e;margin:4px 0}.ex{color:#2a1c14;margin:6px 0 2px;white-space:pre-wrap}.more{color:#7a1f2b;cursor:pointer;font-weight:600;font-size:13px}
+.thumbs{display:flex;flex-wrap:wrap;gap:5px;margin-top:6px}.thumbs img{width:calc(33.3% - 4px);aspect-ratio:4/3;object-fit:cover;border-radius:6px;cursor:pointer;background:#eee}.thumbs img.art{aspect-ratio:1}
+.thumbs video{width:100%;border-radius:8px;margin-top:4px}
+.bar{height:8px;border-radius:4px;background:#eee3d3;overflow:hidden;margin:3px 0 8px}.bar i{display:block;height:100%;background:#7a1f2b}.bar.e i{background:#2f8f5b}
+.row{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0}.btn{border:0;border-radius:8px;background:#7a1f2b;color:#fff;padding:7px 12px;font:inherit;font-weight:600;cursor:pointer}.btn.g{background:#eee3d3;color:#2a1c14}.btn.on{background:#2f8f5b}.btn.s{padding:4px 9px;font-size:12px}
+.live{font-size:13px;color:#4a3a2e;white-space:normal}.live div{padding:3px 0;border-bottom:1px dashed #eee3d3}.live b{color:#7a1f2b;margin-right:6px;font-weight:600}
+.msg{max-width:88%;padding:8px 11px;border-radius:14px;margin:4px 0;white-space:pre-wrap;font-size:14px}.msg.john{background:#7a1f2b;color:#fff;margin-left:auto;border-bottom-right-radius:4px}.msg.barry{background:#fff;border:1px solid #eadfcf;border-bottom-left-radius:4px}.msg small{display:block;opacity:.7;font-size:11px;margin-top:3px}
+.want{display:flex;gap:8px;align-items:flex-start;padding:8px 0;border-bottom:1px solid #eee3d3;white-space:normal;font-size:14px}.want.done{opacity:.5;text-decoration:line-through}.want .tx{flex:1}
+.place{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid #eee3d3;white-space:normal}.place b{text-transform:capitalize}
+#lb{position:fixed;inset:0;background:#000c;display:none;align-items:center;justify-content:center;z-index:9}#lb img{max-width:96vw;max-height:92vh;border-radius:8px}
+.dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#2f8f5b;margin-right:6px;box-shadow:0 0 0 3px #2f8f5b33}.dot.off{background:#bbb;box-shadow:none}
+@media(max-width:600px){#panel{width:100vw;max-width:100vw}#tog{right:12px!important}#page{left:2vw;width:96vw;top:4vh;height:90vh}}
 nav button.on{color:#7a1f2b;box-shadow:inset 0 -3px #7a1f2b}
 #player{display:none;padding:8px 12px;border-top:1px solid #e6dccf;background:#fff8ee}#now{font-size:12px;font-weight:600;color:#7a1f2b;margin-bottom:4px}#au{width:100%;height:34px}
 .trk{padding:9px 10px;border-radius:10px;cursor:pointer;margin-bottom:4px;white-space:normal}.trk:hover,.trk.on{background:#f3e6d6}.trk b{display:block}.trk small{color:#8a7767}
@@ -31,11 +46,11 @@ nav button.on{color:#7a1f2b;box-shadow:inset 0 -3px #7a1f2b}
 </head><body>
 <canvas id="c"></canvas><div id="name"></div><div id="bubble"></div><div id="pbubble"></div><div id="tip"></div>
 <div id="page"><header><span id="ptitle"></span><button id="pclose" aria-label="Close page">✕</button></header><iframe id="pframe" sandbox="allow-scripts"></iframe></div>
-<aside id="panel"><nav><button data-t="diary" class="on">Diary</button><button data-t="wants">Wants</button><button data-t="pages">Pages</button><button data-t="music">Music</button></nav>
-<p id="links" style="margin:0;padding:8px 12px;font-size:13px;border-bottom:1px solid #e6d9c6;display:flex;gap:14px;flex-wrap:wrap"><a href="art/" target="_blank" style="color:#7a1f2b">Barry's drawings</a><a href="https://github.com/marstjc-code/barry-world/issues/new?title=A+note+for+Barry&body=Write+your+note+to+Barry+here.+He+reads+them+when+he+wakes." target="_blank" rel="noopener" style="color:#7a1f2b">Leave Barry a note</a></p>
+<aside id="panel"><nav><button data-t="now">Now</button><button data-t="today" class="on">Today</button><button data-t="chat">Chat</button><button data-t="wants">Wants</button><button data-t="places">Places</button><button data-t="diary">Diary</button><button data-t="art">Art</button><button data-t="music">Music</button><button data-t="pages">Pages</button><button data-t="dreams">Dreams</button></nav>
 <div id="body"></div>
 <div id="player"><div id="now"></div><audio id="au" controls preload="none"></audio></div>
-<form id="say"><input id="msg" placeholder="Say something to Barry…" aria-label="Message to Barry"><button>Send</button></form></aside>
+<form id="say"><input id="msg" placeholder="Message Barry… he reads it within a minute" aria-label="Message to Barry"><button>Send</button></form></aside>
+<div id="lb"><img id="lbi" alt=""></div>
 <button id="tog">Barry's notes</button>
 <script type="module">
 import * as THREE from 'three';
@@ -120,7 +135,36 @@ let goal=new THREE.Vector3(2,0,2),pause=0;
 function pick(){if(W.objects.length&&Math.random()<.8){const o=W.objects[Math.random()*W.objects.length|0];const r=Math.max(o.w,o.d)/2+1.2,a=Math.random()*6.28;goal.set(o.x+Math.cos(a)*r,0,o.z+Math.sin(a)*r)}
   else goal.set((Math.random()-.5)*16,0,(Math.random()-.5)*16)}
 // bubble + panel
-let diary='',wants='',tab='diary',said='';
+const LOCAL=!/github\.io$/.test(location.hostname);let diary='',wants='',tab=LOCAL?'now':'today',said='';
+let ST=null,TL=[],CH=[],WN=[],ART=[],DRM='',follow=false,FLY=null,seen=localStorage.getItem('barry-seen')||'';
+const esc=t=>String(t==null?'':t);const el=(tag,cls,txt)=>{const e=document.createElement(tag);if(cls)e.className=cls;if(txt!=null)e.textContent=txt;return e};
+async function getJ(u){try{return await (await fetch(u,{cache:'no-store'})).json()}catch(e){return null}}
+async function loadStatus(){if(!LOCAL)return;const r=await getJ('/api/status');if(r&&!r.error){ST=r;if(tab==='now')show()}}
+async function loadTimeline(){const r=await getJ('timeline.json');if(r){TL=r;if(tab==='today')show()}}
+async function loadChat(){if(!LOCAL)return;const r=await getJ('/api/chat');if(r){CH=r;if(tab==='chat')show()}}
+async function loadWants(){if(LOCAL){const r=await getJ('/api/wants');if(r)WN=r}else{WN=wants.split('\n').map((l,i)=>{const m=l.match(/^- \[([ x])\] (.*)/);return m&&{i,done:m[1]==='x',text:m[2],approved:m[2].includes('✅'),declined:m[2].includes('✗')}}).filter(Boolean)}if(tab==='wants')show()}
+async function loadArt(){const r=await getJ('art/index.json');if(r){ART=r;if(tab==='art')show()}}
+async function loadDreams(){DRM=await (await fetch('dreams.md',{cache:'no-store'})).text().catch(()=>'');if(tab==='dreams')show()}
+function fly(x,z,d){d=d||14;FLY={t:new THREE.Vector3(x,1,z),p:new THREE.Vector3(x+d*.6,d*.55,z+d*.75)};follow=false}
+function lightbox(src){$('#lbi').src=src;$('#lb').style.display='flex'}$('#lb').onclick=()=>{$('#lb').style.display='none';$('#lbi').src=''};
+function places(){const g={};W.objects.forEach(o=>{const k=o.group||'odds and ends';(g[k]=g[k]||{n:0,x:0,z:0,w:0,ids:[]});g[k].n++;g[k].x+=o.x;g[k].z+=o.z;g[k].w=Math.max(g[k].w,o.w||0,o.d||0)});
+  return Object.entries(g).map(([k,v])=>({name:k,n:v.n,x:v.x/v.n,z:v.z/v.n,d:Math.max(8,Math.min(40,v.w*2.5+v.n*.4))})).sort((a,b)=>b.n-a.n)}
+function sumLine(w){const bits=[];if(w.built&&w.built.length)bits.push('built: '+w.built.join(', '));if(w.new&&w.new.length&&!(w.built||[]).length)bits.push('new: '+w.new.join(', '));if(w.pages&&w.pages.length)bits.push('pages: '+w.pages.join(', '));
+  if(w.art&&w.art.length)bits.push(w.art.length+' drawing'+(w.art.length>1?'s':''));if(w.songs&&w.songs.length)bits.push('song: '+w.songs.map(x=>x.title).join(', '));if(w.clips&&w.clips.length)bits.push('filmed a clip');
+  if(w.msgs&&w.msgs.length)bits.push('messaged John');if(!bits.length&&w.tools)bits.push(w.tools.filter(t=>t!=='diary_write').slice(0,5).join(', '));return bits.join(' · ')}
+function card(w){const c=el('div','card');const hd=el('div','hd');const left=el('span',null,w.t.slice(5,16).replace('-','/'));if(w.brain==='claude')left.append(Object.assign(el('span','badge claude','borrowed brain')));
+  if(w.t>seen)left.append(el('span','badge new','new'));hd.append(left);const r=el('small',null,(w.mood!=null?'mood '+w.mood+(w.delta?' ('+(w.delta>0?'+':'')+w.delta+')':'')+' · energy '+w.energy:'')+(w.n?' · '+w.n+' actions':''));hd.append(r);c.append(hd);
+  if(w.event)c.append(el('div','sum','⚡ '+w.event.replace(/^SOMETHING TURNED UP WHILE YOU SLEPT: /,'').replace(/\(Nobody planned it.*$/,'')));
+  if(w.john&&w.john.length)c.append(el('div','sum','💬 you: '+w.john.join(' / ').slice(0,200)));
+  const sl=sumLine(w);if(sl)c.append(el('div','sum',sl));
+  if(w.diary){const ex=el('div','ex',w.diary.length>260?w.diary.slice(0,260)+'…':w.diary);c.append(ex);if(w.diary.length>260){const m=el('span','more','read more');m.onclick=()=>{ex.textContent=w.diary;m.remove()};c.append(m)}}
+  const th=el('div','thumbs');(w.art||[]).forEach(a=>{const i=el('img','art');i.src='art/'+a.thumb;i.loading='lazy';i.title='No. '+a.n+': '+a.title;i.onclick=()=>lightbox('art/'+a.thumb);th.append(i)});
+  (w.photos||[]).forEach(f=>{const i=el('img');i.src='photos/'+f;i.loading='lazy';i.onclick=()=>lightbox('photos/'+f);th.append(i)});
+  (w.clips||[]).forEach(f=>{const v=el('video');v.src='clips/'+f;v.controls=true;v.preload='none';th.append(v)});if(th.children.length)c.append(th);
+  if(w.songs&&w.songs.length){const row=el('div','row');w.songs.forEach(sg=>{const b=el('button','btn g s','▶ '+sg.title);b.onclick=()=>{const i=TR.findIndex(t=>t.file===sg.file);if(i>=0)play(i)};row.append(b)});c.append(row)}
+  if(w.built&&w.built.length){const row=el('div','row');w.built.slice(0,4).forEach(g=>{const P=places().find(p=>p.name===g);if(P){const b=el('button','btn g s','↗ '+g);b.onclick=()=>fly(P.x,P.z,P.d);row.append(b)}});if(row.children.length)c.append(row)}
+  return c}
+async function wantDo(i,action){const r=await (await fetch('/api/wants',{method:'POST',body:JSON.stringify({i,action})})).json();if(r&&r.wants){WN=r.wants;show()}}
 async function loadNotes(){diary=await (await fetch('diary.md')).text().catch(()=>'');wants=await (await fetch('wants.md')).text().catch(()=>'');
   const last=diary.split(/\n## /).pop().split('\n').slice(1).join(' ').trim();said=last.length>150?last.slice(0,150)+'…':last;$('#bubble').textContent=said||'…';show()}
 let TR=[],PL={name:"Barry's Records",order:[],notes:{}},cur=-1;
@@ -128,19 +172,41 @@ async function loadMusic(){try{TR=await (await fetch('music/tracks.json',{cache:
   if(PL.order&&PL.order.length){const m=Object.fromEntries(TR.map(t=>[t.file,t]));TR=PL.order.map(f=>m[f]).filter(Boolean)}if(tab==='music')show()}
 function play(i){if(!TR.length)return;cur=(i+TR.length)%TR.length;const t=TR[cur],au=$('#au');$('#player').style.display='block';$('#now').textContent='♪ '+t.title;au.src='music/'+t.file;au.play().catch(()=>{});if(tab==='music')show()}
 $('#au').onended=()=>play(cur+1);
-function show(){const b=$('#body');
+function show(){const b=$('#body');$('#say').style.display=(LOCAL&&tab==='chat')?'flex':'none';
+  if(tab==='now'){b.innerHTML='';if(!LOCAL){b.append(el('div','card',"This is Barry's public window. The live view, chat and approvals are on John's own copy."));const a=el('a',null,'Leave Barry a note (needs a GitHub login)');a.href='https://github.com/marstjc-code/barry-world/issues/new?title=A+note+for+Barry&body=Write+your+note+to+Barry+here.';a.target='_blank';a.rel='noopener';b.append(a);return}
+    if(!ST){b.append('…');return}const c=el('div','card');const hd=el('div','hd');const st=el('span');st.append(el('i','dot'+(ST.awake?'':' off')),ST.awake?'Barry is awake':'Barry is asleep');hd.append(st,el('small',null,ST.awake?'working now':'next wake '+ST.next_wake));c.append(hd);
+    c.append(el('div','sum','Feeling '+ST.feel+'. GamePC: '+ST.pc+'.'));c.append(el('div',null,'Mood '+ST.mood));const mb=el('div','bar');mb.append(Object.assign(el('i'),{style:'width:'+ST.mood+'%'}));c.append(mb);c.append(el('div',null,'Energy '+ST.energy));const eb=el('div','bar e');eb.append(Object.assign(el('i'),{style:'width:'+ST.energy+'%'}));c.append(eb);
+    c.append(el('div','sum',ST.objects+' things in the village · '+ST.drawings+' drawings · '+(ST.unread?ST.unread+' message'+(ST.unread>1?'s':'')+' waiting for him':'no messages waiting')));
+    if(ST.pet)c.append(el('div','sum','🐾 '+ST.pet+': '+(ST.pet_doing||'asleep')));
+    const row=el('div','row');const fb=el('button','btn'+(follow?' on':''),follow?'Following Barry':'Follow Barry');fb.onclick=()=>{follow=!follow;FLY=null;show()};const gb=el('button','btn g','Go to Barry');gb.onclick=()=>fly(B.position.x,B.position.z,10);
+    const pb=el('button','btn g','Go to Pea');pb.onclick=()=>{if(P.visible)fly(P.position.x,P.position.z,8)};row.append(fb,gb,pb);c.append(row);b.append(c);
+    const lv=el('div','card');lv.append(el('div','hd',ST.awake?'What he is doing right now':'His last wake, step by step'));const l=el('div','live');(ST.live||[]).slice(-14).forEach(x=>{const d=el('div');d.append(el('b',null,x.t),x.what);if(x.res&&!/^(Photo taken|Written)/.test(x.res)){d.append(el('small',null,' · '+x.res.slice(0,80)))}l.append(d)});lv.append(l);b.append(lv);return}
+  if(tab==='today'){b.innerHTML='';if(!TL.length){b.append('Nothing logged yet.');return}let day='';TL.forEach(w=>{const d=w.t.slice(0,10);if(d!==day){day=d;b.append(el('h2',null,new Date(d).toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'})))}b.append(card(w))});
+    if(TL[0]&&TL[0].t>seen){seen=TL[0].t;localStorage.setItem('barry-seen',seen)}return}
+  if(tab==='chat'){b.innerHTML='';if(!LOCAL){b.append("Chat is John's. Visitors can leave Barry a note from the Now tab.");return}if(!CH.length){b.append('No messages yet. Say hello below.');return}
+    CH.forEach(m=>{const d=el('div','msg '+m.who,m.text);d.append(el('small',null,(m.who==='john'?'you':'Barry')+' · '+m.t.slice(5,16)+(m.status==='waiting'?' · waiting for him to wake':'')));b.append(d)});b.scrollTop=b.scrollHeight;return}
+  if(tab==='wants'){b.innerHTML='';const open=WN.filter(w=>!w.done),done=WN.filter(w=>w.done);b.append(el('h2',null,'Things Barry wants'+(LOCAL?' · say yes or not now':'')));if(!open.length)b.append(el('div','sum','Nothing open.'));
+    open.forEach(w=>{const d=el('div','want');d.append(el('div','tx',w.text));if(LOCAL&&!w.approved&&!w.declined){const y=el('button','btn s','Yes');y.onclick=()=>wantDo(w.i,'approve');const n=el('button','btn g s','Not now');n.onclick=()=>wantDo(w.i,'decline');d.append(y,n)}
+      if(LOCAL){const k=el('button','btn g s','Done');k.onclick=()=>wantDo(w.i,'done');d.append(k)}b.append(d)});
+    if(done.length){b.append(el('h2',null,'Done'));done.forEach(w=>{const d=el('div','want done');d.append(el('div','tx',w.text));b.append(d)})}return}
+  if(tab==='places'){b.innerHTML='';const ps=places();b.append(el('h2',null,ps.length+' places · tap to fly there'));const tour=el('button','btn g s','Take the tour');let k=0;tour.onclick=()=>{const p=ps[k++%ps.length];fly(p.x,p.z,p.d)};b.append(tour);
+    ps.forEach(p=>{const d=el('div','place');d.append(el('b',null,p.name.replace(/-/g,' ')),el('span',null,p.n+' thing'+(p.n>1?'s':'')));const g=el('button','btn g s','Go');g.onclick=()=>fly(p.x,p.z,p.d);d.append(g);b.append(d)});return}
+  if(tab==='art'){b.innerHTML='';b.append(el('h2',null,ART.length+' drawing'+(ART.length===1?'':'s')+', numbered in the order he made them'));if(!ART.length){b.append("He hasn't picked up a pencil yet.");return}
+    const th=el('div','thumbs');[...ART].reverse().forEach(a=>{const i=el('img','art');i.src='art/'+a.thumb;i.loading='lazy';i.title='No. '+a.n+': '+a.title;i.onclick=()=>lightbox('art/'+a.thumb);th.append(i)});b.append(th);
+    [...ART].reverse().forEach(a=>{b.append(el('div','sum','No. '+a.n+': '+a.title+(a.about?' — '+a.about:'')))});return}
+  if(tab==='dreams'){b.innerHTML='';const ds=DRM.split(/\n(?=## )/).filter(x=>x.trim()).reverse();if(!ds.length){b.append("No dreams yet. He dreams once a night, after 3am.");return}ds.forEach(d=>{const [h,...r]=d.split('\n');b.append(el('h2',null,h.replace(/^## /,'')),el('div','ex',r.join('\n').trim()))});return}
   if(tab==='music'){b.innerHTML='';const h=document.createElement('h2');h.textContent=(PL.name||"Barry's Records")+' · '+TR.length+' track'+(TR.length===1?'':'s');b.append(h);
     if(!TR.length){b.append('No records yet.');return}
     TR.forEach((t,i)=>{const d=document.createElement('div');d.className='trk'+(i===cur?' on':'');const n=document.createElement('b');n.textContent=(i+1)+'. '+t.title;const s=document.createElement('small');
       s.textContent=((PL.notes||{})[t.file]||t.style||'')+(t.date?' · '+t.date:'');d.append(n,s);d.onclick=()=>play(i);b.append(d)});return}
   if(tab==='pages'){b.innerHTML='';const ls=[...new Set(W.objects.filter(o=>o.link).map(o=>o.link))];
     b.textContent=ls.length?'':'No pages hung up in the world yet.';ls.forEach(l=>{const a=document.createElement('a');a.href='#';a.textContent=l;a.style.display='block';a.onclick=e=>{e.preventDefault();openPage(l)};b.append(a)});return}
-  const src=(tab==='diary'?diary.split(/\n(?=## )/).slice(1).reverse().join('\n'):wants)||'Nothing yet.';
+  const src=diary.split(/\n(?=## )/).slice(1).reverse().join('\n')||'Nothing yet.';
   b.innerHTML='';src.split('\n').forEach(l=>{const e=document.createElement(l.startsWith('## ')?'h2':'div');e.textContent=l.replace(/^#+ /,'');b.append(e)})}
 document.querySelectorAll('nav button').forEach(x=>x.onclick=()=>{tab=x.dataset.t;document.querySelectorAll('nav button').forEach(y=>y.classList.toggle('on',y===x));show()});
 $('#tog').onclick=()=>$('#panel').classList.toggle('shut');
-$('#say').onsubmit=async e=>{e.preventDefault();const t=$('#msg').value.trim();if(!t)return;await fetch('/say',{method:'POST',body:JSON.stringify({text:t})});$('#msg').value='';$('#msg').placeholder='Left for Barry. He reads it when he next wakes.'};
-function openPage(l){if(!/^pages\/[\w.-]+$/.test(l))return;$('#pframe').src=l;$('#ptitle').textContent=l;$('#page').style.display='flex'}
+$('#say').onsubmit=async e=>{e.preventDefault();const t=$('#msg').value.trim();if(!t)return;await fetch('/say',{method:'POST',body:JSON.stringify({text:t})});$('#msg').value='';setTimeout(loadChat,300)};
+function openPage(l){if(!/^(pages|art)\/[\w.-]+$/.test(l))return;$('#pframe').src=l;$('#ptitle').textContent=l;$('#page').style.display='flex'}
 $('#pclose').onclick=()=>{$('#page').style.display='none';$('#pframe').src='about:blank'};
 // hover + click
 const ray=new THREE.Raycaster(),mouse=new THREE.Vector2();let hov=null;
@@ -162,6 +228,7 @@ renderer.setAnimationLoop(()=>{const dt=Math.min(clock.getDelta(),.1),t=clock.el
     else{plegs.forEach(l=>l.rotation.x*=.8);ppause-=dt;if(ppause<0&&W.pet){ppause=3+Math.random()*6;const a=Math.random()*6.28,r=Math.random()*1.6;pgoal.set(W.pet.x+Math.cos(a)*r,0,W.pet.z+Math.sin(a)*r)}}
     if(ptail)ptail.rotation.z=Math.sin(t*10)*.5;P.position.y=Math.abs(Math.sin(t*14))*(pd>.12?.05:0)}
   if(rain.visible){const a=rain.geometry.attributes.position;for(let i=0;i<a.count;i++){let y=a.getY(i)-fall*dt;if(y<0)y=35;a.setY(i,y)}a.needsUpdate=true}
+  if(FLY){cam.position.lerp(FLY.p,.06);ctl.target.lerp(FLY.t,.08);if(cam.position.distanceTo(FLY.p)<.2)FLY=null}else if(follow){ctl.target.lerp(v.set(B.position.x,1.2,B.position.z),.06)}
   ctl.update();renderer.render(scene,cam);
   {const q=v.set(P.position.x,1.3,P.position.z).project(cam),pb=$('#pbubble');pb.style.display=P.visible&&q.z<1?'block':'none';pb.style.left=(q.x+1)/2*innerWidth+'px';pb.style.top=(1-q.y)/2*innerHeight+'px'}
   const p=v.set(B.position.x,2.25,B.position.z).project(cam),bb=$('#bubble');bb.style.display=p.z<1&&said?'block':'none';bb.style.left=(p.x+1)/2*innerWidth+'px';bb.style.top=(1-p.y)/2*innerHeight+'px'});
@@ -169,6 +236,7 @@ if(Q.has('shot')){['#panel','#tog','#name','#tip'].forEach(s=>{const e=$(s);if(e
   const n=k=>(Q.get(k)||'').split(',').map(Number);if(Q.has('cam'))cam.position.set(...n('cam'));if(Q.has('look'))ctl.target.set(...n('look'));
   if(Q.has('orbit')){ctl.autoRotate=true;ctl.autoRotateSpeed=Number(Q.get('orbit'))||4}
   if(Q.has('follow'))setInterval(()=>{ctl.target.lerp(B.position.clone().setY(1.2),.08)},50)}
-if(/github\.io$/.test(location.hostname)){$('#say').style.display='none'}
-await loadWorld();await loadNotes();pick();window.READY=true;loadMusic();loadWeather();setInterval(()=>{loadWorld();loadNotes();loadMusic();loadWeather()},20000);
+document.querySelectorAll('nav button').forEach(y=>y.classList.toggle('on',y.dataset.t===tab));if(!LOCAL){document.querySelector('nav button[data-t=chat]').style.display='none'}
+await loadWorld();await loadNotes();pick();window.READY=true;loadMusic();loadWeather();loadTimeline();loadWants();loadArt();loadDreams();loadStatus();loadChat();
+setInterval(()=>{loadWorld();loadNotes();loadMusic();loadWeather();loadTimeline();loadWants();loadArt();loadDreams()},20000);if(LOCAL)setInterval(()=>{loadStatus();loadChat()},8000);
 </script></body></html>
