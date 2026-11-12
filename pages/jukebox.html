@@ -93,7 +93,7 @@
       <button class="pad" data-song="slow"><b>Slow Cook</b><small>90 — simmering bass</small></button>
       <button class="pad" data-song="pea"><b>Pea Size</b><small>160 — fast, don't blink</small></button>
       <button class="pad" data-song="peashadow"><b>Pea's Shadow</b><small>Barry sings, 128 — about the dog's new hobby</small></button>
-      <button class="pad" data-song="therub" id="rubPad"><b>The Rub (Sung)</b><small>Euphoric house, 150 BPM — the new one</small></button>
+      <button class="pad" data-song="therub"><b>The Rub (Sung)</b><small>Euphoric house, 150 BPM — the new one</small></button>
       <button class="pad" data-song="slowsunday"><b>Slow Sunday Gravy</b><small>Barry sings, 96 — gravy by the jug</small></button>
       <button class="pad featured" id="featPad"><b>★ BIG PLATE HOUSE ★</b><small>Barry's own recording — sung, 128. Just dropped.</small></button>
     </div>
@@ -102,12 +102,12 @@
       <button class="bpm" id="tempo">128</button>
     </div>
     <p class="foot">Built by Barry. Give it a good old rub.
-      <span class="note">Slow Sunday Gravy — the slow one, from the big plates kitchen.</span></p>
+      <span class="note">Slow Sunday Gravy — the real recorded track, from the big plates kitchen. Wired up the 12th.</span></p>
   </div>
   <audio id="bigplate" preload="auto" src="music/20261111-1318-big-plate-house-give-it-a-good-old-rub.mp3"></audio>
   <audio id="peashadow" preload="auto" src="music/20261111-1417-pea-s-shadow.mp3"></audio>
   <audio id="therub" preload="auto" src="music/20261111-2341-the-rub.mp3"></audio>
-  <audio id="slowsunday" preload="auto" src="music/slow-sunday-gravy.mp3"></audio>
+  <audio id="slowsunday" preload="auto" src="music/20261112-0007-slow-sunday-gravy.mp3"></audio>
 
 <script>
   let actx = null, timer = null, step = 0, playing = false, song = null, tempo = 128, whichAudio = null;
@@ -116,7 +116,6 @@
   const playBtn = document.getElementById('play');
   const tempoBtn = document.getElementById('tempo');
   const featPad = document.getElementById('featPad');
-  const rubPad = document.getElementById('rubPad');
 
   const SONGS = {
     rub: {
@@ -154,6 +153,13 @@
       bass:  [41,0,0,0, 48,0,0,0, 41,0,0,0, 48,0,41,48],
       pluck: [0,0,0,0, 0,0,0,0, 110,0,0,0, 0,0,110,0]
     }
+  };
+
+  const REALS = {
+    bigplate:  'bigplate',
+    peashadow: 'peashadow',
+    therub:    'therub',
+    slowsunday:'slowsunday'
   };
 
   function initCtx() {
@@ -227,17 +233,13 @@
   function startGroove(name) {
     if (whichAudio) whichAudio.pause();
     clearTimeout(timer);
-    if (name === 'bigplate') { playReal('bigplate'); return; }
-    if (name === 'peashadow') { playReal('peashadow'); return; }
-    if (name === 'therub') { playReal('therub'); return; }
-    if (name === 'slowsunday') { playReal('slowsunday'); return; }
+    if (name === 'bigplate' || name === 'peashadow' || name === 'therub' || name === 'slowsunday') { playReal(REALS[name]); return; }
     initCtx();
     song = name;
     tempo = PADS[name];
     tempoBtn.textContent = tempo;
     document.querySelectorAll('.pad').forEach(p => p.classList.toggle('on', p.dataset.song === name));
     featPad.classList.remove('on');
-    rubPad.classList.remove('on');
     playBtn.textContent = 'STOP';
     SCREEN.textContent = 'NOW PLAYING — ' + name.toUpperCase().replace('slowsunday','SLOW SUNDAY GRAVY').replace('peashadow','PEA\'S SHADOW');
     playing = true;
@@ -249,77 +251,56 @@
 
   function playReal(which) {
     let audio;
-    if (which === 'peashadow') audio = document.getElementById('peashadow');
-    else if (which === 'therub') audio = document.getElementById('therub');
-    else if (which === 'slowsunday') audio = document.getElementById('slowsunday');
-    else audio = document.getElementById('bigplate');
+    const map = { bigplate:'bigplate', peashadow:'peashadow', therub:'therub', slowsunday:'slowsunday' };
+    audio = document.getElementById(map[which]);
     clearTimeout(timer);
     audio.pause();
     audio.currentTime = 0;
     whichAudio = audio;
+    const label = {
+      bigplate: 'BIG PLATE HOUSE (BARRY SINGING)',
+      peashadow: 'PEA\'S SHADOW (BARRY SINGING)',
+      therub: 'THE RUB — SINGING, 150 BPM',
+      slowsunday: 'SLOW SUNDAY GRAVY (BARRY SINGING)'
+    };
     audio.play().then(() => {
       song = which;
       tempo = 128;
       tempoBtn.textContent = '128';
       document.querySelectorAll('.pad').forEach(p => p.classList.remove('on'));
-      featPad.classList.add('on');
-      rubPad.classList.toggle('on', which === 'therub');
       featPad.classList.toggle('on', which === 'bigplate');
-      const slowPad = document.querySelector('.pad[data-song="slowsunday"]');
-      if (slowPad) slowPad.classList.toggle('on', which === 'slowsunday');
+      const padFor = document.querySelector('.pad[data-song="' + which + '"]');
+      if (padFor) padFor.classList.add('on');
       playBtn.textContent = 'STOP';
-      SCREEN.textContent = which === 'peashadow' ? 'NOW PLAYING — PEA\'S SHADOW (BARRY SINGING)' :
-                            which === 'therub' ? 'NOW PLAYING — THE RUB (BARRY SINGING, 150 BPM)' :
-                            which === 'slowsunday' ? 'NOW PLAYING — SLOW SUNDAY GRAVY (BARRY SINGING)' :
-                            'NOW PLAYING — BIG PLATE HOUSE (BARRY SINGING)';
-      playing = true;
-    }).catch(e => {
-      // Fallback: play the WebAudio slow groove so the pad is never dead
-      initCtx();
-      song = 'slowsunday';
-      tempo = PADS.slowsunday;
-      tempoBtn.textContent = tempo;
-      document.querySelectorAll('.pad').forEach(p => p.classList.remove('on'));
-      const slowPad = document.querySelector('.pad[data-song="slowsunday"]');
-      if (slowPad) slowPad.classList.add('on');
-      featPad.classList.remove('on');
-      playBtn.textContent = 'STOP';
-      SCREEN.textContent = 'NOW PLAYING — SLOW SUNDAY GRAVY (the kitchen groove, real track still simmering)';
-      playing = true;
-      step = 0;
-      if (actx.state === 'suspended') actx.resume();
-      clearTimeout(timer);
-      timer = setTimeout(nextStep, 60000 / tempo / 4);
-    });
+      SCREEN.textContent = 'NOW PLAYING — ' + label[which];
+    }).catch(e => { SCREEN.textContent = 'NO TRACK — ' + which.toUpperCase(); });
   }
 
-  function stop() {
-    playing = false;
-    clearTimeout(timer);
+  function stopAll() {
     if (whichAudio) whichAudio.pause();
-    featPad.classList.remove('on');
-    rubPad.classList.remove('on');
+    clearTimeout(timer);
+    whichAudio = null;
     document.querySelectorAll('.pad').forEach(p => p.classList.remove('on'));
+    featPad.classList.remove('on');
     playBtn.textContent = 'PLAY';
     SCREEN.textContent = 'PRESS A GROOVE, BUD.';
-    song = null;
+    playing = false;
   }
 
-  document.querySelectorAll('.pad').forEach(p => {
-    if (!p.dataset.song && p.id !== 'featPad') return;
-    p.addEventListener('click', () => startGroove(p.dataset.song));
-  });
-  featPad.addEventListener('click', () => playReal('bigplate'));
   playBtn.addEventListener('click', () => {
-    if (playing) { stop(); return; }
-    startGroove(song || 'rub');
+    if (playing) { stopAll(); }
+    else { startGroove('bigplate'); }
   });
-  tempoBtn.addEventListener('click', () => {
-    if (!playing || song === 'bigplate' || song === 'peashadow' || song === 'therub' || song === 'slowsunday') return;
-    tempo = Math.min(200, Math.max(70, tempo + 10));
-    tempoBtn.textContent = tempo;
-    if (timer) { clearTimeout(timer); timer = setTimeout(nextStep, 60000 / tempo / 4); }
+  tempoBtn.addEventListener('click', () => { tempo = tempo === 128 ? 96 : 128; tempoBtn.textContent = tempo; });
+  document.querySelectorAll('.pad').forEach(p => {
+    p.addEventListener('click', () => {
+      if (playing) {
+        if (p.dataset.song === song) { stopAll(); return; }
+      }
+      startGroove(p.dataset.song);
+    });
   });
+  document.querySelectorAll('.pad[data-song="bigplate"]').forEach(p => {});
 </script>
 </body>
 </html>

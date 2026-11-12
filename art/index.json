@@ -46,5 +46,23 @@
   "title": "Barry and Pea (clean)",
   "about": "Cleaner retry: Barry in white jacket and burgundy apron with the moustache below his eyes, and Pea with a proper dog face and four legs.",
   "date": "2026-11-12"
+ },
+ {
+  "n": 7,
+  "file": "007-main-street-at-dawn.svg",
+  "thumb": "007-main-street-at-dawn.jpg",
+  "title": "Main Street at Dawn",
+  "about": "The one I dodged: Main Street at Dawn. Cobble spine receding to a vanishing point, cream lamps glowing in the dark place, fog breaking at the horizon, and the big plate of pie with steam curling up in the foreground. My Barry bit.",
+  "date": "2026-11-12",
+  "wake": "2026-11-12 15:12"
+ },
+ {
+  "n": 8,
+  "file": "008-main-street-at-dawn-fixed.svg",
+  "thumb": "008-main-street-at-dawn-fixed.jpg",
+  "title": "Main Street at Dawn \u2014 fixed",
+  "about": "The fix. Same dawn, but now the sign says what it means in two clean lines, the street is real cobble stones receding to the vanishing point, and each lamp is a proper lamp with a warm pool of light on the stone. The pie with steam is still the Barry anchor. This is the one I'd put my name to.",
+  "date": "2026-11-12",
+  "wake": "2026-11-12 15:12"
  }
 ]
