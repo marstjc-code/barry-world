@@ -65,6 +65,7 @@ import {EffectComposer} from 'three/addons/postprocessing/EffectComposer.js';
 import {RenderPass} from 'three/addons/postprocessing/RenderPass.js';
 import {UnrealBloomPass} from 'three/addons/postprocessing/UnrealBloomPass.js';
 import {OutputPass} from 'three/addons/postprocessing/OutputPass.js';
+import {ShaderPass} from 'three/addons/postprocessing/ShaderPass.js';
 const $=s=>document.querySelector(s);const Q=new URLSearchParams(location.search);
 const MOBILE=innerWidth<700;const renderer=new THREE.WebGLRenderer({canvas:$('#c'),antialias:true});renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;
 renderer.setPixelRatio(Math.min(devicePixelRatio,MOBILE?1.5:2));renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;
@@ -133,6 +134,18 @@ function make(o){const g=new THREE.Group();let m;const{w,h,d}=o;
 let W={objects:[]},stamp='',WX=null;
 // post-processing: a touch of bloom so lamps, fire and the sky glow
 const composer=new EffectComposer(renderer);composer.addPass(new RenderPass(scene,cam));const bloom=new UnrealBloomPass(new THREE.Vector2(innerWidth/2,innerHeight/2),.32,.7,.82);composer.addPass(bloom);composer.addPass(new OutputPass());
+// Barry's print look: halftone dots in the shadows, a burgundy ink tint, paper grain. Off by default; a toggle on the Now tab.
+const PRINT=new ShaderPass({uniforms:{tDiffuse:{value:null},amt:{value:0},res:{value:new THREE.Vector2(innerWidth,innerHeight)},ink:{value:new THREE.Color('#5a1a26')}},
+  vertexShader:`varying vec2 vUv;void main(){vUv=uv;gl_Position=projectionMatrix*modelViewMatrix*vec4(position,1.);}`,
+  fragmentShader:`uniform sampler2D tDiffuse;uniform float amt;uniform vec2 res;uniform vec3 ink;varying vec2 vUv;
+  float bayer(vec2 p){int x=int(mod(p.x,4.)),y=int(mod(p.y,4.));int i=x+y*4;float m[16];m[0]=0.;m[1]=8.;m[2]=2.;m[3]=10.;m[4]=12.;m[5]=4.;m[6]=14.;m[7]=6.;m[8]=3.;m[9]=11.;m[10]=1.;m[11]=9.;m[12]=15.;m[13]=7.;m[14]=13.;m[15]=5.;return (m[i]+.5)/16.;}
+  float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
+  void main(){vec4 c=texture2D(tDiffuse,vUv);if(amt<=0.){gl_FragColor=c;return;}vec2 px=vUv*res;float cell=3.;vec2 q=floor(px/cell);
+    float lum=dot(c.rgb,vec3(.2126,.7152,.0722));float shade=1.-smoothstep(.18,.62,lum);float dot_=step(bayer(q),shade*.95);
+    vec3 paper=mix(c.rgb,vec3(.98,.95,.88)*c.rgb+vec3(.02),.25);vec3 inked=mix(paper,ink*0.9,dot_*shade*.75);
+    float levels=7.;inked=floor(inked*levels+.5)/levels;inked+=(hash(px)-.5)*.045;gl_FragColor=vec4(mix(c.rgb,inked,amt),c.a);}`});
+composer.addPass(PRINT);let PRINTON=localStorage.getItem('barry-print')==='1';PRINT.uniforms.amt.value=PRINTON?1:0;
+function setPrint(on){PRINTON=on;PRINT.uniforms.amt.value=on?1:0;localStorage.setItem('barry-print',on?'1':'0')}
 // fireflies after dark
 const flies=(()=>{const g=new THREE.BufferGeometry(),N=140,a=new Float32Array(N*3);for(let i=0;i<N;i++){a[i*3]=(Math.random()-.5)*70;a[i*3+1]=.4+Math.random()*2.2;a[i*3+2]=(Math.random()-.5)*70}g.setAttribute('position',new THREE.BufferAttribute(a,3));
   const p=new THREE.Points(g,new THREE.PointsMaterial({map:glowTex,color:0xfff2a0,size:.45,transparent:true,opacity:0,depthWrite:false,blending:THREE.AdditiveBlending}));scene.add(p);return p})();
@@ -249,7 +262,7 @@ function show(){const b=$('#body');$('#say').style.display=(LOCAL&&tab==='chat')
     c.append(el('div','sum',ST.objects+' things in the village · '+ST.drawings+' drawings · '+(ST.unread?ST.unread+' message'+(ST.unread>1?'s':'')+' waiting for him':'no messages waiting')));
     if(ST.pet)c.append(el('div','sum','🐾 '+ST.pet+': '+(ST.pet_doing||'asleep')));
     const row=el('div','row');const fb=el('button','btn'+(follow?' on':''),follow?'Following Barry':'Follow Barry');fb.onclick=()=>{follow=!follow;FLY=null;show()};const gb=el('button','btn g','Go to Barry');gb.onclick=()=>fly(B.position.x,B.position.z,10);
-    const pb=el('button','btn g','Go to Pea');pb.onclick=()=>{if(P.visible)fly(P.position.x,P.position.z,8)};row.append(fb,gb,pb);c.append(row);b.append(c);
+    const pb=el('button','btn g','Go to Pea');pb.onclick=()=>{if(P.visible)fly(P.position.x,P.position.z,8)};const pr=el('button','btn g'+(PRINTON?' on':''),PRINTON?'Print look: on':'Print look: off');pr.onclick=()=>{setPrint(!PRINTON);show()};row.append(fb,gb,pb,pr);c.append(row);b.append(c);
     const lv=el('div','card');lv.append(el('div','hd',ST.awake?'What he is doing right now':'His last wake, step by step'));const l=el('div','live');(ST.live||[]).slice(-14).forEach(x=>{const d=el('div');d.append(el('b',null,x.t),x.what);if(x.res&&!/^(Photo taken|Written)/.test(x.res)){d.append(el('small',null,' · '+x.res.slice(0,80)))}l.append(d)});lv.append(l);b.append(lv);return}
   if(tab==='today'){b.innerHTML='';if(FILMS.length){const f=FILMS[FILMS.length-1];const c=el('div','card');c.append(el('div','hd','🎬 Barry\'s own cut: '+f.title));c.append(el('div','sum',f.date+' · '+Math.round(f.seconds)+' s · '+f.picks+' picks'+(LOCAL?' · waiting for your yes before it goes anywhere':'')));const v=el('video');v.src='films/'+f.file;v.controls=true;v.preload='none';v.style.width='100%';v.style.borderRadius='8px';c.append(v);b.append(c)}
     if(!TL.length){b.append('Nothing logged yet.');return}let day='';TL.forEach(w=>{const d=w.t.slice(0,10);if(d!==day){day=d;b.append(el('h2',null,new Date(d).toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'})))}b.append(card(w))});
@@ -287,7 +300,7 @@ addEventListener('pointermove',e=>{if(e.target!==renderer.domElement){$('#tip').
   renderer.domElement.style.cursor=hov&&hov.link?'pointer':''});
 let down=null;renderer.domElement.addEventListener('pointerdown',e=>down=[e.clientX,e.clientY]);
 renderer.domElement.addEventListener('pointerup',e=>{if(down&&Math.hypot(e.clientX-down[0],e.clientY-down[1])<5){const o=hit(e);if(o&&o.link)openPage(o.link)}});
-function size(){renderer.setSize(innerWidth,innerHeight,false);composer.setSize(innerWidth,innerHeight);cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix()}addEventListener('resize',size);size();
+function size(){renderer.setSize(innerWidth,innerHeight,false);composer.setSize(innerWidth,innerHeight);PRINT.uniforms.res.value.set(innerWidth*renderer.getPixelRatio(),innerHeight*renderer.getPixelRatio());cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix()}addEventListener('resize',size);size();
 const clock=new THREE.Clock(),v=new THREE.Vector3();let lampTick=-1;
 renderer.setAnimationLoop(()=>{const dt=Math.min(clock.getDelta(),.1),t=clock.elapsedTime;
   const to=v.copy(goal).sub(B.position);to.y=0;const dist=to.length();
@@ -307,7 +320,7 @@ renderer.setAnimationLoop(()=>{const dt=Math.min(clock.getDelta(),.1),t=clock.el
   ctl.update();composer.render();
   {const q=v.set(P.position.x,1.3,P.position.z).project(cam),pb=$('#pbubble');pb.style.display=P.visible&&q.z<1?'block':'none';pb.style.left=(q.x+1)/2*innerWidth+'px';pb.style.top=(1-q.y)/2*innerHeight+'px'}
   const p=v.set(B.position.x,2.25,B.position.z).project(cam),bb=$('#bubble');bb.style.display=p.z<1&&said?'block':'none';bb.style.left=(p.x+1)/2*innerWidth+'px';bb.style.top=(1-p.y)/2*innerHeight+'px'});
-window.BW={applySky,make,built,PENDING,fly,cam,ctl,get W(){return W},setDay(d){WX={sunrise:'00:00',sunset:'23:59',code:0};applySky()}};
+window.BW={applySky,make,built,PENDING,fly,cam,ctl,setPrint,get W(){return W},setDay(d){WX={sunrise:'00:00',sunset:'23:59',code:0};applySky()}};
 if(Q.has('shot')){['#panel','#tog','#name','#tip','#rp'].forEach(s=>{const e=$(s);if(e)e.style.display='none'});if(!Q.has('bubbles')){const st=document.createElement('style');st.textContent='#bubble,#pbubble{display:none!important}';document.head.append(st)}
   const n=k=>(Q.get(k)||'').split(',').map(Number);if(Q.has('cam'))cam.position.set(...n('cam'));if(Q.has('look'))ctl.target.set(...n('look'));
   if(Q.has('orbit')){ctl.autoRotate=true;ctl.autoRotateSpeed=Number(Q.get('orbit'))||4}
