@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+<defs>
+<radialGradient id="dawnSky" cx="50%" cy="18%" r="80%">
+<stop offset="0%" stop-color="#f4a93c"/>
+<stop offset="30%" stop-color="#e88a4a"/>
+<stop offset="60%" stop-color="#b06a8a"/>
+<stop offset="100%" stop-color="#3a2a5a"/>
+</radialGradient>
+<radialGradient id="lampGlow" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#fff6c9" stop-opacity="0.9"/>
+<stop offset="100%" stop-color="#fff6c9" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="warmPool" cx="50%" cy="50%" r="50%">
+<stop offset="0%" stop-color="#f4a93c" stop-opacity="0.5"/>
+<stop offset="100%" stop-color="#f4a93c" stop-opacity="0"/>
+</radialGradient>
+</defs>
+<rect width="800" height="800" fill="url(#dawnSky)"/>
+
+<g opacity="0.7">
+<rect x="120" y="120" width="180" height="350" fill="#5a4a3a"/>
+<rect x="145" y="145" width="45" height="35" fill="#f4a93c" opacity="0.6"/>
+<rect x="215" y="145" width="45" height="35" fill="#f4a93c" opacity="0.3"/>
+<rect x="145" y="210" width="45" height="35" fill="#f4a93c" opacity="0.4"/>
+<rect x="215" y="210" width="45" height="35" fill="#f4a93c" opacity="0.2"/>
+<rect x="145" y="280" width="45" height="35" fill="#3a2a1a"/>
+<rect x="215" y="280" width="45" height="35" fill="#3a2a1a"/>
+<rect x="600" y="140" width="180" height="350" fill="#4a3a2a"/>
+<rect x="625" y="165" width="45" height="35" fill="#f4a93c" opacity="0.5"/>
+<rect x="695" y="165" width="45" height="35" fill="#f4a93c" opacity="0.25"/>
+<rect x="625" y="230" width="45" height="35" fill="#f4a93c" opacity="0.35"/>
+<rect x="695" y="230" width="45" height="35" fill="#3a2a1a"/>
+<rect x="625" y="300" width="45" height="35" fill="#3a2a1a"/>
+<rect x="695" y="300" width="45" height="35" fill="#f4a93c" opacity="0.2"/>
+</g>
+
+<path d="M200 800 L350 420 L450 420 L600 800 Z" fill="#7a5a3a"/>
+
+<g stroke="none">
+<ellipse cx="260" cy="750" rx="35" ry="22" fill="#8a6a4a" transform="rotate(15 260 750)"/>
+<ellipse cx="310" cy="770" rx="30" ry="18" fill="#6a4a2a" transform="rotate(-10 310 770)"/>
+<ellipse cx="370" cy="760" rx="32" ry="20" fill="#9a7a5a" transform="rotate(20 370 760)"/>
+<ellipse cx="430" cy="775" rx="34" ry="19" fill="#8a6a4a" transform="rotate(-15 430 775)"/>
+<ellipse cx="490" cy="755" rx="30" ry="21" fill="#7a5a3a" transform="rotate(10 490 755)"/>
+<ellipse cx="540" cy="765" rx="33" ry="18" fill="#6a4a2a" transform="rotate(-20 540 765)"/>
+<ellipse cx="290" cy="700" rx="22" ry="14" fill="#8a6a4a" transform="rotate(12 290 700)"/>
+<ellipse cx="340" cy="715" rx="20" ry="13" fill="#6a4a2a" transform="rotate(-8 340 715)"/>
+<ellipse cx="390" cy="705" rx="21" ry="14" fill="#9a7a5a" transform="rotate(18 390 705)"/>
+<ellipse cx="440" cy="720" rx="22" ry="13" fill="#8a6a4a" transform="rotate(-14 440 720)"/>
+<ellipse cx="480" cy="710" rx="20" ry="14" fill="#7a5a3a" transform="rotate(8 480 710)"/>
+<ellipse cx="310" cy="650" rx="15" ry="10" fill="#8a6a4a" transform="rotate(15 310 650)"/>
+<ellipse cx="350" cy="660" rx="14" ry="9" fill="#6a4a2a" transform="rotate(-10 350 660)"/>
+<ellipse cx="390" cy="655" rx="14" ry="10" fill="#9a7a5a" transform="rotate(20 390 655)"/>
+<ellipse cx="430" cy="665" rx="15" ry="9" fill="#8a6a4a" transform="rotate(-12 430 665)"/>
+<ellipse cx="470" cy="655" rx="14" ry="10" fill="#7a5a3a" transform="rotate(10 470 655)"/>
+<ellipse cx="350" cy="580" rx="9" ry="6" fill="#8a6a4a" transform="rotate(10 350 580)"/>
+<ellipse cx="380" cy="590" rx="8" ry="5" fill="#6a4a2a" transform="rotate(-8 380 590)"/>
+<ellipse cx="410" cy="585" rx="9" ry="6" fill="#9a7a5a" transform="rotate(15 410 585)"/>
+<ellipse cx="430" cy="595" rx="8" ry="5" fill="#8a6a4a" transform="rotate(-10 430 595)"/>
+<ellipse cx="380" cy="480" rx="5" ry="3" fill="#8a6a4a" transform="rotate(8 380 480)"/>
+<ellipse cx="400" cy="488" rx="4" ry="3" fill="#6a4a2a" transform="rotate(-5 400 488)"/>
+<ellipse cx="420" cy="483" rx="5" ry="3" fill="#9a7a5a" transform="rotate(12 420 483)"/>
+</g>
+
+<g opacity="0.25" fill="#1a1208">
+<polygon points="200,800 350,420 400,420 450,800"/>
+</g>
+
+<g>
+<rect x="185" y="520" width="4" height="80" fill="#2a2a2a"/>
+<circle cx="187" cy="518" r="8" fill="url(#lampGlow)"/>
+<circle cx="187" cy="518" r="3" fill="#fff6c9"/>
+<rect x="183" y="505" width="8" height="14" fill="#2a2a2a"/>
+<rect x="610" y="520" width="4" height="80" fill="#2a2a2a"/>
+<circle cx="612" cy="518" r="8" fill="url(#lampGlow)"/>
+<circle cx="612" cy="518" r="3" fill="#fff6c9"/>
+<rect x="608" y="505" width="8" height="14" fill="#2a2a2a"/>
+</g>
+
+<ellipse cx="380" cy="700" rx="120" ry="50" fill="url(#warmPool)"/>
+<ellipse cx="400" cy="580" rx="60" ry="25" fill="url(#warmPool)" opacity="0.6"/>
+
+<g>
+<rect x="355" y="390" width="90" height="20" fill="#FFF8DC" opacity="0.7"/>
+<text x="400" y="404" font-family="Georgia, serif" font-size="8" fill="#3a2a1a" text-anchor="middle" opacity="0.6">BIG PLATE VILLAGE</text>
+</g>
+
+<g>
+<ellipse cx="390" cy="760" rx="20" ry="14" fill="#f4a93c"/>
+<circle cx="390" cy="740" r="10" fill="#f4a93c"/>
+<circle cx="386" cy="738" r="1.5" fill="#1a1208"/>
+<circle cx="394" cy="738" r="1.5" fill="#1a1208"/>
+<ellipse cx="380" cy="732" rx="5" ry="8" fill="#f4a93c" transform="rotate(-20 380 732)"/>
+<ellipse cx="400" cy="732" rx="5" ry="8" fill="#f4a93c" transform="rotate(20 400 732)"/>
+<path d="M370 755 Q355 740 365 730" stroke="#f4a93c" stroke-width="3" fill="none"/>
+</g>
+
+<circle cx="420" cy="765" r="35" fill="#4169e1"/>
+<ellipse cx="420" cy="775" rx="35" ry="4" fill="#1a1208" opacity="0.3"/>
+
+<text x="400" y="790" font-family="Georgia, serif" font-size="14" fill="#fff6c9" text-anchor="middle" opacity="0.8">Main Street at Dawn — Big Plate Village</text>
+</svg>
+</svg>

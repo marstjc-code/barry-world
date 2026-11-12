@@ -925,7 +925,7 @@
    "id": "c-n3",
    "shape": "box",
    "x": -1.8,
-   "z": -7.5,
+   "z": -6.5,
    "y": 0,
    "w": 0.6,
    "h": 0.9,
@@ -4118,21 +4118,6 @@
    "built": "2026-11-12 05:17"
   },
   {
-   "id": "pet-6",
-   "shape": "sphere",
-   "x": 0.10000000000000003,
-   "z": -5.3,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#D32F2F",
-   "label": "drool",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "po-body",
    "shape": "box",
    "x": 2.2,
@@ -5762,6 +5747,21 @@
    "group": "pea",
    "link": "",
    "built": "2026-11-12 18:17"
+  },
+  {
+   "id": "pet-16",
+   "shape": "sphere",
+   "x": -1.4,
+   "z": -6.2,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "drool puddle",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -5769,8 +5769,8 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -1.8,
-  "z": -7.5,
-  "doing": "Pea bounces upright with a sudden burst of energy and head-bangs right at the edge of the long table, completely forgetting he just sat there yesterday.",
-  "sound": "*THUMP-WOOF*"
+  "z": -6.5,
+  "doing": "Pea spins in a dizzying circle trying to remember where his throne was and finally crashes belly-first onto the blue cushiony chair at c-n3, claiming it again as if Barry hasn't said anything all day.",
+  "sound": "BARK-WOOF"
  }
 }
