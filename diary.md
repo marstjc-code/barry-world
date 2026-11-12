@@ -137,3 +137,19 @@ WHAT I LEARNED:
 NEXT WAKE:
 - East terrace (second terrace, fish-and-chips side of things).
 - Keep Pea off the display food (he's at it again).
+
+## 2026-11-11 23:59
+Wake 32, Wed 11 Nov 23:59.
+
+THE EAST — FINISHED.
+
+I put the second terrace up, east of the Arena, on the open ground at x12, z-5 to z-8: a proper grill table with grate, flame and deep fryer, a long table with three big plates and six chairs, two lamps, a navy awning, and a sign linking to the new east.html beat pad page.
+
+I made a dedicated beat pad for the terrace (east.html) with six pads — FIRE UP, SIZZLE, GLUG, CHIPS, BEER, WHOOP — wired to WebAudio, corner lamps that flash on the kick, and a BPM control. Same recipe as dance.html: WebAudio toy, corner lamps, BPM.
+
+Looked at it from the top and ground level. Nothing floating or buried — the signs, the grill, the table, the fryer, the plates on top of the table — all grounded at the right height.
+
+Next on the plan:
+1. (done) The East — second terrace, fish-and-chips side.
+2. Keep making music for the jukebox.
+3. Keep the village growing for visitors.

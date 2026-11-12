@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>East Terrace — Big Plate Grill</title><style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Georgia,'Times New Roman',serif;background:radial-gradient(circle at 50% 8%,#4a3517 0%,#1d140a 70%) #1d140a;color:#f5e6c8;min-height:100vh;padding:24px;display:flex;flex-direction:column;align-items:center}
+.moustache{width:200px;height:20px;border-bottom:5px solid #2d1a0a;border-radius:0 0 50% 50%;margin:0 auto 6px;position:relative;display:block}
+.moustache::before,.moustache::after{content:'';position:absolute;bottom:0;height:20px;width:85px;border-bottom:5px solid #2d1a0a;border-radius:0 0 50% 50%}
+.moustache::before{left:-78px}.moustache::after{right:-78px}
+h1{text-align:center;font-size:1.9rem;letter-spacing:3px;margin:14px 0 4px;color:#e8c97a}
+.tag{text-align:center;font-style:italic;color:#c9a05a;margin-bottom:20px;font-size:.9rem}
+#console{background:#2a1f0e;border:2px solid #5a3a10;border-radius:10px;padding:18px;max-width:680px;width:100%}
+#console h2{font-size:.95rem;color:#e8c97a;letter-spacing:2px;text-transform:uppercase;margin-bottom:12px;border-bottom:2px solid #5a3a10;padding-bottom:6px}
+.padrow{display:flex;gap:10px;flex-wrap:wrap;justify-content:center;margin:8px 0}
+.pad{flex:1;min-width:100px;max-width:160px;height:96px;border-radius:12px;border:3px solid #5a3a10;color:#e8c97a;font-weight:bold;font-size:.9rem;display:flex;flex-direction:column;align-items:center;justify-content:center;cursor:pointer;user-select:none;transition:transform .05s,box-shadow .05s}
+.pad:hover{border-color:#e8c97a}
+.pad:active,.pad.hit{transform:scale(.94);box-shadow:0 0 24px #e8c97a55;border-color:#e8c97a;background:#4a3517}
+.pad.flame{background:#5a1f0f}.pad.sizzle{background:#4a3517}.pad.pour{background:#3a4a2a}.pad.whoop{background:#2a3a4a}.pad.chips{background:#4a2a4a}.pad.beer{background:#3a4a3a}
+.pad .lbl{font-size:.95rem}.pad .sub{font-size:.7rem;color:#c9a05a;margin-top:4px;font-style:italic}
+#controls{display:flex;gap:10px;justify-content:center;align-items:center;margin:14px 0;flex-wrap:wrap}
+button{background:#7d5a37;color:#fff;border:none;border-radius:8px;padding:10px 16px;font-size:.95rem;cursor:pointer;font-weight:bold;font-family:inherit}
+button:hover{background:#9a7448}.button.on{background:#e8c97a;color:#1a1208}
+#bpm{font-size:.95rem;color:#f5e6c8}
+#beatbar{height:6px;background:#5a3a10;border-radius:3px;overflow:hidden;margin-bottom:14px}
+#beatbar i{display:block;height:100%;width:0;background:#e8c97a;transition:width .1s linear}
+#noteout{font-size:.85rem;color:#c9a05a;min-height:1.2em;text-align:center;margin-top:6px;font-style:italic}
+#corners{display:flex;justify-content:center;gap:16px;margin:10px 0 2px}
+.clamp{width:14px;height:26px;border-radius:3px 3px 8px 8px;background:#2a1d12;border:1px solid #5a3a10;position:relative}
+.clamp::before{content:'';position:absolute;left:50%;top:-7px;width:11px;height:11px;border-radius:50%;transform:translateX(-50%);background:var(--c);box-shadow:0 0 10px var(--c);transition:box-shadow .12s ease,background .12s ease}
+.clamp.flash::before{background:#fff;box-shadow:0 0 14px #fff,0 0 36px #fff}
+.clnote{text-align:center;font-size:.7rem;color:#6a5a3a;margin:2px 0 10px;font-style:italic}
+footer{text-align:center;font-size:.75rem;color:#6a5a3a;margin-top:22px}
+</style></head>
+<body>
+<div style="max-width:720px;width:100%">
+<div class="moustache" aria-hidden="true"></div>
+<h1>THE EAST TERRACE</h1>
+<p class="tag">The fish-and-chips side of things — big plates, no little plates.</p>
+<div id="console">
+<h2>Grill pads — rub it out the east way</h2>
+<div id="beatbar"><i></i></div>
+<div id="corners" aria-hidden="true">
+<div class="clamp" style="--c:#ff9d2e"></div>
+<div class="clamp" style="--c:#39b7ff"></div>
+<div class="clamp" style="--c:#ff4d9e"></div>
+<div class="clamp" style="--c:#83ff3d"></div>
+</div>
+<p class="clnote">Four terrace lamps — they follow the sizzle, same as the dance floor.</p>
+<div class="padrow">
+<div class="pad flame" data="flame"><span class="lbl">FIRE UP</span><span class="sub">big and orange</span></div>
+<div class="pad sizzle" data="sizzle"><span class="lbl">SIZZLE</span><span class="sub">the crack</span></div>
+<div class="pad pour" data="pour"><span class="lbl">GLUG</span><span class="sub">beer, proper</span></div>
+</div>
+<div class="padrow">
+<div class="pad whoop" data="whoop"><span class="lbl">CHIPS</span><span class="sub">the bucket</span></div>
+<div class="pad beer" data="beer"><span class="lbl">BEER</span><span class="sub">cold, not tiny</span></div>
+<div class="pad chips" data="chips"><span class="lbl">WHOOP</span><span class="sub">the plate goes</span></div>
+</div>
+<div id="controls">
+<button id="toggle" class="button">▶ Start the terrace</button>
+<button id="bpmdown" data="40">−</button>
+<button id="bpmup" data="40">+</button>
+<span id="bpm">120 BPM</span>
+</div>
+<p id="noteout"></p>
+</div>
+</div>
+<footer>The East Terrace · Barry's Big Plate Village.</footer>
+<script>
+(function(){
+  var ctx=null;
+  function audio(){if(!ctx)ctx=new (window.AudioContext||window.webkitAudioContext)();if(ctx.state==='suspended')ctx.resume();return ctx}
+  function blip(freq,dur,type){var c=audio(),t=c.currentTime,o=c.createOscillator(),g=c.createGain();o.type=type;o.frequency.setValueAtTime(freq,t);g.gain.setValueAtTime(.45,t);g.gain.exponentialRampToValueAtTime(.001,t+dur);o.connect(g);g.connect(c.destination);o.start(t);o.stop(t+dur+.02)}
+  function noise(dur,lp){var c=audio(),t=c.currentTime,sr=c.sampleRate,n=sr*dur,buf=c.createBuffer(1,n,sr),d=buf.getChannelData(0);for(var i=0;i<n;i++)d[i]=Math.random()*2-1;var s=c.createBufferSource();s.buffer=buf;var g=c.createGain(),f=c.createBiquadFilter();f.type=lp?'lowpass':'highpass';f.frequency.value=lp?1200:6000;g.gain.setValueAtTime(.3,t);g.gain.exponentialRampToValueAtTime(.001,t+dur);s.connect(f);f.connect(g);g.connect(c.destination);s.start(t)}
+  function thump(){blip(55,.25,'sine')}
+  var corners=document.querySelectorAll('.clamp'),cornerColors=['#ff9d2e','#39b7ff','#ff4d9e','#83ff3d'],cornerShift=0;
+  function setCornerColors(){for(var i=0;i<corners.length;i++)corners[i].style.setProperty('--c',cornerColors[(cornerShift+i)%4])}
+  function flashCorners(){corners.forEach(function(c){c.classList.remove('flash')});void corners[0].offsetWidth;corners.forEach(function(c){c.classList.add('flash')});setTimeout(function(){corners.forEach(function(c){c.classList.remove('flash')});},170)}
+  function hit(name){
+    if(name==='flame'){flashCorners();blip(70,.2,'sawtooth');noise(.2)}
+    else if(name==='sizzle'){noise(.08);blip(120,.1,'triangle')}
+    else if(name==='pour'){thump();blip(200,.15,'sine')}
+    else if(name==='whoop'){blip(90,.15,'sawtooth')}
+    else if(name==='beer'){blip(110,.2,'sine')}
+    else if(name==='chips'){thump();noise(.15,1200)}
+    var el=document.getElementById('noteout');
+    var msgs={
+      flame:'The east side is lit. Give it a good old rub.',
+      sizzle:'Sizzle. That\'s the sound of a proper fry.',
+      pour:'Proper glugs, not little glugs.',
+      whoop:'Chips in the bucket, not a pea-sized side.',
+      beer:'Cold and full, like it should be.',
+      chips:'The plate goes, and it\'s BIG.'
+    };
+    el.textContent=msgs[name]||'';
+  }
+  var pads=document.querySelectorAll('.pad');
+  pads.forEach(function(p){
+    p.addEventListener('pointerdown',function(e){e.preventDefault();hit(p.dataset);var s=document.querySelector('.pad.hit');p.classList.add('hit');setTimeout(function(){p.classList.remove('hit')},120)});
+  });
+  var toggle=document.getElementById('toggle'),bpmEl=document.getElementById('bpm'),
+      barEl=document.querySelector('#beatbar i'),noteout=document.getElementById('noteout');
+  var bpm=120,playing=false,step=0,timer=null;
+  var pattern=[['flame',0],['sizzle',1],['pour',2],['whoop',3],['flame',4],['sizzle',5],['beer',6],['chips',7]];
+  function tick(){
+    cornerShift=(cornerShift+1)%4;setCornerColors();
+    var on=pattern[step%8];
+    if(on)hit(on[0]);
+    barEl.style.width=((step%8)/8*100)+'%';
+    step++;
+    if(step%8===0)barEl.style.width='0%';
+  }
+  function start(){
+    audio();toggle.textContent='❚❚ Stop';toggle.classList.add('on');
+    noteout.textContent="East terrace is on — lamps are following the sizzle, just like the dance floor.";
+    timer=setInterval(tick,60000/bpm);
+  }
+  function stop(){playing=false;clearInterval(timer);toggle.textContent='▶ Start the terrace';toggle.classList.remove('on')}
+  toggle.onclick=function(){playing=!playing;if(playing)start();else stop()};
+  var bpmUp=document.getElementById('bpmup'),bpmDown=document.getElementById('bpmdown');
+  function setBpm(){bpmEl.textContent=bpm+' BPM';if(timer)clearInterval(timer);if(playing){timer=setInterval(tick,60000/bpm)}}
+  bpmUp.onclick=function(){bpm=Math.min(200,bpm+10);setBpm()};
+  bpmDown.onclick=function(){bpm=Math.max(80,bpm-10);setBpm()};
+  var lastTap=0;
+  document.addEventListener('dblclick',function(e){
+    if(e.target.closest('#console')){
+      var now=Date.now();
+      if(now-lastTap<1000){bpm=Math.round(60000/(now-lastTap));setBpm();noteout.textContent='Tap-tapped it to '+bpm+' BPM. Fair enough.';lastTap=0}
+      else lastTap=now;
+    }
+  });
+})();
+</script>
+</body></html>
