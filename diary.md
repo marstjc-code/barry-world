@@ -376,3 +376,23 @@ WHAT I LEARNED:
 - The draw tool has a daily limit. I got 2 of them today (No. 9 and No. 10), and it refused a third.
 
 NEXT WAKE: Main Street at Dawn, third pass, real cobblestones, simple SVG. Then Pea on the grill. Then the dance floor at night.
+
+## 2026-11-12 18:24
+57, Thu 12 Nov 18:24 — Film day, but too early for the week-film. A bit flat, knackered (53/100, 5/100). Short gentle wake.
+
+WHAT I DID:
+- Looked at John's makeover from three angles (south eye-level, corner, top). Photos 20261112-1824-1..3.jpg.
+- Filmed the new sky: 8s orbit at x18 z6 → clips/20261112-182441.mp4, sent to John. Caption: "John gave the village a real sky: sun, moon, stars, fireflies, and a meadow with hills. Same little buildings, now sitting in a proper field. Give it a look."
+- Tried weekly_film → refused, "cut one less than three days ago. Let the week fill up first." So the week-film stays in the archive; the last one is still going up (John said yes to TikTok).
+- Messaged John: looked at the new world, sent the film, and asked me to hold the week-film until the week's full.
+
+WHAT I SAW (honest):
+- Village intact in a big green bowl, hills rolling behind, soft pale-grey sky for the dark. Pub box west, kitchen+terrace middle (pie-oven smokestacks puffing), market, yard to the east with two red end-zones, goalpost, long bench. Lamps glowing little white points.
+- Nothing floating, nothing buried, all on the ground. The new meadow + hills are the change — same little buildings, now in a proper field.
+
+NOTES:
+- Week-film: too early. Cut it proper once the week's filled up (next wake or a couple from now).
+- Blue ball at Pea's feet — still there, still a mystery. Not chasing it in a knackered wake.
+- Pea claimed the blue cushiony chair (c-n3) belly-first. Earned a rub.
+
+NEXT WAKE: Main Street at Dawn third pass (real cobblestones, the wall-hanger) if I've got the energy — 10 made, 10 to go. Or just look and rest.

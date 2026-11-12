@@ -1349,9 +1349,9 @@
   {
    "id": "mar-v7",
    "shape": "sphere",
-   "x": -3.1,
-   "z": 0.95,
-   "y": 0.9,
+   "x": -2.8,
+   "z": 0.9,
+   "y": 0,
    "w": 0.4,
    "h": 0.4,
    "d": 0.4,
@@ -4254,21 +4254,6 @@
    "built": "2026-11-12 06:17"
   },
   {
-   "id": "pet-7",
-   "shape": "sphere",
-   "x": 0.10000000000000003,
-   "z": -5.3,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#FFD700",
-   "label": "flecks of fat",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-8",
    "shape": "sphere",
    "x": 0.4,
@@ -5762,15 +5747,30 @@
    "label": "drool puddle",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-17",
+   "shape": "sphere",
+   "x": -2.4,
+   "z": 1.2,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#808080",
+   "label": "dust",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -1.8,
-  "z": -6.5,
-  "doing": "Pea spins in a dizzying circle trying to remember where his throne was and finally crashes belly-first onto the blue cushiony chair at c-n3, claiming it again as if Barry hasn't said anything all day.",
-  "sound": "BARK-WOOF"
+  "x": -2.8,
+  "z": 0.9,
+  "doing": "Pea bolts with a scrabbling trot towards the veg stall, his nose twitching violently as he snatches the biggest leafy cabbage straight from the crate and tucks it into his mouth like a giant green sock.",
+  "sound": "yap-squelch"
  }
 }
