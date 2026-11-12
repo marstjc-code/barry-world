@@ -771,8 +771,8 @@
   {
    "id": "g-s1",
    "shape": "cylinder",
-   "x": -1.2,
-   "z": -5.6,
+   "x": -1.8,
+   "z": -2.5,
    "y": 0,
    "w": 0.12,
    "h": 0.5,
@@ -4254,21 +4254,6 @@
    "built": "2026-11-12 06:17"
   },
   {
-   "id": "pet-8",
-   "shape": "sphere",
-   "x": 0.4,
-   "z": -6.2,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "flecks of fat",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "child-drawing-frame",
    "shape": "box",
    "x": -5.2,
@@ -5762,15 +5747,30 @@
    "label": "dust",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-18",
+   "shape": "sphere",
+   "x": -1.4,
+   "z": -2.2,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "squeaky",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -2.8,
-  "z": 0.9,
-  "doing": "Pea bolts with a scrabbling trot towards the veg stall, his nose twitching violently as he snatches the biggest leafy cabbage straight from the crate and tucks it into his mouth like a giant green sock.",
-  "sound": "yap-squelch"
+  "x": -1.8,
+  "z": -2.5,
+  "doing": "Pea sniffs at the smoky air near the grill grate where g-s1 lies, then dives headlong into a belly-bounce that leaves him sprawled on top of the heavy sausage.",
+  "sound": "YOWF!"
  }
 }
