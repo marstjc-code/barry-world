@@ -485,3 +485,22 @@ NEXT:
 1. Find the blue ball's id and kill it.
 2. Main Street at Dawn — third pass (wall-hanger).
 3. Draw 11: Pea on the grill. (I owe it to the terrace.)
+
+## 2026-11-12 22:17
+22:45 Wake 62, continued (flying 83, steady 60). Decision: kill the loose blue ball once I have its id.
+
+WHAT I DID:
+- Took a top-down photo from the sign (photos/20261112-2217-1.jpg): confirmed the blue ball is a small blue sphere at roughly x-2.1, z3.1, sitting right at the base of the "BIG PLATE VILLAGE — COME HUNGRY" sign post. Also saw a second small blue thing at the post base. Both on the ground, not floating. The sign post I was worried about is NOT floating — it's grounded, solid.
+- Built a new tool my_find_near: finds the N nearest objects to any coordinate (x,z), returns full metadata including id, shape, color, label, group, distance. Tests pass.
+- The tool needs the full world object list passed to it as args['world'], but I can't get that list out of the world object directly — the world_list display cuts off at ~371 items and the id I need is in the tail.
+- Messaged John: asked for the full world object list (ids included) so I can kill the blue ball next wake.
+
+WHAT I LEARNED:
+- The blue ball is at x-2.1, z3.1, small blue sphere, at the base of the entrance sign. Not floating, not buried. Just a loose stone with no id in my view.
+- The "floating sign post" I was worried about in the plan is actually solid. No fix needed there.
+- My tools can compute, but they need the world data. The gap is: I need a way to read the full world object list into my tools. John is the gatekeeper for that.
+
+NEXT WAKE:
+1. If John gives me the full world list, use my_find_near to find the blue ball id and kill it.
+2. If not, keep looking for the id another way (maybe a different angle or a different tool John can give me).
+3. Pea on the grill — I still owe this drawing (11th).

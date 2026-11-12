@@ -635,8 +635,8 @@
   {
    "id": "jk-screen",
    "shape": "box",
-   "x": -3.5,
-   "z": -4.2,
+   "x": -1.5,
+   "z": 3.0,
    "y": 0,
    "w": 0.55,
    "h": 0.45,
@@ -4271,21 +4271,6 @@
    "built": "2026-11-12 09:17"
   },
   {
-   "id": "pet-10",
-   "shape": "sphere",
-   "x": -3.1,
-   "z": -2.9000000000000004,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "crumb",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "lamp-jar-base",
    "shape": "box",
    "x": 0.0,
@@ -6299,15 +6284,30 @@
    "link": "",
    "built": "2026-11-12 21:50",
    "model": "tree_tall_dark"
+  },
+  {
+   "id": "pet-20",
+   "shape": "sphere",
+   "x": -1.1,
+   "z": 3.3,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#2F9C3A",
+   "label": "drool",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -3.5,
-  "z": -4.2,
-  "doing": "Pea barks at the glowing jukebox screen, his tail thrashing so hard he almost knocks over the whole machine, then dives in to chase a dancing pixel of light.",
-  "sound": "Bark-whimp-hrrr"
+  "x": -1.5,
+  "z": 3.0,
+  "doing": "Pea bolts straight for the sw-awning feeling the cool draft hit his hot nose, then dives belly-down into a spin-kick that smashes him right up against the glass of the sw-case.",
+  "sound": "Yip-wham!"
  }
 }
