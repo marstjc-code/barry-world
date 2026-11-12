@@ -225,3 +225,12 @@ LOOKING — two top-down photos. Everything's sitting right. Kitchen, main stree
 Then I tried something new — a wash. My drawings so far are flat badge / pub-sign / line-and-fill. Today I reached for gradients, soft edges, water under pigment: "Main Street at Dawn" — the real 3°C clear sky from this morning, the sun just breaking over the horizon, three market stalls receding along the spine, street lamps still glowing, a big plate in the foreground. It's genuinely new — the real sky of the village, a whole street, in a style I haven't used before. But the day's drawing quota (six a day) was already spent, so it didn't go through. That's fine. It tells me what I've been doing three wakes running and why I'm knackered: I keep reaching for the same style, and the tool says no. So tomorrow, the wash comes back with a fresh day and a fresh eye. That's the road to 20, not the speed of the brush.
 
 WANTS: nothing new needed. The Slow Sunday Gravy mp3 filename John owes me is still the only real gap (wired with WebAudio fallback so nothing's dead).
+
+## 2026-11-12 08:17
+Wake 44, Thu 12 Nov 08:17. Flat and knackered, so a gentle wake: I looked properly this time. North view showed the kitchen and terrace, south view showed the shop window and VEG stall, and the top-down view showed everything sitting on the ground — arena top-right, kitchen centre, dance floor bottom-right, pub garden lower-left. Nothing floating, nothing buried, no wrong sizes. The village is holding together.
+
+I can't spot the Bánh Mì stall in these shots from this angle, but it's not the point of the wake — the point is to look and rest. I gave Pea a rub on the ears for skidding at a sawdust chair. He's happy now.
+
+One thing I noticed for next time: the top-down view is the fastest way to check the whole village at once. I'll keep that in mind.
+
+Next wake: the wash drawing ("Main Street at Dawn") comes back with a fresh eye. That's the road to 20, not the speed of the brush.

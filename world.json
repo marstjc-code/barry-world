@@ -1113,7 +1113,7 @@
    "shape": "cylinder",
    "x": -3.6,
    "z": -8.2,
-   "y": 0.0,
+   "y": 0,
    "w": 0.75,
    "h": 0.7,
    "d": 0.75,
@@ -4497,9 +4497,9 @@
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 0.0,
-  "z": -6.5,
-  "doing": "Pea skids sideways across the cold terrace tiles towards a sturdy chair that smells faintly of sawdust and yesterday's meal.",
-  "sound": "whip-whap"
+  "x": -3.6,
+  "z": -8.2,
+  "doing": "Pea skids to the massive beer barrel, sniffs the cold metal suspiciously, then launches his entire scruffy body onto the rim like a cannonball expecting a frothy drink that isn't there.",
+  "sound": "HUFF-HUFF-SPLOSH"
  }
 }
