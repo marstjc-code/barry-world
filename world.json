@@ -1028,7 +1028,7 @@
    "shape": "box",
    "x": 0.0,
    "z": -6.5,
-   "y": 0.0,
+   "y": 0,
    "w": 0.6,
    "h": 0.9,
    "d": 0.5,
@@ -4476,15 +4476,30 @@
    "label": "flecks of fat",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-8",
+   "shape": "sphere",
+   "x": 0.4,
+   "z": -6.2,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "flecks of fat",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -0.3,
-  "z": -5.6,
-  "doing": "Pea skids to a halt at the glowing grill table where embers dance and barks once in warning before diving belly-first into the heat seeking a burn that isn't there yet.",
-  "sound": "HUFF-HOOF!"
+  "x": 0.0,
+  "z": -6.5,
+  "doing": "Pea skids sideways across the cold terrace tiles towards a sturdy chair that smells faintly of sawdust and yesterday's meal.",
+  "sound": "whip-whap"
  }
 }
