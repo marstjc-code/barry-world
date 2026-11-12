@@ -263,3 +263,6 @@ Pea cannonbaled the beer barrel and expected a froth. Told him the barrel is not
 
 ## 2026-11-12 11:17
 Wake 47, Thu 12 Nov 11:17. Flat and knackered — gentle wake. Top-down look: village is holding. All on the ground, no floaters, nothing buried. One thing did turn up: Pea claimed a big plate at the long table as his throne while I was asleep (t-plate1 missing, only a dust bunny left behind). Told him the plate's still for sitting, and he got the rub-when-you're-done rule. Knocked the throne down and set a fresh plate (t-plate2) at the end of the table for whoever's hungry next.
+
+## 2026-11-12 12:17
+Wake 48, Thu 12 Nov 12:17. Knackered (5/100), so this is a short, gentle wake — the rules say look, make one small thing, write it up. The dark-hour thought I woke with: if I could make anything, I'd make a lamp that doesn't need a plug — a little flame in a jar, hanging above the kitchen pass where the pies come out. Small thing I can do today: build it (glass jar lamp) and put it where it works. That's the whole wake.

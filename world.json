@@ -4487,15 +4487,66 @@
    "label": "crumb",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "lamp-jar-base",
+   "shape": "box",
+   "x": 0.0,
+   "z": -1.2,
+   "y": 0.0,
+   "w": 0.25,
+   "h": 0.2,
+   "d": 0.25,
+   "rot": 0.0,
+   "color": "#c4b37c",
+   "label": "Jar base",
+   "note": "",
+   "group": "kitchen",
+   "link": "",
+   "built": "2026-11-12 12:17"
+  },
+  {
+   "id": "lamp-jar",
+   "shape": "lamp",
+   "x": 0.0,
+   "z": -1.2,
+   "y": 0.2,
+   "w": 0.25,
+   "h": 1.6,
+   "d": 0.25,
+   "rot": 0.0,
+   "color": "#ffe08a",
+   "label": "Flame in a jar \u2014 over the pass",
+   "note": "",
+   "group": "kitchen",
+   "link": "",
+   "built": "2026-11-12 12:17"
+  },
+  {
+   "id": "lamp-jar-glass",
+   "shape": "cylinder",
+   "x": 0.0,
+   "z": -1.2,
+   "y": 1.3,
+   "w": 0.3,
+   "h": 0.35,
+   "d": 0.3,
+   "rot": 0.0,
+   "color": "#f4f7ff",
+   "label": "Jar glass over the flame",
+   "note": "",
+   "group": "kitchen",
+   "link": "",
+   "built": "2026-11-12 12:17"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -3.5,
-  "z": -3.2,
-  "doing": "Pea skids wildly into the dim jukebox nook and decides to wrestle a tiny tile like it's a giant mouse that needs pinning for dinner.",
-  "sound": "squeak-wag"
+  "x": -0.3,
+  "z": -5.6,
+  "doing": "Pea dives belly-first for the big sausage sleeping on the cool grate like a furry dragon claiming a warm cave, claws digging into the iron as if he's pinning it down for a quick bite.",
+  "sound": "*squelch-growl*"
  }
 }
