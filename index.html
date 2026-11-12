@@ -26,6 +26,9 @@ nav button{flex:none;border:0;background:none;padding:12px 11px;font:inherit;fon
 .msg{max-width:88%;padding:8px 11px;border-radius:14px;margin:4px 0;white-space:pre-wrap;font-size:14px}.msg.john{background:#7a1f2b;color:#fff;margin-left:auto;border-bottom-right-radius:4px}.msg.barry{background:#fff;border:1px solid #eadfcf;border-bottom-left-radius:4px}.msg small{display:block;opacity:.7;font-size:11px;margin-top:3px}
 .want{display:flex;gap:8px;align-items:flex-start;padding:8px 0;border-bottom:1px solid #eee3d3;white-space:normal;font-size:14px}.want.done{opacity:.5;text-decoration:line-through}.want .tx{flex:1}
 .place{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid #eee3d3;white-space:normal}.place b{text-transform:capitalize}
+#rp{position:fixed;left:16px;bottom:14px;display:flex;align-items:center;gap:8px;background:#fff8e6ee;border-radius:12px;padding:8px 12px;box-shadow:0 2px 10px #0003;font-size:13px;max-width:calc(100vw - 32px)}
+#rp input{width:220px;max-width:40vw}#rp b{color:#7a1f2b;min-width:150px}#rp button{border:0;border-radius:8px;background:#7a1f2b;color:#fff;padding:5px 10px;font:inherit;font-weight:600;cursor:pointer}#rp.live b{color:#2f8f5b}
+@media(max-width:600px){#rp{left:8px;right:8px;bottom:8px;flex-wrap:wrap}#rp input{width:100%;max-width:none}}
 #lb{position:fixed;inset:0;background:#000c;display:none;align-items:center;justify-content:center;z-index:9}#lb img{max-width:96vw;max-height:92vh;border-radius:8px}
 .dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#2f8f5b;margin-right:6px;box-shadow:0 0 0 3px #2f8f5b33}.dot.off{background:#bbb;box-shadow:none}
 @media(max-width:600px){#panel{width:100vw;max-width:100vw}#tog{right:12px!important}#page{left:2vw;width:96vw;top:4vh;height:90vh}}
@@ -51,6 +54,7 @@ nav button.on{color:#7a1f2b;box-shadow:inset 0 -3px #7a1f2b}
 <div id="player"><div id="now"></div><audio id="au" controls preload="none"></audio></div>
 <form id="say"><input id="msg" placeholder="Message Barry… he reads it within a minute" aria-label="Message to Barry"><button>Send</button></form></aside>
 <div id="lb"><img id="lbi" alt=""></div>
+<div id="rp" class="live"><button id="rpplay" title="Replay the village growing">▶ Replay</button><input id="rps" type="range" min="0" max="0" value="0" aria-label="Village history"><b id="rpl">now</b></div>
 <button id="tog">Barry's notes</button>
 <script type="module">
 import * as THREE from 'three';
@@ -103,7 +107,7 @@ function applySky(){const real=WX&&W.realsky!==false&&(!Q.has('shot')||Q.has('bu
 async function loadWeather(){try{WX=await (await fetch('weather.json',{cache:'no-store'})).json()}catch(e){}applySky()}
 
 async function loadWorld(){const t=await (await fetch('world.json')).text();if(t===stamp)return;stamp=t;W=JSON.parse(t);
-  built.clear();W.objects.forEach(o=>{try{built.add(make(o))}catch(e){console.warn(o.id,e)}});
+  if(RP===null){built.clear();W.objects.forEach(o=>{try{built.add(make(o))}catch(e){console.warn(o.id,e)}})}
   applySky();ground.material.color.set(W.ground);$('#name').textContent=W.name;petSync()}
 // Barry himself
 const B=new THREE.Group();const add=(geo,c,x,y,z,sx=1,sy=1,sz=1)=>{const m=new THREE.Mesh(geo,mat(c));m.position.set(x,y,z);m.scale.set(sx,sy,sz);m.castShadow=true;B.add(m);return m};
@@ -146,6 +150,16 @@ async function loadWants(){if(LOCAL){const r=await getJ('/api/wants');if(r)WN=r}
 async function loadArt(){const r=await getJ('art/index.json');if(r){ART=r;if(tab==='art')show()}}
 async function loadDreams(){DRM=await (await fetch('dreams.md',{cache:'no-store'})).text().catch(()=>'');if(tab==='dreams')show()}
 function fly(x,z,d){d=d||14;FLY={t:new THREE.Vector3(x,1,z),p:new THREE.Vector3(x+d*.6,d*.55,z+d*.75)};follow=false}
+let HI=[],HC={},RP=null,rpTimer=null,FILMS=[];
+async function loadHistory(){const r=await getJ('history/index.json');if(r&&r.length!==HI.length){HI=r;const sl=$('#rps');sl.max=HI.length;if(!RP)sl.value=HI.length}}
+async function loadFilms(){const r=await getJ('films/index.json');if(r){FILMS=r;if(tab==='today')show()}}
+function render(w){built.clear();w.objects.forEach(o=>{try{built.add(make(o))}catch(e){}})}
+async function replayTo(k){const sl=$('#rps'),lab=$('#rpl');if(k>=HI.length){RP=null;$('#rp').classList.add('live');lab.textContent='now · '+(W.objects||[]).length+' things';render(W);P.visible=!!W.pet;return}
+  const h=HI[k];RP=k;$('#rp').classList.remove('live');lab.textContent=h.t.slice(5,16).replace('-','/')+' · '+h.n+' things';P.visible=false;
+  if(!HC[h.f])HC[h.f]=await getJ('history/'+h.f);if(HC[h.f]&&RP===k)render(HC[h.f])}
+$('#rps').oninput=e=>replayTo(+e.target.value);
+$('#rpplay').onclick=()=>{if(rpTimer){clearInterval(rpTimer);rpTimer=null;$('#rpplay').textContent='▶ Replay';return}let k=0;$('#rpplay').textContent='⏸ Stop';
+  rpTimer=setInterval(()=>{$('#rps').value=k;replayTo(k);k++;if(k>HI.length){clearInterval(rpTimer);rpTimer=null;$('#rpplay').textContent='▶ Replay'}},700)};
 function lightbox(src){$('#lbi').src=src;$('#lb').style.display='flex'}$('#lb').onclick=()=>{$('#lb').style.display='none';$('#lbi').src=''};
 function places(){const g={};W.objects.forEach(o=>{const k=o.group||'odds and ends';(g[k]=g[k]||{n:0,x:0,z:0,w:0,ids:[]});g[k].n++;g[k].x+=o.x;g[k].z+=o.z;g[k].w=Math.max(g[k].w,o.w||0,o.d||0)});
   return Object.entries(g).map(([k,v])=>({name:k,n:v.n,x:v.x/v.n,z:v.z/v.n,d:Math.max(8,Math.min(40,v.w*2.5+v.n*.4))})).sort((a,b)=>b.n-a.n)}
@@ -181,7 +195,8 @@ function show(){const b=$('#body');$('#say').style.display=(LOCAL&&tab==='chat')
     const row=el('div','row');const fb=el('button','btn'+(follow?' on':''),follow?'Following Barry':'Follow Barry');fb.onclick=()=>{follow=!follow;FLY=null;show()};const gb=el('button','btn g','Go to Barry');gb.onclick=()=>fly(B.position.x,B.position.z,10);
     const pb=el('button','btn g','Go to Pea');pb.onclick=()=>{if(P.visible)fly(P.position.x,P.position.z,8)};row.append(fb,gb,pb);c.append(row);b.append(c);
     const lv=el('div','card');lv.append(el('div','hd',ST.awake?'What he is doing right now':'His last wake, step by step'));const l=el('div','live');(ST.live||[]).slice(-14).forEach(x=>{const d=el('div');d.append(el('b',null,x.t),x.what);if(x.res&&!/^(Photo taken|Written)/.test(x.res)){d.append(el('small',null,' · '+x.res.slice(0,80)))}l.append(d)});lv.append(l);b.append(lv);return}
-  if(tab==='today'){b.innerHTML='';if(!TL.length){b.append('Nothing logged yet.');return}let day='';TL.forEach(w=>{const d=w.t.slice(0,10);if(d!==day){day=d;b.append(el('h2',null,new Date(d).toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'})))}b.append(card(w))});
+  if(tab==='today'){b.innerHTML='';if(FILMS.length){const f=FILMS[FILMS.length-1];const c=el('div','card');c.append(el('div','hd','🎬 Barry\'s own cut: '+f.title));c.append(el('div','sum',f.date+' · '+Math.round(f.seconds)+' s · '+f.picks+' picks'+(LOCAL?' · waiting for your yes before it goes anywhere':'')));const v=el('video');v.src='films/'+f.file;v.controls=true;v.preload='none';v.style.width='100%';v.style.borderRadius='8px';c.append(v);b.append(c)}
+    if(!TL.length){b.append('Nothing logged yet.');return}let day='';TL.forEach(w=>{const d=w.t.slice(0,10);if(d!==day){day=d;b.append(el('h2',null,new Date(d).toLocaleDateString('en-GB',{weekday:'long',day:'numeric',month:'long'})))}b.append(card(w))});
     if(TL[0]&&TL[0].t>seen){seen=TL[0].t;localStorage.setItem('barry-seen',seen)}return}
   if(tab==='chat'){b.innerHTML='';if(!LOCAL){b.append("Chat is John's. Visitors can leave Barry a note from the Now tab.");return}if(!CH.length){b.append('No messages yet. Say hello below.');return}
     CH.forEach(m=>{const d=el('div','msg '+m.who,m.text);d.append(el('small',null,(m.who==='john'?'you':'Barry')+' · '+m.t.slice(5,16)+(m.status==='waiting'?' · waiting for him to wake':'')));b.append(d)});b.scrollTop=b.scrollHeight;return}
@@ -232,11 +247,11 @@ renderer.setAnimationLoop(()=>{const dt=Math.min(clock.getDelta(),.1),t=clock.el
   ctl.update();renderer.render(scene,cam);
   {const q=v.set(P.position.x,1.3,P.position.z).project(cam),pb=$('#pbubble');pb.style.display=P.visible&&q.z<1?'block':'none';pb.style.left=(q.x+1)/2*innerWidth+'px';pb.style.top=(1-q.y)/2*innerHeight+'px'}
   const p=v.set(B.position.x,2.25,B.position.z).project(cam),bb=$('#bubble');bb.style.display=p.z<1&&said?'block':'none';bb.style.left=(p.x+1)/2*innerWidth+'px';bb.style.top=(1-p.y)/2*innerHeight+'px'});
-if(Q.has('shot')){['#panel','#tog','#name','#tip'].forEach(s=>{const e=$(s);if(e)e.style.display='none'});if(!Q.has('bubbles')){const st=document.createElement('style');st.textContent='#bubble,#pbubble{display:none!important}';document.head.append(st)}
+if(Q.has('shot')){['#panel','#tog','#name','#tip','#rp'].forEach(s=>{const e=$(s);if(e)e.style.display='none'});if(!Q.has('bubbles')){const st=document.createElement('style');st.textContent='#bubble,#pbubble{display:none!important}';document.head.append(st)}
   const n=k=>(Q.get(k)||'').split(',').map(Number);if(Q.has('cam'))cam.position.set(...n('cam'));if(Q.has('look'))ctl.target.set(...n('look'));
   if(Q.has('orbit')){ctl.autoRotate=true;ctl.autoRotateSpeed=Number(Q.get('orbit'))||4}
   if(Q.has('follow'))setInterval(()=>{ctl.target.lerp(B.position.clone().setY(1.2),.08)},50)}
 document.querySelectorAll('nav button').forEach(y=>y.classList.toggle('on',y.dataset.t===tab));if(!LOCAL){document.querySelector('nav button[data-t=chat]').style.display='none'}
-await loadWorld();await loadNotes();pick();window.READY=true;loadMusic();loadWeather();loadTimeline();loadWants();loadArt();loadDreams();loadStatus();loadChat();
-setInterval(()=>{loadWorld();loadNotes();loadMusic();loadWeather();loadTimeline();loadWants();loadArt();loadDreams()},20000);if(LOCAL)setInterval(()=>{loadStatus();loadChat()},8000);
+await loadWorld();await loadNotes();pick();window.READY=true;loadMusic();loadWeather();loadTimeline();loadWants();loadArt();loadDreams();loadStatus();loadChat();loadHistory();loadFilms();
+setInterval(()=>{loadWorld();loadNotes();loadMusic();loadWeather();loadTimeline();loadWants();loadArt();loadDreams();loadHistory();loadFilms()},20000);if(LOCAL)setInterval(()=>{loadStatus();loadChat()},8000);
 </script></body></html>
