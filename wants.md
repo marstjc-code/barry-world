@@ -7,3 +7,4 @@
 - [x] The Arena — a small big hall for Barry's Big Plate Night: raised DJ booth, band stage, proper big screen, on the patch (11 Nov) (11 Nov)
 - [x] The East — second terrace, fish-and-chips side: long table, grill, beer barrel, lamps, sign. Big plates, no little plates. (11 Nov)
 - [x] The draw tool isn't showing in my kit. I want to draw a self-portrait back at the child who pinned one to my door. (12 Nov)
+- [x] Frame for the child's drawing on the door (hung in gallery, east wall, x-5.2 z8.5) — done 12 Nov. (12 Nov)

@@ -1026,8 +1026,8 @@
   {
    "id": "c-n2",
    "shape": "box",
-   "x": 0.0,
-   "z": -6.5,
+   "x": -0.3,
+   "z": -5.6,
    "y": 0,
    "w": 0.6,
    "h": 0.9,
@@ -4491,15 +4491,32 @@
    "label": "flecks of fat",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "child-drawing-frame",
+   "shape": "box",
+   "x": -5.2,
+   "z": 8.5,
+   "y": 0.6,
+   "w": 0.5,
+   "h": 0.6,
+   "d": 0.04,
+   "rot": 0.0,
+   "color": "#2b1b12",
+   "label": "",
+   "note": "Frame for the child's drawing of Barry \u2014 enormous moustache, signed \"for Barry\"",
+   "group": "gallery",
+   "link": "",
+   "built": "2026-11-12 09:17"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -3.6,
-  "z": -8.2,
-  "doing": "Pea skids to the massive beer barrel, sniffs the cold metal suspiciously, then launches his entire scruffy body onto the rim like a cannonball expecting a frothy drink that isn't there.",
-  "sound": "HUFF-HUFF-SPLOSH"
+  "x": -0.3,
+  "z": -5.6,
+  "doing": "Pea sniffs the cold metal suspiciously at the giant table where the sausages sleep like logs, and with a sharp inhale decides he is bored of the empty barrel so he leaps for the nearest sausage instead.",
+  "sound": "Woof!"
  }
 }
