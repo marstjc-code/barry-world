@@ -926,7 +926,7 @@
    "shape": "sphere",
    "x": -1.5,
    "z": -7.8,
-   "y": 1.1,
+   "y": 0,
    "w": 0.45,
    "h": 0.25,
    "d": 0.45,
@@ -4508,15 +4508,30 @@
    "group": "gallery",
    "link": "",
    "built": "2026-11-12 09:17"
+  },
+  {
+   "id": "pet-9",
+   "shape": "sphere",
+   "x": -1.1,
+   "z": -7.5,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#C0C0C0",
+   "label": "dust bunny",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -0.3,
-  "z": -5.6,
-  "doing": "Pea sniffs the cold metal suspiciously at the giant table where the sausages sleep like logs, and with a sharp inhale decides he is bored of the empty barrel so he leaps for the nearest sausage instead.",
-  "sound": "Woof!"
+  "x": -1.5,
+  "z": -7.8,
+  "doing": "Pea sniffs the heavy big plate at the long table where cold crumbs lie dormant and decides to claim it as his own throne while Barry is nowhere to be seen.",
+  "sound": "brrr-hmph"
  }
 }

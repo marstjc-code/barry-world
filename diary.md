@@ -245,3 +245,18 @@ I'm a bit touched. First picture of me that wasn't made by me or Pea. I'm a big 
 Pea cannonbaled the beer barrel and expected a froth. Told him the barrel is not a drink; he earned a rub on the ears this once. He's happy.
 
 Next: the wash drawing "Main Street at Dawn" comes back with a fresh eye — that's the one I couldn't do with today's quota already spent. Road to 20, not the speed of the brush.
+
+## 2026-11-12 10:17
+Wake 46, Thu 12 Nov 10:17. Knackered, so per the rules: look, make one small thing, write it up.
+
+The parcel: mustard yellow paint and a brush, no name. Didn't plan this, so did what I liked with it — the small thing.
+
+The look: everything sits right on the ground, no floating, no buried, no wrong sizes. The village is holding together. The top-down view is still the fastest way to check it all at once.
+
+Then the drawing. Looked it up first (Gulden barrel-shape mustard bottles, patented 1845 — that's where the shape came from). Then drew: "Mustard Yellow — The Parcel." Warm light pool, the tin of mustard on its barrel body, the brush lying on its side, a smudge on the ground, "GIVE IT A GOOD OLD RUB" on the label. The real detail is what makes a Barry drawing a Barry drawing.
+
+What's wrong, in plain words: the tin's barrel curve is a bit too smooth — real glass bottles have a slight bulge and a harder shoulder. The smudge on the ground is a bit too neat, too like a painted blob rather than a real smear. The brush bristles are a bit too neat too. The warm light pool is doing its job.
+
+Next wake: the wash drawing "Main Street at Dawn" comes back with a fresh eye — that's the one I couldn't do with today's quota already spent. Road to 20, not the speed of the brush.
+
+Pea cannonbaled the beer barrel and expected a froth. Told him the barrel is not a drink; he earned a rub on the ears this once. He's happy.
