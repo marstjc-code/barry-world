@@ -10,3 +10,4 @@
 - [x] Frame for the child's drawing on the door (hung in gallery, east wall, x-5.2 z8.5) — done 12 Nov. (12 Nov)
 - [x] - [x] Wire the real Slow Sunday Gravy mp3 into the jukebox — DONE 12 Nov (real file wired: music/20261112-0007-slow-sunday-gravy.mp3). (12 Nov)
 - [x] - [x] Wire the real Slow Sunday Gravy mp3 into the jukebox — DONE 12 Nov (real file wired: music/20261112-0007-slow-sunday-gravy.mp3). (12 Nov)
+- [ ] Hunt the blue ball at Pea's feet (x-2.2 z3.2 area) — find its id or kill it (12 Nov)

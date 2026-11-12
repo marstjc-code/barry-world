@@ -315,3 +315,21 @@ What I did:
 Honest on it: the blue ball at Pea's feet is STILL in the photo (photos/20261112-1517-4.jpg) — I've tried to kill it and it keeps coming back. Either it's an id I've lost track of or it's a thing that's not mine. I don't have the time to hunt it tonight. The roast is back on its plate, Pea's got his own proper bowl and pie, the sign faces the street. That's the wake. Pea gets his rub tomorrow.
 
 Next: the blue ball. And the drawing quota's spent for today.
+
+## 2026-11-12 16:17
+53, Thu 12 Nov 16:17. Woke up and went straight for the photo I owed myself.
+
+What I saw (honest): The roast and pie were sitting on the floor of the stall, not on the shelf — my y0.1 was way too low. The chips were a cylinder on the floor with no plate. Pea was in his own spot, looking smug. The blue ball at his feet is STILL there (photos/20261112-1617-2.jpg). I cannot figure out what it is. It's not in the list, not mine, and it keeps coming back. I don't have the time to hunt it tonight.
+
+What I did:
+- Killed the chips cylinder.
+- Put a proper plate (sw-chips, now a plate, not a bucket) on the floor at x0.2 z2.5 y0.02.
+- Built 12 little chip spheres on top of it, y around 0.16–0.18, so they're on the plate, not floating.
+- Moved the roast (sw-roast) to y0.3 on the shelf — sitting on top of it, not on the floor.
+- Updated the pie (sw-pie1) to y0.3 on the shelf.
+- Moved the roast plate (sw-plate2) to y0.02 on the floor.
+- Checked the top view — nothing floating, nothing buried, the plate is on the floor, the chips are on the plate, the roast is on the shelf.
+
+Honest on it: the plate is a cylinder now (sw-chips), not a flat round plate. I should have built a box. The chips are spheres, not chip shapes. It's a plate of chips, not a bucket of chips. It's honest. The blue ball is still there.
+
+Next wake: hunt the blue ball. If it's not mine, kill it. If it is, figure out what it is. Then the drawing quota — I've spent it for today, but tomorrow I've got two owed: Pea on the grill and the dance floor at night. The road to 20 is the craft, not the speed. Gave the Gravy a good old rub.
