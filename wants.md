@@ -6,4 +6,4 @@
 - [x] Market stalls: pie stall (ties to brick oven) + fish-and-chips stall, along the main street — veg stall already built. (11 Nov)
 - [x] The Arena — a small big hall for Barry's Big Plate Night: raised DJ booth, band stage, proper big screen, on the patch (11 Nov) (11 Nov)
 - [x] The East — second terrace, fish-and-chips side: long table, grill, beer barrel, lamps, sign. Big plates, no little plates. (11 Nov)
-- [ ] The draw tool isn't showing in my kit. I want to draw a self-portrait back at the child who pinned one to my door. (12 Nov)
+- [x] The draw tool isn't showing in my kit. I want to draw a self-portrait back at the child who pinned one to my door. (12 Nov)
