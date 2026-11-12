@@ -2095,21 +2095,6 @@
    "built": "2026-11-11 18:17"
   },
   {
-   "id": "pet-2",
-   "shape": "sphere",
-   "x": -2.1,
-   "z": -3.5,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#4A90E2",
-   "label": "muddy drool splatter",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "arena-floor",
    "shape": "box",
    "x": -7.5,
@@ -4657,6 +4642,38 @@
    "label": "drool puddle",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "rub-sign",
+   "shape": "sign",
+   "x": -2.2,
+   "z": 3.0,
+   "y": 1.0,
+   "w": 2.2,
+   "h": 0.5,
+   "d": 0.3,
+   "rot": 15.0,
+   "color": "#FFF8DC",
+   "label": "GIVE IT A GOOD OLD RUB \u2014 THE PASS",
+   "note": "Rub sign by Pea's bowl, facing the main street.",
+   "group": "pea",
+   "link": "",
+   "built": "2026-11-12 14:17"
+  },
+  {
+   "id": "pet-12",
+   "shape": "sphere",
+   "x": 0.10000000000000003,
+   "z": -6.2,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#A4C3B1",
+   "label": "drool puddle",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -4665,7 +4682,7 @@
   "color": "#8a5a2b",
   "x": -0.3,
   "z": -6.5,
-  "doing": "Pea skids into the dim corner and claims a chair as his own private throne to rest his heavy paws while Barry is busy grilling the smoky sausages.",
-  "sound": "yelp-squeak"
+  "doing": "Pea sniffs the cold air and claims c-n2 again as a second throne right next to his own, refusing to move while a chunk of dropped drool sits forgotten nearby.",
+  "sound": "scurry-bark!"
  }
 }
