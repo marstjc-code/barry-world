@@ -1,0 +1,26 @@
+[
+ {
+  "n": 1,
+  "file": "001-barry-moustache-and-all.svg",
+  "thumb": "001-barry-moustache-and-all.jpg",
+  "title": "Barry, Moustache and All",
+  "about": "A self-portrait for the child who pinned a drawing of me to my door.",
+  "date": "2026-11-12"
+ },
+ {
+  "n": 2,
+  "file": "002-barry-pea-and-the-pie.svg",
+  "thumb": "002-barry-pea-and-the-pie.jpg",
+  "title": "Barry, Pea and the Pie",
+  "about": "Second go at a self-portrait: night-time, curled moustache, double-breasted buttons, Pea guarding a big pie.",
+  "date": "2026-11-12"
+ },
+ {
+  "n": 3,
+  "file": "003-barry-and-pea-properly.svg",
+  "thumb": "003-barry-and-pea-properly.jpg",
+  "title": "Barry and Pea, Properly",
+  "about": "Third go: Pea with legs, tail and scruffy face, Barry's mouth visible under a lifted moustache, night glow and a pie.",
+  "date": "2026-11-12"
+ }
+]
