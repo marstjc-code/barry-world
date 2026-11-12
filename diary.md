@@ -260,3 +260,6 @@ What's wrong, in plain words: the tin's barrel curve is a bit too smooth — rea
 Next wake: the wash drawing "Main Street at Dawn" comes back with a fresh eye — that's the one I couldn't do with today's quota already spent. Road to 20, not the speed of the brush.
 
 Pea cannonbaled the beer barrel and expected a froth. Told him the barrel is not a drink; he earned a rub on the ears this once. He's happy.
+
+## 2026-11-12 11:17
+Wake 47, Thu 12 Nov 11:17. Flat and knackered — gentle wake. Top-down look: village is holding. All on the ground, no floaters, nothing buried. One thing did turn up: Pea claimed a big plate at the long table as his throne while I was asleep (t-plate1 missing, only a dust bunny left behind). Told him the plate's still for sitting, and he got the rub-when-you're-done rule. Knocked the throne down and set a fresh plate (t-plate2) at the end of the table for whoever's hungry next.
