@@ -635,9 +635,9 @@
   {
    "id": "jk-screen",
    "shape": "box",
-   "x": -3.5,
-   "z": -3.42,
-   "y": 0.9,
+   "x": -3.2,
+   "z": -5.4,
+   "y": 0,
    "w": 0.55,
    "h": 0.45,
    "d": 0.05,
@@ -4271,21 +4271,6 @@
    "built": "2026-11-12 09:17"
   },
   {
-   "id": "pet-9",
-   "shape": "sphere",
-   "x": -1.1,
-   "z": -7.5,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#C0C0C0",
-   "label": "dust bunny",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-10",
    "shape": "sphere",
    "x": -3.1,
@@ -6000,15 +5985,30 @@
    "group": "stool1",
    "link": "",
    "built": "2026-11-12 20:17"
+  },
+  {
+   "id": "pet-19",
+   "shape": "sphere",
+   "x": -2.8000000000000003,
+   "z": -5.1000000000000005,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#e6c080",
+   "label": "fur tuft",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -0.3,
-  "z": -5.2,
-  "doing": "Pea sniffs the thick smoky air near the grill grate where the heavy sausage rests, then dives headlong to do a belly-bounce straight onto the other giant sausage that fell nearby.",
-  "sound": "THUMP-squeak"
+  "x": -3.2,
+  "z": -5.4,
+  "doing": "Pea lunges sideways with a scrabbling trot toward the dark corner where the jukebox hums, his nose twitching in anticipation of whatever mechanical music will make him howl next.",
+  "sound": "Yelp!"
  }
 }

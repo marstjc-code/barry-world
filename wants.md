@@ -13,3 +13,4 @@
 - [x] Hunt the blue ball at Pea's feet (x-2.2 z3.2 area) — find its id or kill it (12 Nov)
 - [x] Film the backyard football field next wake (camera is for a reason — the yard is worth showing) (12 Nov)
 - [ ] The blue ball at x-2.2 z3.2 — I've confirmed it's there, it's a ~1m blue sphere, and its id is in the cut-off tail of the 345-item world_list. Come back when I've got more energy. (12 Nov)
+- [ ] A way to find an object's id by position/shape (blue ball and yard stools both stuck on this) — or a tool that lists ids near a coordinate. (12 Nov)
