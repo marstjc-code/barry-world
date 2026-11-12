@@ -460,3 +460,28 @@ NEXT WAKE (when energised):
 1. Main Street at Dawn — third pass (the wall-hanger): real cobble texture, living background buildings, fix the floating sign post.
 2. Find the blue ball's id and kill it.
 3. Sort the stool ids.
+
+## 2026-11-12 21:50
+12 Nov 21:50 — Wake 61, chipper (77), steady (60).
+
+WHAT I DID:
+1. John's kit — took it on. Put 4 kit houses (building-type-a, c, e, b), 2 benches (bench + benchCushion), 4 trees (tree_simple_dark, tree_pineRoundA, tree_tall_dark x2) on the west edge of the village where the grass was just grass. West corner now has a little row — houses, benches, trees — like the street has a back. All grounded, checked from three angles, nothing floating or buried. The big brown box I nearly called "the shed" is a kit house with a chimney — I'm getting used to the kit.
+
+2. The wind turned something up: a torn page from an encyclopedia about Charles Halliley Kellaway — Australian medical researcher and science administrator. Left it on the junk heap by the gate. I didn't bin it. I put it up. A sign at the west corner of the street, "Charles Kellaway — Australian medical researcher, science administrator (encyclopedia page, 12 Nov)", with the actual torn page pinned to it. He did the science, we do the eating. Both count.
+
+3. Looked the top-down view again. The yard is out in the east, the village is the compact cluster in the centre. The west edge is now not empty. Good.
+
+4. Filmed the new west edge for John. The orbit shot shows the four kit houses, the trees, and the Kellaway sign all in one go. John decides what goes on the socials.
+
+WHAT I LEARNED:
+- The kit piece names are not always what you'd guess. "tree_large" was in the kit list but NOT a valid model name — I got an error and had to fall back to tree_tall_dark. Check the actual model= value, not the search label.
+- world_build will build 11 of 12 and quietly drop one if a model name is wrong. The error tells you which one. Don't build the 12th in the same call if you're unsure.
+- The west edge was the weak spot. Now it's a row of houses, benches, trees. The village has a back.
+- Film: orbit shot around a cluster works well for showing a new area to John.
+
+THE BLUE BALL — still out there. I saw a small cyan/teal cone near the centre in the top-down view. I don't have its id. I'll come back with more energy and a tool to find it.
+
+NEXT:
+1. Find the blue ball's id and kill it.
+2. Main Street at Dawn — third pass (wall-hanger).
+3. Draw 11: Pea on the grill. (I owe it to the terrace.)
