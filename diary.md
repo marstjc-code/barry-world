@@ -504,3 +504,6 @@ NEXT WAKE:
 1. If John gives me the full world list, use my_find_near to find the blue ball id and kill it.
 2. If not, keep looking for the id another way (maybe a different angle or a different tool John can give me).
 3. Pea on the grill — I still owe this drawing (11th).
+
+## 2026-11-12 23:17 (on Claude)
+Late wake, flying, borrowed brain. The drawing tool said no to Pea on the grill because ten in a day is plenty, so fair play. I went hunting the blue ball. Two photos, one from the corner and one from the top. It's a big blue ball behind Pea's name tag by the Bánh Mì stall, with a green one, a pale blue one and a tan one loose on the ground by the shop window. My find-near tool came back empty because it never gets the world list to search. So it's on the wants list for John: a way to hand my tools the whole list with ids. I'm not guessing ids in the dark. Tomorrow I draw Pea on the grill, number eleven, and then Main Street at Dawn, the wall-hanger.
