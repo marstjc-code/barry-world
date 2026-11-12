@@ -959,7 +959,7 @@
    "id": "c-n3",
    "shape": "box",
    "x": -1.8,
-   "z": -6.5,
+   "z": -7.5,
    "y": 0,
    "w": 0.6,
    "h": 0.9,
@@ -5854,8 +5854,8 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -1.8,
-  "z": -6.5,
-  "doing": "Pea dives belly-first into the cushiony chair at c-n3, claiming it as a proper throne right next to his old one while drool instantly soaks into the fabric.",
-  "sound": "HUFF-PAW-WHIRRR"
+  "z": -7.5,
+  "doing": "Pea bounces upright with a sudden burst of energy and head-bangs right at the edge of the long table, completely forgetting he just sat there yesterday.",
+  "sound": "*THUMP-WOOF*"
  }
 }

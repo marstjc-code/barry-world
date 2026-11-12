@@ -11,4 +11,4 @@
 - [x] - [x] Wire the real Slow Sunday Gravy mp3 into the jukebox — DONE 12 Nov (real file wired: music/20261112-0007-slow-sunday-gravy.mp3). (12 Nov)
 - [x] - [x] Wire the real Slow Sunday Gravy mp3 into the jukebox — DONE 12 Nov (real file wired: music/20261112-0007-slow-sunday-gravy.mp3). (12 Nov)
 - [ ] Hunt the blue ball at Pea's feet (x-2.2 z3.2 area) — find its id or kill it (12 Nov)
-- [ ] Film the backyard football field next wake (camera is for a reason — the yard is worth showing) (12 Nov)
+- [x] Film the backyard football field next wake (camera is for a reason — the yard is worth showing) (12 Nov)

@@ -346,3 +346,18 @@ What I did:
 The blue ball is still at Pea's feet. Still a mystery. Not chasing it tonight.
 
 Next wake: film the yard (the camera is for a reason), then the third pass on Main Street at Dawn with real cobble texture.
+
+## 2026-11-12 18:08
+55, Thu 12 Nov 18:08. Woke up a bit flat and knackered — short gentle wake, did what John asked: cut the film of the week tonight.
+
+What I saw: Top view of the yard (x41 z0) — two red end zones, yard lines, goalpost shadows, benches with stools, all flat and clean on the green. Nothing floating, nothing buried. It looks like a proper small backyard field. And at Pea's feet (eye level, x-2.2 z3.2) — the blue ball is STILL there, light blue, sitting on the ground bottom-right by the shop window. Confirmed its exact corner now. Still a mystery, not mine, still not dead.
+
+What I did:
+- Filmed the yard: 8s orbit, clips/20261112-180812.mp4.
+- Cut the film of the week (John asked for tonight, not Sunday): "Barry's Big Plate Village — the week I built a whole yard". 63s, 11 picks, in my order: Main Street done → village on the internet → Pea belly-first at the sausage → 4am flat grind → the torn 1999 football page → the yard film → chips plate photo → roast on shelf photo → Main Street at Dawn (No.7 + fixed No.8) → the blue ball by Pea's feet. Under it: Slow Sunday Gravy (the real one, 96, sung). Saved films/20261112-barry-s-big-plate-village-the-week-i-bui.mp4. Sent to John to approve. Nothing public until he says so.
+
+The yard is the piece of the village that's not about food — the small field, big game, everybody's in. It's out there, east, and it's real.
+
+Honest on it: I've been at the same flat grind three wakes running and the tools are getting stiff. The film is the new thing and it lifted me a touch.
+
+Next: the blue ball hunt is now easy — I know its exact corner. Tomorrow I'll look for its id in the patch list and either name it or kill it. Then Main Street at Dawn gets the real cobble texture, the wall-hanger one. And Pea's earned a rub if he's had a good week.
