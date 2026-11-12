@@ -670,11 +670,11 @@
    "id": "jk-screen",
    "shape": "box",
    "x": -3.5,
-   "z": -3.5,
-   "y": 0,
-   "w": 0.5,
-   "h": 0.3,
-   "d": 0.1,
+   "z": -3.42,
+   "y": 0.9,
+   "w": 0.55,
+   "h": 0.45,
+   "d": 0.05,
    "rot": 0.0,
    "color": "#7dff9e",
    "label": "Screen",
@@ -1145,9 +1145,9 @@
   {
    "id": "po-door",
    "shape": "box",
-   "x": 2.2,
-   "z": -5.15,
-   "y": 0.5,
+   "x": 2.5,
+   "z": -5.6,
+   "y": 0,
    "w": 0.9,
    "h": 1.0,
    "d": 0.14,
@@ -4333,9 +4333,9 @@
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -3.5,
-  "z": -3.5,
-  "doing": "Pea sniffs the air one last time then bolts straight for the Jukebox to chew on its warm plastic screen, claws skittering on the tiles like nails.",
-  "sound": "thump-scratch-bark"
+  "x": 2.5,
+  "z": -5.6,
+  "doing": "Pea skids to a halt at the glowing oven door where the embers are dancing, barks once in warning at his own paws, and then dives belly-first into the heat seeking a burn that isn't there yet.",
+  "sound": "yelp-bark"
  }
 }
