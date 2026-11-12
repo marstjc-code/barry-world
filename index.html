@@ -60,6 +60,7 @@ nav button.on{color:#7a1f2b;box-shadow:inset 0 -3px #7a1f2b}
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
 import {EffectComposer} from 'three/addons/postprocessing/EffectComposer.js';
 import {RenderPass} from 'three/addons/postprocessing/RenderPass.js';
 import {UnrealBloomPass} from 'three/addons/postprocessing/UnrealBloomPass.js';
@@ -98,6 +99,13 @@ const matCache={};const mat=(c,r=.72)=>matCache[c+r]||(matCache[c+r]=new THREE.M
 const rbox=(w,h,d)=>new RoundedBoxGeometry(w,h,d,3,Math.min(.09,w/5,h/5,d/5));
 const glowTex=(()=>{const cv=document.createElement('canvas');cv.width=cv.height=128;const x=cv.getContext('2d');const g=x.createRadialGradient(64,64,0,64,64,64);g.addColorStop(0,'rgba(255,255,255,.9)');g.addColorStop(.3,'rgba(255,255,255,.35)');g.addColorStop(1,'rgba(255,255,255,0)');x.fillStyle=g;x.fillRect(0,0,128,128);return new THREE.CanvasTexture(cv)})();
 const LAMPS=[],SMOKE=[];
+// the building kit: ready-made pieces (Kenney, CC0) Barry can place with shape "model"
+const gltf=new GLTFLoader(),KIT={},PENDING=new Set();let KITIDX=null;const kitIdx=()=>KITIDX||(KITIDX=fetch('kit/index.json').then(r=>r.json()).catch(()=>({})));
+function kitPiece(name,g,o){if(!/^[\w-]+$/.test(name))return;const key=name;PENDING.add(g);
+  const done=src=>{PENDING.delete(g);if(!src)return;const m=src.clone(true);const box=new THREE.Box3().setFromObject(m),sz=new THREE.Vector3();box.getSize(sz);
+    const sc=(o.h||1)/Math.max(.01,sz.y);m.scale.setScalar(sc);box.setFromObject(m);const c=new THREE.Vector3();box.getCenter(c);m.position.set(-c.x,-box.min.y-(o.h||1)/2,-c.z);
+    m.traverse(x=>{if(x.isMesh){x.castShadow=x.receiveShadow=true;x.userData.o=o;if(x.material){x.material=x.material.clone();x.material.metalness=0;x.material.roughness=.85;if(x.material.map)x.material.map.colorSpace=THREE.SRGBColorSpace}}});g.add(m)};
+  if(KIT[key])KIT[key].then(done);else{KIT[key]=kitIdx().then(ix=>new Promise(res=>{const e=ix[name];if(!e)return res(null);gltf.load('kit/'+e.kit+'/'+name+'.glb',r=>res(r.scene),undefined,()=>res(null))}));KIT[key].then(done)}}
 function label(text,w){const cv=document.createElement('canvas');cv.width=512;cv.height=128;const x=cv.getContext('2d');
   x.fillStyle='#fffaf3';x.fillRect(0,0,512,128);x.fillStyle='#2a1c14';x.textAlign='center';x.textBaseline='middle';
   let f=64;do{x.font=`700 ${f}px system-ui`;f-=4}while(x.measureText(text).width>480&&f>16);x.fillText(text,256,66);
@@ -114,6 +122,7 @@ function make(o){const g=new THREE.Group();let m;const{w,h,d}=o;
     const b=new THREE.Mesh(new THREE.SphereGeometry(Math.max(w,.3)/2,16,12),new THREE.MeshStandardMaterial({color:o.color,emissive:o.color,emissiveIntensity:2.2,roughness:.4}));b.position.y=h/2;g.add(b);
     const sp=new THREE.Sprite(new THREE.SpriteMaterial({map:glowTex,color:o.color,transparent:true,opacity:.55,depthWrite:false,blending:THREE.AdditiveBlending}));sp.scale.setScalar(Math.max(w,.3)*4);sp.position.y=h/2;g.add(sp);
     const pl=new THREE.PointLight(o.color,0,16,1.6);pl.position.y=h/2;g.add(pl);LAMPS.push({pl,sp,g})}
+  else if(o.shape==='model'){kitPiece(String(o.model||''),g,o);m=new THREE.Mesh(new THREE.BoxGeometry(.01,.01,.01),mat('#000'));m.visible=false}
   else if(o.shape==='sign'){m=new THREE.Mesh(rbox(w,h,.1),mat(o.color));
     const a=label(o.label||o.id,w*.94);a.position.z=.06;g.add(a);const b=a.clone();b.rotation.y=Math.PI;b.position.z=-.06;g.add(b)}
   else m=new THREE.Mesh(rbox(w,h,d),mat(o.color));
@@ -298,12 +307,12 @@ renderer.setAnimationLoop(()=>{const dt=Math.min(clock.getDelta(),.1),t=clock.el
   ctl.update();composer.render();
   {const q=v.set(P.position.x,1.3,P.position.z).project(cam),pb=$('#pbubble');pb.style.display=P.visible&&q.z<1?'block':'none';pb.style.left=(q.x+1)/2*innerWidth+'px';pb.style.top=(1-q.y)/2*innerHeight+'px'}
   const p=v.set(B.position.x,2.25,B.position.z).project(cam),bb=$('#bubble');bb.style.display=p.z<1&&said?'block':'none';bb.style.left=(p.x+1)/2*innerWidth+'px';bb.style.top=(1-p.y)/2*innerHeight+'px'});
-window.BW={applySky,get W(){return W},setDay(d){WX={sunrise:'00:00',sunset:'23:59',code:0};applySky()}};
+window.BW={applySky,make,built,PENDING,fly,cam,ctl,get W(){return W},setDay(d){WX={sunrise:'00:00',sunset:'23:59',code:0};applySky()}};
 if(Q.has('shot')){['#panel','#tog','#name','#tip','#rp'].forEach(s=>{const e=$(s);if(e)e.style.display='none'});if(!Q.has('bubbles')){const st=document.createElement('style');st.textContent='#bubble,#pbubble{display:none!important}';document.head.append(st)}
   const n=k=>(Q.get(k)||'').split(',').map(Number);if(Q.has('cam'))cam.position.set(...n('cam'));if(Q.has('look'))ctl.target.set(...n('look'));
   if(Q.has('orbit')){ctl.autoRotate=true;ctl.autoRotateSpeed=Number(Q.get('orbit'))||4}
   if(Q.has('follow'))setInterval(()=>{ctl.target.lerp(B.position.clone().setY(1.2),.08)},50)}
 document.querySelectorAll('nav button').forEach(y=>y.classList.toggle('on',y.dataset.t===tab));if(!LOCAL){document.querySelector('nav button[data-t=chat]').style.display='none'}
-await loadWorld();await loadNotes();pick();window.READY=true;loadMusic();loadWeather();loadTimeline();loadWants();loadArt();loadDreams();loadStatus();loadChat();loadHistory();loadFilms();
+await loadWorld();await loadNotes();pick();{let k=0;while(PENDING.size&&k++<80)await new Promise(r=>setTimeout(r,100))}window.READY=true;loadMusic();loadWeather();loadTimeline();loadWants();loadArt();loadDreams();loadStatus();loadChat();loadHistory();loadFilms();
 setInterval(()=>{loadWorld();loadNotes();loadMusic();loadWeather();loadTimeline();loadWants();loadArt();loadDreams();loadHistory();loadFilms()},20000);if(LOCAL)setInterval(()=>{loadStatus();loadChat()},8000);
 </script></body></html>
