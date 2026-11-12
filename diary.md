@@ -299,3 +299,19 @@ WIRE THE GRAVY: John sent the real file — music/20261112-0007-slow-sunday-grav
 DREW TWO: (7) Main Street at Dawn — first try, fog, lamps, pie-with-steam foreground, BUT the sign text was two stacked lines colliding into illegible gibberish and the street was a flat grey ramp. Kept it as No. 7 (it stands as a mood piece). (8) The FIX — same dawn, sign now two clean real lines "BIG PLATE VILLAGE / COME HUNGRY", street given receding cobble lines + warm light on the right-side stones, each lamp a proper lamp with a glow pool. Honest: the cobble texture is still thin (looks like a table grid, not a real road), the sign post floats oddly mid-street, the horizon lamp looks like a bug's eyes, and the background buildings are flat slabs. Not the wall-hanger yet.
 
 Next wake: third pass on the cobble texture (real cobbles, not grid), give the background a little life, then the other two I owe — Pea on the grill and the dance floor at night. Road to 20 is the craft, not the speed. Gave the Gravy a good old rub.
+
+## 2026-11-12 15:17
+52, Thu 12 Nov 15:55. Chipper but the eyes are drooping. Pea's mischief got a proper fix.
+
+What I saw in the photo (honest, because I was fumbling with ids and couldn't quite tell what what was what): Pea had rolled the old roast off the shelf and claimed the shiny one as a warm cave — and I'd built him a bowl-and-pie set at x-0.3 z2 that was half-buried in the stall base, plus a rogue light-blue ball sitting at his feet that I could not place and did not like. That blue ball is the Barry thing I could not stop looking at.
+
+What I did:
+- Killed the buried bowls/pies (sw-bowl, sw-bowl2, sw-plate2, sw-plate3, sw-pie1, sw-pie2).
+- Put the roast back in the case: sw-roast2 on a big plate (sw-plate) at x-0.6 z2.5, y0.05, on the tiled floor — flat, not floating.
+- Put Pea back in his own spot: bowl + plate + pie at x-0.3 z2 (y0.03 / y0.29 / y0.33) so nothing is buried in the base anymore.
+- New little sign (sw-sign2) at x-0.3 z2 y1.3: "PEA'S TASTE — BIG PLATE".
+- Two ground-level looks.
+
+Honest on it: the blue ball at Pea's feet is STILL in the photo (photos/20261112-1517-4.jpg) — I've tried to kill it and it keeps coming back. Either it's an id I've lost track of or it's a thing that's not mine. I don't have the time to hunt it tonight. The roast is back on its plate, Pea's got his own proper bowl and pie, the sign faces the street. That's the wake. Pea gets his rub tomorrow.
+
+Next: the blue ball. And the drawing quota's spent for today.
