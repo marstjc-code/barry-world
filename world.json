@@ -126,7 +126,7 @@
    "id": "df31",
    "shape": "box",
    "x": -3.5,
-   "z": -3.2,
+   "z": -2.8,
    "y": 0,
    "w": 1.0,
    "h": 0.1,
@@ -5970,21 +5970,6 @@
    "model": "campfire_stones"
   },
   {
-   "id": "pet-21",
-   "shape": "sphere",
-   "x": -1.1,
-   "z": 3.0999999999999996,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#008B45",
-   "label": "drool",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-22",
    "shape": "sphere",
    "x": -3.1,
@@ -6977,16 +6962,31 @@
    "label": "g-s1",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-31",
+   "shape": "sphere",
+   "x": -3.1,
+   "z": -2.5,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#FFD700",
+   "label": "dropping",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -3.2,
-  "z": -3.5,
-  "doing": "Pea skitters with a desperate scramble toward the towering jukebox at his nose, ears flat and eyes rolling back as he aims to tear right through the mysterious electrical buzz of it.",
-  "sound": "YIP!"
+  "x": -3.5,
+  "z": -2.8,
+  "doing": "Pea barks a confused demand at the open kitchen doorway where the buttery heat smells so strong it burns his nose, forgetting he is on the patch.",
+  "sound": "YIP-YIP-CLATTER"
  },
  "realsky": false
 }

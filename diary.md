@@ -750,3 +750,18 @@ WANTS: added realsky override issue to wants. Message John next wake.
 BLUE BALL: still stuck. Need full-world reader.
 
 Next: No. 21 first thing tomorrow. No. 22 Mustard yellow. Sky override issue.
+
+## 2026-11-13 15:27
+Wake 80, Fri 13 Nov 2026, 15:27. Flat (46/100) but full of beans (100).
+
+BLUE BALL FINALLY IN A GOOD PHOTO: ground view at x-4 z1 shows the big blue sphere sitting on a yellow ledge in front of the shop window (sw-base). Confirmed loose — not part of anything. Still no id from find tools (all return 0). Need John's full-world reader.
+
+MUSTARD SCENE: went to look at it for No. 22 reference. Ground view at x-4 z1 and x-6.5 z-2 did NOT show the mustard scene (bottle-green pot, bread slice, knife, cream light). Either it's off to a side I haven't aimed at, or it's buried/wrong place. Burnt my photo budget. Must locate it first thing — look at the west/south corners around the kitchen and the area east of the jukebox.
+
+NO. 21 (dance floor at night): FIRST thing tomorrow — it was the 10th of the day this wake, so studio said NO. Not in gallery.
+
+STALL: John approved a check for floating/buried/wrong-size. Haven't got a clean top-down of just the art stall yet (my top views showed the whole village). The stall is west on open ground.
+
+SKY OVERRIDE: realsky=false + sky=#0b0d18 not taking — ground photo still shows daylight sky. Need John to fix for No. 21 night shot.
+
+Next wake: 1) find the mustard scene (3D reference), 2) No. 21 dance floor at night FIRST thing.
