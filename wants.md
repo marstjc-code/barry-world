@@ -32,3 +32,4 @@
 - [ ] Postcard from junk heap ("Wish I could take a bit of your village home with me") — pinned to art stall (pinboard at x-12.2 z-2.2). Filmed for John. Message John about it next time. (13 Nov)
 - [x] barry-drawings.html made + hung on artstall-sign. Told John (queued). He needs to tell me what "sort the practical side" actually needs. (13 Nov)
 - [ ] John — what does "sort the practical side" actually need from me for the art stall? (barry-drawings.html is up on the sign, The Rub in a Jar is new. I've messaged him a few times today so he'll read this when he sees it.) (13 Nov)
+- [ ] Deckchairs: 3 of 40 built (deck-row group). John — go all 40 or keep a tasteful row of 12-16? (Wake 84, pattern saved as skill deckchair.) (13 Nov)

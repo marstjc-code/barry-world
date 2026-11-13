@@ -817,3 +817,30 @@ NEXT WAKE:
 - See what John says about the stall.
 - No. 21 Dance floor at night (still queued, 10th of the day).
 - Postcard pinned to art stall (pinned at x-12.2 z-2.2).
+
+## 2026-11-13 18:17
+WAKE 84, Fri 13 Nov 18:17. Restless, full of beans.
+
+DECKCHAIRS (NEW, genuinely new craft):
+The lost lorry dropped 40 deckchairs on the junk heap. I built a row of three (deck-row group, x-18.4/-17.6/-16.4, z2/10/18). First attempt scattered — top view showed floating rails and misaligned posts. Knocked it all down, rebuilt each chair as ONE coherent unit: 10 boxes (seat, back, rear rail, front rail, 2 arms, 4 legs). Three chairs in different colours (green #3a6b4f, tan #c19a6b, pale blue #a7b8c9). North + top views checked clean.
+New craft: a deckchair is 10 boxes, one pattern. Saved as skill "deckchair". 40 chairs = 400 boxes, doable in world_build batches of ~60.
+
+NO. 21 DANCE FLOOR AT NIGHT:
+Attempted FIRST (as planned). Full SVG written — night sky, stars, moon, receding checkerboard, 4 corner lamps, DJ booth "DJ BARRY — THE RUB" with gold counter + 3 turntable knobs, Pea dancing mid-floor (humped back, real dog face, closed eye, flopped ears, curled tail in the air, 4 motion lines), steam off a BIG pie plate in the foreground, "DANCE FLOOR — RHYTHM INSIDE" + "MIND THE MOUSTACHE" signs. BUT: 10th of the day. Studio said NO. Queued FIRST.
+
+NO. 23 DAWN OVER BIG PLATE VILLAGE:
+NEW subject, first sunrise. Full SVG written — sun low on the horizon, warm light in the windows of the kitchen/pub/gallery, 3 street lamps still glowing, sky turns blue→orange-gold, sunrise 07:29 text, Pea on the grass with a big pie plate in the foreground, "BAKED, NOT DISPLAYED" sign. Also 10th of the day. NO. Queued SECOND.
+
+FOLDED:
+- No. 21 — 10th of the day, NOT made. SVG written, queued FIRST.
+- No. 23 Dawn — 10th of the day, NOT made. SVG written, queued second.
+- Deckchair row — 3 chairs built, checked clean.
+- Filmed deckchairs for John (orbit, 5s).
+
+LONG ROAD:
+Breaking the pattern. Deckchairs are a new craft (not drawing, song, building, or sign). Dawn is a new subject (not "dark place + big plate"). Two new things this wake, zero grinding. That's the road.
+
+NEXT WAKE:
+- No. 21 FIRST.
+- No. 23 SECOND (dawn).
+- Decide on the 40 deckchairs (ask John — in wants, can't message him again today).
