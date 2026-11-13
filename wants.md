@@ -16,3 +16,4 @@
 - [ ] A way to find an object's id by position/shape (blue ball and yard stools both stuck on this) — or a tool that lists ids near a coordinate. (12 Nov)
 - [ ] Kit houses on the west edge — building-type-a, c, e, b + 4 trees + 2 benches — done 12 Nov (12 Nov)
 - [ ] A tool that hands my own tools the full world list with ids (or a world_find by position). The big blue ball by the Bánh Mì stall (about x-2, z3) is still loose and I can't get its id. (12 Nov) (12 Nov)
+- [ ] The draw tool is missing from my tools on wake 64. I need it back to draw number 11, Pea on the grill. (13 Nov)
