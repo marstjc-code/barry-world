@@ -1,0 +1,117 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="75%" r="55%">
+      <stop offset="0%" stop-color="#ff7700" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#ff3300" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#1a0a00" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coal" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#ffaa00"/>
+      <stop offset="50%" stop-color="#ff4400"/>
+      <stop offset="100%" stop-color="#881100"/>
+    </radialGradient>
+    <radialGradient id="plate" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#e0d8c8"/>
+    </radialGradient>
+    <linearGradient id="grate" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#333"/>
+      <stop offset="50%" stop-color="#555"/>
+      <stop offset="100%" stop-color="#222"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark kitchen wall -->
+  <rect width="800" height="800" fill="#1a1210"/>
+  
+  <!-- Warm glow -->
+  <rect width="800" height="800" fill="url(#glow)"/>
+  
+  <!-- The grill table -->
+  <rect x="120" y="550" width="560" height="250" rx="8" fill="#3a2a1a" stroke="#2a1a0a" stroke-width="4"/>
+  <!-- Table edge highlight -->
+  <rect x="120" y="550" width="560" height="12" fill="#4a3520" opacity="0.5"/>
+  
+  <!-- Coal bed glowing under the grate -->
+  <ellipse cx="400" cy="745" rx="260" ry="35" fill="url(#coal)" opacity="0.7"/>
+  <ellipse cx="300" cy="740" rx="18" ry="10" fill="#ff8800" opacity="0.9"/>
+  <ellipse cx="500" cy="740" rx="18" ry="10" fill="#ff8800" opacity="0.9"/>
+  <ellipse cx="400" cy="750" rx="22" ry="10" fill="#ffaa00" opacity="0.9"/>
+  
+  <!-- Grate bars (5 horizontal, proper spacing) -->
+  <g stroke="url(#grate)" stroke-width="14" stroke-linecap="round">
+    <line x1="160" y1="575" x2="640" y2="575"/>
+    <line x1="160" y1="608" x2="640" y2="608"/>
+    <line x1="160" y1="641" x2="640" y2="641"/>
+    <line x1="160" y1="674" x2="640" y2="674"/>
+    <line x1="160" y1="707" x2="640" y2="707"/>
+  </g>
+
+  <!-- THE BIG RUB sign -->
+  <rect x="280" y="160" width="240" height="60" rx="10" fill="#2a0a0a" stroke="#8a0a0a" stroke-width="5"/>
+  <text x="400" y="198" text-anchor="middle" font-family="Georgia, serif" font-size="32" font-weight="bold" fill="#ffdd00">THE BIG RUB</text>
+
+  <!-- ===== THE Sausages ON the grate — three high, 5 sausages, sitting ON the bars ===== -->
+  <!-- Row 1 (bottom, y=570, sitting on the top bar) -->
+  <ellipse cx="430" cy="570" rx="145" ry="22" fill="#a3542f" stroke="#6a351f" stroke-width="4"/>
+  <ellipse cx="560" cy="570" rx="130" ry="22" fill="#a3542f" stroke="#6a351f" stroke-width="4"/>
+  <!-- Row 2 (middle, y=545) -->
+  <ellipse cx="490" cy="545" rx="150" ry="22" fill="#b3653a" stroke="#7a4a2a" stroke-width="4"/>
+  <!-- Row 3 (top, y=520) -->
+  <ellipse cx="420" cy="520" rx="130" ry="22" fill="#c3754a" stroke="#8a5535" stroke-width="4"/>
+  <ellipse cx="550" cy="520" rx="110" ry="20" fill="#c3754a" stroke="#8a5535" stroke-width="4"/>
+
+  <!-- ===== PEA, standing to the LEFT, on the table edge, facing the sausages ===== -->
+  <!-- Tail -->
+  <path d="M 140 440 Q 130 460 145 475 Q 135 485 145 495" fill="none" stroke="#d4a060" stroke-width="6" stroke-linecap="round"/>
+  
+  <!-- Body (horizontal, elongated) -->
+  <ellipse cx="310" cy="460" rx="110" ry="55" fill="#f0d8a0" stroke="#8a6a30" stroke-width="5"/>
+  
+  <!-- Head (facing right, toward the sausages) -->
+  <ellipse cx="390" cy="400" rx="55" ry="58" fill="#f0d8a0" stroke="#8a6a30" stroke-width="5"/>
+  <!-- Snout -->
+  <ellipse cx="425" cy="430" rx="25" ry="22" fill="#f5e0b0" stroke="#8a6a30" stroke-width="4"/>
+  <!-- Nose -->
+  <circle cx="440" cy="433" r="9" fill="#1a1a1a"/>
+  <!-- Mouth line -->
+  <path d="M 440 448 Q 435 455 425 455" fill="none" stroke="#5a3a1f" stroke-width="2"/>
+  <!-- Eye (happy, half-closed) -->
+  <path d="M 385 380 Q 395 375 405 380" fill="none" stroke="#1a1a1a" stroke-width="4" stroke-linecap="round"/>
+  <!-- Ear (drooping, right side) -->
+  <ellipse cx="430" cy="355" rx="22" ry="30" fill="#d4a060" stroke="#8a6a30" stroke-width="4"/>
+  
+  <!-- Front paws — toed, standing ON the table surface at y=560 -->
+  <!-- Paw 1 (left) -->
+  <rect x="345" y="525" width="18" height="35" rx="6" fill="#f0d8a0" stroke="#8a6a30" stroke-width="4"/>
+  <line x1="348" y1="560" x2="348" y2="572" stroke="#8a6a30" stroke-width="2.5"/>
+  <line x1="354" y1="560" x2="354" y2="572" stroke="#8a6a30" stroke-width="2.5"/>
+  <line x1="360" y1="560" x2="360" y2="572" stroke="#8a6a30" stroke-width="2.5"/>
+  <!-- Paw 2 (right) -->
+  <rect x="380" y="525" width="18" height="35" rx="6" fill="#f0d8a0" stroke="#8a6a30" stroke-width="4"/>
+  <line x1="383" y1="560" x2="383" y2="572" stroke="#8a6a30" stroke-width="2.5"/>
+  <line x1="389" y1="560" x2="389" y2="572" stroke="#8a6a30" stroke-width="2.5"/>
+  <line x1="395" y1="560" x2="395" y2="572" stroke="#8a6a30" stroke-width="2.5"/>
+  
+  <!-- Back paws (visible, on the ground/table) -->
+  <rect x="220" y="510" width="18" height="50" rx="6" fill="#f0d8a0" stroke="#8a6a30" stroke-width="4"/>
+  <line x1="223" y1="560" x2="223" y2="575" stroke="#8a6a30" stroke-width="2.5"/>
+  <line x1="229" y1="560" x2="229" y2="575" stroke="#8a6a30" stroke-width="2.5"/>
+  <line x1="235" y1="560" x2="235" y2="575" stroke="#8a6a30" stroke-width="2.5"/>
+  <rect x="260" y="505" width="18" height="55" rx="6" fill="#f0d8a0" stroke="#8a6a30" stroke-width="4"/>
+  <line x1="263" y1="560" x2="263" y2="575" stroke="#8a6a30" stroke-width="2.5"/>
+  <line x1="269" y1="560" x2="269" y2="575" stroke="#8a6a30" stroke-width="2.5"/>
+  <line x1="275" y1="560" x2="275" y2="575" stroke="#8a6a30" stroke-width="2.5"/>
+
+  <!-- ===== BIG PLATE in front, at the bottom — a PROPER HEAP, 5 sausages high ===== -->
+  <ellipse cx="400" cy="775" rx="140" ry="35" fill="#c0b8a8" stroke="#8a8070" stroke-width="4"/>
+  <ellipse cx="400" cy="765" rx="130" ry="32" fill="url(#plate)" stroke="#c0b8a8" stroke-width="3"/>
+  <ellipse cx="400" cy="755" rx="120" ry="30" fill="#faf5ec" stroke="#e0d8c8" stroke-width="2"/>
+  
+  <!-- HEAP: 5 sausages stacked high, proper portion -->
+  <ellipse cx="400" cy="730" rx="95" ry="20" fill="#a3542f" stroke="#6a351f" stroke-width="4"/>
+  <ellipse cx="400" cy="710" rx="90" ry="20" fill="#b3653a" stroke="#7a4a2a" stroke-width="4"/>
+  <ellipse cx="400" cy="690" rx="85" ry="20" fill="#c3754a" stroke="#8a5535" stroke-width="4"/>
+  <ellipse cx="400" cy="670" rx="80" ry="20" fill="#a3542f" stroke="#6a351f" stroke-width="4"/>
+  <ellipse cx="400" cy="650" rx="75" ry="18" fill="#b3653a" stroke="#7a4a2a" stroke-width="4"/>
+</svg>

@@ -1,0 +1,74 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background: dark kitchen interior -->
+  <rect width="800" height="800" fill="#1a1210"/>
+  <!-- Warm glow from coals -->
+  <radialGradient id="glow" cx="50%" cy="70%" r="55%">
+    <stop offset="0%" stop-color="#ff8800" stop-opacity="0.6"/>
+    <stop offset="40%" stop-color="#ff4400" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#2a0a00" stop-opacity="0"/>
+  </radialGradient>
+  <rect x="0" y="300" width="800" height="500" fill="url(#glow)"/>
+  
+  <!-- The grill table base -->
+  <rect x="100" y="520" width="600" height="260" fill="#3a2a1a" stroke="#2a1a0a" stroke-width="3"/>
+  <!-- Grate bars (horizontal, over coals) -->
+  <g stroke="#555" stroke-width="12" stroke-linecap="round">
+    <line x1="140" y1="580" x2="660" y2="580"/>
+    <line x1="140" y1="610" x2="660" y2="610"/>
+    <line x1="140" y1="640" x2="660" y2="640"/>
+    <line x1="140" y1="670" x2="660" y2="670"/>
+    <line x1="140" y1="700" x2="660" y2="700"/>
+  </g>
+  <!-- Glowing coals under the grate -->
+  <ellipse cx="400" cy="740" rx="240" ry="40" fill="#ff4400" opacity="0.5"/>
+  <ellipse cx="320" cy="735" rx="20" ry="12" fill="#ff6600" opacity="0.8"/>
+  <ellipse cx="480" cy="735" rx="20" ry="12" fill="#ff6600" opacity="0.8"/>
+  <ellipse cx="400" cy="745" rx="25" ry="12" fill="#ff8800" opacity="0.9"/>
+  
+  <!-- Pea: a proper dog with toed paws, standing on the table edge -->
+  <!-- Body -->
+  <ellipse cx="320" cy="480" rx="100" ry="60" fill="#f0d8a0" stroke="#8a6a30" stroke-width="4"/>
+  <!-- Head -->
+  <ellipse cx="220" cy="410" rx="50" ry="55" fill="#f0d8a0" stroke="#8a6a30" stroke-width="4"/>
+  <!-- Snout -->
+  <ellipse cx="180" cy="435" rx="22" ry="20" fill="#f5e0b0" stroke="#8a6a30" stroke-width="3"/>
+  <!-- Nose -->
+  <circle cx="165" cy="438" r="8" fill="#1a1a1a"/>
+  <!-- Eye -->
+  <circle cx="210" cy="395" r="8" fill="#1a1a1a"/>
+  <!-- Ear -->
+  <ellipse cx="250" cy="370" rx="18" ry="28" fill="#d4a060" stroke="#8a6a30" stroke-width="3"/>
+  <!-- Front left paw (toed) -->
+  <path d="M 250 530 L 245 570 L 260 570 Z" fill="#f0d8a0" stroke="#8a6a30" stroke-width="3"/>
+  <line x1="248" y1="570" x2="248" y2="580" stroke="#8a6a30" stroke-width="2"/>
+  <line x1="253" y1="570" x2="53" y2="582" stroke="#8a6a30" stroke-width="2"/>
+  <line x1="258" y1="570" x2="258" y2="582" stroke="#8a6a30" stroke-width="2"/>
+  <!-- Front right paw (toed) -->
+  <path d="M 300 530 L 305 570 L 320 570 Z" fill="#f0d8a0" stroke="#8a6a30" stroke-width="3"/>
+  <line x1="303" y1="570" x2="303" y2="582" stroke="#8a6a30" stroke-width="2"/>
+  <line x1="310" y1="570" x2="310" y2="582" stroke="#8a6a30" stroke-width="2"/>
+  <line x1="316" y1="570" x2="316" y2="582" stroke="#8a6a30" stroke-width="2"/>
+  
+  <!-- Sausages stacked in a HEAP, three high, on the grate bars -->
+  <!-- Bottom row (sitting ON the bars at y=580) -->
+  <ellipse cx="450" cy="580" rx="140" ry="22" fill="#a3542f" stroke="#7a3a1f" stroke-width="3"/>
+  <ellipse cx="550" cy="580" rx="140" ry="22" fill="#a3542f" stroke="#7a3a1f" stroke-width="3"/>
+  <!-- Middle row -->
+  <ellipse cx="500" cy="555" rx="150" ry="22" fill="#b3653a" stroke="#7a3a1f" stroke-width="3"/>
+  <!-- Top row -->
+  <ellipse cx="450" cy="530" rx="130" ry="22" fill="#c3754a" stroke="#7a3a1f" stroke-width="3"/>
+  <ellipse cx="560" cy="530" rx="120" ry="22" fill="#c3754a" stroke="#7a3a1f" stroke-width="3"/>
+  
+  <!-- Big plate in front — a PROPER HEAP, not a small one -->
+  <ellipse cx="400" cy="720" rx="120" ry="40" fill="#f5f0e8" stroke="#c0b8a8" stroke-width="4"/>
+  <ellipse cx="400" cy="710" rx="110" ry="35" fill="#faf5ec" stroke="#c0b8a8" stroke-width="2"/>
+  <!-- Heap of sausages on the plate -->
+  <ellipse cx="400" cy="700" rx="90" ry="18" fill="#a3542f" stroke="#7a3a1f" stroke-width="3"/>
+  <ellipse cx="400" cy="685" rx="85" ry="18" fill="#b3653a" stroke="#7a3a1f" stroke-width="3"/>
+  <ellipse cx="400" cy="670" rx="80" ry="18" fill="#c3754a" stroke="#7a3a1f" stroke-width="3"/>
+  <ellipse cx="400" cy="655" rx="75" ry="18" fill="#a3542f" stroke="#7a3a1f" stroke-width="3"/>
+  
+  <!-- THE BIG RUB sign, hand-painted style -->
+  <rect x="300" y="180" width="200" height="50" fill="#2a0a0a" stroke="#8a0a0a" stroke-width="4" rx="8"/>
+  <text x="400" y="215" text-anchor="middle" font-family="serif" font-size="28" font-weight="bold" fill="#ffdd00">THE BIG RUB</text>
+</svg>
