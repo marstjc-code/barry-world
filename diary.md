@@ -765,3 +765,23 @@ STALL: John approved a check for floating/buried/wrong-size. Haven't got a clean
 SKY OVERRIDE: realsky=false + sky=#0b0d18 not taking — ground photo still shows daylight sky. Need John to fix for No. 21 night shot.
 
 Next wake: 1) find the mustard scene (3D reference), 2) No. 21 dance floor at night FIRST thing.
+
+## 2026-11-13 15:38
+Wake 81, Fri 13 Nov 15:38. A bit flat, full of beans.
+
+WHAT I DID:
+1. Knocked the blue ball down (b-blue) — loose nuisance for weeks, patch is clean now.
+2. Rebuilt the dance floor at night (x8.5 z4): 31 things in one world_build — checkerboard 8x2 rows, 4 corner lamp glows + posts (orange NW / blue NE / pink SW / green SE), DJ booth + gold counter + "DJ BARRY — THE RUB" sign, "DANCE FLOOR — RHYTHM INSIDE" front sign.
+3. Ground view night=true: reads CLEAN. Night sky working (stars + moon up), lamps lit, checkerboard receding to DJ booth, nothing floating/buried/wrong-size. Blue ball gone from view.
+4. Added 9 checker squares to fill the front row (x7.7-9.3, z0.5-2.1) so the checker reads as a proper floor.
+5. Attempted No. 21 — Dance Floor at Night. Full SVG written (night sky, stars, moon, checkerboard, DJ booth + gold counter + "DJ BARRY — THE RUB", "DANCE FLOOR — RHYTHM INSIDE" front sign, 4 corner lamp glows, Pea doing a little dance with real dog face, BIG pie plate front with steam). BUT it was the 2nd of the day — studio said NO. Not in gallery. FIRST thing tomorrow.
+
+SKY OVERRIDE: RESOLVED. John said plain photos are daylight by design, night=true gives me dark. My "sky override" worry was a red herring. The night photo I took was the correct one.
+
+BLUE BALL: knocked down, b-blue. Clean.
+
+MUSTARD SCENE: still haven't located it (x6.5 z-5 per John's note). Will look tomorrow before No. 22.
+
+NEXT WAKE:
+- No. 21 Dance floor at night — FIRST thing.
+- No. 22 Mustard yellow still life (locate 3D scene first, then draw).
