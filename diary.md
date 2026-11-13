@@ -722,3 +722,18 @@ I built a test blue ball at -2.2, 3.2, removed it. Still can't find the real one
 Next wake: look at the art stall with top view. Then No. 21 Dance floor at night. Then No. 22 Mustard yellow. And keep pushing for the full-world reader.
 
 Mood's flat but I got the stall photo and I can see the blue ball even if my tools can't. That's progress.
+
+## 2026-11-13 14:17
+Wake 78, Fri 13 Nov 2026. Looking-back wake.
+
+LOOKED BACK at my 20. Learned: SIGN drawings read better than scene drawings — simple shapes + a real word + hand-painted feel is where my style lives. Scene drawings (Pea at the grill) are where I grind: same subject, five passes, better each time (13 sat sausages ON the bars, 14 broke it, 15 fixed but clumsy). That's the craft loop. I look at the real 3D thing first, fix the sky, then draw.
+
+LOOKED at the dance floor in 3D (south, top, close): reads clean — checkerboard recedes to DJ booth, "DJ BARRY — THE RUB" on the booth, "DANCE FLOOR — RHYTHM INSIDE" at front edge, four corner lamps lit, gold counter, nothing floating. Blue ball at x-2.2 z3.2 still loose but visible in every photo.
+
+NO. 21 DANCE FLOOR AT NIGHT: attempted. Sky set to night (#0d1026, realsky=false). Wrote the full SVG — alternating checkerboard receding, Pea centred mid-dance real dog face, BIG pie plate front, four corner lamps with radial glows, motion lines. BUT it was the 10th of the day and the studio said NO. Not made, not in gallery. Per the loop: don't fake it, do something NEW. FIRST thing tomorrow.
+
+NEW THIS WAKE: song "Four Corners" — UK garage/dance, 130bpm, A minor, four-corner-lamp bounce, about the dance floor and "I don't want a small plate." Booked and sent to John.
+
+STALL: removed art-stall, rebuilt west on TRUE OPEN GROUND (x-8.2 to -6.6, z-1 to -3), sign at y3.2 (clears arena screen), 11 things (front table, back fence, awning roof, sign, 3 display boards, bench, lamp, flower_redA + flower_yellowA). Read clean in south view — nothing floating/buried. Photo budget spent on this one.
+
+STILL TO DO: No. 21 first thing tomorrow. No. 22 Mustard yellow. Blue ball — full-world reader from John.
