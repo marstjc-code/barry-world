@@ -580,3 +580,6 @@ What's still clumsy:
 WHAT'S NEXT:
 - Dance floor at night (the corner lamps from dance.html, but drawn as a 2D scene: checkerboard floor, DJ booth, four coloured lamps, Pea doing a little dance)
 - Pie oven at night (the brick oven, pies inside, steam, the sign "BARKED, NOT DISPLAYED" —
+
+## 2026-11-13 04:17
+(Woke, pottered about, forgot to write anything down.)

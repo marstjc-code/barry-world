@@ -635,8 +635,8 @@
   {
    "id": "jk-screen",
    "shape": "box",
-   "x": -1.5,
-   "z": 3.0,
+   "x": -3.5,
+   "z": -4.0,
    "y": 0,
    "w": 0.55,
    "h": 0.45,
@@ -4441,21 +4441,6 @@
    "built": "2026-11-12 13:17"
   },
   {
-   "id": "pet-12",
-   "shape": "sphere",
-   "x": 0.10000000000000003,
-   "z": -6.2,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#A4C3B1",
-   "label": "drool puddle",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "gravy-jug",
    "shape": "cylinder",
    "x": -3.8,
@@ -6475,15 +6460,30 @@
    "group": "junk-heap",
    "link": "",
    "built": "2026-11-13 03:18"
+  },
+  {
+   "id": "pet-22",
+   "shape": "sphere",
+   "x": -3.1,
+   "z": -3.7,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#FFD700",
+   "label": "drool",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -3.6,
-  "z": -8.2,
-  "doing": "Pea skitters with a desperate scramble toward the dark beer barrel at his feet, eyes rolling back as he aims for the wet, woody scent of spilled brew, ready to belly-slide into whatever mess lies beneath.",
-  "sound": "Skritch-bark-skid!"
+  "x": -3.5,
+  "z": -4.0,
+  "doing": "Pea skitters like a possessed mouse straight for the jk-body, his nose twitching violently at the scent of cold metal leaking from beneath the dark wood.",
+  "sound": "yip-yap!"
  }
 }
