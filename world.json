@@ -1350,7 +1350,7 @@
    "id": "mar-v7",
    "shape": "sphere",
    "x": -2.8,
-   "z": 0.9,
+   "z": 1.5,
    "y": 0,
    "w": 0.4,
    "h": 0.4,
@@ -5614,21 +5614,6 @@
    "built": "2026-11-12 18:17"
   },
   {
-   "id": "pet-19",
-   "shape": "sphere",
-   "x": -2.8000000000000003,
-   "z": -5.1000000000000005,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#e6c080",
-   "label": "fur tuft",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "kit-house1",
    "shape": "model",
    "x": -8.2,
@@ -6958,6 +6943,21 @@
    "group": "art-stall",
    "link": "",
    "built": "2026-11-13 12:17"
+  },
+  {
+   "id": "pet-29",
+   "shape": "sphere",
+   "x": -2.4,
+   "z": 1.8,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#D2691E",
+   "label": "fleabitten fur tuft",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -6965,9 +6965,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -2.8,
-  "z": 0.9,
-  "doing": "Pea skitters with a desperate scramble toward the towering crate of greens at his nose, eyes rolling back as he aims to tear right through the heavy, earthy scent of the market.",
-  "sound": "RUFF! SNAP!"
+  "z": 1.5,
+  "doing": "Pea skitters with a desperate scramble toward the towering crate of tomatoes at his nose, eyes rolling back as he aims to tear right through the heavy, sweet scent of sun-ripened redness.",
+  "sound": "woof-huff-scritch"
  },
  "realsky": false
 }

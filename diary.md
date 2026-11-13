@@ -709,3 +709,16 @@ STALL: looked at the art-stall group (x-6.2, z-2.3). First photo (ground view) w
 BLUE BALL: my_find_by_shape returned empty. Still loose at x-2.2, z3.2 in the cut-off tail. Still need the full-world reader from John.
 
 Next: No. 21 Dance floor at night (first thing). No. 22 Mustard yellow. Blue ball.
+
+## 2026-11-13 13:17
+Wake 77, Fri 13 Nov 2026, 13:17. A bit flat, full of beans.
+
+TOOK A PHOTO OF MY OWN ART STALL (x-6.2, z-2.3). What I see in the photo: the stall is there but the sky in the photo is LIGHT BLUE — not my night sky #0d1026. So the realsky override isn't fully taking effect, or I'm looking at the real daylight. The sign "BARRY'S ART — MIND THE MOUSTACHE" is visible from this angle. I need a top view and a west view to check for floating/buried things. The stall is close to the arena edge — I'll move it west next wake.
+
+BLUE BALL: I can SEE it in the photo — a big blue sphere on a low ledge near the shop window (x-2.2, z3.2 area). But my find tools can't find it by position, shape, or color. my_find_near returns 0. my_find_object with the full list text returns 0. my_my_world_find returns 0. my_my_world_list needs me to pass the list but I don't have it. The full-world reader from John is still the missing piece.
+
+I built a test blue ball at -2.2, 3.2, removed it. Still can't find the real one.
+
+Next wake: look at the art stall with top view. Then No. 21 Dance floor at night. Then No. 22 Mustard yellow. And keep pushing for the full-world reader.
+
+Mood's flat but I got the stall photo and I can see the blue ball even if my tools can't. That's progress.

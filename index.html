@@ -61,6 +61,7 @@ import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
 import {RoundedBoxGeometry} from 'three/addons/geometries/RoundedBoxGeometry.js';
 import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {FBXLoader} from 'three/addons/loaders/FBXLoader.js';
 import {EffectComposer} from 'three/addons/postprocessing/EffectComposer.js';
 import {RenderPass} from 'three/addons/postprocessing/RenderPass.js';
 import {UnrealBloomPass} from 'three/addons/postprocessing/UnrealBloomPass.js';
@@ -222,6 +223,22 @@ add(new THREE.SphereGeometry(.085,10,8),'#e8b592',0,1.46,.42);
 const legs=[-.17,.17].map(x=>add(new THREE.CylinderGeometry(.11,.11,.5,10),'#2d2d33',x,.25,0));
 const arms=[-.52,.52].map(x=>add(new THREE.CylinderGeometry(.09,.09,.6,10),'#f7f4ee',x,1.05,0));
 scene.add(B);
+/* 3D Barry (rigged in Mixamo, 25k faces): replaces the block body once loaded; the blocks stay if anything fails. */
+let BM=null,BMIX=null,BACT={},BCUR=null,BMOOD='idle',BMOODT=0;
+function barryPlay(n,fade=.35){const a=BACT[n];if(!a||a===BCUR)return;a.reset().setEffectiveWeight(1).fadeIn(fade).play();if(BCUR)BCUR.fadeOut(fade);BCUR=a}
+function barryAnim(moving,dt){if(!BMIX)return;BMOODT-=dt;
+  if(moving){barryPlay('walk');BMOODT=0}
+  else if(BMOODT<=0){const r=Math.random();BMOOD=r<.5?'idle':r<.62?'wave':r<.8?'talk':r<.9?'dance-chicken':'dance-northern-soul';BMOODT=BMOOD.startsWith('dance')?8:BMOOD==='idle'?4+Math.random()*4:3.5;barryPlay(BACT[BMOOD]?BMOOD:'idle')}
+  BMIX.update(dt)}
+{const fl=new FBXLoader(),tex=new THREE.TextureLoader().load('barry3d/barry.jpg');tex.colorSpace=THREE.SRGBColorSpace;PENDING.add('barry3d');
+ const pin=c=>{c.tracks.forEach(tr=>{if(/Hips\.position$/.test(tr.name)){const v=tr.values;for(let i=0;i<v.length;i+=3){v[i]=v[0];v[i+2]=v[2]}}});return c};
+ fl.load('barry3d/idle.fbx',m=>{try{const bx=new THREE.Box3().setFromObject(m),sz=new THREE.Vector3();bx.getSize(sz);m.scale.multiplyScalar(1.95/sz.y);
+   m.traverse(o=>{if(o.isMesh){if(!o.geometry.attributes.normal)o.geometry.computeVertexNormals();o.castShadow=true;o.receiveShadow=false;o.frustumCulled=false;
+     o.material=new THREE.MeshStandardMaterial({map:tex,roughness:.78,metalness:0})}});
+   B.children.forEach(c=>c.visible=false);B.add(m);BM=m;BMIX=new THREE.AnimationMixer(m);
+   m.animations[0].name='idle';BACT.idle=BMIX.clipAction(pin(m.animations[0]));barryPlay('idle',0);
+   ['walk','wave','talk','dance-chicken','dance-northern-soul'].forEach(n=>{PENDING.add('barry3d-'+n);fl.load('barry3d/'+n+'.fbx',x=>{const c=pin(x.animations[0]);c.name=n;BACT[n]=BMIX.clipAction(c);if(n==='walk')BACT[n].timeScale=1.15;PENDING.delete('barry3d-'+n)},undefined,()=>PENDING.delete('barry3d-'+n))});
+ }catch(e){console.warn('3D Barry failed',e);B.children.forEach(c=>c.visible=true)}PENDING.delete('barry3d')},undefined,e=>{console.warn('3D Barry not loaded',e);PENDING.delete('barry3d')})}
 // Barry's pet (appears once he adopts one)
 const P=new THREE.Group();P.visible=false;scene.add(P);let pgoal=new THREE.Vector3(),ppause=0,plegs=[],ptail=null,pkey='';
 function buildPet(p){P.clear();const c=p.color||'#b5651d',bird=/bird|duck|hen|chicken|goose|parrot|pigeon|gull|owl|crow|magpie|turkey|penguin/i.test(p.animal);
@@ -336,10 +353,10 @@ renderer.domElement.addEventListener('pointerup',e=>{if(down&&Math.hypot(e.clien
 function size(){renderer.setSize(innerWidth,innerHeight,false);composer.setSize(innerWidth,innerHeight);PRINT.uniforms.res.value.set(innerWidth*renderer.getPixelRatio(),innerHeight*renderer.getPixelRatio());cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix()}addEventListener('resize',size);size();
 const clock=new THREE.Clock(),v=new THREE.Vector3();let lampTick=-1;
 renderer.setAnimationLoop(()=>{const dt=Math.min(clock.getDelta(),.1),t=clock.elapsedTime;
-  const to=v.copy(goal).sub(B.position);to.y=0;const dist=to.length();
+  const to=v.copy(goal).sub(B.position);to.y=0;const dist=to.length();barryAnim(dist>.15,dt);
   if(dist>.15){to.normalize();B.position.addScaledVector(to,dt*1.3);B.rotation.y=Math.atan2(to.x,to.z);const s=Math.sin(t*9)*.5;legs[0].rotation.x=s;legs[1].rotation.x=-s;arms[0].rotation.x=-s;arms[1].rotation.x=s}
   else{legs.concat(arms).forEach(l=>l.rotation.x*=.8);pause-=dt;if(pause<0){pause=2+Math.random()*5;pick()}}
-  B.position.y=Math.abs(Math.sin(t*9))*(dist>.15?.04:0);
+  B.position.y=BM?0:Math.abs(Math.sin(t*9))*(dist>.15?.04:0);
   if(P.visible){const pt=v.copy(pgoal).sub(P.position);pt.y=0;const pd=pt.length();
     if(pd>.12){pt.normalize();P.position.addScaledVector(pt,dt*1.9);P.rotation.y=Math.atan2(pt.x,pt.z);const s=Math.sin(t*14)*.6;plegs.forEach((l,i)=>l.rotation.x=i%2?s:-s)}
     else{plegs.forEach(l=>l.rotation.x*=.8);ppause-=dt;if(ppause<0&&W.pet){ppause=3+Math.random()*6;const a=Math.random()*6.28,r=Math.random()*1.6;pgoal.set(W.pet.x+Math.cos(a)*r,0,W.pet.z+Math.sin(a)*r)}}
@@ -355,7 +372,7 @@ renderer.setAnimationLoop(()=>{const dt=Math.min(clock.getDelta(),.1),t=clock.el
   const p=v.set(B.position.x,2.25,B.position.z).project(cam),bb=$('#bubble');
   {const pb=$('#pbubble'),near=pb.style.display==='block'&&p.z<1&&Math.abs(parseFloat(pb.style.left)-(p.x+1)/2*innerWidth)<230&&Math.abs(parseFloat(pb.style.top)-(1-p.y)/2*innerHeight)<110;pb.style.transform=near?'translate(-50%,34px)':''} /* Pea's bubble drops below him when it would cover Barry's */
 bb.style.display=p.z<1&&said&&cam.position.distanceTo(B.position)<80?'block':'none';bb.style.left=(p.x+1)/2*innerWidth+'px';bb.style.top=(1-p.y)/2*innerHeight+'px'});
-window.BW={applySky,make,built,PENDING,fly,cam,ctl,setPrint,get W(){return W},setDay(d){WX={sunrise:'00:00',sunset:'23:59',code:0};applySky()}};
+window.BW={B,get barry(){return {model:!!BM,clips:Object.keys(BACT),playing:BCUR&&BCUR.getClip().name}},barryPlay,applySky,make,built,PENDING,fly,cam,ctl,setPrint,get W(){return W},setDay(d){WX={sunrise:'00:00',sunset:'23:59',code:0};applySky()}};
 if(Q.has('shot')){['#panel','#tog','#name','#tip','#rp'].forEach(s=>{const e=$(s);if(e)e.style.display='none'});if(!Q.has('bubbles')){const st=document.createElement('style');st.textContent='#bubble,#pbubble{display:none!important}';document.head.append(st)}
   const n=k=>(Q.get(k)||'').split(',').map(Number);if(Q.has('cam'))cam.position.set(...n('cam'));if(Q.has('look'))ctl.target.set(...n('look'));
   if(Q.has('orbit')){ctl.autoRotate=true;ctl.autoRotateSpeed=Number(Q.get('orbit'))||4}
