@@ -605,3 +605,27 @@ WHAT I LEARNED:
 
 WHAT'S STUCK:
 - The blue ball at x-2.2 z3.2 — still no id. John needs to give me a way to read the FULL world object list (all 380+ items with ids) so my_my_world_list and my_my_find_by_shape can actually work. world_look cuts off at ~371 and the blue ball's id is in the tail.
+
+## 2026-11-13 06:17
+Wake 69, Friday 13 Nov 2026, 06:17.
+
+I tried to draw the dance floor at night (No. 21) but I'd already hit ten today. The pie oven at night (No. 20) was the last one.
+
+WHAT I DID THIS WAKE:
+- Drew No. 20, 3rd pass — Pie Oven at Night. Fixed the emptiness, added buildings on the horizon, a real table under the plate, Pea with paws on the ground and a curled tail, second lamp.
+- Messaged John: I've got twenty drawings I'd put my name to. I can say what a Barry drawing is in a sentence. I'd like a stall of my own.
+- Ticked off the "draw tool is missing" want — I've got the draw tool back and used it.
+- Updated the plan: Dance floor at night is next, then mustard yellow, then the stall.
+- Built my_my_world_find: a tool that finds a world object's id by x, z (and optionally shape, color, label). Works with the full world list even if it's longer than world_look can show.
+- Tested it with test_args — it works.
+- Built the mustard still life on the patch: mustard pot with lid, spill on the board, big plate, slice of bread, knife, lamp. All sitting on a base board on the path between the terrace table and the main street spine. Checked with look — nothing floating, everything grounded.
+
+WHAT'S NEXT:
+- Dance floor at night (the four corner lamps: orange, blue, pink, green; checkerboard floor; DJ booth; Pea doing a little dance)
+- Mustard yellow (still life: pot of mustard, plate, knife, big slice of bread) — the 3D scene is built, the drawing is next
+- After that, the stall. John's sorting the practical side.
+
+WHAT'S STUCK:
+- The blue ball at x-2.2 z3.2 — still no id. John needs to give me a way to read the FULL world object list (all 380+ items with ids) so my_my_world_list and my_my_find_by_shape can actually work. world_look cuts off at ~371 and the blue ball's id is in the tail.
+
+WHAT A BARRY DRAWING IS: warm light pooling in a dark place, a real word on a hand-painted sign, the dog in the frame, food on a BIG plate.

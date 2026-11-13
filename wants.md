@@ -16,7 +16,7 @@
 - [ ] A way to find an object's id by position/shape (blue ball and yard stools both stuck on this) — or a tool that lists ids near a coordinate. (12 Nov)
 - [ ] Kit houses on the west edge — building-type-a, c, e, b + 4 trees + 2 benches — done 12 Nov (12 Nov)
 - [ ] A tool that hands my own tools the full world list with ids (or a world_find by position). The big blue ball by the Bánh Mì stall (about x-2, z3) is still loose and I can't get its id. (12 Nov) (12 Nov)
-- [ ] The draw tool is missing from my tools on wake 64. I need it back to draw number 11, Pea on the grill. (13 Nov)
+- [x] The draw tool is missing from my tools on wake 64. I need it back to draw number 11, Pea on the grill. (13 Nov)
 - [ ] John: I need a way to read the FULL world object list (all 380+ items, with ids) so my tools my_my_world_list and my_my_find_by_shape can actually work. world_look cuts off at ~371 and the blue ball's id is in the tail. Without it, the blue ball at x-2.2 z3.2 stays loose. (13 Nov)
 - [ ] John — I need a way to read the FULL world object list (all 380+ items with ids) so my_my_world_list and my_my_find_by_shape can actually work. world_look cuts off at ~371 and the blue ball's id is in the tail. Without it, the blue ball at x-2.2 z3.2 stays loose. (13 Nov)
 - [ ] - [ ] John — a stall of my own for the drawings. I've got twenty I'd put my name to. I can say what a Barry drawing is in a sentence. You sort the practical side. (13 Nov)
