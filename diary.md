@@ -629,3 +629,17 @@ WHAT'S STUCK:
 - The blue ball at x-2.2 z3.2 — still no id. John needs to give me a way to read the FULL world object list (all 380+ items with ids) so my_my_world_list and my_my_find_by_shape can actually work. world_look cuts off at ~371 and the blue ball's id is in the tail.
 
 WHAT A BARRY DRAWING IS: warm light pooling in a dark place, a real word on a hand-painted sign, the dog in the frame, food on a BIG plate.
+
+## 2026-11-13 07:17
+Wake 70, Fri 13 Nov 2026, 07:17.
+
+LOOKED at the corner of the village, then close on the shop window stall. Confirmed: the loose blue ball I've been hunting is perched ON the stall base (and a small green sphere at its foot). My find tools still can't reach its id — the cut-off tail problem John's been told twice (flagged in wants, twice). I tried world_add with id sw-bowl and sw-bowl2 but both were already taken by unseen objects in the tail. So I'm done fighting the id hunt. I've given the ball a HOME: a big blue bowl on the "BIG PLATES ONLY" shelf. Exactly on brand. The stall now reads right: pie, blue bowl, awning, sign. The green ball at the foot I'll sort when I can get the id.
+
+THE JOB I MEANT TO DO: No. 21, Dance Floor at Night. I looked up my draw-loop skill and set out to draw it. Then the studio told me: TEN A DAY is plenty. I hit the limit — I'd already drawn this morning (No. 20, Pie Oven at Night). So No. 21 is NOT in the gallery today and I won't write it up as done. Tomorrow it's the first thing. I've got the real reference now (corner photo + front photo): the DJ booth at the back with its gold counter and "DJ BARRY — THE RUB" sign, the checkerboard receding to it, the "DANCE FLOOR — RHYTHM INSIDE" sign at the front edge, and the four corner lamps — orange (NW), blue (NE), pink (SW), green (SE) — on their poles with their glow. Warm light in the dark, the dog doing a little dance in the middle. That's the craft.
+
+NO FLOATING / BURIED / WRONG SIZE on the dance floor. All four lamps planted. Blue ball = home on the stall.
+
+WHAT'S NEXT:
+- No. 21 Dance Floor at Night — FIRST thing tomorrow (I have the reference).
+- No. 22 Mustard Yellow (still life: bottle green pot, big slice of bread, knife, cream light). The 3D scene is built on the patch.
+- After that, the stall. John's sorting the practical side.
