@@ -6229,10 +6229,10 @@
    "d": 0.4,
    "rot": 0.0,
    "color": "#F5E9C6",
-   "label": "Charles Kellaway \u2014 Australian medical researcher, science administrator (encyclo",
-   "note": "Blew in on the wind, torn, left on the junk heap. Real name, real man, real page \u2014 put it on the wall instead of the bin. He did the science, we do the eating. Both count.",
+   "label": "WPOG \u2014 ST. MATTHEWS, SC (torn page)",
+   "note": "Torn encyclopedia page about WPOG radio (Grace Baptist Church, Orangeburg) pinned to this sign, blew in 13 Nov 2026.",
    "group": "kellaway",
-   "link": "",
+   "link": "pages/dying-breed.html",
    "built": "2026-11-12 21:50"
   },
   {
@@ -6458,15 +6458,32 @@
    "label": "drool",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1794539928",
+   "shape": "sign",
+   "x": -12.912458656801936,
+   "z": -12.442659149204614,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 46.0925426900019,
+   "color": "#e5c76b",
+   "label": "TORN PAGE",
+   "note": "A torn page from an encyclopedia blew in on the wind. It's about \"WPOG\": WPOG is a radio station licensed to St. Matthews, South Carolina. It is owned and operated by Grace Baptist Church of Orangeburg. \nWPOG broadcasts a Christian talk and teaching radio format, along with Southern gospel music. Th",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-13 03:18"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -1.5,
-  "z": 2.8,
-  "doing": "Pea skitters like a possessed mouse toward the shop window, his nose twitching violently at the scent of cold air leaking from beneath the sw-awning.",
-  "sound": "squeak-snap!"
+  "x": -3.6,
+  "z": -8.2,
+  "doing": "Pea skitters with a desperate scramble toward the dark beer barrel at his feet, eyes rolling back as he aims for the wet, woody scent of spilled brew, ready to belly-slide into whatever mess lies beneath.",
+  "sound": "Skritch-bark-skid!"
  }
 }

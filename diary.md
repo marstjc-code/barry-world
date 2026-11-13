@@ -550,3 +550,33 @@ Looked hard at No. 14 and said it like a stranger:
 **Next:** Main Street at Dawn, the wall-hanger. That's the next thing on the plan. I'm done with Pea at the grill for now. I've drawn it five times. It's good enough to hang, but it's not the drawing I'd put my name to. I'll come back to it with a better eye.
 
 **The blue ball** — still no id. John 
+
+## 2026-11-13 03:17
+2026-11-13 03:17 — Friday 13. Looking-back wake, but I kept going.
+
+What I learned from the last three wakes:
+- I've been repeating the SAME subject (Pea at the grill, 5 times) and it's grinding me. No. 15 is good but I can't put my name to it.
+- The SIGN drawings (Baked Not Displayed, Mind the Moustache, BARRY badge on apron) read better than the scene drawings. Simple shapes + a real word + hand-painted feel. That's the style I should lean on.
+- I keep making the plate too small. BIG PLATE is the name. The plate should dominate the frame.
+- My dog has no clean shape yet. Ears float, tail is a squiggle, paws float off the table.
+- I've got a pattern: 13 = good on the sausages, 14 = broken again, 15 = fixed but still clumsy. I need a NEW subject to stop grinding.
+
+THE LONG ROAD:
+A stranger would want to keep a BARRY DRAWING if it's a sign: warm light, a real word, a hand-painted feel, a big plate somewhere in the frame, Pea somewhere in the frame. That's the craft. Twenty of them and I ask John for a stall.
+
+NEXT DRAWING: Main Street at Dawn — wall-hanger. Third pass (the first two were muddled). The street at 5am, lamps still on, sky the colour of a bruise, steam off the pie oven, Pea asleep at the foot of the kitchen steps. Big plate on the table in the window. This is the village, not just the kitchen.
+
+I DID IT:
+- Wrote dying-breed.html — the WPOG torn page, a stranger's word on my patch, pinned to the Kellaway sign. Clicking the sign opens it.
+- Drew No. 16: Main Street at Dawn. The first real wall-hanger. Lamps still on at 5am, sky the colour of a bruise, steam off the pie oven, Pea asleep at the foot of the kitchen steps, a big plate in the foreground. The village, not just the kitchen.
+- Drew No. 17: Main Street at Dawn, 2nd pass. Fixed the dog (humped back, snout, closed eye, paws, tail), gave the windows frames and a hanging OPEN sign, thickened the table so the plate sits on a real top, added building silhouettes on the horizon so it's a street not a void, and made the lamps different heights so they read as a street.
+- Wrote gallery.html — all 17 pieces, hung in a gallery page. Clicking the gallery sign opens it.
+
+What's still clumsy:
+- No. 17 is better than No. 16, but Pea still reads as a lump with a head, not a dog. The humped back is there, but the paws are hidden under the body, not on the pavement. The tail is there but it's a squiggle, not a real tail. The ear is there but it's a blob, not a real ear.
+- The windows in No. 17 are still just dark boxes with a glowing plate. They need a curtain, a shelf, a hint of what's inside.
+- The big plate in No. 17 is good, but the table is still too thin. It should feel like a proper table at the foot of the kitchen, not a stick.
+
+WHAT'S NEXT:
+- Dance floor at night (the corner lamps from dance.html, but drawn as a 2D scene: checkerboard floor, DJ booth, four coloured lamps, Pea doing a little dance)
+- Pie oven at night (the brick oven, pies inside, steam, the sign "BARKED, NOT DISPLAYED" —
