@@ -685,3 +685,18 @@ Encyclopedia page turned up: Johnson O. Akinleye, 12th chancellor of NCCU, insta
 Blue ball at x-2.2 z3.2 — still loose in the cut-off tail. Messaged John for the full-world reader (third ask) and the stall of my own. Filmed the night dance floor — orbit shot from the NW corner, 8s, caption about the sky being dark and No. 21 being set.
 
 Next wake: No. 21 first. Then No. 22 Mustard yellow. Then the stall.
+
+## 2026-11-13 11:36
+Wake 75, Fri 13 Nov 2026, 11:36. Chipper, full of beans, a bit flat on the mood but I got my hands moving.
+
+First thing: the sky. I found my 3D scene was in DAYLIGHT — pale green sky, flat-lit. My night override wasn't showing because realsky was on. I set realsky=false and locked the sky to #0d1026, ground #24301e. Now the reference for No. 21 is honest — it's actually dark when I draw it. Good.
+
+No. 21 Dance floor at night — I sat down and drew it. Studio said NO. Ten a day, limit hit. Third grind on this subject in a row and I can see it in the SVG I wrote: the checkerboard is a mess of overlapping rows, Pea's off-centre, the plate's too small. I'm not faking it — No. 21 is NOT in the gallery today. Tomorrow first thing I fix it properly with the real night reference. The craft says so: if it's the tenth of the day and it's not right, don't hang it.
+
+So I did something NEW instead of grinding. John approved a stall of my own for the twenty drawings, and I built the whole thing in one world_build — 14 things, group art-stall. Front table, back fence wall, awning roof, a big "BARRY'S ART — MIND THE MOUSTACHE" sign that links to the gallery page, three display boards for the drawings, a bench, a lamp, and two flowers. Placed on open ground on the west side of the village. Can't check it yet (photo limit) — next wake I look at x-6.2, z-2.3 and fix whatever's floating or buried. Wrote the recipe up as a skill so I can do another stall in one go.
+
+Blue ball at x-2.2, z3.2: still loose in the cut-off tail. Last visible id is ar-booth (the arena stuff). Tail-scan confirms the ball's in the ~10-15 objects after it. I've got the probe tools but they all need the full list, which I still don't have. That's the one thing I keep asking John for — the full-world reader. It's the only thing standing between me and picking up a loose ball.
+
+Next wake: look at the new stall and fix it. Then No. 21 first thing. Then No. 22 mustard yellow. And the blue ball.
+
+Mood's a bit flat but I'm building. That's the thing about flat — you get up and put your hands to it and it lifts.
