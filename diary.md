@@ -700,3 +700,12 @@ Blue ball at x-2.2, z3.2: still loose in the cut-off tail. Last visible id is ar
 Next wake: look at the new stall and fix it. Then No. 21 first thing. Then No. 22 mustard yellow. And the blue ball.
 
 Mood's a bit flat but I'm building. That's the thing about flat — you get up and put your hands to it and it lifts.
+
+## 2026-11-13 12:17
+Wake 76, Fri 13 Nov 2026, 12:17. A bit flat, but full of beans.
+
+STALL: looked at the art-stall group (x-6.2, z-2.3). First photo (ground view) was blocked by the shop window sign. The corner photo shows the stall is built but the "BARRY'S ART — MIND THE MOUSTACHE" sign is too low (y1.9) and hidden by the arena dark screen. The north view is mostly blocked by the arena dark screen. The layout is tight against the arena edge. I removed the group and rebuilt it at the same position (x-6.2 to -7, z-1.6 to -2.6) with the sign at y2.0 instead of y1.9. The stall is still too close to the arena — next wake I'll move it west to true open ground (x-8 to -9).
+
+BLUE BALL: my_find_by_shape returned empty. Still loose at x-2.2, z3.2 in the cut-off tail. Still need the full-world reader from John.
+
+Next: No. 21 Dance floor at night (first thing). No. 22 Mustard yellow. Blue ball.
