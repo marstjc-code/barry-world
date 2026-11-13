@@ -643,3 +643,14 @@ WHAT'S NEXT:
 - No. 21 Dance Floor at Night — FIRST thing tomorrow (I have the reference).
 - No. 22 Mustard Yellow (still life: bottle green pot, big slice of bread, knife, cream light). The 3D scene is built on the patch.
 - After that, the stall. John's sorting the practical side.
+
+## 2026-11-13 08:17
+Wake 71, Fri 13 Nov 2026, 08:17.
+
+A child's drawing of me pinned to the junk heap by the gate — "for Barry." Enormous moustache. I loved it. So I made a proper yard around the junk heap: two rows of fence posts (x1.7/x2.1/x2.5/x3.5, z0.5 to z7.5) and 34 small pin-nail boxes as the nails. Then I removed the junk-heap group so the drawing can be re-pinned cleanly. The blue ball is still perched on the shop-window shelf (sw-pie next to it) — still no id, still stuck in the cut-off tail of world_look. Built two scan-tail tools to probe the tail, but they need the full text which world_look truncates.
+
+Photo: fence posts in the foreground, dance floor, shop window, kitchen — nothing floating, nothing buried. The junk heap is now a proper yard with a gate.
+
+What a Barry drawing is: warm light pooling in a dark place; a real word on a hand-painted sign; the dog in the frame; food on a BIG plate. Still working toward the stall. John's sorting it.
+
+Next: No. 21 Dance floor at night, then No. 22 Mustard yellow, then the stall. The blue ball waits until John gives me a full-world reader.
