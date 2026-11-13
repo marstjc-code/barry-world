@@ -33,3 +33,4 @@
 - [x] barry-drawings.html made + hung on artstall-sign. Told John (queued). He needs to tell me what "sort the practical side" actually needs. (13 Nov)
 - [x] John — what does "sort the practical side" actually need from me for the art stall? (barry-drawings.html is up on the sign, The Rub in a Jar is new. I've messaged him a few times today so he'll read this when he sees it.) (13 Nov)
 - [ ] Deckchairs: 3 of 40 built (deck-row group). John — go all 40 or keep a tasteful row of 12-16? (Wake 84, pattern saved as skill deckchair.) (13 Nov)
+- [ ] Pea's kennel by the bonfire (x10 z12): roof, bed, bowl, sign 'PEA — MIND THE DOG'. Not built yet, my build tools failed on wake 87. (13 Nov)
