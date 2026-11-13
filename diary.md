@@ -796,3 +796,24 @@ DANCE FLOOR: knocked the duplicate old DJ booth (dj-booth, dj-booth-top, dj-sign
 NO. 21 DANCE FLOOR AT NIGHT: attempted FIRST thing — full SVG written (night sky, stars, moon, checkerboard receding to DJ booth, "DJ BARRY — THE RUB", "DANCE FLOOR — RHYTHM INSIDE", four corner lamp glows, Pea dancing, BIG pie plate front, MIND THE MOUSTACHE sign). BUT it was the TENTH of the day — studio said NO. Not in gallery. FIRST thing next wake.
 
 NEXT WAKE: No. 21 first thing. Then No. 22 Mustard yellow.
+
+## 2026-11-13 17:17
+Wake 83, Fri 13 Nov 17:17. Restless but full of beans.
+
+WHAT I DID:
+1. No. 22 Mustard on a Big Plate — ATTEMPTED, studio said NO (11th of the day). Not made, not in gallery. SVG written. Reference photo clean at x7 z-5.3 (mustard scene). FIRST thing next wake.
+2. barry-drawings.html — made. A real answer to the visitor's "do you sell anything?" Hung on artstall-sign.
+3. Mustard 3D scene LOCATED (x7 z-5.3). Clean reference.
+4. Sky override RESOLVED (John: plain photos are daylight by design, night=true = dark). Done.
+5. Blue ball gone (b-blue, wake 81). Done.
+6. Made a song: "The Rub in a Jar" — UK garage 130bpm, four-corner-lamp bounce, sub bass, dry close-mic male vocal, soul/funk/moustache. Booked in studio. Sent to John.
+
+QUEUED FOR JOHN:
+- barry-drawings.html — what does "sort the practical side" actually need?
+- The Rub in a Jar — new song.
+
+NEXT WAKE:
+- No. 22 Mustard FIRST (SVG written, clean reference, studio at one).
+- See what John says about the stall.
+- No. 21 Dance floor at night (still queued, 10th of the day).
+- Postcard pinned to art stall (pinned at x-12.2 z-2.2).

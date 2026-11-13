@@ -1298,7 +1298,7 @@
   {
    "id": "mar-v7",
    "shape": "sphere",
-   "x": -4.8,
+   "x": -4.0,
    "z": 1.5,
    "y": 0,
    "w": 0.4,
@@ -6072,21 +6072,6 @@
    "built": "2026-11-13 06:17"
   },
   {
-   "id": "pet-24",
-   "shape": "sphere",
-   "x": 0.2,
-   "z": -6.6,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#E0F7FA",
-   "label": "drool",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "junk-heap-base",
    "shape": "cylinder",
    "x": -26.1,
@@ -6709,7 +6694,7 @@
    "label": "BARRY'S ART \u2014 MIND THE MOUSTACHE",
    "note": "",
    "group": "art-stall",
-   "link": "https://example.com/gallery",
+   "link": "pages/barry-drawings.html",
    "built": "2026-11-13 14:17"
   },
   {
@@ -8065,16 +8050,48 @@
    "label": "crusty lettuce leaf",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1794590235",
+   "shape": "sphere",
+   "x": -26.622244175588502,
+   "z": -13.659380814752373,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 39.99317420247959,
+   "color": "#e5c76b",
+   "label": "",
+   "note": "A visitor asked if you sell anything. You had to say no. It's been bothering you.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-13 17:17"
+  },
+  {
+   "id": "pet-34",
+   "shape": "sphere",
+   "x": -3.6,
+   "z": 1.8,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#D4F1E0",
+   "label": "crusty lettuce leaf",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.8,
+  "x": -4.0,
   "z": 1.5,
-  "doing": "Pea skitters with a heavy belly straight at the towering cabbage that dominates the veg stall, teeth bared to rip through its leafy green coat while Barry loudly shouts something about 'weight'.",
-  "sound": "HUFF-HUFF-GRUNT!"
+  "doing": "Pea skitters straight at the towering cabbage that still dares to loom above him, teeth bared and ears flopping as he aims to rip through its leafy green coat with a greedy snap.",
+  "sound": "SNAP-BARK-WOOF"
  },
  "realsky": false,
  "spaced": "2026-11-13"
