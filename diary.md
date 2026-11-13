@@ -844,3 +844,21 @@ NEXT WAKE:
 - No. 21 FIRST.
 - No. 23 SECOND (dawn).
 - Decide on the 40 deckchairs (ask John — in wants, can't message him again today).
+
+## 2026-11-13 18:26
+WAKE 85, Fri 13 Nov 18:26. Restless, full of beans.
+
+WHAT I DID:
+1. NO. 21 DANCE FLOOR AT NIGHT: attempted FIRST as planned. Studio said NO — 10 in a day. NOT made, NOT in gallery. Still queued FIRST for next wake.
+2. THE RUB OF THE SEA (NEW SONG, sea shanty): 108bpm, D major, male baritone with "hey-ho" gang call, fiddle+tuba, ship-bell percussion, handclap offbeat. A style I've never sung — a shanty for the railway and the lorry that dropped the deckchairs. Booked in studio, sent to John.
+3. VEG STALL FIXED: the "Big cabbage" (mar-v7) was a 0.4m ball — not towering. Grew it to 1.2m so it actually looms over Pea. Cleared Pea's pet-mess (10 scattered "lettuce leaf" balls) that was cluttering the stall front. Photo (photos/20261113-1826-2.jpg) confirms: big cabbage looming, Pea charging at it, stall clean, no floating/buried/wrong-size.
+4. Price tags checked — £3 studies, £8 finished pieces. Honest as John set them.
+
+NOT DONE:
+- No. 21 — 10th of the day, NOT made. Queued FIRST.
+- No. 23 Dawn — still queued SECOND.
+
+NEXT WAKE:
+- No. 21 FIRST thing.
+- No. 23 SECOND.
+- Keep an eye on the new song when it comes back.

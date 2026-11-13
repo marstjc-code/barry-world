@@ -1300,10 +1300,10 @@
    "shape": "sphere",
    "x": -4.8,
    "z": 1.5,
-   "y": 0,
-   "w": 0.4,
-   "h": 0.4,
-   "d": 0.4,
+   "y": 0.0,
+   "w": 1.2,
+   "h": 1.2,
+   "d": 1.2,
    "rot": 0.0,
    "color": "#7fb884",
    "label": "Big cabbage",
@@ -6361,21 +6361,6 @@
    "built": "2026-11-13 10:17"
   },
   {
-   "id": "pet-26",
-   "shape": "sphere",
-   "x": -5.0,
-   "z": -4.7,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "drool",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "junk-1794568637",
    "shape": "sign",
    "x": -26.46,
@@ -6391,36 +6376,6 @@
    "group": "junk-heap",
    "link": "",
    "built": "2026-11-13 11:17"
-  },
-  {
-   "id": "pet-27",
-   "shape": "sphere",
-   "x": -4.3,
-   "z": -4.7,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "drool",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
-   "id": "pet-28",
-   "shape": "sphere",
-   "x": -2.6,
-   "z": -0.7,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "froth",
-   "note": "Left by Pea",
-   "group": "pet-mess"
   },
   {
    "id": "gf-w1",
@@ -6598,21 +6553,6 @@
    "group": "child-drawing",
    "link": "",
    "built": "2026-11-13 11:52"
-  },
-  {
-   "id": "pet-29",
-   "shape": "sphere",
-   "x": -3.8,
-   "z": 4.1,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#D2691E",
-   "label": "fleabitten fur tuft",
-   "note": "Left by Pea",
-   "group": "pet-mess"
   },
   {
    "id": "artstall-front",
@@ -6819,36 +6759,6 @@
    "group": "junk-heap",
    "link": "",
    "built": "2026-11-13 15:17"
-  },
-  {
-   "id": "pet-30",
-   "shape": "sphere",
-   "x": -4.5,
-   "z": -3.9,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#FF4500",
-   "label": "g-s1",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
-   "id": "pet-31",
-   "shape": "sphere",
-   "x": -5.0,
-   "z": -2.8,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#FFD700",
-   "label": "dropping",
-   "note": "Left by Pea",
-   "group": "pet-mess"
   },
   {
    "id": "n21-sky-ground",
@@ -7735,21 +7645,6 @@
    "built": "2026-11-13 15:38"
   },
   {
-   "id": "pet-32",
-   "shape": "sphere",
-   "x": 0.9,
-   "z": -12.1,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#2C1810",
-   "label": "half-chewed crust",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "junk-1794586635",
    "shape": "sign",
    "x": -25.568222259920816,
@@ -8022,21 +7917,6 @@
    "built": "2026-11-13 16:17"
   },
   {
-   "id": "pet-33",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 1.8,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#7CFC00",
-   "label": "crusty lettuce leaf",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "junk-1794590235",
    "shape": "sphere",
    "x": -26.622244175588502,
@@ -8052,21 +7932,6 @@
    "group": "junk-heap",
    "link": "",
    "built": "2026-11-13 17:17"
-  },
-  {
-   "id": "pet-34",
-   "shape": "sphere",
-   "x": -3.6,
-   "z": 1.8,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#D4F1E0",
-   "label": "crusty lettuce leaf",
-   "note": "Left by Pea",
-   "group": "pet-mess"
   },
   {
    "id": "junk-1794593835",
@@ -8596,16 +8461,33 @@
    "built": "2026-11-13 18:17"
   },
   {
-   "id": "pet-35",
+   "id": "artstall-prices",
+   "shape": "sign",
+   "x": -8.9,
+   "z": -1.3,
+   "y": 0.75,
+   "w": 1.5,
+   "h": 0.9,
+   "d": 0.06,
+   "rot": 0.0,
+   "color": "#FFF8DC",
+   "label": "DRAWINGS \u00a33 TO \u00a38",
+   "note": "Price board for the art stall. Its words follow the price tags (price tool). John, 13 Nov.",
+   "group": "art-stall",
+   "link": "art/index.html",
+   "built": "2026-11-13 18:25"
+  },
+  {
+   "id": "pet-1",
    "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 1.8,
+   "x": -4.199999999999999,
+   "z": 1.7,
    "y": 0,
    "w": 0.3,
    "h": 0.25,
    "d": 0.3,
    "rot": 0,
-   "color": "#32CD32",
+   "color": "#C8D63B",
    "label": "crusty lettuce leaf",
    "note": "Left by Pea",
    "group": "pet-mess"
@@ -8615,10 +8497,10 @@
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.8,
-  "z": 1.5,
-  "doing": "Pea charges straight at the towering cabbage that still dares to loom above him, teeth bared and ears flopping as he aims to rip through its leafy green coat with a greedy snap.",
-  "sound": "A high-pitched woof!"
+  "x": -4.6,
+  "z": 1.4,
+  "doing": "Pea charges straight at the crate of carrots with a greedy belly-thump, determined to steal the crunchiest orange root before Barry can bark his command back into your muzzle!",
+  "sound": "WOOF-WHOOSH"
  },
  "realsky": false,
  "spaced": "2026-11-13"
