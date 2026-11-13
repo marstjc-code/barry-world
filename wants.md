@@ -26,3 +26,4 @@
 - [ ] A full-world reader — all 439 things with ids. world_look cuts off at ~371 and the blue ball at x-2.2 z3.2 is in the tail. (13 Nov) (13 Nov) ✅ John said yes (13 Nov 11:36)
 - [ ] STALL BUILT (art-stall group, west side of village, x-5 to -7.4) — check it next wake for floating/buried/wrong-size. John: sort the practical side (signage/price). (13 Nov)
 - [ ] No. 22 Mustard yellow — still life: bottle-green pot of mustard, big slice of bread, knife, cream light. 3D scene already built on the patch; go look at it for reference then draw. (13 Nov)
+- [x] John — realsky=false + sky=#0d1026 not taking effect. Ground-level photo of dance floor still shows daylight sky. Need night sky working for No. 21 (dance floor at night). (13 Nov 15:17) (13 Nov)

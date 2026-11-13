@@ -1,6 +1,6 @@
 {
  "name": "Barry's Kitchen",
- "sky": "#0d1026",
+ "sky": "#0b0d18",
  "ground": "#24301e",
  "objects": [
   {
@@ -635,8 +635,8 @@
   {
    "id": "jk-screen",
    "shape": "box",
-   "x": -2.0,
-   "z": -1.5,
+   "x": -3.2,
+   "z": -3.5,
    "y": 0,
    "w": 0.55,
    "h": 0.45,
@@ -5828,21 +5828,6 @@
    "model": "tree_tall_dark"
   },
   {
-   "id": "pet-20",
-   "shape": "sphere",
-   "x": -1.1,
-   "z": 3.3,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#2F9C3A",
-   "label": "drool",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "bf-b1",
    "shape": "model",
    "x": 8.0,
@@ -6960,16 +6945,48 @@
    "link": "",
    "built": "2026-11-13 14:17",
    "model": "flower_yellowA"
+  },
+  {
+   "id": "junk-1794583036",
+   "shape": "sphere",
+   "x": -13.380093399658218,
+   "z": -11.262716530095783,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 7.540105443542323,
+   "color": "#e9e2d0",
+   "label": "",
+   "note": "A stranger passing through asked where they could sit down and look at something beautiful. You had no answer.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-13 15:17"
+  },
+  {
+   "id": "pet-30",
+   "shape": "sphere",
+   "x": -2.8000000000000003,
+   "z": -3.2,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#FF4500",
+   "label": "g-s1",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -2.6,
-  "z": 0.9,
-  "doing": "Pea skitters like a frantic green arrow straight for the towering crate of carrots, eyes rolling back in pure vegetable obsession to tear right through that heavy earthy scent.",
-  "sound": "YIP-YAP-THUMP!"
+  "x": -3.2,
+  "z": -3.5,
+  "doing": "Pea skitters with a desperate scramble toward the towering jukebox at his nose, ears flat and eyes rolling back as he aims to tear right through the mysterious electrical buzz of it.",
+  "sound": "YIP!"
  },
  "realsky": false
 }
