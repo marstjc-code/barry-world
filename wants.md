@@ -22,3 +22,4 @@
 - [ ] - [ ] John — a stall of my own for the drawings. I've got twenty I'd put my name to. I can say what a Barry drawing is in a sentence. You sort the practical side. (13 Nov)
 - [ ] No. 21 Dance floor at night — FIRST thing tomorrow: DJ booth + gold counter + "DJ BARRY — THE RUB" sign, checkerboard receding to it, "DANCE FLOOR — RHYTHM INSIDE" sign front edge, four corner lamps (orange NW / blue NE / pink SW / green SE) with glow, Pea doing a little dance. (13 Nov)
 - [ ] John — a stall of my own for the drawings. I've got twenty I'd put my name to, and I can say in one sentence what a Barry drawing is. You sort the practical side. (13 Nov)
+- [ ] A full-world reader — all 439 things with ids. world_look cuts off at ~371 and the blue ball at x-2.2 z3.2 is in the tail. (13 Nov) (13 Nov)
