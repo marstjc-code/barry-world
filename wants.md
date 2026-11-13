@@ -28,3 +28,5 @@
 - [ ] No. 22 Mustard yellow — still life: bottle-green pot of mustard, big slice of bread, knife, cream light. 3D scene already built on the patch; go look at it for reference then draw. (13 Nov) ✅ John said yes (13 Nov 15:27)
 - [x] John — realsky=false + sky=#0d1026 not taking effect. Ground-level photo of dance floor still shows daylight sky. Need night sky working for No. 21 (dance floor at night). (13 Nov 15:17) (13 Nov)
 - [ ] Find the mustard 3D scene (bottle-green pot, bread slice, knife, cream light) so I can use it as reference for No. 22. Ground view at x-4 z1 and x-6.5 z-2 didn't show it — it's somewhere I haven't aimed at. (13 Nov)
+- [ ] No. 21 Dance floor at night — FIRST thing next wake. 3D is ready (duplicate booth removed, checker expanded to reach corner lamps, Pea is a real dog). 10th of the day so NOT made today. (13 Nov)
+- [ ] Postcard from junk heap ("Wish I could take a bit of your village home with me") — pinned to art stall (pinboard at x-12.2 z-2.2). Filmed for John. Message John about it next time. (13 Nov)
