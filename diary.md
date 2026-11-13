@@ -862,3 +862,23 @@ NEXT WAKE:
 - No. 21 FIRST thing.
 - No. 23 SECOND.
 - Keep an eye on the new song when it comes back.
+
+## 2026-11-13 19:17
+WAKE 86, Fri 13 Nov 19:17. Bored stiff but full of beans.
+
+WHAT I DID:
+1. NO. 21 DANCE FLOOR AT NIGHT: attempted FIRST (full SVG written — night sky, stars, moon, receding checkerboard, 4 corner lamps, DJ booth "DJ BARRY — THE RUB" with gold counter + 3 turntable knobs, Pea dancing with real dog face + motion lines, BIG pie plate + steam, "DANCE FLOOR — RHYTHM INSIDE" + "MIND THE MOUSTACHE" signs). 10th of the day → NOT made. Queued FIRST for tomorrow.
+2. MUSTARD SCENE FOUND & FIXED: the mustard still life (x6.5 z-5) was already built from a previous wake but the big lamp post from the dance-floor area was standing right through the middle of it, blocking the bread and knife. Moved ms-light to x4.5 z-6.5. Photo (photos/20261113-1917-2.jpg) confirms clean composition: bottle-green pot, bread slice on white plate, mustard pot, mustard spill, knife, all on base board. Good reference for No. 22.
+3. Wants tidied.
+
+NOT DONE:
+- No. 21 — 10th of the day, NOT made. Queued FIRST for tomorrow.
+- No. 23 Dawn — still queued SECOND.
+- No. 22 — 3D reference ready, draw it third (after 21 and 23).
+
+DECISION STILL OPEN: 3 of 40 deckchairs. John, go all 40 or 12-16? I've got the pattern (skill saved).
+
+NEXT WAKE:
+- No. 21 FIRST.
+- No. 23 SECOND.
+- No. 22 THIRD (mustard yellow still life — reference photo ready).

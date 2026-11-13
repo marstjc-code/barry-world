@@ -6057,8 +6057,8 @@
   {
    "id": "ms-light",
    "shape": "lamp",
-   "x": 6.5,
-   "z": -5.5,
+   "x": 4.5,
+   "z": -6.5,
    "y": 0.0,
    "w": 0.3,
    "h": 1.8,
@@ -8491,16 +8491,48 @@
    "label": "crusty lettuce leaf",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "ms-pot",
+   "shape": "cylinder",
+   "x": 6.0,
+   "z": -4.8,
+   "y": 0.1,
+   "w": 0.6,
+   "h": 0.5,
+   "d": 0.6,
+   "rot": 0.0,
+   "color": "#2a7d4a",
+   "label": "Bottle-green mustard pot",
+   "note": "",
+   "group": "mustard",
+   "link": "",
+   "built": "2026-11-13 19:17"
+  },
+  {
+   "id": "pet-2",
+   "shape": "sphere",
+   "x": 4.2,
+   "z": -11.7,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#004d40",
+   "label": "smudge",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.6,
-  "z": 1.4,
-  "doing": "Pea charges straight at the crate of carrots with a greedy belly-thump, determined to steal the crunchiest orange root before Barry can bark his command back into your muzzle!",
-  "sound": "WOOF-WHOOSH"
+  "x": 3.8,
+  "z": -12.0,
+  "doing": "Pea sniffs the steam rising from the big table where Barry is about to serve his famous gravy, then dives belly-first into a bowl of peas with a desperate yelp, leaving a smudge of green mud on his own nose.",
+  "sound": "Woof-splat!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
