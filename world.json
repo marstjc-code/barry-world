@@ -4509,21 +4509,6 @@
    "built": "2026-11-12 15:12"
   },
   {
-   "id": "pet-13",
-   "shape": "sphere",
-   "x": -0.19999999999999996,
-   "z": 2.8,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8AB9F4",
-   "label": "drool puddle",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "sw-roast2",
    "shape": "sphere",
    "x": -0.6,
@@ -6475,15 +6460,47 @@
    "label": "drool",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1794547091",
+   "shape": "box",
+   "x": -13.307256288962861,
+   "z": -11.358277845295175,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 80.8086049107804,
+   "color": "#e5c76b",
+   "label": "PARCEL",
+   "note": "A parcel was left on your doorstep with no name on it. Inside: a tin of bottle green paint and a brush.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-13 05:18"
+  },
+  {
+   "id": "pet-23",
+   "shape": "sphere",
+   "x": -1.1,
+   "z": 2.8,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#FFA074",
+   "label": "drool",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -3.5,
-  "z": -4.0,
-  "doing": "Pea skitters like a possessed mouse straight for the jk-body, his nose twitching violently at the scent of cold metal leaking from beneath the dark wood.",
-  "sound": "yip-yap!"
+  "x": -1.5,
+  "z": 2.5,
+  "doing": "Pea skitters straight for the shop window, his nose twitching violently at the smell of cool air leaking beneath the awning before he belly-flops into a clumsy spin-kick that smashes him right up against the glass.",
+  "sound": "Yelp-bark!"
  }
 }

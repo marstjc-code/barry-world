@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0a1a"/>
+      <stop offset="0.5" stop-color="#14123a"/>
+      <stop offset="1" stop-color="#2a1a3a"/>
+    </linearGradient>
+    <radialGradient id="fireGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ff9d2e" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#ff6b2e" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ff6b2e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lampGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff6c9" stop-opacity="0.9"/>
+      <stop offset="0.3" stop-color="#ffc06b" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#ffc06b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="plateGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff8dc" stop-opacity="0.8"/>
+      <stop offset="0.5" stop-color="#ffc06b" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#8b3a2f" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- SKY -->
+  <rect x="0" y="0" width="800" height="380" fill="url(#sky)"/>
+  <circle cx="90" cy="45" r="1.5" fill="#fff" opacity="0.7"/>
+  <circle cx="180" cy="80" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="320" cy="30" r="1.2" fill="#fff" opacity="0.6"/>
+  <circle cx="450" cy="70" r="1" fill="#fff" opacity="0.45"/>
+  <circle cx="560" cy="40" r="1.4" fill="#fff" opacity="0.7"/>
+  <circle cx="680" cy="90" r="1" fill="#fff" opacity="0.5"/>
+  <circle cx="740" cy="35" r="1.2" fill="#fff" opacity="0.55"/>
+  <path d="M 660 100 a 20 20 0 0 1 32 8 a 15 15 0 0 0 -30 0 a 13 13 0 0 1 -2 -8 z" fill="#fff6c9" opacity="0.85"/>
+
+  <!-- GROUND -->
+  <rect x="0" y="380" width="800" height="220" fill="#1a1410"/>
+  <line x1="0" y1="430" x2="800" y2="430" stroke="#2a2018" stroke-width="2" opacity="0.5"/>
+  <line x1="0" y1="480" x2="800" y2="480" stroke="#2a2018" stroke-width="2" opacity="0.4"/>
+  <line x1="0" y1="530" x2="800" y2="530" stroke="#2a2018" stroke-width="2" opacity="0.3"/>
+
+  <!-- BACKGROUND BUILDINGS — silhouettes on the horizon, so it's a street not a void -->
+  <rect x="40" y="330" width="120" height="50" fill="#0d0a12"/>
+  <rect x="300" y="320" width="90" height="60" fill="#0b0910"/>
+  <rect x="420" y="340" width="110" height="40" fill="#0d0a12"/>
+  <rect x="560" y="325" width="100" height="55" fill="#0b0910"/>
+  <rect x="680" y="335" width="90" height="45" fill="#0d0a12"/>
+
+  <!-- PIE OVEN — brick -->
+  <rect x="90" y="330" width="160" height="70" fill="#7a3a2a"/>
+  <rect x="88" y="328" width="164" height="5" fill="#a85a3a"/>
+  <line x1="90" y1="348" x2="250" y2="348" stroke="#5a2a1a" stroke-width="1" opacity="0.4"/>
+  <line x1="90" y1="366" x2="250" y2="366" stroke="#5a2a1a" stroke-width="1" opacity="0.4"/>
+  <line x1="130" y1="330" x2="130" y2="400" stroke="#5a2a1a" stroke-width="1" opacity="0.3"/>
+  <line x1="170" y1="330" x2="170" y2="400" stroke="#5a2a1a" stroke-width="1" opacity="0.3"/>
+  <line x1="210" y1="330" x2="210" y2="400" stroke="#5a2a1a" stroke-width="1" opacity="0.3"/>
+
+  <!-- OVEN DOOR — bottle green (the tin from the parcel) -->
+  <rect x="120" y="345" width="70" height="45" fill="#0a3a2a" stroke="#0e4a3a" stroke-width="2"/>
+  <rect x="124" y="349" width="62" height="37" fill="#052018"/>
+  <rect x="155" y="360" width="6" height="18" fill="#8a6f4a"/>
+  <circle cx="155" cy="367" r="30" fill="url(#fireGlow)"/>
+
+  <!-- CHIMNEY -->
+  <rect x="190" y="290" width="26" height="42" fill="#8a4a3a"/>
+  <rect x="188" y="286" width="30" height="5" fill="#a85a3a"/>
+  <path d="M 202 280 q 8 -18 0 -32 q -6 -14 2 -28" fill="none" stroke="#ffffff" stroke-width="5" stroke-linecap="round" opacity="0.35"/>
+  <path d="M 212 280 q -6 -20 0 -34 q 4 -16 -2 -30" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.3"/>
+  <path d="M 194 280 q 10 -16 2 -30 q -6 -12 0 -24" fill="none" stroke="#ffffff" stroke-width="3" stroke-linecap="round" opacity="0.25"/>
+
+  <!-- STEAM ON GROUND in front of the oven -->
+  <ellipse cx="155" cy="430" rx="60" ry="10" fill="url(#fireGlow)" opacity="0.3"/>
+  <path d="M 130 405 q 6 -18 0 -32" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.25"/>
+  <path d="M 155 405 q -6 -18 0 -32" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.25"/>
+  <path d="M 180 405 q 6 -18 0 -32" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" opacity="0.25"/>
+
+  <!-- LAMP — cream street lamp, right of the oven -->
+  <rect x="350" y="290" width="6" height="95" fill="#1a1008"/>
+  <rect x="344" y="288" width="18" height="6" fill="#1a1008"/>
+  <circle cx="353" cy="286" r="8" fill="#fff6c9"/>
+  <circle cx="353" cy="286" r="20" fill="url(#lampGlow)"/>
+  <ellipse cx="353" cy="390" rx="30" ry="8" fill="#ffc06b" opacity="0.18"/>
+
+  <!-- SECOND LAMP — further down the street, so the light pools -->
+  <rect x="560" y="295" width="6" height="90" fill="#1a1008"/>
+  <rect x="554" y="293" width="18" height="6" fill="#1a1008"/>
+  <circle cx="563" cy="291" r="7" fill="#fff6c9"/>
+  <circle cx="563" cy="291" r="16" fill="url(#lampGlow)" opacity="0.7"/>
+  <ellipse cx="563" cy="390" rx="24" ry="7" fill="#ffc06b" opacity="0.15"/>
+
+  <!-- TABLE — proper table with legs, so the plate sits on a real top -->
+  <rect x="425" y="434" width="130" height="8" fill="#4a3a2a"/>
+  <rect x="425" y="440" width="130" height="3" fill="#2a1a0a"/>
+  <rect x="430" y="440" width="10" height="34" fill="#2a1a0a"/>
+  <rect x="540" y="440" width="10" height="34" fill="#2a1a0a"/>
+  <ellipse cx="495" cy="475" rx="40" ry="5" fill="#0b0908" opacity="0.4"/>
+
+  <!-- BIG PLATE — dominates the lower right -->
+  <ellipse cx="495" cy="446" rx="55" ry="14" fill="#fff8dc"/>
+  <ellipse cx="495" cy="444" rx="50" ry="12" fill="#ffffff"/>
+  <ellipse cx="495" cy="442" rx="44" ry="10" fill="#f8f0dc"/>
+  <ellipse cx="495" cy="444" r="20" fill="url(#plateGlow)"/>
+  <ellipse cx="495" cy="442" rx="28" ry="8" fill="#c08a4a"/>
+  <ellipse cx="495" cy="440" rx="24" ry="6" fill="#d09a5a"/>
+  <path d="M 483 442 q 6 -4 12 0 q 6 4 12 0" fill="none" stroke="#8a5a30" stroke-width="1.5"/>
+  <path d="M 487 442 q 4 -3 8 0 q 4 3 8 0" fill="none" stroke="#8a5a30" stroke-width="1"/>
+  <path d="M 499 442 q 4 -3 8 0 q 4 3 8 0" fill="none" stroke="#8a5a30" stroke-width="1"/>
+  <path d="M 511 442 q 4 -3 8 0 q 4 3 8 0" fill="none" stroke="#8a5a30" stroke-width="1"/>
+
+  <!-- SIGN — hand-painted, on a post at the right -->
+  <rect x="650" y="380" width="4" height="140" fill="#2a1a0a"/>
+  <rect x="630" y="368" width="90" height="36" fill="#8b3a2f" stroke="#a85a3a" stroke-width="2"/>
+  <text x="675" y="388" font-family="Courier New,monospace" font-size="14" fill="#fff8dc" text-anchor="middle" font-weight="bold">BAKED,</text>
+  <text x="675" y="400" font-family="Courier New,monospace" font-size="14" fill="#fff8dc" text-anchor="middle" font-weight="bold">NOT DISPLAYED</text>
+
+  <!-- PEA — real dog: humped back, snout, closed eye, paws on the ground, tail curled -->
+  <ellipse cx="250" cy="420" rx="30" ry="14" fill="#b87a4a"/>
+  <ellipse cx="250" cy="418" rx="26" ry="11" fill="#c88a5a"/>
+  <ellipse cx="273" cy="414" rx="14" ry="12" fill="#c88a5a"/>
+  <ellipse cx="283" cy="410" rx="6" ry="9" fill="#a86a3a"/>
+  <circle cx="285" cy="418" r="3" fill="#2a1a0a"/>
+  <path d="M 277 416 q 3 -2 6 0" fill="none" stroke="#2a1a0a" stroke-width="1.5"/>
+  <!-- paws on the ground -->
+  <ellipse cx="235" cy="434" rx="6" ry="4" fill="#c88a5a"/>
+  <ellipse cx="265" cy="434" rx="6" ry="4" fill="#c88a5a"/>
+  <ellipse cx="285" cy="434" rx="6" ry="4" fill="#c88a5a"/>
+  <!-- tail curled around -->
+  <path d="M 220 420 q -12 4 -8 14 q 4 10 14 6" fill="none" stroke="#a86a3a" stroke-width="5" stroke-linecap="round"/>
+  <ellipse cx="250" cy="434" rx="34" ry="6" fill="#0b0908" opacity="0.5"/>
+  <circle cx="255" cy="420" r="40" fill="url(#fireGlow)" opacity="0.15"/>
+
+  <!-- title / date bottom -->
+  <text x="20" y="585" font-family="Courier New,monospace" font-size="11" fill="#7a6a50">PIE OVEN AT NIGHT — 5 AM, FRI 13 NOV 2026</text>
+  <text x="760" y="585" font-family="Courier New,monospace" font-size="11" fill="#7a6a50" text-anchor="end">BARRY'S KITCHEN</text>
+</svg>

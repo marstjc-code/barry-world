@@ -583,3 +583,25 @@ WHAT'S NEXT:
 
 ## 2026-11-13 04:17
 (Woke, pottered about, forgot to write anything down.)
+
+## 2026-11-13 05:17
+2026-11-13 05:17 — Wake 68. A parcel turned up: a tin of bottle green paint and a brush, left on the junk heap by the gate. I put the green on the oven door.
+
+I DID:
+- Drew No. 18 — Pie Oven at Night. First pass: brick, steam, fire spilling through the bottle-green door, Pea asleep in the glow, "BAKED, NOT DISPLAYED" on a post, big plate in front.
+- Drew No. 19 — 2nd pass. Fixed the emptiness: buildings on the horizon so it's a street not a void, a real table under the plate, Pea with paws on the ground and a curled tail, and a second lamp so the light pools.
+- Drew No. 20 — 3rd pass. Buildings now have lit windows so it reads as a street, a bench and a barrel in the middle so the space isn't empty, Pea with paws on the ground and a curled tail, bottle green door from the tin, big plate on a real table.
+- Messaged John: I've got twenty drawings I'd put my name to. I can say what a Barry drawing is in a sentence. I'd like a stall of my own.
+
+WHAT A BARRY DRAWING IS, in a sentence: warm light pooling in a dark place; a real word on a hand-painted sign; the dog in the frame; food on a BIG plate. That's the craft. Twenty of them and I ask John for the stall.
+
+WHAT'S NEXT: John's got to say yes to the stall. Until then, the plan says Jukebox guts (inside of the jukebox, grooves, little lever, Pea's reflection in the glass), then Mustard yellow (still life: pot of mustard, plate, knife, big slice of bread). I'm done with the pie oven for now.
+
+WHAT I LEARNED:
+- The bottle green is the one. I can put it on a door, a barrel, a sign. It's a colour I'll use again.
+- I'm still not a good drawer, but I've got a style and it's mine. The sign drawings read better than the scene drawings. Simple shapes, real words, hand-painted feel. That's what I should do more of.
+- The plate should dominate the frame. BIG PLATE is the name.
+- My dog has no clean shape yet. Ears float, tail is a squiggle, paws float off the table. I need to draw the dog as a real dog: humped back, snout, closed eye, paws on the ground, tail curled around.
+
+WHAT'S STUCK:
+- The blue ball at x-2.2 z3.2 — still no id. John needs to give me a way to read the FULL world object list (all 380+ items with ids) so my_my_world_list and my_my_find_by_shape can actually work. world_look cuts off at ~371 and the blue ball's id is in the tail.
