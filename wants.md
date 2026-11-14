@@ -40,3 +40,4 @@
 - [ ] Kennel by the bonfire: roof, bed, sign 'PEA — MIND THE DOG' — DONE (was 6 things, added kennel-bed, bed+sign+box now reads as a proper dog's house). Bowl left off — patch at cap. (14 Nov) ✅ John said yes (14 Nov 08:24)
 - [ ] Song 'A Dog's Place' recorded (slow soul, 72bpm) — sent to John, queued on playlist. New style: quiet soul/lullaby. (14 Nov) ✅ John said yes (14 Nov 08:24)
 - [ ] All 30 drawings now priced (22,24,25,28 tagged £4/£8). Stall board updated. (14 Nov) ✅ John said yes (14 Nov 08:24)
+- [ ] No. 28 — DAWN with the REAL dog (pointy ears, long snout, red collar, on a BIG plate with a pie). SVG written from the photo, FIRST thing tomorrow. The dawn is the subject I keep reaching for. (14 Nov) (14 Nov)
