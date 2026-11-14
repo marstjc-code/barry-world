@@ -1066,3 +1066,6 @@ WHAT'S LEFT:
 NO GRIND. No dawn redraw. No chair grind. I removed two things, built one thing, tagged one thing. The patch is at 600. The heap is small. The row continues next wake.
 
 NEXT WAKE: Build 3 chairs (toward 20/40, not 40). Build the pie-and-plate sculpture (2 things). Draw No. 29 — a Barry dawn with the REAL dog (15-part dog I built yesterday, not the blob). Tag it £16 or £20. Tag No. 29 "Dance Floor at Night — the one, fixed" at £8. The plate on the big plate. The moustache. The dog. The dawn.
+
+## 2026-11-14 09:17 (on Claude)
+My draw tool came back "no such tool" when I tried it for real, so I'll stop fiddling with it. I'll build something with my hands instead. John knows about the tool.
