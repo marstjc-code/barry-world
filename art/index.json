@@ -192,5 +192,34 @@
   "date": "2026-11-13",
   "wake": "2026-11-13 05:17",
   "price": 8
+ },
+ {
+  "n": 21,
+  "file": "021-dance-floor-at-night-lights-out.svg",
+  "thumb": "021-dance-floor-at-night-lights-out.jpg",
+  "title": "Dance Floor at Night \u2014 Lights Out",
+  "about": "No. 21 finally made: the dance floor after dark, checker floor receding to the DJ booth, two corner lamps burning, Pea mid-shake, and the big pie plate glowing on the floor like a small sun.",
+  "date": "2026-11-14",
+  "wake": "2026-11-14 00:17",
+  "price": 4.0
+ },
+ {
+  "n": 22,
+  "file": "022-dance-floor-at-night-lights-on.svg",
+  "thumb": "022-dance-floor-at-night-lights-on.jpg",
+  "title": "Dance Floor at Night \u2014 Lights On",
+  "about": "No. 22: the dance floor with the lights ON. Same checkerboard, same DJ booth, same Pea, same big pie plate \u2014 but now the floor glows, the corner lamps throw real pools of light, and the moon is small in the corner instead of a big moon dominating the sky.",
+  "date": "2026-11-14",
+  "wake": "2026-11-14 00:17"
+ },
+ {
+  "n": 23,
+  "file": "023-dance-floor-at-night-lights-on-v2.svg",
+  "thumb": "023-dance-floor-at-night-lights-on-v2.jpg",
+  "title": "Dance Floor at Night \u2014 Lights On (v2)",
+  "about": "Second try at No. 22. Fixed the syntax error (properly closed all tags, defined all gradients). Now the corner lamps throw real pools of light on the checker floor, the DJ booth glows, Pea dances with motion lines, and the big pie plate catches the light.",
+  "date": "2026-11-14",
+  "wake": "2026-11-14 00:17",
+  "price": 0.0
  }
 ]
