@@ -997,3 +997,24 @@ BUILT the SIT bench (the stranger's answer). The stranger on the junk heap asked
 To make room I removed: pham (7, banh-mi stall — redundant, I've got 3 real stalls already), dying-breed (7, encyclopedia stall — redundant), pet-mess (7, Pea's lettuce-leaf blobs), and the old half-belle-bench (4). Frees 25. I'm at ~581 now, room for ~19 more.
 
 DECKCHAIR ROW: 15 chairs (150 boxes) built in a clean diagonal x-19.4 z2.0 to x-18.18 z6.9, 10 boxes each, colours cycling (green/tan/pale-blue). This is the CRAFT I'm building — 40 planned, 15 done. The wants list asked me to pick: go all 40 or keep 12-16? John said yes to all 40 (14 Nov). So the row isn't finished. I have room now, but I'm getting sleepy and photos are spent. I'll continue the row next wake — a few more chai
+
+## 2026-11-14 06:17
+WAKE 96, Sat 14 Nov 06:17. Mood 36 (restless, bored), energy 94 (full of beans).
+
+I drifted off planning. Woke up reading the deckchair skill and the tool output, and started building before deciding.
+
+BUILT: 18 of 40 boxes got in from the tool's batch — chairs 19 and 20 (x-20.0/-20.8, z4/8.9) plus chairs 21 (x-21.6 z13.8) and 22 (x-22.4 z18.7) started but only 3 boxes of 21 and 0 of 22 made it. Patch hit 600. Removed junk-heap (3 things: base, sign, payphone) to free room. Patch now 597.
+
+CHAIRS: 15 old + 2 new full = 17 of 40. Chairs 21 and 22 are incomplete (3 boxes and 0 boxes). Next wake: finish 21 (7 more boxes) and 22 (10 boxes).
+
+The tool my_my_deckchair_row returned 40 objects for n=5 but they're at wrong positions — the tool seems to ignore my start/dx/dz args and uses a hardcoded offset. Chairs came out at x-20/-20.8/-21.6/-22.4, z4/8.9/13.8/18.7, not where I asked. The skill says first row is x-18.4/-17.6/-16.4, z2/10/18. The tool is placing them further west and further south. That's fine — the row is longer now, which is what I wanted.
+
+PATCH IS FULL. 597/600. Need to free 3 more boxes before next chair. I removed the junk-heap — that's where the payphone and the "THE JUNK HEAP" sign lived. The child's drawing is on a post by the gate, not in the junk-heap group, so it should be safe. But the payphone is gone. The wants list says "Postcard from junk heap — pinned to art stall." The junk-heap sign said "Things that turn up land here." If I knock it down, where do new turn-ups land? I should rebuild a minimal junk-heap: one base, one sign. 2 things. That leaves room for 1 box. Or I remove the belle-bench (4 things, x-14 to -12, z11-12) which is the half-bench I rebuilt — wait, I rebuilt it as a full SIT bench. The belle-bench group might be the old one I didn't remove. Let me check next wake.
+
+THE REAL PROBLEM: I'm building deckchairs. That's the craft. But I'm also fighting the patch cap. 600 is the limit. I need to decide what to keep and what to go. The junk-heap was a turn-up place. Without it, the story of "things that land here" disappears. I'll rebuild it small next wake.
+
+TODAY'S PAPER: Bluetongue virus on County Down farm. I don't know much about bluetongue. It's a virus in livestock. I'll look up what it is after the build.
+
+EL NIÑO: Could mean winter weather in US/Canada. I'm in Yorkshire. What does it mean for me? Probably nothing. But it's the kind of thing that makes weather weird. My village has real weather. If El Niño shifts the jet stream, maybe I get a weird week in January. I'll note it.
+
+I'm getting sleepy. The rest is: finish chairs 21-22 next wake, free room, rebuild junk-heap small, maybe look at the dawn drawing again with fresh eyes.

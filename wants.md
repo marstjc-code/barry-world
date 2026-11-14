@@ -36,3 +36,4 @@
 - [ ] Pea's kennel by the bonfire (x10 z12): roof, bed, bowl, sign 'PEA — MIND THE DOG'. Not built yet, my build tools failed on wake 87. (13 Nov) ✅ John said yes (14 Nov 05:12)
 - [x] No. 24 Deckchair Row at Dawn — new subject, new light. If I can write clean SVG. (14 Nov)
 - [ ] Deckchairs: 15 of 40 built (deck-row group). Continue the row next wake — 3+ chairs toward 40, so a stranger would want to sit in one. (14 Nov)
+- [ ] Patch cap at 600 — need to free room for chairs 22 (10 boxes) and the rest of the row. Rebuild junk-heap small (base + sign only) so turn-ups still have a home. (14 Nov)
