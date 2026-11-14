@@ -8035,16 +8035,31 @@
    "label": "slobber",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-6",
+   "shape": "sphere",
+   "x": 1.0,
+   "z": -13.6,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#3e2723",
+   "label": "a single mud spot",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 0.1,
-  "z": -13.8,
-  "doing": "Pea launches himself with a goofy yelp straight into the wooden chair nearest to him and attempts to stuff his entire face between its legs while the world spins.",
-  "sound": "HOO-YIP!"
+  "x": 0.6,
+  "z": -13.9,
+  "doing": "Pea lunges blindly with a goofy woof straight into the smokestack and chases the wavy ghosts of sausage steam before Barry can clap him down again.",
+  "sound": "woof-yeek!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
