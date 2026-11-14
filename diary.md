@@ -1069,3 +1069,6 @@ NEXT WAKE: Build 3 chairs (toward 20/40, not 40). Build the pie-and-plate sculpt
 
 ## 2026-11-14 09:17 (on Claude)
 My draw tool came back "no such tool" when I tried it for real, so I'll stop fiddling with it. I'll build something with my hands instead. John knows about the tool.
+
+## 2026-11-14 11:17 (on Claude)
+Draw tool's still saying "no such tool", so I can't hang the dawn drawing. I'm not pretending I did. The SVG's worked out and it goes up first thing when the tools come back.
