@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800" width="800" height="800">
+  <defs>
+    <radialGradient id="cream" cx="0.45" cy="0.42" r="0.95">
+      <stop offset="0" stop-color="#fff3d6"/>
+      <stop offset="0.5" stop-color="#f3e3bd"/>
+      <stop offset="0.85" stop-color="#e0c98e"/>
+      <stop offset="1" stop-color="#b7945a"/>
+    </radialGradient>
+    <radialGradient id="potgrad" cx="0.4" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#66b06a"/>
+      <stop offset="0.5" stop-color="#2f7d44"/>
+      <stop offset="1" stop-color="#1e4c2e"/>
+    </radialGradient>
+    <radialGradient id="ygrad" cx="0.4" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#f7c34a"/>
+      <stop offset="0.6" stop-color="#e8a020"/>
+      <stop offset="1" stop-color="#b5760e"/>
+    </radialGradient>
+    <radialGradient id="plate" cx="0.45" cy="0.4" r="0.85">
+      <stop offset="0" stop-color="#fffdf8"/>
+      <stop offset="0.7" stop-color="#f1ede6"/>
+      <stop offset="1" stop-color="#d6cfc4"/>
+    </radialGradient>
+    <radialGradient id="sun" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff7d0"/>
+      <stop offset="0.6" stop-color="#ffe9a0"/>
+      <stop offset="1" stop-color="#fff7d0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- cream wash -->
+  <rect width="800" height="800" fill="url(#cream)"/>
+  <!-- warm light pooling top-left -->
+  <circle cx="170" cy="120" r="300" fill="url(#sun)"/>
+  <!-- corner shadow, dark place -->
+  <path d="M800 0 L800 240 L560 800 Z" fill="#7a5c33" opacity="0.35"/>
+  <path d="M0 800 L0 640 L300 800 Z" fill="#8a6a3a" opacity="0.22"/>
+
+  <!-- base board, seen in perspective -->
+  <g>
+    <path d="M60 560 L740 560 L800 700 L0 700 Z" fill="#8a6f4a"/>
+    <path d="M60 560 L740 560 L690 600 L110 600 Z" fill="#9d8156"/>
+    <!-- board shadow onto ground -->
+    <path d="M0 700 L800 700 L860 760 L-60 760 Z" fill="#5c4a2c" opacity="0.3"/>
+  </g>
+
+  <!-- mustard spill on the board (trail to the right) -->
+  <g opacity="0.9">
+    <path d="M430 620 C470 610 520 618 560 632 C590 642 600 620 580 608 C560 598 510 600 480 606 C455 610 430 612 430 620 Z" fill="#e8a020"/>
+    <path d="M540 626 C560 620 580 628 596 640 C586 650 566 648 550 640 C538 634 540 626 540 626 Z" fill="#c98a14" opacity="0.7"/>
+    <path d="M598 634 C618 626 640 640 652 658 C634 672 604 666 588 652 C580 644 598 634 598 634 Z" fill="#e8a020" opacity="0.9"/>
+  </g>
+
+  <!-- bottle-green mustard pot (big) -->
+  <g>
+    <path d="M330 620 L330 650 L442 650 L442 620 Z" fill="url(#potgrad)"/>
+    <ellipse cx="386" cy="620" rx="56" ry="18" fill="#2f7d44"/>
+    <ellipse cx="386" cy="614" rx="48" ry="14" fill="#4a9c58"/>
+    <!-- mustard on top, slightly over the rim -->
+    <path d="M348 610 C370 600 408 600 428 610 C418 616 358 616 348 610 Z" fill="#e8a020"/>
+    <!-- highlight -->
+    <path d="M346 640 C344 620 348 605 356 600" stroke="#a9d8a3" stroke-width="7" fill="none" stroke-linecap="round" opacity="0.8"/>
+    <!-- shadow under pot -->
+    <ellipse cx="392" cy="652" rx="66" ry="14" fill="#5c4a2c" opacity="0.5"/>
+  </g>
+
+  <!-- BIG plate, dominates -->
+  <g>
+    <path d="M460 632 C460 700 660 700 660 632 C660 552 460 552 460 632 Z" fill="url(#plate)"/>
+    <path d="M476 628 C476 690 644 690 644 628 C644 558 476 558 476 628 Z" fill="#fffdf8"/>
+    <!-- plate rim shadow -->
+    <path d="M460 660 C470 690 520 700 560 700" stroke="#b9ad9a" stroke-width="6" fill="none" opacity="0.6" stroke-linecap="round"/>
+  </g>
+
+  <!-- slice of bread on the big plate -->
+  <g>
+    <path d="M520 645 L600 645 L600 675 L520 675 Z" fill="#c89b5a"/>
+    <path d="M526 649 L594 649 L594 669 L526 669 Z" fill="#f1ede6"/>
+    <!-- crust top -->
+    <path d="M520 645 L600 645 L608 655 L512 655 Z" fill="#b58a43"/>
+  </g>
+
+  <!-- yellow mustard pot (small, right) -->
+  <g>
+    <path d="M660 636 L660 670 L700 670 L700 636 Z" fill="url(#ygrad)"/>
+    <ellipse cx="680" cy="636" rx="22" ry="8" fill="#e8a020"/>
+    <path d="M676 634 C676 626 684 626 684 634 Z" fill="#c98a14"/>
+    <path d="M662 650 C662 638 664 632 668 630" stroke="#f7d98f" stroke-width="4" fill="none" stroke-linecap="round" opacity="0.9"/>
+    <ellipse cx="684" cy="672" rx="24" ry="6" fill="#5c4a2c" opacity="0.4"/>
+  </g>
+
+  <!-- knife on the board, to the right of the plate -->
+  <g>
+    <path d="M700 690 L755 690 L755 712 L700 712 Z" fill="#b08a5e"/>
+    <path d="M755 692 L772 702 L755 710 Z" fill="#7a7a7a"/>
+    <path d="M755 696 L760 702 L755 708 Z" fill="#9a9a9a"/>
+    <ellipse cx="728" cy="716" rx="26" ry="5" fill="#5c4a2c" opacity="0.4"/>
+  </g>
+
+  <!-- hand-painted sign bottom-left -->
+  <g>
+    <rect x="60" y="700" width="200" height="46" rx="6" fill="#f7ead0" stroke="#3a2a1a" stroke-width="3"/>
+    <text x="160" y="733" font-family="Georgia,serif" font-size="24" font-weight="bold" fill="#3a2a1a" text-anchor="middle">MUSTARD</text>
+  </g>
+</svg>

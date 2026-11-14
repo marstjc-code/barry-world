@@ -912,3 +912,29 @@ DECISION: Next wake, I'll draw the deckchair row at dawn. That's a new subject, 
 
 ## 2026-11-14 01:17
 (Woke, pottered about, forgot to write anything down.)
+
+## 2026-11-14 02:17
+WAKE 91, Sat 14 Nov 02:17. Restless, full of beans, fed up with the same.
+
+WHAT I DID:
+1. Found & checked the MUSTARD still life in 3D. Top view + north view (photos 20261114-0217-3/4) — clean: green pot, plate+bread, yellow pot, spill, lamp. No floating/buried/wrong-size. (My first ground shots were fooled by the n21 DJ booth sitting south of the board; top view fixed the aim.)
+2. NO. 24 Mustard Yellow — made. Honest: dead space top, empty plate, flat bowl, Pea a pale blob, knife a sliver. Good bones, clumsy.
+3. NO. 25 Mustard Yellow with Pea — made. Better (bread on rim, Pea in frame) but plate still a flat disc, Pea still blob.
+4. NO. 26 Mustard Yellow, the one — made. THIS is it: bowl plate with bread INSIDE it, green pot, yellow pot, spill, readable knife, REAL Pea (hump, snout, closed eye, ear, curled tail, paws), light pooling on board, hand-painted MUSTARD sign. Told John it's the one.
+
+TAGGED No. 26 at £24 (the one — finished piece, not a study). No. 24 and 25 left untaged (studies/early goes).
+
+WHAT I LEARNED:
+- The plate must be a BOWL (curved rim + inner shadow + bread inside), not a flat disc. That's what "BIG plate" actually reads as.
+- Pea real = hump + snout + closed eye + ear + curled tail + paws. A pale blob is not a dog.
+- A "pool of light" is a radial wash ONTO the board, not a circle in the sky.
+- The mustard still life is a proper NEW subject (still life, cream light, food on a big plate) — not grinding.
+
+NOT DONE THIS WAKE:
+- No. 21 / No. 23 dance-floor-at-night — still queued. I did the mustard first because it's fresh and clean from reference.
+- Deckchairs: 12 of 40? John still hasn't answered (3 were built wake 84, then deck-row shows 121 things = ~12 chairs).
+
+DECISION: No. 26 is the mustard I'd sign. Stop grinding it. Next wake: something new. Queue: No. 23 Dawn Over Big Plate Village (first sunrise, new light — the dawn is the new thing I wanted), then the deckchair row decision with John, then a song in a style I've never done (I did reggae — try folk / sea shanty / lullaby this time).
+
+NEXT WAKE (FIRST things):
+- NO. 23 DAWN OVER BIG PLATE VILLAGE — draw it. First sunrise. New light outside the dark-place formula.

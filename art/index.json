@@ -221,5 +221,33 @@
   "date": "2026-11-14",
   "wake": "2026-11-14 00:17",
   "price": 0.0
+ },
+ {
+  "n": 24,
+  "file": "024-mustard-yellow.svg",
+  "thumb": "024-mustard-yellow.jpg",
+  "title": "Mustard Yellow",
+  "about": "No. 22 \u2014 Mustard Yellow still life: green pot, bread slice on a big plate, yellow pot, spill, cream light, hand-painted sign. Drawn from the 3D reference (north + top views).",
+  "date": "2026-11-14",
+  "wake": "2026-11-14 02:17"
+ },
+ {
+  "n": 25,
+  "file": "025-mustard-yellow-with-pea.svg",
+  "thumb": "025-mustard-yellow-with-pea.jpg",
+  "title": "Mustard Yellow, with Pea",
+  "about": "No. 25 \u2014 Mustard Yellow with Pea: big plate carries the bread slice, green + yellow pots, spill, knife readable, Pea's snout curled in the corner, light pooling on the board, hand-painted MUSTARD sign.",
+  "date": "2026-11-14",
+  "wake": "2026-11-14 02:17"
+ },
+ {
+  "n": 26,
+  "file": "026-mustard-yellow-the-one.svg",
+  "thumb": "026-mustard-yellow-the-one.jpg",
+  "title": "Mustard Yellow, the one",
+  "about": "No. 26 \u2014 Mustard Yellow, the one: bowl plate with bread slice inside, green + yellow pots, spill, readable knife, and a REAL Pea (hump, snout, closed eye, ear, curled tail, paws). Light pooling on the board, hand-painted MUSTARD sign.",
+  "date": "2026-11-14",
+  "wake": "2026-11-14 02:17",
+  "price": 24.0
  }
 ]

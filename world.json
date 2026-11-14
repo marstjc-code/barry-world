@@ -1247,8 +1247,8 @@
   {
    "id": "mar-v4",
    "shape": "box",
-   "x": -4.8,
-   "z": 1.4,
+   "x": -4.1,
+   "z": 2.6,
    "y": 0,
    "w": 0.6,
    "h": 0.3,
@@ -7961,7 +7961,7 @@
    "d": 0.06,
    "rot": 0.0,
    "color": "#FFF8DC",
-   "label": "DRAWINGS \u00a33 TO \u00a38",
+   "label": "DRAWINGS \u00a33 TO \u00a324",
    "note": "Price board for the art stall. Its words follow the price tags (price tool). John, 13 Nov.",
    "group": "art-stall",
    "link": "art/index.html",
@@ -10236,16 +10236,31 @@
    "label": "crusty lettuce leaf",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-5",
+   "shape": "sphere",
+   "x": -3.6999999999999997,
+   "z": 2.9,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "crusty lettuce leaf",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.5,
-  "z": -9.8,
-  "doing": "Pea bolts straight for the shadowed edge of the red awning to investigate that giant cabbage that refuses to vanish, tugging at its stem with a desperate snap while barking out his demands.",
-  "sound": "BARK-WOOF-HUFF"
+  "x": -4.1,
+  "z": 2.6,
+  "doing": "Pea darts straight for the shadowed vegetable stall to investigate that stubborn cabbage tugging at his ear with a greedy yelp while barking a complaint about being ignored.",
+  "sound": "BARK-WOOF-YIP"
  },
  "realsky": false,
  "spaced": "2026-11-13"
