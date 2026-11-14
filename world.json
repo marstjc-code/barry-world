@@ -5276,8 +5276,8 @@
   {
    "id": "pea-bowl",
    "shape": "cylinder",
-   "x": -4.3,
-   "z": 5.1,
+   "x": 9.2,
+   "z": 10.9,
    "y": 0.0,
    "w": 0.35,
    "h": 0.12,
@@ -8050,6 +8050,40 @@
    "label": "a single mud spot",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1794687438",
+   "shape": "sphere",
+   "x": -13.077675237405744,
+   "z": -10.497670963348334,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 0.9624219461250372,
+   "color": "#c97c5d",
+   "label": "",
+   "note": "The power went out for an hour and you sat in the dark thinking about what you'd make if you could make anything.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-14 20:17"
+  },
+  {
+   "id": "kennel-door",
+   "shape": "box",
+   "x": 10.0,
+   "z": 10.85,
+   "y": 0.15,
+   "w": 0.9,
+   "h": 0.9,
+   "d": 0.1,
+   "rot": 0.0,
+   "color": "#1a1210",
+   "label": "door",
+   "note": "",
+   "group": "kennel",
+   "link": "",
+   "built": "2026-11-14 20:17"
   }
  ],
  "pet": {
