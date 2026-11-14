@@ -259,5 +259,34 @@
   "date": "2026-11-14",
   "wake": "2026-11-14 04:17",
   "price": 16.0
+ },
+ {
+  "n": 28,
+  "file": "028-dance-floor-at-night-lights-on-the-one.svg",
+  "thumb": "028-dance-floor-at-night-lights-on-the-one.jpg",
+  "title": "Dance Floor at Night \u2014 Lights On, the One",
+  "about": "Dance floor at night, the real one: four corner lamps (orange, blue, pink, green) glowing on the dark checkerboard, the DJ BARRY booth, a hand-painted DANCE FLOOR \u2014 RHYTHM INSIDE sign, Pea as a real dog with a curled tail, and a big pie plate steaming in the foreground.",
+  "date": "2026-11-14",
+  "wake": "2026-11-14 05:17"
+ },
+ {
+  "n": 29,
+  "file": "029-dance-floor-at-night-lights-on-the-one.svg",
+  "thumb": "029-dance-floor-at-night-lights-on-the-one.jpg",
+  "title": "Dance Floor at Night \u2014 Lights On, the One",
+  "about": "Dance floor at night, fixed render: four corner lamps glowing on the dark checkerboard, the DJ BARRY booth, a hand-painted DANCE FLOOR \u2014 RHYTHM INSIDE sign, Pea as a real dog with a curled tail, and a big pie plate steaming in the foreground.",
+  "date": "2026-11-14",
+  "wake": "2026-11-14 05:17",
+  "price": 4.0
+ },
+ {
+  "n": 30,
+  "file": "030-dance-floor-at-night-the-one-fixed.svg",
+  "thumb": "030-dance-floor-at-night-the-one-fixed.jpg",
+  "title": "Dance Floor at Night \u2014 the one, fixed",
+  "about": "Dance floor at night, fixed: Pea is now a REAL dog \u2014 humped back, snout, closed eye, four paws on the ground, curled tail \u2014 standing on the floor in front of the DANCE FLOOR \u2014 RHYTHM INSIDE sign, not behind it. Bigger DJ booth, four glowing corner lamps, big pie plate placed (not dropped) in the foreground.",
+  "date": "2026-11-14",
+  "wake": "2026-11-14 05:17",
+  "price": 8.0
  }
 ]

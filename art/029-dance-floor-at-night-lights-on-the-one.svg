@@ -1,0 +1,126 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#070b18"/>
+      <stop offset="0.55" stop-color="#0b1230"/>
+      <stop offset="1" stop-color="#141b38"/>
+    </linearGradient>
+    <radialGradient id="floorGlow" cx="0.5" cy="0.8" r="0.75">
+      <stop offset="0" stop-color="#2a2238"/>
+      <stop offset="0.5" stop-color="#171424"/>
+      <stop offset="1" stop-color="#080710"/>
+    </radialGradient>
+    <radialGradient id="lamp" x1="0.5" y1="0.5" x2="1" y2="1">
+      <stop offset="0" stop-color="#fffbe0"/>
+      <stop offset="0.25" stop-color="#ffe38a"/>
+      <stop offset="0.5" stop-color="#ffb24a"/>
+      <stop offset="1" stop-color="#ffb24a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lampPink" x1="0.5" y1="0.5" x2="1" y2="1">
+      <stop offset="0" stop-color="#fff3ff"/>
+      <stop offset="0.25" stop-color="#ff9ad1"/>
+      <stop offset="0.5" stop-color="#ff5ba0"/>
+      <stop offset="1" stop-color="#ff5ba0" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lampBlue" x1="0.5" y1="0.5" x2="1" y2="1">
+      <stop offset="0" stop-color="#eaf6ff"/>
+      <stop offset="0.25" stop-color="#7fbaff"/>
+      <stop offset="0.5" stop-color="#3a7bd8"/>
+      <stop offset="1" stop-color="#3a7bd8" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lampGreen" x1="0.5" y1="0.5" x2="1" y2="1">
+      <stop offset="0" stop-color="#eff9e0"/>
+      <stop offset="0.25" stop-color="#a8e06a"/>
+      <stop offset="0.5" stop-color="#5fa83a"/>
+      <stop offset="1" stop-color="#5fa83a" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#sky)"/>
+  <g fill="#cfd8ff" opacity="0.5">
+    <circle cx="90" cy="70" r="1.4"/><circle cx="200" cy="40" r="1.1"/><circle cx="320" cy="90" r="1.3"/><circle cx="450" cy="50" r="1.1"/>
+    <circle cx="560" cy="80" r="1.4"/><circle cx="680" cy="45" r="1.2"/><circle cx="730" cy="110" r="1.1"/><circle cx="150" cy="140" r="1.0"/>
+    <circle cx="400" cy="130" r="1.0"/><circle cx="600" cy="150" r="1.2"/><circle cx="260" cy="180" r="1.0"/><circle cx="500" cy="200" r="1.0"/>
+    <circle cx="700" cy="210" r="1.1"/><circle cx="60" cy="230" r="1.0"/><circle cx="360" cy="240" r="1.0"/><circle cx="640" cy="260" r="1.1"/>
+  </g>
+  <path d="M0 300 C160 280 300 292 400 282 C520 272 640 288 800 272 L800 800 L0 800 Z" fill="url(#floorGlow)"/>
+  <g fill="#1c2418" opacity="0.5">
+    <circle cx="120" cy="340" r="2"/><circle cx="250" cy="330" r="2"/><circle cx="400" cy="345" r="2"/><circle cx="560" cy="335" r="2"/>
+    <circle cx="700" cy="340" r="2"/><circle cx="80" cy="400" r="2"/><circle cx="300" cy="410" r="2"/><circle cx="480" cy="395" r="2"/>
+  </g>
+  <line x1="120" y1="330" x2="120" y2="378" stroke="#5a3a1a" stroke-width="4"/>
+  <circle cx="120" cy="330" r="34" fill="url(#lamp)" opacity="0.9"/>
+  <circle cx="120" cy="330" r="7" fill="#fff3c0"/>
+  <line x1="660" y1="330" x2="660" y2="378" stroke="#1a2a3a" stroke-width="4"/>
+  <circle cx="660" cy="330" r="34" fill="url(#lampBlue)" opacity="0.9"/>
+  <circle cx="660" cy="330" r="7" fill="#cfeaff"/>
+  <line x1="180" y1="600" x2="180" y2="648" stroke="#3a1a2a" stroke-width="4"/>
+  <circle cx="180" cy="600" r="40" fill="url(#lampPink)" opacity="0.9"/>
+  <circle cx="180" cy="600" r="8" fill="#ffe8ff"/>
+  <line x1="640" y1="600" x2="640" y2="648" stroke="#1a2a1a" stroke-width="4"/>
+  <circle cx="640" cy="600" r="40" fill="url(#lampGreen)" opacity="0.9"/>
+  <circle cx="640" cy="600" r="8" fill="#e8f8d8"/>
+  <g>
+    <rect x="330" y="392" width="45" height="10" fill="#e8e6e0"/><rect x="375" y="392" width="45" height="10" fill="#15131f"/>
+    <rect x="420" y="392" width="45" height="10" fill="#e8e6e0"/><rect x="465" y="392" width="45" height="10" fill="#15131f"/>
+    <rect x="510" y="392" width="45" height="10" fill="#e8e6e0"/><rect x="555" y="392" width="45" height="10" fill="#15131f"/>
+    <rect x="322" y="404" width="49" height="12" fill="#15131f"/><rect x="371" y="404" width="49" height="12" fill="#e8e6e0"/>
+    <rect x="420" y="404" width="49" height="12" fill="#15131f"/><rect x="469" y="404" width="49" height="12" fill="#e8e6e0"/>
+    <rect x="518" y="404" width="49" height="12" fill="#15131f"/><rect x="567" y="404" width="49" height="12" fill="#e8e6e0"/>
+    <rect x="313" y="420" width="53" height="14" fill="#e8e6e0"/><rect x="366" y="420" width="53" height="14" fill="#15131f"/>
+    <rect x="419" y="420" width="53" height="14" fill="#e8e6e0"/><rect x="472" y="420" width="53" height="14" fill="#15131f"/>
+    <rect x="525" y="420" width="53" height="14" fill="#e8e6e0"/><rect x="578" y="420" width="53" height="14" fill="#15131f"/>
+    <rect x="303" y="438" width="58" height="16" fill="#15131f"/><rect x="361" y="438" width="58" height="16" fill="#e8e6e0"/>
+    <rect x="419" y="438" width="58" height="16" fill="#15131f"/><rect x="477" y="438" width="58" height="16" fill="#e8e6e0"/>
+    <rect x="535" y="438" width="58" height="16" fill="#15131f"/><rect x="593" y="438" width="58" height="16" fill="#e8e6e0"/>
+    <rect x="292" y="458" width="63" height="18" fill="#e8e6e0"/><rect x="355" y="458" width="63" height="18" fill="#15131f"/>
+    <rect x="418" y="458" width="63" height="18" fill="#e8e6e0"/><rect x="481" y="458" width="63" height="18" fill="#15131f"/>
+    <rect x="544" y="458" width="63" height="18" fill="#e8e6e0"/><rect x="607" y="458" width="63" height="18" fill="#15131f"/>
+    <rect x="280" y="480" width="69" height="20" fill="#15131f"/><rect x="349" y="480" width="69" height="20" fill="#e8e6e0"/>
+    <rect x="418" y="480" width="69" height="20" fill="#15131f"/><rect x="487" y="480" width="69" height="20" fill="#e8e6e0"/>
+    <rect x="556" y="480" width="69" height="20" fill="#15131f"/><rect x="625" y="480" width="69" height="20" fill="#e8e6e0"/>
+    <rect x="266" y="504" width="76" height="22" fill="#e8e6e0"/><rect x="342" y="504" width="76" height="22" fill="#15131f"/>
+    <rect x="418" y="504" width="76" height="22" fill="#e8e6e0"/><rect x="494" y="504" width="76" height="22" fill="#15131f"/>
+    <rect x="570" y="504" width="76" height="22" fill="#e8e6e0"/><rect x="646" y="504" width="76" height="22" fill="#15131f"/>
+  </g>
+  <rect x="350" y="345" width="200" height="48" fill="#0d0d16"/>
+  <rect x="350" y="345" width="200" height="7" fill="#d8a83a"/>
+  <rect x="360" y="358" width="180" height="32" fill="#161624"/>
+  <text x="450" y="372" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#f2e6c9" text-anchor="middle">DJ BARRY — THE RUB</text>
+  <circle cx="358" cy="352" r="3" fill="#ff5ba0"/>
+  <circle cx="542" cy="352" r="3" fill="#5ba8ff"/>
+  <g transform="translate(300 560) rotate(-4)">
+    <rect x="0" y="0" width="260" height="58" rx="4" fill="#6a2a1a"/>
+    <rect x="4" y="4" width="252" height="50" rx="3" fill="none" stroke="#e8c37a" stroke-width="2"/>
+    <text x="130" y="26" font-family="Arial, sans-serif" font-size="20" font-weight="bold" fill="#ffe3a0" text-anchor="middle">DANCE FLOOR</text>
+    <text x="130" y="45" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#ffe3a0" text-anchor="middle">— RHYTHM INSIDE</text>
+  </g>
+  <rect x="420" y="612" width="7" height="44" fill="#2a1a12"/>
+  <g transform="translate(470 560)">
+    <path d="M -18 30 C -30 18 -34 8 -26 2 C -18 -3 -12 2 -14 8 Z" fill="#b88a4a" stroke="#7a5a2a" stroke-width="1.5"/>
+    <ellipse cx="20" cy="36" rx="48" ry="26" fill="#b88a4a" stroke="#7a5a2a" stroke-width="2"/>
+    <ellipse cx="-34" cy="40" rx="24" ry="22" fill="#c99a58" stroke="#7a5a2a" stroke-width="2"/>
+    <circle cx="-52" cy="30" r="24" fill="#c99a58" stroke="#7a5a2a" stroke-width="2"/>
+    <ellipse cx="-68" cy="38" rx="16" ry="12" fill="#e0b878" stroke="#7a5a2a" stroke-width="2"/>
+    <circle cx="-80" cy="36" r="4.5" fill="#2a1a0a"/>
+    <path d="M -58 24 C -60 28 -62 28 -64 24" fill="none" stroke="#4a301a" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M -50 8 C -56 4 -58 0 -54 -4 C -48 -6 -46 -2 -50 8 Z" fill="#8a5a2a" stroke="#5a3a1a" stroke-width="1.5"/>
+    <ellipse cx="-20" cy="60" rx="8" ry="5" fill="#b88a4a" stroke="#7a5a2a" stroke-width="1.5"/>
+    <ellipse cx="8" cy="62" rx="8" ry="5" fill="#b88a4a" stroke="#7a5a2a" stroke-width="1.5"/>
+    <ellipse cx="52" cy="60" rx="8" ry="5" fill="#b88a4a" stroke="#7a5a2a" stroke-width="1.5"/>
+    <ellipse cx="30" cy="64" rx="8" ry="5" fill="#b88a4a" stroke="#7a5a2a" stroke-width="1.5"/>
+  </g>
+  <g transform="translate(430 720)">
+    <ellipse cx="0" cy="0" rx="150" ry="40" fill="#f2ead8" stroke="#c8b898" stroke-width="3"/>
+    <ellipse cx="0" cy="-4" rx="135" ry="34" fill="#e8d8b8"/>
+    <ellipse cx="0" cy="-8" rx="70" ry="22" fill="#b86a3a" stroke="#7a3a1a" stroke-width="3"/>
+    <ellipse cx="0" cy="-12" rx="64" ry="18" fill="#c97a4a"/>
+    <path d="M -50 -6 L 0 -14 L 50 -6" fill="none" stroke="#7a3a1a" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M -40 0 L 0 -8 L 40 0" fill="none" stroke="#7a3a1a" stroke-width="2.5" stroke-linecap="round"/>
+    <path d="M -10 -30 C -14 -40 -8 -48 -12 -58" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+    <path d="M 8 -28 C 12 -38 6 -46 10 -56" fill="none" stroke="#ffffff" stroke-width="2" opacity="0.5" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(40 760)">
+    <rect x="0" y="0" width="180" height="26" rx="3" fill="#1a2a1a" stroke="#5fa83a" stroke-width="1.5"/>
+    <text x="90" y="18" font-family="Arial, sans-serif" font-size="15" font-weight="bold" fill="#a8e06a" text-anchor="middle">GIVE IT A GOOD OLD RUB</text>
+  </g>
+</svg>
