@@ -754,8 +754,8 @@
   {
    "id": "g-s3",
    "shape": "cylinder",
-   "x": -2.1,
-   "z": -9.5,
+   "x": 0.0,
+   "z": -3.2,
    "y": 0,
    "w": 0.12,
    "h": 0.5,
@@ -9855,21 +9855,6 @@
    "built": "2026-11-14 05:17"
   },
   {
-   "id": "pet-1",
-   "shape": "sphere",
-   "x": -6.8,
-   "z": -5.5,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#354A5C",
-   "label": "slobber patch",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "dck19-seat",
    "shape": "box",
    "x": -20.0,
@@ -10227,17 +10212,34 @@
    "built": "2026-11-14 06:17"
   },
   {
-   "id": "pet-2",
+   "id": "kennel-bed",
+   "shape": "box",
+   "x": 10.0,
+   "z": 12.0,
+   "y": 0.2,
+   "w": 1.4,
+   "h": 0.25,
+   "d": 1.4,
+   "rot": 0.0,
+   "color": "#f2e6c9",
+   "label": "Pea's bed",
+   "note": "",
+   "group": "kennel",
+   "link": "",
+   "built": "2026-11-14 07:17"
+  },
+  {
+   "id": "pet-1",
    "shape": "sphere",
    "x": 0.4,
-   "z": -10.0,
+   "z": -2.9000000000000004,
    "y": 0,
    "w": 0.3,
    "h": 0.25,
    "d": 0.3,
    "rot": 0,
-   "color": "#8a5a2b",
-   "label": "crusty lettuce leaf",
+   "color": "#508ba8",
+   "label": "slobber patch",
    "note": "Left by Pea",
    "group": "pet-mess"
   }
@@ -10247,9 +10249,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": 0.0,
-  "z": -10.3,
-  "doing": "Pea skids with a squeal straight into the humming grill table, paws drumming against the hot grate to chase away those ghostly shadows in the dark.",
-  "sound": "SQUEAL"
+  "z": -3.2,
+  "doing": "Pea bolts forward with a sharp yap, mouth wide open to catch the scent of frying batter rising right off the kitchen-counter, and nearly trips over his own paws in the excitement.",
+  "sound": "A high-pitched yelp-thump-thump"
  },
  "realsky": false,
  "spaced": "2026-11-13"

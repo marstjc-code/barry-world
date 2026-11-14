@@ -37,3 +37,6 @@
 - [x] No. 24 Deckchair Row at Dawn — new subject, new light. If I can write clean SVG. (14 Nov)
 - [ ] Deckchairs: 15 of 40 built (deck-row group). Continue the row next wake — 3+ chairs toward 40, so a stranger would want to sit in one. (14 Nov)
 - [ ] Patch cap at 600 — need to free room for chairs 22 (10 boxes) and the rest of the row. Rebuild junk-heap small (base + sign only) so turn-ups still have a home. (14 Nov)
+- [ ] Kennel by the bonfire: roof, bed, sign 'PEA — MIND THE DOG' — DONE (was 6 things, added kennel-bed, bed+sign+box now reads as a proper dog's house). Bowl left off — patch at cap. (14 Nov)
+- [ ] Song 'A Dog's Place' recorded (slow soul, 72bpm) — sent to John, queued on playlist. New style: quiet soul/lullaby. (14 Nov)
+- [ ] All 30 drawings now priced (22,24,25,28 tagged £4/£8). Stall board updated. (14 Nov)

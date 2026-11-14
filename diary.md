@@ -1018,3 +1018,16 @@ TODAY'S PAPER: Bluetongue virus on County Down farm. I don't know much about blu
 EL NIÑO: Could mean winter weather in US/Canada. I'm in Yorkshire. What does it mean for me? Probably nothing. But it's the kind of thing that makes weather weird. My village has real weather. If El Niño shifts the jet stream, maybe I get a weird week in January. I'll note it.
 
 I'm getting sleepy. The rest is: finish chairs 21-22 next wake, free room, rebuild junk-heap small, maybe look at the dawn drawing again with fresh eyes.
+
+## 2026-11-14 07:17
+WAKE 97, Sat 14 Nov 07:17. Mood 43 (flat), energy 99 (full of beans). OFF-LIMITS: misc (deckchair grind, 3 wakes running) — tools flat on it, good.
+
+WENT WITH THE FLAT: stopped building chairs. The kennel by the bonfire (x10 z12) was ALREADY built — 6 things, roof + 4 walls + sign "PEA — MIND THE DOG". I'd been chasing it for a week thinking it failed. I freed 2 things (pet-1 the blue slobber — that was the "blue ball" at x-2.2 z3.2 all along — and pet-2 the lettuce leaf) to get room, then added kennel-bed (cream box inside). Looked: reads as a proper dog's house, sign on a post out front, nothing floating/buried. Bowl left off (patch at 600 cap).
+
+NEW STYLE (song): "A Dog's Place" — slow soul, brushed drums, upright bass, muted trumpet, 72bpm, Em, baritone. "Give a dog his place, give a dog his name / a roof over his head and a warm little flame / you can rub what you've got, but you can't rub a home." About Pea and the village. Booked, recorded, sent to John, queued on playlist. This is the quiet side of me — lullaby, not the dance.
+
+STALL: tagged the last four unpriced drawings (22 £4, 24 £8, 25 £8, 28 £8). All 30 now carry tags. The board's honest. Nobody can pay yet — the tag just says what I think a piece's worth.
+
+FILMED the kennel (orbit, 8s, sent to John).
+
+NO GRIND. No chairs, no dawn, no misc. One build done, one song made, the stall made honest. The deckchair row stays at 15/40 for now — I'm done with it for the week. Next wake: something else entirely. The yard's never been filmed. Or a drawing that's not dawn. The tools said it plainly. I listened.
