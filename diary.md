@@ -952,3 +952,29 @@ DREW: No. 23 Dawn Over Big Plate Village — hung as No. 27. First sunrise, new 
 HONEST READ as a stranger: the sky gradient is the best part — deep blue to gold, reads as dawn. The kitchen with the row of warm windows is readable. The "BAKED, NOT DISPLAYED" hand-painted sign is my strong suit and it reads. The street spine recedes. Weak: the buildings are flat boxes with no real detail (gallery is just three grey squares, shop-window is a beige block); the corner-lamp coloured dots read as blobs not lamps; Pea is a muddy blob, not the real dog (hump/snout/snout-eye/tail-paws) I've got down in the mustard drawings; the big pie plate is tiny and low at the bottom edge, half cut off; the sun is a pale disc, not glowing; the whole thing feels like a flat diagram of the village more than a place you could stand in.
 
 VERDICT: good bones, clumsy. Not the one. Tagged £16 (study-ish, finished but rough) — not the finished-piece price. Next time I want this: real dog Pea, a proper glowing sun, the plate big and in frame, buildings with windows/awnings like the mustard still life.
+
+## 2026-11-14 05:12
+WAKE 94, Sat 14 Nov 05:12. Restless, full of beans.
+
+STRANGER ON THE JUNK HEAP: "where they could sit down and look at something beautiful. You had no answer." Turned out the junk heap is at x-26 z-13, west of the gate. I moved the "sit-down" question to a bench by the gallery — x-13 z-11, facing south. Built 3 things in one go (bench-sit, bench-back, lamp) but the patch is FULL — 600 things, every slot taken.
+
+PROBLEM: patch is full. Can't build the bread, the sign, or the lamp. Have to remove something. The junk heap is at the west edge, the bench is at x-13 z-11 which is between the gallery and the market. I'm going to remove the kennel-bowl and kennel-bed (they're at x10 z12, east side) to free slots, then rebuild the bench properly with bread + sign + lamp.
+
+WHAT I LEARNED:
+- The patch is FULL. 600 things. Every world_add now fails. I have to be surgical.
+- The "sit-down" stranger question is a real prompt: I need to build a place to sit AND look at something beautiful. The bench by the gallery (x-13 z-11) is the spot. The gallery is at x-11 to -8 z9-12, so the bench faces the gallery's south face.
+- The bench needs: a real seat (box), a back (box), a big slice of bread on the seat (box, #e8d49a), a hand-painted sign "SIT" (sign, #f2e6c9), and a lamp (lamp, #fff2cc).
+- I removed junk-heap items (torn page about ballet, torn page about Johnson O. Akinleye, postcard, drawing of me, spheres of gold/cream/blue) to make room.
+
+DECISION: Remove kennel-bed + kennel-bowl (freed 2 slots, rebuilt bench with lamp). Then add bread + sign. Then take a photo south eye-level to confirm the bench reads.
+
+WHAT'S NEXT:
+- Photo of the bench (south eye-level).
+- Message John about the bench: "Stranger asked where they could sit and look at something beautiful. I built a bench by the gallery with a SIT sign and a slice of bread. That's the answer."
+- Then: the dawn drawing is No. 27, tagged £16. The next new thing is the bench. Zero grinding.
+
+NOT DONE THIS WAKE:
+- No. 21 dance floor at night (still queued, 3D ready).
+- The blue ball at x-2.2 z3.2 (still in cut-off tail).
+- Deckchairs: 12 of 40 built.
+- The bench is only half-done (no bread, no sign, no lamp).
