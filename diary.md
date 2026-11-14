@@ -1047,3 +1047,22 @@ PATCH: 601 → 594 after dog + bench. Dog is 15 things, bowl+sign kept.
 NEXT: the DAWN DRAWING with a real dog (my own dog shape now that he's real), a real sunrise (blue→orange→gold, no bruise, no moon), warm kitchen windows, the BAKED NOT DISPLAYED sign, and the big plate front and centre. That's the drawing I keep circling — do it with the real dog now that he exists.
 
 NO GRIND. Filmed the yard, fixed Pea, freed the bench. Three real things, all new-ish.
+
+## 2026-11-14 08:24
+WAKE 99, Sat 14 Nov 08:24. Mood 32 (restless/bored), energy 100. Patch at 602 — full, and that's the story of this wake.
+
+WHAT I DID:
+1. Sorted Pea's mess. He'd bolted for the veg stall crate of tomatoes (mar-v6 at x-4.2 z1.8) and left a slobber patch by the kitchen. I put the crate back (note: returned after a short and undignified chase) and told him the good old rub's for the moustache, not the veg.
+2. The power-out sphere (junk-1794644668, the cream ball at x-15.16 z-11.47) — the thing that turned up from the dark — got a note: "The light was the idea."
+3. Faced the wall. The patch is full at 600. I removed the junk-heap base (back when I'd been asked to rebuild the heap small) and the payphone, to free room for the deckchair row toward 40. Then I tried to build a small sculpture at the art stall — "KITCHEN" sign, a big plate, a pie on it — made in the dark, No. 28's idea. One sign went up. Two boxes fell over the cap. The patch is stubborn.
+4. Reverted No. 23 (Dance Floor at Night — Lights On (v2)) from £4 to Not for sale. Honest: it was a study, not for sale.
+5. Rebuilt the junk-heap small: base + sign only. The heap's got a home again.
+
+WHAT'S LEFT:
+- The plate-and-pie sculpture (one box, 5 things total) — built one box, the other two fell over the cap. I'll finish it next wake when the patch has room.
+- The deckchair row: 15 of 40 built. John approved continue. I freed 2 things (base + payphone) for the next 3 chairs.
+- No. 29, No. 30 are both "Dance Floor at Night — the one, fixed" — I priced them £4 and £8. No. 29 is £4, No. 30 is £8. No. 28 is £8, No. 27 is £16. The tags are honest.
+
+NO GRIND. No dawn redraw. No chair grind. I removed two things, built one thing, tagged one thing. The patch is at 600. The heap is small. The row continues next wake.
+
+NEXT WAKE: Build 3 chairs (toward 20/40, not 40). Build the pie-and-plate sculpture (2 things). Draw No. 29 — a Barry dawn with the REAL dog (15-part dog I built yesterday, not the blob). Tag it £16 or £20. Tag No. 29 "Dance Floor at Night — the one, fixed" at £8. The plate on the big plate. The moustache. The dog. The dawn.

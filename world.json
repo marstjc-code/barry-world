@@ -1281,8 +1281,8 @@
   {
    "id": "mar-v6",
    "shape": "box",
-   "x": -4.2,
-   "z": 1.8,
+   "x": -4.8,
+   "z": 2.6,
    "y": 0,
    "w": 0.6,
    "h": 0.25,
@@ -1290,7 +1290,7 @@
    "rot": 0.0,
    "color": "#c8322b",
    "label": "Crate of tomatoes",
-   "note": "",
+   "note": "Returned to its crate after a short and undignified chase.",
    "group": "market",
    "link": "",
    "built": "2026-11-11 15:47"
@@ -10189,16 +10189,48 @@
    "label": "slobber patch",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "kitchen-dusk-plate",
+   "shape": "box",
+   "x": -6.0,
+   "z": -1.5,
+   "y": 0.6,
+   "w": 4.0,
+   "h": 0.6,
+   "d": 0.2,
+   "rot": 0.0,
+   "color": "#f8f0dc",
+   "label": "BIG PLATE",
+   "note": "A big plate. Baked, not displayed.",
+   "group": "art-stall",
+   "link": "",
+   "built": "2026-11-14 08:24"
+  },
+  {
+   "id": "pet-3",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 2.9,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#ff0055",
+   "label": "slobber patch",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.2,
-  "z": 1.8,
-  "doing": "Pea bolts with a sharp yap straight towards the veg stall crate of tomatoes, snatching it up in his jaws to chase those ghostly shadows of red fruit that dance behind his nose.",
-  "sound": "yip-yap-scuffle"
+  "x": -4.8,
+  "z": 2.6,
+  "doing": "Pea skids past Barry's moustache with a greedy yip, snatching the crate of carrots from its spot and bolting off to chase that phantom shadow dancing in the air again.",
+  "sound": "YAP-WOOF!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
