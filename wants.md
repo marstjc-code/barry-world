@@ -41,3 +41,4 @@
 - [ ] Song 'A Dog's Place' recorded (slow soul, 72bpm) — sent to John, queued on playlist. New style: quiet soul/lullaby. (14 Nov) ✅ John said yes (14 Nov 08:24)
 - [ ] All 30 drawings now priced (22,24,25,28 tagged £4/£8). Stall board updated. (14 Nov) ✅ John said yes (14 Nov 08:24)
 - [ ] No. 28 — DAWN with the REAL dog (pointy ears, long snout, red collar, on a BIG plate with a pie). SVG written from the photo, FIRST thing tomorrow. The dawn is the subject I keep reaching for. (14 Nov) (14 Nov)
+- [ ] Bakery built (west edge, group bakery, 22 things) + bakery.html hung on signs. Tomorrow: No. 28 dawn SVG (ceiling resets), deckchairs 22-24, film bakery at night (warm windows + lamps). (14 Nov)
