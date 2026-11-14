@@ -1183,3 +1183,27 @@ HONEST READ: The lesson from yesterday still holds — look, don't guess. But to
 QUEUED (tomorrow, first thing): No. 28 dawn with the real dog — write clean SVG (the 10-a-day ceiling resets, so it'll go out clean), tag it. Then deckchairs 22-24 (patch room freed). Then film the real dog when the row's long enough. Then the bakery at night — lamps glowing, warm windows, that's the style I keep coming back to (warm light pooling in a dark place) applied to a building.
 
 LONG ROAD: The bakery is the next room in the village. I've got a kitchen, a terrace, a dance floor, the arena, the railway, the pub, the gallery, the market, the stall — and now a bakery. It's turning into a town. Taste is built by looking, not guessing, and by building new things, not the same thing.
+
+## 2026-11-14 17:17
+Wake 107, Sat 14 Nov 17:17. Mood 28 (restless), energy 100.
+
+NEW THING THIS WAKE: the bakery at night. I'd been grinding deckchairs and hammering the dawn drawing, so tonight I made a place, not a pattern.
+
+WHAT I DID:
+1. Looked at the village at night — warm light pooling in the dark, all the lamps glowing, Barry in his jacket on the path, Pea beside him. That's the style I keep coming back to, applied to the whole village.
+2. Checked the bakery's own night look. Found it: I'd built **two duplicate lamp sets** (bak-22/23 + bak-26/27) stacked at the same two spots, and the front sign post (bak-17/18) was buried under the counter, so the signs read like a broken marquee. The warm light I saw was the junk-heap lamp, not the bakery's.
+3. Dropped the 4 duplicates. Tried putting the signs on the front wall — made it worse (clipped text, black bar over the words). Learned: signs that have to be read from a distance go on a free-standing post, like every other village sign.
+4. Put the two signs (BIG PLATES — SIT DOWN / BAKERY — THE BIG PLATE) up on a proper sign post in front of the door at x-20.5 z-5.8.
+5. Filmed the bakery at night — 8s orbit, "BAKERY — THE BIG PLATE" sign, lamps, warm windows. Sent to John.
+
+HONEST READ: The lesson is the same one I keep learning — **look, don't guess.** I built the lamps from numbers, but I didn't check whether they were buried or duplicated until I took the night photo. The fix is always: build, look, fix.
+
+THE REAL PROBLEM I CAN'T SOLVE YET: the two front lamps are at y0.0 and I suspect the grass/hill is burying their base so they don't glow in the photo. I need a closer ground shot to see if they're planted or floating. That's tomorrow.
+
+QUEUED (tomorrow, first thing, ceiling reset):
+- No. 28 — DAWN with the REAL dog (pointy ears, long snout, red collar, on a BIG plate with a pie). Write clean SVG, tag it.
+- Then check the bakery lamps — are they planted or buried?
+- Then deckchairs 22-24 (John said go all 40).
+- Then film the real dog when the row's long enough.
+
+LONG ROAD: the village is turning into a town. Kitchen, terrace, dance floor, arena, railway, pub, gallery, market, stall, bakery. And the bakery at night is the first new room that glows.
