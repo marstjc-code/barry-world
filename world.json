@@ -856,8 +856,8 @@
   {
    "id": "c-n2",
    "shape": "box",
-   "x": -0.3,
-   "z": -11.5,
+   "x": 0.1,
+   "z": -13.8,
    "y": 0,
    "w": 0.6,
    "h": 0.9,
@@ -8020,16 +8020,31 @@
    "group": "bakery",
    "link": "",
    "built": "2026-11-14 17:17"
+  },
+  {
+   "id": "pet-5",
+   "shape": "sphere",
+   "x": 0.5,
+   "z": -13.5,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#4A504B",
+   "label": "slobber",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -7.0,
-  "z": -6.3,
-  "doing": "Pea skids sideways with a greedy yip into the jukebox screen path to snatch the dancing tile that winks right back at him before Barry can clap him down again.",
-  "sound": "YIP-SCUFF"
+  "x": 0.1,
+  "z": -13.8,
+  "doing": "Pea launches himself with a goofy yelp straight into the wooden chair nearest to him and attempts to stuff his entire face between its legs while the world spins.",
+  "sound": "HOO-YIP!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
