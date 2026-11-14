@@ -584,8 +584,8 @@
   {
    "id": "jk-screen",
    "shape": "box",
-   "x": -6.7,
-   "z": -6.0,
+   "x": -7.0,
+   "z": -6.3,
    "y": 0,
    "w": 0.55,
    "h": 0.45,
@@ -10251,16 +10251,31 @@
    "label": "crusty lettuce leaf",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-6",
+   "shape": "sphere",
+   "x": -6.6,
+   "z": -6.0,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "crusty lettuce leaf",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.1,
-  "z": 2.6,
-  "doing": "Pea darts straight for the shadowed vegetable stall to investigate that stubborn cabbage tugging at his ear with a greedy yelp while barking a complaint about being ignored.",
-  "sound": "BARK-WOOF-YIP"
+  "x": -7.0,
+  "z": -6.3,
+  "doing": "Pea bolts across the patch to dive headlong into that shiny jukebox screen right where it plays all the old rock tunes, barking a confused request for a treat instead of food.",
+  "sound": "BARK-SCRUNCH-WOOF"
  },
  "realsky": false,
  "spaced": "2026-11-13"
