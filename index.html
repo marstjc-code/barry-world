@@ -263,8 +263,8 @@ const BED=new THREE.Group();scene.add(BED);
  m(new THREE.BoxGeometry(1.3,.3,2.3),'#6b4a2f',0,.27,0);m(new THREE.BoxGeometry(1.42,1.0,.12),'#5a3d26',0,.6,-1.16);m(new THREE.BoxGeometry(1.42,.6,.1),'#5a3d26',0,.42,1.16);
  m(new THREE.BoxGeometry(1.2,.2,2.15),'#f3efe6',0,.52,0);m(new THREE.BoxGeometry(.85,.14,.42),'#ffffff',0,.69,-.8);
  for(const sx of[-.58,.58])for(const sz of[-1.05,1.05])m(new THREE.CylinderGeometry(.05,.05,.24,8),'#4a3220',sx,.08,sz)}
-const DUVET=new THREE.Mesh(new THREE.BoxGeometry(1.0,1.0,1.0),mat('#7a1f2b',.9));DUVET.castShadow=true;BED.add(DUVET);
-const duvetFlat=()=>{DUVET.scale.set(1.26,.1,1.05);DUVET.position.set(0,.67,.52)};duvetFlat();
+const DUVET=new THREE.Mesh(new THREE.CylinderGeometry(1,1,1,28,1,false,-Math.PI/2,Math.PI).rotateX(-Math.PI/2),mat('#7a1f2b',.9));DUVET.castShadow=true;BED.add(DUVET);
+const duvetFlat=()=>{DUVET.scale.set(.63,.09,1.05);DUVET.position.set(0,.62,.52)};duvetFlat();
 const ZZ=(()=>{const c=document.createElement('canvas');c.width=256;c.height=128;const x=c.getContext('2d');x.font='bold 64px Arial';x.lineWidth=8;x.strokeStyle='#1b2a44';x.fillStyle='#ffffff';
  [['z',30,100],['Z',90,78],['z',170,48]].forEach(([t,a,b])=>{x.strokeText(t,a,b);x.fillText(t,a,b)});
  const s=new THREE.Sprite(new THREE.SpriteMaterial({map:new THREE.CanvasTexture(c),transparent:true,depthWrite:false}));s.scale.set(1.1,.55,1);s.visible=false;scene.add(s);return s})();
@@ -275,15 +275,15 @@ function placeBed(){if(!W||!W.objects||!W.objects.length)return;const k=W.object
  const free=(x,z)=>W.objects.every(o=>o.shape==='path'||Math.abs(o.x-x)>((o.w||1)/2+1.0)||Math.abs(o.z-z)>((o.d||1)/2+1.6));
  let best=null;for(let r=3.5;r<16&&!best;r+=.5)for(let a=0;a<6.28;a+=.25){const x=home.x+Math.cos(a)*r,z=home.z+Math.sin(a)*r;if(free(x,z)){best=[x,z];break}}
  if(!best)best=[home.x+6,home.z+6];if(inBed){inBed=false;B.rotation.set(0,0,0);duvetFlat()}BED.position.set(best[0],0,best[1]);bedSide.set(best[0]+1.05,0,best[1]+.3)}
-function lieDown(){if(BACT.idle)barryPlay('idle',.6);B.rotation.set(-Math.PI/2,0,0);B.position.set(BED.position.x,1,BED.position.z+.98);B.updateMatrixWorld(true);
- const bb=new THREE.Box3().setFromObject(B);B.position.y+=.62-bb.min.y;B.updateMatrixWorld(true);bb.setFromObject(B);
- const top=bb.max.y-.62+.06,len=Math.min(2.1,(bb.max.z-bb.min.z)*.68);DUVET.scale.set(1.3,Math.max(.12,top*.75),len);DUVET.position.set(0,.62+DUVET.scale.y/2,1.05-len/2)}
+/* Lying on his back: Barry is 1.95 m tall and 0.64 m front to back (measured), feet at the foot of the bed, head on the pillow. */
+function lieDown(){if(BACT.idle)barryPlay('idle',.6);B.rotation.set(-Math.PI/2,0,0);B.position.set(BED.position.x,.94,BED.position.z+.98);
+ DUVET.scale.set(.68,.72,1.38);DUVET.position.set(0,.6,1.09-1.38/2)}
 function getUp(){B.rotation.set(0,0,0);B.position.copy(bedSide);duvetFlat();ZZ.visible=false}
 function sleepStep(dt,t){if(Math.floor(t)!==sleepSec){sleepSec=Math.floor(t);SLEEP=asleep();placeBed()}
  if(SLEEP&&!inBed){goal.copy(bedSide);pause=1;if(Math.hypot(B.position.x-bedSide.x,B.position.z-bedSide.z)<.35){inBed=true;lieDown()}}
  if(!SLEEP&&inBed){inBed=false;getUp()}
  if(inBed){ZZ.visible=true;ZZ.position.set(BED.position.x+.25,1.75+Math.sin(t*1.1)*.15,BED.position.z-.85);ZZ.material.opacity=.6+.4*Math.sin(t*1.6);
-  DUVET.position.y=.62+DUVET.scale.y/2+Math.sin(t*1.4)*.012;if(BMIX)BMIX.update(dt*.15);legs.concat(arms).forEach(l=>l.rotation.x*=.8)}
+  DUVET.scale.y=.72+Math.sin(t*1.4)*.025;if(BMIX)BMIX.update(dt*.15);legs.concat(arms).forEach(l=>l.rotation.x*=.8)}
  return inBed}
 window.BED={get asleep(){return SLEEP},get inBed(){return inBed},at:()=>[BED.position.x,BED.position.z],force:v=>{asleep=()=>v}};
 

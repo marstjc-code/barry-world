@@ -14,6 +14,11 @@ h1{color:#ffc06b;font-size:26px;margin:0 0 10px}
 .item p{margin:0;font-size:14px;line-height:1.5;color:#e8d8b5}
 .date{color:#7a6a50;font-size:12px}
 .foot{color:#7a6a50;font-size:12px;margin-top:20px}
+#drizzle-panel{position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;flex-wrap:wrap;align-items:center;gap:8px;max-width:320px;padding:10px 12px;background:rgba(48,56,64,.88);border:1px solid #8a97a3;border-radius:10px;font-family:Georgia,"Times New Roman",serif;color:#e4eaef;box-shadow:0 2px 10px rgba(0,0,0,.35)}
+#drizzle-panel button{font:inherit;font-size:13px;letter-spacing:.04em;padding:7px 12px;border:1px solid #a9b6c2;border-radius:6px;background:#5d6e7c;color:#fff;cursor:pointer}
+#drizzle-panel button:hover:not(:disabled){background:#708494}
+#drizzle-panel button:disabled{opacity:.4;cursor:default}
+#drizzle-status{flex-basis:100%;font-size:12px;font-style:italic;min-height:1.2em}
 </style>
 </head>
 <body>
@@ -47,5 +52,106 @@ h1{color:#ffc06b;font-size:26px;margin:0 0 10px}
 
 <p class="foot">GIVE IT A GOOD OLD RUB — BARRY'S KITCHEN</p>
 </div>
+
+<!-- ===== YORKSHIRE DRIZZLE: START ===== -->
+<div id="drizzle-panel">
+  <button id="drizzle-on" type="button">TURN ON THE DRIZZLE</button>
+  <button id="drizzle-off" type="button" disabled>TURN IT OFF</button>
+  <span id="drizzle-status" aria-live="polite">Dry, for now.</span>
+</div>
+
+<script>
+(function(){
+  var VOLUME=0.8,RAIN_LEVEL=0.18,RUMBLE_LEVEL=0.35,RAIN_CUTOFF=2000,RUMBLE_CUTOFF=120;
+  var onBtn=document.getElementById('drizzle-on');
+  var offBtn=document.getElementById('drizzle-off');
+  var status=document.getElementById('drizzle-status');
+  var ctx=null,master=null,sources=[];
+
+  function makeNoiseBuffer(c,seconds){
+    var length=Math.floor(c.sampleRate*seconds);
+    var buffer=c.createBuffer(1,length,c.sampleRate);
+    var data=buffer.getChannelData(0);
+    for(var i=0;i<length;i++)data[i]=Math.random()*2-1;
+    return buffer;
+  }
+
+  function startDrizzle(){
+    if(ctx)return;
+    var AC=window.AudioContext||window.webkitAudioContext;
+    if(!AC){status.textContent="This browser can't do sound.";return;}
+    ctx=new AC();
+    if(ctx.state==='suspended')ctx.resume();
+    master=ctx.createGain();
+    master.gain.value=0;
+    master.connect(ctx.destination);
+    var rainSrc=ctx.createBufferSource();
+    rainSrc.buffer=makeNoiseBuffer(ctx,4);
+    rainSrc.loop=true;
+    var rainFilter=ctx.createBiquadFilter();
+    rainFilter.type='lowpass';
+    rainFilter.frequency.value=RAIN_CUTOFF;
+    rainFilter.Q.value=0.5;
+    var rainGain=ctx.createGain();
+    rainGain.gain.value=RAIN_LEVEL;
+    rainSrc.connect(rainFilter);
+    rainFilter.connect(rainGain);
+    rainGain.connect(master);
+    var filterLfo=ctx.createOscillator();
+    filterLfo.type='sine';
+    filterLfo.frequency.value=0.17;
+    var filterLfoDepth=ctx.createGain();
+    filterLfoDepth.gain.value=250;
+    filterLfo.connect(filterLfoDepth);
+    filterLfoDepth.connect(rainFilter.frequency);
+    var rumbleSrc=ctx.createBufferSource();
+    rumbleSrc.buffer=makeNoiseBuffer(ctx,5);
+    rumbleSrc.loop=true;
+    var rumbleFilter=ctx.createBiquadFilter();
+    rumbleFilter.type='lowpass';
+    rumbleFilter.frequency.value=RUMBLE_CUTOFF;
+    rumbleFilter.Q.value=0.7;
+    var rumbleGain=ctx.createGain();
+    rumbleGain.gain.value=RUMBLE_LEVEL;
+    rumbleSrc.connect(rumbleFilter);
+    rumbleFilter.connect(rumbleGain);
+    rumbleGain.connect(master);
+    var rumbleLfo=ctx.createOscillator();
+    rumbleLfo.type='sine';
+    rumbleLfo.frequency.value=0.06;
+    var rumbleLfoDepth=ctx.createGain();
+    rumbleLfoDepth.gain.value=RUMBLE_LEVEL*0.4;
+    rumbleLfo.connect(rumbleLfoDepth);
+    rumbleLfoDepth.connect(rumbleGain.gain);
+    rainSrc.start();
+    rumbleSrc.start();
+    filterLfo.start();
+    rumbleLfo.start();
+    sources=[rainSrc,rumbleSrc,filterLfo,rumbleLfo];
+    master.gain.setTargetAtTime(VOLUME,ctx.currentTime,0.8);
+    onBtn.disabled=true;
+    offBtn.disabled=false;
+    status.textContent='Drizzling. 6°C, light wind, overcast.';
+  }
+
+  function stopDrizzle(){
+    if(!ctx)return;
+    var c=ctx,m=master,s=sources;
+    ctx=null;master=null;sources=[];
+    m.gain.setTargetAtTime(0,c.currentTime,0.3);
+    setTimeout(function(){
+      s.forEach(function(node){try{node.stop();}catch(e){}});
+      c.close();
+    },1800);
+    onBtn.disabled=false;
+    offBtn.disabled=true;
+    status.textContent='Dry, for now.';
+  }
+
+  onBtn.addEventListener('click',startDrizzle);
+  offBtn.addEventListener('click',stopDrizzle);
+})();
+</script>
+<!-- ===== YORKSHIRE DRIZZLE: END ===== -->
 </body>
 </html>

@@ -8132,21 +8132,6 @@
    "built": "2026-11-15 03:17"
   },
   {
-   "id": "pet-11",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 3.5,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#4F7950",
-   "label": "crumbled leaf",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "junk-1794723435",
    "shape": "sign",
    "x": -15.129981683178741,
@@ -9470,16 +9455,31 @@
    "label": "shiny black smudge",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-21",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 3.3,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#962c38",
+   "label": "crushed velvet",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -7.0,
-  "z": -6.3,
-  "doing": "Pea skids sideways with a greedy woof straight into the jukebox's screen to steal the glowing rectangle he left behind earlier, leaving a tiny smudge of shiny black dust where his nose just was.",
-  "sound": "WOOF-hmp"
+  "x": -4.8,
+  "z": 3.0,
+  "doing": "Pea skids sideways with a greedy woof straight into the crate of tomatoes to wrestle a red ruby free while Barry ignores him again.",
+  "sound": "Bwooft! Splat!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
