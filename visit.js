@@ -49,18 +49,19 @@ function css() {
 #vplaces div{padding:9px 12px;border-radius:9px;cursor:pointer;color:#2a1c14;text-transform:capitalize}#vplaces div:hover{background:#f3e6d6}
 #vtour{position:fixed;left:var(--vx,50%);transform:translateX(-50%);top:14px;background:#2a1c14ee;color:#fff;border-radius:14px;padding:10px 14px;max-width:min(520px,calc(100vw - 24px));z-index:6;font:15px/1.4 -apple-system,system-ui,sans-serif;box-shadow:0 4px 18px #0006}
 #vtour b{color:#ffcf8a}#vtour button{margin-left:10px;border:0;border-radius:8px;background:#fff2;color:#fff;padding:5px 9px;cursor:pointer;font-weight:600;font-size:12px;font-family:inherit}
-@media(max-width:700px){
+@media(max-width:699px){
  #vbar,#vplaces,#vtour{left:50%!important}
+ #vtour{top:84px;width:calc(100vw - 24px);box-sizing:border-box;font-size:14px}
  #panel{top:auto!important;bottom:0;height:72vh;width:100vw!important;max-width:100vw!important;border-radius:18px 18px 0 0;z-index:8}
  #panel.shut{transform:translateY(105%)!important}
- #tog{top:auto!important;bottom:98px;right:auto!important;left:12px;z-index:9;display:none}
+ #tog{top:auto!important;bottom:112px;right:auto!important;left:12px;z-index:9;display:none}
  #panel:not(.shut)~#tog{display:block;bottom:calc(72vh + 8px)}
  #rp{bottom:8px!important;left:8px!important;right:8px!important;padding:6px 10px!important}
  #rp b{min-width:0!important}
- #vbar{bottom:98px;padding:5px;gap:5px}
+ #vbar{bottom:112px;padding:5px;gap:5px}
  #vbar button{padding:8px 10px;font-size:13px}
  #name{font-size:17px}
- #vplaces{bottom:150px}
+ #vplaces{bottom:164px}
  #bubble,#pbubble{max-width:150px!important;font-size:11px!important}
 }`;
   document.head.append(s);
