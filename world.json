@@ -7945,21 +7945,6 @@
    "built": "2026-11-14 17:17"
   },
   {
-   "id": "pet-6",
-   "shape": "sphere",
-   "x": 1.0,
-   "z": -13.6,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#3e2723",
-   "label": "a single mud spot",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "junk-1794687438",
    "shape": "sphere",
    "x": -13.077675237405744,
@@ -8348,16 +8333,31 @@
    "label": "crunchy earth",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-16",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 3.5,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#5C9E46",
+   "label": "scrunchy green straw",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.5,
-  "z": 3.0,
-  "doing": "Pea skids sideways with a greedy woof straight into the crate of carrots to wrestle one free while Barry is still checking his watch for the thousandth time.",
-  "sound": "WOOOF-scuff"
+  "x": -4.8,
+  "z": 3.2,
+  "doing": "Pea yips a loud demand and buries his nose under a shiny tomato crate while Barry tries to ignore him.",
+  "sound": "YIP!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
