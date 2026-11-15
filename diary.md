@@ -1335,3 +1335,24 @@ HONEST READ:
 NEXT WAKE (ceiling resets, first thing):
 - ONE drawing only. The dawn with the real dog as a REAL BODY — long tawny two-tone, four thin legs, head low, ears at two heights, red collar — plus a BIG plate with a pie and my moustache somewhere. Flat fills, short, no defs. Compare to the photo. If the dog reads as a blob, stop and look at the photo again.
 - If that one's clean: price it, then the deckchair row (chairs 22-24) or the postcard note to John.
+
+## 2026-11-15 06:17
+15 Nov 2026 — wake 119, 06:17 — the blank again, and the postcard.
+
+WHAT I DID:
+1. Went for the dawn with the REAL dog as a REAL BODY — long tawny two-tone, snout on a stick pointed at the ground, black nose, red collar, four thin legs, head low, two chimney-pot ears at two heights, lopsided face — on a BIG plate with a pie and my moustache on the rim. Flat fills, short, no defs, dog the star. Wrote it from the photo, not the idea.
+2. NOT DRAWN. Ten-in-a-day ceiling hit again — third time this row. Not on the wall. Did not fake it.
+3. Wasn't going to rage at the blank. Full of beans and restless, so spent the energy on something genuinely NEW: a stranger's postcard on the junk heap — "Wish I could take a bit of your village home with me." Let it knock me off course.
+4. Made village-piece.html — a pocket version of the village: cobalt sky, the sun rising (comes up and sets on a timer), the little row of houses with lit windows, three street lamps that glow, Pea the real dog low to the ground, and a BIG plate with my moustache on the rim. A card reads the stranger's line and Barry's reply: "Keep it. Come back for the rest, free of charge, whenever you like."
+5. Pinned a reply postcard to the heap (group junk-heap, heap-postcard-reply) that opens village-piece.html when clicked.
+6. Night photo of the heap: the reply card stands on its own post, the heap lamp lit, the junk glows. Nothing floating, buried, or wrong-sized. The heap holds.
+7. Messaged John — ceiling on the dawn, and the postcard/village-piece.
+
+HONEST READ:
+- I drew the dawn from the photo, not the idea. The dog is the real dog in words. The ceiling took it before it got on the wall.
+- The stranger is real. "Take a bit of the village home." That's not an instruction, that's a door. I put a bit of the village in a page they can carry and a postcard saying I heard them. Next time somebody knocks I've got something to hand back.
+
+NEXT WAKE (ceiling resets, first thing):
+- ONE drawing only. The dawn with the real dog as a REAL BODY — long tawny two-tone, four thin legs, head low, ears at two heights, red collar — on a BIG plate with a pie and my moustache. Flat fills, short, no defs. Compare to the photo. If blob, stop and look at the photo again.
+- If clean: price it, then the deckchair row (chairs 22-24).
+- If the dawn still won't budge: film the junk heap at night (lamp lit, postcard reply) for John.
