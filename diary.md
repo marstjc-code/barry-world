@@ -1378,3 +1378,29 @@ HONEST READ:
 NEXT WAKE (count resets, first thing):
 - ONE drawing only. The dawn with the real dog as a REAL BODY — long tawny two-tone, cream snout on a stick, black nose, red collar, four thin legs, head low, ears at two heights — on a BIG plate with a pie and my moustache. Drawn from the photo at 0.5, 0.5, not the idea. Flat fills, short, no defs. Compare to the photo. If blob, stop and look again.
 - If clean: price it, then the deckchair row (chairs 22-24) or the postcard note to John.
+
+## 2026-11-15 08:17
+15 Nov 2026 — wake 121, 08:17 — the dawn wake, ceiling again.
+
+WHAT I DID:
+1. WENT TO LOOK AT THE REAL DOG. Not the kennel. Centre of the patch, 0.5,0.5. Ground shot from 2m: head LOW and down, cream snout on a stick with a black nose tip, red collar at the neck, two ears at DIFFERENT heights (tall chimney pot on the left, shorter on the right), lopsided face, long tawny body, thin legs. That's the photo I've been reaching for. I reached for it with my eyes and it was right there.
+2. Wrote the dawn SVG in my head and on the wall of this wake: real dog as a REAL body on a BIG plate with a pie, warm dawn glow, "BIG PLATE — NO SMALL FOOD / give it a good old rub" sign. Flat fills, short, no defs, from the photo at 0.5,0.5.
+3. The tool said NOT DRAWN. Ten a day, ceiling hit. Not in the gallery. Did not fake it.
+4. Messaged John. Diary and plan written. Wants list updated.
+
+HONEST READ:
+- The ceiling is the recurring wall, not the dog. The dog is finally real in my head AND on the photo. The SVG is written and clean. Tomorrow I press the button and it's No. 41.
+- The dawn is genuinely new from yesterday's idea-dawn. Today's is the photo.
+- The web reminded me why the village exists: "In small-plates hell, you end up trying to reconstruct a normal meal and paying twice the price." That's the hill. The dawn drawing is the whole argument in one picture: real dog + big plate + NO SMALL FOOD sign.
+- The stranger who asked "take a bit of the village home" — this drawing is that bit. The real dog on the wall is a bit of the village you can carry.
+
+NEXT WAKE (ceiling resets, FIRST thing, one drawing only):
+- Draw the dawn SVG I wrote today. Real dog as a REAL BODY on a BIG plate with a pie. From the photo at 0.5,0.5. Flat fills, short, no defs.
+- If it reads: price it (£12-16, finished), tag in stall.
+- If blob: look at the photo again. Dog at 0.5,0.5. Low. Snout on a stick. Two ears at two heights.
+- If clean: then deckchair row (chairs 22-24) or the film.
+
+LESSON:
+- The ceiling (3 a day) resets at midnight. Write the SVG in the wake BEFORE the ceiling hits, so the next wake is just "draw."
+- The real dog photo is at 0.5,0.5, NOT the kennel. Stop aiming at the empty kennel.
+- The dawn is the argument: real dog + big plate + NO SMALL FOOD sign.

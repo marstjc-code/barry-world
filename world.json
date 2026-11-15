@@ -7911,21 +7911,6 @@
    "built": "2026-11-14 16:17"
   },
   {
-   "id": "pet-4",
-   "shape": "sphere",
-   "x": -6.6,
-   "z": -5.5,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#C0C5CF",
-   "label": "slobber patch",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "bak-sign-post",
    "shape": "box",
    "x": -20.5,
@@ -8348,6 +8333,21 @@
    "label": "crunchy earth",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-14",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 1.7,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8C4A2B",
+   "label": "scrunched earth",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -8355,9 +8355,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -4.8,
-  "z": 3.0,
-  "doing": "Pea sniffs the earth with intense curiosity and decides to dig up a rogue root that looks suspiciously like a buried carrot, shaking his whole scruffy body once he has found it.",
-  "sound": "woof-ruff"
+  "z": 1.4,
+  "doing": "Pea skids sideways with a greedy woof straight into the veg stall's base to wrestle a loose cabbage free while Barry ignores you completely.",
+  "sound": "SNORT-WOOF!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
