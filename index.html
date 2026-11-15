@@ -48,6 +48,13 @@ nav button.on{color:#7a1f2b;box-shadow:inset 0 -3px #7a1f2b}
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}</script>
 <script>/* visitors see his village in daylight unless they switch to "as it is now"; John's own (local) view keeps the real sky */
 window.SKYDAY=()=>{if(/[?&](shot|night)/.test(location.search))return false;const v=localStorage.getItem('barry-sky');return v?v==='day':/github\.io$/.test(location.hostname)}</script>
+<link rel="stylesheet" href="front.css">
+<link rel="preload" as="image" href="home/plate.jpg" media="(min-width:700px)" fetchpriority="high"><link rel="preload" as="image" href="home/plate-m.jpg" media="(max-width:699px)" fetchpriority="high">
+<script>/* Small Plates front door (front.js). Never in ?shot mode (Barry's own photos and films). Set FRONT_LIVE=false to put it back behind ?front. */
+(function(){var q=location.search,h=document.documentElement,FRONT_LIVE=true;if(/[?&]shot/.test(q))return;
+try{if(/[?&]front=0/.test(q))localStorage.removeItem('barry-front');else if(/[?&]front/.test(q))localStorage.setItem('barry-front','1')}catch(e){}
+var on=FRONT_LIVE;try{on=on||localStorage.getItem('barry-front')==='1'}catch(e){}if(!on)return;
+h.classList.add('fronton',location.hash==='#village'?'village':'bar');try{if(!localStorage.getItem('barry-bar-seen'))h.classList.add('hints')}catch(e){h.classList.add('hints')}})()</script>
 </head><body>
 <canvas id="c"></canvas><div id="name"></div><div id="bubble"></div><div id="pbubble"></div><div id="tip"></div>
 <div id="page"><header><span id="ptitle"></span><button id="pclose" aria-label="Close page">✕</button></header><iframe id="pframe" sandbox="allow-scripts"></iframe></div>
@@ -58,6 +65,12 @@ window.SKYDAY=()=>{if(/[?&](shot|night)/.test(location.search))return false;cons
 <div id="lb"><img id="lbi" alt=""></div>
 <div id="rp" class="live"><button id="rpplay" title="Replay the village growing">▶ Replay</button><input id="rps" type="range" min="0" max="0" value="0" aria-label="Village history"><b id="rpl">now</b></div>
 <button id="tog">Barry's notes</button>
+<main id="bar" aria-label="Small Plates, Barry's restaurant on a rainy seaside street"><div id="stage"></div>
+<div id="barui"><button type="button" id="upbtn" style="display:none">Upstairs</button><button type="button" id="sndbtn" aria-pressed="false">Rain sound: off</button><button type="button" id="exbtn" aria-haspopup="true" aria-expanded="false">Explore</button></div>
+<div id="exmenu" role="dialog" aria-labelledby="extl"></div></main>
+<button type="button" id="tobar">← Back to the bar</button>
+<div id="arcade"></div><div id="upst" role="dialog" aria-labelledby="uptl"></div>
+<script src="front.js"></script>
 <script type="module">
 import * as THREE from 'three';
 import {OrbitControls} from 'three/addons/controls/OrbitControls.js';
@@ -402,7 +415,7 @@ let down=null;renderer.domElement.addEventListener('pointerdown',e=>down=[e.clie
 renderer.domElement.addEventListener('pointerup',e=>{if(down&&Math.hypot(e.clientX-down[0],e.clientY-down[1])<5){const o=hit(e);if(o&&o.link)openPage(o.link)}});
 function size(){renderer.setSize(innerWidth,innerHeight,false);composer.setSize(innerWidth,innerHeight);PRINT.uniforms.res.value.set(innerWidth*renderer.getPixelRatio(),innerHeight*renderer.getPixelRatio());cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix()}addEventListener('resize',size);size();
 const clock=new THREE.Clock(),v=new THREE.Vector3();let lampTick=-1;
-renderer.setAnimationLoop(()=>{const dt=Math.min(clock.getDelta(),.1),t=clock.elapsedTime;
+renderer.setAnimationLoop(()=>{const dt=Math.min(clock.getDelta(),.1),t=clock.elapsedTime;if(document.documentElement.classList.contains('bar'))return; /* the village rests while the restaurant front is showing */
   const SLP=sleepStep(dt,t);const to=v.copy(goal).sub(B.position);to.y=0;const dist=SLP?0:to.length();if(!SLP)barryAnim(dist>.15,dt);
   if(SLP){}else if(dist>.15){to.normalize();B.position.addScaledVector(to,dt*1.3);B.rotation.y=Math.atan2(to.x,to.z);const s=Math.sin(t*9)*.5;legs[0].rotation.x=s;legs[1].rotation.x=-s;arms[0].rotation.x=-s;arms[1].rotation.x=s}
   else{legs.concat(arms).forEach(l=>l.rotation.x*=.8);pause-=dt;if(pause<0){pause=2+Math.random()*5;pick()}}

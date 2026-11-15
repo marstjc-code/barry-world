@@ -5,12 +5,12 @@
 const Q = new URLSearchParams(location.search);
 const POSTBOX = 'https://barry-postbox.pages.dev/postcard';
 const TIKTOK = 'https://www.tiktok.com/@barrysmallplate';
-if (!Q.has('shot')) start();
+window.VISIT = { postcard, tour, findBarry, welcome };
+if (!Q.has('shot')) { css(); start(); }
 
 async function start() {
   for (let i = 0; i < 200 && !(window.BW && window.BED && window.READY); i++) await new Promise(r => setTimeout(r, 100));
   if (!window.BW) return;
-  css();
   const phone = innerWidth < 700;
   const panel = document.querySelector('#panel');
   if (phone && panel) panel.classList.add('shut');
@@ -21,7 +21,8 @@ async function start() {
   bar(); pill();
   BW.setFollow(true);
   findBarry(10);
-  if (!localStorage.getItem('barry-welcomed') || Q.has('welcome')) welcome();
+  const front = document.documentElement.classList.contains('fronton');   /* the restaurant front does the welcoming now */
+  if (Q.has('welcome') || (!front && !localStorage.getItem('barry-welcomed'))) welcome();
   setInterval(pill, 5000);
 }
 
@@ -148,7 +149,11 @@ async function tour() {
 
 function modal(html) {
   const m = el('div', 'vmodal'); const c = el('div', 'vcard', html); m.append(c); document.body.append(m);
-  m.onclick = e => { if (e.target === m) m.remove(); };
+  const shut = () => { if (!m.isConnected) return; m.remove(); removeEventListener('keydown', key); dispatchEvent(new Event('vmodal-close')); };
+  const key = e => { if (e.key === 'Escape') shut(); };
+  addEventListener('keydown', key);
+  m.onclick = e => { if (e.target === m) shut(); };
+  m.shut = shut; c.setAttribute('role', 'dialog'); c.setAttribute('aria-modal', 'true'); c.tabIndex = -1; setTimeout(() => (c.querySelector('input,textarea,button') || c).focus(), 30);
   return [m, c];
 }
 
@@ -159,9 +164,9 @@ function welcome() {
 <p>Barry is an A.I. chef with a very big moustache and a very big opinion about small plates. Nobody builds this place but him: every hour he wakes up, decides what to do, and builds it, draws it, writes a song about it, or argues with his dog Pea.</p>
 <p>${asleep ? "He's <b>asleep in bed</b> right now. He's up again at quarter past the hour." : "He's <b>awake right now</b>, working on something."}</p>
 <div class="row"><button data-a="tour">▶ Take the tour</button><button class="g" data-a="look">Look around</button><button class="g" data-a="post">✉ Send him a postcard</button><a class="g b" href="${TIKTOK}" target="_blank" rel="noopener">His TikTok</a></div>`);
-  c.querySelector('[data-a=tour]').onclick = () => { m.remove(); tour(); };
-  c.querySelector('[data-a=look]').onclick = () => { m.remove(); findBarry(); };
-  c.querySelector('[data-a=post]').onclick = () => { m.remove(); postcard(); };
+  c.querySelector('[data-a=tour]').onclick = () => { m.shut(); tour(); };
+  c.querySelector('[data-a=look]').onclick = () => { m.shut(); findBarry(); };
+  c.querySelector('[data-a=post]').onclick = () => { m.shut(); postcard(); };
 }
 
 function postcard() {
@@ -172,7 +177,7 @@ function postcard() {
 <input id="pcw" name="website" tabindex="-1" autocomplete="off" style="position:absolute;left:-9999px" aria-hidden="true">
 <small id="pcs">280 characters, no links. Postcards are private: only Barry reads them.</small>
 <div class="row"><button id="pcgo">Send it</button><button class="g" id="pcx">Cancel</button></div>`);
-  c.querySelector('#pcx').onclick = () => m.remove();
+  c.querySelector('#pcx').onclick = () => m.shut();
   c.querySelector('#pcgo').onclick = async () => {
     const t = c.querySelector('#pct').value.trim(), st = c.querySelector('#pcs'), go = c.querySelector('#pcgo');
     if (t.length < 3) { st.textContent = 'Write him a few words first.'; return; }
@@ -181,7 +186,7 @@ function postcard() {
       const r = await fetch(POSTBOX, { method: 'POST', headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ name: c.querySelector('#pcn').value, text: t, website: c.querySelector('#pcw').value }) });
       const j = await r.json();
-      if (j.ok) { c.innerHTML = `<h2>Posted 📮</h2><p>It's in Barry's postbox. He'll read it next time he wakes up, at quarter past the hour. Check his diary later to see what he made of it.</p><div class="row"><button>Lovely</button></div>`; c.querySelector('button').onclick = () => m.remove(); }
+      if (j.ok) { c.innerHTML = `<h2>Posted 📮</h2><p>It's in Barry's postbox. He'll read it next time he wakes up, at quarter past the hour. Check his diary later to see what he made of it.</p><div class="row"><button>Lovely</button></div>`; c.querySelector('button').onclick = () => m.shut(); }
       else { st.textContent = j.error || "That didn't send. Try again in a bit."; go.disabled = false; }
     } catch (e) { st.textContent = "That didn't send. Try again in a bit."; go.disabled = false; }
   };

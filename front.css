@@ -1,0 +1,143 @@
+/* Small Plates: the front door to Barry's world (15 Nov 2026). Layered 2D art; all positions are in the plate's own pixels
+   and the whole stage is scaled as one, so hotspots and effects stay aligned at any size. Off in ?shot mode. */
+:root{--navy:#101923;--ox:#642825;--brass:#D7AA67;--glow:#FFD396;--slate:#405464;--paper:#f6ecd9;--ink:#2a1c14}
+#bar,#tobar,#arcade,#upst{display:none}
+html.bar #bar{display:block}
+html.bar body{background:var(--navy)}
+/* the village UI steps back while the bar is showing */
+html.bar #name,html.bar #bubble,html.bar #pbubble,html.bar #mbubble,html.bar #tip,html.bar #rp,html.bar #tog,html.bar #vbar,html.bar #vstat,html.bar #vplaces,html.bar #vtour{display:none!important}
+html.bar #c{visibility:hidden}
+html.village #tobar{display:block}
+
+#bar{position:fixed;inset:0;overflow:hidden;background:var(--navy);z-index:2;user-select:none;-webkit-user-select:none}
+#bar::before{content:"";position:absolute;inset:-40px;background:var(--plate) center/cover;filter:blur(28px) brightness(.45);}
+#stage{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform}
+#plate{position:absolute;left:0;top:0;display:block;max-width:none}
+.layer{position:absolute;pointer-events:none}
+
+/* wet pavement below the plate: the plate's own bottom edge mirrored, blurred and darkened */
+.pave{position:absolute;left:0;overflow:hidden;background:var(--navy)}
+.pave i{position:absolute;left:0;top:0;transform:scaleY(-1);background-image:var(--plate);background-position:0 100%;background-repeat:no-repeat;filter:blur(7px) brightness(.5) saturate(.85)}
+.pave::after{content:"";position:absolute;inset:0;background:linear-gradient(#10192300 0,#101923cc 70%,#101923 100%)}
+.pave.cobbles{background:url(home/pave.jpg) 0 0/100% auto no-repeat var(--navy)}
+.pave.cobbles i{display:none}
+.pave.cobbles::after{background:linear-gradient(90deg,#10192300 70%,#1b3350aa 88%,#16263a 100%),linear-gradient(#0a0f16b0 0,#0a0f1600 14px,#10192300 60%,#10192370 100%)}
+
+/* rain: outside the building only */
+.rain{background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='240'%3E%3Cg stroke='%23cfe2ff' stroke-linecap='round'%3E%3Cpath d='M20 10l-6 38' stroke-width='1.6' opacity='.55'/%3E%3Cpath d='M70 90l-7 44' stroke-width='1.2' opacity='.4'/%3E%3Cpath d='M104 170l-5 30' stroke-width='1.8' opacity='.5'/%3E%3Cpath d='M44 150l-6 36' stroke-width='1' opacity='.35'/%3E%3C/g%3E%3C/svg%3E"),
+ url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='90' height='180'%3E%3Cg stroke='%23bcd4ff' stroke-linecap='round' stroke-width='1'%3E%3Cpath d='M12 20l-4 26' opacity='.35'/%3E%3Cpath d='M58 100l-4 24' opacity='.3'/%3E%3Cpath d='M80 40l-3 20' opacity='.25'/%3E%3C/g%3E%3C/svg%3E");
+ animation:rain .62s linear infinite;opacity:.8}
+@keyframes rain{to{background-position:-38px 240px,-28px 180px}}
+/* a reflection ripples in the lane */
+.ripple{mix-blend-mode:screen}
+.ripple i{position:absolute;border-radius:50%;border:2px solid #ffd39666;transform:scale(.2,.07);opacity:0;animation:ring 3.6s ease-out infinite}
+.ripple i:nth-child(2){animation-delay:1.3s}.ripple i:nth-child(3){animation-delay:2.5s}
+@keyframes ring{0%{transform:scale(.15,.05);opacity:0}15%{opacity:.75}100%{transform:scale(1,.32);opacity:0}}
+.shimmer{mix-blend-mode:screen;background:radial-gradient(closest-side,#ffd39638,transparent);animation:shim 5s ease-in-out infinite alternate}
+@keyframes shim{from{transform:translateY(-6px) scaleX(.9);opacity:.35}to{transform:translateY(8px) scaleX(1.1);opacity:.9}}
+/* steam above one pan */
+.steam i{position:absolute;left:0;bottom:0;width:46px;height:46px;border-radius:50%;background:radial-gradient(closest-side,#fff8,#fff0);filter:blur(7px);opacity:0;animation:steam 5.2s ease-out infinite}
+.steam i:nth-child(2){animation-delay:1.7s;left:14px}.steam i:nth-child(3){animation-delay:3.4s;left:-10px}
+@keyframes steam{0%{transform:translate(0,0) scale(.6);opacity:0}18%{opacity:.5}60%{transform:translate(16px,-78px) scale(1.5);opacity:.32}100%{transform:translate(30px,-140px) scale(2.3);opacity:0}}
+/* the gull: one occasional head tilt (a soft-edged patch of the plate turning on the neck) */
+.gull{background-image:var(--plate);background-repeat:no-repeat;-webkit-mask:radial-gradient(closest-side,#000 62%,transparent);mask:radial-gradient(closest-side,#000 62%,transparent);animation:tilt 13s ease-in-out infinite}
+@keyframes tilt{0%,84%,100%{transform:rotate(0)}88%,95%{transform:rotate(-11deg) translate(-2px,2px)}}
+/* a record turns upstairs */
+.rec{border-radius:50%;overflow:hidden;transform:scaleY(.28);mix-blend-mode:screen}
+.rec i{position:absolute;inset:0;border-radius:50%;background:conic-gradient(#0000 0 30deg,#ffe2b055 46deg,#0000 62deg 200deg,#ffe2b033 216deg,#0000 232deg);animation:spin 1.8s linear infinite}
+@keyframes spin{to{transform:rotate(360deg)}}
+.lampglow{mix-blend-mode:screen;background:radial-gradient(closest-side,#ffd39630,transparent);animation:lamp 4.5s ease-in-out infinite alternate}
+@keyframes lamp{from{opacity:.55}to{opacity:1}}
+
+/* things you can tap */
+.spot{position:absolute;border:0;padding:0;margin:0;background:none;cursor:pointer;border-radius:calc(14*var(--px));-webkit-tap-highlight-color:transparent;font:inherit;color:inherit}
+.spot:focus{outline:none}
+.spot:focus-visible{outline:calc(3*var(--px)) solid var(--glow);outline-offset:calc(3*var(--px));box-shadow:0 0 0 calc(7*var(--px)) #101923aa}
+.spot::after{content:"";position:absolute;inset:0;border-radius:inherit;background:radial-gradient(closest-side,#ffd3962e,transparent 75%);opacity:0;transition:opacity .25s}
+.spot:hover::after,.spot:focus-visible::after{opacity:1}
+.lbl{position:absolute;left:50%;transform:translateX(-50%);white-space:nowrap;pointer-events:none;
+ font:600 calc(14*var(--px))/1 -apple-system,system-ui,"Segoe UI",sans-serif;letter-spacing:.02em;color:#fff7e8;background:#101923d9;border:calc(1*var(--px)) solid #d7aa6799;
+ padding:calc(7*var(--px)) calc(11*var(--px));border-radius:calc(20*var(--px));box-shadow:0 calc(2*var(--px)) calc(10*var(--px)) #0008;opacity:0;transition:opacity .2s}
+.lbl.up{bottom:calc(100% + 8*var(--px))}.lbl.dn{top:calc(100% + 8*var(--px))}.lbl.in{bottom:calc(10*var(--px))}.lbl.top{top:calc(10*var(--px))}
+.spot:hover .lbl,.spot:focus-visible .lbl,html.hints .spot.key .lbl{opacity:1}
+html.hints .spot.key .lbl{animation:nudge 2.6s ease-in-out 3}
+@keyframes nudge{0%,100%{transform:translateX(-50%)}50%{transform:translate(-50%,calc(-4*var(--px)))}}
+
+/* the cabinet beside the entrance */
+#cab img{position:absolute;left:0;top:0;width:100%;height:100%;display:block;filter:drop-shadow(calc(-6*var(--px)) calc(8*var(--px)) calc(10*var(--px)) #000a)}
+#cab .shadow{position:absolute;left:-8%;right:-12%;bottom:-3%;height:9%;background:radial-gradient(closest-side,#000c,transparent);filter:blur(calc(5*var(--px)))}
+#cab .scr{position:absolute;border-radius:12%;background:radial-gradient(closest-side,#9fd8ffcc,#3aa0ff55 60%,transparent);mix-blend-mode:screen;opacity:.0;animation:cabpulse 2.4s ease-in-out 1.4s 1}
+#cab:hover .scr,#cab:focus-visible .scr{opacity:.55}
+@keyframes cabpulse{0%,100%{opacity:0;transform:scale(1)}45%{opacity:1;transform:scale(1.5)}}
+
+/* bar controls */
+#barui{position:fixed;right:max(14px,env(safe-area-inset-right));bottom:max(14px,env(safe-area-inset-bottom));display:flex;gap:8px;z-index:6}
+#barui button,#tobar,.fbtn{min-height:44px;min-width:44px;border:1px solid #d7aa6799;border-radius:22px;background:#101923e6;color:#fff7e8;padding:0 16px;font:600 14px/1 -apple-system,system-ui,sans-serif;cursor:pointer;box-shadow:0 2px 10px #0007}
+#barui button:hover,#tobar:hover{background:#1b2a3a}
+#barui button:focus-visible,#tobar:focus-visible,.fbtn:focus-visible,#exmenu button:focus-visible,#phead button:focus-visible,#arcade button:focus-visible,#upst button:focus-visible{outline:3px solid var(--glow);outline-offset:2px}
+#barui #exbtn{background:var(--ox);border-color:var(--brass)}
+#tobar{position:fixed;left:16px;top:78px;z-index:7}
+#exmenu{position:fixed;right:14px;bottom:70px;width:290px;max-height:min(72vh,560px);overflow:auto;background:var(--paper);color:var(--ink);border-radius:14px;box-shadow:0 10px 40px #000a;padding:8px;z-index:12;display:none}
+#exmenu.on{display:block}
+#exmenu h2{font:700 13px/1 -apple-system,system-ui,sans-serif;letter-spacing:.08em;text-transform:uppercase;color:var(--ox);margin:8px 10px 6px}
+#exmenu button{display:block;width:100%;min-height:44px;text-align:left;border:0;background:none;border-radius:9px;padding:6px 10px;font:600 15px/1.2 -apple-system,system-ui,sans-serif;color:var(--ink);cursor:pointer}
+#exmenu button small{display:block;font-weight:400;font-size:12px;color:#7a6654;margin-top:2px}
+#exmenu button:hover{background:#ead9bd}
+
+/* existing content opens in one cream-paper panel; the restaurant stays visible round it */
+html.bar #panel{top:6vh;bottom:auto;right:24px;width:400px;max-width:calc(100vw - 48px);height:min(80vh,680px);border-radius:14px;overflow:hidden;z-index:10;color:var(--ink);
+ background:var(--paper) repeating-linear-gradient(0deg,#0000 0 27px,#b89a6a14 27px 28px);box-shadow:0 14px 50px #000b,0 0 0 1px #d7aa6766}
+html.bar #panel.shut{transform:translateX(calc(100% + 60px))}
+html.bar #panel nav{display:none}
+#phead{display:none}
+html.bar #phead{display:flex;align-items:center;justify-content:space-between;gap:8px;padding:8px 8px 8px 16px;border-bottom:1px solid #d9c5a0;background:#efe0c4}
+#phead b{font:700 17px/1.2 Georgia,"Times New Roman",serif;color:var(--ox)}
+#phead button{min-height:44px;min-width:44px;border:0;border-radius:10px;background:var(--ox);color:#fff7e8;font:600 14px/1 -apple-system,system-ui,sans-serif;padding:0 14px;cursor:pointer}
+html.bar #body .card{background:#fffaf0;border-color:#e2cfa9}
+html.bar #say{background:#efe0c4}
+
+/* arcade: a close-up of the cabinet screen */
+html.arcade #arcade{display:flex}
+#arcade{position:fixed;inset:0;z-index:30;align-items:center;justify-content:center;background:radial-gradient(#101923cc,#070b10f2);padding:10px}
+.cabinet{width:min(760px,96vw);max-height:96vh;display:flex;flex-direction:column;background:linear-gradient(#7a2f2b,#4c1c1a);border-radius:22px 22px 12px 12px;padding:14px 18px 0;box-shadow:0 30px 80px #000,inset 0 2px 0 #b9605a,inset 0 -3px 0 #2a0f0e;border:2px solid #2a0f0e}
+.marq{font:900 clamp(20px,5vw,40px)/1 "Arial Black",Impact,system-ui,sans-serif;letter-spacing:.14em;text-align:center;color:#ffe9b8;background:linear-gradient(#2a1810,#170d08);border:3px solid var(--brass);border-radius:10px;padding:10px 6px;text-shadow:0 0 12px #ffb84d,0 2px 0 #7a4a12;box-shadow:inset 0 0 22px #ffb84d55}
+.crt{position:relative;margin:14px 0;aspect-ratio:16/9;border-radius:26px/22px;overflow:hidden;background:#06142a;border:10px solid #1a0b0a;box-shadow:inset 0 0 60px #000,0 0 30px #3aa0ff55}
+.crt img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;image-rendering:pixelated;filter:brightness(.5) saturate(1.1)}
+.crt::after{content:"";position:absolute;inset:0;pointer-events:none;background:repeating-linear-gradient(#0000 0 2px,#0003 2px 4px),radial-gradient(ellipse at center,#0000 55%,#000a 100%)}
+.amenu{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:clamp(6px,1.6vw,14px);text-align:center;padding:10px;z-index:1}
+.amenu h2{margin:0;font:900 clamp(18px,4.6vw,38px)/1.05 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.04em;color:#fff3c9;text-shadow:3px 3px 0 #b3261e,0 0 18px #000}
+.amenu p{margin:0;font:700 clamp(11px,2vw,15px)/1.3 ui-monospace,Menlo,Consolas,monospace;color:#bfe3ff;text-shadow:0 2px 6px #000;max-width:30em}
+.amenu button{min-height:44px;min-width:210px;border:3px solid #fff3c9;background:#0b2447e6;color:#fff3c9;font:800 clamp(13px,2.2vw,17px)/1 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.06em;text-transform:uppercase;padding:0 18px;cursor:pointer;border-radius:4px}
+.amenu button.go{background:#ffb84d;color:#2a1508;border-color:#fff3c9}
+.amenu button:hover{filter:brightness(1.15)}
+.deck{height:clamp(46px,9vw,78px);position:relative;background:linear-gradient(#3a1513,#2a0f0e);border-top:3px solid var(--brass);margin:0 -18px;border-radius:0 0 10px 10px}
+.deck i{position:absolute;top:50%}
+.deck .stick{left:22%;width:14px;height:44px;margin-top:-34px;background:#222;border-radius:6px}
+.deck .stick::after{content:"";position:absolute;left:-10px;top:-18px;width:34px;height:34px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ffe0a0,#f0a020 55%,#9a5a08)}
+.deck .b1,.deck .b2{width:30px;height:30px;margin-top:-15px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#f3d9a0,#b8863a 60%,#6b4a18);box-shadow:0 3px 0 #1a0b0a}
+.deck .b1{left:62%}.deck .b2{left:72%}
+
+/* upstairs, on phones */
+html.upst #upst{display:flex}
+#upst{position:fixed;inset:0;z-index:20;background:var(--navy);flex-direction:column}
+#upst header{display:flex;justify-content:space-between;align-items:center;padding:10px 12px;color:#fff7e8;font:700 18px Georgia,serif}
+#upscroll{flex:none;overflow-x:auto;overflow-y:hidden;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+#upscroll::-webkit-scrollbar{display:none}
+#uproom{position:relative;background-image:var(--plateup);background-repeat:no-repeat;background-position:0 0}
+#upst p{color:#c9d6e4;font:14px/1.4 -apple-system,system-ui,sans-serif;padding:12px 16px;margin:0}
+
+@media(max-width:699px){
+ html.bar #panel{top:auto!important;bottom:0;right:0;left:0;width:100vw!important;max-width:100vw!important;height:66vh;border-radius:18px 18px 0 0}
+ html.bar #panel.shut{transform:translateY(105%)!important}
+ #barui{left:0;right:0;justify-content:center;bottom:max(12px,env(safe-area-inset-bottom))}
+ #exmenu{left:8px;right:8px;width:auto;bottom:68px;max-height:70vh}
+ #tobar{top:84px;left:12px}
+}
+@media(prefers-reduced-motion:reduce){
+ .rain,.ripple i,.shimmer,.steam i,.gull,.rec i,.lampglow,#cab .scr,html.hints .spot.key .lbl{animation:none!important}
+ .steam i:first-child{opacity:.3;transform:translate(10px,-50px) scale(1.4)}
+ #panel{transition:none!important}
+}
+html.bar #page{z-index:15}html.bar #lb{z-index:16}
+
+.arload{color:#bfe3ff;font:700 15px ui-monospace,Menlo,monospace;margin:0}

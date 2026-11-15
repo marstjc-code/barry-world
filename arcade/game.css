@@ -1,0 +1,54 @@
+/* Barry's Paper Round: the cabinet fills the screen while the game is on it. */
+html.arcade #arcade{padding:0}
+#arcade .cabinet.game{width:100vw;max-width:1180px;height:100vh;height:100dvh;max-height:none;border-radius:0;padding:8px 10px 0;box-sizing:border-box}
+#arcade .cabinet.game .marq{font-size:clamp(14px,2.6vh,24px);padding:5px;border-width:2px;letter-spacing:.2em}
+#arcade .cabinet.game .crt{flex:1 1 auto;min-height:0;aspect-ratio:auto;margin:8px 0;display:grid;place-items:center;border-width:6px;border-radius:14px;background:#0a0f1a}
+#arcade .cabinet.game .crt::after{display:none}
+#prc{image-rendering:pixelated;image-rendering:crisp-edges;display:block;outline:none;grid-area:1/1}
+.prhud,.prover{grid-area:1/1;width:var(--prw);height:var(--prh);box-sizing:border-box;position:relative;z-index:1;font-family:ui-monospace,Menlo,Consolas,monospace}
+.prhud{display:flex;justify-content:space-between;align-items:flex-start;padding:6px 8px;pointer-events:none;font-weight:800;font-size:clamp(14px,2.4vh,22px);color:#fff3c9;text-shadow:2px 2px 0 #20202e,-1px -1px 0 #20202e,1px -1px 0 #20202e,-1px 1px 0 #20202e}
+.prhud #prcap{font-size:.62em;font-weight:700;max-width:60%;text-align:center;color:#ffffff;padding-top:.3em}
+.prhud[hidden],.prover[hidden],.prpad[hidden]{display:none!important}
+.prover{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:clamp(5px,1.4vh,12px);text-align:center;padding:10px;background:linear-gradient(#20202e00 0,#20202e99 34%,#20202ecc 100%)}
+#prpause,#prend{background:#20202ecc}
+.prover h2{margin:0;font-weight:900;font-size:clamp(20px,5.2vh,44px);line-height:1.05;color:#fff3c9;text-shadow:3px 3px 0 #b3261e,0 0 14px #000}
+.prover .tag{margin:0;font-weight:800;font-size:clamp(13px,2.6vh,22px);color:#ffd27a;letter-spacing:.12em;text-shadow:2px 2px 0 #20202e}
+.prover .how{margin:0;font-size:clamp(11px,1.9vh,15px);line-height:1.5;color:#e8ecf6;text-shadow:1px 1px 0 #20202e}
+.prover .how b{display:inline-block;border:2px solid #fff3c9;border-radius:4px;padding:0 5px;color:#fff3c9}
+.prover .best{margin:0;font-size:clamp(11px,1.8vh,14px);color:#bfe3ff;min-height:1em}
+.prover button,.receipt button{min-height:44px;min-width:200px;border:3px solid #fff3c9;background:#0b2447;color:#fff3c9;font:800 clamp(13px,2.1vh,17px)/1 ui-monospace,Menlo,Consolas,monospace;letter-spacing:.06em;text-transform:uppercase;padding:0 16px;cursor:pointer;border-radius:4px}
+.prover button.go,.receipt button.go{background:#ffb84d;color:#2a1508}
+/* the till receipt */
+.receipt{width:min(300px,92%);max-height:96%;overflow:auto;background:#f6ecd9;color:#2a1c14;padding:14px 16px 12px;text-align:left;font-size:clamp(12px,1.9vh,14px);line-height:1.5;box-shadow:0 10px 30px #000a;
+ -webkit-mask:linear-gradient(#000 0 0) top/100% calc(100% - 8px) no-repeat,conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/12px 8px repeat-x;mask:linear-gradient(#000 0 0) top/100% calc(100% - 8px) no-repeat,conic-gradient(from -45deg at bottom,#0000,#000 1deg 89deg,#0000 90deg) bottom/12px 8px repeat-x;padding-bottom:20px;animation:print .5s steps(10) both}
+@keyframes print{from{clip-path:inset(0 0 100% 0)}to{clip-path:inset(0)}}
+.receipt h3{margin:0;text-align:center;font-size:1.35em;letter-spacing:.18em}.receipt .sub{margin:0;text-align:center;letter-spacing:.14em;font-size:.9em}
+.receipt hr{border:0;border-top:2px dashed #2a1c1466;margin:7px 0}.receipt .row{display:flex;justify-content:space-between;gap:10px}
+.receipt .verdict{margin:6px 0 2px;font-style:italic;text-align:center}
+.receipt .btns{display:flex;flex-direction:column;gap:6px;margin-top:10px}.receipt button{min-width:0;width:100%;border-color:#2a1c14;background:#fffaf0;color:#2a1c14}.receipt button.go{background:#642825;color:#fff7e8;border-color:#642825}
+/* the control deck */
+#arcade .deck.prdeck{height:auto;min-height:52px;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:6px 10px;margin:0 -10px}
+.prdeck .prmid{display:flex;gap:8px;margin:0 auto;align-items:center}
+.prdeck .prmid button{min-height:44px;min-width:44px;border:2px solid #d7aa67;border-radius:10px;background:#2a0f0e;color:#ffe9b8;font:700 13px/1 ui-monospace,Menlo,monospace;padding:0 12px;cursor:pointer}
+.prpad{display:flex;flex-direction:column;gap:8px;touch-action:none}
+.prpad button{width:92px;height:64px;border-radius:14px;border:3px solid #d7aa67;background:radial-gradient(circle at 35% 30%,#8a3a36,#4c1c1a);color:#ffe9b8;font:900 22px/1 ui-monospace,Menlo,monospace;touch-action:none;user-select:none;-webkit-user-select:none;cursor:pointer}
+.prpad button small{display:block;font-size:11px;font-weight:700;letter-spacing:.08em;margin-top:2px}
+.prpad.right button{width:120px;height:120px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#ffe0a0,#f0a020 55%,#9a5a08);color:#2a1508;border-color:#fff3c9;font-size:24px}
+.prpad button.down{filter:brightness(1.35);transform:scale(.96)}
+@media(orientation:landscape) and (max-height:520px){
+ /* a phone on its side: the picture takes the whole cabinet and the thumb buttons sit over its lower corners */
+ #arcade .cabinet.game{position:relative;padding:0;max-width:none;border:0}
+ #arcade .cabinet.game .marq{display:none}
+ #arcade .cabinet.game .crt{margin:0;border-width:0;border-radius:0}
+ #arcade .deck.prdeck{position:absolute;left:0;right:0;bottom:0;margin:0;padding:8px max(14px,env(safe-area-inset-right)) 8px max(14px,env(safe-area-inset-left));background:none;border:0;align-items:flex-end;pointer-events:none;z-index:3}
+ .prdeck>*{pointer-events:auto}
+ .prpad button{width:74px;height:50px;font-size:16px;opacity:.86}.prpad.right button{width:96px;height:96px;opacity:.9}
+ .prdeck.ended .prmid,.prdeck.ended .prpad{display:none}
+ .prhud #prcap{padding-top:54px}
+ .receipt{width:min(540px,94%);padding:8px 14px 16px;line-height:1.3}.receipt hr{margin:4px 0}.receipt .verdict{margin:3px 0 0}.receipt .btns{flex-direction:row;margin-top:6px}
+ .prdeck .prmid{position:absolute;top:calc(-100vh + 100% + 6px);top:calc(-100dvh + 100% + 6px);left:50%;transform:translateX(-50%);opacity:.85}
+}
+@media(prefers-reduced-motion:reduce){.receipt{animation:none}}
+
+.prover.title{justify-content:space-between;background:linear-gradient(#20202ecc 0,#20202e00 34%,#20202e00 70%,#20202eb0 100%);padding:3% 10px 2%}
+.prover.title .top,.prover.title .bot{display:flex;flex-direction:column;align-items:center;gap:clamp(4px,1.1vh,10px)}
