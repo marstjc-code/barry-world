@@ -7520,21 +7520,6 @@
    "built": "2026-11-14 12:17"
   },
   {
-   "id": "pet-1",
-   "shape": "sphere",
-   "x": -3.6,
-   "z": 2.9,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#88CCDD",
-   "label": "broad slobber stain",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "junk-1794665836",
    "shape": "sphere",
    "x": -14.621967442036851,
@@ -8314,6 +8299,21 @@
    "label": "crumbled leaf",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-11",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 3.5,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#4F7950",
+   "label": "crumbled leaf",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -8321,9 +8321,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -4.8,
-  "z": 1.5,
-  "doing": "Pea skids sideways with a greedy woof straight into the veg stall's big cabbage to wrestle it free while Barry is too busy checking his watch again.",
-  "sound": "Grrr-chomp!"
+  "z": 3.2,
+  "doing": "Pea skids sideways with a greedy woof straight into the crate of carrots again to wrestle one free while Barry is still checking his watch.",
+  "sound": "WOOF-THWUMP!"
  },
  "realsky": false,
  "spaced": "2026-11-13"

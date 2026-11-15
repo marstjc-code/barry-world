@@ -1,0 +1,28 @@
+<svg viewBox="0 0 800 800"><rect width="800" height="800" fill="#2b241d"/>
+<circle cx="180" cy="150" r="90" fill="#ff9e4b"/><circle cx="180" cy="150" r="60" fill="#ffd8a3"/>
+<rect y="480" width="800" height="320" fill="#3a3025"/>
+<ellipse cx="400" cy="690" rx="260" ry="28" fill="#271f17"/>
+<rect x="150" y="340" width="500" height="46" fill="#f5f0e6"/>
+<ellipse cx="400" cy="363" rx="180" ry="24" fill="#d8c4a0"/>
+<ellipse cx="400" cy="356" rx="160" ry="20" fill="#e8d4b0"/>
+<ellipse cx="400" cy="350" rx="120" ry="14" fill="#c8a06a"/>
+<path d="M400 350 Q415 346 430 350 Q415 358 400 354 Z" fill="#c8a06a"/>
+<path d="M430 350 L455 356 L448 366 L434 360 Z" fill="#e8d4b0"/>
+<path d="M448 366 L470 366 L465 374 L444 370 Z" fill="#e8d4b0"/>
+<circle cx="472" cy="364" r="7" fill="#111"/>
+<rect x="398" y="342" width="12" height="40" fill="#cc3333"/>
+<path d="M398 342 Q408 300 378 318 L378 330 Q398 336 398 342 Z" fill="#c8a06a"/>
+<rect x="210" y="348" width="26" height="18" fill="#111"/>
+<ellipse cx="222" cy="340" rx="16" ry="14" fill="#e8d4b0"/>
+<rect x="220" y="345" width="6" height="10" fill="#111"/>
+<path d="M255 332 Q265 285 235 305 L235 318 Q255 324 255 332 Z" fill="#c8a06a"/>
+<circle cx="238" cy="298" r="8" fill="#e8d4b0"/>
+<rect x="448" y="374" width="10" height="38" fill="#c8a06a"/>
+<rect x="462" y="374" width="10" height="34" fill="#c8a06a"/>
+<rect x="320" y="384" width="10" height="42" fill="#c8a06a"/>
+<rect x="336" y="386" width="10" height="38" fill="#c8a06a"/>
+<rect x="120" y="580" width="560" height="24" fill="#c8a06a"/>
+<rect x="132" y="604" width="536" height="10" fill="#8a6a3f"/>
+<text x="400" y="628" font-size="14" fill="#8a6a3f" text-anchor="middle">BAKED, NOT DISPLAYED</text>
+</svg>
+</svg>
