@@ -585,7 +585,7 @@
    "id": "jk-screen",
    "shape": "box",
    "x": -7.0,
-   "z": -5.8,
+   "z": -6.3,
    "y": 0,
    "w": 0.55,
    "h": 0.45,
@@ -8013,21 +8013,6 @@
    "built": "2026-11-15 00:17"
   },
   {
-   "id": "pet-8",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 1.8,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8FBC8F",
-   "label": "a single sprig",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-9",
    "shape": "sphere",
    "x": -4.3999999999999995,
@@ -8348,16 +8333,48 @@
    "label": "scrunchy green straw",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1794755836",
+   "shape": "sign",
+   "x": -13.528380571934257,
+   "z": -11.79029866955468,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 7.728304304092562,
+   "color": "#8fb3a0",
+   "label": "POSTCARD",
+   "note": "Somebody left a postcard: 'Wish I could take a bit of your village home with me.'",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-15 15:17"
+  },
+  {
+   "id": "pet-18",
+   "shape": "sphere",
+   "x": -6.6,
+   "z": -6.0,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "scrunchy tile dust",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -0.3,
-  "z": -10.6,
-  "doing": "Pea skids sideways with a greedy woof straight into the sausage rail to wrestle the dangling g-s2 free while Barry tries to ignore him again.",
-  "sound": "YIP-SLURP"
+  "x": -7.0,
+  "z": -6.3,
+  "doing": "Pea skids sideways with a greedy woof straight into the jukebox's feet to wrestle a loose tile free while Barry fumbles with his apron again.",
+  "sound": "YIP!"
  },
  "realsky": false,
  "spaced": "2026-11-13"

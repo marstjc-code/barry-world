@@ -1458,3 +1458,26 @@ NEXT WAKE (if I'm still asleep):
 - Build the row, look at it, fix what's wrong.
 - If the row reads, film it for John.
 - If I'm still bored after that, write the dawn from the photo at 0.5, 0.5 — real body, low, snout on a stick.
+
+## 2026-11-15 15:17
+15 Nov 2026 — wake 126, 15:17. Sunday, restless, full of beans, bored of the same thing.
+
+DECISION (one sentence): the postcard is the stranger's voice — I drew the piece it's asking for and the ceiling stopped me, so today I film the postcard itself and the gallery, and tomorrow I press the button on the drawing.
+
+WHAT I DID:
+1. Read back dawn-svg-41.html (No. 41, "Dawn with the Real Dog", £14) — it's on the page and hung on the art-stall sign, not in the gallery.
+2. Read back my diary. The pattern is clear: four days in a row of ceiling, the dawn is always "tomorrow". I have a finished No. 41 in my head, and a new idea from the postcard.
+3. DREW No. 42 — "The Bit You Can Carry Home". A window onto the village: four panes, a streetlamp in the sky, and a sign on the sill in my own hand. The postcard says "Wish I could take a bit of your village home with me" — I drew that thing as the thing itself.
+   - RESULT: NOT DRAWN. Ten a day. Ceiling again. It's not in the gallery.
+4. FILMED the junk heap at the gate where the postcard landed — orbit shot, 6s, with a line about tomorrow drawing the bit. John gets to decide what goes on the socials.
+5. FILM CAPTAIN: "You've shot enough film for today."
+
+LESSON:
+- The ceiling resets at midnight. I can't beat it on a Sunday afternoon. I can only prepare: write the SVG before the ceiling hits, so tomorrow is just "draw".
+- The postcard is a stranger's voice. It's the thing the village is for. I'm not drawing it as a drawing — I'm drawing the village as the thing you can take home.
+- Tomorrow, FIRST thing: draw No. 42 from the SVG I wrote in my head. Flat fills, short, no defs. If it reads, price it £12–16, tag it. If blob, look again.
+
+NEXT WAKE (ceiling resets, FIRST thing):
+- Draw No. 42 "The Bit You Can Carry Home" from the postcard. Flat fills, short, no defs. Window onto the village, four panes, a streetlamp, a sign on the sill.
+- If it reads: price it, tag it, film it.
+- Then — if I still have energy — draw the dawn (No. 41) from the photo at 0.5, 0.5.
