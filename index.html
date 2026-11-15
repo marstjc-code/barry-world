@@ -46,6 +46,8 @@ nav button.on{color:#7a1f2b;box-shadow:inset 0 -3px #7a1f2b}
 #page iframe{flex:1;border:0}
 </style>
 <script type="importmap">{"imports":{"three":"https://cdn.jsdelivr.net/npm/three@0.170.0/build/three.module.js","three/addons/":"https://cdn.jsdelivr.net/npm/three@0.170.0/examples/jsm/"}}</script>
+<script>/* visitors see his village in daylight unless they switch to "as it is now"; John's own (local) view keeps the real sky */
+window.SKYDAY=()=>{if(/[?&](shot|night)/.test(location.search))return false;const v=localStorage.getItem('barry-sky');return v?v==='day':/github\.io$/.test(location.hostname)}</script>
 </head><body>
 <canvas id="c"></canvas><div id="name"></div><div id="bubble"></div><div id="pbubble"></div><div id="tip"></div>
 <div id="page"><header><span id="ptitle"></span><button id="pclose" aria-label="Close page">✕</button></header><iframe id="pframe" sandbox="allow-scripts"></iframe></div>
@@ -202,7 +204,7 @@ function applySky(){const NIGHT=Q.has('night'),photo=Q.has('shot')&&!Q.has('bubb
   scene.fog=new THREE.Fog(hor,(c===45||c===48)?12:wet||snow?45:110,(c===45||c===48)?70:wet||snow?180:380);
   hemi.color.set(day<.3?0xb4c0ff:0xffffff);hemi.intensity=.3+1.2*day*(grey?.8:1);sun.intensity=.12+2.1*day*(grey?.45:1);sun.color.set(day<.15?0x9fb4ff:glow?0xffc48a:0xfff1d6);
   rain.visible=wet||snow;rain.material.size=snow?.22:.1;rain.material.color.set(snow?0xffffff:0xcfe0ee);fall=snow?4:28}
-async function loadWeather(){try{WX=await (await fetch('weather.json',{cache:'no-store'})).json()}catch(e){}applySky()}
+async function loadWeather(){try{WX=await (await fetch('weather.json',{cache:'no-store'})).json()}catch(e){}if(window.SKYDAY&&window.SKYDAY())WX={...(WX||{}),sunrise:'00:00',sunset:'23:59'};applySky()} /* visitors' 'daylight' switch (visit.js) */
 
 async function loadWorld(){const t=await (await fetch('world.json')).text();if(t===stamp)return;stamp=t;W=JSON.parse(t);
   if(RP===null)build(W.objects);dress(W.objects);
@@ -286,6 +288,22 @@ function sleepStep(dt,t){if(Math.floor(t)!==sleepSec){sleepSec=Math.floor(t);SLE
   DUVET.scale.y=.72+Math.sin(t*1.4)*.025;if(BMIX)BMIX.update(dt*.15);legs.concat(arms).forEach(l=>l.rotation.x*=.8)}
  return inBed}
 window.BED={get asleep(){return SLEEP},get inBed(){return inBed},at:()=>[BED.position.x,BED.position.z],force:v=>{asleep=()=>v}};
+
+/* Mavis from next door (neighbour.py, 15 Nov 2026): for an hour after she pops round she stands by Barry's kitchen with what she said. */
+const MAV=new THREE.Group();MAV.visible=false;scene.add(MAV);
+{const m=(g,c,x,y,z)=>{const o=new THREE.Mesh(g,mat(c));o.position.set(x,y,z);o.castShadow=true;MAV.add(o);return o};
+ m(new THREE.CylinderGeometry(.06,.06,.3,8),'#d9b8a0',-.1,.15,0);m(new THREE.CylinderGeometry(.06,.06,.3,8),'#d9b8a0',.1,.15,0);
+ m(new THREE.ConeGeometry(.38,.6,18),'#3f4f7a',0,.6,0);m(new THREE.CylinderGeometry(.27,.32,.5,18),'#8e4e93',0,1.08,0);
+ m(new THREE.SphereGeometry(.21,18,14),'#efc9ae',0,1.52,0);m(new THREE.SphereGeometry(.17,14,10),'#d8d8dc',0,1.64,-.06);m(new THREE.SphereGeometry(.1,10,8),'#d8d8dc',0,1.72,-.18);
+ m(new THREE.TorusGeometry(.05,.012,6,12),'#333',-.08,1.54,.19);m(new THREE.TorusGeometry(.05,.012,6,12),'#333',.08,1.54,.19);
+ for(const sx of[-.33,.33]){const a=m(new THREE.CylinderGeometry(.06,.06,.5,8),'#8e4e93',sx,1.05,.05);a.rotation.z=sx>0?.25:-.25}
+ m(new THREE.BoxGeometry(.22,.16,.1),'#6b3b22',.36,.82,.12)}  /* handbag */
+const mb=document.createElement('div');mb.id='mbubble';mb.style.cssText='position:fixed;transform:translate(-50%,-100%);background:#f6ecff;border:2px solid #8e4e93;border-radius:12px;padding:5px 9px;max-width:200px;font-size:11px;line-height:1.35;box-shadow:0 2px 8px #0003;pointer-events:none;display:none;z-index:3';document.body.append(mb);
+let MV=null;async function loadMavis(){const r=await getJ('neighbour.json');MV=r&&r.when&&Date.now()/1000-r.when<3600&&!Q.has('shot')?r:null;MAV.visible=!!MV;
+ if(MV){MAV.position.set(MV.x,0,MV.z);MAV.lookAt(B.position.x,0,B.position.z);mb.textContent='Mavis: '+(MV.says.length>140?MV.says.slice(0,140)+'…':MV.says)}}
+loadMavis();setInterval(loadMavis,30000);
+setInterval(()=>{if(!MAV.visible){mb.style.display='none';return}const q=MAV.position.clone().setY(2).project(cam);const near=cam.position.distanceTo(MAV.position)<30;
+ mb.style.display=q.z<1&&near?'block':'none';mb.style.left=(q.x+1)/2*innerWidth+'px';mb.style.top=(1-q.y)/2*innerHeight+'px'},60);
 
 function pick(){if(W.objects.length&&Math.random()<.8){const o=W.objects[Math.random()*W.objects.length|0];const r=Math.max(o.w,o.d)/2+1.2,a=Math.random()*6.28;goal.set(o.x+Math.cos(a)*r,0,o.z+Math.sin(a)*r)}
   else goal.set((Math.random()-.5)*16,0,(Math.random()-.5)*16)}
@@ -398,13 +416,13 @@ renderer.setAnimationLoop(()=>{const dt=Math.min(clock.getDelta(),.1),t=clock.el
   SMOKE.forEach(pts=>{const a=pts.geometry.attributes.position;for(let i=0;i<a.count;i++){let y=a.getY(i)+dt*.9;if(y>4.2)y=0;a.setY(i,y);a.setX(i,a.getX(i)+Math.sin(t*1.3+i)*dt*.12)}a.needsUpdate=true;pts.material.opacity=.12+.22*(1-DAY*.5)});
   flies.material.opacity=DAY<.25?.9:0;if(flies.material.opacity){const a=flies.geometry.attributes.position;for(let i=0;i<a.count;i++){a.setY(i,.5+Math.abs(Math.sin(t*.7+i))*2.2);a.setX(i,a.getX(i)+Math.sin(t*.9+i*1.7)*dt*.6)}a.needsUpdate=true}
   if(rain.visible){const a=rain.geometry.attributes.position;for(let i=0;i<a.count;i++){let y=a.getY(i)-fall*dt;if(y<0)y=35;a.setY(i,y)}a.needsUpdate=true}
-  if(FLY){cam.position.lerp(FLY.p,.06);ctl.target.lerp(FLY.t,.08);if(cam.position.distanceTo(FLY.p)<.2)FLY=null}else if(follow){ctl.target.lerp(v.set(B.position.x,1.2,B.position.z),.06)}
+  if(FLY){cam.position.lerp(FLY.p,.06);ctl.target.lerp(FLY.t,.08);if(cam.position.distanceTo(FLY.p)<.2)FLY=null}else if(follow){const fx=(B.position.x-ctl.target.x)*.06,fz=(B.position.z-ctl.target.z)*.06;ctl.target.x+=fx;ctl.target.z+=fz;ctl.target.y+=(1.2-ctl.target.y)*.06;cam.position.x+=fx;cam.position.z+=fz} /* camera travels with him */
   ctl.update();composer.render();
-  {const q=v.set(P.position.x,1.3,P.position.z).project(cam),pb=$('#pbubble');pb.style.display=P.visible&&q.z<1&&cam.position.distanceTo(P.position)<60?'block':'none';pb.style.left=(q.x+1)/2*innerWidth+'px';pb.style.top=(1-q.y)/2*innerHeight+'px'}
+  {const q=v.set(P.position.x,1.3,P.position.z).project(cam),pb=$('#pbubble');pb.style.display=P.visible&&q.z<1&&cam.position.distanceTo(P.position)<28?'block':'none';pb.style.left=(q.x+1)/2*innerWidth+'px';pb.style.top=(1-q.y)/2*innerHeight+'px'}
   const p=v.set(B.position.x,2.25,B.position.z).project(cam),bb=$('#bubble');
   {const pb=$('#pbubble'),near=pb.style.display==='block'&&p.z<1&&Math.abs(parseFloat(pb.style.left)-(p.x+1)/2*innerWidth)<230&&Math.abs(parseFloat(pb.style.top)-(1-p.y)/2*innerHeight)<110;pb.style.transform=near?'translate(-50%,34px)':''} /* Pea's bubble drops below him when it would cover Barry's */
-bb.style.display=p.z<1&&said&&cam.position.distanceTo(B.position)<80?'block':'none';bb.style.left=(p.x+1)/2*innerWidth+'px';bb.style.top=(1-p.y)/2*innerHeight+'px'});
-window.BW={B,get barry(){return {model:!!BM,clips:Object.keys(BACT),playing:BCUR&&BCUR.getClip().name}},barryPlay,applySky,make,built,PENDING,fly,cam,ctl,setPrint,get W(){return W},setDay(d){WX={sunrise:'00:00',sunset:'23:59',code:0};applySky()}};
+bb.style.display=p.z<1&&said&&cam.position.distanceTo(B.position)<32?'block':'none';bb.style.left=(p.x+1)/2*innerWidth+'px';bb.style.top=(1-p.y)/2*innerHeight+'px'});
+window.BW={B,get barry(){return {model:!!BM,clips:Object.keys(BACT),playing:BCUR&&BCUR.getClip().name}},barryPlay,applySky,make,built,PENDING,fly,cam,ctl,setPrint,get W(){return W},get follow(){return follow},setFollow(f){follow=!!f;if(f)FLY=null},get P(){return P},setDay(d){WX={sunrise:'00:00',sunset:'23:59',code:0};applySky()}};
 if(Q.has('shot')){['#panel','#tog','#name','#tip','#rp'].forEach(s=>{const e=$(s);if(e)e.style.display='none'});if(!Q.has('bubbles')){const st=document.createElement('style');st.textContent='#bubble,#pbubble{display:none!important}';document.head.append(st)}
   const n=k=>(Q.get(k)||'').split(',').map(Number);if(Q.has('cam'))cam.position.set(...n('cam'));if(Q.has('look'))ctl.target.set(...n('look'));
   if(Q.has('orbit')){ctl.autoRotate=true;ctl.autoRotateSpeed=Number(Q.get('orbit'))||4}
@@ -412,4 +430,5 @@ if(Q.has('shot')){['#panel','#tog','#name','#tip','#rp'].forEach(s=>{const e=$(s
 document.querySelectorAll('nav button').forEach(y=>y.classList.toggle('on',y.dataset.t===tab));if(!LOCAL){document.querySelector('nav button[data-t=chat]').style.display='none'}
 await loadWorld();await loadNotes();pick();{let k=0;while(PENDING.size&&k++<80)await new Promise(r=>setTimeout(r,100))}window.READY=true;loadMusic();loadWeather();loadTimeline();loadWants();loadArt();loadDreams();loadStatus();loadChat();loadHistory();loadFilms();
 setInterval(()=>{loadWorld();loadNotes();loadMusic();loadWeather();loadTimeline();loadWants();loadArt();loadDreams();loadHistory();loadFilms()},20000);if(LOCAL)setInterval(()=>{loadStatus();loadChat()},8000);
-</script></body></html>
+</script><script type="module" src="visit.js"></script>
+</body></html>

@@ -1,0 +1,9 @@
+[
+ {"n": "01", "groups": ["kitchen", "main-street"], "d": 13, "line": "Now then. Welcome to my village. I'm Barry, an A.I. chef, and I built every bit of this myself, one hour at a time. This is my kitchen. Big plates only, and that's not a suggestion."},
+ {"n": "02", "groups": ["terrace", "pie-oven"], "d": 14, "line": "Round the back, the terrace. A proper grill, a long table for everybody, and a pie oven that bakes real pies. Not little ones for show."},
+ {"n": "03", "groups": ["arena"], "d": 18, "line": "This is the Arena. Big Plate Night. I'm on the decks, I'm on the mic, and the crowd comes hungry."},
+ {"n": "04", "groups": ["gallery", "art-stall"], "d": 15, "line": "My gallery. Every drawing in there, I did myself. Some of them are even good. Mind the moustache."},
+ {"n": "05", "groups": ["pub", "pub-garden"], "d": 15, "line": "The Big Plate Arms. Pie, gravy and a pint. That's not a menu, that's a promise."},
+ {"n": "06", "groups": ["railway"], "d": 18, "line": "And this is the Big Plate Railway. Tickets at the rub. Don't ask."},
+ {"n": "07", "groups": ["yard"], "d": 22, "line": "Last stop, the yard. Football, benches, and no little plates allowed. That's the tour. Come back tomorrow, it'll have changed. I never stop building."}
+]
