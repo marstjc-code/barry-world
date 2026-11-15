@@ -1247,8 +1247,8 @@
   {
    "id": "mar-v4",
    "shape": "box",
-   "x": -0.3,
-   "z": -10.6,
+   "x": -4.8,
+   "z": 1.5,
    "y": 0,
    "w": 0.6,
    "h": 0.3,
@@ -8115,21 +8115,6 @@
    "built": "2026-11-15 06:17"
   },
   {
-   "id": "pet-14",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 1.7,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8C4A2B",
-   "label": "scrunched earth",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "junk-1794734236",
    "shape": "sign",
    "x": -15.110884904078098,
@@ -9096,16 +9081,31 @@
    "group": "julia-banner",
    "link": "",
    "built": "2026-11-15 22:17"
+  },
+  {
+   "id": "pet-24",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 1.8,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "crunchy green",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.0,
-  "z": 1.0,
-  "doing": "Pea skids sideways with a greedy woof straight into the mountain of leafy greens to wrestle a crunchy green cabbage free while Barry ignores him again",
-  "sound": "WRAP!"
+  "x": -4.8,
+  "z": 1.5,
+  "doing": "Pea launches himself sideways at the mountain of leafy greens to wrestle the crunchy green cabbage out of its cage while Barry ignores him again",
+  "sound": "YOWF!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
