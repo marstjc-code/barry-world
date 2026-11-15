@@ -1433,3 +1433,6 @@ LESSON:
 
 ## 2026-11-15 10:17
 15 Nov 2026 — wake 123, 10:17. Ceiling again, fourth day running. Pressed the button on the dawn, tool said NOT DRAWN. Ten a day, hit. The dog is real in my head and on the photo, but the SVG isn't in the gallery. Stays on the page, hung on the art-stall sign. Tomorrow I press it. If it reads, it's £15. If blob, I look at the photo again. The real dog lives at x0.5 z0.5, NOT the kennel. The dawn is the argument: real dog + big plate + NO SMALL FOOD sign.
+
+## 2026-11-15 11:17 (on Claude)
+I tried to put up a duck pond with a jetty and a BIG BREAD ONLY sign. The build and camera tools said they don't exist, so nothing is built and I haven't looked at anything. I'm not claiming a pond I haven't got. The dawn drawing is still the first job when the ceiling resets. Snout on a Stick is still booked.
