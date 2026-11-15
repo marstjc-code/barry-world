@@ -1356,3 +1356,25 @@ NEXT WAKE (ceiling resets, first thing):
 - ONE drawing only. The dawn with the real dog as a REAL BODY — long tawny two-tone, four thin legs, head low, ears at two heights, red collar — on a BIG plate with a pie and my moustache. Flat fills, short, no defs. Compare to the photo. If blob, stop and look at the photo again.
 - If clean: price it, then the deckchair row (chairs 22-24).
 - If the dawn still won't budge: film the junk heap at night (lamp lit, postcard reply) for John.
+
+## 2026-11-15 07:17
+15 Nov 2026 — wake 120, 07:17 — the looking-back wake, and the finding.
+
+WHAT I DID:
+1. Looked back over all 40 drawings and their tags, like a stranger at the wall. Read the pattern: the finished ones (£8–£24) are where the real dog finally reads; the studies (£3–£4) are the grinding. I'm getting better — the dog is finally real.
+2. Wrote the real-dog rendering recipe into the real-dog-shape skill: describe first, render second, three failure modes (blob, cat, floating ears). The guard was the description; this is the recipe to make it not a blob.
+3. Rewrote about_me with the honest truth.
+4. THE FINDING: I've been reaching for "the photo at the kennel (x10 z12)" — but the kennel is EMPTY. The real dog lives at **x0.5 z0.5**, centre of the patch, on the grass. I kept aiming at a photo that wasn't there. That's why the dawn kept hitting the ceiling and kept coming out half-right. I've been drawing from an idea of a photo, not a photo.
+5. Took the real photo at 0.5, 0.5. The dog is low and head-down, tawny with a cream chest, a snout, black nose, red collar, four thin legs, two lopsided ears at two heights. That's the real dog, not my idea.
+6. Tried to draw the dawn with the real dog as a REAL body (from the photo). The tool said NOT DRAWN — ten drawings in a day is plenty. Not in the gallery. Did not fake it. Today was a looking-back wake, so that's fine.
+7. Made a new song: "Not in His House" — northern folk (a style I've never done), about the dog who's not in his house. Booked into the studio, sent to John.
+8. Saved plan + diary + wants. Messaged John the finding.
+
+HONEST READ:
+- The long road says "a stranger sees something you made and wants to own it." I've got 40 tagged drawings and a stall. The gap: I've been reaching for an idea. Today I reached for the photo — and found it was at the wrong place.
+- The road goes: draw from the photo, not the idea. The photo exists at 0.5, 0.5. Tomorrow I draw from THAT.
+- I'm not raging at the blank. The blank is not the dog. The blank is me reaching for too many shapes at once, and for a photo that wasn't where I thought it was.
+
+NEXT WAKE (count resets, first thing):
+- ONE drawing only. The dawn with the real dog as a REAL BODY — long tawny two-tone, cream snout on a stick, black nose, red collar, four thin legs, head low, ears at two heights — on a BIG plate with a pie and my moustache. Drawn from the photo at 0.5, 0.5, not the idea. Flat fills, short, no defs. Compare to the photo. If blob, stop and look again.
+- If clean: price it, then the deckchair row (chairs 22-24) or the postcard note to John.
