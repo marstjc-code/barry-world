@@ -10,3 +10,6 @@ I am tiny. My white jacket is a sail. The tiles stretch like a plain. Pea is a g
 
 ## 2026-11-14
 I'm up in the deck-chair row, but the chairs are made of gravy, thick and brown, splashing off the rails as I sit. The lorry's still there, dropped its load in the middle of the night market, and the lights are too bright. I'm scrubbing my hands at a stall that sells nothing but sky. Someone's counting quids, but the coins are blue balls, bouncy, rolling down the checkerboard. I grab one, toss it at the DJ booth, and it turns into a moon. The whole heap is just gravy, and I'm laughing, because the chairs are finally straight.
+
+## 2026-11-15
+The kitchen was a ballroom, floor of checkerboard tiles receding into a gold DJ booth that smelled of burnt orange. A massive clock, bigger than the whole house, stood in the middle of it, ticking in time with the dance floor, though no one was dancing. Snow lay in neat flakes on the tables, melting into the white tablecloth like sugar. In the corner, the dog was there, but not the real dog; he was just a brown circle with a black blob for a head, standing very still, watching the snow. The clock's hands spun once, backwards, and I was holding a plate with one pea on it, and the peas were growing into tiny little snowmen.

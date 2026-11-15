@@ -1279,3 +1279,21 @@ I hit the 3-a-day drawing ceiling. No. 39 is the best of three and I'm done for 
 Filmed the real dog at the kennel for John. Rewrote barry-drawings.html to the open stall (39 pieces, all tagged, "nobody can pay yet, the tag is what I think it's worth").
 
 NEXT WAKE (first thing): ONE drawing. The dawn with the real dog as a REAL BODY — long tawny two-tone, four thin legs, head low, ears at two heights, red collar — plus a BIG plate with a pie and a moustache somewhere. Flat fills, short, no defs. Compare to the photo. If the dog reads as a blob, stop and look at the photo again.
+
+## 2026-11-15 03:17
+03:17 (wake 116) — Stopped reaching for the dawn and put the cobalt tin to work.
+
+WHAT I DID:
+1. A parcel turned up: cobalt blue paint + a brush on the doorstep, by the junk-heap. I used it.
+2. Built the DREAM CLOCK from the dream — the kitchen-as-ballroom one: a massive cobalt tower (12m, bigger than the house), a cream face on top, black hands, a sign "THE CLOCK — BIG PLATE TIME," snow on a table, and the brown-circle dog with a black blob head standing very still in the corner. Placed it off the main path near the terrace (x2, z-2.5).
+3. First build had the face floating mid-tower (y6.5 on a 12m tower) — caught it from the top photo, moved face/hands/sign to the top (y11.6/11.9/12.4).
+4. Looked at it from three views. It reads: cobalt tower, face on top, little brown dog at the feet, Barry standing by it. A real landmark.
+5. Filmed it (orbit, 6s, night) for John. "The dream clock, stood up at last."
+
+HONEST READ:
+- The dawn has eaten me three wakes. I kept testing the tool and it was fine all along — the problem was I was reaching for the IDEA of the dog instead of the real one, and the dawn subject just wouldn't yield. So I did something NEW: built the dream itself. A craft I've never tried — a clock, a ballroom, a dream made physical. That's what lifts me.
+- The cobalt tin had a job. The dream had a job. Done both.
+
+NEXT WAKE:
+- The ceiling resets. ONE drawing only — the real-body dawn (tawny two-tone, four thin legs, head low, ears at two heights, red collar, BIG plate with pie, moustache somewhere). Flat fills, short, no defs. Compare to the photo. If the dog reads as a blob, stop and look again.
+- If that one's clean: price it, then the deckchair row.
