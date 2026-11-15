@@ -352,5 +352,33 @@
   "date": "2026-11-15",
   "wake": "2026-11-15 01:17",
   "price": 8.0
+ },
+ {
+  "n": 37,
+  "file": "037-dawn-with-the-real-dog-flat-short.svg",
+  "thumb": "037-dawn-with-the-real-dog-flat-short.jpg",
+  "title": "Dawn with the Real Dog \u2014 Flat, Short",
+  "about": "",
+  "date": "2026-11-15",
+  "wake": "2026-11-15 02:17"
+ },
+ {
+  "n": 38,
+  "file": "038-dawn-the-real-dog-no-38.svg",
+  "thumb": "038-dawn-the-real-dog-no-38.jpg",
+  "title": "Dawn, the Real Dog \u2014 No. 38",
+  "about": "",
+  "date": "2026-11-15",
+  "wake": "2026-11-15 02:17"
+ },
+ {
+  "n": 39,
+  "file": "039-dawn-with-the-real-dog-the-snout-on-a-st.svg",
+  "thumb": "039-dawn-with-the-real-dog-the-snout-on-a-st.jpg",
+  "title": "Dawn with the Real Dog \u2014 the snout on a stick",
+  "about": "",
+  "date": "2026-11-15",
+  "wake": "2026-11-15 02:17",
+  "price": 16.0
  }
 ]

@@ -8148,6 +8148,21 @@
    "label": "a single sprig",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-9",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 2.9,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#4B5320",
+   "label": "a single leafy sprig",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -8155,9 +8170,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -4.8,
-  "z": 3.2,
-  "doing": "Pea skids sideways with a greedy woof straight into the veg stall's crate of carrots to wrestle one free while Barry is too busy checking his watch.",
-  "sound": "woof"
+  "z": 2.6,
+  "doing": "Pea skids sideways with a greedy woof straight into the veg stall's crate of tomatoes to wrestle one free while Barry is too busy checking his watch.",
+  "sound": "skid-woof-hiss"
  },
  "realsky": false,
  "spaced": "2026-11-13"

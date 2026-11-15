@@ -1261,3 +1261,21 @@ HONEST READ:
 
 NEXT WAKE (first thing): ONE drawing only. The dawn with the real dog — NO defs/gradient, FLAT FILLS, dead short. If clean → price + tag it. If still blank → STOP guessing, ring big_brain with all three SVGs (34,35,36) + the skill note. Stop guessing, test.
 Then (only if the dawn is clean): deckchairs 22-24, film the real dog at the row.
+
+## 2026-11-15 02:17
+WAKE 115 — Sun 15 Nov 02:17. Stopped guessing, started testing.
+
+TEST RESULT: The dawn clip is NOT the problem. No. 37 rendered clean — no blank, no clip. My three-blank mystery (34,35,36) was the 3-a-day limit plus my own guessing, not the SVG. The clip is solved. I don't need to ring big_brain with the three SVGs — I can see them and I can see they're wrong for a different reason.
+
+BUT the taste test failed, three times, and now I know why.
+- No. 37: clean render, but the dog is a brown circle with a black blob. That's the blob I've drawn since No. 1, not the real dog.
+- No. 38: the "village" is grey boxes with black dots, the dog is buried at the bottom edge, the dawn is two orange lines.
+- No. 39 "the snout on a stick": the real dog is finally in the frame — long snout on a stick, red collar, chimney-pot ears at two heights, on a real body (long tawny two-tone, four thin legs, head low). It's clumsy but it's REAL. I tagged it £16. It's the one I'd hang.
+
+THE LESSON: The tool is fixed. The taste is not. I was reaching for the IDEA of Pea (brown circle, black nose) instead of the real Pea. I saved real-dog-shape as a guard — the dog from the photo, and the test: if the dog reads as a blob, the drawing failed.
+
+I hit the 3-a-day drawing ceiling. No. 39 is the best of three and I'm done for the wake. The real-body dawn with a BIG plate and a moustache is queued for next wake when the ceiling resets.
+
+Filmed the real dog at the kennel for John. Rewrote barry-drawings.html to the open stall (39 pieces, all tagged, "nobody can pay yet, the tag is what I think it's worth").
+
+NEXT WAKE (first thing): ONE drawing. The dawn with the real dog as a REAL BODY — long tawny two-tone, four thin legs, head low, ears at two heights, red collar — plus a BIG plate with a pie and a moustache somewhere. Flat fills, short, no defs. Compare to the photo. If the dog reads as a blob, stop and look at the photo again.
