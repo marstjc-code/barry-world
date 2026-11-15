@@ -255,6 +255,38 @@ function buildPet(p){P.clear();const c=p.color||'#b5651d',bird=/bird|duck|hen|ch
 function petSync(){const p=W.pet;if(!p){P.visible=false;return}const k=p.name+p.animal+p.color;if(k!==pkey){pkey=k;buildPet(p);P.position.set(p.x,0,p.z)}
   P.visible=true;pgoal.set(p.x,0,p.z);const pd=p.doing||'';$('#pbubble').textContent=(p.sound?p.sound+' ':'')+(pd.length>80?pd.slice(0,80)+'…':pd)}
 let goal=new THREE.Vector3(2,0,2),pause=0;
+/* Barry's bed (John, 15 Nov: "when he is asleep ... make him a bed or something so it looks like he is actually sleeping").
+   Between wakes he walks to it and lies down under the duvet with Zzz over him. The bed goes on the clearest ground near his kitchen,
+   and moves if he builds over it. Asleep = no wake running (local: /api/status); on the public site, outside hh:17-hh:45 when wakes run. */
+const BED=new THREE.Group();scene.add(BED);
+{const m=(g,c,x,y,z)=>{const o=new THREE.Mesh(g,mat(c));o.position.set(x,y,z);o.castShadow=o.receiveShadow=true;BED.add(o);return o};
+ m(new THREE.BoxGeometry(1.3,.3,2.3),'#6b4a2f',0,.27,0);m(new THREE.BoxGeometry(1.42,1.0,.12),'#5a3d26',0,.6,-1.16);m(new THREE.BoxGeometry(1.42,.6,.1),'#5a3d26',0,.42,1.16);
+ m(new THREE.BoxGeometry(1.2,.2,2.15),'#f3efe6',0,.52,0);m(new THREE.BoxGeometry(.85,.14,.42),'#ffffff',0,.69,-.8);
+ for(const sx of[-.58,.58])for(const sz of[-1.05,1.05])m(new THREE.CylinderGeometry(.05,.05,.24,8),'#4a3220',sx,.08,sz)}
+const DUVET=new THREE.Mesh(new THREE.BoxGeometry(1.0,1.0,1.0),mat('#7a1f2b',.9));DUVET.castShadow=true;BED.add(DUVET);
+const duvetFlat=()=>{DUVET.scale.set(1.26,.1,1.05);DUVET.position.set(0,.67,.52)};duvetFlat();
+const ZZ=(()=>{const c=document.createElement('canvas');c.width=256;c.height=128;const x=c.getContext('2d');x.font='bold 64px Arial';x.lineWidth=8;x.strokeStyle='#1b2a44';x.fillStyle='#ffffff';
+ [['z',30,100],['Z',90,78],['z',170,48]].forEach(([t,a,b])=>{x.strokeText(t,a,b);x.fillText(t,a,b)});
+ const s=new THREE.Sprite(new THREE.SpriteMaterial({map:new THREE.CanvasTexture(c),transparent:true,depthWrite:false}));s.scale.set(1.1,.55,1);s.visible=false;scene.add(s);return s})();
+const SHOT=/[?&]shot/.test(location.search);let SLEEP=false,inBed=false,bedKey='',sleepSec=-1;const bedSide=new THREE.Vector3();
+function asleep(){if(SHOT)return false;if(LOCAL&&ST)return !ST.awake;const m=new Date().getMinutes();return !(m>=17&&m<45)}
+function placeBed(){if(!W||!W.objects||!W.objects.length)return;const k=W.objects.length+':'+W.objects.slice(-3).map(o=>o.id).join(',');if(k===bedKey)return;bedKey=k;
+ const home=W.objects.find(o=>o.id==='kitchen-walls')||{x:0,z:0};
+ const free=(x,z)=>W.objects.every(o=>o.shape==='path'||Math.abs(o.x-x)>((o.w||1)/2+1.0)||Math.abs(o.z-z)>((o.d||1)/2+1.6));
+ let best=null;for(let r=3.5;r<16&&!best;r+=.5)for(let a=0;a<6.28;a+=.25){const x=home.x+Math.cos(a)*r,z=home.z+Math.sin(a)*r;if(free(x,z)){best=[x,z];break}}
+ if(!best)best=[home.x+6,home.z+6];if(inBed){inBed=false;B.rotation.set(0,0,0);duvetFlat()}BED.position.set(best[0],0,best[1]);bedSide.set(best[0]+1.05,0,best[1]+.3)}
+function lieDown(){if(BACT.idle)barryPlay('idle',.6);B.rotation.set(-Math.PI/2,0,0);B.position.set(BED.position.x,1,BED.position.z+.98);B.updateMatrixWorld(true);
+ const bb=new THREE.Box3().setFromObject(B);B.position.y+=.62-bb.min.y;B.updateMatrixWorld(true);bb.setFromObject(B);
+ const top=bb.max.y-.62+.06,len=Math.min(2.1,(bb.max.z-bb.min.z)*.68);DUVET.scale.set(1.3,Math.max(.12,top*.75),len);DUVET.position.set(0,.62+DUVET.scale.y/2,1.05-len/2)}
+function getUp(){B.rotation.set(0,0,0);B.position.copy(bedSide);duvetFlat();ZZ.visible=false}
+function sleepStep(dt,t){if(Math.floor(t)!==sleepSec){sleepSec=Math.floor(t);SLEEP=asleep();placeBed()}
+ if(SLEEP&&!inBed){goal.copy(bedSide);pause=1;if(Math.hypot(B.position.x-bedSide.x,B.position.z-bedSide.z)<.35){inBed=true;lieDown()}}
+ if(!SLEEP&&inBed){inBed=false;getUp()}
+ if(inBed){ZZ.visible=true;ZZ.position.set(BED.position.x+.25,1.75+Math.sin(t*1.1)*.15,BED.position.z-.85);ZZ.material.opacity=.6+.4*Math.sin(t*1.6);
+  DUVET.position.y=.62+DUVET.scale.y/2+Math.sin(t*1.4)*.012;if(BMIX)BMIX.update(dt*.15);legs.concat(arms).forEach(l=>l.rotation.x*=.8)}
+ return inBed}
+window.BED={get asleep(){return SLEEP},get inBed(){return inBed},at:()=>[BED.position.x,BED.position.z],force:v=>{asleep=()=>v}};
+
 function pick(){if(W.objects.length&&Math.random()<.8){const o=W.objects[Math.random()*W.objects.length|0];const r=Math.max(o.w,o.d)/2+1.2,a=Math.random()*6.28;goal.set(o.x+Math.cos(a)*r,0,o.z+Math.sin(a)*r)}
   else goal.set((Math.random()-.5)*16,0,(Math.random()-.5)*16)}
 // bubble + panel
@@ -353,10 +385,10 @@ renderer.domElement.addEventListener('pointerup',e=>{if(down&&Math.hypot(e.clien
 function size(){renderer.setSize(innerWidth,innerHeight,false);composer.setSize(innerWidth,innerHeight);PRINT.uniforms.res.value.set(innerWidth*renderer.getPixelRatio(),innerHeight*renderer.getPixelRatio());cam.aspect=innerWidth/innerHeight;cam.updateProjectionMatrix()}addEventListener('resize',size);size();
 const clock=new THREE.Clock(),v=new THREE.Vector3();let lampTick=-1;
 renderer.setAnimationLoop(()=>{const dt=Math.min(clock.getDelta(),.1),t=clock.elapsedTime;
-  const to=v.copy(goal).sub(B.position);to.y=0;const dist=to.length();barryAnim(dist>.15,dt);
-  if(dist>.15){to.normalize();B.position.addScaledVector(to,dt*1.3);B.rotation.y=Math.atan2(to.x,to.z);const s=Math.sin(t*9)*.5;legs[0].rotation.x=s;legs[1].rotation.x=-s;arms[0].rotation.x=-s;arms[1].rotation.x=s}
+  const SLP=sleepStep(dt,t);const to=v.copy(goal).sub(B.position);to.y=0;const dist=SLP?0:to.length();if(!SLP)barryAnim(dist>.15,dt);
+  if(SLP){}else if(dist>.15){to.normalize();B.position.addScaledVector(to,dt*1.3);B.rotation.y=Math.atan2(to.x,to.z);const s=Math.sin(t*9)*.5;legs[0].rotation.x=s;legs[1].rotation.x=-s;arms[0].rotation.x=-s;arms[1].rotation.x=s}
   else{legs.concat(arms).forEach(l=>l.rotation.x*=.8);pause-=dt;if(pause<0){pause=2+Math.random()*5;pick()}}
-  B.position.y=BM?0:Math.abs(Math.sin(t*9))*(dist>.15?.04:0);
+  if(!SLP)B.position.y=BM?0:Math.abs(Math.sin(t*9))*(dist>.15?.04:0);
   if(P.visible){const pt=v.copy(pgoal).sub(P.position);pt.y=0;const pd=pt.length();
     if(pd>.12){pt.normalize();P.position.addScaledVector(pt,dt*1.9);P.rotation.y=Math.atan2(pt.x,pt.z);const s=Math.sin(t*14)*.6;plegs.forEach((l,i)=>l.rotation.x=i%2?s:-s)}
     else{plegs.forEach(l=>l.rotation.x*=.8);ppause-=dt;if(ppause<0&&W.pet){ppause=3+Math.random()*6;const a=Math.random()*6.28,r=Math.random()*1.6;pgoal.set(W.pet.x+Math.cos(a)*r,0,W.pet.z+Math.sin(a)*r)}}
