@@ -1264,8 +1264,8 @@
   {
    "id": "mar-v5",
    "shape": "box",
-   "x": -4.0,
-   "z": 2.6,
+   "x": -4.8,
+   "z": 3.2,
    "y": 0,
    "w": 0.6,
    "h": 0.25,
@@ -8155,9 +8155,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -4.8,
-  "z": 1.5,
-  "doing": "Pea skids sideways with a greedy woof straight into the veg stall's big cabbage to wrestle it free while Barry is too busy checking his watch.",
-  "sound": "GLOOP!"
+  "z": 3.2,
+  "doing": "Pea skids sideways with a greedy woof straight into the veg stall's crate of carrots to wrestle one free while Barry is too busy checking his watch.",
+  "sound": "woof"
  },
  "realsky": false,
  "spaced": "2026-11-13"

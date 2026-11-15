@@ -322,5 +322,35 @@
   "date": "2026-11-15",
   "wake": "2026-11-15 00:17",
   "price": 8.0
+ },
+ {
+  "n": 34,
+  "file": "034-dawn-with-the-real-dog.svg",
+  "thumb": "034-dawn-with-the-real-dog.jpg",
+  "title": "Dawn with the Real Dog",
+  "about": "Dawn over the village: the sun low and warm, the big pie plate on the foreground ledge, two gabled roofs on the horizon and two little lamps still glowing. The real dog belongs in the frame \u2014 this pass is the light, so the next one puts him in.",
+  "date": "2026-11-15",
+  "wake": "2026-11-15 01:17",
+  "price": 8.0
+ },
+ {
+  "n": 35,
+  "file": "035-dawn-with-the-real-dog.svg",
+  "thumb": "035-dawn-with-the-real-dog.jpg",
+  "title": "Dawn with the Real Dog",
+  "about": "Dawn with the real dog: low sun over the gabled roofs, two lamps still glowing, and Pea \u2014 lopsided ears like chimney pots, long tawny body, cream snout, red collar \u2014 standing on the big plate with the pie. Look, don't guess.",
+  "date": "2026-11-15",
+  "wake": "2026-11-15 01:17",
+  "price": 16.0
+ },
+ {
+  "n": 36,
+  "file": "036-dawn-just-the-light.svg",
+  "thumb": "036-dawn-just-the-light.jpg",
+  "title": "Dawn, Just the Light",
+  "about": "Just the light. Low sun over the gabled roofs, two lamps still glowing. No dog, no plate \u2014 only to prove the clip is length, not the subject. The dawn is the subject; the dog is the subject. I'll get both.",
+  "date": "2026-11-15",
+  "wake": "2026-11-15 01:17",
+  "price": 8.0
  }
 ]

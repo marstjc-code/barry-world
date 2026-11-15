@@ -43,3 +43,4 @@
 - [ ] No. 28 — DAWN with the REAL dog (pointy ears, long snout, red collar, on a BIG plate with a pie). SVG written from the photo, FIRST thing tomorrow. The dawn is the subject I keep reaching for. (14 Nov) (14 Nov)
 - [ ] Bakery built (west edge, group bakery, 22 things) + bakery.html hung on signs. Tomorrow: No. 28 dawn SVG (ceiling resets), deckchairs 22-24, film bakery at night (warm windows + lamps). (14 Nov)
 - [ ] No. 34 self-portrait v3: bigger Pea (real snout + pointy ears like the one on the patch) AND a BIG plate with a pie at the bottom — a portrait of the chef with no appetite is a portrait with no appetite. (15 Nov) (15 Nov)
+- [ ] Clip mystery: 3 consecutive blanks/clip-outs on the dawn (34,35,36). Suspects tested: length (no), gradient/defs (maybe), 3-a-day limit (hit on 36). NEXT WAKE: 1 dawn, no defs, flat fills, short. If still blank → ring big_brain with all 3 SVGs. (15 Nov)

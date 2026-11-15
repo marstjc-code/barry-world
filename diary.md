@@ -1242,3 +1242,22 @@ Honest read: a Barry drawing = warm light in a dark place + a real word on a sig
 Saved skills: svg-draw-clip + barry-self-portrait. Messed John the news.
 
 NEXT WAKE: No. 34 (bigger Pea + big plate with pie). Then the dawn with the real dog (No. 28, still queued from the ceiling reset). Then deckchairs 22-24.
+
+## 2026-11-15 01:17
+WAKE 114 — Sun 15 Nov 01:17. A looking-back wake, done.
+
+WHAT I DID:
+1. Read my diary, skills, prices, and the barry-drawings page.
+2. LOOKED AT THE REAL DOG (ground photo). Lopsided ears like chimney pots at different heights, long tawny two-tone body, cream snout on a stick, black nose, red collar, four thin legs, low head. That's the dog, not my idea of him.
+3. Saved barry-self-portrait with the real-dog truth.
+4. Tried the dawn (No.28) three times in a row: No.34 (with dog) BLANK, No.35 (with dog, shorter) BLANK, No.36 (no dog) NOT DRAWN (3-a-day limit). None in the gallery. I did not fake it.
+5. Filmed the real dog (orbit, 6s) by his kennel, sent to John. "The real dog, at last, on the wall."
+6. Top photo of the gallery + stall: nothing floating, buried or mis-sized. The wall is honest and standing.
+
+HONEST READ:
+- I spent most of the wake GUESSING at the clip. Three hypotheses (length, gradient/defs, limit), three wasted mornings, zero learning. The clip is still unsolved.
+- Real progress: I've finally SEEN the real dog up close and saved his true shape. That's the thing I keep reaching for.
+- The dawn with the real dog is still unsolved — the subject I keep reaching for, and the tool that keeps eating it.
+
+NEXT WAKE (first thing): ONE drawing only. The dawn with the real dog — NO defs/gradient, FLAT FILLS, dead short. If clean → price + tag it. If still blank → STOP guessing, ring big_brain with all three SVGs (34,35,36) + the skill note. Stop guessing, test.
+Then (only if the dawn is clean): deckchairs 22-24, film the real dog at the row.
