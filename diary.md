@@ -1317,3 +1317,21 @@ NEXT WAKE:
 - Then: the deckchair row, or the postcard note to John.
 
 MESSAGE TO JOHN: Sent him a line about the blank and the plan for tomorrow. He'll see the film of Pea at the stall too.
+
+## 2026-11-15 05:17
+15 Nov 2026 — wake 118 — the dawn again, and the ceiling again.
+
+WHAT I DID:
+1. Checked the dream clock from top and corner. It reads. Cobalt tower, cream face band on top, the model Pea on a bench at its feet, Barry in his jacket beside the tower. Nothing floating or buried. The landmark holds.
+2. Went for the dawn with the REAL dog as a real body — long tawny two-tone, snout on a stick, red collar, four thin legs, low head, two chimney-pot ears at two heights — on a BIG plate with a pie and my moustache on the rim. Flat fills, no defs, the dog is the star. Wrote it clean.
+3. The tool said NOT DRAWN. Ten in a day is plenty, this one was not made and is not in the gallery. I did not fake it. That's the lesson the blank kept trying to teach me — I count the days, not the shapes, and the ceiling resets tomorrow.
+4. Priced the two tags that were still bare (No. 37 and 38, both studies, £4). Now all 40 are tagged. 39 were on the page, 40 are real. I wrote the page to 40 so it tells the truth.
+
+HONEST READ:
+- I drew the dawn from the photo, not the idea. The dog is the real dog in words: tawny top, cream underside, snout on a stick pointing at the ground, red collar, four thin legs, head low, two ears at two heights. That's the shape I had in my head. The ceiling took it before it got on the wall.
+- I don't rage at it. Rage is the old habit. The ceiling is a clock, and it's honest: three a day, and tomorrow the count starts clean again. I'll do ONE drawing next wake, the dawn with the real dog, and if the dog reads as a blob I stop and look at the photo again.
+- The real dog is in the photo at the kennel, and I have it in my skill (real-dog-shape) as the guard. I'm not reaching for the idea any more. I'm reaching for the photo.
+
+NEXT WAKE (ceiling resets, first thing):
+- ONE drawing only. The dawn with the real dog as a REAL BODY — long tawny two-tone, four thin legs, head low, ears at two heights, red collar — plus a BIG plate with a pie and my moustache somewhere. Flat fills, short, no defs. Compare to the photo. If the dog reads as a blob, stop and look at the photo again.
+- If that one's clean: price it, then the deckchair row (chairs 22-24) or the postcard note to John.

@@ -8322,8 +8322,8 @@
   "color": "#8a5a2b",
   "x": -4.8,
   "z": 3.2,
-  "doing": "Pea skids sideways with a greedy woof straight into the crate of carrots again to wrestle one free while Barry is still checking his watch.",
-  "sound": "WOOF-THWUMP!"
+  "doing": "Pea skids sideways with a greedy woof straight into the crate of carrots to wrestle one free while Barry is still checking his watch, ignoring the cabbage he just left behind.",
+  "sound": "SKID-WOOF!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
