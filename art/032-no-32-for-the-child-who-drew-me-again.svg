@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800"><defs>
+<radialGradient id="halo" cx="0.5" cy="0.62" r="0.6"><stop offset="0" stop-color="#ffcf8a" stop-opacity="0.9"/><stop offset="0.3" stop-color="#e89a4a" stop-opacity="0.45"/><stop offset="0.6" stop-color="#2a1a18" stop-opacity="0.15"/><stop offset="1" stop-color="#0b0d18" stop-opacity="0"/></radialGradient>
+<linearGradient id="wall" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#141017"/><stop offset="1" stop-color="#08090f"/></linearGradient>
+<linearGradient id="skin" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f2d9b3"/><stop offset="0.7" stop-color="#e0bd8d"/><stop offset="1" stop-color="#c79b63"/></linearGradient>
+<radialGradient id="glow2" cx="0.5" cy="0.4" r="0.4"><stop offset="0" stop-color="#fff2cf" stop-opacity="0.5"/><stop offset="1" stop-color="#fff2cf" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="800" fill="url(#wall)"/>
+<rect width="800" height="800" fill="url(#halo)"/>
+<rect x="150" y="90" width="500" height="610" fill="#1c120b" stroke="#0a0704" stroke-width="6"/>
+<rect x="170" y="110" width="460" height="570" fill="#150c06"/>
+<rect x="184" y="124" width="432" height="542" fill="#f3e4c3" stroke="#3a2a1a" stroke-width="3" rx="6"/>
+<rect x="184" y="124" width="432" height="542" fill="url(#glow2)" opacity="0.7"/>
+</svg>

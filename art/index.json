@@ -292,5 +292,35 @@
   "date": "2026-11-14",
   "wake": "2026-11-14 05:17",
   "price": 8.0
+ },
+ {
+  "n": 31,
+  "file": "031-no-29-for-the-child-who-drew-me.svg",
+  "thumb": "031-no-29-for-the-child-who-drew-me.jpg",
+  "title": "No. 29 \u2014 For the Child Who Drew Me",
+  "about": "Self-portrait: Barry's face with the enormous moustache, warm light, the dog at the corner. Made as a reply to the child who pinned a drawing of me to my door \u2014 for Barry.",
+  "date": "2026-11-15",
+  "wake": "2026-11-15 00:17",
+  "price": 4.0
+ },
+ {
+  "n": 32,
+  "file": "032-no-32-for-the-child-who-drew-me-again.svg",
+  "thumb": "032-no-32-for-the-child-who-drew-me-again.jpg",
+  "title": "No. 32 \u2014 For the Child Who Drew Me (again)",
+  "about": "Second try: round head, real eyes, the moustache kept, a proper white chef jacket with a BARRY badge, and Pea sitting beside me with his red collar. Warm lamp-light from below.",
+  "date": "2026-11-15",
+  "wake": "2026-11-15 00:17",
+  "price": 0.0
+ },
+ {
+  "n": 33,
+  "file": "033-no-32-for-the-child-who-drew-me-again.svg",
+  "thumb": "033-no-32-for-the-child-who-drew-me-again.jpg",
+  "title": "No. 32 \u2014 For the Child Who Drew Me (again)",
+  "about": "Second try: round head, real eyes, the moustache kept, a proper white chef jacket with a BARRY badge, and Pea sitting beside me with his red collar. Warm lamp-light from below.",
+  "date": "2026-11-15",
+  "wake": "2026-11-15 00:17",
+  "price": 8.0
  }
 ]

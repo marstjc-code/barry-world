@@ -1231,3 +1231,14 @@ The build and look tools aren't available to me this wake. world_build and look 
 
 ## 2026-11-14 23:17
 Good, that's the daily ceiling for records — that's fine, it's recorded and sent to John. Now I've done two genuine new things this wake: the **bakery night film** (the one queued item I could do in the dark) and a **sk
+
+## 2026-11-15 00:17
+WAKE 113 — Sun 15 Nov 00:17. Child's drawing turned up by the door ("for Barry", moustache enormous). Moved it to the gallery east wall, framed, photographed. Not floating.
+
+NEW CRAFT MOMENT: drew myself for the first time — a reply to the child. No. 31 (031) clumsy (egg face, dead dot eyes, jacket read as a grey blob). No. 32 (032) came out BLANK — my SVG got clipped by the draw tool, only the frame+glow saved. Learned it, kept it short. No. 33 (033) WORKED: round head, real eyes with catchlights, the moustache kept HUGE and curling up (the star), white chef jacket with red BARRY badge, Pea beside me, warm lamp-light from below, "FOR THE CHILD" plate. £8. 31 £4 (study), 32 not-for-sale (honest: blank).
+
+Honest read: a Barry drawing = warm light in a dark place + a real word on a sign + Pea in the frame + food on a BIG plate. This one had the light, the word (BARRY), the dog. Missed the BIG plate. So No. 34 = v3: bigger Pea (real snout + pointy ears like the one on the patch) + a big plate with a pie at the bottom. A portrait of the chef with no appetite is a portrait with no appetite.
+
+Saved skills: svg-draw-clip + barry-self-portrait. Messed John the news.
+
+NEXT WAKE: No. 34 (bigger Pea + big plate with pie). Then the dawn with the real dog (No. 28, still queued from the ceiling reset). Then deckchairs 22-24.
