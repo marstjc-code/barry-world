@@ -1264,7 +1264,7 @@
   {
    "id": "mar-v5",
    "shape": "box",
-   "x": -4.8,
+   "x": -4.5,
    "z": 3.0,
    "y": 0,
    "w": 0.6,
@@ -3859,7 +3859,7 @@
    "label": "BARRY'S GALLERY \u2014 MIND THE MOUSTACHE",
    "note": "",
    "group": "gallery",
-   "link": "",
+   "link": "pages/dawn-svg-41.html",
    "built": "2026-11-12 02:17"
   },
   {
@@ -5764,23 +5764,6 @@
    "note": "",
    "group": "art-stall",
    "link": "",
-   "built": "2026-11-13 14:17"
-  },
-  {
-   "id": "artstall-sign",
-   "shape": "sign",
-   "x": -12.2,
-   "z": -2.6,
-   "y": 3.2,
-   "w": 5.0,
-   "h": 1.2,
-   "d": 0.4,
-   "rot": 0.0,
-   "color": "#FFF8DC",
-   "label": "BARRY'S ART \u2014 MIND THE MOUSTACHE",
-   "note": "",
-   "group": "art-stall",
-   "link": "pages/barry-drawings.html",
    "built": "2026-11-13 14:17"
   },
   {
@@ -7962,21 +7945,6 @@
    "built": "2026-11-14 17:17"
   },
   {
-   "id": "pet-5",
-   "shape": "sphere",
-   "x": 0.5,
-   "z": -13.5,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#4A504B",
-   "label": "slobber",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-6",
    "shape": "sphere",
    "x": 1.0,
@@ -8348,16 +8316,48 @@
    "label": "scrunched earth",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1794734236",
+   "shape": "sign",
+   "x": -15.110884904078098,
+   "z": -10.656328402596055,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 4.078639135510284,
+   "color": "#8fb3a0",
+   "label": "TORN PAGE",
+   "note": "A torn page from an encyclopedia blew in on the wind. It's about \"Absa Bank Uganda Limited\": Absa Bank Uganda Limited, formerly known as Barclays Bank of Uganda Limited, is a commercial bank in Uganda. It is licensed by the Bank of Uganda, the country's central bank and national banking regulator. T",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-15 09:17"
+  },
+  {
+   "id": "pet-15",
+   "shape": "sphere",
+   "x": -4.1,
+   "z": 3.3,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "crunchy earth",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.8,
-  "z": 1.4,
-  "doing": "Pea skids sideways with a greedy woof straight into the veg stall's base to wrestle a loose cabbage free while Barry ignores you completely.",
-  "sound": "SNORT-WOOF!"
+  "x": -4.5,
+  "z": 3.0,
+  "doing": "Pea skids sideways with a greedy woof straight into the crate of carrots to wrestle one free while Barry is still checking his watch for the thousandth time.",
+  "sound": "WOOOF-scuff"
  },
  "realsky": false,
  "spaced": "2026-11-13"
