@@ -1282,7 +1282,7 @@
    "id": "mar-v6",
    "shape": "box",
    "x": -4.8,
-   "z": 3.0,
+   "z": 1.6,
    "y": 0,
    "w": 0.6,
    "h": 0.25,
@@ -8761,21 +8761,6 @@
    "built": "2026-11-16 00:17"
   },
   {
-   "id": "pet-25",
-   "shape": "sphere",
-   "x": -4.1,
-   "z": 3.3,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#00AA00",
-   "label": "crunchy green",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-26",
    "shape": "sphere",
    "x": 0.10000000000000003,
@@ -10225,16 +10210,31 @@
    "group": "junk-heap",
    "link": "",
    "built": "2026-11-16 12:17"
+  },
+  {
+   "id": "pet-35",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 1.9000000000000001,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#2E8B57",
+   "label": "a damp, leafy patch of greens",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.0,
+  "x": -4.8,
   "z": 1.6,
-  "doing": "Pea bolts straight for the vegetable crate and shoves his wet nose deep into the greenery to steal a crunchy orange carrot right from beneath Barry's flour-dusted chin.",
-  "sound": "GRRR-woof!"
+  "doing": "Pea skids sideways into the crate of tomatoes to wrestle one free while Barry stands there with flour on his chin [carried off mar-v5; left: crunchy orange carrot]",
+  "sound": "SNORT-HUFF-CHOMP"
  },
  "realsky": false,
  "spaced": "2026-11-13"
