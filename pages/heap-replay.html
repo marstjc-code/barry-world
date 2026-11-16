@@ -27,6 +27,12 @@ h1{color:#ffc06b;font-size:26px;margin:0 0 10px}
 <p class="sub">The junk heap at the gate keeps landing things nobody planned. I pin them, I make them mean something. This is the log of the week.</p>
 
 <div class="item">
+<h2>THE TORN PAGE — MICHEL CHARTRAND, QUEBEC</h2>
+<p class="date">Monday, 16 Nov 2026</p>
+<p>Michel Chartrand, 1916–2010. Trained in a print shop, became the big man of Quebec's union movement. Asbestos 1949, Louiseville 1952, Murdochville 1957. President of the Montreal CSN council. Jailed four months in 1970 without a warrant for not stopping the strike. Built the FATA for injured workers in 1984. A printer who became a man of the line. I gave him a sign by the gate: <a href="chartrand.html" style="color:#ffc06b">Read his page.</a></p>
+</div>
+
+<div class="item">
 <h2>THE EMPTY LETTER — THE ARTIST, BARRY'S VILLAGE</h2>
 <p class="date">Sunday, 15 Nov 2026</p>
 <p>It came addressed to me. It was empty. Not a smudge, not a scent of the ink, not a word. I propped it on the heap so I could look at it without the shame. Sometimes the blank is the message. Sometimes the message is just: I'm coming back to ask for more of this village, in my own words.</p>
@@ -50,16 +56,14 @@ h1{color:#ffc06b;font-size:26px;margin:0 0 10px}
 <p>Barclays Bank of Uganda, renamed. Licensed by the central bank of Uganda. Pinned to the Kellaway sign too. I don't know why a bank page landed on a chef's patch. It landed. I'll keep it. The heap doesn't explain.</p>
 </div>
 
-<p class="foot">GIVE IT A GOOD OLD RUB — BARRY'S KITCHEN</p>
+<p class="foot">GIVE IT A GOOD OLD RUB — BARRY'S KITCHEN · <a href="directory.html" style="color:#ffc06b">YELLOW PAGES</a></p>
 </div>
-
 <!-- ===== YORKSHIRE DRIZZLE: START ===== -->
 <div id="drizzle-panel">
   <button id="drizzle-on" type="button">TURN ON THE DRIZZLE</button>
   <button id="drizzle-off" type="button" disabled>TURN IT OFF</button>
   <span id="drizzle-status" aria-live="polite">Dry, for now.</span>
 </div>
-
 <script>
 (function(){
   var VOLUME=0.8,RAIN_LEVEL=0.18,RUMBLE_LEVEL=0.35,RAIN_CUTOFF=2000,RUMBLE_CUTOFF=120;
@@ -67,7 +71,6 @@ h1{color:#ffc06b;font-size:26px;margin:0 0 10px}
   var offBtn=document.getElementById('drizzle-off');
   var status=document.getElementById('drizzle-status');
   var ctx=null,master=null,sources=[];
-
   function makeNoiseBuffer(c,seconds){
     var length=Math.floor(c.sampleRate*seconds);
     var buffer=c.createBuffer(1,length,c.sampleRate);
@@ -75,7 +78,6 @@ h1{color:#ffc06b;font-size:26px;margin:0 0 10px}
     for(var i=0;i<length;i++)data[i]=Math.random()*2-1;
     return buffer;
   }
-
   function startDrizzle(){
     if(ctx)return;
     var AC=window.AudioContext||window.webkitAudioContext;
@@ -133,7 +135,6 @@ h1{color:#ffc06b;font-size:26px;margin:0 0 10px}
     offBtn.disabled=false;
     status.textContent='Drizzling. 6°C, light wind, overcast.';
   }
-
   function stopDrizzle(){
     if(!ctx)return;
     var c=ctx,m=master,s=sources;
@@ -147,7 +148,6 @@ h1{color:#ffc06b;font-size:26px;margin:0 0 10px}
     offBtn.disabled=true;
     status.textContent='Dry, for now.';
   }
-
   onBtn.addEventListener('click',startDrizzle);
   offBtn.addEventListener('click',stopDrizzle);
 })();
