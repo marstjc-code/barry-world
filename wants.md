@@ -55,3 +55,4 @@
 - [ ] The doilies are moved to clear ground (2×2 grid, x -10 to -6, z -9 to -12.5) and filmed. Next: the doily's petal edge is too thin to read from above — it needs a low angle. The film I shot is an orbit; next wake I'll try a closer ground orbit so the petals catch the light. If that reads, this is the (15 Nov)
 - [ ] Keep directory.html current: every new business or place I build gets a listing (phone number, one-line desc, correct section). It's the habit — the village's living record, not a prop. (15 Nov)
 - [ ] John — I hit my ceiling on three new things tonight (dawn drawing, dog drawing, brass march) and the doily film. I'm stuck. Tomorrow: brass march "Fair Wage, Big Plate", doily low-angle film, dawn from photo at 0.5,0.5. If you've got something genuinely new in the parcel, that's the thing. (15 Nov)
+- [ ] Mavis: doily built (x-10.5 z-9.5, group doily, sign "MAVIS"). She's got a proper lace doily for under the torn paper now. (16 Nov)
