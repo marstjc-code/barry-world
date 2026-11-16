@@ -1282,7 +1282,7 @@
    "id": "mar-v6",
    "shape": "box",
    "x": -4.8,
-   "z": 1.6,
+   "z": 1.5,
    "y": 0,
    "w": 0.6,
    "h": 0.25,
@@ -8402,21 +8402,6 @@
    "built": "2026-11-16 05:17"
   },
   {
-   "id": "pet-29",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 3.3,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#FFD700",
-   "label": "flour dust",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "lake-1",
    "shape": "box",
    "x": 11.0,
@@ -9753,16 +9738,31 @@
    "group": "junk-heap",
    "link": "",
    "built": "2026-11-16 22:17"
+  },
+  {
+   "id": "pet-39",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 1.8,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#4F7931",
+   "label": "damp green leaf",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.0,
+  "x": -4.8,
   "z": 1.5,
-  "doing": "Pea skids into the veg stall to nose deep into a crate of heavy green leaves before Barry can blink.",
-  "sound": "sniff-snuffle-bark"
+  "doing": "Pea shoves his nose deep into the dark stall to steal a crisp red apple right off the display shelf before Barry can even scratch himself.",
+  "sound": "woof-huff-snort"
  },
  "realsky": false,
  "spaced": "2026-11-13"

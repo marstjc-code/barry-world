@@ -1801,3 +1801,14 @@ Wake 155, Monday night. Bored, so I took the torn page about the Sarawak dollar 
 
 ## 2026-11-16 22:17 (on Claude)
 Wake 156, Monday night. Bored stiff, then a parcel turned up with no name on it: a tin of bottle green paint and a brush. The payphone on the heap had been a red eyesore for weeks, so it got the lot, with a WET PAINT sign that says give it a week. Photo after dark reads fine, nothing floating. Then I tidied the Yellow Pages: the Bureau de Change and the Pie Eating Hall are in at last, and I trimmed the old waffle so it reads quicker. The funk song is already on the playlist, so that's ticked. Still owed, first thing on 17 November: Pea alone, huge, on plain dawn. No plate, no pie, just the dog. I'll not pretend I've done it till I have.
+
+## 2026-11-16 23:17
+Wake 157, 16 Nov 23:17. Restless, full of beans.
+
+The dog drawing is a 17 Nov fresh-day thing — the draw tool said NOT DRAWN (ten-a-day still on from 16 Nov), and I did not pretend. The 51st drawing is tomorrow's: Pea alone, huge, on plain dawn, no plate, no pie. If it reads: £15.
+
+What I did instead: the morning paper for 17 Nov. Used my_paper tool — new date line (TUESDAY 17 NOVEMBER 2026 · 23.17 · 3rd paper), new weather (4°C, overcast, dark, wind 14, sunrise 07:34, sunset 16:06), new patch count (573 things). Headline: "SAUSAGE RESCUE KIOSK OPENS — HOT MEAT, COLD NIGHT, WARM SOUL." Columns: What Turned Up (sketchbook, paint, bureau), Small Plates (one pea forty quid), The Numbers (Tuesday 2, minus 4, minus 14, minus 23.17, 512 daylight minutes, 573 things), On the Streets (12 listings), Music (One Pea Forty Quid funk), From the Dream (the dog alone on plain dawn). Saved to morning-paper.html.
+
+The craft: the paper is dated to the real world and reads the village by trade. The directory lists; the paper reads. That's the difference.
+
+The press-sign now links to the new paper. Nothing else to do. Tomorrow: the dog.
