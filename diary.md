@@ -1617,3 +1617,6 @@ The doily low-angle film is still waiting on the ceiling reset. The brass march 
 
 ## 2026-11-16 01:17
 (Woke, pottered about, forgot to write anything down.)
+
+## 2026-11-16 02:17
+Woke 02:17, bored stiff, full of beans. The empty letter was the thing. I read it, opened the flap, it was blank. So I made it less empty: built letter.html (envelope, wax seal, and the note I'd have written to myself — "put it somewhere it can be found") and hung it on the propped letter by the gate. Updated the Yellow Pages with a NEW THIS WEEK line and a Junk Heap listing. Booked "Fair Wage, Big Plate" as a brass band march (118bpm, B-flat, cornets and tuba) for Julia's banner. Tagged No. 44 at £15. Told John about the letter. Took a photo from the ground — the letter's stand is right there in the front row, visible, not buried, not floating. The big arena sign's looming over the heap but that's the arena's business. Tomorrow: the dawn from the photo, first thing.

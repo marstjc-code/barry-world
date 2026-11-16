@@ -720,8 +720,8 @@
   {
    "id": "g-s1",
    "shape": "cylinder",
-   "x": -0.3,
-   "z": -10.6,
+   "x": 5.5,
+   "z": -9.5,
    "y": 0,
    "w": 0.12,
    "h": 0.5,
@@ -7928,23 +7928,6 @@
    "built": "2026-11-14 20:17"
   },
   {
-   "id": "junk-1794701836",
-   "shape": "sign",
-   "x": -14.43853953558986,
-   "z": -12.940644152221859,
-   "y": 0.5,
-   "w": 0.9,
-   "h": 0.5,
-   "d": 0.05,
-   "rot": 7.190312811039512,
-   "color": "#d9b382",
-   "label": "A CHILD'S DRAWING OF BARRY, PINNED BY THE DOOR \u2014 ENORMOUS MOUSTACHE, SIGNED \"FOR BARRY\"",
-   "note": "A child's drawing of you was pinned to your door. The moustache is enormous. It's signed 'for Barry'.",
-   "group": "junk-heap",
-   "link": "",
-   "built": "2026-11-15 00:17"
-  },
-  {
    "id": "junk-1794712676",
    "shape": "box",
    "x": -13.024066703847893,
@@ -8241,7 +8224,7 @@
    "label": "The empty letter \u2014 propped on its own",
    "note": "",
    "group": "junk-heap",
-   "link": "",
+   "link": "pages/letter.html",
    "built": "2026-11-15 16:07"
   },
   {
@@ -9266,16 +9249,33 @@
    "label": "crunchy green cabbage",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1794795436",
+   "shape": "box",
+   "x": -12.95468682556013,
+   "z": -13.549029998063435,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 43.733667654494084,
+   "color": "#d9b382",
+   "label": "LETTER",
+   "note": "A letter came addressed to 'The Artist, Barry's Village'. It was empty.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-16 02:17"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -0.3,
-  "z": -10.6,
-  "doing": "Pea skids sideways with a greedy woof straight into the smoky pile of sausages to wrestle a sizzling red link free while Barry ignores him again",
-  "sound": "WOOF-HUFF-CLINK"
+  "x": 5.5,
+  "z": -9.5,
+  "doing": "Pea barks excitedly and skids headlong into the smoky grill stall to wrestle a sizzling red sausage free while Barry wipes his nose with a cloth instead of rubbing Pea's chin",
+  "sound": "BARK-WOOF"
  },
  "realsky": false,
  "spaced": "2026-11-13"
