@@ -737,8 +737,8 @@
   {
    "id": "g-s2",
    "shape": "cylinder",
-   "x": -0.3,
-   "z": -10.6,
+   "x": 5.0,
+   "z": -9.0,
    "y": 0,
    "w": 0.12,
    "h": 0.5,
@@ -8607,21 +8607,6 @@
    "built": "2026-11-16 03:17"
   },
   {
-   "id": "pet-27",
-   "shape": "sphere",
-   "x": 5.9,
-   "z": -9.2,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#4CAF50",
-   "label": "crunchy green cabbage",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-28",
    "shape": "sphere",
    "x": -4.3999999999999995,
@@ -10195,16 +10180,48 @@
    "label": "damp leafy patch",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1794853039",
+   "shape": "box",
+   "x": -14.223884405204354,
+   "z": -12.44118533362502,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 49.69649753969134,
+   "color": "#d9b382",
+   "label": "SKETCHBOOK",
+   "note": "You found an old sketchbook under the counter, every page blank.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-16 18:17"
+  },
+  {
+   "id": "pet-37",
+   "shape": "sphere",
+   "x": 5.4,
+   "z": -8.7,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "damp sausage",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.5,
+  "x": 5.0,
   "z": -9.0,
-  "doing": "Pea bolts straight at the smoky grill to demand a good old belly rub on his wet nose before Barry can even finish chopping onions.",
-  "sound": "A sharp, rhythmic 'Ruff-bark-wuffle!'"
+  "doing": "Pea skids sideways into the smoky grill to wrestle a hot sausage right off the spit before Barry can even wipe his forehead",
+  "sound": "wheeze-bark-thump"
  },
  "realsky": false,
  "spaced": "2026-11-13"
