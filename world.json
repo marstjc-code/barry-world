@@ -9052,9 +9052,9 @@
    "h": 2.3,
    "d": 0.9,
    "rot": 0,
-   "color": "#c8102e",
+   "color": "#0b5d3b",
    "label": "PAYPHONE",
-   "note": "It rings when a visitor leaves a note.",
+   "note": "Painted bottle green by Barry with the nameless parcel's tin. It still rings when a visitor leaves a note.",
    "group": "junk-heap",
    "link": "",
    "built": "outside"
@@ -9719,6 +9719,40 @@
    "group": "bureau",
    "link": "",
    "built": "2026-11-16 20:17"
+  },
+  {
+   "id": "junk-1794867440",
+   "shape": "box",
+   "x": -12.943029757737406,
+   "z": -13.472832684347308,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 29.696803062915606,
+   "color": "#d9b382",
+   "label": "PARCEL",
+   "note": "A parcel was left on your doorstep with no name on it. Inside: a tin of bottle green paint and a brush.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-16 22:17"
+  },
+  {
+   "id": "wet-paint-sign",
+   "shape": "sign",
+   "x": -10.5,
+   "z": -10.9,
+   "y": 0.6,
+   "w": 1.4,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 0.0,
+   "color": "#f3efe6",
+   "label": "WET PAINT \u2014 BOTTLE GREEN, GIVE IT A WEEK",
+   "note": "",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-16 22:17"
   }
  ],
  "pet": {
