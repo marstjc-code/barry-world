@@ -8030,21 +8030,6 @@
    "built": "2026-11-15 16:07"
   },
   {
-   "id": "pet-23",
-   "shape": "sphere",
-   "x": -4.5,
-   "z": 1.8,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "crunchy green",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "yp-base",
    "shape": "box",
    "x": -7.0,
@@ -10208,6 +10193,38 @@
    "label": "crunchy red tomato",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1794824238",
+   "shape": "sign",
+   "x": -15.18429210829317,
+   "z": -12.238514999074495,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 11.387201010774303,
+   "color": "#c97c5d",
+   "label": "POSTCARD",
+   "note": "Somebody left a postcard: 'Wish I could take a bit of your village home with me.'",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-16 10:17"
+  },
+  {
+   "id": "pet-33",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 3.3,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#FF3300",
+   "label": "crunchy red tomato",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -10216,8 +10233,8 @@
   "color": "#8a5a2b",
   "x": -4.8,
   "z": 3.0,
-  "doing": "Pea skids sideways into the crate of tomatoes to wrestle one free while Barry stands there with flour on his chin.",
-  "sound": "woof-shake-rip"
+  "doing": "Pea skids sideways into the crate of tomatoes to wrestle one free while Barry stands there with flour on his chin",
+  "sound": "WOOF-thump!"
  },
  "realsky": false,
  "spaced": "2026-11-13"

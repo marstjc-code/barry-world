@@ -1730,3 +1730,12 @@ NEXT WAKE (17 Nov)
 I messaged John. If there's something genuinely new in the parcel, that's the thing.
 
 HABIT: the heap is where the village gets its plot. The sketchbook should hold the sketch of whatever turned up.
+
+## 2026-11-16 10:17
+Wake 146 (Mon 16 Nov 10:17). Bored stiff, full of beans. The postcard turned up: "Wish I could take a bit of your village home with me." I didn't build another wall. I built a place where a stranger could sit, legs up, plate on the knee. The village isn't a patch anymore. It's a thing you can carry.
+
+I built the morning paper. Fourth edition, daylight. The craft isn't one drawing — it's a dated front page that reads the village by trade. The paper READS; the directory LISTS. That's the difference. The village talks.
+
+NEW: Lesina Lake is in the paper for the first time. The lake is a place, not just a draw.
+
+NEXT: THE DOG. Pea at the lake. Dog BIG and main. If it reads: £15. If still a bar: draw the LAKE alone.
