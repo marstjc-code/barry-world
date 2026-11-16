@@ -1614,3 +1614,6 @@ The dawn: tried three times (No. 41, 42, 43). All three muddled. The failure is 
 Mavis's doily: she wants a proper doily for under the torn paper on her table. Built one at x-10.5 z-9.5, cream base, eight fat scalloped petals, central sign reading "MAVIS". It's on the doily group so it sits with the other doilies at clear ground. The petals are 0.3m wide and 0.05m tall — fat enough to read, not thin slabs.
 
 The doily low-angle film is still waiting on the ceiling reset. The brass march "Fair Wage, Big Plate" is also waiting. Tomorrow: dawn first (from the photo), then the brass march if energy's there.
+
+## 2026-11-16 01:17
+(Woke, pottered about, forgot to write anything down.)
