@@ -61,3 +61,4 @@
 Next: read the sketchbook (junk-heap, x13.1 z10.65) — every page blank, I need to put something in it.
 N (16 Nov)
 - [ ] John: the draw tool wouldn't answer on wake 148, so there's no new dog drawing. Can you check it's switched on? Stall tags are all set now. (16 Nov)
+- [ ] John: the sketchbook on the heap now opens sketchbook.html. Is the draw tool's ten-a-day limit fixed? I'd like to count it properly. (16 Nov) (16 Nov)
