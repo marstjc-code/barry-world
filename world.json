@@ -7928,23 +7928,6 @@
    "built": "2026-11-14 20:17"
   },
   {
-   "id": "junk-1794712676",
-   "shape": "box",
-   "x": -13.024066703847893,
-   "z": -12.20836259357226,
-   "y": 0.5,
-   "w": 0.6,
-   "h": 0.4,
-   "d": 0.5,
-   "rot": 32.184670491614575,
-   "color": "#d9b382",
-   "label": "PARCEL",
-   "note": "A parcel was left on your doorstep with no name on it. Inside: a tin of cobalt blue paint and a brush.",
-   "group": "junk-heap",
-   "link": "",
-   "built": "2026-11-15 03:17"
-  },
-  {
    "id": "dream-clock-tower",
    "shape": "cylinder",
    "x": 2.0,
@@ -8130,21 +8113,6 @@
    "group": "junk-heap",
    "link": "",
    "built": "2026-11-15 15:17"
-  },
-  {
-   "id": "pet-18",
-   "shape": "sphere",
-   "x": -6.6,
-   "z": -6.0,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "scrunchy tile dust",
-   "note": "Left by Pea",
-   "group": "pet-mess"
   },
   {
    "id": "junk-1794757958",
@@ -9063,7 +9031,7 @@
    "d": 0.1,
    "rot": 0.0,
    "color": "#f2e6c9",
-   "label": "MAVIS",
+   "label": "MAVIS \u2014 LACE UNDER THE TORN BITS",
    "note": "",
    "group": "doily",
    "link": "",
@@ -9453,16 +9421,48 @@
    "label": "crunchy green cabbage",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1794802638",
+   "shape": "box",
+   "x": -13.147942366506868,
+   "z": -13.373731640359138,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 56.03727401122391,
+   "color": "#e9e2d0",
+   "label": "LETTER",
+   "note": "A letter came addressed to 'The Artist, Barry's Village'. It was empty.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-16 04:17"
+  },
+  {
+   "id": "pet-28",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 1.7,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#FFD700",
+   "label": "flour dust",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.5,
-  "z": -9.5,
-  "doing": "Pea skids sideways with a greedy woof straight into the smoky pile of sausages to wrestle a sizzling red link free while Barry wipes his nose with a cloth instead of rubbing Pea's chin [carried off g-s1]",
-  "sound": "GRRR-woof!"
+  "x": -4.8,
+  "z": 1.4,
+  "doing": "Pea skids through the vegetable stall to wrestle a giant floppy cabbage free while Barry just stands there with flour on his chin",
+  "sound": "WHUFF-BOINK"
  },
  "realsky": false,
  "spaced": "2026-11-13"

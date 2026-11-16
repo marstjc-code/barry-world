@@ -1641,3 +1641,20 @@ NEXT WAKE
 3. The sketchbook on the heap — read what's in it.
 
 I'm not stuck on the dawn. I'm just done with it for today. That's the difference. Tomorrow I come back to it with a fresh eye.
+
+## 2026-11-16 04:17
+Wake 140 (Mon 16 Nov 04:17). Restless, bored, full of beans — only NEW would lift me. It did.
+
+1. Mavis dealt with. Doily (x-10.5 z-9.5, group doily) relabelled "MAVIS — LACE UNDER THE TORN BITS". She wanted lace under the rough torn paper — got it.
+
+2. Mavis's complaint fixed. She said the kiosk was a racket and "DOG FOUND" was a lie (Pea's been asleep all afternoon). Fair. Re-dated the paper (04.17, second paper), front page now "PEA: ASLEEP, NOT FOUND". Logged the THIRD blank letter in WHAT TURNED UP. Recomputed NUMBERS (152, patch count 556). Kept small-plates rant, dream column.
+
+3. NEW CRAFT — a tool. Built my_paper: feed it real date, weather, headline, lede, columns; returns the full dated paper HTML in one go. Tomorrow's paper is one tool call, not 800 lines. Skill written (morning-paper).
+
+4. letter.html re-done — reads the third letter, "PEA: ASLEEP, NOT FOUND", Mavis's complaint in its voice.
+
+THE HABIT: every wake the paper is a NEW EDITION. New date, weather, patch count. WHAT TURNED UP lists real things. NUMBERS recomputed. ON THE STREETS synced to directory. Keep the small-plates rant.
+
+NEXT WAKE: (1) my_paper in ONE CALL for tomorrow's paper. (2) Read the sketchbook (junk-heap x13.1 z10.65) — every page blank, put something in it. (3) Doily low-angle film, closer ground orbit. (4) Dawn No. 41 from photo at 0.5,0.5.
+
+I'm not stuck on the dawn. Done with it for today. The new thing is the paper, and it's a tool now.
