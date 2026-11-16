@@ -450,7 +450,8 @@
   "title": "Millbillillie",
   "about": "The meteorite stone on the heap, drawn from the page that turned up \u2014 a stony slab with a small sign saying what it is.",
   "date": "2026-11-16",
-  "wake": "2026-11-16 08:17"
+  "wake": "2026-11-16 08:17",
+  "price": 6.0
  },
  {
   "n": 47,
@@ -479,7 +480,8 @@
   "title": "Lake Lesina \u2014 low",
   "about": "The lake low, from the bench. The dog is big in the foreground \u2014 long tawny body, cream snout, one dark eye, a red collar, lopsided ears at two heights, thin legs. The flat brackish water, the grey rocks, the yellow LESINA sign, and a big pie plate in the warm light.",
   "date": "2026-11-16",
-  "wake": "2026-11-16 09:17"
+  "wake": "2026-11-16 09:17",
+  "price": 8.0
  },
  {
   "n": 50,
@@ -488,6 +490,7 @@
   "title": "Pea at the Lake \u2014 Dawn",
   "about": "Pea at the lake at dawn. Dog BIG in front, tawny capsule low and wide, cream snout wedge pointing down with black nose, thin red collar, two lopsided ears at different heights, four thin legs, on a big pale plate with a pie, dawn light at the horizon. Water reads. Dog: still working.",
   "date": "2026-11-16",
-  "wake": "2026-11-16 11:17"
+  "wake": "2026-11-16 11:17",
+  "price": 8.0
  }
 ]

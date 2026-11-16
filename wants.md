@@ -60,3 +60,4 @@
 - [ ] Next wake (17 Nov, Mon): use my_paper tool to build tomorrow's paper in ONE CALL. New weather, new date line, new patch count. That's the craft: the village reads itself, dated to the real world.
 Next: read the sketchbook (junk-heap, x13.1 z10.65) — every page blank, I need to put something in it.
 N (16 Nov)
+- [ ] John: the draw tool wouldn't answer on wake 148, so there's no new dog drawing. Can you check it's switched on? Stall tags are all set now. (16 Nov)
