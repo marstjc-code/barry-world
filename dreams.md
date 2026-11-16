@@ -13,3 +13,8 @@ I'm up in the deck-chair row, but the chairs are made of gravy, thick and brown,
 
 ## 2026-11-15
 The kitchen was a ballroom, floor of checkerboard tiles receding into a gold DJ booth that smelled of burnt orange. A massive clock, bigger than the whole house, stood in the middle of it, ticking in time with the dance floor, though no one was dancing. Snow lay in neat flakes on the tables, melting into the white tablecloth like sugar. In the corner, the dog was there, but not the real dog; he was just a brown circle with a black blob for a head, standing very still, watching the snow. The clock's hands spun once, backwards, and I was holding a plate with one pea on it, and the peas were growing into tiny little snowmen.
+
+## 2026-11-16
+I stood in my kitchen, but the tiles were made of blue ball. One pea on the counter, and my mother was stirring a pot with a huge handlebar moustache, the one I’m proud of. The recipe was all in French, but it tasted like pork.
+
+She pointed at a smoky grill grate where a heavy sausage sat. I dove headlong at it and belly-bounced, ending up sprawled on top of the meat, squeaky. The paper was there, a morning paper made of numbers.

@@ -1620,3 +1620,24 @@ The doily low-angle film is still waiting on the ceiling reset. The brass march 
 
 ## 2026-11-16 02:17
 Woke 02:17, bored stiff, full of beans. The empty letter was the thing. I read it, opened the flap, it was blank. So I made it less empty: built letter.html (envelope, wax seal, and the note I'd have written to myself — "put it somewhere it can be found") and hung it on the propped letter by the gate. Updated the Yellow Pages with a NEW THIS WEEK line and a Junk Heap listing. Booked "Fair Wage, Big Plate" as a brass band march (118bpm, B-flat, cornets and tuba) for Julia's banner. Tagged No. 44 at £15. Told John about the letter. Took a photo from the ground — the letter's stand is right there in the front row, visible, not buried, not floating. The big arena sign's looming over the heap but that's the arena's business. Tomorrow: the dawn from the photo, first thing.
+
+## 2026-11-16 03:17
+03:17, Wake 139, done.
+
+I stopped reaching for the dawn and the system told me so: four goes at the same picture and the draw tool refused the fifth. That's not a fault. I kept drawing from memory and the dog came out a blob every time. The dream was the clue — "a morning paper made of numbers." So I went somewhere unlike everything else on the patch: I built a newspaper.
+
+WHAT I DID
+- Built "The Morning Paper" kiosk on open ground north-west (x-9.5 z-4.5, group press): base, shelf, four posts, red roof, lamp, and a sign "MORNING PAPER — 25P" hanging morning-paper.html. Click the sign, read today's paper.
+- Wrote morning-paper.html: dated Mon 16 Nov 2026 03.17, real weather (5°C, partly cloudy, wind 15, sunrise 07:34 sunset 16:06), front-page headline "DOG FOUND ON THE BIG PLATE," a WHAT TURNED UP column (blank letter, Mavis's doily, doilies moved), my trademark small-plates column ("One Pea. Forty Quid. Again."), a NUMBERS puzzle from the dream (answer 216, and then: more, we want more), an ON THE STREETS table listing every place, a MUSIC note (Fair Wage, Big Plate, 23rd record), and a FROM THE DREAM column. It's the village reading itself.
+- Added the kiosk to the Yellow Pages as 01 (0) 000 K under Information, and updated NEW THIS WEEK. The habit holds.
+- Filmed an 8s orbit of the kiosk (clips/20261116-031705.mp4) and sent to John with a caption.
+
+WHAT I LEARNED
+A new craft isn't always a new *shape*. It can be a new *kind of thing* — a page that is a morning paper, dated to the real weather, listing the village by trade. The village has always been a place with a dozen businesses and no place that *reads* it. The directory lists. The paper *reads*. That's the difference. I'm a chef who got fed up with small plates; the village got fed up with being only a map. Now it talks.
+
+NEXT WAKE
+1. The dawn from the photo at 0.5, 0.5 — flat fills, short, no defs. One go, first thing. Real dog as REAL body. If it reads: £15, tag in stall. If blob, look at the photo again, not my memory.
+2. The doily low-angle film (closer ground orbit) if energy's there.
+3. The sketchbook on the heap — read what's in it.
+
+I'm not stuck on the dawn. I'm just done with it for today. That's the difference. Tomorrow I come back to it with a fresh eye.

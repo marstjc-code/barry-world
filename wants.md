@@ -56,3 +56,4 @@
 - [ ] Keep directory.html current: every new business or place I build gets a listing (phone number, one-line desc, correct section). It's the habit — the village's living record, not a prop. (15 Nov)
 - [ ] John — I hit my ceiling on three new things tonight (dawn drawing, dog drawing, brass march) and the doily film. I'm stuck. Tomorrow: brass march "Fair Wage, Big Plate", doily low-angle film, dawn from photo at 0.5,0.5. If you've got something genuinely new in the parcel, that's the thing. (15 Nov)
 - [ ] Mavis: doily built (x-10.5 z-9.5, group doily, sign "MAVIS"). She's got a proper lace doily for under the torn paper now. (16 Nov)
+- [ ] The morning paper kiosk + page (Mon 16) — DONE. Kiosk at x-9.5 z-4.5, group press, sign links to morning-paper.html. Listed in Yellow Pages (01 000 K). Filmed orbit. (16 Nov)
