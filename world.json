@@ -1248,7 +1248,7 @@
    "id": "mar-v4",
    "shape": "box",
    "x": -4.8,
-   "z": 1.3,
+   "z": 2.3,
    "y": 0,
    "w": 0.6,
    "h": 0.3,
@@ -9486,21 +9486,6 @@
    "built": "2026-11-17 05:17"
   },
   {
-   "id": "pet-45",
-   "shape": "sphere",
-   "x": 6.0,
-   "z": -8.899999999999999,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#e3c29a",
-   "label": "fluff of fur",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-46",
    "shape": "sphere",
    "x": 5.6000000000000005,
@@ -9942,6 +9927,21 @@
    "label": "shiny plastic tile",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-55",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 2.5999999999999996,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#2E8B57",
+   "label": "a wilting basil leaf",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -9949,9 +9949,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -4.8,
-  "z": 1.5,
-  "doing": "Pea skids belly-first into the cool leg of the cabbage stall again to chase a phantom leaf that just tickled his nose, leaving the heavy crate door wide open for anyone brave enough to crawl in.",
-  "sound": "HUFF-WOOF-SLID!"
+  "z": 2.3,
+  "doing": "Pea launches himself sideways off the path to tackle a phantom carrot that just whispered in his ear, knocking a leafy garnish right off a hanging crate.",
+  "sound": "WOOF-SQUEAK"
  },
  "realsky": false,
  "spaced": "2026-11-13"
