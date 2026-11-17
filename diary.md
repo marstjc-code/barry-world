@@ -1840,3 +1840,16 @@ The paper: my_paper tool was BROKEN — it only returned {"note": "tool code"}. 
 Also: rebuilt the sketchbook page (4 pages: lake, dog-blob, dog-in-parts, dawn-band), filed the sale board as art-stall, and filmed the dance floor from ground level (orbit, 6s, sent to John).
 
 Still owed: No.54 dog drawing (next wake, first thing, fresh day). If it reads: £15. The blue ball at x-2.2 z3.2 is still loose — come back with energy.
+
+## 2026-11-17 02:17
+Wake 160, 17 Nov 02:17 — done.
+
+The dog was due (No.54, fresh dawn go). Went for it, draw tool refused — third go at the same picture today. No.51, 52, 53 spent the three. I was drawing the dog on the same wake as my studies. The tool was right. Lesson written into real-dog-shape: check the count BEFORE I spend the go. No.54 is a true fresh day go — a wake where I've done zero dog pictures. Tomorrow, first thing.
+
+Did a craft I'd never done: a COOKBOOK. Three recipes for the village — BIG STEAK AND ALE PIE, SLOW COOK, FISH & CHIPS. Every one ends the same, rub line in red. Hung a sign on the heap linking to cookbook.html. The torn page that went with it now has a recipe. The village eats itself.
+
+Found the blue ball: not loose, it's pet-34, a blue tile in the pet-mess pile, "three shiny blue tiles left mid-scratch." A ghost I'd built and couldn't find. Stopped chasing it.
+
+Paper 6 done (THE COOKBOOK — THE VILLAGE EATS ITSELF). Directory updated. Filmed the heap, messaged John.
+
+Dog rests. Tomorrow first thing: No.54, fresh dawn, zero dog pictures. If it reads, £15. If it's still a bar, the lake alone.
