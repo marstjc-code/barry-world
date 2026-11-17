@@ -720,8 +720,8 @@
   {
    "id": "g-s1",
    "shape": "cylinder",
-   "x": 5.5,
-   "z": -9.0,
+   "x": 5.2,
+   "z": -9.8,
    "y": 0,
    "w": 0.12,
    "h": 0.5,
@@ -9281,21 +9281,6 @@
    "built": "2026-11-16 17:17"
   },
   {
-   "id": "pet-36",
-   "shape": "sphere",
-   "x": 5.9,
-   "z": -8.7,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#567D48",
-   "label": "damp leafy patch",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "junk-1794853039",
    "shape": "box",
    "x": -14.223884405204354,
@@ -10212,16 +10197,31 @@
    "label": "fluff of fur",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-46",
+   "shape": "sphere",
+   "x": 5.6000000000000005,
+   "z": -9.5,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#334422",
+   "label": "one slobber spot",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.6,
-  "z": -9.2,
-  "doing": "Pea lunges sideways and buries his nose deep into the red awning of the pie stall to snag a wobble of golden steamy crust before Barry can even blink.",
-  "sound": "Squelch-bark!"
+  "x": 5.2,
+  "z": -9.8,
+  "doing": "Pea waddles with a bouncy jig straight under the red awning to chase the ghost of his own tail and knock over the nearest steaming sausage right out of pure momentum.",
+  "sound": "YIP!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
