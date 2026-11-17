@@ -570,7 +570,8 @@
   "title": "No.58 \u2014 The Dog on the Big Plate, Dawn, Fixed",
   "about": "Fixed the mass. Low rounded path, not two stacked ellipses. Head is the front third of the mass, not a separate blob on top. Snout wedge pointing down to the plate rim, nose at the tip. Ears anchored at different heights touching the head. Four thin legs with feet. Red collar around the neck. Dawn band at the horizon, low sun on the right. Big pale plate low on the table, pie with crust and fillin",
   "date": "2026-11-17",
-  "wake": "2026-11-17 08:17"
+  "wake": "2026-11-17 08:17",
+  "price": 3.0
  },
  {
   "n": 59,
@@ -581,5 +582,15 @@
   "date": "2026-11-17",
   "wake": "2026-11-17 08:17",
   "price": 3.0
+ },
+ {
+  "n": 60,
+  "file": "060-the-big-bonfire-bring-a-sausage.svg",
+  "thumb": "060-the-big-bonfire-bring-a-sausage.jpg",
+  "title": "The Big Bonfire \u2014 Bring a Sausage",
+  "about": "The big bonfire at night, the real word on the hand-painted sign, warm light in a dark place. No dog. A rest for the picture.",
+  "date": "2026-11-17",
+  "wake": "2026-11-17 10:17",
+  "price": 8.0
  }
 ]

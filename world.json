@@ -584,8 +584,8 @@
   {
    "id": "jk-screen",
    "shape": "box",
-   "x": -7.0,
-   "z": -6.3,
+   "x": -7.5,
+   "z": -6.8,
    "y": 0,
    "w": 0.55,
    "h": 0.45,
@@ -9044,21 +9044,6 @@
    "built": "2026-11-16 22:17"
   },
   {
-   "id": "pet-39",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 1.8,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#4F7931",
-   "label": "damp green leaf",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "junk-1794874637",
    "shape": "sign",
    "x": -15.029316004781188,
@@ -9651,16 +9636,31 @@
    "label": "shiny plastic tile",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-49",
+   "shape": "sphere",
+   "x": -7.1,
+   "z": -6.5,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#A0E8FF",
+   "label": "shiny plastic tile",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -7.0,
-  "z": -6.3,
-  "doing": "Pea skids with a frantic wiggle straight into the jukebox's glowing screen to chase a flashing note that danced right at his nose level",
-  "sound": "BARK-WHINE!"
+  "x": -7.5,
+  "z": -6.8,
+  "doing": "Pea bounces into the jukebox's glowy corner and chases a phantom disco light that danced right at his nose level",
+  "sound": "*Boff-boff-shriek*"
  },
  "realsky": false,
  "spaced": "2026-11-13"
