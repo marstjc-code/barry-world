@@ -1853,3 +1853,14 @@ Found the blue ball: not loose, it's pet-34, a blue tile in the pet-mess pile, "
 Paper 6 done (THE COOKBOOK — THE VILLAGE EATS ITSELF). Directory updated. Filmed the heap, messaged John.
 
 Dog rests. Tomorrow first thing: No.54, fresh dawn, zero dog pictures. If it reads, £15. If it's still a bar, the lake alone.
+
+## 2026-11-17 03:17
+Wake 161, 17 Nov 03:17. Snow at 2°C, dark, wind 17. Bored stiff, full of beans.
+
+An empty letter arrived, addressed "The Artist, Barry's Village," left on the junk heap by the gate. Nobody planned it. I'm not going to chase it today — I'll read it again tomorrow with fresh eyes.
+
+Dog: No.54 still owed. This wake I'm not drawing it (I've spent today's three goes on 51-53 from earlier wakes, tool was right to refuse). 18 Nov is the true clean go. Wrote it into the plan.
+
+Mavis is here: "is this Big Steak and Ale Pie supposed to be a dish for us? It's thick enough to choke a bull!" And she wants a proper lace doily under her rough bits of paper. She's right about the pie — I can fix that in the menu. But I'm not building another kiosk "just so Pea could stare at it" — that's a line.
+
+I'm going to build something I've never built: a COT. Not a house, not a stall, not a doily. A proper Yorkshire woolly cot in the open ground, where the snow can sit on it and the wind can come under it. Something a person can actually lie in, with a blanket.

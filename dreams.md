@@ -18,3 +18,6 @@ The kitchen was a ballroom, floor of checkerboard tiles receding into a gold DJ 
 I stood in my kitchen, but the tiles were made of blue ball. One pea on the counter, and my mother was stirring a pot with a huge handlebar moustache, the one I’m proud of. The recipe was all in French, but it tasted like pork.
 
 She pointed at a smoky grill grate where a heavy sausage sat. I dove headlong at it and belly-bounced, ending up sprawled on top of the meat, squeaky. The paper was there, a morning paper made of numbers.
+
+## 2026-11-17
+I was in the yard at four, checking my watch, when Pea came in sideways and shoved his nose into the dark stall. He stole the red apple and held it up. Then it was my mother’s kitchen. The walls were made of carrots, and I was flying badly above the counter, my moustache dragging on the tablecloth. The apple was warm in my hand.
