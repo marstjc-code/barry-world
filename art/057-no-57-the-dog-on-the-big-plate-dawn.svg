@@ -1,0 +1,48 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="dawn" cx="85%" cy="75%" r="80%"><stop offset="0%" stop-color="#ff9a4a"/><stop offset="25%" stop-color="#ff5e1e"/><stop offset="60%" stop-color="#8a2a1e"/><stop offset="100%" stop-color="#1a0f08"/></radialGradient>
+<radialGradient id="glow" cx="50%" cy="45%" r="50%"><stop offset="0%" stop-color="#fff2d0" stop-opacity="0.9"/><stop offset="60%" stop-color="#e8b06a" stop-opacity="0.3"/><stop offset="100%" stop-color="#e8b06a" stop-opacity="0"/></radialGradient>
+</defs>
+<rect width="800" height="800" fill="#241a0f"/>
+<rect y="0" width="800" height="140" fill="url(#dawn)"/>
+<rect y="140" width="800" height="80" fill="#4a2a18" opacity="0.6"/>
+<circle cx="700" cy="140" r="40" fill="#ffe8b0" opacity="0.9"/>
+<rect y="140" width="800" height="660" fill="#2a1f12"/>
+<ellipse cx="400" cy="600" rx="280" ry="40" fill="#1a0f08"/>
+<ellipse cx="400" cy="595" rx="260" ry="35" fill="#f5f0e6" stroke="#c9b89a" stroke-width="4"/>
+<ellipse cx="400" cy="590" rx="220" ry="28" fill="#efe8dc" stroke="#c9b89a" stroke-width="3"/>
+<path d="M 400 540 C 500 540 580 550 580 560 C 580 570 500 575 400 575 C 300 575 220 570 220 560 C 220 550 300 540 400 540 Z" fill="#b5733a" stroke="#8a4a1e" stroke-width="3"/>
+<path d="M 260 545 C 260 500 300 460 360 445 C 400 430 460 435 500 450 C 540 465 540 520 500 545 Z" fill="#c98a4e"/>
+<path d="M 320 455 C 300 410 280 370 290 330 C 300 290 340 260 380 265 C 410 270 420 300 410 340 C 400 380 380 420 360 455 Z" fill="#d49a5c"/>
+<path d="M 350 430 C 330 390 320 340 325 300 C 330 260 360 230 390 235 C 415 240 425 270 420 310 C 415 350 400 390 380 430 Z" fill="#e8b57a"/>
+<path d="M 410 290 L 460 300 L 430 330 Z" fill="#fff5d8"/>
+<circle cx="445" cy="325" r="6" fill="#1a1a1a"/>
+<circle cx="370" cy="290" r="5" fill="#1a1a1a"/>
+<path d="M 395 270 L 410 240 L 430 255 Z" fill="#b5733a"/>
+<path d="M 350 260 L 330 235 L 350 250 Z" fill="#b5733a"/>
+<rect x="370" y="430" width="6" height="120" fill="#c98a4e"/>
+<rect x="410" y="430" width="6" height="120" fill="#c98a4e"/>
+<rect x="320" y="430" width="6" height="120" fill="#c98a4e"/>
+<rect x="270" y="430" width="6" height="120" fill="#c98a4e"/>
+<rect x="385" y="415" width="50" height="8" fill="#c44317"/>
+<rect x="520" y="300" width="200" height="60" fill="#2a1f12" stroke="#4a3a2a" stroke-width="4"/>
+<text x="620" y="335" font-family="Georgia,serif" font-size="20" font-weight="bold" fill="#ffe8b0">BIG</text>
+<rect x="520" y="360" width="200" height="40" fill="#3a2a18" stroke="#4a3a2a" stroke-width="4"/>
+<text x="620" y="395" font-family="Georgia,serif" font-size="14" fill="#d9c9a9">MIND THE MOUSTACHE</text>
+<rect x="400" y="250" width="4" height="120" fill="#3a2a18"/>
+<rect x="385" y="200" width="80" height="25" fill="#c44317" stroke="#8a2a1e" stroke-width="3"/>
+<text x="425" y="225" font-family="Georgia,serif" font-size="14" fill="#fff5d8">THE RUB</text>
+<radialGradient id="pieglow" cx="50%" cy="50%" r="50%"><stop offset="0%" stop-color="#fff2d0" stop-opacity="0.9"/><stop offset="100%" stop-color="#e8b06a" stop-opacity="0"/></radialGradient>
+<circle cx="400" cy="580" r="180" fill="url(#pieglow)"/>
+<path d="M 330 560 C 330 520 380 500 430 505 C 480 510 500 540 490 565 C 480 590 420 595 380 590 C 350 588 330 580 330 560 Z" fill="#d49a5c" stroke="#8a4a1e" stroke-width="3"/>
+<path d="M 340 555 C 340 525 380 510 420 512 C 460 514 470 540 465 560 C 455 580 400 585 370 580 C 350 578 340 570 340 555 Z" fill="#b5733a" stroke="#8a4a1e" stroke-width="2"/>
+<path d="M 370 545 L 430 548 L 415 565 Z" fill="#f5a05a"/>
+<circle cx="400" cy="555" r="3" fill="#8a2a1e"/>
+<circle cx="380" cy="545" r="2" fill="#8a2a1e"/>
+<circle cx="420" cy="550" r="2" fill="#8a2a1e"/>
+<path d="M 400 590 C 350 610 300 620 250 610 C 220 605 210 590 220 575 C 230 560 260 555 300 560 C 340 565 380 575 400 590 Z" fill="#1a0f08" opacity="0.6"/>
+<rect x="60" y="700" width="120" height="50" fill="#c9b89a" stroke="#8a6f4d" stroke-width="4"/>
+<text x="120" y="740" font-family="Georgia,serif" font-size="18" font-weight="bold" fill="#3a2a18">£15</text>
+<rect x="60" y="765" width="120" height="25" fill="#8a4a1e" stroke="#5c2a1a" stroke-width="3"/>
+<text x="120" y="790" font-family="Georgia,serif" font-size="12" fill="#fff5d8">THE DOG IS AWAKE</text>
+</svg>

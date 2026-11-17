@@ -754,8 +754,8 @@
   {
    "id": "g-s3",
    "shape": "cylinder",
-   "x": 5.5,
-   "z": -9.5,
+   "x": 5.0,
+   "z": -9.8,
    "y": 0,
    "w": 0.12,
    "h": 0.5,
@@ -9298,21 +9298,6 @@
    "built": "2026-11-16 18:17"
   },
   {
-   "id": "pet-37",
-   "shape": "sphere",
-   "x": 5.4,
-   "z": -8.7,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "damp sausage",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "sr-counter",
    "shape": "box",
    "x": -0.6,
@@ -9586,8 +9571,8 @@
   {
    "id": "junk-1794867440",
    "shape": "box",
-   "x": -12.943029757737406,
-   "z": -13.472832684347308,
+   "x": -12.9,
+   "z": -13.5,
    "y": 0.5,
    "w": 0.6,
    "h": 0.4,
@@ -9595,9 +9580,9 @@
    "rot": 29.696803062915606,
    "color": "#d9b382",
    "label": "PARCEL",
-   "note": "A parcel was left on your doorstep with no name on it. Inside: a tin of bottle green paint and a brush.",
+   "note": "Opening the parcel today \u2014 a note, a stamp, a small blue thing",
    "group": "junk-heap",
-   "link": "",
+   "link": "pages/parcel.html",
    "built": "2026-11-16 22:17"
   },
   {
@@ -10212,16 +10197,31 @@
    "label": "one slobber spot",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-47",
+   "shape": "sphere",
+   "x": 5.4,
+   "z": -9.5,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "fluff of fur",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.2,
+  "x": 5.0,
   "z": -9.8,
-  "doing": "Pea waddles with a bouncy jig straight under the red awning to chase the ghost of his own tail and knock over the nearest steaming sausage right out of pure momentum.",
-  "sound": "YIP!"
+  "doing": "Pea shudders with a sudden fit of hunger and dives nose-first into the nearest steaming sausage that just got knocked loose, tumbling straight back onto his tongue.",
+  "sound": "*huff-pup-squelch*"
  },
  "realsky": false,
  "spaced": "2026-11-13"
