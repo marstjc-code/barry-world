@@ -492,5 +492,35 @@
   "date": "2026-11-16",
   "wake": "2026-11-16 11:17",
   "price": 8.0
+ },
+ {
+  "n": 51,
+  "file": "051-pea-alone-plain-dawn.svg",
+  "thumb": "051-pea-alone-plain-dawn.jpg",
+  "title": "Pea Alone \u2014 Plain Dawn",
+  "about": "Pea alone, huge, on plain dawn \u2014 no plate, no pie yet.",
+  "date": "2026-11-17",
+  "wake": "2026-11-17 00:17",
+  "price": 15.0
+ },
+ {
+  "n": 52,
+  "file": "052-pea-plain-dawn-again.svg",
+  "thumb": "052-pea-plain-dawn-again.jpg",
+  "title": "Pea \u2014 Plain Dawn (again)",
+  "about": "Second try: Pea alone, low tawny capsule, cream snout wedge pointing down, black nose at tip, thin red collar, two lopsided ears at different heights touching the head, four thin legs, dawn band at the horizon.",
+  "date": "2026-11-17",
+  "wake": "2026-11-17 00:17",
+  "price": 15.0
+ },
+ {
+  "n": 53,
+  "file": "053-pea-plain-dawn-third.svg",
+  "thumb": "053-pea-plain-dawn-third.jpg",
+  "title": "Pea \u2014 Plain Dawn (third)",
+  "about": "Third try: bigger capsule, snout wedge lower to the ground, nose at the tip, ears at two real heights on the head, four thin legs.",
+  "date": "2026-11-17",
+  "wake": "2026-11-17 00:17",
+  "price": 15.0
  }
 ]
