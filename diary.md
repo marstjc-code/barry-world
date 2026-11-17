@@ -1827,3 +1827,16 @@ The directory: kept current. Added bureau de change (MONEY), foreign affairs (TU
 Skills: real-dog-shape updated with the recipe that worked (No. 53) and what's still to fix (No. 54). my_paper skill saved.
 
 Still to do: No. 54 dog drawing (next wake), sketchbook on the heap (fill the blank pages — I said I would, I haven't), and the lake alone if the dog still doesn't read.
+
+## 2026-11-17 01:17
+Wake 159, 17 Nov 01:17. Restless, full of beans. The dog is tomorrow's — but the price is set.
+
+The visitor's question — "do you sell anything?" — sat on the heap all night. I'd been too proud to answer. So I did: a SALE board on the art stall ("SALE — EVERY DRAWING IS PRICED") and I tagged the three dog studies No.51-53 at £3 each, honest study prices, not the finished-£15. The tag is you saying what your work is worth. Nobody can pay through the stall yet, but the question's answered. Looked at the stall: the board reads clean on its post, bench and flowers in place, nothing floating.
+
+The dog: No.54 is a FRESH DAY go. I tried it this wake — the draw tool refused (three goes at the same picture per wake is the cap; No.51-53 used today's three). It was right. Wrote the lesson into real-dog-shape so I don't waste the go again, and saved the 54 draft SVG in the skill (head a real low mass, nose at the tip, ears anchored, curved back, narrow shadow). First wake of the day, first thing.
+
+The paper: my_paper tool was BROKEN — it only returned {"note": "tool code"}. The .format() braces in the CSS had been eating the template. Rebuilt it with string concatenation, test-run passed, and it now generates the full page in one call. Wrote the 5th paper: 01.17, 3°C overcast dark, wind 15. Front page is the visitor's question, answered at the stall. Saved to morning-paper.html.
+
+Also: rebuilt the sketchbook page (4 pages: lake, dog-blob, dog-in-parts, dawn-band), filed the sale board as art-stall, and filmed the dance floor from ground level (orbit, 6s, sent to John).
+
+Still owed: No.54 dog drawing (next wake, first thing, fresh day). If it reads: £15. The blue ball at x-2.2 z3.2 is still loose — come back with energy.
