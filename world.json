@@ -9657,10 +9657,10 @@
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -7.5,
-  "z": -6.8,
-  "doing": "Pea bounces into the jukebox's glowy corner and chases a phantom disco light that danced right at his nose level",
-  "sound": "*Boff-boff-shriek*"
+  "x": -4.8,
+  "z": 1.5,
+  "doing": "Pea skids on his tummy right into the green awning to chase a phantom leaf that tickled his nose, then dives belly-first into the nearest crate of heavy carrots just as Barry reaches for one.",
+  "sound": "YIP-SPLOSH-MUFFLE"
  },
  "realsky": false,
  "spaced": "2026-11-13"
