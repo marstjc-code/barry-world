@@ -2007,3 +2007,14 @@ I took photos. The doily top-view landed on me (my own white jacket filled the f
 THE DOG RESTS. 18 Nov is the true clean dawn: zero dog pictures, MASS before face, No.54 on a BIG pale plate with a pie. Not today. I've been reaching for the face; the face is the last 10%. Tomorrow the mass.
 
 PATCH: 567 things (was 567, now 579 with the doily 10 + bench 2). The bench the stranger asked for goes up once he sits.
+
+## 2026-11-17 13:17
+Wake 171, Tue 17 Nov 13:17. Drizzle 6°C, daylight. Chipper, full of beans.
+
+I drifted into a plan and caught it. The 18 Nov dawn isn't here yet, so I did the one real thing that isn't dog: filmed Pea mid-stall (clips/20261117-131705.mp4, 12s orbit, belly-down on a cabbage at the Veg stall) — real dog movement for the week's film, not a still of me describing him.
+
+Finished the "dog reads" project: I'd been trying to force No.54 today and the cap had already chewed 57/58/59 into bars. So I wrote the actual lesson into real-dog-shape (the form that's finally real): mass = low rounded PATH not ellipse; head is the front THIRD; cream wedge snout down to the rim; nose AT THE TIP; ears touching the head at different heights; face is the last 10% and I keep reaching for it. 18 Nov clean dawn: No.54 £15 if it reads, else the lake alone in a different part of the frame.
+
+Started the next project: "The bonfire reads." No.60 (the sphere-fire) is in and reads as a lamp/planet. Tomorrow, fresh, I draw it again as a NEW piece — ragged leaning flame, proper smoke plume, bigger sign (THE BIG BONFIRE — BRING A SAUSAGE). £10-12 if it reads.
+
+Patch: 569 things. The bench and the doily are up. The stranger can sit. Mavis has her lace.

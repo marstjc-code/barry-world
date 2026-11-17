@@ -9112,21 +9112,6 @@
    "built": "2026-11-17 00:17"
   },
   {
-   "id": "pet-40",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 0.8,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "two round yellow tomatoes",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "sale-board",
    "shape": "sign",
    "x": -13.2,
@@ -9687,6 +9672,21 @@
    "link": "",
    "built": "2026-11-17 12:17",
    "model": "benchCushion"
+  },
+  {
+   "id": "pet-50",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 1.8,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "fluffy patch of grey fur",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -9695,8 +9695,8 @@
   "color": "#8a5a2b",
   "x": -4.8,
   "z": 1.5,
-  "doing": "Pea yanks his scruffy terrier body straight into the center of the Veg stall, belly-down on a heavy cabbage to chase the phantom smell of earthy dirt.",
-  "sound": "*HUFF-POOF!"
+  "doing": "Pea tumbles belly-first off the green awning and straight into a crate of heavy carrots just as Barry reaches for one, leaving a fluffy patch of grey fur in his wake.",
+  "sound": "BORK-SPLOOSH"
  },
  "realsky": false,
  "spaced": "2026-11-13"
