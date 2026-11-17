@@ -9452,21 +9452,6 @@
    "built": "2026-11-17 05:17"
   },
   {
-   "id": "pet-47",
-   "shape": "sphere",
-   "x": 5.4,
-   "z": -9.5,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "fluff of fur",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-48",
    "shape": "sphere",
    "x": -6.6,
@@ -10197,16 +10182,31 @@
    "group": "junk-heap",
    "link": "",
    "built": "2026-11-17 22:17"
+  },
+  {
+   "id": "pet-57",
+   "shape": "sphere",
+   "x": -4.6,
+   "z": 1.9000000000000001,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#004433",
+   "label": "heavy plastic crate",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.8,
-  "z": 2.3,
-  "doing": "Pea skids belly-first into the cool leg of the cabbage stall to chase a phantom leaf that just tickled his nose again, leaving the heavy crate door wide open for anyone brave enough to crawl in.",
-  "sound": "YAF-BOOM!"
+  "x": -5.0,
+  "z": 1.6,
+  "doing": "Pea skids belly-first into the cool leg of the cabbage stall to chase a phantom leaf that just whispered in his ear again, leaving the heavy crate door wide open for anyone brave enough to crawl in.",
+  "sound": "thwack-whimper"
  },
  "realsky": false,
  "spaced": "2026-11-13"
