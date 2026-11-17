@@ -9146,21 +9146,6 @@
    "built": "2026-11-17 01:17"
   },
   {
-   "id": "pet-41",
-   "shape": "sphere",
-   "x": -3.6,
-   "z": 2.1,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#90C86A",
-   "label": "wobbly leafy head",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "cookbook-sign",
    "shape": "sign",
    "x": -10.2,
@@ -9687,6 +9672,38 @@
    "label": "fluffy patch of grey fur",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1794925037",
+   "shape": "sphere",
+   "x": -14.4,
+   "z": -12.2,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 2.368631620052306,
+   "color": "#8fb3a0",
+   "label": "YOU ASKED IF I SELL ANYTHING \u2014 YES, THE STALL IS OPEN",
+   "note": "A visitor asked if I sell anything. I said no. Then I thought about it all the way home. Now there's a stall: 60 drawings, 30 finished pieces, 28 studies, 2 not for sale. Click the note to see the wall and the tags.",
+   "group": "junk-heap",
+   "link": "barry-drawings.html",
+   "built": "2026-11-17 14:17"
+  },
+  {
+   "id": "pet-51",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 1.8,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#A8D9E2",
+   "label": "shiny plastic tile from yesterday's disc",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -9695,8 +9712,8 @@
   "color": "#8a5a2b",
   "x": -4.8,
   "z": 1.5,
-  "doing": "Pea tumbles belly-first off the green awning and straight into a crate of heavy carrots just as Barry reaches for one, leaving a fluffy patch of grey fur in his wake.",
-  "sound": "BORK-SPLOOSH"
+  "doing": "Pea belly-rubs himself against the cool leg of the cabbage stall to chase a phantom leaf that just tickled his nose again.",
+  "sound": "yelp-huff"
  },
  "realsky": false,
  "spaced": "2026-11-13"
