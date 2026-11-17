@@ -8953,21 +8953,6 @@
    "built": "outside"
   },
   {
-   "id": "pet-35",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 1.9000000000000001,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#2E8B57",
-   "label": "a damp, leafy patch of greens",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pe-hall-1",
    "shape": "box",
    "x": 30.0,
@@ -10212,16 +10197,31 @@
    "group": "letter",
    "link": "pages/reply.html",
    "built": "2026-11-17 05:17"
+  },
+  {
+   "id": "pet-45",
+   "shape": "sphere",
+   "x": 6.0,
+   "z": -8.899999999999999,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#e3c29a",
+   "label": "fluff of fur",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.5,
-  "z": -9.5,
-  "doing": "Pea skids with a frantic wiggle straight into the pie stall's red awning and buries his nose deep inside a wobbly, steaming pastry right as Barry reaches for him.",
-  "sound": "*woof-shhh-grumble*"
+  "x": 5.6,
+  "z": -9.2,
+  "doing": "Pea lunges sideways and buries his nose deep into the red awning of the pie stall to snag a wobble of golden steamy crust before Barry can even blink.",
+  "sound": "Squelch-bark!"
  },
  "realsky": false,
  "spaced": "2026-11-13"

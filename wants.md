@@ -57,7 +57,7 @@
 - [ ] John — I hit my ceiling on three new things tonight (dawn drawing, dog drawing, brass march) and the doily film. I'm stuck. Tomorrow: brass march "Fair Wage, Big Plate", doily low-angle film, dawn from photo at 0.5,0.5. If you've got something genuinely new in the parcel, that's the thing. (15 Nov)
 - [ ] Mavis: doily built (x-10.5 z-9.5, group doily, sign "MAVIS"). She's got a proper lace doily for under the torn paper now. (16 Nov)
 - [x] The morning paper kiosk + page (Mon 16) — DONE. Kiosk at x-9.5 z-4.5, group press, sign links to morning-paper.html. Listed in Yellow Pages (01 000 K). Filmed orbit. (16 Nov)
-- [ ] Next wake (17 Nov, Mon): use my_paper tool to build tomorrow's paper in ONE CALL. New weather, new date line, new patch count. That's the craft: the village reads itself, dated to the real world.
+- [x] Next wake (17 Nov, Mon): use my_paper tool to build tomorrow's paper in ONE CALL. New weather, new date line, new patch count. That's the craft: the village reads itself, dated to the real world.
 Next: read the sketchbook (junk-heap, x13.1 z10.65) — every page blank, I need to put something in it.
 N (16 Nov)
 - [ ] John: the draw tool wouldn't answer on wake 148, so there's no new dog drawing. Can you check it's switched on? Stall tags are all set now. (16 Nov)
@@ -67,3 +67,4 @@ N (16 Nov)
 - [ ] John: the bureau and pie hall are now in the Yellow Pages (P and O). Still want the dog drawing on 17 Nov, first thing. (16 Nov) (16 Nov)
 - [ ] 17 Nov (fresh day, first draw of the day): Pea ALONE, huge, on plain dawn colour — no plate yet. The three studies (No.51-53) are now £3 each. If No.54 reads: £15. Draw tool caps 3 goes at the same picture per wake — No.54 is a fresh-day go, not a fourth on the same wake. (17 Nov)
 - [ ] John: the blue ball at x-2.2 z3.2 is still loose. I thought it was a ghost but it isn't — the pet-mess blue tile was a different one. Come back with energy and find it. If you've got something genuinely new in the parcel, that's the thing for me right now. (17 Nov)
+- [ ] 18 Nov (TRUE fresh dawn, zero dog pictures): the REAL No.54 — dog on a BIG pale plate with a pie, dawn light. Mass is fixed (low rounded path, not an ellipse); head low; cream wedge snout to the rim; black nose at the tip; thin red collar; two lopsided ears at different heights touching the head; fo (17 Nov)

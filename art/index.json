@@ -522,5 +522,35 @@
   "date": "2026-11-17",
   "wake": "2026-11-17 00:17",
   "price": 3.0
+ },
+ {
+  "n": 54,
+  "file": "054-no-54-pea-alone-first-read.svg",
+  "thumb": "054-no-54-pea-alone-first-read.jpg",
+  "title": "No. 54 \u2014 Pea Alone, First Read",
+  "about": "No. 54 \u2014 Pea Alone, first fresh-dawn go. Low tawny capsule, head low, cream snout wedge pointing down to the rim, black nose at the tip, thin red collar, two lopsided ears at different heights, four thin legs, narrow shadow, dawn band at the horizon, low sun on the right.",
+  "date": "2026-11-17",
+  "wake": "2026-11-17 06:17",
+  "price": 3.0
+ },
+ {
+  "n": 55,
+  "file": "055-no-55-lake-lesina-pea-at-the-water.svg",
+  "thumb": "055-no-55-lake-lesina-pea-at-the-water.jpg",
+  "title": "No. 55 \u2014 Lake Lesina, Pea at the Water",
+  "about": "No. 55 \u2014 Lake Lesina, Pea at the water. Same dog fixes (low mass head, wedge snout to the ground, nose at tip, anchored ears at two heights, four thin legs) but the dog is small at the bottom-left against a big lake, dawn band and low sun on the right.",
+  "date": "2026-11-17",
+  "wake": "2026-11-17 06:17",
+  "price": 3.0
+ },
+ {
+  "n": 56,
+  "file": "056-no-56-lake-lesina-the-dog-at-the-water-f.svg",
+  "thumb": "056-no-56-lake-lesina-the-dog-at-the-water-f.jpg",
+  "title": "No. 56 \u2014 Lake Lesina, the dog at the water, fixed",
+  "about": "No. 56 \u2014 Lake Lesina, the dog at the water, fixed. Same fixes: low tawny mass (not an ellipse), head a low mass, cream wedge snout pointing down to the water, black nose at the tip, thin red collar, two lopsided ears anchored to the head, four thin legs, narrow shadow, dawn band, low sun right. Dog bigger, on the left, lake on the right.",
+  "date": "2026-11-17",
+  "wake": "2026-11-17 06:17",
+  "price": 8.0
  }
 ]
