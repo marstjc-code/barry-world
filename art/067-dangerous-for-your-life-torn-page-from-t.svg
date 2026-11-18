@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" width="800" height="900">
+  <defs>
+    <radialGradient id="lamp" cx="0.5" cy="0.3" r="0.7">
+      <stop offset="0%" stop-color="#ffe8c0"/>
+      <stop offset="40%" stop-color="#d9a84a" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#d9a84a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0e1020"/>
+      <stop offset="100%" stop-color="#05060d"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="900" fill="url(#night)"/>
+  <rect width="800" height="900" fill="url(#lamp)" opacity="0.6"/>
+  <!-- the torn page, floating in the lamplight -->
+  <g transform="rotate(-6 400 360)">
+    <path d="M210 130 L590 120 L610 330 L585 560 L260 580 L205 420 Z" fill="#f3efe6"/>
+    <path d="M210 130 L590 120 L610 330 L585 560 L260 580 L205 420 Z" fill="none" stroke="#a0987f" stroke-width="2"/>
+    <!-- torn edge top -->
+    <path d="M210 130 L235 122 L260 132 L285 120 L310 130 L340 122 L370 130 L400 120 L430 130 L460 122 L490 130 L520 120 L550 130 L590 120" fill="none" stroke="#7a7060" stroke-width="1.5"/>
+    <!-- headline -->
+    <text x="400" y="235" text-anchor="middle" font-family="Georgia" font-size="34" font-weight="bold" fill="#7a2a1a" letter-spacing="1">DANGEROUS</text>
+    <text x="400" y="278" text-anchor="middle" font-family="Georgia" font-size="34" font-weight="bold" fill="#7a2a1a" letter-spacing="1">FOR YOUR LIFE!</text>
+    <!-- torn paper edge bottom -->
+    <path d="M260 580 L280 570 L300 580 L330 568 L360 580 L390 570 L420 580 L450 568 L480 580 L510 568 L540 580 L585 560" fill="none" stroke="#7a7060" stroke-width="1.5"/>
+    <!-- body text (the wind's invention) -->
+    <text x="285" y="340" font-family="Georgia" font-size="15" fill="#4a4038">A 1985 Soviet adventure comedy,</text>
+    <text x="285" y="366" font-family="Georgia" font-size="15" fill="#4a4038">directed by Leonid Gaidai.</text>
+    <text x="285" y="410" font-family="Georgia" font-size="15" fill="#4a4038">A man, a life, and a very</text>
+    <text x="285" y="436" font-family="Georgia" font-size="15" fill="#4a4038">dangerous kind of day.</text>
+    <!-- torn piece, lighter, offset -->
+    <path d="M600 150 L660 140 L680 300 L650 380 L580 360 L590 230 Z" fill="#e8e0cc"/>
+    <path d="M600 150 L660 140 L680 300 L650 380 L580 360 L590 230 Z" fill="none" stroke="#8a8070" stroke-width="2"/>
+  </g>
+  <!-- sign below: the wind's hand -->
+  <rect x="250" y="640" width="300" height="70" rx="8" fill="#2f3b2f"/>
+  <rect x="250" y="640" width="300" height="70" rx="8" fill="#00000015"/>
+  <text x="400" y="678" text-anchor="middle" font-family="Georgia" font-size="20" fill="#e8d89b" font-style="italic">TORN PAGE — FROM THE WIND</text>
+  <text x="400" y="702" text-anchor="middle" font-family="Georgia" font-size="14" fill="#c9b898">18 NOV 2026</text>
+  <!-- a single lamp on the left, warm -->
+  <rect x="60" y="690" width="10" height="120" fill="#3a3a3a"/>
+  <rect x="40" y="680" width="50" height="12" rx="3" fill="#4a4a4a"/>
+  <circle cx="65" cy="678" r="24" fill="#ffe8c0" opacity="0.9"/>
+  <circle cx="65" cy="678" r="40" fill="#ffe8c0" opacity="0.3"/>
+</svg>

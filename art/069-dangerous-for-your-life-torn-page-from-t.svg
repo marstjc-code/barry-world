@@ -1,0 +1,82 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 900" width="800" height="900">
+  <defs>
+    <radialGradient id="lamp" cx="0.18" cy="0.78" r="0.7">
+      <stop offset="0%" stop-color="#ffe8c0"/>
+      <stop offset="30%" stop-color="#e8c07a" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#e8c07a" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#e8c07a" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="page" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f6efdf"/>
+      <stop offset="55%" stop-color="#efe6d0"/>
+      <stop offset="100%" stop-color="#e4d8bd"/>
+    </linearGradient>
+    <linearGradient id="night" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0d0f18"/>
+      <stop offset="100%" stop-color="#04050b"/>
+    </linearGradient>
+    <radialGradient id="warmleft" cx="0" cy="0.45" r="1">
+      <stop offset="0%" stop-color="#ffe8c0" stop-opacity="0.5"/>
+      <stop offset="60%" stop-color="#ffe8c0" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#ffe8c0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="900" fill="url(#night)"/>
+  <rect width="800" height="900" fill="url(#lamp)" opacity="0.55"/>
+
+  <!-- THE PAGE. Ragged top and bottom, straight-ish sides (a torn sheet). Headline high, text inside a margin. -->
+  <g transform="translate(395 320) rotate(-4)">
+    <path d="M-175 -160 L-160 -152 L-140 -162 L-120 -154 L-100 -162 L-75 -152 L-50 -160 L-25 -152 L0 -160 L25 -152 L50 -160 L75 -152 L100 -160 L120 -152 L145 -160 L165 -152 L175 -160
+           L180 -135 L184 -95 L178 -60 L182 -20 L178 20 L182 60 L178 100 L176 130 L170 150 L155 158 L135 150 L115 158 L95 150 L75 158 L55 150 L35 158 L15 150 L-5 158 L-25 150 L-45 158 L-65 150 L-85 158 L-105 150 L-125 158 L-145 150 L-160 158 L-170 150 Z"
+          fill="url(#page)"/>
+    <path d="M-175 -160 L-175 150 L-160 158 L-145 150 L-125 158 L-105 150 L-85 158 L-65 150 L-45 158 L-25 150 L-5 158 L15 150 L35 158 L55 150 L75 158 L95 150 L115 158 L135 150 L155 158 L170 150 L176 130 L182 100 L178 60 L182 20 L178 -20 L182 -60 L178 -95 L180 -135 L175 -160 Z"
+          fill="url(#warmleft)" opacity="0.55"/>
+    <!-- HEADLINE high in the upper third -->
+    <text x="-10" y="12" text-anchor="middle" font-family="Georgia" font-size="40" font-weight="bold" fill="#7a2a1a" letter-spacing="1">DANGEROUS</text>
+    <text x="-10" y="52" text-anchor="middle" font-family="Georgia" font-size="40" font-weight="bold" fill="#7a2a1a" letter-spacing="1">FOR YOUR LIFE!</text>
+    <!-- thin rule -->
+    <line x1="-120" y1="70" x2="120" y2="70" stroke="#7a2a1a" stroke-width="1.5"/>
+    <!-- two columns inside a margin, text ends well above the torn bottom edge -->
+    <g font-family="Georgia" font-size="15" fill="#3a3028">
+      <text x="-145" y="100">A 1985 Soviet</text>
+      <text x="-145" y="119">adventure comedy</text>
+      <text x="-145" y="138">directed by the</text>
+      <text x="-145" y="157">beloved Leonid</text>
+      <text x="-145" y="176">Gaidai.</text>
+    </g>
+    <g font-family="Georgia" font-size="15" fill="#3a3028">
+      <text x="0" y="100">The page is torn</text>
+      <text x="0" y="119">at the corner. The</text>
+      <text x="0" y="138">rest is wind. The</text>
+      <text x="0" y="157">rest is what I</text>
+      <text x="0" y="176">made of it.</text>
+    </g>
+    <!-- small marginal note, well inside -->
+    <text x="-145" y="202" font-family="Georgia" font-size="12" fill="#7a7060" font-style="italic">p. 214 — the rest is gone</text>
+  </g>
+
+  <!-- SECOND torn sheet, upper-right, off the page corner, with its own torn edge and text -->
+  <g transform="translate(555 150) rotate(8)">
+    <path d="M-45 -80 L-30 -74 L-15 -82 L0 -74 L15 -82 L30 -74 L45 -82 L50 -65 L56 -50 L58 -30 L54 -10 L50 10 L44 30 L40 50 L30 70 L15 84 L-5 90 L-25 84 L-40 70 L-48 50 L-54 30 L-58 10 L-60 -10 L-56 -30 L-50 -50 L-45 -70 Z"
+          fill="#e8e0cc"/>
+    <path d="M-45 -80 L-30 -74 L-15 -82 L0 -74 L15 -82 L30 -74 L45 -82 L50 -65 L56 -50 L58 -30 L54 -10 L50 10 L44 30 L40 50 L30 70 L15 84 L-5 90 L-25 84 L-40 70 L-48 50 L-54 30 L-58 10 L-60 -10 L-56 -30 L-50 -50 L-45 -70 Z"
+          fill="none" stroke="#8a8070" stroke-width="2"/>
+    <text x="2" y="-12" font-family="Georgia" font-size="13" fill="#5a5040">and the</text>
+    <text x="2" y="12" font-family="Georgia" font-size="13" fill="#5a5040">rest is</text>
+    <text x="2" y="36" font-family="Georgia" font-size="13" fill="#5a5040">gone.</text>
+  </g>
+
+  <!-- GREEN BOARD SIGN, hand-painted wavy underline -->
+  <rect x="245" y="645" width="310" height="74" rx="10" fill="#2f3b2f"/>
+  <rect x="245" y="645" width="310" height="74" rx="10" fill="#00000022"/>
+  <path d="M280 697 C340 701 430 701 495 695" stroke="#e8d89b" stroke-width="2" fill="none"/>
+  <text x="400" y="683" text-anchor="middle" font-family="Georgia" font-size="21" fill="#e8d89b" font-style="italic">TORN PAGE — FROM THE WIND</text>
+  <text x="400" y="708" text-anchor="middle" font-family="Georgia" font-size="15" fill="#c9b898">18 NOV 2026</text>
+
+  <!-- LAMP, warm, bottom-left -->
+  <rect x="78" y="690" width="10" height="130" fill="#3a3a3a"/>
+  <rect x="52" y="680" width="56" height="14" rx="4" fill="#4a4a4a"/>
+  <circle cx="80" cy="678" r="26" fill="#ffe8c0" opacity="0.95"/>
+  <circle cx="80" cy="678" r="44" fill="#ffe8c0" opacity="0.25"/>
+  <circle cx="80" cy="678" r="70" fill="#ffe8c0" opacity="0.08"/>
+</svg>
