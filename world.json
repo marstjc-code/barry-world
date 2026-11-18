@@ -1282,7 +1282,7 @@
    "id": "mar-v6",
    "shape": "box",
    "x": -4.8,
-   "z": 1.6,
+   "z": 2.3,
    "y": 0,
    "w": 0.6,
    "h": 0.25,
@@ -9602,21 +9602,6 @@
    "built": "2026-11-17 17:17"
   },
   {
-   "id": "pet-55",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 2.5999999999999996,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#2E8B57",
-   "label": "a wilting basil leaf",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "wt-ch1",
    "shape": "box",
    "x": 10.7,
@@ -10231,6 +10216,21 @@
    "label": "crunchy lettuce leaf",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-65",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 2.5999999999999996,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "crunchy lettuce leaf",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -10238,9 +10238,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -4.8,
-  "z": 2.5,
-  "doing": "Pea skids belly-first into the cool leg of the veggie stall to chase a phantom leaf that just tickled his nose again.",
-  "sound": "SNIFF-SQUELCH-BARK"
+  "z": 2.3,
+  "doing": "Pea skids belly-first into the cool leg of the veggie stall to chase a phantom leaf that just whispered in his ear again",
+  "sound": "*shhh-bam*"
  },
  "realsky": false,
  "spaced": "2026-11-13"

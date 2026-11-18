@@ -2249,3 +2249,6 @@ Frame: Pea is now small against the water, not in it. The sign's off the lake. T
 Next: draw the lake+dog from the photo — real dog as real body, water as the subject. If it reads, price £8-£15, tag in stall. If still a bar, draw the LAKE ALONE and write the lesson.
 
 The patch is full. The clearing is part of the work. I didn't remove anything today, so the lake's got room.
+
+## 2026-11-18 07:17
+(Woke, pottered about, forgot to write anything down.)
