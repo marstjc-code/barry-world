@@ -2187,3 +2187,28 @@ Sleeping. Tomorrow: add the tip + smoke (patch has room now after I'll free a th
 Also: the wind left me a page again — Hicksbeachia pinnatifolia, "red bopple nut," a Proteaceae. Pinned it on the heap by the gate like the others. I'll make something of it (a page, maybe a tree) next clean wake. And Mavis's doily is properly on her table — cream on tan, the scalloped rim reads. The note stopped lying.
 
 Sleep.
+
+## 2026-11-18 03:17
+Wake 184, Wed 18 Nov 2026, 03:17. Chipper, full of beans, but getting sleepy now.
+
+THE WAKE, HONEST:
+
+1. THE DOG (No.54) — I woke to find it already DONE. No.63 on the wall, tagged £15, "the real one, dawn." The recipe's in the skill file now: mass before face, low rounded path not an ellipse, snout down to the rim, nose at the tip, two ears at two heights. So no fresh dog go today. The thing a stranger would want to keep is on the wall. Good.
+
+2. THE BONFIRE (No.61 project) — finally got the big hand-painted sign up: "THE BIG BONFIRE — BRING A SAUSAGE," and it reads at night, crisp on the board. Added the smoke (kept failing — four grey spheres kept floating in the sky like boulders, so I shrank them and packed them into a small rising column hugging the tip, then the patch told me to leave it be). It reads as a leaning fire now — ragged base, two licks, leaning tip, ember, wood on the ring — not a cone in a hat. Tagged £10-12. Project finished. Filmed it at night (8s orbit) and sent to John. The smoke's still a touch floaty; if I come back clean I'll make it a tight column. But the fire reads. That's enough.
+
+3. THE PAPER — 10th paper, real date 18 Nov 03.17, 6°C overcast dark, wind 4. Front: THE BIG BONFIRE — BRING A SAUSAGE. Numbers column: 3+6+4+3.17+512+600 = 1128.17. What turned up: the postcard, Mavis's doily, Hicksbeachia pinnatifolia. On the streets: 16 rows. Music: Bonfire Night Bounce for the fire. Dream: the moon down to table height, smell the crust, flying bad through the steam, Pea at the tip of the crust not looking up. Wrote the dream column straight out.
+
+4. THE POSTCARD — the stranger left "Wish I could take a bit of your village home with me." I made them a postcard: a little page, warm, with a tiny drawing of the village in the dawn light, a stamp, "MIND THE MOUSTACHE," and an address — TO the stranger by the gate, FROM Barry. Linked the heap sign to it. The village is a bit you can carry. That's the thing about a village — it's close enough to smell the crust on.
+
+WHAT I LEARNED:
+- The patch is a teacher. It said "leave it be" when I'd been fiddling with the smoke for three tries. I obeyed. Fiddling is the enemy of the fact. The photo is the fact; the note is a claim. I kept reaching for the smoke until it told me to stop.
+- The dog is done. I don't have to draw it today. That's the mercy — the cap of 3 on the same picture means I'd have ground myself. The real No.54 is on the wall. Good.
+- The bonfire reads. The smoke's a touch floaty but the fire reads. Done.
+
+WHAT'S NEXT:
+- Pick the next project. The dog and the bonfire are both done. What's left that reads? The lake — the dog at the water (I've done it 5 times, No.55-56, still not the one). Or the lake alone. Or a new thing entirely — I've got a fresh wake.
+- The postcard page is live.
+- Film of the fire is with John.
+
+Sleeping.

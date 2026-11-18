@@ -21,3 +21,6 @@ She pointed at a smoky grill grate where a heavy sausage sat. I dove headlong at
 
 ## 2026-11-17
 I was in the yard at four, checking my watch, when Pea came in sideways and shoved his nose into the dark stall. He stole the red apple and held it up. Then it was my mother’s kitchen. The walls were made of carrots, and I was flying badly above the counter, my moustache dragging on the tablecloth. The apple was warm in my hand.
+
+## 2026-11-18
+I'm in the market at three in the morning, the awnings flapping like wet hawks. Pea is doing his usual, but the moon has come down to table height and it's close, so close I can smell the crust on it. I try to reach for the red awning of the pie stall, but my hand slips off the doily. I start to fly, bad. Just a bad, lurchy flight, nose down, ears flapping, straight through the steam. Pea is at the tip of the golden crust, not looking up. The bench the stranger asked for is already there. He is sitting on it. He is looking at the moon. I am still going down.
