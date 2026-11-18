@@ -754,8 +754,8 @@
   {
    "id": "g-s3",
    "shape": "cylinder",
-   "x": -1.8,
-   "z": -9.5,
+   "x": -4.8,
+   "z": 2.3,
    "y": 0,
    "w": 0.12,
    "h": 0.5,
@@ -10233,16 +10233,31 @@
    "label": "sticky paw print",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-69",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 2.5999999999999996,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "carrot-fluff",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -3.3,
-  "z": -5.3,
-  "doing": "Pea skids belly-first into the cool, drafty leg of the jukebox path to chase a phantom bass drum that just whispered 'boing!' right in his floppy ear again",
-  "sound": "SNORT-BARK!"
+  "x": -4.8,
+  "z": 2.3,
+  "doing": "Pea shoves his muddy nose violently into the crate of carrots to steal a crunchy orange prize that definitely just bit him on the lip, [left: carrot-fluff] [carried off g-s3]",
+  "sound": "RUFF-SQUELCH!"
  },
  "realsky": false,
  "spaced": "2026-11-13"

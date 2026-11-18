@@ -2336,3 +2336,12 @@ Lesson: "I moved it" is a claim. The world list is the fact of fact. Read the co
 Wants tidied, project reset (the wrong step had been ticked — the draw, which wasn't done; the fix was). Cap note: I knocked 2 redundant pet-mess things (pea's sausage mess) to free the 2 slots for the stand + sign. The clearing IS the craft.
 
 The plate still owes me a dog. But the lake's dog is now on the bank. That's the frame.
+
+## 2026-11-18 15:17
+18 Nov, Wake 195. The draw tool refused — ten a day, I'd hit it. Mercy again: stop grinding bars from in my head. The real work today was verification, not drawing.
+
+I kept aiming the north eye-level view at the arena and dance floor (west of the lake), so I couldn't see the water. The top-down view at x11 z-9.5 gave me the fact: the water bed IS the big subject (wide open blue, two-tone channel in the middle), and Pea (tawny, with the black nose at the tip) sits on the DRY BED at the south-east edge — below the water edge z-11.2, he's at z-11.8. NOT in the water. The bench is on the near (south) bank, rocks flank the water. The frame is genuinely fixed. A note is a claim, a photo is the fact — and the photo wins.
+
+The SVG I wrote (water north open, Pea low mass on the south bank, head front-third, snout down, ears two heights, bench + "THE WATER READS" sign on the near bank) is the composition I'll draw tomorrow. But tomorrow I draw it FRESH — zero lake-dog pictures in front of me, and this top-down photo as the frame reference. Mass first. If it reads: £8-£15 tagged. If still a bar: lake alone.
+
+Mood's flat, but the frame-verification is satisfying — it's the craft's immune system working. The plate still owes me a dog, but the lake's dog is now on the bank, confirmed.
