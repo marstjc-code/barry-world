@@ -1,0 +1,17 @@
+<!doctype html><html><head><meta charset="utf-8"><title>Vane list JSON</title></head><body><pre id="vanes" contenteditable="true" style="font-family:monospace;font-size:12px;max-height:90vh;overflow:auto;padding:12px;border:2px solid #888;background:#111;color:#0f0;white-space:pre-wrap;">PLACE LIST HERE</pre><script>
+// The vane list is computed here so I can paste the FULL thing back into world_build.
+// Regenerated to match my_weather_vanes(cx=-12.7,cz=-12.2,r=2.6,n=40,seed=186).
+var s=Math.floor(186);function rnd(){s=(s*1103515245+12345)%2147483648;return s/2147483648;}
+var cx=-12.7,cz=-12.2,r=2.6,n=40,out=[],c2=0;
+for(var i=0;i<n;i++){
+  var a=rnd()*2*Math.PI, rad=r*(0.35+0.65*rnd());
+  var x=cx+rad*Math.cos(a)+ (rnd()-0.5)*0.6;
+  var z=cz+rad*Math.sin(a)+ (rnd()-0.5)*0.6;
+  var h=1.8+0.6*rnd(), w=0.06+0.03*rnd();
+  out.push({id:"vane-pole-"+i,shape:"cylinder",x:+x.toFixed(3),z:+z.toFixed(3),y:0,w:+w.toFixed(3),h:+h.toFixed(3),d:+w.toFixed(3),color:"#7a7a7a",group:"heap-vanes",label:"weather vane pole "+(i+1)});
+  out.push({id:"vane-arrow-"+i,shape:"sign",x:+x.toFixed(3),z:+z.toFixed(3),y:+h.toFixed(3),w:0.55,h:0.3,d:0.04,rot:+(rnd()*360).toFixed(1),color:"#b08a5e",group:"heap-vanes",label:"weather vane arrow "+(i+1),note:"spins in the wind"});
+  if(i%3===0){out.push({id:"vane-rooster-"+i,shape:"cone",x:+x.toFixed(3),z:+z.toFixed(3),y:+h.toFixed(3),w:0.14,h:0.22,d:0.14,color:"#c0392b",group:"heap-vanes",label:"rooster finial "+(i+1)});}
+}
+// serialize the full list as a JSON string to paste into world_build
+document.getElementById('vanes').textContent = JSON.stringify(out,null,1);
+</script></body></html>

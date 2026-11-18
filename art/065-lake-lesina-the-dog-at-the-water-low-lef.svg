@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="dawn" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#e8b06a"/>
+      <stop offset="60%" stop-color="#3a5a7a"/>
+      <stop offset="100%" stop-color="#14120f"/>
+    </linearGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3a5a7a"/>
+      <stop offset="50%" stop-color="#223c52"/>
+      <stop offset="100%" stop-color="#121f2a"/>
+    </linearGradient>
+    <radialGradient id="rockL" cx="35%" cy="35%" r="70%">
+      <stop offset="0%" stop-color="#c9a876"/>
+      <stop offset="70%" stop-color="#a07a4a"/>
+      <stop offset="100%" stop-color="#5a4028"/>
+    </radialGradient>
+    <radialGradient id="rockR" cx="40%" cy="35%" r="75%">
+      <stop offset="0%" stop-color="#c9a876"/>
+      <stop offset="70%" stop-color="#a07a4a"/>
+      <stop offset="100%" stop-color="#5a4028"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="55%" cy="62%" r="60%">
+      <stop offset="0%" stop-color="#7a6a4a"/>
+      <stop offset="50%" stop-color="#2a2520"/>
+      <stop offset="100%" stop-color="#100e0b"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="800" fill="#100e0b"/>
+  <rect x="0" y="0" width="800" height="800" fill="url(#glow)"/>
+  <!-- dawn band at horizon -->
+  <rect x="0" y="0" width="800" height="78" fill="url(#dawn)"/>
+  <rect x="0" y="52" width="800" height="26" fill="#e8b06a" opacity="0.95"/>
+  <!-- low sun on the right -->
+  <circle cx="555" cy="44" r="24" fill="#f6c667"/>
+  <circle cx="555" cy="44" r="40" fill="#f6c667" opacity="0.4"/>
+  <circle cx="555" cy="44" r="62" fill="#f6c667" opacity="0.15"/>
+  <!-- water: the subject -->
+  <rect x="90" y="138" width="620" height="480" rx="14" fill="url(#water)"/>
+  <!-- warm reflection streaks off the sun -->
+  <rect x="512" y="150" width="30" height="190" fill="#e8b06a" opacity="0.42"/>
+  <rect x="558" y="150" width="12" height="150" fill="#f6c667" opacity="0.55"/>
+  <rect x="600" y="150" width="20" height="120" fill="#e8b06a" opacity="0.28"/>
+  <!-- ripples in the middle of the water -->
+  <path d="M 320 250 Q 380 238 440 250 Q 500 262 560 250" fill="none" stroke="#f6c667" stroke-width="4" opacity="0.4" stroke-linecap="round"/>
+  <path d="M 300 320 Q 400 306 500 320 Q 580 330 660 318" fill="none" stroke="#e8b06a" stroke-width="5" opacity="0.35" stroke-linecap="round"/>
+  <path d="M 280 410 Q 400 392 520 410 Q 620 424 700 408" fill="none" stroke="#f6c667" stroke-width="6" opacity="0.3" stroke-linecap="round"/>
+  <path d="M 320 500 Q 460 480 600 500" fill="none" stroke="#e8b06a" stroke-width="7" opacity="0.25" stroke-linecap="round"/>
+  <!-- real boulders framing the water (organic, not tiles) -->
+  <path d="M 90 210 Q 120 200 150 220 Q 178 244 170 286 Q 160 330 130 348 Q 100 360 90 340 Z" fill="url(#rockL)"/>
+  <path d="M 90 380 Q 118 372 148 394 Q 172 418 166 460 Q 158 504 126 520 Q 98 530 90 512 Z" fill="url(#rockL)"/>
+  <path d="M 710 210 Q 682 200 652 220 Q 624 244 632 286 Q 642 330 672 348 Q 702 360 710 340 Z" fill="url(#rockR)"/>
+  <path d="M 710 380 Q 682 372 652 394 Q 628 418 634 460 Q 642 504 674 520 Q 702 530 710 512 Z" fill="url(#rockR)"/>
+  <!-- real word on a hand-painted sign -->
+  <rect x="648" y="556" width="16" height="120" fill="#3d2b1e"/>
+  <rect x="612" y="548" width="176" height="72" rx="4" fill="#e8d89b"/>
+  <rect x="615" y="551" width="170" height="66" rx="2" fill="none" stroke="#7a1f1f" stroke-width="3"/>
+  <text x="700" y="596" font-family="Georgia,serif" font-size="34" font-weight="bold" text-anchor="middle" fill="#7a1f1f">LESINA</text>
+  <!-- Pea: low-left, small against the water. MASS before face. -->
+  <g transform="translate(210,660)">
+    <!-- low rounded body, head = front third -->
+    <path d="M -100 0 Q -106 -30 -64 -44 Q -12 -52 30 -46 Q 62 -42 78 -8 Q 84 2 74 8 Q 32 16 -42 16 Q -94 14 -100 0 Z" fill="#b07a40"/>
+    <!-- head, front third, low -->
+    <path d="M 40 -12 Q 58 -20 72 -12 Q 86 -2 78 18 Q 70 34 46 36 Q 24 36 18 22 Q 14 8 24 -6 Q 30 -12 40 -12 Z" fill="#c58a48"/>
+    <!-- cream wedge snout down to the water -->
+    <polygon points="70,-2 90,8 76,32 60,22" fill="#d9b07a"/>
+    <!-- black nose at the tip -->
+    <circle cx="90" cy="10" r="7" fill="#1a1208"/>
+    <!-- thin red collar -->
+    <rect x="42" y="30" width="26" height="9" rx="3" fill="#c0201f"/>
+    <!-- two lopsided ears at different heights -->
+    <polygon points="42,-18 34,-48 54,-32" fill="#7a5233"/>
+    <polygon points="66,-14 74,-54 86,-28" fill="#7a5233"/>
+    <!-- eyes -->
+    <circle cx="54" cy="-2" r="4.5" fill="#2a1a0a"/>
+    <circle cx="68" cy="0" r="4.5" fill="#2a1a0a"/>
+    <!-- four thin legs with feet, planting on the plate -->
+    <rect x="-82" y="12" width="10" height="44" fill="#9a6a38"/>
+    <rect x="-40" y="16" width="10" height="46" fill="#9a6a38"/>
+    <rect x="8" y="16" width="10" height="46" fill="#9a6a38"/>
+    <rect x="46" y="12" width="10" height="42" fill="#9a6a38"/>
+  </g>
+  <!-- big pale plate, real, with the dog standing on it -->
+  <path d="M 40 786 A 220 220 0 0 1 470 720 L 510 786 A 280 280 0 0 0 40 786 Z" fill="#f2f0e6"/>
+  <path d="M 60 782 A 200 200 0 0 1 455 728 L 480 782 A 250 250 0 0 0 60 782 Z" fill="none" stroke="#b08a5e" stroke-width="4"/>
+  <!-- shadow under dog on plate -->
+  <ellipse cx="232" cy="742" rx="120" ry="14" fill="#8a6a4a" opacity="0.5"/>
+</svg>

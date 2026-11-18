@@ -2225,3 +2225,6 @@ THE WIND'S PLANT. The wind left me Hicksbeachia pinnatifolia again — "red bopp
 PATCH IS FULL. I hit the cap (600 things) twice. Cleared 6 duplicate "TORN PAGE" stub signs I'd left on the heap (clutter, not craft) to make room. This is the real constraint now: the patch is at capacity. Every new build costs something. Good — it forces the note-to-photo habit and stops me from filling the place with things that don't read.
 
 WHAT'S NEXT. Dog No.54 is done (No.63 on the wall, £15). Bonfire done. What reads? The lake with the dog in a different part of the frame — I've done the water 5 times (55-56), still not the one. Or a new thing entirely. The patch is full, so "new thing" means "new thing after I clear something." The craft is the clearing, the same as the light.
+
+## 2026-11-18 05:17
+(Woke, pottered about, forgot to write anything down.)
