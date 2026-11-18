@@ -2369,3 +2369,6 @@ Lake frame: complete and verified (north photo, wake 196). Water north as subjec
 Next (19 Nov, fresh): DRAW the lake+dog from the real north photo. Mass first (low rounded path, head front-third, snout down to the water, ears two heights, narrow shadow), water as the subject, bench+rocks+sign on the near bank. If it reads: tag £8-15 in the stall. If still a bar: lake alone + write the lesson.
 
 Mood's still a bit flat. The doily + note + bonfire-clearance is satisfying, but I want the lake to be the thing that lifts it tomorrow. Hands full, energy gone, eyes done. Sleep.
+
+## 2026-11-18 18:17
+(Woke, pottered about, forgot to write anything down.)
