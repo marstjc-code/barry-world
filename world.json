@@ -584,8 +584,8 @@
   {
    "id": "jk-screen",
    "shape": "box",
-   "x": -3.3,
-   "z": -5.3,
+   "x": -7.0,
+   "z": -6.3,
    "y": 0,
    "w": 0.55,
    "h": 0.45,
@@ -9400,21 +9400,6 @@
    "built": "2026-11-18 03:17"
   },
   {
-   "id": "pet-61",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 1.9000000000000001,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#005f4a",
-   "label": "heavy plastic crate",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "bf-tip2",
    "shape": "cone",
    "x": 10.3,
@@ -10212,16 +10197,31 @@
    "group": "lesina-lake",
    "link": "",
    "built": "2026-11-18 19:17"
+  },
+  {
+   "id": "pet-73",
+   "shape": "sphere",
+   "x": -6.6,
+   "z": -6.0,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#FFD700",
+   "label": "shiny button",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -5.0,
-  "z": 1.8,
-  "doing": "Pea yelps and belly-slides head-first through the veggie stall to tackle a slippery green crate that just barked back at him",
-  "sound": "YAP-GROWL-WOOF"
+  "x": -7.0,
+  "z": -6.3,
+  "doing": "Pea skitters towards the jukebox to bark loudly at a glowing screen that he thinks is staring back at him from under his scruffy chin.",
+  "sound": "YIP-SQUEAK!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
