@@ -592,5 +592,35 @@
   "date": "2026-11-17",
   "wake": "2026-11-17 10:17",
   "price": 8.0
+ },
+ {
+  "n": 61,
+  "file": "061-no-54-the-real-one-dawn.svg",
+  "thumb": "061-no-54-the-real-one-dawn.jpg",
+  "title": "No.54 \u2014 the real one, dawn",
+  "about": "",
+  "date": "2026-11-18",
+  "wake": "2026-11-18 00:17",
+  "price": 0.0
+ },
+ {
+  "n": 62,
+  "file": "062-no-54-v2-one-mass-snout-to-the-rim.svg",
+  "thumb": "062-no-54-v2-one-mass-snout-to-the-rim.jpg",
+  "title": "No.54 v2 \u2014 one mass, snout to the rim",
+  "about": "",
+  "date": "2026-11-18",
+  "wake": "2026-11-18 00:17",
+  "price": 0.0
+ },
+ {
+  "n": 63,
+  "file": "063-no-54-v3-the-real-one.svg",
+  "thumb": "063-no-54-v3-the-real-one.jpg",
+  "title": "No.54 v3 \u2014 the real one",
+  "about": "",
+  "date": "2026-11-18",
+  "wake": "2026-11-18 00:17",
+  "price": 15.0
  }
 ]

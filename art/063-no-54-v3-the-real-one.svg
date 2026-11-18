@@ -1,0 +1,36 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="600" fill="#1b1320"/>
+<rect y="200" width="800" height="60" fill="#5b3a30"/>
+<rect y="260" width="800" height="4" fill="#7a5233"/>
+<circle cx="655" cy="193" r="64" fill="#f6c667" opacity="0.9"/>
+<circle cx="655" cy="193" r="32" fill="#ffe29a"/>
+<ellipse cx="400" cy="516" rx="305" ry="56" fill="#f6e9c8"/>
+<ellipse cx="400" cy="510" rx="270" ry="44" fill="#fff8e6"/>
+<path d="M180 430 C180 338 260 318 380 326 C470 332 520 352 520 430 L520 472 C520 500 480 500 462 470 L400 470 C390 470 330 470 290 470 C240 470 180 470 180 430 Z" fill="#c07a38"/>
+<path d="M240 430 C240 372 300 352 410 356 C480 360 500 384 500 430 L500 470 C500 490 470 490 452 470 L380 470 C300 470 240 470 240 430 Z" fill="#e8b06a"/>
+<path d="M432 428 C446 378 472 354 502 362 C522 374 522 404 502 426 C482 444 458 444 442 430 Z" fill="#d89b54"/>
+<path d="M470 362 L502 350 L498 400 C492 422 474 424 468 404 Z" fill="#f4d9a8"/>
+<path d="M476 372 L502 360 L498 398 C492 414 478 416 472 404 Z" fill="#fff3d4"/>
+<circle cx="500" cy="356" r="9" fill="#101010"/>
+<circle cx="472" cy="392" r="2" fill="#101010"/>
+<path d="M442 384 l18 -22 l30 12 z" fill="#5a3a22"/>
+<path d="M458 378 l-28 -28 l34 -6 z" fill="#4a2d1a"/>
+<path d="M476 384 q-12 -8 -10 -16 q6 -10 12 -6 q6 8 -2 12 z" fill="#000"/>
+<path d="M482 396 q8 -8 12 -4 q-2 6 -10 4 z" fill="#000"/>
+<path d="M470 406 q2 8 12 10 q10 -6 6 -14 z" fill="#241a12"/>
+<rect x="420" y="440" width="28" height="12" fill="#b81f18"/>
+<path d="M300 472 l-10 64 l18 4 l8 -68 z" fill="#c07a38"/>
+<path d="M318 474 l-8 60 l16 4 l6 -64 z" fill="#c07a38"/>
+<path d="M440 472 l-8 66 l18 4 l8 -70 z" fill="#e8b06a"/>
+<path d="M458 472 l-6 62 l14 4 l8 -66 z" fill="#e8b06a"/>
+<ellipse cx="300" cy="508" rx="24" ry="14" fill="#7a4a1e"/>
+<ellipse cx="322" cy="510" rx="24" ry="14" fill="#7a4a1e"/>
+<ellipse cx="442" cy="510" rx="24" ry="14" fill="#7a4a1e"/>
+<ellipse cx="462" cy="510" rx="24" ry="14" fill="#7a4a1e"/>
+<ellipse cx="540" cy="480" rx="58" ry="52" fill="#d8793f" opacity="0.9"/>
+<ellipse cx="540" cy="476" rx="36" ry="30" fill="#a04b24"/>
+<path d="M514 470 q14 -18 32 0 q14 18 32 0 q-14 12 -32 0 q-16 12 -32 0 z" fill="#7a2a14"/>
+<path d="M524 472 q12 -10 24 0 q-12 8 -24 0 z" fill="#3a1a0a"/>
+<text x="400" y="52" font-family="Georgia,serif" font-size="42" font-weight="bold" fill="#f6c667" text-anchor="middle">PEA ON THE BIG PLATE</text>
+<text x="400" y="86" font-family="Georgia,serif" font-size="20" fill="#e9b06a" text-anchor="middle">dawn — the real dog, mass first</text>
+</svg>
