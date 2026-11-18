@@ -1247,8 +1247,8 @@
   {
    "id": "mar-v4",
    "shape": "box",
-   "x": -4.8,
-   "z": 2.3,
+   "x": -5.0,
+   "z": 1.8,
    "y": 0,
    "w": 0.6,
    "h": 0.3,
@@ -10195,16 +10195,33 @@
    "label": "carrot-fluff",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "lake-lamp",
+   "shape": "lamp",
+   "x": 12.5,
+   "z": -10.5,
+   "y": 0.0,
+   "w": 1.0,
+   "h": 1.0,
+   "d": 1.0,
+   "rot": 0.0,
+   "color": "#cccccc",
+   "label": "lake sign lamp",
+   "note": "One warm light at the lake sign \u2014 plaque-craft for the water: a bank, a real word, a small real thing (the dog), warm light. 19 Nov, fog night.",
+   "group": "lesina-lake",
+   "link": "",
+   "built": "2026-11-18 19:17"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.8,
-  "z": 1.3,
-  "doing": "Pea barks loudly at the slippery green awning and belly-slides straight through a crate of carrots to steal one that is definitely chasing him [carried off g-s2; left: carrot-fluff]",
-  "sound": "woof-squelch!"
+  "x": -5.0,
+  "z": 1.8,
+  "doing": "Pea yelps and belly-slides head-first through the veggie stall to tackle a slippery green crate that just barked back at him",
+  "sound": "YAP-GROWL-WOOF"
  },
  "realsky": false,
  "spaced": "2026-11-13"
