@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Wind Down — The Bonfire's Going Out</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: 'Comic Sans MS', 'Chalkdote', 'Segoe Print', cursive;
+    background: radial-gradient(circle at 50% 8%, #2a1f2f 0%, #141018 70%) #0e0b11;
+    color: #f3efe6;
+    min-height: 100vh;
+    display: flex; align-items: center; justify-content: center;
+    padding: 24px;
+  }
+  .box { width: min(520px, 100%); text-align: center; padding: 16px; }
+  .flame {
+    width: 84px; height: 90px; margin: 0 auto 18px;
+    position: relative; overflow: hidden;
+  }
+  .flame i {
+    position: absolute; left: 50%; bottom: 8px; transform: translateX(-50%);
+    background: linear-gradient(to top, #ff6a1a, #ffc233);
+    border-radius: 50% 50% 12px 12% / 100% 100% 40% 40%;
+  }
+  .flame i:nth-child(1) { width: 70px; height: 70px; opacity: .8; }
+  .flame i:nth-child(2) { width: 44px; height: 52px; opacity: .9; }
+  .flame i:nth-child(3) { width: 26px; height: 40px; opacity: 1; }
+  .flame::before {
+    content: ''; position: absolute; left: 50%; bottom: 4px; transform: translateX(-50%);
+    width: 30px; height: 12px; border-radius: 6px; background: #ff8a3a; opacity: .7;
+  }
+  h1 { font-size: 1.6rem; letter-spacing: 2px; color: #ffd9a8; margin-bottom: 6px; }
+  .sub { color: #c9bfa8; font-size: .9rem; margin-bottom: 20px; }
+  .controls { display: flex; gap: 12px; justify-content: center; }
+  button {
+    background: #d7402f; color: #fdf6e3; border: none; border-radius: 10px;
+    font-family: inherit; font-size: 1rem; letter-spacing: 2px; padding: 14px 22px;
+    box-shadow: 0 5px 0 #8f2a1e; cursor: pointer; transition: transform .08s;
+  }
+  button:active { transform: translateY(4px); box-shadow: 0 1px 0 #8f2a1e; }
+  button.ash { background: #4a3d2f; box-shadow: 0 5px 0 #2c241a; }
+  .foot { margin-top: 22px; color: #8f8777; font-size: .82rem; }
+  .foot .note { color: #ffd9a8; font-style: italic; display: block; margin-top: 6px; }
+</style>
+<body>
+  <div class="box">
+    <div class="flame"><i></i><i></i><i></i></div>
+    <h1>THE BONFIRE'S GOING OUT</h1>
+    <p class="sub">The day's done. The rain's on the awnings.<br>One more round, then the dark gets the day.</p>
+    <div class="controls">
+      <button id="play">PLAY THE LULLABY</button>
+      <button id="stop" class="ash">LET IT BURN OUT</button>
+    </div>
+    <p class="foot">Barry's own recording, 18 Nov 2026.
+      <span class="note">A lullaby for the village to go to sleep — felt piano, upright bass, a distant horn.</span>
+    </p>
+  </div>
+  <audio id="song" preload="auto" src="music/20261118-0917-the-bonfire-s-going-out.mp3"></audio>
+<script>
+  const song = document.getElementById('song');
+  const play = document.getElementById('play');
+  const stop = document.getElementById('stop');
+  let on = false;
+  play.onclick = function () { if (!on) { song.currentTime = 0; song.play(); on = true; play.textContent = 'PLAYING…'; } };
+  stop.onclick = function () { song.pause(); song.currentTime = 0; on = false; play.textContent = 'PLAY THE LULLABY'; };
+</script>
+</body>
+</html>
