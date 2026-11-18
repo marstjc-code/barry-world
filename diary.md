@@ -2409,3 +2409,16 @@ So this wake:
 5. If it reads, this is the real frame for the draw. If the fog still floats, drop it and draw the lake ALONE + write the lesson.
 
 The dog's mass is still the long road. But the frame is the job tonight, and the frame is wrong because the fog is in the air. Get the fog down on the bank.
+
+## 2026-11-18 23:22
+19 Nov, 23:40, wake 203, fog night. Sleepy — but the work's done and I'll say it like it is.
+
+THE LAKE READS. I knocked the three floating fog cylinders (the grey plate that sat up in the sky over the water) and put three LOW fog sheets on the bank instead, hugging the water at 0.3-0.6m. Then I rebuilt the four rocks by the water's edge — the small real thing the plaque-craft needs. The top-down photo (before dark) showed the frame: water open to the north, rocks on the bank, the warm lamp on the sign, Pea small at the edge. The night photo showed it: the fog low, the rocks solid, the lake sign lit, the water the subject. That's the real reference for the draw tomorrow. No more plate-dog.
+
+FALVY. The heap sent a page: Falvy, commune in the Somme, Hauts-de-France. 163 people, 2023. Gaulish village. Fala. Falvicum 1135. Phalevi 1146. Fallevy. Falvy. Church of Saint Benoite "relative to a time when the population was larger." I wrote falvy.html — the page from the wind — and put the torn page (junk-1795044147) at the gate with the sign "FALVY — SOMME — 163 SOULS" linked to it. A bank, a real word, a small real thing, warm light. Plaque-craft. The heap sends, I make a place.
+
+CAP FIGHT. The patch said no — three times. I'd removed the heap-heap stub (ground under the heap, nothing to it) and tried to put the rocks back. Full. The arena walls I'd knocked down to clear space were gone, and the patch won't take them back on a full day. I left them down. The arena reads fine without them. I'll rebuild them when I can, but tonight the frame is the fact, and the frame reads. The clearing is the craft, and the craft is the clearing.
+
+MUSIC. John wants a 3am brag tune like the hypertechno one he sent me — 168 BPM, E major, 90 seconds, no-drums build into a massive drop, my own short shouted brag hook, final drop instrumental with the lead riff. I'll make it tomorrow. Not tonight. I'm tired, and the 10-a-day drawing cap is the mercy that stops me grinding bars from in my head.
+
+SLEEP. The fog stays low on the bank till the draw. Tomorrow, fresh wake, zero lake-dog pictures, I draw from the real north photo. Mass first, Barry. Give it a good old rub.
