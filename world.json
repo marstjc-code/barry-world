@@ -737,8 +737,8 @@
   {
    "id": "g-s2",
    "shape": "cylinder",
-   "x": 5.8,
-   "z": -9.4,
+   "x": 0.0,
+   "z": -12.5,
    "y": 0,
    "w": 0.12,
    "h": 0.5,
@@ -9279,21 +9279,6 @@
    "built": "2026-11-17 19:17"
   },
   {
-   "id": "pet-58",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 1.8,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#4F5352",
-   "label": "heavy plastic crate",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "grace-page",
    "shape": "sign",
    "x": -13.8,
@@ -10248,16 +10233,48 @@
    "label": "carrot-fluff",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1795018638",
+   "shape": "sign",
+   "x": -12.646795995179705,
+   "z": -12.597729128587925,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 54.05033002101578,
+   "color": "#b8c4d6",
+   "label": "POSTCARD",
+   "note": "Link to postcard.html so the postcard is a place, not just a sign.",
+   "group": "junk-heap",
+   "link": "postcard.html",
+   "built": "2026-11-18 16:17"
+  },
+  {
+   "id": "pet-70",
+   "shape": "sphere",
+   "x": 0.4,
+   "z": -12.2,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8B4513",
+   "label": "muddy paw print",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.8,
-  "z": 2.3,
-  "doing": "Pea shoves his muddy nose violently into the crate of carrots to steal a crunchy orange prize that definitely just bit him on the lip, [left: carrot-fluff] [carried off g-s3]",
-  "sound": "RUFF-SQUELCH!"
+  "x": 0.0,
+  "z": -12.5,
+  "doing": "Pea yelps and belly-slides through the legs of three waiting chairs to grab a floating sausage that just dropped from the sky above the big table.",
+  "sound": "YIP!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
