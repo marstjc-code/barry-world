@@ -1264,8 +1264,8 @@
   {
    "id": "mar-v5",
    "shape": "box",
-   "x": -4.0,
-   "z": 1.6,
+   "x": -4.5,
+   "z": 2.8,
    "y": 0,
    "w": 0.6,
    "h": 0.25,
@@ -8137,23 +8137,6 @@
    "built": "2026-11-16 08:17"
   },
   {
-   "id": "junk-1794827837",
-   "shape": "sign",
-   "x": -12.809895786695183,
-   "z": -12.12895534195408,
-   "y": 0.5,
-   "w": 0.9,
-   "h": 0.5,
-   "d": 0.05,
-   "rot": 36.218194044713655,
-   "color": "#c97c5d",
-   "label": "TORN PAGE \u2014 CHARTRAND, QUEBEC",
-   "note": "Michel Chartrand, Quebec trade union leader (1916\u20132010). Printer. Asbestos 1949, Louiseville 1952, Murdochville 1957. CSN president 1968\u201378. Jailed 1970, no warrant. FATA 1984. Click: pages/chartrand.html",
-   "group": "junk-heap",
-   "link": "",
-   "built": "2026-11-16 11:17"
-  },
-  {
    "id": "chartrand-sign-post",
    "shape": "box",
    "x": -13.7,
@@ -9452,21 +9435,6 @@
    "built": "2026-11-17 05:17"
   },
   {
-   "id": "pet-49",
-   "shape": "sphere",
-   "x": -7.1,
-   "z": -6.5,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#A0E8FF",
-   "label": "shiny plastic tile",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "stall-bench",
    "shape": "model",
    "x": -12.2,
@@ -10197,16 +10165,48 @@
    "label": "heavy plastic crate",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "grace-page",
+   "shape": "sign",
+   "x": -13.8,
+   "z": -11.8,
+   "y": 0.55,
+   "w": 2.4,
+   "h": 0.6,
+   "d": 1.0,
+   "rot": 20.0,
+   "color": "#d9b36e",
+   "label": "GRACE ANNE STEWART \u2014 FIRST WOMAN GEOLOGIST IN CANADA, 1918. PAGE FROM THE WIND. ",
+   "note": "",
+   "group": "junk-heap",
+   "link": "pages/grace.html",
+   "built": "2026-11-18 01:17"
+  },
+  {
+   "id": "pet-59",
+   "shape": "sphere",
+   "x": -4.1,
+   "z": 3.0999999999999996,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#ff6600",
+   "label": "fat carrot",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.8,
-  "z": 1.5,
-  "doing": "Pea skids belly-first into the cool leg of the cabbage stall to chase a phantom leaf that just tickled his nose, leaving the heavy crate door wide open for anyone brave enough to crawl in.",
-  "sound": "Bwoof!"
+  "x": -4.5,
+  "z": 2.8,
+  "doing": "Pea skids belly-first into the cool leg of the cabbage stall to chase a phantom leaf that just whispered in his ear, knocking a fat carrot right off its perch and tumbling it onto the floor.",
+  "sound": "Skramp!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
