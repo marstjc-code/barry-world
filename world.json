@@ -584,8 +584,8 @@
   {
    "id": "jk-screen",
    "shape": "box",
-   "x": -7.0,
-   "z": -6.3,
+   "x": -3.2,
+   "z": 4.7,
    "y": 0,
    "w": 0.55,
    "h": 0.45,
@@ -10205,16 +10205,48 @@
    "label": "cracked carrot",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1795108638",
+   "shape": "sphere",
+   "x": -14.909738080794908,
+   "z": -12.502758261795726,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 81.29265205189142,
+   "color": "#c97c5d",
+   "label": "",
+   "note": "A lorry got lost and dropped off forty bird boxes by mistake. They're yours now.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-19 17:17"
+  },
+  {
+   "id": "pet-4",
+   "shape": "sphere",
+   "x": -2.8000000000000003,
+   "z": 5.0,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#5c4e3b",
+   "label": "muddy paw-print",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.8,
-  "z": 1.4,
-  "doing": "Pea dives straight into the crate of carrots at the veg stall to steal the one left behind and bounces away with a giant mouthful of orange crunch.",
-  "sound": "YORKIE-BARK-CHOMP"
+  "x": -3.2,
+  "z": 4.7,
+  "doing": "Pea slides headfirst into the muddy patch where his own shadow wobbles and barks aggressively at a passing duck as he drools onto the damp earth.",
+  "sound": "woof-bloop-rip"
  },
  "realsky": false,
  "spaced": "2026-11-13"
