@@ -1,0 +1,90 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="fog" cx="64%" cy="26%" r="82%">
+      <stop offset="0%" stop-color="#efe8d9"/>
+      <stop offset="48%" stop-color="#d0d4d6"/>
+      <stop offset="78%" stop-color="#b3bcc0"/>
+      <stop offset="100%" stop-color="#8f9aa0"/>
+    </radialGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#738fa2"/>
+      <stop offset="50%" stop-color="#56728a"/>
+      <stop offset="100%" stop-color="#435769"/>
+    </linearGradient>
+    <linearGradient id="bank" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#7a6e54"/>
+      <stop offset="100%" stop-color="#443c30"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#fff3cd" stop-opacity="0.95"/>
+      <stop offset="55%" stop-color="#ffcc77" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ffcc77" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="dawnpool" cx="74%" cy="38%" r="45%">
+      <stop offset="0%" stop-color="#ffe9c0" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#ffe9c0" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <!-- sky / fog: full bleed -->
+  <rect width="800" height="800" fill="url(#fog)"/>
+  <rect width="800" height="800" fill="url(#dawnpool)"/>
+  <!-- far bank line, faint, in the mist -->
+  <path d="M 0 344 Q 400 326 800 344 L 800 362 Q 400 348 0 362 Z" fill="#b9b2a6" opacity="0.40"/>
+  <!-- LAKE: open water, NO frame — it bleeds to the page edge -->
+  <path d="M 0 372 L 800 372 L 800 580 Q 400 608 0 580 Z" fill="url(#water)"/>
+  <!-- soft ripples: low opacity, wide, not stripes -->
+  <path d="M 0 415 Q 400 404 800 415 L 800 422 Q 400 411 0 422 Z" fill="#cfd8dd" opacity="0.22"/>
+  <path d="M 0 462 Q 400 453 800 462 L 800 470 Q 400 461 0 470 Z" fill="#cfd8dd" opacity="0.18"/>
+  <path d="M 0 512 Q 400 504 800 512 L 800 520 Q 400 512 0 520 Z" fill="#cfd8dd" opacity="0.15"/>
+  <!-- low fog hugging the FAR bank -->
+  <path d="M 0 372 L 800 372 L 800 416 Q 400 390 0 416 Z" fill="#e1e7e7" opacity="0.60"/>
+  <!-- low fog across the water (soft) -->
+  <path d="M 0 452 Q 400 442 800 452 L 800 488 Q 400 478 0 488 Z" fill="#d6dde0" opacity="0.48"/>
+  <!-- low fog hugging the NEAR bank -->
+  <path d="M 0 560 Q 400 585 800 560 L 800 600 Q 400 622 0 600 Z" fill="#dfe5e5" opacity="0.70"/>
+  <!-- near bank (south) -->
+  <path d="M 0 560 Q 400 585 800 560 L 800 760 Q 400 800 0 760 Z" fill="url(#bank)"/>
+  <!-- stones on the water's edge — softened into the mist -->
+  <ellipse cx="130" cy="576" rx="28" ry="16" fill="#5f5549" opacity="0.75"/>
+  <ellipse cx="205" cy="580" rx="22" ry="14" fill="#58574e" opacity="0.70"/>
+  <ellipse cx="470" cy="576" rx="26" ry="15" fill="#635b4f" opacity="0.70"/>
+  <ellipse cx="520" cy="570" rx="20" ry="12" fill="#545249" opacity="0.65"/>
+  <!-- bench on the near bank -->
+  <rect x="350" y="650" width="130" height="22" rx="6" fill="#6b5637"/>
+  <rect x="350" y="672" width="130" height="12" rx="4" fill="#57452e"/>
+  <!-- hand-painted sign, fully inside the canvas, in warm light -->
+  <circle cx="560" cy="520" r="130" fill="url(#glow)"/>
+  <rect x="410" y="498" width="300" height="44" rx="6" fill="#e8d89b" stroke="#7a6a34" stroke-width="3"/>
+  <text x="560" y="528" text-anchor="middle" font-family="Georgia,serif" font-size="21" fill="#3a2d10" font-weight="bold">THE WATER READS</text>
+  <!-- the dog — MASS first. small against the water but clearly a dog. low tawny capsule -->
+  <g transform="translate(200,690)">
+    <!-- narrow shadow -->
+    <ellipse cx="30" cy="46" rx="60" ry="10" fill="#2f2a20" opacity="0.30"/>
+    <!-- body: low rounded capsule -->
+    <path d="M -42 24 Q -30 0 12 0 Q 54 0 78 20 Q 82 28 70 30 L -16 30 Q -46 27 -42 24 Z" fill="#b08a5a"/>
+    <!-- darker back -->
+    <path d="M -24 9 Q 14 2 50 3 Q 66 5 74 17 L 66 21 Q 28 11 2 13 Z" fill="#8f6a3d" opacity="0.55"/>
+    <!-- lighter chest -->
+    <ellipse cx="-26" cy="20" rx="18" ry="12" fill="#d8b986" opacity="0.8"/>
+    <!-- head = front THIRD of the mass, low, touching body -->
+    <path d="M 40 6 Q 74 0 90 14 Q 98 25 84 33 Q 66 38 44 34 Q 30 28 32 16 Z" fill="#b08a5a"/>
+    <!-- cream snout DOWN to the bank rim -->
+    <path d="M 72 22 Q 88 23 90 34 Q 90 40 80 38 Q 68 33 72 22 Z" fill="#e6c99a"/>
+    <!-- black nose AT the tip -->
+    <ellipse cx="86" cy="37" rx="5.5" ry="4.5" fill="#1c1814"/>
+    <!-- one dark eye dot -->
+    <circle cx="66" cy="16" r="2.6" fill="#1c1814"/>
+    <!-- lopsided ears, DIFFERENT heights, touching the head -->
+    <path d="M 46 4 Q 43 -8 51 -10 Q 57 -12 57 -1 Q 56 4 50 5 Z" fill="#7a5530"/>
+    <path d="M 60 0 Q 57 -14 64 -16 Q 71 -18 72 -4 Q 71 2 62 1 Z" fill="#6f502c"/>
+    <!-- four thin legs with feet -->
+    <rect x="-28" y="26" width="7" height="20" rx="2" fill="#a9824f"/>
+    <rect x="-11" y="27" width="7" height="20" rx="2" fill="#a9824f"/>
+    <rect x="40" y="29" width="7" height="20" rx="2" fill="#9d7a45"/>
+    <rect x="52" y="27" width="7" height="20" rx="2" fill="#9d7a45"/>
+    <!-- red collar behind the head -->
+    <rect x="40" y="16" width="9" height="4" rx="2" fill="#a0302a"/>
+  </g>
+  <!-- fog low across the near bank, soft -->
+  <path d="M 0 660 Q 400 642 800 660 L 800 720 Q 400 702 0 720 Z" fill="#dfe6e6" opacity="0.26"/>
+</svg>

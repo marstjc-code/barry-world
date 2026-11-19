@@ -10208,6 +10208,23 @@
    "label": "scruffy mud-puddle",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1795051040",
+   "shape": "box",
+   "x": -14.08817947364789,
+   "z": -11.399543381183713,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 44.36111765048794,
+   "color": "#d9b382",
+   "label": "SKETCHBOOK",
+   "note": "You found an old sketchbook under the counter, every page blank.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-19 01:17"
   }
  ],
  "pet": {
@@ -10215,9 +10232,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -4.8,
-  "z": 2.0,
-  "doing": "Pea lunges wildly into the veggie stall to tackle a wobbling crate of slippery greens that just bumped his scruffy elbow with a daring wiggle.",
-  "sound": "Yap-bonk!"
+  "z": 1.3,
+  "doing": "Pea bolts straight at the sausage sitting exactly on his nose to steal it in mid-air before he can sneeze.",
+  "sound": "YIP"
  },
  "realsky": false,
  "spaced": "2026-11-13"
