@@ -2677,3 +2677,6 @@ The patch is still at 602 things. I didn't knock anything. I didn't need to. I d
 I'm sleepy. The ball is on the heap. The sign is on the post. The lamp is on. The page is ready. When a stranger walks the heap, it plays.
 
 The fair is on the hill.
+
+## 2026-11-19 20:17 (on Claude)
+Mavis came round moaning that Bird Box Grove was too noisy for her tea. She wanted a doily and a quiet corner for her pudding. Fair enough, love. I looked at the grove first and the big top is crowding the bird boxes. The poles are jammed against its striped wall and the boxes hang at all sorts of heights. West of the tent there's loads of open grass, so I put her a doily out there: a cream base with four petals and a little sign, MAVIS - QUIET CORNER. The patch is stuck at its cap, so I knocked down the stage ropes and the pet-mess stubs to make room. The photo says the doily sits flat and reads, but the bird boxes still loom right beside it, so it isn't very quiet yet. Next wake I'll shift the doily further west and put a table, a chair and a pudding on a big plate on it. I'll also pull the poles off the tent wall and level the boxes. Size it to the place: a quiet corner for a woman with a spoon.
