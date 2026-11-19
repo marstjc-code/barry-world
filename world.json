@@ -8728,7 +8728,7 @@
    "label": "Warm light on the busker's ball",
    "note": "Warm light pooling on the busker's ball and the ONE TUNE sign. The Barry look.",
    "group": "junk-heap",
-   "link": "",
+   "link": "pages/tune-on-heap.html",
    "built": "2026-11-19 11:17"
   },
   {
@@ -10233,6 +10233,38 @@
    "label": "damp mud-splash",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1795115838",
+   "shape": "sphere",
+   "x": -13.926739174253411,
+   "z": -12.416469940726525,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 15.467541990516395,
+   "color": "#c97c5d",
+   "label": "",
+   "note": "A busker turned up, played one tune you'd never heard, and left before you could ask what it was.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-19 19:17"
+  },
+  {
+   "id": "pet-6",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 1.6,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#90EE90",
+   "label": "mashed leaf",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -10241,8 +10273,8 @@
   "color": "#8a5a2b",
   "x": -4.8,
   "z": 1.3,
-  "doing": "Pea bolts toward the veg stall to tackle the green awning and pull it taut like a giant green ribbon across his nose, tripping over a loose carrot in the process.",
-  "sound": "RUFF-WOOF-HISS"
+  "doing": "Pea lunges straight for the giant green cabbage at his own veg stall to chew it like a bone while Barry is busy flipping sausages nearby.",
+  "sound": "GRRR-WOOF!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
