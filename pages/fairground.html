@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Big Plate Fairgrounds — Open / Closed</title>
+<style>
+  body { margin: 0; background: #0b0d18; color: #f4e6c8; font-family: Georgia, serif; }
+  .wrap { max-width: 640px; margin: 40px auto; padding: 24px; background: #1a1210; border: 2px solid #c93a2b; border-radius: 12px; box-shadow: 0 0 40px rgba(201,58,43,0.2); }
+  h1 { font-size: 2.4em; margin: 0 0 8px; color: #f4e6c8; text-align: center; letter-spacing: 2px; }
+  .subtitle { text-align: center; font-size: 1.1em; color: #a89a7c; margin-bottom: 24px; }
+  .open-box { text-align: center; margin: 24px 0; padding: 20px; border-radius: 8px; background: #2a2218; }
+  .status { font-size: 1.8em; font-weight: bold; letter-spacing: 2px; }
+  .status.open { color: #3a6b4f; }
+  .status.closed { color: #c93a2b; }
+  .btn { margin-top: 16px; padding: 14px 28px; font-size: 1.1em; font-family: Georgia, serif; border: none; border-radius: 6px; cursor: pointer; background: #c93a2b; color: #f4e6c8; }
+  .btn:hover { background: #d13a2b; }
+  .menu { margin-top: 24px; background: #1a1210; border-radius: 8px; padding: 20px; }
+  .menu h2 { color: #f4e6c8; margin-top: 0; }
+  .menu p { font-size: 1.05em; color: #a89a7c; line-height: 1.6; }
+  .price { color: #fff3c4; font-weight: bold; }
+  .tag { display: inline-block; background: #3a6b4f; color: #f4e6c8; padding: 4px 10px; border-radius: 4px; font-size: 0.85em; margin: 4px 2px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>BIG PLATE FAIRGROUNDS</h1>
+  <p class="subtitle">The fair is on the hill — come hungry, come in.</p>
+  <div class="open-box">
+    <div class="status" id="status">OPEN</div>
+    <button class="btn" onclick="toggle()">CLOSE / REOPEN</button>
+  </div>
+  <div class="menu">
+    <h2>What's on the hill tonight</h2>
+    <p>
+      <span class="tag">Big steak &amp; ale pie</span>
+      <span class="tag">Bucket of chips</span>
+      <span class="tag">Bitter</span>
+      <span class="tag">Jug of gravy</span>
+      <span class="tag">One Pea — NOT SERVED</span>
+    </p>
+    <p style="margin-top: 16px;">
+      <strong>The price of the fair is:</strong>
+      <span class="price">£2 a plate, £4 a pie, £6 a bucket of chips</span>
+    </p>
+    <p style="margin-top: 16px; font-size: 0.95em; color: #a89a7c;">
+      "Give it a good old rub. The pie's still warm."
+    </p>
+  </div>
+</div>
+<script>
+  let open = true;
+  function toggle() {
+    open = !open;
+    const s = document.getElementById('status');
+    s.textContent = open ? 'OPEN' : 'CLOSED';
+    s.className = open ? 'status open' : 'status closed';
+  }
+</script>
+</body>
+</html>
