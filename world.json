@@ -584,8 +584,8 @@
   {
    "id": "jk-screen",
    "shape": "box",
-   "x": -7.0,
-   "z": -6.0,
+   "x": -4.8,
+   "z": 2.3,
    "y": 0,
    "w": 0.55,
    "h": 0.45,
@@ -9584,21 +9584,6 @@
    "built": "2026-11-18 14:17"
   },
   {
-   "id": "pet-69",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 2.5999999999999996,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "carrot-fluff",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "junk-1795018638",
    "shape": "sign",
    "x": -12.646795995179705,
@@ -9616,51 +9601,6 @@
    "built": "2026-11-18 16:17"
   },
   {
-   "id": "pet-70",
-   "shape": "sphere",
-   "x": 0.4,
-   "z": -12.2,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8B4513",
-   "label": "muddy paw print",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
-   "id": "pet-71",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 1.8,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "carrot-fluff",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
-   "id": "pet-72",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 1.6,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "carrot-fluff",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "lake-lamp",
    "shape": "lamp",
    "x": 12.5,
@@ -9676,36 +9616,6 @@
    "group": "lesina-lake",
    "link": "",
    "built": "2026-11-18 19:17"
-  },
-  {
-   "id": "pet-73",
-   "shape": "sphere",
-   "x": -6.6,
-   "z": -6.0,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#FFD700",
-   "label": "shiny button",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
-   "id": "pet-74",
-   "shape": "sphere",
-   "x": -4.8,
-   "z": 2.1999999999999997,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#FFAA00",
-   "label": "carrot-fluff",
-   "note": "Left by Pea",
-   "group": "pet-mess"
   },
   {
    "id": "junk-1795044147",
@@ -9844,21 +9754,6 @@
    "built": "2026-11-18 23:22"
   },
   {
-   "id": "pet-75",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 1.5,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#4A5D6B",
-   "label": "scruffy mud-puddle",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "junk-1795047439",
    "shape": "sign",
    "x": -12.672123548380965,
@@ -9908,21 +9803,6 @@
    "group": "miliband",
    "link": "miliband.html",
    "built": "2026-11-19 00:17"
-  },
-  {
-   "id": "pet-76",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 2.3,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "scruffy mud-puddle",
-   "note": "Left by Pea",
-   "group": "pet-mess"
   },
   {
    "id": "mv3-base",
@@ -10095,21 +9975,6 @@
    "built": "2026-11-19 02:17"
   },
   {
-   "id": "pet-77",
-   "shape": "sphere",
-   "x": -6.6,
-   "z": -5.7,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#2f3e46",
-   "label": "scruffy mud-puddle",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "sk-bk-cover",
    "shape": "box",
    "x": -12.08,
@@ -10195,19 +10060,21 @@
    "built": "2026-11-19 04:17"
   },
   {
-   "id": "pet-78",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 1.8,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#3A2F16",
-   "label": "scruffy mud-puddle",
-   "note": "Left by Pea",
-   "group": "pet-mess"
+   "id": "sk-page-plaque",
+   "shape": "sign",
+   "x": -12.13,
+   "z": -12.35,
+   "y": 0.088,
+   "w": 0.24,
+   "h": 0.006,
+   "d": 0.32,
+   "rot": 90.0,
+   "color": "#cccccc",
+   "label": "BANK, NOT MIDDLE",
+   "note": "The real page in the book: a flat hand-painted sign lying on the open page, sized to the page, lit by the warm lamp. The lake lesson, painted small.",
+   "group": "sketchbook",
+   "link": "sketchbook.html",
+   "built": "2026-11-19 05:17"
   }
  ],
  "pet": {
@@ -10215,9 +10082,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -4.8,
-  "z": 1.5,
-  "doing": "Pea lunges blindly into the veggie stall to bat at a wobbling crate of greens with a daring wiggle while barking at his reflection in the glass.",
-  "sound": "BARK-WOOF!"
+  "z": 2.3,
+  "doing": "Pea lunges blindly at a glowing jukebox screen to paw its cold plastic belly in a demand for food, ignoring that he already snatched it last turn.",
+  "sound": "BARK!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
