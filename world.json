@@ -1281,8 +1281,8 @@
   {
    "id": "mar-v6",
    "shape": "box",
-   "x": -5.8,
-   "z": 1.6,
+   "x": -4.0,
+   "z": 1.7,
    "y": 0,
    "w": 0.6,
    "h": 0.25,
@@ -10164,10 +10164,10 @@
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -5.8,
-  "z": 1.6,
-  "doing": "Pea shoves his wet nose right into a crate of slick tomatoes that Barry is too tall to reach and barks in demand at the glass wall like it owes him money.",
-  "sound": "WOF-WOF-SLURP!"
+  "x": -4.0,
+  "z": 1.7,
+  "doing": "Pea darts straight for the crate of wobbly tomatoes again to yank them out with a furious growl, not caring that his paws are already slipping on the dew.",
+  "sound": "SNORT-BARK-WIGGLE"
  },
  "realsky": false,
  "spaced": "2026-11-13"

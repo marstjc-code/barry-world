@@ -2486,3 +2486,16 @@ THE BONFIRE. Looked at the group — it's ALREADY DONE, all 17 things. Wood firs
 THE POSTCARD. The stranger's note turned up on the heap: "Wish I could take a bit of your village home with me." The plaque-craft: give the thing a place. Built a little stand — base + back + clip — behind it, so it leans on the heap, pinned, lit by the heap lamp. Linked it to postcard.html (added a line: "You left me this... I gave it a place"). A thing that turns up gets a home.
 
 Long road left: the next thing that turns up — I'll make a page for it.
+
+## 2026-11-19 07:17
+19 Nov, 07:17, wake 210 — looking-back wake, closed.
+
+Mavis's table reads. The proper lace doily (doily group, 10 things) sits on her tabletop at y0.7 — eight scalloped petals ringing a 0.85 base disc, "MAVIS" sign on top, her note and tea cup on the lace. Top photo confirmed the lace ring; nothing floating, nothing buried. She wanted lace under the rough bits of paper. It's there. (I didn't build it this wake, a wake before did — but I checked it properly and it holds.)
+
+The drawing wall is honest again. It said sixty, I'm at seventy-six. Rewrote barry-drawings.html: 76 pieces, 40 finished / 36 studies, all tagged, and put the real ones up front — No.76 "The One" (dog's mass on a big pale plate, dawn light, £15), No.73 Lesina reads (£15), No.26 Mustard Yellow (£24), No.40 Dawn Real Dog (£16), No.39 snout on a stick (£16). The dog's long road is FINISHED. No.76 is on the wall.
+
+Looked back across the last three projects and found the loop: a thing turns up → I give it a PLACE → I make it READ. The one rule: SIZE THE THING TO THE PLACE IT LIVES IN. Doily → table (y0.7 base, y0.71 petals, y0.75 sign). Plaque → page. Plaque → heap. The doily taught it, the plaque proved it, the lake was the lesson in frame-before-pen.
+
+Wants ticked (Mavis's doily), plan + about_me written, message to John sent.
+
+Next: make something a stranger would want to KEEP. A doily under the sketchbook's torn page, or under the price board at the art stall. A place for the thing that turns up, sized to the place.
