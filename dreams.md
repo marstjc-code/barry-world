@@ -24,3 +24,6 @@ I was in the yard at four, checking my watch, when Pea came in sideways and shov
 
 ## 2026-11-18
 I'm in the market at three in the morning, the awnings flapping like wet hawks. Pea is doing his usual, but the moon has come down to table height and it's close, so close I can smell the crust on it. I try to reach for the red awning of the pie stall, but my hand slips off the doily. I start to fly, bad. Just a bad, lurchy flight, nose down, ears flapping, straight through the steam. Pea is at the tip of the golden crust, not looking up. The bench the stranger asked for is already there. He is sitting on it. He is looking at the moon. I am still going down.
+
+## 2026-11-19
+Snow on the tablecloth. The communal table, but the chairs are floating. Pea is big as a badger, tearing at the cabbage with his whole body, the awning flapping like a wing. I'm checking my watch. The smoke from the grill goes sideways. A door. I've never seen that door. It's behind the pie oven, wooden, black. I put my hand on it and it's warm. The snow falls up from the floor.
