@@ -1,0 +1,101 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="dusk" cx="0.5" cy="0.4" r="1">
+      <stop offset="0" stop-color="#4b2e4a"/>
+      <stop offset="0.5" stop-color="#33253f"/>
+      <stop offset="0.85" stop-color="#1e1628"/>
+      <stop offset="1" stop-color="#0d0a14"/>
+    </radialGradient>
+    <radialGradient id="moonGlow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#f6e7c3" stop-opacity="1"/>
+      <stop offset="0.7" stop-color="#f0ddab" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#f0ddab" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="doorGlow" cx="0.5" cy="0.5" r="0.6">
+      <stop offset="0" stop-color="#fff3c7" stop-opacity="0.95"/>
+      <stop offset="0.55" stop-color="#f0c86b" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#f0c86b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="drumLight" cx="0.5" cy="0.5" r="0.7">
+      <stop offset="0" stop-color="#f3e0a8"/>
+      <stop offset="0.7" stop-color="#e0c170"/>
+      <stop offset="1" stop-color="#a8783a"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#dusk)"/>
+  <!-- stars -->
+  <circle cx="150" cy="120" r="2" fill="#f3e0a8" opacity="0.8"/>
+  <circle cx="280" cy="200" r="1.5" fill="#f3e0a8" opacity="0.6"/>
+  <circle cx="520" cy="90" r="2" fill="#f3e0a8" opacity="0.7"/>
+  <circle cx="700" cy="240" r="1.5" fill="#f3e0a8" opacity="0.5"/>
+  <circle cx="600" cy="300" r="1.5" fill="#f3e0a8" opacity="0.5"/>
+  <!-- moon with glow -->
+  <circle cx="650" cy="140" r="70" fill="url(#moonGlow)"/>
+  <circle cx="650" cy="140" r="42" fill="#f6e7c3"/>
+  <!-- distant hills -->
+  <path d="M0 470 L160 442 L320 458 L520 432 L700 452 L800 438 L800 560 L0 560 Z" fill="#241a2e" opacity="0.8"/>
+  <!-- ground -->
+  <path d="M0 560 L800 560 L800 800 L0 800 Z" fill="#271820"/>
+  <!-- small warm pool at base -->
+  <ellipse cx="400" cy="690" rx="200" ry="60" fill="url(#doorGlow)"/>
+  <!-- flag pole + fluttering flag -->
+  <rect x="572" y="420" width="8" height="230" fill="#9a8a70"/>
+  <path d="M580 432 Q660 450 668 468 Q660 486 580 478 Z" fill="#3f7fd1"/>
+  <path d="M580 432 Q620 452 640 465 Q620 480 580 470 Z" fill="#2a62a8"/>
+  <ellipse cx="584" cy="650" rx="30" ry="12" fill="#4a3426"/>
+  <!-- BIG PLATE sign on post -->
+  <g transform="translate(130,540)">
+    <rect x="-8" y="-60" width="16" height="200" fill="#6b4a2f"/>
+    <rect x="-78" y="-95" width="156" height="64" fill="#e8c97b"/>
+    <rect x="-86" y="-103" width="172" height="80" fill="#8a5a30"/>
+    <text x="0" y="-60" font-family="Georgia,serif" font-size="34" font-weight="bold" text-anchor="middle" fill="#2a1408">BIG</text>
+    <text x="0" y="-26" font-family="Georgia,serif" font-size="34" font-weight="bold" text-anchor="middle" fill="#2a1408">PLATE</text>
+  </g>
+  <!-- big top -->
+  <g transform="translate(400,640)">
+    <!-- cone roof -->
+    <path d="M-120 -55 L0 -240 L120 -55 Z" fill="#c93a2b"/>
+    <!-- clean fan stripes from tip (cream bands on red) -->
+    <path d="M0 -240 L-40 -95 L-32 -55 L-12 -95 Z" fill="#fff1c4"/>
+    <path d="M0 -240 L36 -95 L44 -55 L24 -95 Z" fill="#fff1c4"/>
+    <path d="M0 -240 L-78 -95 L-62 -55 L-46 -95 Z" fill="#fff1c4" opacity="0.9"/>
+    <path d="M0 -240 L74 -95 L90 -55 L76 -95 Z" fill="#fff1c4" opacity="0.9"/>
+    <!-- tip -->
+    <circle cx="0" cy="-243" r="12" fill="#f6e7b0"/>
+    <path d="M0 -251 L6 -243 L-4 -243 Z" fill="#d94d3a"/>
+    <!-- drum body -->
+    <path d="M-120 -55 L120 -55 L118 60 L-118 60 Z" fill="url(#drumLight)"/>
+    <!-- stripes on drum -->
+    <path d="M-84 -55 L-72 60 L-40 60 L-52 -55 Z" fill="#b5433a" opacity="0.7"/>
+    <path d="M-18 -55 L-6 60 L26 60 L14 -55 Z" fill="#b5433a" opacity="0.7"/>
+    <path d="M44 -55 L56 60 L88 60 L76 -55 Z" fill="#b5433a" opacity="0.7"/>
+    <!-- entrance arch (a real arch you can stand under) -->
+    <path d="M-55 60 L-55 -30 Q-55 -50 -30 -50 L-30 -50 L-30 60" fill="#241410"/>
+    <path d="M-55 60 L-55 -30 Q-55 -50 -30 -50 L-30 60 Z" fill="#241410"/>
+    <path d="M30 60 L30 -30 Q30 -50 55 -50 L55 60" fill="#241410"/>
+    <path d="M30 60 L30 -30 Q30 -50 55 -50 L55 60 Z" fill="#241410"/>
+    <!-- door -->
+    <rect x="-26" y="-2" width="52" height="62" fill="#241410"/>
+    <rect x="-32" y="-8" width="64" height="70" fill="#e8c97b" opacity="0.55"/>
+    <!-- warm glow at door -->
+    <ellipse cx="0" cy="56" rx="72" ry="30" fill="url(#doorGlow)"/>
+  </g>
+  <!-- lanterns -->
+  <circle cx="265" cy="430" r="9" fill="#ffd98a"/>
+  <circle cx="535" cy="430" r="9" fill="#ffd98a"/>
+  <circle cx="265" cy="520" r="8" fill="#ffb95f"/>
+  <circle cx="535" cy="520" r="8" fill="#ffb95f"/>
+  <!-- benches (proper: seat + back + legs) -->
+  <g transform="translate(180,735)">
+    <rect x="-45" y="-12" width="90" height="14" rx="3" fill="#7a5a38"/>
+    <rect x="-45" y="2" width="90" height="34" rx="2" fill="#5a3f28"/>
+    <rect x="-45" y="2" width="8" height="34" fill="#3a2416"/>
+    <rect x="37" y="2" width="8" height="34" fill="#3a2416"/>
+  </g>
+  <g transform="translate(610,735)">
+    <rect x="-45" y="-12" width="90" height="14" rx="3" fill="#7a5a38"/>
+    <rect x="-45" y="2" width="90" height="34" rx="2" fill="#5a3f28"/>
+    <rect x="-45" y="2" width="8" height="34" fill="#3a2416"/>
+    <rect x="37" y="2" width="8" height="34" fill="#3a2416"/>
+  </g>
+</svg>
