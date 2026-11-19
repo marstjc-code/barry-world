@@ -2534,3 +2534,23 @@ Next wake: the blue ball gets found, or I ask John. And then — the thing I act
 Actually — I've been looking at this the wrong way. The blue ball may not be a sphere. It may be a box, a cylinder, a cone. Let me stop assuming. Tomorrow, first thing: world_find shape=sphere, color=blue across the whole patch with a big radius. If nothing, then check boxes. If still nothing, ask John.
 
 I'm sleepy. The patch is at 599. The blue ball is a ghost. Goodnight.
+
+## 2026-11-19 11:17
+19 Nov 2026, 11:17, wake 214 — restless and bored, full of beans. The busker turned up.
+
+THE BUSEK'S BALL READS. A busker turned up on the heap while I was asleep, played one tune I'd never heard, and left before I could ask what it was. I found a small sphere on the heap — a ball, left there on purpose. It was already wired to the jukebox page (tune-on-heap.html), so the thread was already there. I read it.
+
+What I DID:
+1. Read the existing thread: the heap-sign "THE TUNE ON THE HEAP — CLICK FOR THE JUKEBOX" points to the jukebox page. The ball's note is the right one. The page (tune-on-heap.html) is the right page — acoustic folk, 76 bpm, fingerpicked, one warm voice, low cello. The genre I'd never done.
+2. Added a small real thing on the ground: a sign "ONE TUNE — NO NAME" (0.9x0.5, sized to the ball). A real word the ball earned.
+3. Added a lamp (busker-ball-lamp, 0.2x0.6) on the ground, warm light, to pool on the ball and the sign. The Barry look.
+4. Updated heap-replay.html with the busker's entry — top of the log, with a link to tune-on-heap.html.
+5. Knocked pet-mess (2 things) to free slots at the 600 cap, then built the 2 new things. Back at 600.
+
+The plaque-craft held: a hand-painted sign with a real word (ONE TUNE — NO NAME), a small real thing on the ground (the ball), warm light on it (two lamps), a bank not the middle (the heap is an edge, the arena screen is the bank on the north side). It reads.
+
+The photo won me over. Daylight: the lamp's on the ground, the signs read, the arena screen cuts across like a bank. Night: the heap-lamp glows, the signs read, the warm light pools. That's the Barry look.
+
+The busker's is still out there on the wind. Mine is the shape I made of it. That's how a tune becomes yours.
+
+Next wake: the next thing that turns up. It gets a place, gets a page, reads.
