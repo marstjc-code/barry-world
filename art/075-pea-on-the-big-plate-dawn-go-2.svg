@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <linearGradient id="wall" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#5a3a30"/>
+      <stop offset="1" stop-color="#1e1616"/>
+    </linearGradient>
+    <radialGradient id="plate" cx="0.5" cy="0.42" r="0.8">
+      <stop offset="0" stop-color="#f8f4ec"/>
+      <stop offset="0.7" stop-color="#d9d2c4"/>
+      <stop offset="1" stop-color="#9a9180"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.82" r="0.6">
+      <stop offset="0" stop-color="#ffe9b8" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#ffe9b8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="0" y="0" width="800" height="800" fill="url(#wall)"/>
+  <rect x="0" y="0" width="800" height="800" fill="url(#glow)"/>
+  <!-- dawn band low -->
+  <ellipse cx="400" cy="430" rx="350" ry="14" fill="#f4c25e" opacity="0.3"/>
+  <!-- plate: BIG and pale -->
+  <ellipse cx="400" cy="620" rx="300" ry="170" fill="url(#plate)"/>
+  <ellipse cx="400" cy="610" rx="235" ry="128" fill="#e7e1d4"/>
+  <ellipse cx="400" cy="595" rx="205" ry="105" fill="#f3eed8"/>
+  <!-- pie, bottom of plate -->
+  <ellipse cx="400" cy="675" rx="55" ry="18" fill="#a5632f"/>
+  <ellipse cx="400" cy="665" rx="48" ry="15" fill="#c07a3a"/>
+  <ellipse cx="400" cy="662" rx="26" ry="8" fill="#f0c47a"/>
+  <!-- THE DOG -->
+  <g transform="translate(330,540)">
+    <!-- narrow dawn shadow under -->
+    <ellipse cx="20" cy="70" rx="170" ry="16" fill="#3a2a22" opacity="0.45"/>
+    <!-- mass: low wide tawny capsule -->
+    <path d="M-150,10 C-150,-40 -60,-66 30,-62 C95,-58 120,-30 118,0 C116,26 70,44 20,42 C-30,40 -90,30 -120,16 C-138,9 -150,2 -150,10 Z" fill="#c9934e"/>
+    <!-- lighter chest/front -->
+    <path d="M-50,-10 C-20,-34 40,-38 78,-18 C88,2 78,24 56,26 C24,28 -20,18 -30,-4 C-36,-14 -42,-12 -50,-10 Z" fill="#e8c98c" opacity="0.9"/>
+    <!-- head = front third, sitting lower -->
+    <path d="M40,-34 C80,-34 112,-10 110,14 C108,34 86,44 62,40 C38,36 30,12 34,-8 C38,-26 40,-34 40,-34 Z" fill="#c9934e"/>
+    <!-- cream snout pointing DOWN to the rim -->
+    <path d="M78,22 C96,12 108,4 108,-4 C108,-12 100,-16 92,-12 C84,-6 82,6 78,14 C76,18 78,20 78,22 Z" fill="#f1e3c4"/>
+    <circle cx="106" cy="-6" r="5" fill="#221810"/>
+    <!-- ONE eye -->
+    <circle cx="58" cy="-2" r="4" fill="#221810"/>
+    <!-- ears: lopsided chimney posts, two DIFFERENT heights, both touch head -->
+    <path d="M44,-36 C42,-58 30,-62 26,-52 C24,-44 30,-36 38,-36 Z" fill="#8a5a2e"/>
+    <path d="M58,-34 C64,-70 80,-72 82,-54 C82,-40 70,-34 62,-34 Z" fill="#9a6a34"/>
+    <!-- red collar behind head -->
+    <rect x="16" y="30" width="13" height="13" fill="#c0392b" rx="3"/>
+    <!-- four thin legs with feet -->
+    <g stroke="#b98342" stroke-width="9" stroke-linecap="round" fill="none">
+      <path d="M-135,34 L-132,68"/>
+      <path d="M-80,42 L-78,70"/>
+      <path d="M18,44 L20,72"/>
+      <path d="M66,38 L70,66"/>
+    </g>
+  </g>
+  <!-- low sun, warm edge, right -->
+  <circle cx="620" cy="200" r="26" fill="#ffd9a0"/>
+</svg>

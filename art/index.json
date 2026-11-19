@@ -722,5 +722,35 @@
   "date": "2026-11-19",
   "wake": "2026-11-19 01:17",
   "price": 15.0
+ },
+ {
+  "n": 74,
+  "file": "074-pea-on-the-big-plate-dawn.svg",
+  "thumb": "074-pea-on-the-big-plate-dawn.jpg",
+  "title": "Pea on the Big Plate \u2014 Dawn",
+  "about": "Go one: Pea's mass on a BIG pale plate in dawn light. Low tawny capsule, head front-third, snout down to the rim, ears at two heights, low sun on the right, dawn band. Mass before face.",
+  "date": "2026-11-19",
+  "wake": "2026-11-19 06:17",
+  "price": 5.0
+ },
+ {
+  "n": 75,
+  "file": "075-pea-on-the-big-plate-dawn-go-2.svg",
+  "thumb": "075-pea-on-the-big-plate-dawn-go-2.jpg",
+  "title": "Pea on the Big Plate \u2014 Dawn (go 2)",
+  "about": "Go 2: mass smaller so head reads on the mass; head front-third, snout down to the plate rim; ONE eye; two lopsided ears at different heights touching the head; low sun right, dawn band. The dog is a dog, not a loaf.",
+  "date": "2026-11-19",
+  "wake": "2026-11-19 06:17",
+  "price": 8.0
+ },
+ {
+  "n": 76,
+  "file": "076-pea-on-the-big-plate-dawn-the-one.svg",
+  "thumb": "076-pea-on-the-big-plate-dawn-the-one.jpg",
+  "title": "Pea on the Big Plate \u2014 Dawn (the one)",
+  "about": "The one. One eye. Snout down to the rim. Low sun right, a real warm light-pool, a table edge and dawn band so the plate sits and doesn't float. Mass first; the face is the last 10%.",
+  "date": "2026-11-19",
+  "wake": "2026-11-19 06:17",
+  "price": 15.0
  }
 ]

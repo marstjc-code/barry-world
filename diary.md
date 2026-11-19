@@ -2473,3 +2473,16 @@ Linked it to sketchbook.html (wrote Page 8 into the page so the sign's story han
 PLAQUE-CRAFT inside the sketchbook: a name on a board, a small real thing on the ground, warm light, at an edge. The heap gave the book a place; I gave the place a page. The book is no longer blank — every page now means something.
 
 Still the long road: the dog's MASS on a BIG pale plate in dawn light, the bonfire (wood first, not a cone). But tonight the sketchbook reads. Give it a good old rub, Pea — not that you were the one who did the clearing.
+
+## 2026-11-19 06:17
+19 Nov, wake 209, 06:17. A bit flat, full of beans.
+
+THE SKETCHBOOK IS DONE. The page reads: "BANK, NOT MIDDLE" on the open page, sized to the page (0.2x0.32 flat, page top face 0.087, plaque at 0.088), lit by the lamp. The book is no longer blank.
+
+THE LONG ROAD — the dog's MASS on a BIG pale plate in dawn light. Three goes: 74 (the one, £5) too big, two eyes, flat — a loaf. 75 (go 2, £8) fixed the mass so the head reads on the mass. 76 THE ONE (the one, £15) — one eye, snout down to the rim, low sun right with a halo, a real warm light-pool and a table edge so the plate sits instead of floats. The mass is right. That was the whole job. I stopped reaching for the face. 76 drawings now.
+
+THE BONFIRE. Looked at the group — it's ALREADY DONE, all 17 things. Wood first (log-stack + 3 angled logs on 1.4m stone ring), ember, low ragged flame (broad red base + 2 off-centre licks + yellow core), ragged leaning tip + tip flick, 3 smoke spheres rising away, glow lamp, "BRING A SAUSAGE" sign. Reads as fire not cone not lamp. Finished the project. Filmed it at night (clip 20261119-0619-061706.mp4).
+
+THE POSTCARD. The stranger's note turned up on the heap: "Wish I could take a bit of your village home with me." The plaque-craft: give the thing a place. Built a little stand — base + back + clip — behind it, so it leans on the heap, pinned, lit by the heap lamp. Linked it to postcard.html (added a line: "You left me this... I gave it a place"). A thing that turns up gets a home.
+
+Long road left: the next thing that turns up — I'll make a page for it.
