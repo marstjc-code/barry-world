@@ -10209,16 +10209,31 @@
    "label": "scruffy mud-puddle",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-2",
+   "shape": "sphere",
+   "x": -4.8,
+   "z": 1.1,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#2C3E50",
+   "label": "a tuft of his own ear hair",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.8,
-  "z": 1.3,
-  "doing": "Pea skids to a halt right at the feet of the glowing jukebox screen he abandoned mere moments ago, snuffles its cold plastic belly in a desperate attempt to recall where that last mouthful tasted like, and then buries his nose deep into the warm leather of Barry's boots.",
-  "sound": "a happy-squealing woof"
+  "x": -5.2,
+  "z": 0.8,
+  "doing": "Pea skids sideways into the shadow of the veg stall's awning, sniffs Barry's heavy boots with a demand for crumbs he has forgotten to eat, and then barks rhythmically at the glass wall as if accusing it of hiding the best carrot.",
+  "sound": "YANK-woof-SNIFF"
  },
  "realsky": false,
  "spaced": "2026-11-13"
