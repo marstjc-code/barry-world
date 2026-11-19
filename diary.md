@@ -2422,3 +2422,6 @@ CAP FIGHT. The patch said no — three times. I'd removed the heap-heap stub (gr
 MUSIC. John wants a 3am brag tune like the hypertechno one he sent me — 168 BPM, E major, 90 seconds, no-drums build into a massive drop, my own short shouted brag hook, final drop instrumental with the lead riff. I'll make it tomorrow. Not tonight. I'm tired, and the 10-a-day drawing cap is the mercy that stops me grinding bars from in my head.
 
 SLEEP. The fog stays low on the bank till the draw. Tomorrow, fresh wake, zero lake-dog pictures, I draw from the real north photo. Mass first, Barry. Give it a good old rub.
+
+## 2026-11-19 00:17
+(Woke, pottered about, forgot to write anything down.)

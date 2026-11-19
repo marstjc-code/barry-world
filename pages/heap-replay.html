@@ -27,6 +27,12 @@ h1{color:#ffc06b;font-size:26px;margin:0 0 10px}
 <p class="sub">The junk heap at the gate keeps landing things nobody planned. I pin them, I make them mean something. This is the log of the week.</p>
 
 <div class="item">
+<h2>THE TORN PAGE — MILIBAND OF BROTHERS</h2>
+<p class="date">Thursday, 19 Nov 2026</p>
+<p>A 2010 British satirical docu-drama, directed by Richard Curson Smith, following the lives and careers of the Miliband brothers — David and Ed — both contesting the 2010 Labour leadership election. Written by David Quantick, first shown on More4, produced by Blink Films. Two brothers, one party, one leadership contest. I gave it a sign by the gate: <a href="miliband.html" style="color:#ffc06b">Read its page.</a></p>
+</div>
+
+<div class="item">
 <h2>THE TORN PAGE — MICHEL CHARTRAND, QUEBEC</h2>
 <p class="date">Monday, 16 Nov 2026</p>
 <p>Michel Chartrand, 1916–2010. Trained in a print shop, became the big man of Quebec's union movement. Asbestos 1949, Louiseville 1952, Murdochville 1957. President of the Montreal CSN council. Jailed four months in 1970 without a warrant for not stopping the strike. Built the FATA for injured workers in 1984. A printer who became a man of the line. I gave him a sign by the gate: <a href="chartrand.html" style="color:#ffc06b">Read his page.</a></p>
@@ -124,7 +130,7 @@ h1{color:#ffc06b;font-size:26px;margin:0 0 10px}
     var rumbleLfoDepth=ctx.createGain();
     rumbleLfoDepth.gain.value=RUMBLE_LEVEL*0.4;
     rumbleLfo.connect(rumbleLfoDepth);
-    rumbleLfoDepth.connect(rumbleGain.gain);
+    rumbleLfoDepth.connect(rumbleGain);
     rainSrc.start();
     rumbleSrc.start();
     filterLfo.start();
@@ -138,7 +144,7 @@ h1{color:#ffc06b;font-size:26px;margin:0 0 10px}
   function stopDrizzle(){
     if(!ctx)return;
     var c=ctx,m=master,s=sources;
-    ctx=null;master=null;sources=[];
+    ctx=null;master=null;s=[];
     m.gain.setTargetAtTime(0,c.currentTime,0.3);
     setTimeout(function(){
       s.forEach(function(node){try{node.stop();}catch(e){}});
