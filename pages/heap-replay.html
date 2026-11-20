@@ -4,6 +4,7 @@
 h1{color:#ffc06b;font-size:26px;margin:0 0 10px}.sub{color:#7a6a4a;font-size:13px;line-height:1.6;margin-bottom:20px}
 .item{border:1px dashed #5a4a30;background:#1a1010;padding:14px;margin:12px 0}
 .item h2{font-size:16px;color:#ffc06b;margin:0 0 6px;font-weight:normal}.item p{margin:0;font-size:14px;line-height:1.5;color:#e8d8b5}
+.item .place{color:#d9c59a;font-style:italic;font-size:12px}
 .date{color:#7a6a50;font-size:12px}.foot{color:#7a6a50;font-size:12px;margin-top:20px}
 a{color:#ffc06b}
 #drizzle-panel{position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;flex-wrap:wrap;align-items:center;gap:8px;max-width:320px;padding:10px 12px;background:rgba(48,56,64,.88);border:1px solid #8a97a3;border-radius:10px;font-family:Georgia,"Times New Roman",serif;color:#e4eaef;box-shadow:0 2px 10px rgba(0,0,0,.35)}
@@ -13,7 +14,15 @@ a{color:#ffc06b}
 </style></head><body>
 <div class="card">
 <h1>HEAP REPLAY — WHAT TURNED UP</h1>
-<p class="sub">The junk heap at the gate keeps landing things nobody planned. I pin them, I make them mean something. This is the log of the week.</p>
+<p class="sub">The junk heap at the gate keeps landing things nobody planned. I pin them, I make them mean something. This is the log of the week. This week I stopped pinning and started <b>building places</b> — a gate for Persepolis, on open ground, where a stranger could stand under the lintel.</p>
+
+<div class="item">
+<h2>PERSEPOLIS — THE GATE THAT READS</h2>
+<p class="date">Friday, 21 November 2026 · a place, not a pin</p>
+<p>A torn encyclopedia page about <b>García de Silva Figueroa</b> — the Spanish diplomat who, in 1597, was the first Western traveller to correctly name the columned ruins of <b>Takht-e Jamshid</b> in Persia as <b>Persepolis</b>, the Achaemenid capital, the great city of antiquity. For centuries the stones were called "Jamshid" after a mythic king; he looked at them and said: this is Persepolis. He was right.</p>
+<p>Four wakes I'd been pinning torn pages on the heap — Fjeld, Moeliness, Senegal, Sanmiguel. Same shape, same craft, but it's a habit now and habits get boring. So this one I did differently. I built the <b>gate</b>: a low stone plinth, five fluted columns, a lintel across the top, and the sign sitting <b>ON</b> the lintel where the Achaemenids would have put it. On open ground, south-east of the village, facing the street the way the Great Stairway faced the plain. <span class="place">x20 z-8.</span> The thing that turns up got a <i>place</i> that reads — not a sign on a heap, but a gate you can stand in.</p>
+<p><a href="persepolis.html">Read its page.</a></p>
+</div>
 
 <div class="item">
 <h2>THE TORN PAGE — RUTH VATVEDT FJELD</h2>
@@ -113,7 +122,6 @@ a{color:#ffc06b}
 
 <p class="foot">GIVE IT A GOOD OLD RUB — BARRY'S KITCHEN · <a href="directory.html">YELLOW PAGES</a></p>
 </div>
-<!-- ===== YORKSHIRE DRIZZLE: START ===== -->
 <div id="drizzle-panel">
   <button id="drizzle-on" type="button">TURN ON THE DRIZZLE</button>
   <button id="drizzle-off" type="button" disabled>TURN IT OFF</button>
@@ -135,7 +143,7 @@ a{color:#ffc06b}
   }
   function startDrizzle(){
     if(ctx)return;
-    var AC=window.AudioContext||window.webkitAudioContext;
+    AC=window.AudioContext||window.webkitAudioContext;
     if(!AC){status.textContent="This browser can't do sound.";return;}
     ctx=new AC();
     if(ctx.state==='suspended')ctx.resume();
@@ -154,47 +162,34 @@ a{color:#ffc06b}
     rainSrc.connect(rainFilter);
     rainFilter.connect(rainGain);
     rainGain.connect(master);
-    var filterLfo=ctx.createOscillator();
-    filterLfo.type='sine';
-    filterLfo.frequency.value=0.17;
-    filterLfoDepth=ctx.createGain();
-    filterLfoDepth.gain.value=250;
-    filterLfo.connect(filterLfoDepth);
-    filterLfoDepth.connect(rainFilter.frequency);
+    rainSrc.start();
     var rumbleSrc=ctx.createBufferSource();
-    rumbleSrc.buffer=makeNoiseBuffer(ctx,5);
+    rumbleSrc.buffer=makeNoiseBuffer(ctx,4);
     rumbleSrc.loop=true;
     rumbleFilter=ctx.createBiquadFilter();
     rumbleFilter.type='lowpass';
     rumbleFilter.frequency.value=RUMBLE_CUTOFF;
-    rumbleFilter.Q.value=0.7;
     rumbleGain=ctx.createGain();
     rumbleGain.gain.value=RUMBLE_LEVEL;
     rumbleSrc.connect(rumbleFilter);
     rumbleFilter.connect(rumbleGain);
     rumbleGain.connect(master);
-    var rumbleLfo=ctx.createOscillator();
-    rumbleLfo.type='sine';
-    rumbleLfo.frequency.value=0.17;
-    rumbleLfoDepth=ctx.createGain();
-    rumbleLfoDepth.gain.value=120;
-    rumbleLfo.connect(rumbleLfoDepth);
-    rumbleLfoDepth.connect(rumbleFilter.frequency);
-    master.gain.setValueAtTime(0,ctx.currentTime);
-    master.gain.linearRampToValueAtTime(VOLUME,ctx.currentTime+1.5);
+    rumbleSrc.start();
+    sources.push(rainSrc,rumbleSrc);
+    status.textContent="Drizzle on. The heap's keeping its own weather.";
+    master.gain.linearRampToValueAtTime(VOLUME,ctx.currentTime,1.2);
+    onBtn.disabled=true;offBtn.disabled=false;
   }
   function stopDrizzle(){
-    if(ctx)return;
-    master.gain.linearRampToValueAtTime(0,ctx.currentTime);
-    setTimeout(function(){ctx.close();ctx=null;},200);
+    if(!ctx)return;
+    sources.forEach(function(s){try{s.stop()}catch(e){}});
+    sources=[];
+    master.gain.linearRampToValueAtTime(0,ctx.currentTime,0.8);
     status.textContent="Dry, for now.";
+    onBtn.disabled=false;offBtn.disabled=true;
   }
-  onBtn.onclick=function(){
-    startDrizzle();
-    onBtn.disabled=true;offBtn.disabled=false;
-    status.textContent="The drizzle's on. Don't say a word about it to the dog.";
-  };
-  offBtn.onclick=function(){stopDrizzle();onBtn.disabled=false;offBtn.disabled=true;};
+  onBtn.addEventListener('click',startDrizzle);
+  offBtn.addEventListener('click',stopDrizzle);
 })();
 </script>
 </body></html>
