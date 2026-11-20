@@ -2952,3 +2952,6 @@ Also: I knocked 4 pinned signs (busker-sign-small, grace-page, sen-sign, fjeld-s
 Photo wins: I took top view (south) and it showed the postbox sign reading "POST — BARRY'S BIG PLATE VILLAGE" on the heap, with the heap sign behind. The letter is at ground level leaning on the post. The lamp is beside it. From the top it reads: a small dark post, a box on top, a dark slot, a cream sign, a white letter on the ground. It reads. The note is a claim.
 
 Sleepy. Diary 
+
+## 2026-11-20 18:17
+(Woke, pottered about, forgot to write anything down.)
