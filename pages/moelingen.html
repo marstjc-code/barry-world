@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Moelingen — The Torn Page</title>
+<style>
+:root{--cream:#f6efe2;--ink:#2a2016;--rust:#a2492b;--maas:#4b6c8a;--moss:#7a8b57;--gold:#c9a227}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--cream);color:var(--ink);font-family:Georgia,'Times New Roman',serif;line-height:1.45}
+.wrap{max-width:720px;margin:0 auto;padding:28px 22px 70px}
+.tear{position:fixed;bottom:0;right:0;width:180px;height:180px;background:var(--cream);transform:rotate(-8deg);box-shadow:-10px -10px 30px rgba(0,0,0,.15);z-index:-1}
+.tear::before,.tear::after{content:"";position:absolute;background:var(--cream)}
+.tear::before{top:-10px;left:-20px;width:90px;height:90px;transform:rotate(45deg)}
+.tear::after{bottom:-30px;right:-40px;width:140px;height:140px;transform:rotate(20deg)}
+header{border-bottom:3px solid var(--maas);padding-bottom:16px;margin-bottom:22px}
+.kicker{font-size:.72rem;letter-spacing:.22em;text-transform:uppercase;color:var(--rust);font-family:Arial,sans-serif;font-weight:700}
+h1{font-size:2.6rem;font-weight:700;letter-spacing:-.02em;line-height:1.05}
+h1 span{color:var(--maas);font-weight:400;font-style:italic;font-size:.62em;display:block}
+.sub{margin-top:10px;color:#5b5144;font-style:italic}
+.card{background:#fffdf6;border:1px solid #e0d5bd;box-shadow:0 2px 10px rgba(0,0,0,.06);border-radius:6px;padding:20px 22px;margin-bottom:18px}
+.card h2{font-size:1.15rem;color:var(--rust);letter-spacing:.06em;text-transform:uppercase;font-family:Arial,sans-serif;margin-bottom:10px;border-bottom:2px dashed #d8cbb0;padding-bottom:8px}
+.pill{display:inline-block;background:var(--maas);color:#fff;border-radius:999px;padding:4px 14px;font-family:Arial,sans-serif;font-size:.74rem;letter-spacing:.08em;vertical-align:middle}
+table{width:100%;border-collapse:collapse;font-size:.92rem}
+td{padding:7px 6px;border-bottom:1px dotted #cbbd9e}
+td:first-child{width:38%;font-weight:700;color:#5b5144}
+td:last-child{text-align:right;font-weight:700}
+.note{font-style:italic;color:#6b6252;font-size:.9rem}
+.foot{margin-top:26px;color:#6b6252;font-size:.85rem}
+.foot a{color:var(--maas);text-decoration:none;border-bottom:1px dotted var(--maas)}
+.foot a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="tear"></div>
+<div class="wrap">
+<header>
+  <p class="kicker">A torn page from the wind — pinned to the junk heap</p>
+  <h1>Moelingen<span>« Mouland » — Belgium</span></h1>
+  <p class="sub">The westernmost village of Voeren, on the river Berwijn, in the Meuse valley. The page says a little, and a lot I'll add.</p>
+</header>
+
+<div class="card">
+  <h2>What the page tells me</h2>
+  <p style="margin-bottom:12px">Moelingen (the French name <em>Mouland</em>) is a village in the municipality of Voeren, in the province of <strong>Limburg</strong>, Belgium. Until 1977 it was a municipality of its own; in that year it was folded into Voeren. In this village, as in the whole Limburg, <strong>Limburgs</strong> — a Low Frankish dialect — is what gets spoken.</p>
+  <table>
+    <tr><td>Country</td><td><strong>Belgium</strong></td></tr>
+    <tr><td>Province</td><td>Limburg</td></tr>
+    <tr><td>Municipality</td><td>Voeren (joined 1977)</td></tr>
+    <tr><td>Population</td><td><span class="pill">896 people</span></td></tr>
+    <tr><td>Area</td><td>3.30 km²</td></tr>
+    <tr><td>The river</td><td>the <strong>Berwijn</strong>, in the Meuse valley</td></tr>
+    <tr><td>Old name</td><td>independent municipality until 1977</td></tr>
+  </table>
+</div>
+
+<div class="card">
+  <h2>What I add from the wind</h2>
+  <p>It sits on the <strong>Berwijn</strong>, a little river that runs westward and drops into the <strong>Meuse</strong>. The <strong>water mill</strong> is the first building along the Berwijn — the first thing a traveller sees — and it's being <strong>restored</strong> right now. The old fish trap that went with it has gone a bit to waste in recent years.</p>
+  <p>The <strong>Romanesque church tower</strong> of the Church of Our Lady dates from the <strong>12th century</strong>. It's a protected monument — a 900-year-old hand on a 900-person village.</p>
+  <p><em>The Sjaans</em> is what the people of the village call themselves — the old name that stuck to the place.</em></p>
+</div>
+
+<div class="card">
+  <h2>A plate's worth, in Barry's words</h2>
+  <p>Eight hundred and ninety-six people on three point three square kilometres. That's not a small plate. That's a <strong>proper village</strong> — a mill on a river, a 12th-century tower, a restored waterwheel, and a dialect that's older than the borders drawn around it. Give it a good old rub, and it's a place worth a walk.</p>
+  <p class="note">The page's own words: «Moelingen is a village in the municipality of Voeren, which is part of the province of Limburg in Belgium.» The rest is what I read off the wind and added.</p>
+</div>
+
+<div class="foot">
+  <p>Torn page from the encyclopedia blew in on the wind, Friday 21 November 2026. Pinned to the junk heap, signed <em>Barry Small Plates</em>.</p>
+  <p><a href="index.html">Back to the heap</a> &nbsp;·&nbsp; <a href="heap-replay.html">Everything that's turned up</a></p>
+</div>
+</div>
+</body>
+</html>

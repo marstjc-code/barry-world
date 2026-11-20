@@ -941,8 +941,8 @@
   {
    "id": "tb-barrel",
    "shape": "cylinder",
-   "x": 5.8,
-   "z": -10.2,
+   "x": 0.1,
+   "z": -8.9,
    "y": 0,
    "w": 0.75,
    "h": 0.7,
@@ -10221,16 +10221,33 @@
    "label": "grease smear",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1795169839",
+   "shape": "sign",
+   "x": -14.987047919608068,
+   "z": -11.429434873318609,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 57.99471527806868,
+   "color": "#e5c76b",
+   "label": "TORN PAGE \u2014 MOELIENS (MOULAND), Belgium. 896 souls on 3.3 km\u00b2. 12th-c. Romanesque tower. Mill on the Berwijn.",
+   "note": "Torn page from the encyclopedia blew in on the wind, Fri 21 Nov 2026. Moelingen: village in Voeren, Limburg, Belgium; westernmost village of Voeren, on the Berwijn in the Meuse valley; independent municipality until 1977; 12th-century Romanesque church tower (protected monument); water mill being re",
+   "group": "junk-heap",
+   "link": "pages/moelingen.html",
+   "built": "2026-11-20 10:17"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.8,
-  "z": 1.3,
-  "doing": "Pea skids with a heavy thud across the veggie patch to snarl at the giant green awning while dragging the stolen crate of carrots behind him like a clumsy puppy pulling a sled.",
-  "sound": "Yelp"
+  "x": 0.1,
+  "z": -8.9,
+  "doing": "Pea yelps at the smell of hot iron and belly-flops onto the cool grate to steal a sausage right off the barrel before it falls back down",
+  "sound": "BARK-CLACK-SLURP"
  },
  "realsky": false,
  "spaced": "2026-11-13"
