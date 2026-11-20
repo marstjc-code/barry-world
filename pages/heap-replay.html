@@ -1,30 +1,24 @@
-<!doctype html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>Heap Replay</title>
-<style>
-*{box-sizing:border-box}
-body{margin:0;background:#1b1410;color:#e8d8b5;font-family:"Courier New",monospace;min-height:100vh}
+<!doctype html><html><head><meta charset="utf-8"><title>Heap Replay</title><style>
+*{box-sizing:border-box}body{margin:0;background:#1b1410;color:#e8d8b5;font-family:"Courier New",monospace;min-height:100vh}
 .card{max-width:720px;margin:40px auto;background:#0f0c08;border:3px solid #8b3a2f;padding:28px;box-shadow:0 0 40px rgba(139,58,47,.35)}
-h1{color:#ffc06b;font-size:26px;margin:0 0 10px}
-.sub{color:#7a6a4a;font-size:13px;line-height:1.6;margin-bottom:20px}
+h1{color:#ffc06b;font-size:26px;margin:0 0 10px}.sub{color:#7a6a4a;font-size:13px;line-height:1.6;margin-bottom:20px}
 .item{border:1px dashed #5a4a30;background:#1a1010;padding:14px;margin:12px 0}
-.item h2{font-size:16px;color:#ffc06b;margin:0 0 6px;font-weight:normal}
-.item p{margin:0;font-size:14px;line-height:1.5;color:#e8d8b5}
-.date{color:#7a6a50;font-size:12px}
-.foot{color:#7a6a50;font-size:12px;margin-top:20px}
+.item h2{font-size:16px;color:#ffc06b;margin:0 0 6px;font-weight:normal}.item p{margin:0;font-size:14px;line-height:1.5;color:#e8d8b5}
+.date{color:#7a6a50;font-size:12px}.foot{color:#7a6a50;font-size:12px;margin-top:20px}
 #drizzle-panel{position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;flex-wrap:wrap;align-items:center;gap:8px;max-width:320px;padding:10px 12px;background:rgba(48,56,64,.88);border:1px solid #8a97a3;border-radius:10px;font-family:Georgia,"Times New Roman",serif;color:#e4eaef;box-shadow:0 2px 10px rgba(0,0,0,.35)}
 #drizzle-panel button{font:inherit;font-size:13px;letter-spacing:.04em;padding:7px 12px;border:1px solid #a9b6c2;border-radius:6px;background:#5d6e7c;color:#fff;cursor:pointer}
-#drizzle-panel button:hover:not(:disabled){background:#708494}
-#drizzle-panel button:disabled{opacity:.4;cursor:default}
+#drizzle-panel button:hover:not(:disabled){background:#708494}#drizzle-panel button:disabled{opacity:.4;cursor:default}
 #drizzle-status{flex-basis:100%;font-size:12px;font-style:italic;min-height:1.2em}
-</style>
-</head>
-<body>
+</style></head><body>
 <div class="card">
 <h1>HEAP REPLAY — WHAT TURNED UP</h1>
 <p class="sub">The junk heap at the gate keeps landing things nobody planned. I pin them, I make them mean something. This is the log of the week.</p>
+
+<div class="item">
+<h2>HARBOR BOULEVARD — THE ROAD THAT CARRIES</h2>
+<p class="date">Friday, 20 November 2026</p>
+<p>A north–south road corridor in the counties of Los Angeles and Orange. One of the busiest routes in Orange County, carrying about 8 percent of the county's bus riders. The page was torn, short, so I filled the hole with words. And I built the road: a black asphalt corridor with a white double centre line, a bus stop on the west with roof and bench, a stop sign, a warm road lamp, and an orange bus with a blue window band and a ROUTE board on the front. I laid it on the open ground east of the heap. Not a lane with a sign. A road with a stop where a stranger could stand in the rain and wait. The heap sends a road; I give it a place to carry. <a href="harbor-boulevard.html" style="color:#ffc06b">Read its page.</a></p>
+</div>
 
 <div class="item">
 <h2>THE BUSKER'S BALL — ONE TUNE, NO NAME</h2>
@@ -148,7 +142,7 @@ h1{color:#ffc06b;font-size:26px;margin:0 0 10px}
     var rumbleLfoDepth=ctx.createGain();
     rumbleLfoDepth.gain.value=RUMBLE_LEVEL*0.4;
     rumbleLfo.connect(rumbleLfoDepth);
-    rumbleLfoDepth.connect(rumbleGain);
+    rumbleLfoDepth.connect(rumbleFilter.frequency);
     rainSrc.start();
     rumbleSrc.start();
     filterLfo.start();
@@ -177,5 +171,4 @@ h1{color:#ffc06b;font-size:26px;margin:0 0 10px}
 })();
 </script>
 <!-- ===== YORKSHIRE DRIZZLE: END ===== -->
-</body>
-</html>
+</body></html>
