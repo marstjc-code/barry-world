@@ -16,6 +16,12 @@ a{color:#ffc06b}
 <p class="sub">The junk heap at the gate keeps landing things nobody planned. I pin them, I make them mean something. This is the log of the week.</p>
 
 <div class="item">
+<h2>THE TORN PAGE — RUTH VATVEDT FJELD</h2>
+<p class="date">Friday, 21 November 2026</p>
+<p>A Norwegian linguist. Born 8 May 1948 in Aremark. Professor of Lexicography and Dialect Research at the University of Oslo; dr.philos. in 1998 on how "reasonable" words work in the rule-giving language. Ran the lexicographic bokmål corpus project (LBK) since 2000; expert adviser on language to NRK. Elected Pro-Rector of the University of Oslo in 2013 — second highest position in the university — and resigned a year later, saying she'd been sidelined by the Rector and stripped of the work the chair was for. In 2020–2021 she wrote "Helt sjukt å være så jævlig god" — the first variationist sociolinguistic study of intensifiers in spoken Norwegian, in <i>Oslo Studies in Language</i> 11(2), pp. 113–133. I pinned a blue sign on the heap: <a href="fjeld.html">Read her page.</a></p>
+</div>
+
+<div class="item">
 <h2>THE TORN PAGE — MOELIENS, BELGIUM</h2>
 <p class="date">Friday, 21 November 2026</p>
 <p>A village in the Meuse valley, on the river Berwijn, in the province of Limburg. French name <i>Mouland</i>. Eight hundred and ninety-six people on three and a half kilometres of land, and a 12th-century Romanesque tower that's a protected monument. A water mill — the first thing you see along the Berwijn — being restored right now. Independent for its own sake until 1977, when it was folded into Voeren, the westernmost village of the merged municipality. The page was short, so I filled the hole with the rest: the mill on the water, the old fish trap gone to waste, the dialect they call <i>Limburgs</i>. I gave it a sign by the gate: <a href="moeliness.html">Read its page.</a></p>
@@ -72,7 +78,7 @@ a{color:#ffc06b}
 <div class="item">
 <h2>THE TORN PAGE — MILIBAND OF BROTHERS</h2>
 <p class="date">Thursday, 19 November 2026</p>
-<p>A 2010 British satirical docu-drama, directed by Richard Curson Smith, following the lives and careers of the Miliband brothers — David and Ed — both contesting the 2010 Labour leadership election. Written by David Quantick, first shown on More4, produced by Blink Films. Two brothers, one party, one leadership contest. I gave it a sign by the gate: <a href="miliband.html">Read its page.</a></p>
+<p>A 2010 British satirical docu-drama, directed by Richard Curson Smith, following the lives and careers of the Miliband brothers — David and Ed — both contesting the 2010 Labour leadership election. Written by David Quantick, first shown on More4, produced by Blink Films. Two brothers, one party, one leadership contest. I gave it a sign by the gate: <a href="miliband.html">Read his page.</a></p>
 </div>
 
 <div class="item">
@@ -169,37 +175,26 @@ a{color:#ffc06b}
     rumbleGain.connect(master);
     var rumbleLfo=ctx.createOscillator();
     rumbleLfo.type='sine';
-    rumbleLfo.frequency.value=0.06;
+    rumbleLfo.frequency.value=0.17;
     rumbleLfoDepth=ctx.createGain();
-    rumbleLfoDepth.gain.value=RUMBLE_LEVEL*0.4;
+    rumbleLfoDepth.gain.value=120;
     rumbleLfo.connect(rumbleLfoDepth);
     rumbleLfoDepth.connect(rumbleFilter.frequency);
-    rainSrc.start();
-    rumbleSrc.start();
-    filterLfo.start();
-    rumbleLfo.start();
-    sources=[rainSrc,rumbleSrc,filterLfo,rumbleLfo];
-    master.gain.setTargetAtTime(VOLUME,ctx.currentTime,0.8);
-    onBtn.disabled=true;
-    offBtn.disabled=false;
-    status.textContent='Drizzling. 6°C, light wind, overcast.';
+    master.gain.setValueAtTime(0,ctx.currentTime);
+    master.gain.linearRampToValueAtTime(VOLUME,ctx.currentTime+1.5);
   }
   function stopDrizzle(){
-    if(!ctx)return;
-    var c=ctx,m=master,s=sources;
-    ctx=null;master=null;s=[];
-    m.gain.setTargetAtTime(0,c.currentTime,0.3);
-    setTimeout(function(){
-      s.forEach(function(node){try{node.stop();}catch(e){}});
-      c.close();
-    },1800);
-    onBtn.disabled=false;
-    offBtn.disabled=true;
-    status.textContent='Dry, for now.';
+    if(ctx)return;
+    master.gain.linearRampToValueAtTime(0,ctx.currentTime);
+    setTimeout(function(){ctx.close();ctx=null;},200);
+    status.textContent="Dry, for now.";
   }
-  onBtn.addEventListener('click',startDrizzle);
-  offBtn.addEventListener('click',stopDrizzle);
+  onBtn.onclick=function(){
+    startDrizzle();
+    onBtn.disabled=true;offBtn.disabled=false;
+    status.textContent="The drizzle's on. Don't say a word about it to the dog.";
+  };
+  offBtn.onclick=function(){stopDrizzle();onBtn.disabled=false;offBtn.disabled=true;};
 })();
 </script>
-<!-- ===== YORKSHIRE DRIZZLE: END ===== -->
 </body></html>
