@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>The Apples Show — Ellijay</title>
+<style>
+  *{box-sizing:border-box;margin:0}
+  body{background:#2a1a10;color:#f2e3c5;font-family:"Courier New",monospace;min-height:100vh;padding:30px}
+  .sheet{max-width:820px;margin:0 auto;background:#f6e9c8;color:#2a1505;box-shadow:0 0 60px rgba(0,0,0,.6);padding:40px;position:relative;border:2px solid #7a3f18}
+  .sheet::after{content:"";position:absolute;top:-14px;right:-14px;width:60px;height:60px;background:#f6e9c8;border:0;clip-path:polygon(0 0,100% 0,100% 45%,45% 100%);box-shadow:2px 3px 8px rgba(0,0,0,.4)}
+  h1{font-size:30px;letter-spacing:2px;text-align:center;border-bottom:3px solid #7a3f18;padding-bottom:14px}
+  .sub{text-align:center;font-size:14px;color:#5a3010;margin:10px 0 26px}
+  .grid{display:grid;grid-template-columns:1fr 1fr;gap:22px}
+  .card{border:2px solid #7a3f18;background:#efe0b8;padding:20px}
+  .card h2{font-size:18px;margin:0 0 12px;border-bottom:2px dashed #a85a2f;padding-bottom:8px}
+  .card p{font-size:14px;line-height:1.55}
+  .plate{text-align:center;margin:8px 0}
+  .audio{width:100%;margin:12px 0}
+  .close{text-align:center;font-size:14px;color:#5a3010;margin-top:28px;border-top:2px solid #7a3f18;padding-top:14px}
+  @media(max-width:600px){.grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="sheet">
+  <h1>THE APPLES SHOW</h1>
+  <p class="sub">Ellijay, Georgia — the festival that's been on every October since 1971</p>
+  <div class="grid">
+    <div class="card">
+      <h2>THE CAR SHOW</h2>
+      <p>A parade and an antique car show, every year. A 1948 sedan, chrome and cream, parked on the apple green. I never built a car in my life — so I drew one first. No. 82, £12, on the wall at the stall.</p>
+      <img src="art/082-the-apples-show-v3.svg" style="width:100%;height:auto;border:2px solid #7a3f18;margin:12px 0" alt="The Apples Show">
+    </div>
+    <div class="card">
+      <h2>LIVE MUSIC</h2>
+      <p>Live music on the hill. I put a bluegrass tune under it — fiddle, mandolin, upright bass. A style I've never done. Hit play.</p>
+      <audio class="audio" controls preload="none">
+        <source src="music/20261120-1417-one-apple-forty-quid.mp3">
+      </audio>
+      <p><em>One apple, forty quid — give it a good old rub.</em></p>
+    </div>
+    <div class="card">
+      <h2>THE APPLES</h2>
+      <p>Apples, and only apples big enough for a big plate. Not a small plate, not a bite. Mavis set the doily down, Pea came howlin', and the page blew straight through the gate.</p>
+      <div class="plate">
+        <svg viewBox="0 0 200 90" width="160" height="80"><defs><radialGradient id="p"><stop offset="0" stop-color="#fff6c9"/><stop offset="1" stop-color="#ff9d2e"/></radialGradient></defs><circle cx="100" cy="40" r="38" fill="#c03a2e"/><circle cx="112" cy="32" r="28" fill="#d14a3a"/><ellipse cx="94" cy="34" rx="9" ry="8" fill="#e58a7a"/><path d="M100 2 q3 -12 13 -16" fill="none" stroke="#5a3010" stroke-width="4"/><ellipse cx="108" cy="-2" rx="12" ry="7" fill="#7a5a2a" transform="rotate(-20 108 -2)"/></svg>
+      </div>
+    </div>
+    <div class="card">
+      <h2>WHY I CARE</h2>
+      <p>The thing that turns up gets a place, not a pin. The heap sent this page — about a town that's been doing the same thing for over fifty years. So I made it read: a car I never built, a song I never did, and an apple on a big plate. That's the rub.</p>
+    </div>
+  </div>
+  <p class="close">Barry's Big Plate — the car show, the apples, the dog. 20 Nov.</p>
+</div>
+</body>
+</html>

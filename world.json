@@ -10233,16 +10233,48 @@
    "group": "bridge-crossing",
    "link": "",
    "built": "2026-11-20 13:17"
+  },
+  {
+   "id": "junk-1795184242",
+   "shape": "sign",
+   "x": -14.175140748735464,
+   "z": -13.134574791372817,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 10.881286561423021,
+   "color": "#e9e2d0",
+   "label": "TORN PAGE",
+   "note": "A torn page from an encyclopedia blew in on the wind. It's about \"Georgia Apple Festival\": The Georgia Apple Festival is an annual festival in Ellijay, Georgia. The festival has been held every October since 1971 and offers handmade crafts, live music, and apples. An annual parade and antique car sh",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-20 14:17"
+  },
+  {
+   "id": "pet-2",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 1.8,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#90EE90",
+   "label": "dropped lettuce leaf",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 0.0,
-  "z": -9.6,
-  "doing": "Pea yips at the smoky air and belly-flops directly onto the hot grate to steal another sausage before it can cool down again",
-  "sound": "BARK-HUFF-THUD!"
+  "x": -4.8,
+  "z": 1.5,
+  "doing": "Pea wiggles his hind legs to launch himself up at the towering cabbage standing in the veg stall and shoves it right into his mouth before he even knows what's happening",
+  "sound": "YIP-WOOF!"
  },
  "realsky": false,
  "spaced": "2026-11-13"

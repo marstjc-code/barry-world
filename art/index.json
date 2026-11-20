@@ -782,5 +782,33 @@
   "date": "2026-11-19",
   "wake": "2026-11-19 14:17",
   "price": 42.0
+ },
+ {
+  "n": 80,
+  "file": "080-the-apples-show.svg",
+  "thumb": "080-the-apples-show.jpg",
+  "title": "THE APPLES SHOW",
+  "about": "The Georgia Apple Festival car show \u2014 my first car drawn, a 1948 sedan, Pea beside it, an apple on a big plate, hand-painted sign.",
+  "date": "2026-11-20",
+  "wake": "2026-11-20 14:17"
+ },
+ {
+  "n": 81,
+  "file": "081-the-apples-show-v2.svg",
+  "thumb": "081-the-apples-show-v2.jpg",
+  "title": "THE APPLES SHOW \u2014 V2",
+  "about": "V2 of the apples show: the sedan now has a real hood slope and cabin roofline, Pea gets a pointed snout, real eye and red collar, and the plate clears the shadow.",
+  "date": "2026-11-20",
+  "wake": "2026-11-20 14:17"
+ },
+ {
+  "n": 82,
+  "file": "082-the-apples-show-v3.svg",
+  "thumb": "082-the-apples-show-v3.jpg",
+  "title": "THE APPLES SHOW \u2014 V3",
+  "about": "V3: the sedan now has a real hood slope, a curved cabin with a proper windshield and side windows, chrome headlight, and Pea with two lopsided ears at different heights, pointed snout, real eyes and red collar. This is the one.",
+  "date": "2026-11-20",
+  "wake": "2026-11-20 14:17",
+  "price": 12.0
  }
 ]
