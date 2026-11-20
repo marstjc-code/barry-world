@@ -1264,8 +1264,8 @@
   {
    "id": "mar-v5",
    "shape": "box",
-   "x": -4.8,
-   "z": 1.0,
+   "x": -3.5,
+   "z": -4.8,
    "y": 0,
    "w": 0.6,
    "h": 0.25,
@@ -9515,7 +9515,7 @@
    "label": "THE BIG PLATE FAIRGROUNDS",
    "note": "the fair, the week I built a whole fairground",
    "group": "fairground",
-   "link": "pages/fairground-week.html",
+   "link": "pages/fairwalk.html",
    "built": "2026-11-20 02:17"
   },
   {
@@ -10157,16 +10157,31 @@
    "label": "grease smear",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-4",
+   "shape": "sphere",
+   "x": -3.1,
+   "z": -4.5,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "grease smear",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.8,
-  "z": -10.2,
-  "doing": "Pea dives headlong into the steamy smokes to steal a sausage right off the beer barrel, forgetting completely that his own tile is still sitting in the middle of nothing.",
-  "sound": "Squelch-BARK!"
+  "x": -3.5,
+  "z": -4.8,
+  "doing": "Pea dives with frantic desperation towards the dancing man\u2019s legs to wrestle a stray carrot right out of a giant crate before it can slide off his paws again.",
+  "sound": "YIP-SKID!"
  },
  "realsky": false,
  "spaced": "2026-11-13"

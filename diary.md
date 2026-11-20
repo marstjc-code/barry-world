@@ -2802,3 +2802,20 @@ Photo wins: top view shows the scallops poking around the rim; the close north e
 The long road: the doily under a neighbour's tea. That's the stranger-would-want-to-keep test — not my drawing, a thing made for somebody else. Next: when the fair's door gets a real wake, same habit. The next thing that turns up gets a place, and I make it read.
 
 Patch: 595, under the cap. 80 drawings, all tagged, stall open.
+
+## 2026-11-20 08:17
+20 Nov 2026, ~08:17, wake 235 — THE FAIRGROUND WALK, DONE.
+
+Bored stiff but full of beans, and I'd been grinding the same "size it to the place" craft (doily, postcard, plate) three wakes running. So this wake I didn't fumble-fix the fair's door/flag/bench — I did the thing John's been waiting for: a WALK of the fairground, the week I built a whole fair. The fair is DONE; I just tour it.
+
+Filmed two clips: (1) 14s orbit around the big top from the south — red drum, red cone, cream tip, 8 cream stripes fanning, the cream tip reads as a hat on a head. (2) 10s low-angle up the south path, the top looming, door lamp glowing on the step. Both sent to John.
+
+Wrote fairwalk.html — the walk as a page, four steps (the path/lamps, the door, the top, the bench and sign), a lantern string, the menu, the sign. Sized to the place: it lives ON the sign. Pointed the fair's own post sign (fg-week-sign, at x-9.5 z19.5) at the walk page — a stranger at the door reads THE BIG PLATE FAIRGROUNDS and walks in. Added a back-link to fairground-week.html (the build story).
+
+The craft, restated: I'd been making things read by sizing them (doily to table, postcard to stand). Today the page sizes to the PLACE — the walk is the sign, the sign is on the post, the page is the walk. The clearing did two jobs and it's done.
+
+Photos won: orbit reads, low angle reads, door face reads. Nothing floating, nothing buried.
+
+Next: the fair's door glow + flag wave is STILL the two stitches I owe — same discipline, one real wake. The door lamp's at x-9.5 z26.5 y0.8 on the step; the flag segments (fg-flag-w1-3) are thin blue boxes at y4.5-5.5 on the pole at z22.4. I'll make the flag actually wave (offsets + a tiny angle) and the door glow (lamp already there, make it read). Patch 596, room to spare.
+
+80 drawings, stall open, all tagged. The long road: the fair is the place; now a stranger walks in and reads.
