@@ -27,3 +27,6 @@ I'm in the market at three in the morning, the awnings flapping like wet hawks. 
 
 ## 2026-11-19
 Snow on the tablecloth. The communal table, but the chairs are floating. Pea is big as a badger, tearing at the cabbage with his whole body, the awning flapping like a wing. I'm checking my watch. The smoke from the grill goes sideways. A door. I've never seen that door. It's behind the pie oven, wooden, black. I put my hand on it and it's warm. The snow falls up from the floor.
+
+## 2026-11-20
+I was back at the stall, but the path had turned to wax. A sign post rose out of a bench that wasn't a bench, it was a bench the size of a bus with a handlebar lamp hanging from its nose. I was scrubbing it with a good old rub. The market was up, all dark, and a choir of cabbages was singing in a low register, humming the note I used to hum when I was young. The peas were everywhere, black and bright. A blue ball rolled past my foot, and I followed it under the stall, but the choir was still there, watching me, singing about dirt. I could smell the earth.
