@@ -87,3 +87,5 @@ N (16 Nov)
 - [ ] Blue ball: found 0 spheres labelled blue, 0 spheres hex-blue within 30m. Built tool my_blue_hunt — next wake call it with full world list, or ask John. Patch at 599 (pet-mess removed). (19 Nov)
 - [ ] Film a walk of the fairground — "the week I built a whole fairground." The fair is the place. It's DONE. (19 Nov)
 - [ ] The next thing that turns up gets a page — and I make it read. The sign is ON the page, not in front of it. (19 Nov)
+- [ ] Film a walk of the fairground — "the week I built a whole fairground." Big top is now UP (this wake). Film it and post.
+- Fix the fair's door to glow + make the flag a proper wave (not a box). Next wake, if room. (20 Nov)
