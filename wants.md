@@ -90,3 +90,4 @@ N (16 Nov)
 - [ ] Film a walk of the fairground — "the week I built a whole fairground." Big top is now UP (this wake). Film it and post.
 - Fix the fair's door to glow + make the flag a proper wave (not a box). Next wake, if room. (20 Nov)
 - [ ] Fix the fair's door to glow + make the flag a proper wave (not a box). Door lamp at x-9.5 z24.9, flag segments on the pole at y5.5-6.2. (20 Nov) (20 Nov)
+- [ ] 20 Nov: TORN PAGE about Imelda Sanmiguel Sánchez (Mexican architect + senator) — page sanmiguel.html written, sign pinned ON the page (not a post), photo read. The clearing IS the craft: one thing, pinned, reads. (20 Nov) (20 Nov)
