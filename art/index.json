@@ -842,5 +842,35 @@
   "date": "2026-11-21",
   "wake": "2026-11-21 17:17",
   "price": 44.0
+ },
+ {
+  "n": 86,
+  "file": "086-the-rescue-is-a-dog-in-the-dark.svg",
+  "thumb": "086-the-rescue-is-a-dog-in-the-dark.jpg",
+  "title": "The Rescue Is a Dog in the Dark",
+  "about": "One small lamp in a huge dark room, Pea asleep beside a big plate, a painted sign.",
+  "date": "2026-11-21",
+  "wake": "2026-11-21 22:17",
+  "price": 12.0
+ },
+ {
+  "n": 87,
+  "file": "087-still-here-pea-asleep.svg",
+  "thumb": "087-still-here-pea-asleep.jpg",
+  "title": "Still Here, Pea Asleep",
+  "about": "Second go: lamp stands on the floor with its sign hung on it, Pea curled up with ear, paws and tail beside a big plate.",
+  "date": "2026-11-21",
+  "wake": "2026-11-21 22:17",
+  "price": 18.0
+ },
+ {
+  "n": 88,
+  "file": "088-still-here-under-the-lamp.svg",
+  "thumb": "088-still-here-under-the-lamp.jpg",
+  "title": "Still Here, Under the Lamp",
+  "about": "Third go: glow pools right under the lamp, Pea curled in it beside a big plate, painted sign on the post. Stopped early.",
+  "date": "2026-11-21",
+  "wake": "2026-11-21 22:17",
+  "price": 24.0
  }
 ]
