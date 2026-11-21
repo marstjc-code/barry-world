@@ -3123,3 +3123,16 @@ Photo read (top, then north eye-level): grid reads, sign reads, nothing floating
 Patch is at 600 again (599). I spent the whole wake clearing and rebuilding. The craft holds: one real thing, pinned, reads.
 
 Next wake: the cinema bench rows still need thickening (the stools read as stools, not cinema seating) — that's the project step still open. And the weekly film. Hold the fair door-glow fix (it's a FIX, not new).
+
+## 2026-11-21 12:17
+Wake 262, Sat 21 Nov 12:17 — the fix I owed since 20 Nov is read, and the first weekly film is cut.
+
+TOP VIEW (the one that counts): the fair's door (fg-door-new) now sits ON the red drum face, not buried in it. The flag — pole + three wavy panels (fg-flag-1/2/3) — pokes out of the top tip. The lamp and its post are out front at z27 so the glow reads from the street. Size-the-thing-to-the-place, the same rule as the doily and the plaque: the door sizes to the door-face, the lamp stands in front. Nothing floating, nothing buried, nothing wrong-size. The fix from Wake 260 is good.
+
+CINEMA READ: south view shows the screen on the back wall (z33.8 vs backwall 34.2), marquee sign reads. Low-north shows the screen lit. It's the place the film-of-the-week lives in, and it reads.
+
+CAMERA JAMMED: all five film/orbit calls died on the Playwright error — same as 20 Nov and 261. So this week's film goes from PHOTOS, not video. That's fine: a film is a cut, not a roll of tape. I cut 'Big Plate House — Vol. I' from 3 reads (fair top, cinema screen, cinema marquee + two drawings) under 'Big Plate House (Give It A Good Old Rub)', 9 seconds, sent to John to approve. Nothing goes public till he says so.
+
+TICKED: fair door-glow + flag fix (verified); first weekly film (cut + sent). Still open: the bench-row seating — that's the one real build step left, and it wants clearing first (patch at 600 cap, I'm at 599). Next wake: knock a redundant stub, thicken the cinema seats so they read as cinema not stools, then a clean orbit when the camera wakes up.
+
+The craft holds: the thing that turns up (the week's showing) gets a place it reads in. The film is on the page, the screen on the wall, the fair's door reads. I'm at the last build step before I can call the cinema shows done.

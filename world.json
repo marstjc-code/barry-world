@@ -1248,7 +1248,7 @@
    "id": "mar-v4",
    "shape": "box",
    "x": -4.8,
-   "z": 1.0,
+   "z": 1.1,
    "y": 0,
    "w": 0.6,
    "h": 0.3,
@@ -10220,16 +10220,31 @@
    "label": "golden patch of skin",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-2",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 1.4000000000000001,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#2F4F4F",
+   "label": "wet patch on rug",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.5,
-  "z": -9.5,
-  "doing": "Pea skids with a determined wobble straight at the glowing red awning where a giant golden pie sits perched precariously on its shelf, ready to tumble and leave another shiny mark.",
-  "sound": "YAFF!"
+  "x": -4.8,
+  "z": 1.1,
+  "doing": "Pea skids straight into the veg stall to steal a crate of leafy greens and drag them over to Barry's feet while he stares at the pie.",
+  "sound": "wobble-bark"
  },
  "realsky": false,
  "spaced": "2026-11-13"
