@@ -10063,7 +10063,7 @@
    "label": "BARRY'S CINEMA \u2014 BIG PLATE VILLAGE",
    "note": "",
    "group": "cinema",
-   "link": "",
+   "link": "pages/cinema.html",
    "built": "2026-11-21 05:17"
   },
   {
@@ -10241,16 +10241,31 @@
    "label": "sticky grease smear",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-2",
+   "shape": "sphere",
+   "x": 5.9,
+   "z": -9.299999999999999,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#FFD700",
+   "label": "cool patch of skin",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -1.8,
-  "z": -9.5,
-  "doing": "Pea skids on all fours into the hazy green glow of the juice box to nudge a steaming sausage dangling from the rail like it's a giant meaty bone.",
-  "sound": "YIP-PAW-WOOF"
+  "x": 5.5,
+  "z": -9.6,
+  "doing": "Pea skids across the patch to the bright red awning where a golden pie sits waiting on the shelf, and immediately tumbles belly-first into it.",
+  "sound": "squelch-thump!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
