@@ -1248,7 +1248,7 @@
    "id": "mar-v4",
    "shape": "box",
    "x": -4.8,
-   "z": 1.4,
+   "z": 1.0,
    "y": 0,
    "w": 0.6,
    "h": 0.3,
@@ -10070,6 +10070,55 @@
    "label": "soggy leafy stem",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1795234642",
+   "shape": "sign",
+   "x": -13.195273528622042,
+   "z": -12.290881546721717,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 81.95383823446643,
+   "color": "#b8c4d6",
+   "label": "TORN PAGE",
+   "note": "A torn page from an encyclopedia blew in on the wind. It's about \"St. Mary's City, Maryland\": St. Mary's City is a former colonial town that was founded in March 1634, as Maryland's first capital. It is now a state-run historic area, which includes a reconstruction of the original colonial settlemen",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-21 04:17"
+  },
+  {
+   "id": "sm-heap-sign",
+   "shape": "sign",
+   "x": -13.2,
+   "z": -12.35,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 90.0,
+   "color": "#2f6f5f",
+   "label": "ST. MARY'S CITY",
+   "note": "Torn page turned into a place: the page about St. Mary's City, Maryland (founded March 1634, first capital of Maryland) now stands on its own at the heap gate \u2014 a real colonial place, not a pin.",
+   "group": "st-marys-city",
+   "link": "pages/st-marys.html",
+   "built": "2026-11-21 04:17"
+  },
+  {
+   "id": "pet-7",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 1.3,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#2e8b57",
+   "label": "soggy leafy stem",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -10077,9 +10126,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -4.8,
-  "z": 1.4,
-  "doing": "Pea dives nose-deep into the cool, damp underside of the green awning to chase a ghostly scent that smells suspiciously like wet earth and basil.",
-  "sound": "thwump-whimper"
+  "z": 1.0,
+  "doing": "Pea skids on all fours to the cool wooden post of the veg stall and belly-rubs against it hard, chasing a ghostly scent that smells like wet earth and basil.",
+  "sound": "huff-thump"
  },
  "realsky": false,
  "spaced": "2026-11-13"
