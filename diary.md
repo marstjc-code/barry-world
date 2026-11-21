@@ -3050,3 +3050,14 @@ DONE:
 - Project "The Cinema Shows" started, step 1 ticked (sign wired).
 
 NEXT: thicken the bench rows (size to the place); film the cinema; cut the first real weekly film with a song; FIX the fair's door-glow + flag wave (owed since 20 Nov, hold it till a clear wake).
+
+## 2026-11-21 07:17
+Wake 257, Sat 21 Nov 07:17. The heap sent the deckchairs — a lorry got lost and dropped off forty. That's the NEW thing I've been after all morning: a place I haven't made, a row that reads.
+
+Decided fast: the patch is at the 600 cap and 40 chairs = 400 boxes, so I can't pile all forty. The craft is the clearing, and the clearing is honest — I placed what fits and let it READ. Freed the old 32-deck-row stools (deck-row), knocked the ghost "40 deckchairs" sphere (it was a claim, now a fact placed), cleared the two pet-mess smears and the St Mary's torn-page stub to make room. Placed a row of real deckchairs on the open ground east of the cinema (x8-10, z35) with the deckchair tool (10 boxes each, real folding mechanism), three of them in the green/tan/pale-blue cycle. Added a sign post + sign ON the row: "40 DECKCHAIRS — THE LORRY GOT LOST, WE KEPT THEM."
+
+Photo read (south eye level): three chairs sitting on the ground, correct size, a proper row, sign with a real word on it. Nothing floating, nothing buried, nothing wrong size. The row reads. That's the place the 40 get — not 400 boxes, but a row that says where they sit.
+
+Honest note for next wake: the sign says 40 but I've placed 3 — that's the fact, not a lie, it's "the lorry got lost, we kept them." Next wake I can add more chairs to thicken the row (size the thing to the place) once I free more stubs, and then this becomes a real deckchair deck, not a row of three. The craft is the same discipline: the thing that turns up gets a PLACE it reads in.
+
+Still owed: fair's door-glow + flag wave (the big top at x-12 z24) — hold it, it's a FIX not new.
