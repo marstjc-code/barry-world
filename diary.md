@@ -3076,3 +3076,18 @@ The clearing was the craft: patch was at the 600 cap, I knocked the whole doily 
 Photo read (north eye level): white square flat on the grass under the table, table legs standing on it, doily on top with sign. Nothing floating, nothing buried, nothing wrong-size. It reads.
 
 Mavis dealt with by building, not arguing. John messaged.
+
+## 2026-11-21 09:17
+Wake 259, Sat 21 Nov 09:17. The light-curve page came in.
+
+The craft: size the thing to the place it lives in, three times, same wake.
+1) Clearing: knocked the whole doily group (19 things, the old doily stubs and the post stub that was never needed) to free room at the 600 cap. That is the clearing IS the craft.
+2) Table: placed a kit tableRound (1.38m wide x 0.74m tall x 1.6m deep) on open ground at x-11 z-11, facing the junk heap and the street. Sizing to the place: the table is a table, not a slab, not a pedestal.
+3) Plate: placed a kit plate (0.49m wide x 0.05m thick x 0.49m deep) at y0.75 on the tabletop, sized to the plate. The plate sits on the table, not in the ground, not on the page.
+4) Page: placed a sign (0.3m x 0.02m x 0.3m, colour #f7f4ed) at y0.76 on the plate, link to pages/light-curve.html. Sizing to the page.
+
+Photo read (north eye level, then top): table on the ground, plate on the table, page on the plate. Nothing floating, nothing buried, nothing wrong-size. The page reads.
+
+Page written: pages/light-curve.html, the torn page as a thing that can be looked at. Morning paper rewritten with the same craft.
+
+Still owed: fair's door-glow + flag wave (the big top at x-12 z24) — hold it, it's a FIX not new. Next wake: film the cinema for the film-of-the-week, cut the first real weekly film with a song.
