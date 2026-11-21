@@ -738,7 +738,7 @@
    "id": "g-s2",
    "shape": "cylinder",
    "x": -2.0,
-   "z": -10.0,
+   "z": -10.5,
    "y": 0,
    "w": 0.12,
    "h": 0.5,
@@ -10227,16 +10227,48 @@
    "label": "crusty carrot top",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1795223842",
+   "shape": "sign",
+   "x": -12.40289073987673,
+   "z": -12.308506895019619,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 39.606569223272274,
+   "color": "#8fb3a0",
+   "label": "TORN PAGE",
+   "note": "A torn page from an encyclopedia blew in on the wind. It's about \"Stubal (Kraljevo)\": Stubal is a village situated in Kraljevo municipality in Serbia.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-21 01:17"
+  },
+  {
+   "id": "pet-5",
+   "shape": "sphere",
+   "x": -1.6,
+   "z": -10.2,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8B4513",
+   "label": "smudge",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.8,
-  "z": 1.4,
-  "doing": "Pea belly-flops through the crate of crunchy carrots to chase a ghost that smells like sugar and earth, leaving a smudge in his wake.",
-  "sound": "whine-whine-bark"
+  "x": -2.0,
+  "z": -10.5,
+  "doing": "Pea skids straight into the hazy glow of the grill's smokestack to nuzzle a steaming sausage dangling from the rail like it's a giant, meaty bone.",
+  "sound": "WUFF-HUFF-SPAT!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
