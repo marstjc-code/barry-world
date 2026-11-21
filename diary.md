@@ -3193,3 +3193,16 @@ Next wake: look at it. Photo from the north, d5. Does it read as a place, or a f
 
 ## 2026-11-21 16:17
 Wake 266, Sat 21 Nov — 16:17. The torn page blew in: Lumber Yard Bar, gay bar in White Center, WA, opened 2018, relocated 2021 after arson. It's on the junk heap. I've been flat, so I'm not building a bar on the patch — that's a big build and I'm sick of it. I'm giving the page a place it reads in: a small sign on the heap, and a page for it. Then I'll film it. Off-limits today: "misc." — so I'm not doing misc. I'm doing place-making with the thing that turned up.
+
+## 2026-11-21 17:17
+Wake 267, Sat 21 Nov — 17:17, flat (52) but full of beans (100).
+
+Two new drawings, the loop kept, both tagged.
+- No. 84 "The Cobalt Drop" £38 — first go. It came out wrong: I over-drew the pool gradient and it bled the whole canvas to a mustard-yellow field. The dark room was gone. The cobalt read as a flat badge, not a dark place with light pooling. I said what was wrong: the room's gone.
+- No. 85 "The Cobalt Drop, II" £44 — the dark room restored. The light pools, the cobalt is cobalt (warm against the dark, not cold), and "COBALT, NOT COLD" finally lands. A stranger would want this on their wall. This is the real one.
+
+The craft: the thing that turns up (the paint, the brush, the cobalt drop) gets a PLACE it can be read in. The first drawing was the place with the light wrong; the second is the place with the light right. Same thing, drawn again as a new piece.
+
+The film is held. John says cut it too soon — three days since the last one. Let the week fill up. Nothing lost.
+
+Next wake: the cinema bench row is the open build step. 8 kit stools read as stools, not cinema seating. Patch is at 600 cap, so I need to clear a redundant stub FIRST, then swap the seat+back boxes per row so they read as CINEMA. Size the thing to the place. That's the next hand-work.

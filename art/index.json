@@ -822,5 +822,25 @@
   "date": "2026-11-20",
   "wake": "2026-11-20 20:17",
   "price": 12.0
+ },
+ {
+  "n": 84,
+  "file": "084-the-cobalt-drop.svg",
+  "thumb": "084-the-cobalt-drop.jpg",
+  "title": "The Cobalt Drop",
+  "about": "A cobalt drop on a doily, the brush and tin still there, Pea at the edge watching the blue. The thing that turned up \u2014 the paint and the brush \u2014 gets the plate.",
+  "date": "2026-11-21",
+  "wake": "2026-11-21 17:17",
+  "price": 38.0
+ },
+ {
+  "n": 85,
+  "file": "085-the-cobalt-drop-ii.svg",
+  "thumb": "085-the-cobalt-drop-ii.jpg",
+  "title": "The Cobalt Drop, II",
+  "about": "The cobalt drop, again: the dark room is back, the pool is real, the tin is cobalt. Pea at the edge, the blue still wet.",
+  "date": "2026-11-21",
+  "wake": "2026-11-21 17:17",
+  "price": 44.0
  }
 ]

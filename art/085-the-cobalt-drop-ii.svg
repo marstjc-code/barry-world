@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="bg2" cx="50%" cy="48%" r="70%">
+      <stop offset="0%" stop-color="#1c2136"/>
+      <stop offset="55%" stop-color="#0e1224"/>
+      <stop offset="100%" stop-color="#040610"/>
+    </radialGradient>
+    <radialGradient id="pool2" cx="50%" cy="48%" r="34%">
+      <stop offset="0%" stop-color="#f4c06a" stop-opacity="0.62"/>
+      <stop offset="55%" stop-color="#f4c06a" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#f4c06a" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="cobalt2" cx="42%" cy="38%" r="62%">
+      <stop offset="0%" stop-color="#a6c8ff"/>
+      <stop offset="28%" stop-color="#3f6fe0"/>
+      <stop offset="70%" stop-color="#102a7a"/>
+      <stop offset="100%" stop-color="#051438"/>
+    </radialGradient>
+    <linearGradient id="tin2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#3f6fe0"/>
+      <stop offset="55%" stop-color="#142e7a"/>
+      <stop offset="100%" stop-color="#0a1540"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#bg2)"/>
+  <rect width="800" height="800" fill="url(#pool2)"/>
+  <path d="M0 545 Q400 505 800 545" stroke="#3a4566" stroke-width="1.5" fill="none" opacity="0.55"/>
+  <ellipse cx="400" cy="720" rx="440" ry="62" fill="#05070e" opacity="0.85"/>
+  <g id="doily" opacity="0.98">
+    <ellipse cx="400" cy="472" rx="152" ry="48" fill="#e8e4d6"/>
+    <ellipse cx="400" cy="466" rx="144" ry="44" fill="#fffaf1"/>
+    <g fill="#f4ead0">
+      <ellipse cx="540" cy="470" rx="22" ry="10"/>
+      <ellipse cx="490" cy="458" rx="20" ry="9"/>
+      <ellipse cx="440" cy="451" rx="20" ry="9"/>
+      <ellipse cx="390" cy="449" rx="20" ry="9"/>
+      <ellipse cx="340" cy="454" rx="20" ry="9"/>
+      <ellipse cx="290" cy="464" rx="20" ry="9"/>
+      <ellipse cx="262" cy="474" rx="22" ry="10"/>
+      <ellipse cx="548" cy="462" rx="14" ry="7"/>
+      <ellipse cx="254" cy="482" rx="14" ry="7"/>
+    </g>
+    <ellipse cx="400" cy="462" rx="100" ry="32" fill="none" stroke="#d9cfae" stroke-width="1.5" opacity="0.55"/>
+  </g>
+  <g id="brush">
+    <rect x="298" y="414" width="14" height="84" rx="3" fill="#8a5a2b" transform="rotate(28 308 458)"/>
+    <rect x="305" y="414" width="5" height="84" rx="2" fill="#c19a6b" transform="rotate(28 308 458)"/>
+    <rect x="303" y="438" width="6" height="58" rx="2" fill="#061a4a" transform="rotate(28 308 458)"/>
+    <ellipse cx="304" cy="438" rx="9" ry="5" fill="#e8e4d6" transform="rotate(28 308 458)"/>
+    <ellipse cx="304" cy="438" rx="8" ry="4" fill="#0f3a8c" transform="rotate(28 308 458)"/>
+  </g>
+  <g id="tin">
+    <ellipse cx="462" cy="492" rx="34" ry="12" fill="#051438"/>
+    <rect x="428" y="478" width="68" height="22" fill="url(#tin2)"/>
+    <ellipse cx="462" cy="478" rx="34" ry="12" fill="#142e7a"/>
+    <ellipse cx="462" cy="478" rx="28" ry="10" fill="#2a58c4"/>
+    <rect x="450" y="472" width="24" height="8" rx="3" fill="#d9cfae"/>
+    <ellipse cx="462" cy="498" rx="30" ry="8" fill="#0a1540" opacity="0.8"/>
+  </g>
+  <g id="drop">
+    <path d="M418 524 Q428 516 438 524 Q442 530 438 538 Q432 546 428 550 Q424 546 420 538 Q416 530 418 524 Z" fill="url(#cobalt2)"/>
+    <ellipse cx="428" cy="552" rx="16" ry="5" fill="#051438" opacity="0.55"/>
+    <ellipse cx="426" cy="540" rx="4" ry="2" fill="#a6c8ff" opacity="0.8"/>
+    <path d="M420 566 Q444 572 472 562" stroke="#102a7a" stroke-width="6" fill="none" opacity="0.4" stroke-linecap="round"/>
+  </g>
+  <g id="pea">
+    <ellipse cx="318" cy="652" rx="48" ry="34" fill="#5a4a2c"/>
+    <ellipse cx="318" cy="645" rx="44" ry="30" fill="#7a6a4a"/>
+    <path d="M300 638 L292 610 L314 628 Z" fill="#4a3a1c"/>
+    <path d="M334 638 L344 610 L324 628 Z" fill="#4a3a1c"/>
+    <ellipse cx="302" cy="644" rx="7" ry="5" fill="#0e0805"/>
+    <ellipse cx="330" cy="644" rx="7" ry="5" fill="#0e0805"/>
+    <ellipse cx="318" cy="660" rx="22" ry="10" fill="#3a2c18"/>
+    <ellipse cx="308" cy="642" rx="4" ry="2.5" fill="#f4c06a" opacity="0.5"/>
+    <ellipse cx="326" cy="642" rx="4" ry="2.5" fill="#f4c06a" opacity="0.5"/>
+  </g>
+  <text x="400" y="772" font-family="Georgia, serif" font-size="26" fill="#e8e4d6" text-anchor="middle" letter-spacing="5">COBALT, NOT COLD</text>
+  <text x="400" y="36" font-family="Georgia, serif" font-size="15" fill="#6a7599" text-anchor="middle">no. 85</text>
+</svg>

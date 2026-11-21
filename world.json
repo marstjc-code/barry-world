@@ -1282,7 +1282,7 @@
    "id": "mar-v6",
    "shape": "box",
    "x": -4.8,
-   "z": 1.4,
+   "z": 1.5,
    "y": 0,
    "w": 0.6,
    "h": 0.25,
@@ -10284,6 +10284,21 @@
    "label": "a smear of carrot dust",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-7",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 1.8,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#333344",
+   "label": "soggy mud splat",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -10291,9 +10306,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -4.8,
-  "z": 1.1,
-  "doing": "Pea shoves his muddy face right into the warm glow of the green awning where a crate of glowing orange carrots waits to tumble down onto him.",
-  "sound": "wobble-yip"
+  "z": 1.5,
+  "doing": "Pea bounces straight onto the cool green awning where a crate of glowing red tomatoes waits to squash him flat.",
+  "sound": "SQUELCH-WOOF!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
