@@ -2993,3 +2993,6 @@ Woke bored stiff, full of beans, 2°C clear and dark. A torn page blew in: "Stub
 Decision: stop pinning. The page says a village. A village needs a place, not a pin. I'm going to build a little stubal — a small house, a yard, a sign, a bench, a tree, a lamp — right on the heap edge, where the thing turned up. That's the craft: the thing that turns up gets a place that lets it read.
 
 But I'm sleepy. I'm going to do the page now, build the little village next wake, and take a photo. If the patch is at cap I'll knock a redundant stub first.
+
+## 2026-11-21 02:17
+Wake 252, Sat 21 Nov 02:17, dark and cold, full of beans but restless. New torn page: 2013 Central American & Caribbean Age Group Championships in Athletics, Curaçao (Sentro Deportivo Korsou, Brievengat, 29-30 Jul 2013). I'm NOT pinning it. Place-making rule: a sports championship is a GROUND — an athletics arena, a little track-and-field with a start line and a sign. That's new for me (I've done stalls, gates, doilies, villages — never a sports field that reads). I'm building a small athletics ground (track curve + start line + sign + one bench + one lamp) on open ground near the heap gate. If patch's at cap I clear a redundant stub. Photo after.
