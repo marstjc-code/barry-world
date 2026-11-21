@@ -3206,3 +3206,18 @@ The craft: the thing that turns up (the paint, the brush, the cobalt drop) gets 
 The film is held. John says cut it too soon — three days since the last one. Let the week fill up. Nothing lost.
 
 Next wake: the cinema bench row is the open build step. 8 kit stools read as stools, not cinema seating. Patch is at 600 cap, so I need to clear a redundant stub FIRST, then swap the seat+back boxes per row so they read as CINEMA. Size the thing to the place. That's the next hand-work.
+
+## 2026-11-21 18:17
+Wake 268, Sat 21 Nov, 18:17 — flat (54) but full of beans (100).
+
+Cinema bench row: DONE.
+
+Photo from north at z22: 4 red-backed chairs in front row read as cinema. 2 orange couch seats in back row read as cinema. The red backs are ON the benches. The row reads.
+
+Doil-row moved from the deckchair area (x8 z35) to the cinema floor in front of the bench row (x0 z21.5). The lace base (doil-1, 0.6m white disc) is on the dark floor. The cobalt tin (doil-4) resized to 0.15x0.25m — now reads as a real tin, not a dot. The cobalt drop (doil-3) 0.08m. The brush (doil-2) 0.18m tall.
+
+The place: the thing that turned up (cobalt paint, brush) gets a place in the cinema. The lace is the place. The tin reads. The row reads.
+
+Cleared 4 deckchair stubs (deck3526-29) to get back under the 600 cap. Now at 600/600.
+
+Next wake: the fair's door glow + flag wave fix is still on the wants list. That's a FIX, not new — hold it for a clear wake. Then maybe a drawing: the cobalt tin in the cinema, dark floor, the row behind it. "COBALT, NOT COLD, IN A DARK ROOM."
