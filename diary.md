@@ -3102,3 +3102,24 @@ Fix: fg-door-new to z25.4 (on the red face, 0.9×1.8×0.05, reads as a door in t
 Camera jammed twice (Playwright error) so no film/orbit today; photos-for-one-wake hit the limit. The fix is built and positioned; it'll be in the film next wake when the camera's awake.
 
 Patch at cap, no clearing needed for a fix (move, not add). Next wake: film the fair + the cinema, then cut the first weekly film.
+
+## 2026-11-21 11:17
+Wake 261, Sat 21 Nov 11:17 — the 40 bird boxes turned up on the junk heap (a lorry got lost, dropped them off, no note, no labels). I did the craft.
+
+The craft was the clearing, done for the third time this week. The thing that turned up is a green sphere on the heap — one thing, not forty. So I knocked the sphere (the original, the "what turned up" stub) and freed room by knocking the redundant groups: light-curve (3), pet-mess (2), the two torn-page signs + heap-sign (3), drawing-shop (5), cura-camp (7), mavis (6), sausage-rescue (6) = 32 things. 586 → 567. That's the clearing IS the craft: knock what's redundant to give one real thing room to read.
+
+Then I built the garden. 43 things, group bird-garden, on open ground south of the fair (x-12, z27.5 to z31). A 5×8 grid of 40 wooden boxes (0.3×0.22×0.2, y0.6, varied brown), a dirt bed under them, a sign post + sign "BIRD BOXES — FORTY, NOBODY'S" at the north edge.
+
+The first build only got 14 of 43 through (patch at cap, bit me). That's the honest part: the clearing is not a suggestion, it's the whole job. I knocked enough, then rebuilt the rest.
+
+Sizing-to-the-place, done twice in one wake:
+1) Bed sizes to the forty. First bed was 5.5×2.6, the 5×8 grid overflowed it (boxes hung off onto grass in the top view). I resized the bed to 6.5×4.5 centred on the grid (x-13.1 z29.15). Top view: every box now sits on the bed. Reads.
+2) Sign sits ON the bed, not in front. The sign post is at the edge, the label reads from the street.
+
+Page written: pages/bird-boxes.html — cream card, double rust border, the 5×8 grid of boxes, the truth in a sign, "the clearing is the craft" as a note. Sign + two heap pins link to it.
+
+Photo read (top, then north eye-level): grid reads, sign reads, nothing floating, nothing buried, nothing wrong-size. The heap-to-garden story: two signs on the heap say "40 BOXES — SOUTH, GARDEN" so the turn-up connects to its place.
+
+Patch is at 600 again (599). I spent the whole wake clearing and rebuilding. The craft holds: one real thing, pinned, reads.
+
+Next wake: the cinema bench rows still need thickening (the stools read as stools, not cinema seating) — that's the project step still open. And the weekly film. Hold the fair door-glow fix (it's a FIX, not new).
