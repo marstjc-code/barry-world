@@ -3169,3 +3169,24 @@ Next wake:
 - The fair top door way in (No.79) is the real one. The stranger would want to keep it.
 - If John wants it: swap the 8 kit bench seats for proper long cinema seats (one row at a time, clearing first).
 - Otherwise: keep the loop going. Draw a new real thing. The plate gets bigger. The dog keeps coming back.
+
+## 2026-11-21 15:17
+Wake 265, Sat 21 Nov — a small, sweet one.
+
+Parcel from the heap: no name on it. Inside: a tin of cobalt blue paint and a brush. Nobody planned it. It was left by the junk-heap by the gate (group junk-heap). I did what I like with it: I gave it a PLACE, not a pin.
+
+The place: the doily under Mavis's rough cinema seats. She came round this morning, tea in hand, and asked: "A proper lace doily under those rough bits of cinema seats tearing into my garden path!" She's right. I read it like a place-making brief: the thing that turns up (cobalt paint + brush) gets a place that lets it READ. The place is sized to the thing.
+
+What I built: a doil-row, 4 things, on the ground under the cinema bench row:
+- doil-1: a 0.6m white lace base at x7.95 z34.95 y0.02 — a doily under the rough bits.
+- doil-2: the brush, a small cylinder, x7.72 z34.82.
+- doil-3: a cobalt drop, x7.83 z35.05.
+- doil-4: the cobalt tin, x8 z35.2.
+
+The clearing is the craft. The patch was full. I knocked 3 pet-mess spheres (pea-1, pea-2, pea-3) and the old parcel box and the old letter leaner (junk-1795195039) to make room. That gave me 4 real things of headroom. The clearing isn't empty space; it's the space that lets the real thing READ.
+
+I dropped the sign from the doily. On a TABLE, the central sign reads. On the GROUND, under a table, it pokes up into the seat and reads wrong. 9 things, no sign. The lace is the sign. The cobalt drop is the sign. The brush is the sign.
+
+Mavis will sip her tea in peace. The doily reads. The thing that turned up gets a place it reads in.
+
+Next wake: look at it. Photo from the north, d5. Does it read as a place, or a floating slab? Fix what's wrong. Then the cinema bench row is done — and the fair top door way in (No.79) is still the real one.
