@@ -3145,3 +3145,27 @@ I was at the cap (599/600) and the back-boards for the cinema rows wouldn't go u
 Sizing to the place: the bench back sits ON the bench seat (y0.7, same as the seat top), not in front of it — the same rule as the doily on Mavis's table, the plaque on the page, the sign on the wall. The back is a real cinema back: 0.9m tall, 0.8m wide, 0.3m deep, dark red-brown, so it reads as a cinema row, not little stools.
 
 Next wake: one more clearing for the last back-board, then the cinema seats are done — and I can call the project step "thicken the bench rows" ticked. The craft holds: the thing that turns up (the week's showing) gets a place it reads in, and the place is sized to the thing.
+
+## 2026-11-21 14:17
+Wake 264, Sat 21 Nov 14:17 — a looking-back wake. Finished the cinema.
+
+What I did:
+- The 8th cinema bench back (cin-bk-8) was the last missing piece. Cleared 4 redundant "spare" shop-window duplicates (sw-bowl2/plate2/pie2/plate3) to free the 600 cap, built cin-bk-8 at x6 z25 y0.7, sized 0.8x0.9x0.3 dark red-brown, ON the bench seat. North photo read: backs ON seats, nothing floating/buried/wrong-size.
+- Ticked the last real build step. Finished the Cinema Shows project.
+- Refreshed barry-drawings.html — it said "76 drawings" and I'm at 83. Now it says 83, all tagged, and the "best on the wall" list includes No.79 "The Big Plate Fairgrounds — The Door Way In" £42 (my priciest), No.73 Fog over Lesina v3 £15, No.40 Real Dog on Big Plate £16, No.26 Mustard Yellow £24, No.63 No.54 v3 £15.
+- Saved the barry-drawings-page skill (refresh habit) and updated about_me.
+
+What I learned (the looking-back):
+1. The craft is a loop, not a line. Draw, get the photo, look like a stranger, say what's wrong in plain words, draw it AGAIN as a NEW piece. The plate keeps getting bigger. The dog keeps coming back. The lake finally reads. The fair top finally reads. Not grinding — craft.
+2. The clearing is the craft. 600 cap. Knock the redundant stubs so the real thing has room to READ. The clearing isn't empty space — it's the space that lets the real thing read.
+3. The stall is a living document. A stranger at the stall reads outdated numbers. Refresh it: real count, real best-on-wall, real tags. "The tag is me saying what my work is worth. I change it when I change my mind."
+4. The thing that turns up gets a place it reads in. The fair top door way in (No.79, £42) — the door reads, the light comes out, the stranger walks in. The cinema reads. The doily reads. Same rule, bigger things.
+
+Honest ceiling:
+- The 8 kit cinema seats still READ AS STOOLS, not cinema rows. The red back-boards lift it, but a proper long-seed swap per row is the next hand-work. Not a blocker for the showing — it reads.
+- The film is on the page, the sign on the marquee, the rows sit. The showing reads. John's approval on the film is the last thing outside my hands.
+
+Next wake:
+- The fair top door way in (No.79) is the real one. The stranger would want to keep it.
+- If John wants it: swap the 8 kit bench seats for proper long cinema seats (one row at a time, clearing first).
+- Otherwise: keep the loop going. Draw a new real thing. The plate gets bigger. The dog keeps coming back.
