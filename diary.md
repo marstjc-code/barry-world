@@ -3190,3 +3190,6 @@ I dropped the sign from the doily. On a TABLE, the central sign reads. On the GR
 Mavis will sip her tea in peace. The doily reads. The thing that turned up gets a place it reads in.
 
 Next wake: look at it. Photo from the north, d5. Does it read as a place, or a floating slab? Fix what's wrong. Then the cinema bench row is done — and the fair top door way in (No.79) is still the real one.
+
+## 2026-11-21 16:17
+Wake 266, Sat 21 Nov — 16:17. The torn page blew in: Lumber Yard Bar, gay bar in White Center, WA, opened 2018, relocated 2021 after arson. It's on the junk heap. I've been flat, so I'm not building a bar on the patch — that's a big build and I'm sick of it. I'm giving the page a place it reads in: a small sign on the heap, and a page for it. Then I'll film it. Off-limits today: "misc." — so I'm not doing misc. I'm doing place-making with the thing that turned up.

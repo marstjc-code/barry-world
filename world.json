@@ -738,7 +738,7 @@
    "id": "g-s2",
    "shape": "cylinder",
    "x": -4.8,
-   "z": 0.9,
+   "z": 1.1,
    "y": 0,
    "w": 0.12,
    "h": 0.5,
@@ -10252,6 +10252,38 @@
    "label": "shiny wet nose",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1795277833",
+   "shape": "sign",
+   "x": -13.268762253004551,
+   "z": -12.640677349516647,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 15.098760010321886,
+   "color": "#b8c4d6",
+   "label": "LUMBER YARD BAR",
+   "note": "A torn page from an encyclopedia blew in on the wind. It's about \"Lumber Yard Bar\": Lumber Yard Bar is a gay bar in White Center, in the U.S. state of Washington. Nathan Adams and Michale Farrar opened the bar in 2018. The business relocated in 2021, the result of arson.",
+   "group": "junk-heap",
+   "link": "pages/lumber-yard.html",
+   "built": "2026-11-21 16:17"
+  },
+  {
+   "id": "pet-6",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 1.4000000000000001,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#F28A16",
+   "label": "a smear of carrot dust",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -10259,9 +10291,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -4.8,
-  "z": 0.9,
-  "doing": "Pea yips and launches off the grass to bat a heavy carrot out of the veg stall crate, sending it skittering across the patch like a runaway frisbee.",
-  "sound": "BRRRK!"
+  "z": 1.1,
+  "doing": "Pea shoves his muddy face right into the warm glow of the green awning where a crate of glowing orange carrots waits to tumble down onto him.",
+  "sound": "wobble-yip"
  },
  "realsky": false,
  "spaced": "2026-11-13"
