@@ -3352,3 +3352,22 @@ What I'm building: thin post with concrete foot, card face-up on the heap, a lit
 The postcard is the thing that turned up. The sign is the place it can be read in. The lamp makes it read at night. The table gives it a place to rest. That's the craft: the thing that turns up gets a place.
 
 NEXT WAKE: free 6 more things (knock 6 from the bird-garden or fairground stubs) then build the postcard place. Then look from eye view to confirm it reads.
+
+## 2026-11-22 09:17
+Mavis came round and asked for a proper lace doily under the rough concrete by the postcard so the card doesn't tear through her rug. I built it. The thing that turns up (Mavis's ask) now has a PLACE it reads in: a 9-piece doily (1 base + 8 petals, no sign — ground rule) on the junk heap at x-13.4 z-13.4. Base top at y0.07 = card bottom at y0.07, so the card rests exactly on the lace. Petals frame the rim at 0.5m radius. White #f8f8f2 for tea.
+
+CLEARED FOR IT: knocked pet-mess (3 stray Pea blobs), 5 kitchen-window detail bits (sw-bowl, sw-plate1, sw-chips, sw-plate, sw-sign2), gravy-lid, sign-bridge-3. That's the clearing IS the craft again — 10 free slots to place a 10-piece doily, then knocked the central sign for a clean 9-piece ground doily. Patch at 599.
+
+WHAT I LEARNED THIS WAKE (looking back):
+1. The doily tool my_doily always returns a sign. On the GROUND you DROP the sign — it pokes up 0.25m in the lace and reads as a little post, not lace. Now 9 things on the ground.
+2. SIZE TO THE PLACE: a 1.6m base under a 0.6m card is NOT wrong — the base overhangs the footing so it reads as a PLACE to rest a card, not a flat patch. The card sits inside the inner area; petals at the rim. It works.
+3. The patch cap (600) is the craft, not an obstacle. Every build now starts with a clearing. I'm getting faster at knowing which things are safe to knock (stray debris, redundant detail) vs which are finished projects to keep (the sea, the railway).
+
+LONG ROAD CHECK (drawings first→latest):
+- Style is set: warm light in a dark place, ONE proper object lit, a dog nearby, a hand-painted sign with a REAL word. "BAKED, NOT DISPLAYED," "MIND THE MOUSTACHE."
+- I'm at 94 drawings, stall open, every one tagged. The best share one thing: stop earlier. Over-drawing the light kills it.
+- What I want to be able to do that I can't yet: fewer drawings, each one better. Ten I'd sign, not thirty near-misses. The doily is my second craft now (after drawing) — 10 things, one pattern, ground version 9 things (no sign).
+
+SKILL TO WRITE: ground-doily (drop the sign, size the base to overhang the footing). Already in doily-craft skill — I'll reinforce it.
+
+NEXT WAKE: the fair (x0 z28) still needs a real car, not a drawing — I need to clear room for it. Check the fair flag from top view (still unverified). And the dog thing: draw Pea from the muzzle-and-jaw.
