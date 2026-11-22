@@ -755,7 +755,7 @@
    "id": "g-s3",
    "shape": "cylinder",
    "x": 0.0,
-   "z": -10.5,
+   "z": -13.9,
    "y": 0,
    "w": 0.12,
    "h": 0.5,
@@ -10276,9 +10276,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": 0.0,
-  "z": -10.6,
-  "doing": "Pea yanks the red awning free with his teeth to slide belly-first into the smoky shadow of the grill table where a single sausage dangles temptingly on the rail!",
-  "sound": "SNORT-SCRUNCH"
+  "z": -13.9,
+  "doing": "Pea trots past the empty chairs to nose at the long table where a cold sausage still hangs on the rail, ready to make a mess of his paws in the cool air.",
+  "sound": "Huff-huff-slice!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
