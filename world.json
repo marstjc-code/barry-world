@@ -10239,16 +10239,31 @@
    "group": "junk-heap",
    "link": "",
    "built": "2026-11-22 13:17"
+  },
+  {
+   "id": "pet-1",
+   "shape": "sphere",
+   "x": 5.9,
+   "z": -9.299999999999999,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#4A3C31",
+   "label": "scruffy mud puddle",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -10.2,
-  "z": 5.5,
-  "doing": "Pea sprints blindly across the patch to dive headfirst into the shadow of a dancing, slippery tile with a deafening, wet crunch!",
-  "sound": "CLIP-CRASH-YOWL"
+  "x": 5.5,
+  "z": -9.6,
+  "doing": "Pea yanks his collar free to dive belly-first into the crisp shadow of the red awning that hangs over the pie stall!",
+  "sound": "WAG-THUMP"
  },
  "realsky": false,
  "spaced": "2026-11-13"

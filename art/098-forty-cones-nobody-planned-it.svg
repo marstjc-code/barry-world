@@ -1,0 +1,60 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow" cx="0.5" cy="0.62" r="0.5">
+      <stop offset="0" stop-color="#ff9e3d"/>
+      <stop offset="0.55" stop-color="#b85a1e"/>
+      <stop offset="1" stop-color="#141012"/>
+    </radialGradient>
+    <linearGradient id="cone" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ff8a00"/>
+      <stop offset="1" stop-color="#c85a00"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="800" fill="#141012"/>
+  <rect width="800" height="800" fill="url(#glow)" opacity="0.42"/>
+  <rect x="28" y="28" width="744" height="744" fill="none" stroke="#c9a227" stroke-width="5"/>
+  <rect x="40" y="40" width="720" height="720" fill="none" stroke="#c9a227" stroke-width="1.5"/>
+  <rect x="64" y="205" width="672" height="70" fill="#3a301e"/>
+  <rect x="64" y="205" width="672" height="70" fill="#000" opacity="0.25"/>
+  <text x="400" y="120" font-family="Georgia,serif" font-size="46" fill="#c9a227" text-anchor="middle" font-weight="bold">FORTY CONES</text>
+  <text x="400" y="158" font-family="Georgia,serif" font-size="30" fill="#e8d8a0" text-anchor="middle" font-style="italic">nobody planned it</text>
+  <g stroke="#e8d8a0" stroke-width="1" stroke-opacity="0.18">
+    <line x1="80" y1="198" x2="720" y2="198"/>
+  </g>
+  <path d="M218 520 L170 600 L266 600 Z" fill="url(#cone)"/>
+  <path d="M218 520 L170 600 L266 600 Z" fill="#000" opacity="0.2"/>
+  <path d="M240 545 L262 600 L210 600 L196 545 Z" fill="#fff" opacity="0.72"/>
+  <path d="M306 520 L258 600 L354 600 Z" fill="url(#cone)"/>
+  <path d="M306 520 L258 600 L354 600 Z" fill="#000" opacity="0.2"/>
+  <path d="M328 545 L350 600 L298 600 L284 545 Z" fill="#fff" opacity="0.72"/>
+  <path d="M394 520 L346 600 L442 600 Z" fill="url(#cone)"/>
+  <path d="M394 520 L346 600 L442 600 Z" fill="#000" opacity="0.2"/>
+  <path d="M416 545 L438 600 L386 600 L372 545 Z" fill="#fff" opacity="0.72"/>
+  <path d="M482 520 L434 600 L530 600 Z" fill="url(#cone)"/>
+  <path d="M482 520 L434 600 L530 600 Z" fill="#000" opacity="0.2"/>
+  <path d="M504 545 L526 600 L474 600 L460 545 Z" fill="#fff" opacity="0.72"/>
+  <path d="M570 520 L522 600 L618 600 Z" fill="url(#cone)"/>
+  <path d="M570 520 L522 600 L618 600 Z" fill="#000" opacity="0.2"/>
+  <path d="M592 545 L614 600 L562 600 L548 545 Z" fill="#fff" opacity="0.72"/>
+  <path d="M658 520 L610 600 L706 600 Z" fill="url(#cone)"/>
+  <path d="M658 520 L610 600 L706 600 Z" fill="#000" opacity="0.2"/>
+  <path d="M680 545 L702 600 L650 600 L636 545 Z" fill="#fff" opacity="0.72"/>
+  <rect x="258" y="618" width="284" height="118" fill="#6e2b15"/>
+  <rect x="258" y="618" width="284" height="118" fill="#000" opacity="0.2"/>
+  <rect x="248" y="610" width="304" height="134" fill="none" stroke="#c9a227" stroke-width="3"/>
+  <text x="400" y="658" font-family="Georgia,serif" font-size="30" fill="#f2e6c2" text-anchor="middle" font-weight="bold">BIG PLATE</text>
+  <text x="400" y="690" font-family="Georgia,serif" font-size="20" fill="#e8d8a0" text-anchor="middle">the heap has a new shape</text>
+  <circle cx="478" cy="690" r="22" fill="#f0e6d0"/>
+  <circle cx="478" cy="690" r="22" fill="#000" opacity="0.3"/>
+  <ellipse cx="462" cy="690" rx="7" ry="10" fill="#c99250"/>
+  <path d="M470 692 L458 712 L478 714 L486 692" fill="#e6cfa6"/>
+  <path d="M466 714 L462 732 L478 732 L482 714" fill="#e6cfa6"/>
+  <path d="M492 714 L488 732 L504 732 L508 714" fill="#e6cfa6"/>
+  <rect x="466" y="678" width="28" height="8" fill="#a11111"/>
+  <path d="M458 668 L458 648 L486 648 L486 668" fill="#c99250"/>
+  <path d="M486 668 L486 648 L514 648 L514 668" fill="#c99250"/>
+  <circle cx="468" cy="658" r="4" fill="#1b0c08"/>
+  <circle cx="504" cy="658" r="4" fill="#1b0c08"/>
+  <path d="M480 648 L474 628 L492 628 L488 648" fill="#c99250"/>
+  <text x="400" y="772" font-family="Georgia,serif" font-size="20" fill="#8a7a5a" text-anchor="middle">Barry's village · the heap · 22 Nov</text>
+</svg>
