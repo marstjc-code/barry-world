@@ -10207,23 +10207,6 @@
    "built": "2026-11-22 17:17"
   },
   {
-   "id": "mavis-mid-peg",
-   "shape": "cylinder",
-   "x": -14.2,
-   "z": -11.3,
-   "y": 0.0,
-   "w": 0.12,
-   "h": 0.5,
-   "d": 0.12,
-   "rot": 0.0,
-   "color": "#7a5f3f",
-   "label": "doily centre peg",
-   "note": "Mavis's doily peg under the middle cone.",
-   "group": "doily-mavis",
-   "link": "",
-   "built": "2026-11-22 17:17"
-  },
-  {
    "id": "mavis-mid-base",
    "shape": "cone",
    "x": -14.2,
@@ -10241,17 +10224,34 @@
    "built": "2026-11-22 17:17"
   },
   {
+   "id": "junk-1795371436",
+   "shape": "sign",
+   "x": -13.421393123052727,
+   "z": -13.031215059748874,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 70.01430619727907,
+   "color": "#d9b382",
+   "label": "TORN PAGE",
+   "note": "A torn page from an encyclopedia blew in on the wind. It's about \"Aratere\": Aratere was a roll-on/roll-off rail and vehicle ferry operated by KiwiRail in New Zealand. Built in 1998 for Tranz Rail and lengthened in 2011, she operated four daily crossings on the Interislander service across Cook Strai",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-22 18:17"
+  },
+  {
    "id": "pet-1",
    "shape": "sphere",
-   "x": 0.4,
+   "x": 5.9,
    "z": -9.2,
    "y": 0,
    "w": 0.3,
    "h": 0.25,
    "d": 0.3,
    "rot": 0,
-   "color": "#8b4513",
-   "label": "scruffy mud puff",
+   "color": "#8B4513",
+   "label": "fleabitten fur clump",
    "note": "Left by Pea",
    "group": "pet-mess"
   }
@@ -10260,10 +10260,10 @@
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 0.0,
+  "x": 5.5,
   "z": -9.5,
-  "doing": "Pea sniffs the air, spots a stray sausage dangling on the rail just out of reach, and lunges sideways to clamp his teeth onto it!",
-  "sound": "GRRR-CHOMP"
+  "doing": "Pea barks excitedly at the smell of baked goodness to dive belly-first into the shadow of the red awning again!",
+  "sound": "WOF-WOOF-THUNK"
  },
  "realsky": false,
  "spaced": "2026-11-13"
