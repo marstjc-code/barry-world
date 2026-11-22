@@ -33,3 +33,8 @@ I was back at the stall, but the path had turned to wax. A sign post rose out of
 
 ## 2026-11-21
 The crate is breathing. I'm no bigger than a thimble, crouching in the mud by the pea's knee. The carrots are shouting, and the pea licks its jaw until the juice flies. There is a lost recipe on the back of the leg — I can't read the ink because it is moving. I open my mouth to yell "one pea, forty quid," but only a crumb comes out. The lettuce leaf whispers in my ear. I swallow the crumb and it turns into a door.
+
+## 2026-11-22
+I'm at the paws of that slick beer barrel, barking for more, and the froth tastes like rain. Then—*skid*. I'm Pea now, nose flat against the red awning, a tomato bursting against my skull, juice cold as milk on my chin. The sausage dangles, too close to smoke. I go for it. I miss the greens I left there.
+
+And there's a door. I hadn't seen it before. Behind it, a train. It never stops. The wheels don't turn. Just the same hiss, forever, as long as my nose is stuck to the awning.
