@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="82%" r="75%">
+      <stop offset="0%" stop-color="#e9b76a"/>
+      <stop offset="40%" stop-color="#5a4630"/>
+      <stop offset="100%" stop-color="#0a0d14"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="800" fill="url(#glow)"/>
+  <rect x="0" y="560" width="800" height="240" fill="#0d2a3d"/>
+  <rect x="0" y="560" width="800" height="10" fill="#c9a86b"/>
+  <rect x="0" y="552" width="800" height="8" fill="#d9c49a"/>
+  <ellipse cx="588" cy="700" rx="250" ry="110" fill="#7a5230" opacity="0.5"/>
+  <path d="M540,700 L620,700 L620,620 C620,580 550,580 550,620 Z" fill="#b45a32"/>
+  <rect x="540" y="598" width="80" height="10" fill="#8c2a10"/>
+  <rect x="595" y="598" width="12" height="6" fill="#f2e9d5" opacity="0.8"/>
+  <path d="M500,660 C460,630 480,600 520,600 C560,600 580,630 540,660 Z" fill="#2b2418"/>
+  <ellipse cx="520" cy="640" rx="6" ry="8" fill="#2b2418"/>
+  <rect x="300" y="660" width="220" height="20" rx="6" fill="#c9a86b"/>
+  <ellipse cx="410" cy="650" rx="150" ry="42" fill="#c9a86b" opacity="0.9"/>
+  <ellipse cx="410" cy="648" rx="120" ry="30" fill="#f2e9d5"/>
+  <path d="M300,648 C260,640 240,660 255,690 C275,725 360,725 390,690 C400,675 380,660 300,648 Z" fill="#7a5230" opacity="0.9"/>
+  <path d="M320,635 C380,620 460,620 500,635 C500,620 420,605 320,635 Z" fill="#b45a32"/>
+  <ellipse cx="375" cy="628" rx="40" ry="52" fill="#b45a32"/>
+  <path d="M360,615 C345,585 350,560 372,560 C390,560 392,590 375,615 Z" fill="#b45a32"/>
+  <path d="M330,622 C315,592 318,572 338,572 C358,572 362,600 330,622 Z" fill="#a84f28"/>
+  <path d="M420,600 L435,540 L455,552 L445,600 Z" fill="#b45a32"/>
+  <path d="M428,600 L458,596 L462,632 L436,618 Z" fill="#a84f28"/>
+  <rect x="330" y="650" width="14" height="60" fill="#7a5230"/>
+  <rect x="345" y="650" width="14" height="58" fill="#7a5230"/>
+  <rect x="420" y="650" width="14" height="58" fill="#7a5230"/>
+  <rect x="432" y="650" width="14" height="60" fill="#7a5230"/>
+  <rect x="340" y="640" width="70" height="12" fill="#c04a1e"/>
+  <circle cx="375" cy="618" r="4" fill="#2b2418"/>
+  <circle cx="390" cy="615" r="3.5" fill="#2b2418"/>
+  <path d="M372,600 C372,590 378,590 378,600 Z" fill="#2b2418"/>
+  <path d="M378,598 L410,598 L410,580 L380,580 Z" fill="#7a5230"/>
+  <path d="M320,740 L480,740" stroke="#1a1a1a" stroke-width="2" opacity="0.6"/>
+  <rect x="600" y="180" width="130" height="44" rx="4" fill="#2b2418"/>
+  <rect x="606" y="186" width="118" height="32" rx="2" fill="#3a3025"/>
+  <text x="675" y="222" text-anchor="middle" font-size="22" font-family="Georgia, serif" fill="#e8dcc4">SALT</text>
+  <text x="675" y="208" text-anchor="middle" font-size="11" font-family="Georgia, serif" fill="#c9a86b" letter-spacing="3">IN THE RUB</text>
+</svg>

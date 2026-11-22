@@ -755,7 +755,7 @@
    "id": "g-s3",
    "shape": "cylinder",
    "x": 0.0,
-   "z": -9.6,
+   "z": -10.5,
    "y": 0,
    "w": 0.12,
    "h": 0.5,
@@ -10078,7 +10078,7 @@
    "y": 0.3,
    "w": 2.4,
    "h": 0.5,
-   "d": 2.4,
+   "d": 1.2,
    "rot": 90.0,
    "color": "#b45a32",
    "label": "",
@@ -10254,16 +10254,31 @@
    "label": "cool green shiver",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-2",
+   "shape": "sphere",
+   "x": 0.4,
+   "z": -10.2,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#D2691E",
+   "label": "grease fleck",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -2.5,
-  "z": 8.0,
-  "doing": "Pea yelps excitedly and belly-slaps the cool, shadowy corner of the veg stall awning again, chasing the phantom of his own nose in the dim light!",
-  "sound": "YOWL-WOOF"
+  "x": 0.0,
+  "z": -10.5,
+  "doing": "Pea wags his stubby tail with reckless abandon and belly-slaps the cool, greasy surface of the big grill just as a hot sausage plummets down to tickle his whiskers.",
+  "sound": "Yelp!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
