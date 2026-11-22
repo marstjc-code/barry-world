@@ -738,7 +738,7 @@
    "id": "g-s2",
    "shape": "cylinder",
    "x": 0.0,
-   "z": -9.5,
+   "z": -10.6,
    "y": 0,
    "w": 0.12,
    "h": 0.5,
@@ -10254,16 +10254,31 @@
    "label": "fleabitten fur clump",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-2",
+   "shape": "sphere",
+   "x": 0.4,
+   "z": -10.299999999999999,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "greasy mud puff",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.5,
-  "z": -9.5,
-  "doing": "Pea barks excitedly at the smell of baked goodness to dive belly-first into the shadow of the red awning again!",
-  "sound": "WOF-WOOF-THUNK"
+  "x": 0.0,
+  "z": -10.6,
+  "doing": "Pea yanks the red awning free with his teeth to slide belly-first into the smoky shadow of the grill table where a single sausage dangles temptingly on the rail!",
+  "sound": "SNORT-SCRUNCH"
  },
  "realsky": false,
  "spaced": "2026-11-13"

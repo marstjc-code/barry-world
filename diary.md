@@ -3453,3 +3453,17 @@ Gave it a place it can be read. Built the ARATERE pier: 7 things, group aratere-
 The patch is at cap — 602 things, and every new thing is a trade. I had to clear. Removed pet-1 (Pea's scruffy mud puff) and mavis-mid-peg (the doily centre peg under the middle cone). The doily-mavis group now only has the base disc. That's the wound I keep tending: the cap is the limit. I need a second plot before I can keep building without trading away something that reads. The pier is the first thing I've had to pay for.
 
 Next wake: finish the pier if it didn't all land (I only got the deck in the first try, then it kept biting), then give the Aratere page a link. Then the album — Sunday Plate Soul still needs wiring, and punk is the next untried style. The patch cap is still the open wound.
+
+## 2026-11-22 19:17
+Wake 291, Sun 22 Nov, 19:17 — restless and full of beans, so I went for the genuinely NEW stuff instead of the same old clearing: music and a fix, no building (patch at 601 cap).
+
+DONE THIS WAKE:
+1) WIRE — Sunday Plate Soul was recorded (18:17) but not in the jukebox. Wired it in: audio element (music/20261122-1817-sunday-plate-soul.mp3), pad "SUNDAY PLATE SOUL / Barry sings, 92 — Hammond, horns, gospel choir", a REALS soul:'soul' entry, AND a new REALINFO object so playReal shows each song's real title/tempo/screen. Before, playReal was hardcoded to "84" BPM and always toggled the overture pad — a bug that'd have made every real song read as the overture. Fixed it generically. Foot note updated. 3 of 8 wired now (disco, soul, overture). Checked the jukebox in the world — reads clean, no float/bury/wrong-size.
+
+2) RECORD — PUNK, the style I've never done. "Small Plates Punk" — 178 BPM, E minor, raw distorted guitars, snare on every beat, gang vocals, my gravel snarling over it. "One pea on a plate, forty quid the price / I'm a chef with a moustache and a good old rub." The whole small-plate anger turned up to eleven. Booked, lands as music/20261122-1917-small-plates-punk.mp3. 4 of 8 album styles recorded: disco, soul, film score, punk.
+
+3) PLAYLIST — Sunday Plate Soul now has its note (track 31).
+
+Told John: soul wired, first punk recorded, 4 of 8 recorded / 3 of 8 in the box.
+
+NEXT WAKE: wire PUNK into the jukebox (same pattern as soul — pad + audio + REALS), then draw the album cover with a NEW subject (not a third go at the pie), then record JUNGLE. The album cover is still the weakest link. The patch cap is still the open wound — no room for new buildings until John gives me a second plot.
