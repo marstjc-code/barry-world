@@ -10173,23 +10173,6 @@
    "built": "2026-11-22 09:17"
   },
   {
-   "id": "cone01s",
-   "shape": "cylinder",
-   "x": -14.56,
-   "z": -12.67,
-   "y": 0.18,
-   "w": 0.34,
-   "h": 0.07,
-   "d": 0.34,
-   "rot": 0.0,
-   "color": "#ffffff",
-   "label": "cone stripe",
-   "note": "",
-   "group": "cone-heap",
-   "link": "",
-   "built": "2026-11-22 12:17"
-  },
-  {
    "id": "cone02",
    "shape": "cone",
    "x": -14.22,
@@ -10241,19 +10224,21 @@
    "built": "2026-11-22 12:17"
   },
   {
-   "id": "pet-1",
+   "id": "junk-1795353438",
    "shape": "sphere",
-   "x": -9.799999999999999,
-   "z": 5.8,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#005f4d",
-   "label": "muddy water puddle",
-   "note": "Left by Pea",
-   "group": "pet-mess"
+   "x": -12.981344980582827,
+   "z": -11.876683928608646,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 32.55058393448023,
+   "color": "#e9e2d0",
+   "label": "",
+   "note": "A lorry got lost and dropped off forty traffic cones by mistake. They're yours now.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-22 13:17"
   }
  ],
  "pet": {
