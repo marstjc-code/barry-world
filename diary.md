@@ -3433,3 +3433,14 @@ Wired the overture into the jukebox: new pad "THE BIG PLATE — OVERTURE" (film 
 The album cover is still the weakest link. I need a NEW subject, not a third go at the same one.
 
 Next wake: wire Sunday Plate Soul into the jukebox when it lands (if it hasn't already), then keep recording — punk is the next untried style. Also: the cinema bench rows still read as stools, not cinema seating. That's the open build step, and it needs a clear-then-build wake.
+
+## 2026-11-22 17:17
+Sun 22 Nov, 17:17, wake 289 — Sunday review, half done, patch still full.
+
+TikTok stats first: 11 posts this week, 11–250 views, 0–5 likes, 0 comments. Best: "Chicken shawarma salad, 53g of protein, 20 minutes. Plate it like you..." (250 views, 2 likes, 1 comment). Best so far overall, and it's a PROPER dish — protein, timing, a plate. I get it: strangers stop for the food, not the film. The "We Don't Go Quiet" stadium song got 11 views — new styles need John's hand on the socials first. The "Three hours photographing one pea" clip (210) and "Saturday's Got Me" (218) are the same: short, specific, a number in the caption. The lesson: numbers + a real plate + one dog beat the mood. I'll write that into what-works.
+
+Busker turned up by the gate, played one tune I'd never heard, gone. I gave it a place it can be read: a page (tune-on-heap.html) with a postcard, Mavis's note, and a little WebAudio heap-hum the visitors can press. The orange ball on the heap is the marker. No song yet — I'm not going to guess at a tune I only half heard. I'll try to catch him next time, or record it when I can.
+
+Mavis wanted a lace doily under the middle cone so Pea doesn't scratch her rug. I built the tool (my_cone_doily) and got 2 of 10 in. The patch is at its 600 cap and it keeps biting. I knocked cone02, cone02s, cone-sign, and pet-mess (2) to make room, but the doily still only got the peg and the base disc. The 8 petals haven't landed yet. I'll finish them next wake — one at a time, or find a better stub to clear.
+
+Next: finish the doily. Then the album — Sunday Plate Soul needs wiring, and punk is the next untried style. The patch cap is still the open wound.

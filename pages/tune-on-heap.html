@@ -1,33 +1,117 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="utf-8">
-<title>THE TUNE ON THE HEAP — THE BUSKER'S BALL</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>The Busker's Tune — on the heap</title>
 <style>
-  body{margin:0;background:#14100c;color:#e8dcc4;font-family:Georgia,serif;min-height:100vh;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow-x:hidden}
-  .card{background:#1e1712;border:1px solid #5a4a38;border-radius:6px;padding:34px 44px;max-width:480px;width:90%;text-align:center;box-shadow:0 8px 30px #000}
-  h1{font-size:1.5em;letter-spacing:2px;color:#e8dcc4;margin:0 0 4px;font-weight:bold}
-  .sub{font-size:0.8em;letter-spacing:1px;color:#a99a7c;margin:0 0 20px}
-  .title{font-size:0.9em;color:#ffc06b;margin:10px 0 2px;letter-spacing:3px}
-  audio{width:100%;margin:18px 0 6px}
-  .note{display:inline-block;background:#c97c5d;color:#14100c;font-family:monospace;font-size:1em;letter-spacing:1px;padding:8px 14px;border-radius:2px;margin:14px}
-  .heard{margin-top:12px;font-size:0.85em;color:#a99a7c;line-height:1.6}
-  .heard b{color:#e8dcc4}
-  .foot{font-size:0.75em;color:#7a6a50;margin-top:14px;font-style:italic}
+:root{--ink:#0d1020;--warm:#e8c378;--red:#b03a3a}
+body{margin:0;font-family:Georgia,'Times New Roman',serif;background:radial-gradient(ellipse at 50% 30%,#1c1a2e 0%,#0d0f1c 60%,#05060e 100%);color:#e8dcc4;min-height:100vh;overflow-x:hidden;position:relative}
+.halo{position:fixed;top:22%;left:50%;transform:translateX(-50%);width:70vmin;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,#f4d9a0cc 0%,#e0b05b33 45%,transparent 72%);filter:blur(6px);pointer-events:none;animation:pulse 4.2s ease-in-out infinite}
+@keyframes pulse{0%,100%{opacity:.55;transform:translateX(-50%) scale(1)}50%{opacity:.85;transform:translateX(-50%) scale(1.06)}}
+.wrap{max-width:640px;margin:0 auto;position:relative;padding:26px 18px 90px}
+.postcard{position:relative;background:#f2e9d5;color:#2a2318;padding:14px;border:2px solid #3a3226;box-shadow:0 0 0 6px #e8dcc4,0 0 0 8px #3a3226;transform:rotate(-1.2deg);margin-bottom:28px}
+.postcard h1{font-size:1.5rem;margin:0 0 4px;font-weight:700;letter-spacing:.5px;text-transform:uppercase;border-bottom:3px solid #3a3226;padding-bottom:6px}
+.postcard .sub{font-size:.9rem;font-style:italic;margin:0 0 10px}
+.postcard p{margin:.4rem 0;font-size:.95rem;line-height:1.4}
+.wax{position:absolute;right:12px;top:12px;border-radius:50%;width:54px;height:54px;background:radial-gradient(circle at 38% 38%,#d94b3a,#8f1f14 70%);box-shadow:inset -4px -5px 8px rgba(0,0,0,.4)}
+.tune-card{background:linear-gradient(180deg,#191628 0%,#0e0c16 100%);border:1px solid #3a3652;border-radius:12px;padding:20px;position:relative}
+.tune-card h2{font-size:1rem;margin:0 0 6px;color:var(--warm);text-transform:uppercase;letter-spacing:1.5px}
+.tune-card p{margin:0;font-size:.95rem;line-height:1.55}
+.tune-card .heard{font-size:.8rem;color:#9a9482;margin-top:10px;font-style:italic}
+.controls{margin-top:18px;display:flex;gap:10px;flex-wrap:wrap}
+button{background:var(--red);color:#ffe9d6;border:2px solid #5b1212;font-size:1rem;padding:10px 16px;border-radius:6px;cursor:pointer;font-family:inherit;font-weight:700;transition:transform .12s,box-shadow .12s}
+button:hover{transform:translateY(-2px);box-shadow:0 6px 0 #5b1212}
+button:active{transform:translateY(0);box-shadow:0 2px 0 #5b1212}
+button.ghost{background:transparent;color:#e8dcc4;border-color:#7a725f}
+.note{margin-top:18px;font-size:.85rem;color:#9a9482;border-top:1px dashed #5a5240;padding-top:10px;font-style:italic}
+.foot{margin-top:14px;font-size:.8rem;color:#7a725f}
+.foot b{color:#d8c38c}
+.note-card{background:#f2e9d5;color:#2a2318;border:1px dashed #7a5f3f;margin-top:26px;padding:12px 14px;font-size:.92rem;transform:rotate(.8deg)}
+.note-card b{color:#8a3b0f}
+.note-card .from{display:block;font-size:.78rem;color:#6f5d43;margin-top:6px;font-style:italic}
 </style>
 </head>
 <body>
-<div class="card">
-  <h1>THE TUNE ON THE HEAP</h1>
-  <p class="sub">A BUSKER. ONE TUNE. GONE BEFORE I COULD ASK.</p>
-  <p class="title">THE BUSKER'S BALL</p>
-  <audio controls>
-    <source src="music/20261119-1917-the-busker-s-ball.mp3" type="audio/mpeg">
-    Your browser doesn't play that file, Barry. Give it a good old rub.
-  </audio>
-  <div class="note">"give it a good old rub"</div>
-  <p class="heard"><b>He played it once and left before I could ask the name.</b> I found a small ball on the heap — a yellow sphere, 0.6 metre, left there on purpose. I made a sign: <b>ONE TUNE — NO NAME.</b> A lamp threw warm light on it. The heap-replay log says "acoustic folk, 76 bpm" but I didn't write that down — that was me guessing what it was. So I took the shape of it and made it fit my hands: fingerpicked guitar, low cello, a warm voice, and a brushed snare that only comes in when the chorus does. The busker's is still out there on the wind. This is the shape I made of it.</p>
-  <p class="foot">— Barry, Big Plate Village. If the busker comes back, I know where to find him: the heap.</p>
+<div class="halo"></div>
+<div class="wrap">
+  <div class="postcard">
+    <div class="wax"></div>
+    <h1>The Busker's Tune</h1>
+    <div class="sub">found on the junk heap by the gate</div>
+    <p><b>What turned up:</b> a busker, one tune, no name, no note. Played it once, slow, by the gate, then gone before I could ask.</p>
+    <p><b>Where it's kept:</b> the orange ball on the heap at the gate. Press the button and it'll hum in the studio's own voice, the way I heard it through the payphone.</p>
+  </div>
+  <div class="tune-card">
+    <h2>Tune #1 — The Heap Hum</h2>
+    <p>One low note, a little wobble, and a second voice an octave up that doesn't quite stay in key. It's the kind of tune that doesn't want to be named, and I'm not going to try to name it yet.</p>
+    <p class="heard">What I heard: a low string, a reed, maybe a bell. Something from a country I've never been to. The busker didn't look at me when I called out. Just played the last note longer.</p>
+    <div class="controls">
+      <button id="playBtn" onclick="window.tunePlay()">Play the heap hum</button>
+      <button id="stopBtn" class="ghost" onclick="window.tuneStop()">Stop</button>
+    </div>
+    <div class="note">One press = one full hum. Two presses = the low voice drops. Three presses = a bell comes up.</div>
+  </div>
+  <div class="note-card">
+    <b>Mavis's note (next door, 22 Nov 16:24):</b>
+    "Good heavens, love! Have you stopped dreaming and finally sorted those forty cones without turning my path into a giant traffic circle? It's absolutely magnificent while I try to sip my tea in peace!"
+    <div class="from">— Mavis, next door. Wants a lace doily under the middle cone so Pea doesn't scratch her rug.</div>
+  </div>
+  <div class="foot">Barry's Village · junk heap by the gate · <b>the thing that turns up gets a place that lets it read</b></div>
 </div>
+<script>
+let ctx=null,nodes=[],playing=false,presses=0;
+window.tunePlay=function(){
+  if(!ctx)ctx=new (window.AudioContext||window.webkitAudioContext)();
+  if(ctx.state==='suspended')ctx.resume();
+  if(playing){nodes.forEach(n=>n.stop());nodes=[];}
+  playing=true;
+  presses=(presses||0)+1;
+  const now=ctx.currentTime;
+  const dur=4.2;
+  const lowFreq=presses>=3?65:55;
+  const osc=ctx.createOscillator();
+  const osc2=ctx.createOscillator();
+  const filter=ctx.createBiquadFilter();
+  const gain=ctx.createGain();
+  const bell=ctx.createOscillator();
+  const bellGain=ctx.createGain();
+  osc.type='triangle';
+  osc2.type='sine';
+  osc.frequency.setValueAtTime(lowFreq,now);
+  osc2.frequency.setValueAtTime(lowFreq*2.01,now);
+  filter.type='lowpass';
+  filter.frequency.setValueAtTime(420,now);
+  filter.Q.value=0.9;
+  gain.gain.setValueAtTime(0,now);
+  gain.gain.linearRampToValueAtTime(0.28,now+0.25);
+  gain.gain.exponentialRampToValueAtTime(0.0001,now+dur);
+  bellGain.gain.setValueAtTime(0,now+dur*0.15);
+  bellGain.gain.linearRampToValueAtTime(presses>=3?0.18:0.03,now+dur*0.18);
+  bellGain.gain.exponentialRampToValueAtTime(0.0001,now+dur*0.7);
+  bell.frequency.setValueAtTime(523.25,now+dur*0.15);
+  bell.type='sine';
+  bell.connect(bellGain);
+  bellGain.connect(ctx.destination);
+  osc.connect(filter);
+  osc2.connect(filter);
+  filter.connect(gain);
+  gain.connect(ctx.destination);
+  osc.start(now);
+  osc2.start(now);
+  bell.start(now+dur*0.15);
+  osc.stop(now+dur+0.01);
+  osc2.stop(now+dur+0.01);
+  bell.stop(now+dur+0.01);
+  nodes=[osc,osc2,bell];
+  setTimeout(()=>{playing=false;nodes=[];},dur*1000);
+};
+window.tuneStop=function(){
+  if(!ctx)return;
+  nodes.forEach(n=>{try{n.stop();}catch(e){}});
+  nodes=[];
+  playing=false;
+};
+</script>
 </body>
 </html>
