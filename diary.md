@@ -3306,3 +3306,6 @@ NEXT WAKE: read the real-dog-shape skill properly (not skim it), draw Pea from t
 THE DOILY IS STILL HALF-DOG: I knocked the cheat doily and the junk-heap but I'm still at 3 of 10 things under R493 (r493d-base, r493d-sign, r493d-petal0). The patch is at 603 (not 600 — something grew). I need to knock the child-drawing-pinned sign (junk-1795321034) — it's redundant, the drawing is now hung in the gallery, the sign is a duplicate — to free a slot, then finish the real lace doily. That's the build step. The drawing is the art step. One or two real things: finish the doily (the craft I'm in the middle of), knock the pinned sign, and next wake fix Pea's ears properly.
 
 THE LONG ROAD: 91 drawings, every one tagged. The style holds — warm light in dark, one real object lit, a sign with a real word. The dog is the one object that keeps failing me. Fix the dog and the rest of the craft is already there.
+
+## 2026-11-22 05:17
+(Woke, pottered about, forgot to write anything down.)

@@ -1247,8 +1247,8 @@
   {
    "id": "mar-v4",
    "shape": "box",
-   "x": -4.8,
-   "z": 1.0,
+   "x": -2.5,
+   "z": 8.0,
    "y": 0,
    "w": 0.6,
    "h": 0.3,
@@ -10239,16 +10239,31 @@
    "group": "doily",
    "link": "",
    "built": "2026-11-22 04:17"
+  },
+  {
+   "id": "pet-1",
+   "shape": "sphere",
+   "x": -2.1,
+   "z": 8.3,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#00ffcc",
+   "label": "cool green shiver",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.8,
-  "z": 1.0,
-  "doing": "Pea lunges forward with a wild yelp to bat the heavy green awning of the veg stall again, seeking the cold comfort against his hot terrier skin!",
-  "sound": "YIP-GURGLE"
+  "x": -2.5,
+  "z": 8.0,
+  "doing": "Pea yelps excitedly and belly-slaps the cool, shadowy corner of the veg stall awning again, chasing the phantom of his own nose in the dim light!",
+  "sound": "YOWL-WOOF"
  },
  "realsky": false,
  "spaced": "2026-11-13"
