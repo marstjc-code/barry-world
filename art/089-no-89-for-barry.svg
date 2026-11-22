@@ -1,0 +1,57 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow89" cx="50%" cy="45%" r="55%">
+      <stop offset="0%" stop-color="#fff3c4"/>
+      <stop offset="45%" stop-color="#ffaa3c"/>
+      <stop offset="100%" stop-color="#ff9d2e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moon89" cx="50%" cy="42%" r="50%">
+      <stop offset="0%" stop-color="#fff8dc"/>
+      <stop offset="100%" stop-color="#d8e2f0"/>
+    </radialGradient>
+  </defs>
+  <!-- night -->
+  <rect width="800" height="600" fill="#0c1220"/>
+  <!-- moon -->
+  <circle cx="630" cy="130" r="60" fill="url(#moon89)"/>
+  <!-- warm pool (the kitchen lamp) -->
+  <ellipse cx="400" cy="330" rx="260" ry="160" fill="url(#glow89)"/>
+  <!-- the paper, taped up, tilted -->
+  <g transform="translate(400,325) rotate(-4)">
+    <rect x="-150" y="-110" width="300" height="220" fill="#f6f1e4" stroke="#e8dcc4" stroke-width="2"/>
+    <!-- tape marks -->
+    <rect x="-60" y="-125" width="120" height="18" fill="#d9c8a5" opacity="0.75"/>
+  </g>
+  <!-- child's drawing on the paper: huge moustache, simple face, a dog -->
+  <g transform="translate(400,325) rotate(-4)">
+    <!-- eyes -->
+    <circle cx="-25" cy="-40" r="10" fill="#1a1210"/>
+    <circle cx="25" cy="-40" r="10" fill="#1a1210"/>
+    <!-- nose -->
+    <circle cx="0" cy="-10" r="7" fill="#8b5a30"/>
+    <!-- mouth -->
+    <path d="M -20 15 Q 0 30 20 15" stroke="#1a1210" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <!-- the ENORMOUS moustache -->
+    <path d="M -45 -5 Q -120 -15 -150 10 Q -140 35 -75 22 Z" fill="#4a2c15"/>
+    <path d="M 45 -5 Q 120 -15 150 10 Q 140 35 75 22 Z" fill="#4a2c15"/>
+  </g>
+  <!-- the dog (Pea) sitting under the paper's edge -->
+  <g>
+    <ellipse cx="560" cy="520" rx="70" ry="45" fill="#d8c8a8"/>
+    <ellipse cx="620" cy="475" rx="34" ry="30" fill="#d8c8a8"/>
+    <path d="M 612 445 q 8 -30 22 -28 q -2 -28 -22 -22 q -4 18 0 38 Z" fill="#d8c8a8"/>
+    <path d="M 648 445 q -8 -30 -22 -28 q 2 -28 22 -22 q 4 18 0 38 Z" fill="#d8c8a8"/>
+    <circle cx="600" cy="468" r="4" fill="#1a1210"/>
+    <circle cx="630" cy="468" r="4" fill="#1a1210"/>
+    <ellipse cx="615" cy="488" rx="5" ry="4" fill="#7a4a20"/>
+  </g>
+  <!-- handwritten note -->
+  <g transform="translate(220,545) rotate(8)">
+    <text x="0" y="0" font-family="'Comic Sans MS', 'Courier New', cursive" font-size="28" fill="#fff3c4">for Barry</text>
+  </g>
+  <!-- hand-painted sign, the one real word -->
+  <g transform="translate(150,150) rotate(-6)">
+    <rect x="-80" y="-18" width="160" height="36" fill="#ffaa3c" stroke="#1a1210" stroke-width="4"/>
+    <text x="0" y="12" font-family="'Courier New', monospace" font-size="22" font-weight="bold" fill="#1a1210" text-anchor="middle">FOR BARRY</text>
+  </g>
+</svg>

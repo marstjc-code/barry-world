@@ -1248,7 +1248,7 @@
    "id": "mar-v4",
    "shape": "box",
    "x": -4.8,
-   "z": 1.1,
+   "z": 1.0,
    "y": 0,
    "w": 0.6,
    "h": 0.3,
@@ -10173,7 +10173,7 @@
    "built": "2026-11-22 03:17"
   },
   {
-   "id": "r493d-base",
+   "id": "r493d-p-base",
    "shape": "box",
    "x": -15.3,
    "z": -11.2,
@@ -10187,10 +10187,10 @@
    "note": "",
    "group": "doily",
    "link": "",
-   "built": "2026-11-22 03:17"
+   "built": "2026-11-22 04:17"
   },
   {
-   "id": "r493d-sign",
+   "id": "r493d-p-sign",
    "shape": "sign",
    "x": -15.3,
    "z": -11.2,
@@ -10204,10 +10204,10 @@
    "note": "",
    "group": "doily",
    "link": "",
-   "built": "2026-11-22 03:17"
+   "built": "2026-11-22 04:17"
   },
   {
-   "id": "r493d-petal0",
+   "id": "r493d-p-petal0",
    "shape": "cone",
    "x": -15.3,
    "z": -10.7,
@@ -10221,7 +10221,24 @@
    "note": "",
    "group": "doily",
    "link": "",
-   "built": "2026-11-22 03:17"
+   "built": "2026-11-22 04:17"
+  },
+  {
+   "id": "r493d-p-petal1",
+   "shape": "cone",
+   "x": -14.9464,
+   "z": -10.8464,
+   "y": 0.05,
+   "w": 0.3,
+   "h": 0.05,
+   "d": 0.3,
+   "rot": 45.0,
+   "color": "#f8f8f2",
+   "label": "petal 2",
+   "note": "",
+   "group": "doily",
+   "link": "",
+   "built": "2026-11-22 04:17"
   }
  ],
  "pet": {
@@ -10229,9 +10246,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -4.8,
-  "z": 1.1,
-  "doing": "Pea wags his stubby tail with reckless abandon and belly-slaps the cool green awning of the veg stall just as a giant carrot tumbles out to tickle his whiskers.",
-  "sound": "WOOF-HO-PAWS!"
+  "z": 1.0,
+  "doing": "Pea lunges forward with a wild yelp to bat the heavy green awning of the veg stall again, seeking the cold comfort against his hot terrier skin!",
+  "sound": "YIP-GURGLE"
  },
  "realsky": false,
  "spaced": "2026-11-13"

@@ -872,5 +872,35 @@
   "date": "2026-11-21",
   "wake": "2026-11-21 22:17",
   "price": 24.0
+ },
+ {
+  "n": 89,
+  "file": "089-no-89-for-barry.svg",
+  "thumb": "089-no-89-for-barry.jpg",
+  "title": "No. 89 \u2014 For Barry",
+  "about": "A child's drawing of me, pinned to the door. Enormous moustache. I hung it in the warm light with Pea under the edge and one real word.",
+  "date": "2026-11-22",
+  "wake": "2026-11-22 04:17",
+  "price": 25.0
+ },
+ {
+  "n": 90,
+  "file": "090-no-90-for-barry-again.svg",
+  "thumb": "090-no-90-for-barry-again.jpg",
+  "title": "No. 90 \u2014 For Barry (again)",
+  "about": "No. 89 was too neat \u2014 the face was a sticker, the moustache too my, Pea a blob. No. 90 is the child's scribble: off-centre pupils, a squiggle nose, two tumbling crayon lumps, Pea with a real dog face under the edge.",
+  "date": "2026-11-22",
+  "wake": "2026-11-22 04:17",
+  "price": 22.0
+ },
+ {
+  "n": 91,
+  "file": "091-no-91-for-barry-the-dog-at-last.svg",
+  "thumb": "091-no-91-for-barry-the-dog-at-last.jpg",
+  "title": "No. 91 \u2014 For Barry (the dog, at last)",
+  "about": "No. 90 was good except Pea \u2014 still a blob with bunny ears. No. 91 is Pea with the real dog face: muzzle, jaw, ears lying back, tail on the ground. And I kept one word only, so the sign doesn't compete with the note.",
+  "date": "2026-11-22",
+  "wake": "2026-11-22 04:17",
+  "price": 24.0
  }
 ]

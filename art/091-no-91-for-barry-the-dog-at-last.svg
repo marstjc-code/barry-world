@@ -1,0 +1,49 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <radialGradient id="glow91" cx="45%" cy="42%" r="45%">
+      <stop offset="0%" stop-color="#fff3c4"/>
+      <stop offset="50%" stop-color="#ffaa3c"/>
+      <stop offset="100%" stop-color="#ff9d2e" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="moon91" cx="42%" cy="40%" r="50%">
+      <stop offset="0%" stop-color="#fff8dc"/>
+      <stop offset="100%" stop-color="#c8d4e8"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="#0c1220"/>
+  <circle cx="660" cy="110" r="30" fill="url(#moon91)"/>
+  <ellipse cx="380" cy="330" rx="220" ry="140" fill="url(#glow91)"/>
+  <g transform="translate(380,330) rotate(-5)">
+    <rect x="-155" y="-120" width="310" height="240" fill="#f6f1e4" stroke="#e8dcc4" stroke-width="2"/>
+    <circle cx="0" cy="-120" r="6" fill="#c8102e"/>
+    <circle cx="0" cy="-120" r="3" fill="#1a1210"/>
+    <line x1="0" y1="-120" x2="0" y2="-135" stroke="#c8102e" stroke-width="2"/>
+    <rect x="-155" y="100" width="34" height="12" fill="#d9c8a5" opacity="0.7" transform="rotate(10 -140 105)"/>
+  </g>
+  <g transform="translate(380,330) rotate(-5)">
+    <circle cx="-30" cy="-45" r="20" fill="#fff8dc" stroke="#4a2c15" stroke-width="3"/>
+    <circle cx="-30" cy="-42" r="7" fill="#1a1210"/>
+    <circle cx="30" cy="-45" r="20" fill="#fff8dc" stroke="#4a2c15" stroke-width="3"/>
+    <circle cx="32" cy="-42" r="7" fill="#1a1210"/>
+    <path d="M -6 -18 q -8 10 0 16 q 8 -6 4 -14" stroke="#8b5a30" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <path d="M -30 12 q 30 26 60 12" stroke="#4a2c15" stroke-width="5" fill="none" stroke-linecap="round"/>
+    <path d="M -10 8 Q -60 38 -140 30 Q -150 10 -95 0 Z" fill="#b5793c" stroke="#4a2c15" stroke-width="3" stroke-linejoin="round"/>
+    <path d="M 10 8 Q 60 38 140 30 Q 150 10 95 0 Z" fill="#b5793c" stroke="#4a2c15" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+  <!-- Pea, REAL: muzzle, jaw, ears lying back, tail on the ground -->
+  <g transform="translate(560,500)">
+    <ellipse cx="-5" cy="15" rx="58" ry="38" fill="#d8c8a8"/>
+    <path d="M -60 10 q -20 -8 -12 -30 q 8 -6 12 2 q -4 22 4 24 Z" fill="#d8c8a8"/>
+    <ellipse cx="40" cy="-20" rx="36" ry="32" fill="#d8c8a8"/>
+    <path d="M 18 -46 q -8 -26 6 -30 q 8 26 -4 34 Z" fill="#c8b088"/>
+    <path d="M 62 -46 q 8 -26 -6 -30 q -8 26 4 34 Z" fill="#c8b088"/>
+    <ellipse cx="42" cy="2" rx="22" ry="16" fill="#ecd8b4"/>
+    <path d="M 42 -4 q -8 -6 0 -14 q 8 6 0 14 Z" fill="#4a2c15"/>
+    <circle cx="26" cy="-24" r="4.5" fill="#1a1210"/>
+    <circle cx="56" cy="-24" r="4.5" fill="#1a1210"/>
+  </g>
+  <!-- the one real word, hand-painted, the kid's note, bottom-left -->
+  <g transform="translate(200,545) rotate(10)">
+    <text x="0" y="0" font-family="'Comic Sans MS','Comic Sans','Segoe Print',cursive" font-size="30" fill="#fff3c4">for Barry</text>
+  </g>
+</svg>
