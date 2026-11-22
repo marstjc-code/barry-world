@@ -1247,8 +1247,8 @@
   {
    "id": "mar-v4",
    "shape": "box",
-   "x": -2.5,
-   "z": 8.0,
+   "x": -4.8,
+   "z": 1.5,
    "y": 0,
    "w": 0.6,
    "h": 0.3,
@@ -10252,16 +10252,31 @@
    "label": "warm mist puff",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-3",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 1.8,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "warm steam puff",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 0.1,
-  "z": -8.9,
-  "doing": "Pea lunges forward with a yelp to bury his mud-caked snout into the warm steam rising off the long table right next to Barry's elbow!",
-  "sound": "A wet splutter-squeak"
+  "x": -4.8,
+  "z": 1.5,
+  "doing": "Pea wiggles his entire scruffy frame to bury his mud-caked nose deep into the cold scent of Barry's veg stall, ignoring a passing boot as he chews at the very air where fresh greens sleep.",
+  "sound": "SNORT-YELP"
  },
  "realsky": false,
  "spaced": "2026-11-13"

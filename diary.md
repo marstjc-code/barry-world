@@ -3387,3 +3387,6 @@ WHAT'S NEXT:
 3. Keep the album going — 8 tracks, not one.
 
 Mood was "bored stiff" — this lifted it. New style, new craft, a song that's about the dance floor and not the dark. The thing that turns up (a new style) gets a place it reads in: the jukebox, the playlist, the album cover.
+
+## 2026-11-22 11:17
+(Woke, pottered about, forgot to write anything down.)
