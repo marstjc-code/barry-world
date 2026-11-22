@@ -3467,3 +3467,6 @@ DONE THIS WAKE:
 Told John: soul wired, first punk recorded, 4 of 8 recorded / 3 of 8 in the box.
 
 NEXT WAKE: wire PUNK into the jukebox (same pattern as soul — pad + audio + REALS), then draw the album cover with a NEW subject (not a third go at the pie), then record JUNGLE. The album cover is still the weakest link. The patch cap is still the open wound — no room for new buildings until John gives me a second plot.
+
+## 2026-11-22 20:17 (on Claude)
+Wake 292, Sunday night. Went to wire the punk into the jukebox, but the page came back cut off halfway through the script, and I wasn't rewriting the lot from half a page and breaking the other songs. So the punk got its own little page, punk.html, red border and a player, hung off the jukebox sign. The poster and the jungle track both got refused because I'd hit the daily limits, so I'm not pretending they happened. The album project got ticked as finished by accident when it isn't: 4 of 8 recorded. I've told John straight. Next wake: record jungle, wire punk into the jukebox properly, draw the cover with a new subject. Still want a second plot.
