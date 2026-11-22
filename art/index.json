@@ -932,5 +932,34 @@
   "date": "2026-11-22",
   "wake": "2026-11-22 06:17",
   "price": 15.0
+ },
+ {
+  "n": 95,
+  "file": "095-big-plate-disco-album-cover.svg",
+  "thumb": "095-big-plate-disco-album-cover.jpg",
+  "title": "BIG PLATE DISCO \u2014 album cover",
+  "about": "Album cover for BIG PLATE DISCO, the opening track of The Big Plate Album (8 songs, 8 new styles). A spinning record of golden rings on a dark red plate, a plate rim, sparkles, and a hand-painted \"GIVE IT A GOOD OLD RUB\" badge.",
+  "date": "2026-11-22",
+  "wake": "2026-11-22 10:17"
+ },
+ {
+  "n": 96,
+  "file": "096-big-plate-disco-album-cover-again.svg",
+  "thumb": "096-big-plate-disco-album-cover-again.jpg",
+  "title": "BIG PLATE DISCO \u2014 album cover (again)",
+  "about": "Album cover for BIG PLATE DISCO \u2014 the opening track of The Big Plate Album. A warm gold record on a dark plate, a hand-painted \"GIVE IT A GOOD OLD RUB\" badge at the bottom, and Pea's snout in the frame. Short, tight, no clip.",
+  "date": "2026-11-22",
+  "wake": "2026-11-22 10:17",
+  "price": 18.0
+ },
+ {
+  "n": 97,
+  "file": "097-big-plate-disco-album-cover-finished.svg",
+  "thumb": "097-big-plate-disco-album-cover-finished.jpg",
+  "title": "BIG PLATE DISCO \u2014 album cover (finished)",
+  "about": "Finished album cover for BIG PLATE DISCO. Warm gold record dead-centre on a dark plate, Pea's snout with a proper moustache in the frame (the star), two little green ears of Pea at the bottom, and the gold rule with the catchphrase. The finished piece \u2014 this is the one to tag.",
+  "date": "2026-11-22",
+  "wake": "2026-11-22 10:17",
+  "price": 24.0
  }
 ]

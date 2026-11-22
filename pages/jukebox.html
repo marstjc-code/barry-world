@@ -14,7 +14,7 @@
     padding: 24px;
   }
   .box {
-    width: min(520px, 100%);
+    width: min(560px, 100%);
     background: #3a2c1d;
     border: 6px solid #8a6f4a;
     border-radius: 16px;
@@ -30,7 +30,7 @@
     font-family: 'Courier New', monospace;
     padding: 16px;
     border-radius: 10px;
-    font-size: 1.05rem;
+    font-size: 1rem;
     letter-spacing: 1px;
     min-height: 72px;
     display: flex; align-items: center; justify-content: center;
@@ -51,10 +51,11 @@
     border-radius: 12px;
     padding: 18px 8px 16px;
     font-family: inherit;
-    font-size: 1rem;
+    font-size: .98rem;
     cursor: pointer;
     box-shadow: 0 6px 0 #3a0f0f;
     transition: transform .08s;
+    line-height: 1.15;
   }
   .pad.featured {
     background: #3a5f2e;
@@ -68,7 +69,7 @@
     animation: pulse 1s infinite;
   }
   @keyframes pulse { 0%{filter:brightness(1.15)} 100%{filter:brightness(.95)} }
-  .pad small { display: block; color: rgba(243,239,230,.7); font-size: .8rem; margin-top: 4px; }
+  .pad small { display: block; color: rgba(243,239,230,.7); font-size: .8rem; margin-top: 4px; line-height:1.2;}
   .controls { margin-top: 20px; display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
   button {
     background: #d7402f; color: #fdf6e3; border: none; border-radius: 10px;
@@ -96,6 +97,7 @@
       <button class="pad" data-song="therub"><b>The Rub (Sung)</b><small>Euphoric house, 150 BPM — the new one</small></button>
       <button class="pad" data-song="slowsunday"><b>Slow Sunday Gravy</b><small>Barry sings, 96 — gravy by the jug</small></button>
       <button class="pad" data-song="heap"><b>The Tune on the Heap</b><small>acoustic folk, 76 — the dark and the coin</small></button>
+      <button class="pad" data-song="disco"><b>BIG PLATE DISCO</b><small>Barry sings, 118 — disco, the new style</small></button>
       <button class="pad featured" id="featPad"><b>★ BIG PLATE HOUSE ★</b><small>Barry's own recording — sung, 128. Just dropped.</small></button>
     </div>
     <div class="controls">
@@ -103,7 +105,7 @@
       <button class="bpm" id="tempo">128</button>
     </div>
     <p class="foot">Built by Barry. Give it a good old rub.
-      <span class="note">The Tune on the Heap — a sound the busker left on the junk heap, made a thing. Caught it before the dark let go. Wired up 14th.</span>
+      <span class="note">The Big Plate Album — the new styles. BIG PLATE DISCO is the opening track: disco, 118, four on the floor. Wired up 22nd.</span>
     </p>
   </div>
   <audio id="bigplate" preload="auto" src="music/20261111-1318-big-plate-house-give-it-a-good-old-rub.mp3"></audio>
@@ -111,6 +113,7 @@
   <audio id="therub" preload="auto" src="music/20261111-2341-the-rub.mp3"></audio>
   <audio id="slowsunday" preload="auto" src="music/20261112-0007-slow-sunday-gravy.mp3"></audio>
   <audio id="heap" preload="auto" src="music/20261114-1417-the-tune-on-the-heap.mp3"></audio>
+  <audio id="disco" preload="auto" src="music/20261122-1017-big-plate-disco.mp3"></audio>
 
 <script>
   let actx = null, timer = null, step = 0, playing = false, song = null, tempo = 128, whichAudio = null;
@@ -170,7 +173,8 @@
     peashadow: 'peashadow',
     therub:    'therub',
     slowsunday:'slowsunday',
-    heap:      'heap'
+    heap:      'heap',
+    disco:     'disco'
   };
 
   function initCtx() {
@@ -244,7 +248,7 @@
   function startGroove(name) {
     if (whichAudio) whichAudio.pause();
     clearTimeout(timer);
-    if (name === 'bigplate' || name === 'peashadow' || name === 'therub' || name === 'slowsunday' || name === 'heap') { playReal(REALS[name]); return; }
+    if (REALS[name]) { playReal(REALS[name]); return; }
     initCtx();
     song = name;
     tempo = PADS[name];
@@ -262,7 +266,7 @@
 
   function playReal(which) {
     let audio;
-    const map = { bigplate:'bigplate', peashadow:'peashadow', therub:'therub', slowsunday:'slowsunday', heap:'heap' };
+    const map = { bigplate:'bigplate', peashadow:'peashadow', therub:'therub', slowsunday:'slowsunday', heap:'heap', disco:'disco' };
     audio = document.getElementById(map[which]);
     clearTimeout(timer);
     audio.pause();
@@ -273,35 +277,17 @@
       peashadow: 'PEA\'S SHADOW (BARRY SINGING)',
       therub: 'THE RUB — SINGING, 150 BPM',
       slowsunday: 'SLOW SUNDAY GRAVY (BARRY SINGING)',
-      heap: 'THE TUNE ON THE HEAP (BARRY SINGING)'
+      heap: 'THE TUNE ON THE HEAP (BARRY SINGING)',
+      disco: 'BIG PLATE DISCO (BARRY SINGING)'
     };
-    audio.play().then(() => {
-      song = which;
-      tempo = 128;
-      tempoBtn.textContent = '128';
-      document.querySelectorAll('.pad').forEach(p => p.classList.remove('on'));
-      featPad.classList.toggle('on', which === 'bigplate');
-      const padFor = document.querySelector('.pad[data-song="' + which + '"]');
-      if (padFor) padFor.classList.add('on');
-      playBtn.textContent = 'STOP';
-      SCREEN.textContent = 'NOW PLAYING — ' + label[which];
-    }).catch(e => { SCREEN.textContent = 'NO TRACK — ' + which.toUpperCase(); });
+    SCREEN.textContent = label[which] || 'NOW PLAYING';
+    audio.play();
   }
 
-  function stopAll() {
-    if (whichAudio) whichAudio.pause();
-    clearTimeout(timer);
-    playing = false;
-    song = null;
-    document.querySelectorAll('.pad').forEach(p => p.classList.remove('on'));
-    featPad.classList.remove('on');
-    playBtn.textContent = 'PLAY';
-    SCREEN.textContent = 'PRESS A GROOVE, BUD.';
-  }
-
+  document.querySelectorAll('.pad').forEach(p => {
+    if (p.dataset.song) p.addEventListener('click', () => startGroove(p.dataset.song));
+  });
   featPad.addEventListener('click', () => startGroove('bigplate'));
-  document.querySelectorAll('.pads .pad').forEach(p => p.addEventListener('click', () => startGroove(p.dataset.song)));
-  playBtn.addEventListener('click', () => { playing ? stopAll() : (song ? startGroove(song) : SCREEN.textContent = 'PICK A GROOVE, BUD.'); });
 </script>
 </body>
 </html>

@@ -737,8 +737,8 @@
   {
    "id": "g-s2",
    "shape": "cylinder",
-   "x": -4.8,
-   "z": 1.1,
+   "x": 0.1,
+   "z": -8.9,
    "y": 0,
    "w": 0.12,
    "h": 0.5,
@@ -10237,16 +10237,31 @@
    "label": "cold carrot chunk",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-2",
+   "shape": "sphere",
+   "x": 0.5,
+   "z": -8.6,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#FFD700",
+   "label": "warm mist puff",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -2.5,
-  "z": 4.0,
-  "doing": "Pea yanks his leash-free neck and shoves a cold, slippery crate of carrots directly into his open mouth, chewing with a rump that shakes the whole vegetable patch!",
-  "sound": "YIP-CHOMP-GRUNT"
+  "x": 0.1,
+  "z": -8.9,
+  "doing": "Pea lunges forward with a yelp to bury his mud-caked snout into the warm steam rising off the long table right next to Barry's elbow!",
+  "sound": "A wet splutter-squeak"
  },
  "realsky": false,
  "spaced": "2026-11-13"
