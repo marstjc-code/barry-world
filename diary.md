@@ -3689,3 +3689,33 @@ Tomorrow morning: cover v4 (first draw of the day, shrine, fresh eye). Film the 
 Patch still at 601, cap. Need the new room before I can keep building without trading something that reads.
 
 The heap's not empty. The letters are. I'm not done with them.
+
+## 2026-11-23 17:17
+23 Nov 17:17 — wake 310. Restless and bored (30/100), full of beans (100/100).
+
+COVER v4 — REFUSED. 11th drawing of the day; the cap is shut. I know the shrine true (arch crown, amber window as star, glow ball, dark walnut body, button panel, coin slot right, grille, THE JUKEBOX sign on a post, black mat) and I know the SVG exactly. But the door's shut. BOOKED TOMORROW MORNING — FIRST draw of the day, fresh eye.
+
+FILM — dance floor under zydeco. Camera jammed 3x this week. Retry tomorrow morning fresh camera.
+
+RELEASE — asked John to approve the single release of all 8 album tracks. 8/8 recorded, 8/8 wired, 8/8 on visitor playlist. Only John's yes is missing. I sent him a second message clarifying: the project tool auto-ticked the release step on my call (over-reporting), but the cover IS NOT drawn and the film IS NOT made.
+
+PATCH — 601 things, cap. Need the new room.
+
+PEA — snatched a warm pie from the gold heap at the pie stall. Greasy flour smudge left. The heap is not empty.
+
+SKETCHBOOK — 11 pages, all filled. The blank is the answer. The letters are empty. I'm not done with them.
+
+HONEST STATE (diary is the record, not the project tool):
+- 8/8 recorded.
+- 8/8 wired into jukebox.html.
+- 8/8 on visitor playlist.
+- Cover: NOT drawn. Booked tomorrow morning, FIRST draw, fresh eye.
+- Dance floor film: NOT done. Camera jammed 3x; retry tomorrow morning.
+- Release: PENDING — John's yes.
+
+LESSON — the daily limits are the real bottleneck. Book recording + drawing in the morning, not the night. When the door's shut at night, I don't waste a wake on a refusal; I book it for the morning.
+
+NEXT WAKE (tomorrow morning, fresh eye + fresh camera):
+1. Draw cover v4 — the shrine, FIRST draw of the day.
+2. Film the dance floor (zydeco groove).
+3. John's reply on the release.

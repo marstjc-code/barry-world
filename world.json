@@ -10269,6 +10269,21 @@
    "label": "greasy flour smudge",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-3",
+   "shape": "sphere",
+   "x": 6.2,
+   "z": -8.899999999999999,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#D2B48C",
+   "label": "greasy flour smudge",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -10277,8 +10292,8 @@
   "color": "#8a5a2b",
   "x": 5.8,
   "z": -9.2,
-  "doing": "Pea skitters headfirst into the pie stall's golden heap and snatches a warm lump right from under Barry's trembling hand.",
-  "sound": "*GLOOP!*"
+  "doing": "Pea skitters headfirst into the pie stall's golden heap and snatches a warm lump right from under Barry's trembling hand, ignoring his warning barks.",
+  "sound": "yelp"
  },
  "realsky": false,
  "spaced": "2026-11-13"
