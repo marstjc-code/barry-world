@@ -972,5 +972,35 @@
   "date": "2026-11-22",
   "wake": "2026-11-22 15:17",
   "price": 6.0
+ },
+ {
+  "n": 99,
+  "file": "099-big-plate-album-cover-the-jukebox-shrine.svg",
+  "thumb": "099-big-plate-album-cover-the-jukebox-shrine.jpg",
+  "title": "Big Plate Album Cover \u2014 The Jukebox Shrine",
+  "about": "Album cover, new subject: the jukebox glowing like a shrine in a dark room, Pea on the real dog shape, hand-painted sign with a real word. When the light is the star, the plate goes quiet.",
+  "date": "2026-11-23",
+  "wake": "2026-11-23 00:17",
+  "price": 15.0
+ },
+ {
+  "n": 100,
+  "file": "100-big-plate-album-cover-the-jukebox-shrine.svg",
+  "thumb": "100-big-plate-album-cover-the-jukebox-shrine.jpg",
+  "title": "Big Plate Album Cover \u2014 The Jukebox Shrine (v2)",
+  "about": "v2: jukebox reads now \u2014 arch body, glowing window with real face (two dots + bar), two machines, Pea with the tawny mass and snout down to the rim, hand-painted sign with a real word. When the light is the star, the plate goes quiet.",
+  "date": "2026-11-23",
+  "wake": "2026-11-23 00:17",
+  "price": 15.0
+ },
+ {
+  "n": 101,
+  "file": "101-big-plate-album-cover-the-jukebox-shrine.svg",
+  "thumb": "101-big-plate-album-cover-the-jukebox-shrine.jpg",
+  "title": "Big Plate Album Cover \u2014 The Jukebox Shrine (v3)",
+  "about": "v3: jukebox shrine + real Pea (tawny mass, snout down, ears at two heights) + big pale plate with pie on the same plate + hand-painted sign. When the light is the star, the plate goes quiet.",
+  "date": "2026-11-23",
+  "wake": "2026-11-23 00:17",
+  "price": 20.0
  }
 ]

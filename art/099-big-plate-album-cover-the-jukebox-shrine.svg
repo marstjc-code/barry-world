@@ -1,0 +1,108 @@
+<svg viewBox="0 0 800 800" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<radialGradient id="glow" cx="50%" cy="42%" r="55%"><stop offset="0%" stop-color="#ffd27a"/><stop offset="25%" stop-color="#f7a04a"/><stop offset="55%" stop-color="#b3541e"/><stop offset="100%" stop-color="#13100d"/></radialGradient>
+<radialGradient id="room" cx="50%" cy="45%" r="70%"><stop offset="0%" stop-color="#2a2016"/><stop offset="60%" stop-color="#17110c"/><stop offset="100%" stop-color="#070403"/></radialGradient>
+<radialGradient id="plate" cx="50%" cy="42%" r="60%"><stop offset="0%" stop-color="#f5ead8"/><stop offset="60%" stop-color="#e9d9c0"/><stop offset="100%" stop-color="#c9b89c"/></radialGradient>
+<linearGradient id="signg" x1="0" y1="0" x2="1" y2="0"><stop offset="0%" stop-color="#e8a43a"/><stop offset="50%" stop-color="#f2c15c"/><stop offset="100%" stop-color="#e8a43a"/></linearGradient>
+<linearGradient id="body" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#5c4427"/><stop offset="45%" stop-color="#3a2a18"/><stop offset="100%" stop-color="#1f170e"/></linearGradient>
+<radialGradient id="face" cx="48%" cy="40%" r="55%"><stop offset="0%" stop-color="#ffb85c"/><stop offset="35%" stop-color="#e08f3f"/><stop offset="100%" stop-color="#5e3312"/></radialGradient>
+</defs>
+<rect width="800" height="800" fill="url(#room)"/>
+<rect x="40" y="40" width="720" height="720" fill="none" stroke="#5c3d16" stroke-width="10"/>
+<g transform="translate(62 56) scale(.72)">
+<rect width="680" height="680" fill="url(#glow)" opacity="0.55"/>
+</g>
+<g transform="translate(120,110)">
+<g fill="#7a5d2a">
+<rect x="0" y="0" width="200" height="26" rx="6"/>
+<rect x="20" y="26" width="160" height="26" rx="6"/>
+<rect x="40" y="52" width="120" height="24" rx="6"/>
+</g>
+<rect x="-22" y="-6" width="244" height="6" rx="3" fill="#d8b06a"/>
+<rect x="-22" y="-6" width="244" height="28" fill="#7a5d2a"/>
+<rect x="-22" y="140" width="244" height="28" fill="#4a3418"/>
+<rect x="-16" y="158" width="42" height="54" rx="6" fill="#3a2a18"/>
+<rect x="190" y="158" width="42" height="54" rx="6" fill="#3a2a18"/>
+<rect x="40" y="84" width="120" height="140" fill="url(#body)"/>
+<rect x="52" y="96" width="96" height="118" fill="#100c08"/>
+<rect x="62" y="108" width="76" height="92" fill="url(#face)"/>
+<circle cx="95" cy="150" r="4" fill="#0a0704"/>
+<circle cx="155" cy="150" r="4" fill="#0a0704"/>
+<circle cx="95" cy="148" r="1.5" fill="#fff"/>
+<circle cx="155" cy="148" r="1.5" fill="#fff"/>
+<rect x="92" y="132" width="66" height="7" rx="3.5" fill="#7a5d2a"/>
+</g>
+<g transform="translate(438,162)">
+<g>
+<path d="M0 0 Q0 -28 10 -28 L34 -28 Q46 -28 46 -12 L34 -12 L34 2 Q34 18 46 18 L70 18 Q82 18 82 4 L82 -12 Q82 -28 70 -28 L54 -28 Q46 -28 46 -12 L46 2 Q46 18 34 18 L22 18 Q10 18 10 4 Z" fill="#8a6a3a"/>
+<path d="M0 0 Q0 -22 8 -22 L28 -22 Q38 -22 38 -10 L28 -10 L28 4 Q28 16 38 16 L54 16 Q66 16 66 4 L66 -10 Q66 -22 54 -22 L44 -22 Q38 -22 38 -8 L38 4 Q38 14 30 14 L18 14 Q10 14 10 4 L10 -8 Q10 -22 2 -22 Z" fill="#4a3418"/>
+<path d="M0 0 Q0 -26 10 -26 L32 -26 Q42 -26 42 -12 L32 -12 L32 2 Q32 16 42 16 L60 16 Q72 16 72 4 L72 -12 Q72 -26 60 -26 L48 -26 Q42 -26 42 -10 L42 4 Q42 14 34 14 L22 14 Q14 14 14 4 L14 -10 Q14 -26 6 -26 Z" fill="#3a2a18"/>
+</g>
+<g fill="#1a0f07" stroke="#0a0704" stroke-width="2">
+<path d="M18 16 L26 16 L30 -8 L24 -8 Z" fill="#1a0f07"/>
+<path d="M48 16 L56 16 L60 -8 L54 -8 Z" fill="#1a0f07"/>
+<path d="M20 16 L34 16 L40 -4 L30 -4 Z" fill="#1a0f07"/>
+<path d="M44 16 L58 16 L64 -4 L54 -4 Z" fill="#1a0f07"/>
+</g>
+<g fill="none" stroke="#0a0704" stroke-width="2" opacity="0.4">
+<circle cx="36" cy="34" r="14"/>
+<circle cx="48" cy="24" r="12"/>
+</g>
+<rect x="38" y="-30" width="16" height="36" fill="#d8b06a"/>
+<rect x="38" y="46" width="16" height="44" fill="#d8b06a"/>
+<rect x="38" y="90" width="16" height="44" fill="#d8b06a"/>
+<rect x="38" y="134" width="16" height="44" fill="#d8b06a"/>
+<rect x="38" y="178" width="16" height="44" fill="#d8b06a"/>
+</g>
+<g transform="translate(560,420)">
+<rect x="-14" y="22" width="60" height="24" rx="4" fill="#2a1c0e" stroke="#7a5d2a" stroke-width="2"/>
+<g fill="#8a6a3a">
+<path d="M8 22 L40 22 L44 -16 L12 -16 Z" fill="#8a6a3a"/>
+<path d="M22 22 L50 22 L54 -10 L34 -10 Z" fill="#8a6a3a"/>
+<path d="M34 22 L58 22 L62 -4 L48 -4 Z" fill="#8a6a3a"/>
+</g>
+<path d="M4 22 L54 22 L58 -6 L2  -6 Z" fill="#3a2a18"/>
+<rect x="-4" y="22" width="56" height="24" rx="4" fill="#2a1c0e" stroke="#7a5d2a" stroke-width="2"/>
+<g fill="#f2c15c">
+<path d="M14 30 L34 30 L30 18 L18 18 Z" fill="#f2c15c"/>
+<path d="M40 30 L60 30 L56 18 L44 18 Z" fill="#f2c15c"/>
+</g>
+<g fill="none" stroke="#0a0704" stroke-width="1.5" opacity="0.5">
+<circle cx="34" cy="24" r="8"/>
+<circle cx="48" cy="16" r="6"/>
+</g>
+<rect x="12" y="46" width="44" height="40" rx="4" fill="#2a1c0e" stroke="#7a5d2a" stroke-width="2"/>
+<rect x="18" y="52" width="32" height="28" fill="#100c08"/>
+<rect x="24" y="58" width="20" height="18" fill="url(#face)"/>
+</g>
+<g transform="translate(280,438)">
+<g fill="#3a2a18">
+<ellipse cx="0" cy="40" rx="6" ry="4" fill="#1a0f07"/>
+<ellipse cx="38" cy="40" rx="6" ry="4" fill="#1a0f07"/>
+<ellipse cx="14" cy="42" rx="5" ry="3.5" fill="#1a0f07"/>
+<ellipse cx="30" cy="42" rx="5" ry="3.5" fill="#1a0f07"/>
+</g>
+<g fill="#3a2a18">
+<rect x="-4" y="6" width="52" height="10" rx="5" fill="#3a2a18"/>
+<rect x="44" y="10" width="26" height="16" rx="8" fill="#3a2a18"/>
+</g>
+<g fill="#8a6a3a">
+<path d="M-2 12 L14 12 L20 0 L4 -0 Z" fill="#8a6a3a"/>
+<path d="M18 12 L36 12 L42 0 L26 0 Z" fill="#8a6a3a"/>
+</g>
+<path d="M48 12 L66 12 L72 0 L54 0 Z" fill="#3a2a18"/>
+<path d="M68 12 L86 12 L92 0 L74 0 Z" fill="#3a2a18"/>
+</g>
+<g transform="translate(560,610) rotate(-4)">
+<rect x="0" y="0" width="120" height="56" rx="8" fill="#2a1c0e" stroke="#7a5d2a" stroke-width="3"/>
+<g>
+<path d="M22 14 L98 14 L92 54 L28 54 Z" fill="url(#signg)"/>
+<g fill="#0a0704" stroke="#0a0704" stroke-width="1.5" stroke-linejoin="round" font-family="'Comic Sans MS',cursive" font-size="17" font-weight="bold">
+<text x="16" y="30" font-size="15" text-anchor="middle">BIG</text>
+<text x="78" y="30" font-size="15" text-anchor="middle">PLATE</text>
+<text x="47" y="46" font-size="15" text-anchor="middle">COVER</text>
+</g>
+</g>
+</g>
+<rect x="80" y="560" width="640" height="42" fill="none" stroke="#5c3d16" stroke-width="2" rx="6"/>
+</svg>

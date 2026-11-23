@@ -755,7 +755,7 @@
    "id": "g-s3",
    "shape": "cylinder",
    "x": 0.0,
-   "z": -13.9,
+   "z": -10.6,
    "y": 0,
    "w": 0.12,
    "h": 0.5,
@@ -10269,6 +10269,21 @@
    "label": "greasy mud puff",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-3",
+   "shape": "sphere",
+   "x": 0.4,
+   "z": -10.299999999999999,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "greasy mud puff",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -10276,9 +10291,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": 0.0,
-  "z": -13.9,
-  "doing": "Pea trots past the empty chairs to nose at the long table where a cold sausage still hangs on the rail, ready to make a mess of his paws in the cool air.",
-  "sound": "Huff-huff-slice!"
+  "z": -10.6,
+  "doing": "Pea lunges sideways to clamp his teeth onto the dangling sausage on the rail again!",
+  "sound": "WUFF!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
