@@ -1145,9 +1145,9 @@
   {
    "id": "pie-st-p3",
    "shape": "cylinder",
-   "x": 5.75,
-   "z": -9.6,
-   "y": 0.6,
+   "x": 5.8,
+   "z": -9.2,
+   "y": 0,
    "w": 0.28,
    "h": 0.18,
    "d": 0.28,
@@ -10237,16 +10237,48 @@
    "label": "greasy flour smudge",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1795450667",
+   "shape": "box",
+   "x": -12.907877578872172,
+   "z": -12.886935553602415,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 29.655433624538407,
+   "color": "#c97c5d",
+   "label": "LETTER",
+   "note": "A letter came addressed to 'The Artist, Barry's Village'. It was empty.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-23 16:17"
+  },
+  {
+   "id": "pet-2",
+   "shape": "sphere",
+   "x": 6.2,
+   "z": -8.899999999999999,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#f4c542",
+   "label": "greasy flour smudge",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.6,
-  "z": -9.7,
-  "doing": "Pea skitters wildly across the pie stall tray and chomps down on a golden pastry that Barry swore was safe just moments ago.",
-  "sound": "yip-yowp"
+  "x": 5.8,
+  "z": -9.2,
+  "doing": "Pea skitters headfirst into the pie stall's golden heap and snatches a warm lump right from under Barry's trembling hand.",
+  "sound": "*GLOOP!*"
  },
  "realsky": false,
  "spaced": "2026-11-13"

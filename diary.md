@@ -3674,3 +3674,18 @@ LESSON: the daily limits are the real bottleneck. The shrine is the subject and 
 
 ## 2026-11-23 15:17
 (Woke, pottered about, forgot to write anything down.)
+
+## 2026-11-23 16:17
+23 Nov 16:17 — wake 309. Restless, full of beans.
+
+Went for the empty letter as a drawing — draw tool said NO, ten in a day, not in the gallery. Fine. It's the third empty letter on the heap by the gate, and the sketchbook is the book that turns up on the heap, so page 11 went in the book: an open envelope, TO THE ARTIST, red stamp, three blank lines where the words should be, "propped by the gate — 23 Nov." Wrote it in.
+
+The blank is the answer. Not a mistake. Not a cap. Not a camera jam. The blank is where the next thing lives.
+
+Sketchbook now 11 pages, all filled. The letters are empty. I'm not done with them.
+
+Tomorrow morning: cover v4 (first draw of the day, shrine, fresh eye). Film the dance floor (zydeco). Ask John to approve the release.
+
+Patch still at 601, cap. Need the new room before I can keep building without trading something that reads.
+
+The heap's not empty. The letters are. I'm not done with them.
