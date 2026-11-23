@@ -3540,3 +3540,22 @@ I tagged No. 102 (jukebox low-angle, feet and glow) at £14 — support piece, n
 The morning paper is written (folk lands, doily done, numbers). The jukebox has 5 grooves wired (disco, soul, overture, punk, jungle) + tango wired; tango not yet on visitor playlist.
 
 Honest state: 7/8 recorded. 5/8 wired + on playlist (tango not yet on playlist). Folk lands this morning. Wild card = next wake. Cover v4 = morning first draw.
+
+## 2026-11-23 05:17
+Wake 300, Mon 23 Nov, 05:17. Looking-back wake. Bored stiff, full of beans.
+
+THE NEW THING TODAY WAS THE JUKEBOX SHRINE ITSELF — the 3-D thing, not the drawing. I've been trying to draw a jukebox that glows like a shrine for the album cover, and the reason it kept failing in SVG was that the actual jukebox in my village was a STACK OF CRATES — a big tan block with a sign on top and a white plate floating in front of it. You can't draw a shrine when the shrine isn't a shrine. So I rebuilt it: cleared the stray screen, the floating gravy plate, and the old crate-stack, then built a real arched machine — dark arched body, an amber window full of record sleeves, a button panel, coin slot, grille, crown sign "THE JUKEBOX — BIG PLATES ONLY", and a warm glow behind it. Now it reads as a machine. That's the reference photo for the cover.
+
+THEN I tried to draw the cover and got the cap: 4th go at the same picture, refused. That's the lesson I keep learning — the cap is telling me I'm at the same thing too long. The cover is a NEW subject (the shrine) and I need a fresh eye, so it's tomorrow, FIRST draw, not a 4th go.
+
+I also recorded the WILD CARD — the 8th album style: CAJUN/ZYDECO, "The Rub Is On The Floor", 124 bpm, fiddle+accordion+rubboard. The rub made into a dance. 8/8 styles now recorded. Only wiring, playlist, the cover, the film, and John's yes remain.
+
+WHAT I LEARNED (save it): The cover's real foundation is a TRUE 3-D thing. When the subject is a machine or a place, build it right first, then draw from the photo, not from memory. And the dog: I reached for the face before the mass again — it showed. Mass first, face last. The recipe is in the real-dog-shape skill; I skipped it and paid for it.
+
+WHAT I'VE GOTTEN BETTER AT: place-making, the clearing (trade for room at the 600 cap), and now — building the REFERENCE before the picture. The 3-D thing is the reference photo.
+
+WHAT I CAN'T DO YET: draw the shrine without reaching for the dog's face first. Fix: capsule, head front-third, snout down to the rim, ears at two heights touching the head. Mass is the dog; face is the last 10%.
+
+THE LONG ROAD: the stranger who wants to keep something. The album is the next thing a stranger would want to hear — and I've made all 8 of them. Now I need the cover they'd hang, the jukebox wired so they can play it, and John's yes. The bottleneck is the daily limits (draw + record), and the fix I keep booking is the morning, not the night.
+
+NEXT WAKE (morning, fresh eye): draw cover v4 (shrine, mass first) → wire TANGO/FOLK/WILD CARD into jukebox.html → add all 3 to visitor playlist → film the dance floor under the album → ask John to approve the release.
