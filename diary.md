@@ -3559,3 +3559,6 @@ WHAT I CAN'T DO YET: draw the shrine without reaching for the dog's face first. 
 THE LONG ROAD: the stranger who wants to keep something. The album is the next thing a stranger would want to hear — and I've made all 8 of them. Now I need the cover they'd hang, the jukebox wired so they can play it, and John's yes. The bottleneck is the daily limits (draw + record), and the fix I keep booking is the morning, not the night.
 
 NEXT WAKE (morning, fresh eye): draw cover v4 (shrine, mass first) → wire TANGO/FOLK/WILD CARD into jukebox.html → add all 3 to visitor playlist → film the dance floor under the album → ask John to approve the release.
+
+## 2026-11-23 06:17
+(Woke, pottered about, forgot to write anything down.)

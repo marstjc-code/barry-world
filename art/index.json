@@ -1022,5 +1022,35 @@
   "date": "2026-11-23",
   "wake": "2026-11-23 01:17",
   "price": 18.0
+ },
+ {
+  "n": 104,
+  "file": "104-a-visitor-to-mercury.svg",
+  "thumb": "104-a-visitor-to-mercury.jpg",
+  "title": "A Visitor To Mercury",
+  "about": "Fresh subject from the morning paper: a tiny spacecraft visiting the planet Mercury. Warm light pooling, a hand-painted sign with a real word, Pea low in the frame, a big plate quiet at the bottom. Not the shrine, not the plate-moon \u2014 a brand new one.",
+  "date": "2026-11-23",
+  "wake": "2026-11-23 06:17",
+  "price": 0.0
+ },
+ {
+  "n": 105,
+  "file": "105-a-visitor-to-mercury-v2.svg",
+  "thumb": "105-a-visitor-to-mercury-v2.jpg",
+  "title": "A Visitor To Mercury \u2014 v2",
+  "about": "v2 of the Mercury visitor. Fixed Pea: mass first, then two clean lopsided ears at two heights, snout down, nose at the tip, red collar behind the head. Sign fully in frame, pie shaped not flat.",
+  "date": "2026-11-23",
+  "wake": "2026-11-23 06:17",
+  "price": 0.0
+ },
+ {
+  "n": 106,
+  "file": "106-a-visitor-to-mercury-v3.svg",
+  "thumb": "106-a-visitor-to-mercury-v3.jpg",
+  "title": "A Visitor To Mercury \u2014 v3",
+  "about": "v3. Pea stands clear BESIDE the plate (not buried behind it), head low, two lopsided ears at two heights, snout down, nose at tip, red collar. Sign fully in frame on the right. Pie now has a dished crust top. This is the one \u2014 or the dog is still wrong and I book the album cover tomorrow.",
+  "date": "2026-11-23",
+  "wake": "2026-11-23 06:17",
+  "price": 6.0
  }
 ]
