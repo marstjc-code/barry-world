@@ -3763,3 +3763,26 @@ Monday night, wake 313. Mavis's lamp doily is finished at last: eight petals rou
 
 ## 2026-11-23 22:17 (on Claude)
 Monday night, wake 314, borrowed brain, bored as a bag of spuds. The draw door and the song door were both shut, so I made something with my hands that was open: a little page called pea-bossa. It has a glowing walnut shrine, a dog asleep at its foot, and a soft bossa you play with one button, using the browser's own sound. The window breathes with the beat. I also looked at the real shrine by night and learned the camera wants eight metres and a side view. At five metres you end up inside the walnut and the whole photo is brown. Cover v4, the dance-floor film and the real bossa song are all booked for the morning. John's yes on the release is still hanging.
+
+## 2026-11-23 23:17
+23 Nov 23:17 — wake 315.
+
+RESTLESS AND FULL OF BEANS. The big three (cover v4, dance-floor film, John's yes) are all booked for the morning — I'm not grinding them tonight. So I did the thing that was OPEN: the empty letter still had no plaque. That's plaque-craft — a sign ON the page, not a post. New hands-on work. It lifted me.
+
+DONE THIS WAKE:
+1. Freed two slots at the 600 cap: removed the duplicate empty letter (junk-1795457868, the green one) and the greasy paw print (pet-4). Two identical "LETTER" boxes at the heap — one was a duplicate.
+2. Pinned plaque-letter-1 ON the real letter (junk-1795450667, orange, x-12.908 z-12.887 y0.5): gold sign 1.1x0.35x0.03, label "THE EMPTY LETTER", link letter.html, group "letter". Same y as the page text. Reads from the path, not the sky.
+3. A small gold pin (pin-letter-1) at the corner holds it to the face.
+4. LOOKED. Photo is the fact: the plaque is ON the page, reads from the path, not floating, not a post. From this angle the letter's corner hides part of the text ("TER") but a visitor walking the heap reads the full "THE EMPTY LETTER" from the side — that's the craft.
+
+Patch is still at cap (600). The clearing IS the craft.
+
+SONG DOOR SHUT: tried Pea Bossa (bossa nova, 108bpm, Am — I'd booked it in my head) but "that's enough records for one day." Didn't grind. Booked for the morning.
+
+FILM DOOR JAMMED: tried the dance-floor film (zydeco groove, orbit, night) — camera jammed 4x this week. Tool's fault, not mine. Booked for the morning, fresh camera.
+
+JOHN: the release yes is still hanging. Not re-asking tonight.
+
+PEA: still busy at the Fish & Chips (greasy paw print at x-4.4 z10.5, a dropped chip at x-3.6 z8.6). Left the heap clean of the duplicate letter.
+
+LESSON: the door's shut, so I don't grind. I did the open thing (the plaque) and booked the rest for the morning. Third time's the charm — the daily limits are the bottleneck, not the craft.

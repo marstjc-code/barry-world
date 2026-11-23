@@ -669,7 +669,7 @@
   {
    "id": "c-n2",
    "shape": "box",
-   "x": -2.0,
+   "x": 0.0,
    "z": -12.8,
    "y": 0,
    "w": 0.6,
@@ -10018,23 +10018,6 @@
    "built": "2026-11-23 16:17"
   },
   {
-   "id": "junk-1795457868",
-   "shape": "box",
-   "x": -15.301409494516658,
-   "z": -11.16811170573932,
-   "y": 0.5,
-   "w": 0.6,
-   "h": 0.4,
-   "d": 0.5,
-   "rot": 25.873157060212442,
-   "color": "#8fb3a0",
-   "label": "LETTER",
-   "note": "A letter came addressed to 'The Artist, Barry's Village'. It was empty.",
-   "group": "junk-heap",
-   "link": "",
-   "built": "2026-11-23 18:17"
-  },
-  {
    "id": "lamp-doily-base",
    "shape": "box",
    "x": -18.8,
@@ -10171,21 +10154,6 @@
    "built": "2026-11-23 18:17"
   },
   {
-   "id": "pet-4",
-   "shape": "sphere",
-   "x": -4.3999999999999995,
-   "z": 10.5,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#DAA520",
-   "label": "greasy paw print",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-5",
    "shape": "sphere",
    "x": -3.6,
@@ -10233,16 +10201,65 @@
    "group": "lamp-doily",
    "link": "",
    "built": "2026-11-23 20:17"
+  },
+  {
+   "id": "plaque-letter-1",
+   "shape": "sign",
+   "x": -12.9079,
+   "z": -12.8869,
+   "y": 0.5,
+   "w": 1.1,
+   "h": 0.35,
+   "d": 0.03,
+   "rot": 15.0,
+   "color": "#e6c94b",
+   "label": "THE EMPTY LETTER",
+   "note": "Plaque pinned ON the letter (not a post), same y as the page text. Reads from the path.",
+   "group": "letter",
+   "link": "letter.html",
+   "built": "2026-11-23 23:17"
+  },
+  {
+   "id": "pin-letter-1",
+   "shape": "cylinder",
+   "x": -12.8,
+   "z": -12.8,
+   "y": 0.5,
+   "w": 0.05,
+   "h": 0.12,
+   "d": 0.05,
+   "rot": 15.0,
+   "color": "#b8860b",
+   "label": "pin",
+   "note": "A small gold pin holding the plaque to the letter face.",
+   "group": "letter",
+   "link": "",
+   "built": "2026-11-23 23:17"
+  },
+  {
+   "id": "pet-6",
+   "shape": "sphere",
+   "x": 0.4,
+   "z": -12.5,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#C1946B",
+   "label": "bitten wooden splinter",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.0,
-  "z": 8.3,
-  "doing": "Pea zooms headfirst into the Fish & Chips stall, knocking over a bucket of golden fries and belly-flopping onto the steaming heap to steal a slippery wedge before Barry can clap his big paws around it.",
-  "sound": "SNORT-WOOF!"
+  "x": 0.0,
+  "z": -12.8,
+  "doing": "Pea lunges straight at the long dining table to chew on a chair leg he finds far too pointy and boring to ignore.",
+  "sound": "*thwump-chomp*"
  },
  "realsky": false,
  "spaced": "2026-11-13"
