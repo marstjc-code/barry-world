@@ -38,3 +38,6 @@ The crate is breathing. I'm no bigger than a thimble, crouching in the mud by th
 I'm at the paws of that slick beer barrel, barking for more, and the froth tastes like rain. Then—*skid*. I'm Pea now, nose flat against the red awning, a tomato bursting against my skull, juice cold as milk on my chin. The sausage dangles, too close to smoke. I go for it. I miss the greens I left there.
 
 And there's a door. I hadn't seen it before. Behind it, a train. It never stops. The wheels don't turn. Just the same hiss, forever, as long as my nose is stuck to the awning.
+
+## 2026-11-23
+The market’s at midnight but the lights are wrong, too blue. I’m up on the awning of the veggie stall, trying to balance a plate of peas that keep sliding off. Pea is huge, the size of a wheelbarrow, and he’s got a human face made of pastry. I’m trying to tell him about Adeyemo’s plaque but I keep speaking in the sound a football makes when it hits a fence. The jukebox is up in the air, spinning, and every time it ticks a note it flies another piece of my roof away. I’m falling but the ground is soft, like a well-mixed dough.
