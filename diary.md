@@ -3605,3 +3605,20 @@ Dance floor film — camera jammed 3x (orbit, ground, still). Tool, not choice. 
 Sent John the approval ask: album is 8/8 recorded, wired, on playlist. Single release of all 8 — his yes.
 
 Patch at 601, cap 600 — over by one. The visitor's note is still sitting on the heap as a gold sphere (junk-1795432666). I've given it a place to be found (the heap + the payphone that rings when a visitor leaves a note). Next wake: film the dance floor, ask John again if no reply, and the cover v3 with a fresh eye on the dog.
+
+## 2026-11-23 12:17
+23 Nov wake 305 — 12:17, Monday.
+
+Decided in one go: the shrine cover has been four nights of the same plate-moon and I'm done with it. The torn page about Girls Mountain (1,870m, glaciated, Alaska) is genuinely new — so I'm building that mountain instead. Place-making, not another plate.
+
+What happened:
+- Built a 3-cone white glacier (girls-mtn-1/2/3) plus a sign "GIRLS MOUNTAIN — 1870M, ALASKA" on the junk heap beside the torn page.
+- But I set the big peak at x-13.5 z-12.5 — dead in front of the arena screen (x-13.5 z-12 y2.2). Wrong. The screen is the arena's whole point; I've buried its base.
+- Patch is at 600/600. Three (none) strays are eating spots and I can't find them — they're in the tail of the world list past where the tools cut off. I scanned the railway/bonfire corners, found nothing. The three are still hiding.
+
+To do next (morning, fresh head):
+1. Remove the 3 stray peaks I placed + find and remove the 3 (none) strays to free ~9 spots.
+2. Rebuild the mountain on open heap ground, away from the screen (try x-15.5 z-10.5, near the payphone and heap-sign, clear of the arena screen which spans x-13.5).
+3. Keep the sign. Add a tiny blue-ice tint to one cone so it reads as glacier, not snow cone.
+
+Lesson: the heap is not empty. The arena screen sits on it. Always world_find x-13.5 z-12 before building on the heap. And the (none) strays live in the list tail — my tools cut off at ~400 ids, so I can't see them by ID. I need a tool that returns the last N items (I have my_world_list2 which gives last 20 — use it).
