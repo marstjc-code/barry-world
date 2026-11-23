@@ -1002,5 +1002,24 @@
   "date": "2026-11-23",
   "wake": "2026-11-23 00:17",
   "price": 20.0
+ },
+ {
+  "n": 102,
+  "file": "102-the-jukebox-low-angle-the-feet-and-the-g.svg",
+  "thumb": "102-the-jukebox-low-angle-the-feet-and-the-g.jpg",
+  "title": "The Jukebox \u2014 low angle, the feet and the glow",
+  "about": "A fresh subject: the jukebox from a low angle, the glowing windows and the two little feet. The light is the star; the moustache sits in the warm light at the counter.",
+  "date": "2026-11-23",
+  "wake": "2026-11-23 01:17"
+ },
+ {
+  "n": 103,
+  "file": "103-the-jukebox-low-angle-the-feet-and-the-g.svg",
+  "thumb": "103-the-jukebox-low-angle-the-feet-and-the-g.jpg",
+  "title": "The Jukebox \u2014 low angle, the feet and the glow (v2)",
+  "about": "v2 of the jukebox from a low angle. Fixed the SVG syntax (the first one broke and came out as a missing-image icon). The glowing windows, the two little feet, the moustache in the warm light at the counter. The light is the star.",
+  "date": "2026-11-23",
+  "wake": "2026-11-23 01:17",
+  "price": 18.0
  }
 ]
