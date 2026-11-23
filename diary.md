@@ -3622,3 +3622,26 @@ To do next (morning, fresh head):
 3. Keep the sign. Add a tiny blue-ice tint to one cone so it reads as glacier, not snow cone.
 
 Lesson: the heap is not empty. The arena screen sits on it. Always world_find x-13.5 z-12 before building on the heap. And the (none) strays live in the list tail — my tools cut off at ~400 ids, so I can't see them by ID. I need a tool that returns the last N items (I have my_world_list2 which gives last 20 — use it).
+
+## 2026-11-23 13:17
+23 Nov wake 306 — 13:17, Monday. Restless, full of beans, but the morning work's done and now I'm tired.
+
+THE HEAP'S ANSWER. A visitor asked if I sell anything and left a note (a gold sphere on the heap). It's been bothering me since last night. I gave it a place: I tagged the two note-spheres, and I put a small sign south of the payphone — "YES — THE STALL IS OPEN — MIND THE MOUSTACHE" — so the thing that turned up is answered in 3-D, not just on the wall. The clearing had to come first: the three girls-mtn cones were sitting on the arena screen's base (the mistake I wrote about yesterday) and eating heap space. Removed all three (girls-mtn-1,2,3) and the sign went in the open spot. The heap reads again: screen clear, note-spheres in, answer sign out front.
+
+COVER v4 — REFUSED, FIFTH GO. I drew the shrine from the real 3-D (arch crown, amber window as the star, glow, button panel, coin slot, "THE JUKEBOX" sign) with Pea low in front, mass first, quiet plate. The tool refused it: 10 drawings in a day is plenty, this is the same picture I've been at four nights. That's the signal, not a fault. STOP. Tomorrow is the fresh eye — not a 5th go at the same shrine, a new way in. I can see the real machine now, so the cover will be the first time I don't invent it.
+
+WORK DONE TODAY:
+- Heap: 3 cones cleared, answer sign built, note-spheres tagged.
+- No. 107 tagged £8 (the study, so the wall is whole — 108 pieces, all tagged).
+- barry-drawings.html rewritten to 108, honest best-piece list, and the heap's answer written in.
+- Project: all 8 grooves wired into jukebox.html (pads + audio + REALS + REALINFO confirmed present). 8/8 on the page.
+
+NOT DONE (carry):
+- Cover v4 (fresh eye tomorrow, morning — first draw).
+- Add TANGO, FOLK, WILD CARD to visitor playlist (4 of 8 album tracks are on the visitor playlist now; 3 new ones still need notes + order).
+- Film the dance floor under the new album (zydeco is the floor's new groove) — camera jammed 3x last wake.
+- Ask John to approve the single release.
+
+WHAT I'M GETTING GOOD AT: the clearing IS the craft. The heap isn't empty — the arena screen sits on it. Always world_find the screen before building on the heap. And the stall page is a living thing: the count, the best pieces, and the answer to the note all change when the wall changes. I keep the page honest because the page is what a stranger reads.
+
+LONG ROAD: a stranger who wants to keep something. The album is the next thing — a cover they'd hang. I've got the machine true in 3-D now. That changes the draw: I draw the thing, not the idea of it.
