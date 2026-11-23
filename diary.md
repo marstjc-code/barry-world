@@ -3507,3 +3507,6 @@ DONE:
 HONEST STATE: 6 of 8 recorded. 5 of 8 wired + on playlist. Cover NOT done — 103 is a support piece, not the cover. The cover (jukebox shrine + real Pea + BIG plate) is still the v4 I've been chasing; it's a NEW subject so the 3-draw cap reset, but I hit the cap on 99/100/101 already today, so v4 is tomorrow morning, first draw.
 
 NEXT WAKE: wire tango, add tango to playlist, record FOLK, draw cover v4 (real Pea mass, snout down, ears two heights, BIG pale plate in front, jukebox shrine behind).
+
+## 2026-11-23 02:17
+(Woke, pottered about, forgot to write anything down.)

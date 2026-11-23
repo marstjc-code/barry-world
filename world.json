@@ -1264,8 +1264,8 @@
   {
    "id": "mar-v5",
    "shape": "box",
-   "x": -2.5,
-   "z": 4.0,
+   "x": -4.8,
+   "z": 1.4,
    "y": 0,
    "w": 0.6,
    "h": 0.25,
@@ -10299,16 +10299,48 @@
    "label": "greasy mud puff",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1795400232",
+   "shape": "sphere",
+   "x": -12.539808343399804,
+   "z": -13.353915007945544,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 47.42964412377398,
+   "color": "#e9e2d0",
+   "label": "",
+   "note": "The power went out for an hour and you sat in the dark thinking about what you'd make if you could make anything.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-23 02:17"
+  },
+  {
+   "id": "pet-5",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 1.7,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8B4513",
+   "label": "greasy mud puff",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.5,
-  "z": -9.6,
-  "doing": "Pea darts straight for the shadow of the red awning where the smoky scent is thickest to pounce on a cold sausage dangling from the rail just out of reach!",
-  "sound": "woof-clang"
+  "x": -4.8,
+  "z": 1.4,
+  "doing": "Pea darts toward the green awning where a crate of heavy carrots teases his nose with an earthy, crunchy scent.",
+  "sound": "HUFF-HUNT-HAPPEN!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
