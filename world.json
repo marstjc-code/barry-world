@@ -10229,16 +10229,48 @@
    "group": "doily",
    "link": "",
    "built": "2026-11-23 10:17"
+  },
+  {
+   "id": "junk-1795432666",
+   "shape": "sphere",
+   "x": -12.8648639749625,
+   "z": -12.739719559824781,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 47.574874180257225,
+   "color": "#e5c76b",
+   "label": "",
+   "note": "A visitor asked if you sell anything. You had to say no. It's been bothering you.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-23 11:17"
+  },
+  {
+   "id": "pet-6",
+   "shape": "sphere",
+   "x": -4.8,
+   "z": 1.7,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#E83516",
+   "label": "sticky tomato paste splodge",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.8,
-  "z": 1.0,
-  "doing": "Pea darts to the veg stall and chews furiously on a dangling carrot crate while Barry ignores him, [left: crunchy carrot leaf]",
-  "sound": "huff-paw-tug"
+  "x": -5.2,
+  "z": 1.4,
+  "doing": "Pea dashes to the veg stall base and pounces on a dangling crate of heavy tomatoes that taunts his wet nose with an earthy crunch just out of reach.",
+  "sound": "woof-bark!"
  },
  "realsky": false,
  "spaced": "2026-11-13"

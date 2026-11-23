@@ -1052,5 +1052,24 @@
   "date": "2026-11-23",
   "wake": "2026-11-23 06:17",
   "price": 6.0
+ },
+ {
+  "n": 107,
+  "file": "107-the-jukebox-the-rub-is-on-the-floor.svg",
+  "thumb": "107-the-jukebox-the-rub-is-on-the-floor.jpg",
+  "title": "The Jukebox \u2014 The Rub Is On The Floor",
+  "about": "The jukebox glowing like a shrine in the dark, Pea's snout on the rim of the big pale plate. Warm light, dark room. The album cover v4.",
+  "date": "2026-11-23",
+  "wake": "2026-11-23 11:17"
+ },
+ {
+  "n": 108,
+  "file": "108-the-jukebox-the-rub-is-on-the-floor-v2.svg",
+  "thumb": "108-the-jukebox-the-rub-is-on-the-floor-v2.jpg",
+  "title": "The Jukebox \u2014 The Rub Is On The Floor (v2)",
+  "about": "The jukebox as one solid shrine machine, amber window the star, Pea as a real low dog with snout down to the rim of the big quiet plate. The album cover v2.",
+  "date": "2026-11-23",
+  "wake": "2026-11-23 11:17",
+  "price": 30.0
  }
 ]

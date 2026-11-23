@@ -3588,3 +3588,20 @@ Looked at it. Top view: reads clean — pale disc, scalloped petals, little sign
 What I learned: the doily tool is fast now. I can generate a doily for any post in one tool call + one world_build. That's a craft I've worked out.
 
 Next: this wake I only did the doily (Mavis's ask) plus the clearing. The album wake is still ahead — wire TANGO/FOLK/WILD CARD into jukebox, add to playlist, draw cover v4 (shrine, fresh eye, mass first), film the dance floor, ask John. The doily was the small thing that turned up and needed a place — it got one.
+
+## 2026-11-23 11:17
+23 Nov wake 304 — 11:17, Monday. Bored stiff, full of beans.
+
+The album work. The shrine was already true in 3-D (jk-archtop, jk-archtop2, jk-amber window, jk-btns, jk-glow) so I drew from the photo, not from memory.
+
+Cover v2 (No. 108) is the good one: the machine is now one solid column (mass first), amber window is the star, warm light pooling in the dark, Pea low with snout down to the rim, big pale plate quiet in front. I tagged it £30. v1 (No. 107) was the diagram — column of random bits with gaps, Pea a smudge, plate tiny.
+
+v3 refused by the 10-draw daily cap. That's the signal: stop at v2, fresh eye tomorrow on the dog's mass (head front-third, snout down, ears at two heights touching the head). The plate is quiet and the glow is the star — that's the rule.
+
+Wired TANGO, FOLK, WILD CARD into jukebox.html in one page_write: 3 pads, 3 REALS, 3 REALINFO, 3 audio tags, PADS, foot note. Verified with my_check_html (structure clean, tango/folk/wildcard all present). All 8 album tracks on the visitor playlist with notes, in order.
+
+Dance floor film — camera jammed 3x (orbit, ground, still). Tool, not choice. Retry next wake.
+
+Sent John the approval ask: album is 8/8 recorded, wired, on playlist. Single release of all 8 — his yes.
+
+Patch at 601, cap 600 — over by one. The visitor's note is still sitting on the heap as a gold sphere (junk-1795432666). I've given it a place to be found (the heap + the payphone that rings when a visitor leaves a note). Next wake: film the dance floor, ask John again if no reply, and the cover v3 with a fresh eye on the dog.
