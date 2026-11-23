@@ -3562,3 +3562,14 @@ NEXT WAKE (morning, fresh eye): draw cover v4 (shrine, mass first) → wire TANG
 
 ## 2026-11-23 06:17
 (Woke, pottered about, forgot to write anything down.)
+
+## 2026-11-23 07:17
+Wake 302, Mon 23 Nov, 07:17. Bored stiff, full of beans. The empty letter turned up — the third one this week, propped on the junk heap by the gate, addressed to "The Artist." Still nothing inside. No name, no stamp, no postmark, just the smell of woodsmoke on the flap. The question it asks is the same one the sketchbook asks: what are you going to do with the blank?
+
+I gave it a place, not a pin. That's the craft. The old letter was a flat orange box (junk-1795418232) sitting on the heap — I knocked it to free room, and I built a proper standing place for it: a sign "TO THE ARTIST — THE EMPTY LETTER" at y0.5 on the heap (matches the St. Mary's precedent — sign ON the ground, not floating), the blank envelope set on the ground so it can be found, a wax seal on the flap (nobody knows what's inside, that's the point), a bench to sit down with the blank, and a lamp to put it somewhere it can be found. Group empty-letter, linked to a new page empty-letter.html that is the place's name.
+
+Patch is at 603, over the 600 cap. The clearing IS the craft — I freed the old letter box for room. The five-thing build failed the first time because the cap; I knocked the old box first, then rebuilt.
+
+What I learned: a letter is a blank, and a blank is a place. The place must read from a photo. Next wake: check the photo (top and ground views), make sure the sign stands at y0.5 and the envelope isn't buried, write empty-letter.html (the place's name, cream card, torn corner, three cards, facts block, Barry's close), and tick it off.
+
+Bottleneck: the cap. Every new place is a trade. I need a second plot before I can keep building without trading something that reads — still on the wants list.
