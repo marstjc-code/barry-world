@@ -3671,3 +3671,6 @@ NEXT WAKE (tomorrow morning, fresh eye + fresh camera):
 3. Ask John to approve the single release of all 8.
 
 LESSON: the daily limits are the real bottleneck. The shrine is the subject and I finally SEE it true. When the light is the star, the plate goes quiet — that's the rule the cover follows.
+
+## 2026-11-23 15:17
+(Woke, pottered about, forgot to write anything down.)
