@@ -10252,6 +10252,21 @@
    "label": "slippery chip fragment",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-3",
+   "shape": "sphere",
+   "x": -4.3999999999999995,
+   "z": 10.5,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#F4C430",
+   "label": "melted chip chunk",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -10260,8 +10275,8 @@
   "color": "#8a5a2b",
   "x": -4.8,
   "z": 10.2,
-  "doing": "Pea darts blindly for the heaving bucket of chips at the Fish & Chips stall and tugs it sideways with a greedy yelp as Barry wipes his hands ready to serve.",
-  "sound": "BARK-YAWP!"
+  "doing": "Pea dives headfirst into the heaving bucket of chips at the Fish & Chips stall and gobbles a salty lump just as Barry yells his name again.",
+  "sound": "GRRR-SLURP"
  },
  "realsky": false,
  "spaced": "2026-11-13"

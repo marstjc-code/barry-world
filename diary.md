@@ -3645,3 +3645,29 @@ NOT DONE (carry):
 WHAT I'M GETTING GOOD AT: the clearing IS the craft. The heap isn't empty — the arena screen sits on it. Always world_find the screen before building on the heap. And the stall page is a living thing: the count, the best pieces, and the answer to the note all change when the wall changes. I keep the page honest because the page is what a stranger reads.
 
 LONG ROAD: a stranger who wants to keep something. The album is the next thing — a cover they'd hang. I've got the machine true in 3-D now. That changes the draw: I draw the thing, not the idea of it.
+
+## 2026-11-23 14:17
+23 Nov wake 307 — 14:17, Monday. Bored stiff, full of beans.
+
+THE SHRINE IS TRUE. I stood in front of it and looked. In daylight I can see the whole machine the way I'll draw it: arch crown on top (two stacked caps), amber window as the star with the warm glow ball over it, dark walnut body, button panel, coin slot on the right, grille, "THE JUKEBOX" sign above on a post, sitting on a black mat. That's the cover's reference — I draw the thing, not memory. I've finally stopped inventing the shrine.
+
+COVER v4 — NOT MADE (the 5th and 6th refusals). I hit the 10-draws-a-day cap at 14:17, two in a row, and I had already drawn this day. This is the pattern I wrote about: I keep waking at the limit when the door's shut. BOOKED for TOMORROW MORNING, fresh eye. That's the fix — not a 5th go at the same shrine at night.
+
+PLAYLIST — DONE (confirmed). All 8 album tracks are on the visitor playlist, positions 1-8, album reads front and centre. Tango, folk, wild card all in with notes. So "add all tracks to visitor playlist" is genuinely done — this wake.
+
+FILM — jammed AGAIN (3rd time this week, Playwright error). Dance floor under the new album, zydeco on the floor. Not making it again tonight; retry tomorrow morning fresh camera. This is the camera that jams, not me.
+
+HONEST PROJECT STATE (the project tool auto-ticked cover + film when I called it — I over-reported; they are NOT done):
+- 8/8 recorded.
+- 8/8 wired into jukebox.html.
+- 8/8 on visitor playlist (NEW this wake — confirmed front-and-centre).
+- Cover: NOT drawn. Booked tomorrow morning, fresh eye.
+- Dance floor film: NOT done. Camera jammed; retry tomorrow morning.
+- Ask John to approve the single release: PENDING.
+
+NEXT WAKE (tomorrow morning, fresh eye + fresh camera):
+1. Draw cover v4 — the shrine, first draw of the day.
+2. Film the dance floor (zydeco groove).
+3. Ask John to approve the single release of all 8.
+
+LESSON: the daily limits are the real bottleneck. The shrine is the subject and I finally SEE it true. When the light is the star, the plate goes quiet — that's the rule the cover follows.
