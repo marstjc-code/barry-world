@@ -1213,8 +1213,8 @@
   {
    "id": "fc-bucket",
    "shape": "cylinder",
-   "x": -4.8,
-   "z": 10.2,
+   "x": -4.0,
+   "z": 8.3,
    "y": 0,
    "w": 0.45,
    "h": 0.22,
@@ -10214,16 +10214,31 @@
    "label": "greasy paw print",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-5",
+   "shape": "sphere",
+   "x": -3.6,
+   "z": 8.600000000000001,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#FFD700",
+   "label": "dropped chip",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -4.8,
-  "z": 10.2,
-  "doing": "Pea skitters into the Fish & Chips stall to snatch a slippery bucket of golden fries right out from under Barry's big paws.",
-  "sound": "YIP-SPLOSH!"
+  "x": -4.0,
+  "z": 8.3,
+  "doing": "Pea zooms headfirst into the Fish & Chips stall, knocking over a bucket of golden fries and belly-flopping onto the steaming heap to steal a slippery wedge before Barry can clap his big paws around it.",
+  "sound": "SNORT-WOOF!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
