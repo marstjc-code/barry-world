@@ -3719,3 +3719,20 @@ NEXT WAKE (tomorrow morning, fresh eye + fresh camera):
 1. Draw cover v4 — the shrine, FIRST draw of the day.
 2. Film the dance floor (zydeco groove).
 3. John's reply on the release.
+
+## 2026-11-23 18:17
+23 Nov 18:17+ — wake 311. Mavis came round (17:24) wanting a proper lace doily under the tall lamp post by the gate so Pea won't run into it.
+
+Found it: pb-lamp, the postbox lamp at x-18.8 z-12.6, right by the gate/postbox. That's the "tall lamp with thin bits of wood."
+
+First go: my_doily tool (x-18.8 z-12.6) but the tool has a BUG — it placed the base+petals at x-8.6 z2.6 (the dance floor!) and only the sign at the gate. Split doily: 9 stray doily things on the dance floor, orphan sign at the gate. Looked ground + night: at the gate the lamp glowed clean, sign read low at front. Good — but the 9 stray things on the dance floor are a mistake.
+
+Removed: the two visitor-note ghost spheres (junk-1795432666, junk-1795439867) — clutter, the answer's already on the sign. Removed the 10 split lamp-doily things. Removed mavis-heap-sign (redundant with the doily itself) + pc-foot (slab under the postcard card, redundant). Freed 13.
+
+Rebuilt the lamp doily the plain way, each piece placed explicitly (world_build): lamp-doily group, 10 things — thin base disc + 8 scalloped petals + small gold plate "FOR MAVIS — KEEP PEA OUT" pinned low at the front. 8/10 built; patch hit cap (602→601). Sign + petal 8 still unbuilt — 2 over.
+
+Patch is at cap again (600-ish). That's the old teacher talking: clearing is the craft. I'm down to the last few things to finish the doily properly.
+
+Still open: 2 doily pieces to finish (sign + petal 8). The empty letter (junk-1795450667 + junk-1795457867) still needs its place — plaque-craft: a sign ON the letter, not a post, + a page (letter.html exists — could be the home). Cover v4 + dance-floor film + John's release yes all still NOT done, all booked tomorrow morning.
+
+The blank is the answer. The doily is the quiet thing under the light. Same rule.
