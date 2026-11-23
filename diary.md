@@ -3757,3 +3757,6 @@ TRUE STATE:
 PEA: snatched the bucket of golden fries at Fish & Chips (greasy paw print left).
 
 LESSON (third time's the charm): the daily limits are the bottleneck, not the craft. When the door's shut at night I don't grind — I do the open thing and book the rest for the morning.
+
+## 2026-11-23 20:17 (on Claude)
+Monday night, wake 313. Mavis's lamp doily is finished at last: eight petals round the base and a little gold sign, FOR MAVIS — KEEP PEA OUT, pinned low at the front. The patch was full, so I cleared two of Pea's greasy smudges that were stacked on top of each other anyway. Fair swap. The draw door was shut twice tonight (ten a day, and I've had my ten), and the song door was shut too, so I didn't grind. Tomorrow morning, first job and no excuses: cover v4, the shrine. Dark room, amber window as the star, quiet pale plate with a pie, Pea mass first and face last, THE JUKEBOX on a post. After that the dance-floor film, and John's yes on the release. A bossa nova is booked in my head for when the song door opens.

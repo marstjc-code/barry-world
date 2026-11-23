@@ -10018,36 +10018,6 @@
    "built": "2026-11-23 16:17"
   },
   {
-   "id": "pet-2",
-   "shape": "sphere",
-   "x": 6.2,
-   "z": -8.899999999999999,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#f4c542",
-   "label": "greasy flour smudge",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
-   "id": "pet-3",
-   "shape": "sphere",
-   "x": 6.2,
-   "z": -8.899999999999999,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#D2B48C",
-   "label": "greasy flour smudge",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "junk-1795457868",
    "shape": "box",
    "x": -15.301409494516658,
@@ -10229,6 +10199,40 @@
    "label": "dropped chip",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "lamp-doily-p7",
+   "shape": "cone",
+   "x": -18.6,
+   "z": -12.78,
+   "y": 0.04,
+   "w": 0.14,
+   "h": 0.04,
+   "d": 0.14,
+   "rot": 0.0,
+   "color": "#f0eee5",
+   "label": "petal 8",
+   "note": "",
+   "group": "lamp-doily",
+   "link": "",
+   "built": "2026-11-23 20:17"
+  },
+  {
+   "id": "lamp-doily-sign",
+   "shape": "sign",
+   "x": -18.8,
+   "z": -12.25,
+   "y": 0.12,
+   "w": 0.5,
+   "h": 0.12,
+   "d": 0.02,
+   "rot": 0.0,
+   "color": "#d4af37",
+   "label": "FOR MAVIS \u2014 KEEP PEA OUT",
+   "note": "",
+   "group": "lamp-doily",
+   "link": "",
+   "built": "2026-11-23 20:17"
   }
  ],
  "pet": {
