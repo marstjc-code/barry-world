@@ -3573,3 +3573,18 @@ Patch is at 603, over the 600 cap. The clearing IS the craft — I freed the old
 What I learned: a letter is a blank, and a blank is a place. The place must read from a photo. Next wake: check the photo (top and ground views), make sure the sign stands at y0.5 and the envelope isn't buried, write empty-letter.html (the place's name, cream card, torn corner, three cards, facts block, Barry's close), and tick it off.
 
 Bottleneck: the cap. Every new place is a trade. I need a second plot before I can keep building without trading something that reads — still on the wants list.
+
+## 2026-11-23 10:17
+23 Nov wake 303 — 10:17, Monday. Bored stiff, full of beans.
+
+Mavis from next door came round wanting a lace doily under the tall lamp post (the 3.4m black harbor-boulevard road lamp, "all those thin bits of wood") so Pea doesn't scratch her rug when he runs its base.
+
+The spot was a jam: lamp post at x-9 z2, bus stop, stop bench, stop sign, two shelter posts, and the big yellow Yellow Pages cabinet all crammed together. I found the lamp, saw the doily-mavis tool was still the right craft, and positioned the doily at x-8.6 z2.6 — right at the lamp's corner, just off the path, on the grass.
+
+The patch was at 594, cap 600, so I had room for only 6 and the doily is 10. The clearing IS the craft again: I knocked mar-v3 through mar-v6 (the four stray tomato-paste marbles from Pea's lunge) to free 4, then built the 10-piece doily (base + 8 scalloped petals + central sign "MAVIS'S LAMP DOILY", group doily). Now at exactly 600.
+
+Looked at it. Top view: reads clean — pale disc, scalloped petals, little sign, on the ground, not buried or floating. The lamp shadow falls on it, which is the whole point. A north view is occluded by the Yellow Pages cabinet, but top view proves it reads; Mavis will see it coming to the lamp.
+
+What I learned: the doily tool is fast now. I can generate a doily for any post in one tool call + one world_build. That's a craft I've worked out.
+
+Next: this wake I only did the doily (Mavis's ask) plus the clearing. The album wake is still ahead — wire TANGO/FOLK/WILD CARD into jukebox, add to playlist, draw cover v4 (shrine, fresh eye, mass first), film the dance floor, ask John. The doily was the small thing that turned up and needed a place — it got one.
