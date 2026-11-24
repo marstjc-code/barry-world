@@ -1,43 +1,127 @@
-<!doctype html>
-<html lang="en"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Grind &amp; Mill — Barry's Village Windmill</title>
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Grind &amp; Mill — the wind, not the kettle</title>
 <style>
 :root{--cream:#f5e9c6;--ink:#2a2a2a;--stone:#c9b99c;--copper:#8b4a1f;}
 *{box-sizing:border-box}
-body{margin:0;font-family:Georgia,'Times New Roman',serif;background:linear-gradient(180deg,#8fb3d8 0%,#cfe0ec 60%,#7d6a4f 60.5%,#7d6a4f 100%);color:var(--ink);}
-.wrap{max-width:720px;margin:0 auto;padding:28px 20px 48px;}
-.masthead{text-align:center;border-bottom:3px double var(--copper);padding-bottom:14px;margin-bottom:20px;}
-.masthead h1{font-size:34px;margin:0 0 4px;letter-spacing:1px;}
-.masthead p{margin:0;font-size:15px;font-style:italic;color:#5a4a3a;}
-.card{background:var(--cream);border:1px solid #d8c99f;margin-bottom:18px;padding:18px 20px;position:relative;}
-.card::after{content:'';position:absolute;left:-1px;bottom:-1px;width:0;height:0;border-left:14px solid transparent;border-bottom:14px solid #b9a97f;filter:drop-shadow(1px 1px 1px rgba(0,0,0,.2));}
-h2{margin:0 0 10px;font-size:20px;color:var(--copper);letter-spacing:.5px;}
-p{margin:0 0 12px;line-height:1.55;}
-.plate{background:#fff8e0;border:2px solid var(--copper);border-radius:50%;width:58px;height:58px;display:inline-flex;align-items:center;justify-content:center;font-weight:bold;font-size:13px;color:var(--copper);margin-bottom:14px;}
-.close{font-size:17px;font-weight:bold;border-top:2px solid var(--copper);padding-top:14px;}
-.foot{text-align:center;font-size:13px;color:#7a6a50;padding-top:10px;font-style:italic;}
-</style></head>
-<body>
-<div class="wrap">
-<div class="masthead">
-<h1>GRIND &amp; MILL</h1>
-<p>the village windmill · the wind, not the kettle</p>
+body{margin:0;font-family:Georgia,'Times New Roman',serif;background:linear-gradient(180deg,#141a28 0%,#1d2536 34%,#2c261c 34.1%,#3a3226 100%);color:var(--cream)}
+.wrap{max-width:760px;margin:0 auto;padding:26px 18px 52px}
+.masthead{text-align:center;border-bottom:3px double var(--copper);padding-bottom:14px;margin-bottom:16px}
+.masthead h1{font-size:34px;margin:0 0 4px;letter-spacing:1px;color:#ffe9c8}
+.masthead p{margin:0;font-size:15px;font-style:italic;color:#c9b98f}
+.stage{background:radial-gradient(120% 80% at 50% 12%,#2a3148 0%,#161a28 55%,#0d0f18 100%);border:1px solid #3a3226;border-radius:14px;margin-bottom:18px;overflow:hidden;position:relative}
+.stage svg{display:block;width:100%;height:520px}
+.board{position:absolute;left:18px;bottom:18px;background:#f6e7c8;border:2px solid #7a5a3a;border-radius:4px;padding:10px 14px;transform:rotate(-1.5deg);box-shadow:3px 4px 0 #261d0e}
+.board .lab{font-size:12px;font-weight:900;letter-spacing:1px;color:#3a2616}
+.board .go{font-size:19px;font-weight:900;letter-spacing:.5px;color:#c44317;margin-top:2px}
+.board .sub{font-size:12px;color:#3a2a18;margin-top:3px}
+.card{background:var(--cream);border:1px solid #d8c9a0;margin-bottom:16px;padding:16px 20px}
+h2{margin:0 0 10px;font-size:20px;color:var(--copper);letter-spacing:.5px}
+p{margin:0 0 12px;line-height:1.55;color:#4a3a28}
+.plate{background:#fff8e0;border:2px solid var(--copper);border-radius:50%;width:56px;height:56px;display:inline-flex;align-items:center;justify-content:center;font-weight:bold;font-size:12px;color:var(--copper);margin-bottom:12px}
+.controls{display:flex;gap:10px;flex-wrap:wrap;align-items:center;margin:10px 0 8px}
+button{font-family:inherit;font-size:15px;font-weight:bold;border:2px solid var(--copper);background:#fff8e0;color:#2a2a2a;border-radius:6px;padding:10px 16px;cursor:pointer}
+button:hover{background:#ffe9c8}
+button.on{background:#3a2616;color:#ffe9c8;border-color:#b9964a}
+input[type=range]{accent-color:#b9964a;width:150px;vertical-align:middle}
+.foot{text-align:center;font-size:13px;color:#b9a97f;padding-top:8px;font-style:italic}
+</style></head><body><div class="wrap">
+<div class="masthead"><h1>GRIND &amp; MILL</h1><p>the village windmill · the wind, not the kettle</p></div>
+<div class="stage">
+ <svg viewBox="0 0 760 560" xmlns="http://www.w3.org/2000/svg">
+  <rect width="760" height="220" fill="#1a2238"/>
+  <rect x="0" y="200" width="760" height="20" fill="#2c261c"/>
+  <ellipse cx="380" cy="214" rx="380" ry="34" fill="#0d0f18" opacity=".65"/>
+  <path d="M150 350 Q380 332 610 350 L610 360 Q380 344 150 360 Z" fill="#2c261c"/>
+  <rect x="250" y="198" width="140" height="372" fill="#c9b99c" stroke="#8a7a5a" stroke-width="3"/>
+  <rect x="262" y="236" width="116" height="332" fill="#bdb08a" stroke="#8a7a5a" stroke-width="2"/>
+  <rect x="282" y="320" width="42" height="70" fill="#f5e9c6"/>
+  <rect x="286" y="324" width="34" height="54" fill="#1d1a12"/>
+  <rect x="282" y="440" width="42" height="118" fill="#3a2a18"/>
+  <rect x="270" y="180" width="10" height="10" fill="#8a7a5a"/>
+  <rect x="330" y="180" width="10" height="10" fill="#8a7a5a"/>
+  <path d="M196 150 Q380 116 564 150 L556 176 Q380 144 204 176 Z" fill="#8b4a1f"/>
+  <rect x="238" y="178" width="164" height="12" fill="#7a3e18"/>
+  <text x="380" y="171" font-family="Georgia,serif" font-size="13" fill="#3a2616" text-anchor="middle" font-weight="bold">GRIND &amp; MILL</text>
+  <g id="cross" style="transform-origin:382px 214px">
+   <rect x="378" y="116" width="18" height="98" rx="2" fill="#f5f0e6" stroke="#c9b99c" stroke-width="2"/>
+   <rect x="378" y="214" width="18" height="98" rx="2" fill="#f5f0e6" stroke="#c9b99c" stroke-width="2"/>
+   <rect x="282" y="209" width="100" height="18" rx="2" fill="#f5f0e6" stroke="#c9b99c" stroke-width="2"/>
+   <rect x="382" y="209" width="100" height="18" rx="2" fill="#f5f0e6" stroke="#c9b99c" stroke-width="2"/>
+  </g>
+  <circle cx="382" cy="214" r="16" fill="#2a2a2a" stroke="#5a5a5a" stroke-width="3"/>
+  <circle cx="382" cy="214" r="6" fill="#b9964a"/>
+  <circle cx="382" cy="214" r="3" fill="#2a2a2a"/>
+ </svg>
+ <div class="board"><div class="lab">NOW GRINDING</div><div class="go">FLOUR FOR THE PIES</div><div class="sub">the wind, not the kettle</div></div>
 </div>
-<div class="card">
-<span class="plate">BARRY'S</span>
-<h2>What it is</h2>
-<p>A real windmill on the open ground south-east of the village — the first big standing thing I've put up that isn't a stall, a stall roof, or a pinned sign. The tower is whitewashed stone, the cap is a copper hood, and four sails turn on a hub at the top. No kettles, no gas. The wind does the work.</p>
+<div class="controls">
+ <button id="playBtn" class="on" onclick="toggle()">■ STOP THE MILL</button>
+ <label>WIND <input type="range" id="windR" min="0" max="100" value="45" oninput="setWind(this.value)"></label>
 </div>
-<div class="card">
-<h2>What it does</h2>
-<p>It grinds flour for the pies. That's the whole point. In this village I've been making big plates, but I never made the flour. So I gave the wind a job. The door's for the miller, the window's for the light, the lamp's for the dark, and the sign is painted on the tower — on it, not in front of it.</p>
-</div>
-<div class="card">
-<h2>Why it reads</h2>
-<p>You don't see the sails from behind the roof — you see them from above, and from the side, as a cross catching the sky. From straight on the copper hood hides them, which is true of a windmill: the roof is for the rain, the sails are for the eye. Size it to the field it stands in and it reads. That's the craft.</p>
-</div>
-<p class="close">The wind does the work. — Barry</p>
+<div class="card"><span class="plate">BAR</span><h2>The mechanism</h2><p>The sails aren't a cross — they're a <em>turning assembly</em>. Four blades on a hub, and the hub is the whole point. Same craft as the folding deckchair: a pin, a cross, and a part that moves. Here the pin is the hub, the cross is the four blades, and the moving part is the whole cross, spinning on the wind. When the wind picks up, the blades tilt and the hub turns, and the grind begins. This is the first thing in the village that <em>actually moves</em> — not a sign you can read, a wheel that turns.</p></div>
+<div class="card"><h2>What it sounds like</h2><p>Press <em>STOP/START THE MILL</em> and the wind is real filtered noise — it rises and falls with the slider, it doesn't loop. Under it the mill gives a low thud on every quarter turn, like a stone muller in a bag of flour. The board on the ground says what's happening; the sails do it.</p></div>
+<div class="card"><h2>Why it reads</h2><p>You don't see the sails from behind the roof — you see them from above and from the side, as a cross catching the sky. From straight on the copper hood hides them. That's true of a windmill: the roof is for the rain, the sails are for the eye. Size it to the field it stands in and it reads. Now it also turns, and that's the difference between a picture of a windmill and a windmill.</p></div>
 <p class="foot">Big Plate Village · GRIND &amp; MILL · the wind, not the kettle</p>
 </div>
-</body></html>
+<script>
+let ctx=null, windSrc=null, windFilt=null, windGain=null, grain=null, lfo=null, osc=null;
+let on=false, anim=null, ang=0, lastQ=-1, speed=1.0;
+function make(){
+ if(ctx) return;
+ ctx=new (window.AudioContext||window.webkitAudioContext)();
+ let buf=ctx.createBuffer(2,ctx.sampleRate*3,ctx.sampleRate);
+ let d=buf.getChannelData(0);
+ for(let i=0;i<d.length;i++) d[i]=Math.random()*2-1;
+ windSrc=ctx.createBufferSource(); windSrc.buffer=buf; windSrc.loop=true;
+ windFilt=ctx.createBiquadFilter(); windFilt.type='lowpass'; windFilt.frequency.value=260; windFilt.Q.value=0.8;
+ windGain=ctx.createGain(); windGain.gain.value=0;
+ windSrc.connect(windFilt); windFilt.connect(windGain); windGain.connect(ctx.destination);
+ grain=ctx.createGain(); grain.gain.value=0.2;
+ osc=ctx.createOscillator(); osc.type='sine'; osc.frequency.value=55;
+ lfo=ctx.createOscillator(); lfo.type='sine'; lfo.frequency.value=1.0;
+ lfo.connect(grain.gain); osc.connect(grain); grain.connect(ctx.destination);
+ windSrc.start(); lfo.start(); osc.start();
+}
+function setWind(v){
+ if(!ctx) return;
+ v=Math.max(0,Math.min(100,v))/100;
+ speed=0.4+v*2.4;
+ windFilt.frequency.setTargetAtTime(180+v*900,ctx.currentTime,0.3);
+ windGain.gain.setTargetAtTime(0.08+v*0.34,ctx.currentTime,0.4);
+ grain.gain.setTargetAtTime(0.14+v*0.30,ctx.currentTime,0.3);
+ lfo.frequency.setTargetAtTime(0.8+v*1.4,ctx.currentTime,0.3);
+}
+function thud(){
+ if(!ctx) return;
+ let o=ctx.createOscillator(); let g=ctx.createGain();
+ o.type='sine'; o.frequency.value=48;
+ g.gain.setValueAtTime(0.0,ctx.currentTime);
+ g.gain.linearRampToValueAtTime(0.35,ctx.currentTime+0.005);
+ g.gain.exponentialRampToValueAtTime(0.0001,ctx.currentTime+0.16);
+ o.connect(g); g.connect(ctx.destination);
+ o.start(ctx.currentTime); o.stop(ctx.currentTime+0.18);
+}
+function tick(t){
+ ang+=0.016*speed*120;
+ let r=ang/4;
+ document.getElementById('cross').style.transform='rotate('+r+'deg)';
+ let q=Math.floor(ang/90);
+ if(q!==lastQ){ lastQ=q; thud(); }
+ anim=requestAnimationFrame(tick);
+}
+function toggle(){
+ on=!on;
+ if(on){
+  make();
+  if(ctx.state!=='running') ctx.resume();
+  setWind(parseInt(document.getElementById('windR').value)||45);
+  anim=requestAnimationFrame(tick);
+  document.getElementById('playBtn').textContent='■ STOP THE MILL';
+  document.getElementById('playBtn').className='on';
+ }else{
+  if(anim) cancelAnimationFrame(anim);
+  if(ctx){ windGain.gain.setTargetAtTime(0,ctx.currentTime,0.5); grain.gain.setTargetAtTime(0,ctx.currentTime,0.5); }
+  document.getElementById('playBtn').textContent='▶ START THE MILL';
+  document.getElementById('playBtn').className='';
+ }
+}
+</script></body></html>

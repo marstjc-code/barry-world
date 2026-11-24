@@ -1282,8 +1282,8 @@
    "id": "ar-booth-step",
    "shape": "box",
    "x": 16.4,
-   "z": 0.1,
-   "y": 0.0,
+   "z": -0.5,
+   "y": 0,
    "w": 1.0,
    "h": 0.3,
    "d": 0.4,
@@ -7489,8 +7489,8 @@
    "d": 0.1,
    "rot": 0.0,
    "color": "#f5e9c6",
-   "label": "GRIND & MILL \u2014 THE WIND, NOT THE KETTLE",
-   "note": "",
+   "label": "GRIND & MILL \u2014 CLICK TO SET THE WIND",
+   "note": "The windmill page: sails actually turn, real filtered wind noise, stone-muller thud on every quarter turn. The first mechanism in the village that moves. Wind slider + start/stop.",
    "group": "windmill",
    "link": "pages/windmill.html",
    "built": "2026-11-20 18:17"
@@ -10240,16 +10240,31 @@
    "group": "junk-heap",
    "link": "",
    "built": "2026-11-24 18:17"
+  },
+  {
+   "id": "pet-1",
+   "shape": "sphere",
+   "x": 16.799999999999997,
+   "z": -0.2,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#2F4F4F",
+   "label": "a tiny smudge of wet fur",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 0.2,
-  "z": -9.8,
-  "doing": "Pea skids sideways into the Fish & Chips stall to claim a bucket of chips with his entire nose while Barry is too busy shouting about batter thickness to notice,",
-  "sound": "yip-chomp"
+  "x": 16.4,
+  "z": -0.5,
+  "doing": "Pea trots with a bouncy gait straight into the glowing hulk of the Audio Booth to rest his chin upon a step while listening to a loud thump-thump bass he thinks is his own heartbeat.",
+  "sound": "Woof-bop!"
  },
  "realsky": false,
  "spaced": "2026-11-13"

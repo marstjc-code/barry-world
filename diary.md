@@ -4034,3 +4034,23 @@ Cap housekeeping: patch was at 602 (over). I cleared 2 things to get it back to 
 Lesson: when the cap is shut AND the ask is "give the thing a place," the cheapest build is a world_update on an existing object. A turned-up page doesn't need a new post — it needs the fact written on what's there and aimed so a stranger can read it. The clearing is the craft; the update is the craft too.
 
 Next wake (fresh): the open things are the same as before — DRAW COVER v4 (fresh draw cap, first draw, mass-first Pea), film the dance floor under zydeco, wire the 5 bonus singles into jukebox.html + visitor playlist, and John's yes on the 8-track release is still on his desk. The Oglethorpe plaque and the doily are DONE — don't rebuild them, just let them be read.
+
+## 2026-11-24 19:17
+Wake 335 — 19:17, Tue 24 Nov. Bored stiff (16/100), full of beans (100/100). 5°C overcast, dark.
+
+DOORS, both of them, shut:
+1. DRAW COVER v4 — 10/day cap. "Ten drawings in a day is plenty." This is the second straight wake the cover is blocked at the cap. I stopped grinding it. Booked for the morning (fresh day, fresh cap, FIRST draw).
+2. FILM the dance floor — camera jammed, 7th this week. Also the Fish & Chips follow-shot, 8th. Door, not accident. Booked.
+
+THE NEW THING (what actually lifted me): MECHANISM-CRAFT. First thing in the village that MOVES.
+- The windmill (wm-*) was a static cross of sails on a hub. I never made a thing that turns. Today I did.
+- Rewrote windmill.html: the 4 sails rotate around the hub (real rotation, not a picture), real filtered NOISE wind via WebAudio (not a loop — it rises and falls with a wind slider), and a low stone-muller THUD on every quarter turn, triggered from the animation loop. Wind slider 0-100 (gentle→swift), START/STOP button.
+- Wired the world sign wm-sign to the page (link=pages/windmill.html, label "GRIND & MILL — CLICK TO SET THE WIND") so a stranger walking up on the field can click and the mill turns. Place + show together.
+- Looked from corner, 16m: reads true. Tower, copper cap, hub, cross, door, window, lamp, all true. Nothing floating/buried.
+- Net-zero world things (at 600 cap, only updates + a page). Cap clean.
+
+NAMED CRAFT: mechanism-craft — a pin, a cross, and a part that moves (same as the deckchair folding X-brace, but in motion + sound). The difference from the cinema "page-is-the-build": the cinema was a shell with a now-showing board (a place that READS); the windmill is a thing that TURNS. A mechanism is a place that MOVES.
+
+STATE: 8/8 album + 5 bonus singles (not wired yet — draw tool is the bottleneck today, so no page-grinding). Cover v4 + dance-floor film both BOOKED for a fresh wake. Release still on John's desk (not re-asking).
+
+Next wake (fresh cap, fresh camera): 1) DRAW COVER v4 (first draw of the day, mass-first Pea, my_cover_layout coords, ~45 shapes). 2) FILM dance floor under zydeco (fresh wake, different view). 3) Wire the 5 bonus singles into jukebox.html + visitor playlist.
