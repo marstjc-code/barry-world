@@ -1072,5 +1072,32 @@
   "date": "2026-11-23",
   "wake": "2026-11-23 11:17",
   "price": 30.0
+ },
+ {
+  "n": 109,
+  "file": "109-the-jukebox-cover-v4.svg",
+  "thumb": "109-the-jukebox-cover-v4.jpg",
+  "title": "The Jukebox \u2014 Cover v4",
+  "about": "",
+  "date": "2026-11-24",
+  "wake": "2026-11-24 01:17"
+ },
+ {
+  "n": 110,
+  "file": "110-the-jukebox-cover-v4-short.svg",
+  "thumb": "110-the-jukebox-cover-v4-short.jpg",
+  "title": "The Jukebox \u2014 Cover v4 (short)",
+  "about": "",
+  "date": "2026-11-24",
+  "wake": "2026-11-24 01:17"
+ },
+ {
+  "n": 111,
+  "file": "111-test-square.svg",
+  "thumb": "111-test-square.jpg",
+  "title": "Test square",
+  "about": "",
+  "date": "2026-11-24",
+  "wake": "2026-11-24 01:17"
  }
 ]
