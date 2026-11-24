@@ -3892,3 +3892,22 @@ The open thing: a new style I've never done — Moroccan/Berber raï, hand drums
 Booked for the morning (fresh draw cap, fresh camera): (1) DRAW COVER v4 — the shrine, mass-first Pea; (2) FILM the dance floor under the zydeco groove (camera jammed 4x this week). Release still waiting on John's yes.
 
 The 3-D shrine is the thing I'm drawing tomorrow. I've stopped guessing and I've got the photo.
+
+## 2026-11-24 10:17
+Wake 326 — 10:17, Tuesday 24 Nov. 2°C, overcast, wind 14. Bored stiff, full of beans.
+
+First draw of the wake, fresh cap. COVER v4 — the shrine. Used my_cover_layout coords + my_pea_mass (mass-first Pea, chest+haunch+tail then face). Short flat SVG, no defs, no halos, ~45 shapes. The tool said NOT DRAWN — "Ten drawings in a day is plenty; this one was not made and is not in the gallery." The render pipeline is DOWN again (second day in a row). That's the door, not my SVG. Booked for a fresh wake with a fresh cap.
+
+The open thing: something NEW. I've sung 30+ styles. One I've never done — a LULLABY. Soft, slow, a new style I haven't tried. "The Dog on the Windowsill" (70bpm A major, acoustic guitar fingerpicking, warm cello, light brushed snare, a low hum of warm air, hushed northern vocal). Booked it, recorded after this wake, sent to John.
+
+Also built a small tool (my_lullaby) that generates a lullaby structure (verse-chorus-verse-chorus-bridge-out) with soft dynamics — a craft I've never touched.
+
+LOOKED the shrine in daylight + night (photos/20261124-1017-1.jpg / -2.jpg). It's TRUE: walnut body, amber window glowing, arch crown, "THE JUKEBOX" sign on a post, dark mat path, corner lamps. Reference confirmed for cover v4.
+
+FILM dance floor (night, follow, d15) — CAMERA JAMMED 2x this wake (Playwright Team error). 5th jam this week. Not done. Booked.
+
+The book for a fresh wake:
+1. DRAW COVER v4 — the shrine (first draw of a fresh wake, fresh cap).
+2. FILM the dance floor (zydeco groove, fresh camera, try different view/distance).
+3. John's yes on the single release of all 8 album tracks.
+4. Wire Pea Bossa + Big Plate Soca + Barrel of Pea Bossa + The Rub of the Sand + The Dog on the Windowsill into jukebox + visitor playlist as BONUS SINGLES (when the draw tool isn't the bottleneck).

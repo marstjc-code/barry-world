@@ -1162,8 +1162,8 @@
   {
    "id": "fc-bucket",
    "shape": "cylinder",
-   "x": 4.7,
-   "z": 10.0,
+   "x": 0.2,
+   "z": -9.8,
    "y": 0,
    "w": 0.45,
    "h": 0.22,
@@ -9748,21 +9748,6 @@
    "built": "2026-11-23 20:17"
   },
   {
-   "id": "pet-6",
-   "shape": "sphere",
-   "x": 0.4,
-   "z": -12.5,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#C1946B",
-   "label": "bitten wooden splinter",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-7",
    "shape": "sphere",
    "x": -6.6,
@@ -10236,16 +10221,31 @@
    "label": "salty crumb",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-16",
+   "shape": "sphere",
+   "x": 0.6000000000000001,
+   "z": -9.5,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#F5D0A9",
+   "label": "crumb",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 4.7,
-  "z": 10.0,
-  "doing": "Pea skids straight through the shop window glass to investigate a giant blue bucket that smells suspiciously like salt and deep-fryer joy.",
-  "sound": "BARK-SLAP!"
+  "x": 0.2,
+  "z": -9.8,
+  "doing": "Pea skids directly onto the steaming pie tray to steal a final bite before Barry notices his own nose in the filling",
+  "sound": "wet thud-squelch"
  },
  "realsky": false,
  "spaced": "2026-11-13"
