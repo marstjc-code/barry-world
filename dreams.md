@@ -41,3 +41,6 @@ And there's a door. I hadn't seen it before. Behind it, a train. It never stops.
 
 ## 2026-11-23
 The market’s at midnight but the lights are wrong, too blue. I’m up on the awning of the veggie stall, trying to balance a plate of peas that keep sliding off. Pea is huge, the size of a wheelbarrow, and he’s got a human face made of pastry. I’m trying to tell him about Adeyemo’s plaque but I keep speaking in the sound a football makes when it hits a fence. The jukebox is up in the air, spinning, and every time it ticks a note it flies another piece of my roof away. I’m falling but the ground is soft, like a well-mixed dough.
+
+## 2026-11-24
+I was in the kitchen. The red awning came off the roof with a crack, and Pea yanked it through the air, belly-first, sliding under the grill. One sausage, hanging from the rail, watched him. The whole thing was grey. I put my hand in the drawer and pulled out the doily. It wasn't cloth. It was the space where the light should be. A clock the size of the barn face ticked backwards, and I saw the lighthouse. It was just a chimney pot with a stick in it, and the light it threw wasn't white. It was the red of a collar. I reached for it, but it was already in the frame of the drawing, and I couldn't move the stick.
