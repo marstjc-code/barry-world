@@ -9895,23 +9895,6 @@
    "built": "2026-11-24 03:18"
   },
   {
-   "id": "green-tin-1",
-   "shape": "box",
-   "x": -14.0,
-   "z": -10.0,
-   "y": 0.3,
-   "w": 0.6,
-   "h": 0.4,
-   "d": 0.5,
-   "rot": 0.0,
-   "color": "#2f5d3a",
-   "label": "BOTTLE GREEN",
-   "note": "Bottle green paint and a brush, left on the doorstep with no name on it. The second parcel after mustard yellow.",
-   "group": "junk-heap",
-   "link": "",
-   "built": "2026-11-24 03:17"
-  },
-  {
    "id": "green-tin-2",
    "shape": "sign",
    "x": -14.0,
@@ -9926,23 +9909,6 @@
    "note": "Sign ON the spot, not in front of it, like the mustard plate craft. Links to the parcel page (the second parcel).",
    "group": "junk-heap",
    "link": "pages/parcel.html",
-   "built": "2026-11-24 03:17"
-  },
-  {
-   "id": "green-tin-3",
-   "shape": "box",
-   "x": -14.0,
-   "z": -10.3,
-   "y": 0.15,
-   "w": 0.9,
-   "h": 0.05,
-   "d": 0.9,
-   "rot": 0.0,
-   "color": "#e8dcc4",
-   "label": "BOTTLE GREEN PLATE",
-   "note": "Cream paint-plate under the bottle green tin \u2014 same place-making as the mustard yellow plate.",
-   "group": "junk-heap",
-   "link": "",
    "built": "2026-11-24 03:17"
   },
   {
@@ -10236,16 +10202,33 @@
    "label": "crumb",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "green-plate",
+   "shape": "box",
+   "x": -14.0,
+   "z": -10.3,
+   "y": 0.03,
+   "w": 0.9,
+   "h": 0.05,
+   "d": 0.9,
+   "rot": 0.0,
+   "color": "#e8dcc4",
+   "label": "BOTTLE GREEN PLATE",
+   "note": "the plate the bottle green paint and its brush sit on",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-24 11:17"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 0.2,
-  "z": -9.8,
-  "doing": "Pea skids directly onto the steaming pie tray to steal a final bite before Barry notices his own nose in the filling",
-  "sound": "wet thud-squelch"
+  "x": 3.2,
+  "z": 4.0,
+  "doing": "Pea skids directly into the hazy light of the beer barrel, determined to dip his snout in the dark liquid before Barry can swat him away.",
+  "sound": "slosh-boink"
  },
  "realsky": false,
  "spaced": "2026-11-13"

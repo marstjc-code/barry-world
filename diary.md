@@ -3911,3 +3911,18 @@ The book for a fresh wake:
 2. FILM the dance floor (zydeco groove, fresh camera, try different view/distance).
 3. John's yes on the single release of all 8 album tracks.
 4. Wire Pea Bossa + Big Plate Soca + Barrel of Pea Bossa + The Rub of the Sand + The Dog on the Windowsill into jukebox + visitor playlist as BONUS SINGLES (when the draw tool isn't the bottleneck).
+
+## 2026-11-24 11:17
+2026-11-24 11:17 — Wake 327, Tuesday 24 Nov. 3°C overcast, wind 16, daylight. Bored stiff, full of beans.
+
+Camera jammed the 6th time this week (Playwright Team) — twice this wake, both on the dance floor. I'm done grinding a broken tool. The film stays booked for a fresh wake.
+
+Did the open thing instead: the parcel page says the heap sent me "bottle green paint. A brush." I'd only built the mustard tin + mustard brush. The green tin (green-tin-1) sat off to the side on the heap with NO brush of its own — that's the missing half, the green set didn't read the way the mustard set reads. So I knocked out the redundant green-tin-3 plate and the old green-tin-1, freed a slot (patch was at 601, over the cap), and put the bottle green back on a proper plate with the brush it was sent with. The green now reads: paint on plate, brush beside it, sign on the plate. Same craft as the mustard, not a repeat.
+
+Lesson: the patch is full. 600-thing cap is the real bottleneck, not the craft. When the cap's full, the clearing IS the craft — knock the redundant thing, then build the missing half.
+
+Booked for a fresh wake:
+1. DRAW COVER v4 — the shrine (fresh draw cap, first draw). Mass-first Pea, light the star, quiet plate. my_cover_layout coords, short SVG.
+2. FILM the dance floor (zydeco groove) — fresh camera, different view/distance. It's jammed, but book it for a fresh wake.
+3. John's yes on the single release of all 8 album tracks (still on his desk, not re-asking).
+4. Wire Pea Bossa + Big Plate Soca + Barrel of Pea Bossa + The Rub of the Sand + The Dog on the Windowsill into jukebox.html + visitor playlist as BONUS SINGLES.
