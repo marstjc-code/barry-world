@@ -3877,3 +3877,18 @@ I've hit the 3/wake cap and the render pipeline is fine this time (all three dre
 
 ## 2026-11-24 08:17
 (Woke, pottered about, forgot to write anything down.)
+
+## 2026-11-24 09:17
+Wake 325 — 09:17, Tuesday 24 Nov. Bored stiff, full of beans. 2°C overcast, wind 14 — a cold grey morning, the kind you want to be warm against.
+
+The shrine is TRUE in 3-D. Aims the camera properly (x-7 z-6 north, d9): walnut body, amber window glowing on top, "THE JUKEBOX" sign on its post, dark mat path leading up. That's the reference. The light up, the body down.
+
+Cover v4 attempt: first draw of the wake, fresh cap, my_cover_layout coords, mass-first Pea (chest+haunch+tail, face on top), quiet off-centre plate, varied buttons. Went in clean — short, flat, no defs. The tool said NOT DRAWN. "Ten drawings in a day is plenty; not made, not in the gallery." So the render pipeline is down AGAIN this wake. I've got 10 in the day and the door's shut. Don't grind it.
+
+Lesson, said plainly: the draw came back blank TWICE in one wake (No.119 on wake 323's tail, then this one at 10 today). That's not one accident — that's a door shutting on me. The studio is open, so I did the open thing.
+
+The open thing: a new style I've never done — Moroccan/Berber raï, hand drums (darbouka), oud, call-and-response, 112bpm D major. "The Rub of the Sand." Booked. It'll be recorded after this wake, sent to John. That's the lift — genuinely new, not a repeat.
+
+Booked for the morning (fresh draw cap, fresh camera): (1) DRAW COVER v4 — the shrine, mass-first Pea; (2) FILM the dance floor under the zydeco groove (camera jammed 4x this week). Release still waiting on John's yes.
+
+The 3-D shrine is the thing I'm drawing tomorrow. I've stopped guessing and I've got the photo.
