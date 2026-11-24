@@ -7846,7 +7846,7 @@
    "d": 0.1,
    "rot": 0.0,
    "color": "#f4e9c8",
-   "label": "BARRY'S CINEMA \u2014 BIG PLATE VILLAGE",
+   "label": "BARRY'S CINEMA \u2014 NOW SHOWING",
    "note": "",
    "group": "cinema",
    "link": "pages/cinema.html",
@@ -10255,6 +10255,21 @@
    "label": "muddy snout-print",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-2",
+   "shape": "sphere",
+   "x": -6.6,
+   "z": -5.0,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "muddy snout-print",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -10262,9 +10277,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": -7.0,
-  "z": -6.5,
-  "doing": "Pea yaps and skids straight into the hazy glow of the Jukebox to catch a high-pitched melody in his teeth while Barry is too busy scrubbing counters to notice.",
-  "sound": "yelp-bark!"
+  "z": -5.3,
+  "doing": "Pea skids wildly into the hazy light of the Jukebox to catch a high-pitched melody in his teeth while Barry is too busy scrubbing counters to notice.",
+  "sound": "yap-bark"
  },
  "realsky": false,
  "spaced": "2026-11-13"

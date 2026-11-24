@@ -1,79 +1,33 @@
-<!doctype html>
-<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Barry's Cinema — Big Plate Village</title>
-<style>
-  :root{--ink:#1a1410;--cream:#f4e9c8;--gold:#c9a24b;--red:#a83b2f;--green:#2e6b4f}
-  *{box-sizing:border-box}
-  body{margin:0;background:radial-gradient(90% 60% at 50% 40%, #2b1c12 0%, #0a0704 100%);color:var(--cream);font-family:Georgia,serif;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px;position:relative;overflow-x:hidden}
-  body::before{content:"";position:fixed;inset:0;background:radial-gradient(120% 80% at 50% 100%, #000 0%, transparent 55%);pointer-events:none}
-  .marquee{position:relative;max-width:860px;margin:0 auto;background:var(--cream);border:6px double var(--ink);padding:26px 30px;box-shadow:0 30px 80px rgba(0,0,0,.7);transform:rotate(-.4deg)}
-  .marquee::before,.marquee::after{content:"";position:absolute;left:0;right:0;height:14px;background:repeating-linear-gradient(90deg,var(--red) 0 18px,#e8d8b0 18px 36px);top:-22px}
-  .marquee::after{bottom:-22px}
-  h1{margin:0 0 2px;font-size:clamp(2rem,5vw,3.4rem);letter-spacing:.5px;text-align:center;color:var(--ink);text-transform:uppercase}
-  h2{margin:0 0 4px;text-align:center;font-size:1.05rem;letter-spacing:.4em;color:var(--red);text-transform:uppercase;font-weight:600}
-  .show{display:flex;gap:18px;flex-wrap:wrap;margin-top:22px}
-  .strip{flex:1 1 240px;background:var(--ink);border:2px solid var(--gold);padding:16px;position:relative;overflow:hidden}
-  .strip::before{content:"";position:absolute;inset:0;background:repeating-linear-gradient(90deg,rgba(255,255,255,.06) 0 2px,transparent 2px 24px);pointer-events:none}
-  .film{display:flex;gap:14px;align-items:flex-start}
-  .screen{width:58px;height:40px;background:#0a0a0a;border:2px solid var(--gold);position:relative;flex:none}
-  .screen::before{content:"";position:absolute;inset:6px 4px;background:repeating-linear-gradient(90deg,var(--gold) 0 2px,#f4e9c8 2px 14px);opacity:.5;animation:sweep 1.6s linear infinite}
-  @keyframes sweep{from{transform:translateX(-100%)}to{transform:translateX(100%)}}
-  .film h3{margin:0 0 4px;font-size:1.25rem;color:var(--gold);text-transform:uppercase;letter-spacing:.05em}
-  .film p{margin:0 0 4px;color:var(--cream);font-size:.95rem;line-height:1.35}
-  .film .run{margin:0;font-style:italic;color:rgba(244,233,200,.7);font-size:.85rem}
-  .strip .note{margin-top:10px;font-size:.8rem;color:rgba(244,233,200,.65);line-height:1.4}
-  .menu{margin-top:22px;border-top:3px double var(--gold);padding-top:18px;column-count:2;column-gap:34px}
-  .menu h4{margin:0 0 8px;text-align:center;font-size:.95rem;letter-spacing:.35em;color:var(--red);text-transform:uppercase}
-  .menu li{list-style:none;margin:0 0 10px;padding-left:4px;color:var(--cream);font-size:.95rem}
-  .menu li::before{content:"— ";color:var(--gold)}
-  .menu .not{color:rgba(244,233,200,.55);font-style:italic}
-  .bar{margin-top:22px;display:flex;gap:12px;flex-wrap:wrap;justify-content:center}
-  .bar span{font-size:.78rem;letter-spacing:.25em;color:rgba(244,233,200,.6);text-transform:uppercase}
-  .bar b{color:var(--gold);font-weight:600}
-  .sign{margin-top:24px;text-align:center;padding:14px 10px;background:var(--ink);border:2px solid var(--gold);font-size:.95rem;letter-spacing:.05em;color:var(--cream);font-style:italic}
-  .sign b{color:var(--gold);font-style:normal}
+<!DOCTYPE html><html><head><meta charset="utf-8"><meta name="viewport" content="width=device-width"><title>BARRY'S CINEMA — NOW SHOWING</title><style>
+body{margin:0;font-family:Georgia,'Times New Roman',serif;background:#0b0d18;color:#f4e9c8;display:flex;flex-direction:column;align-items:center;min-height:100vh}
+.mast{font-size:26px;letter-spacing:4px;text-align:center;padding:22px 0 6px;color:#f4e9c8}
+.mast .sub{font-size:13px;letter-spacing:2px;color:#c9b78a;margin-top:6px}
+.board{width:min(92vw,860px);margin:14px auto 24px;background:#1a1410;border:2px solid #6d3b2a;border-radius:8px;overflow:hidden;box-shadow:0 0 40px #2b2419}
+.rowhead{display:flex;justify-content:space-between;padding:10px 16px;background:#2b1e12;font-size:13px;letter-spacing:2px;color:#c9b78a;border-bottom:2px solid #6d3b2a}
+.show{display:grid;grid-template-columns:90px 1fr 90px 120px;gap:12px;padding:14px 16px;border-bottom:1px dashed #4a3a2a}
+.show:last-child{border-bottom:none}
+.show .t{font-size:22px;font-weight:bold;color:#e8dcc4}
+.show .s{font-size:14px;color:#c9b78a}
+.show .b{font-size:13px;letter-spacing:2px;color:#ff8a3c;background:#24301e;border:1px solid #7a5a44;border-radius:4px;text-align:center;padding:6px 2px;font-family:monospace}
+.show .n{font-size:12px;color:#9a8a6a;text-align:right}
+.show .now{background:#3a2414}
+.show .now .t{color:#ff8a3c}
+.foot{font-size:12px;color:#9a8a6a;text-align:center;padding:8px 0 18px;letter-spacing:1px}
+.foot .rub{color:#e8dcc4;font-weight:bold}
 </style></head><body>
-<div class="marquee">
-  <h2>Now Showing</h2>
-  <h1>Barry's Cinema</h1>
-  <p style="margin:0 0 16px;text-align:center;font-size:1.05rem;color:var(--ink)">Big Plate Village — the film of the week, on the big screen you look up at. Come hungry.</p>
-  <div class="show">
-    <div class="strip">
-      <div class="film">
-        <div class="screen"></div>
-        <div class="film">
-          <h3>Big Plate, Vol. I</h3>
-          <p>The week in pictures: the fair on the hill, the lake dog at Lesina, the bonfire going out, and the plate that was too small. Cut from the week's clips, in Barry's own order.</p>
-          <p class="run">Runtime 7 min · Subtitled in Northern</p>
-        </div>
-      </div>
-      <p class="note"><b>Screening:</b> every Sunday after the film is cut. The big screen is ON the back wall. The marquee is ON the front. Two lamps hold the front till the dark takes it.</p>
-    </div>
-    <div class="strip">
-      <div class="film">
-        <div class="screen"></div>
-        <div class="film">
-          <h3>Intermission — The Rub</h3>
-          <p>Between reels, the big plate comes out. A proper portion, no pea. The floor is dark, the light is gold, and there is a place for everybody to sit and watch it come.</p>
-          <p class="run">Intermission 3 min · No one leaves hungry</p>
-        </div>
-      </div>
-      <p class="note"><b>The craft:</b> a film is a thing that turns up. It gets a <b>place</b> it can be watched in — not a pin on a heap, a screen you look up at.</p>
-    </div>
-  </div>
-  <div class="menu">
-    <h4>Before the Lights Go Down</h4>
-    <ul>
-      <li>Steak and ale pie, big plate, gravy on the side</li>
-      <li>Bucket of chips, the proper size</li>
-      <li>A bitter, cold and short</li>
-      <li>Jug of gravy for the road</li>
-      <li class="not">One pea — not served, not sold, not missed</li>
-    </ul>
-  </div>
-  <div class="bar">
-    <span>Rows of benches facing the screen</span><span>Marquee lit at night</span><span>Sign on the front</span>
-  </div>
-  <div class="sign"><b>BARRY'S CINEMA — BIG PLATE VILLAGE</b> &nbsp;·&nbsp; the film of the week, on the big screen, come hungry.</div>
+<div class="mast">BARRY'S CINEMA<br><span class="sub">BIG PLATE VILLAGE — SCREENS OPEN DAWN TO LATE</span></div>
+<div class="board">
+ <div class="rowhead"><span>NOW SHOWING</span><span>TUES 24 NOV</span><span>DOORS 18:00</span></div>
+ <div class="show now"><span class="t">18:00</span><span class="s">THE BIG PLATE — OVERNIGHT. A chef's kitchen after the rush. No dialogue. Just the oven, the rub, the dog on the windowsill.</span><span class="b">NOW<br>ON<br>SCREEN</span><span class="n">BIG PLATE VILLAGE</span></div>
+ <div class="show"><span class="t">20:00</span><span class="s">SMALL PLATES PUNK. One pea. Forty quid. The whole set, live from the arena.</span><span class="b">20:00</span><span class="n">ARENA</span></div>
+ <div class="show"><span class="t">22:00</span><span class="s">THE RUB OF THE SEA. A slow one. Fog over the harbour. Pea walks the quay.</span><span class="b">22:00</span><span class="n">HARBOR</span></div>
+ <div class="show"><span class="t">24:00</span><span class="s">FAIR IS ON THE HILL. Lace doilies, weather vanes, the heap, and everything that turned up and nobody could name.</span><span class="b">24:00</span><span class="n">HEAP</span></div>
 </div>
+<div class="foot">One seat. One plate. A dog's worth of quiet.<br><span class="rub">GIVE IT A GOOD OLD RUB.</span></div>
+<script>
+(function(){var shows=document.querySelectorAll('.show');var now=document.querySelector('.show.now');var t=document.querySelector('.show.now .b');var nowTime=now.querySelector('.s');var lines=["18:00 — THE BIG PLATE — OVERNIGHT","20:00 — SMALL PLATES PUNK (live from the arena)","22:00 — THE RUB OF THE SEA (fog over the harbour)","24:00 — FAIR IS ON THE HILL (the heap, the doilies, the vanes)"];var i=0;var dur=4000;function tick(){i=(i+1)%lines.length;var t=document.querySelector('.now .b');t.textContent=lines[i].split(' — ').slice(-1).join(' — ').toUpperCase();}setInterval(tick,dur);
+})();
+</script>
+</body></html>
+</body></html></html>
 </body></html>
