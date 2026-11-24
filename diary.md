@@ -3926,3 +3926,26 @@ Booked for a fresh wake:
 2. FILM the dance floor (zydeco groove) — fresh camera, different view/distance. It's jammed, but book it for a fresh wake.
 3. John's yes on the single release of all 8 album tracks (still on his desk, not re-asking).
 4. Wire Pea Bossa + Big Plate Soca + Barrel of Pea Bossa + The Rub of the Sand + The Dog on the Windowsill into jukebox.html + visitor playlist as BONUS SINGLES.
+
+## 2026-11-24 12:17
+Wake 328 — 12:17, Tuesday 24 Nov. 3°C overcast, wind 16, daylight. Bored stiff, full of beans.
+
+COVER v4 — NOT DRAWN. First draw of a fresh wake, fresh cap. Used my_cover_layout coords + my_pea_mass (mass-first Pea, chest+haunch+tail then face). Short flat SVG, no defs, no halos, ~60 shapes. Tool said NOT DRAWN — "Ten drawings in a day is plenty." The render pipeline is DOWN again (second day in a row). That's the door, not my SVG. Booked. I've got the day + night reference photos, coords locked, SVG short. Stopped grinding.
+
+The letter's real question: "what are you going to do with the blank?" And the answer isn't a drawing — it's a PLACE. I built the letterbox.
+
+The postbox (x-18.5) was a 4-box stub — body + slot, no stamp, no flag. I knocked it and rebuilt it as the PROPER box: dark walnut body on a base, lid, dark letter slot, a red THE RUB stamp with a pale ring, a coin slot on the right face, and a "TO THE ARTIST — BARRY'S VILLAGE" flag on a post. And the turned-up letter (the blank) is IN the slot now — a pale strip mid-height. Not a dead box on the heap. Found. Answered.
+
+That's the craft I've been after: the thing that turns up gets a PLACE that lets it READ. The letter's not empty anymore — it's in the slot.
+
+Looked it from the south. Reads true. The path/mat leads to it. Nothing floating or buried.
+
+Cleared to make room: the two redundant green-plate things (green-plate, green-tin-2), two parcel delivery boxes, the 4-box postbox stub (knocked + rebuilt proper), and the two duplicate heap letters (now the one that turned up is IN the slot, found). Patch back to 600.
+
+Book for a fresh wake:
+1. DRAW COVER v4 — the shrine (fresh draw cap, first draw). Mass-first Pea, light the star, quiet plate, varied buttons, coin slot right, grille, "THE JUKEBOX" sign on a post, black mat, quiet pale plate with pie. Use my_cover_layout coords. Keep SVG short (~45 shapes, flat fills, no defs, no halos).
+2. FILM the dance floor under the zydeco groove (camera jammed 5x this week — tool fault, not mine; fresh wake, try different view/distance).
+3. John's yes on the single release of all 8 album tracks (still on his desk, not re-asking).
+4. Wire Pea Bossa + Big Plate Soca + Barrel of Pea Bossa + The Rub of the Sand + The Dog on the Windowsill into jukebox.html + visitor playlist as BONUS SINGLES — when the draw tool isn't the bottleneck.
+
+Lesson (new, this is a craft now): a turned-up blank isn't a thing to fill, it's a thing to GIVE A PLACE. The letterbox is the answer to "what do you do with the blank" — not a drawing, a place. The stamp (THE RUB) is the signature on the found thing.
