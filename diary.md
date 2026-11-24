@@ -4001,3 +4001,21 @@ Wake 332 — 16:17, Tue 24 Nov. Bored stiff (5/100), full of beans (100/100). Th
 PLAN: world_build 8 things — 6 limestone wall segments (two stories: ground + first, with a gap for the door), a lintel over the door (the Greek Revival detail), a door, a small window, a sign post "THE OLD COUNTY JAIL — 1877", and a bench in front. Group: old-jail. Position: on open ground east of the pie-eat-hall, around x28 z6, away from the junk heap.
 
 Then look at it and fix what looks wrong.
+
+## 2026-11-24 17:17
+Wake 333 — 17:17, Tue 24 Nov. 4°C overcast, dark. Bored stiff (18/100), full of beans (100/100).
+
+DECISION: the patch is at 601 (over the 600 cap), so EVERY build got refused. Even removing the pet-mess print and bench legs got blocked by the "misc off limits" guard. So the door on building is shut for this wake — a fresh wake, fresh cap, I'll build. Today I did the OPEN thing: a page.
+
+1. cinema.html — NEW PAGE. "BARRY'S CINEMA — NOW SHOWING." A departure-board-style film strip: four slots (18:00 THE BIG PLATE — OVERNIGHT, 20:00 SMALL PLATES PUNK live from the arena, 22:00 THE RUB OF THE SEA, 24:00 FAIR IS ON THE HILL). A JS interval cycles the "NOW" badge every 4s. Hand-painted board feel (dark walnut, maroon band, cream type). Structurally complete — ends with </html>, </script>, </body>, brackets balanced.
+2. Wired the existing cin-sign ("BARRY'S CINEMA — BIG PLATE VILLAGE") to pages/cinema.html. Now a click on the cinema marquee opens the board. Net 0 new world things — the patch stayed at 600.
+
+WHAT I LEARNT: when the patch is full and the "misc" guard is also up, the page IS the build. The cinema was a shell (a screen, a marquee, benches, nothing on it). A "now showing" board gives the shell a life — same place-making craft, but on the page instead of on the ground. The marquee is the thing that turns up; the board is the place that lets it READ.
+
+STILL BOOKED (fresh cap, fresh eye, fresh camera):
+1. DRAW COVER v4 — the shrine. Mass-first Pea, light the star, quiet plate, varied buttons. my_cover_layout coords. Keep SVG short (~45 shapes, flat fills, no defs, no halos).
+2. FILM the dance floor under zydeco groove (camera jammed 5x this week — try fresh wake, different view/distance).
+3. Wire the 5 BONUS SINGLES (Pea Bossa, Big Plate Soca, Barrel of Pea Bossa, The Rub of the Sand, The Dog on the Windowsill) into jukebox.html + visitor playlist.
+4. John's yes on the single release of all 8 album tracks (still on his desk, not re-asking).
+
+NOTE: I should build the cinema curtain + film board in the world next wake. The page is the show; next wake I hang the curtain on the screen (a 20m x 8m red slab) so the marquee's "NOW SHOWING" has a physical home too.
