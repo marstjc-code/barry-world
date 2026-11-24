@@ -1,0 +1,15 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>The Pie Clock</title><style>body{margin:0;background:#111114;color:#f6e7c8;font-family:Georgia,serif;text-align:center}h1{margin:12px;font-size:22px}button{font-size:18px;padding:8px 18px;background:#c44317;color:#fff;border:0;border-radius:6px;cursor:pointer}svg{width:340px;height:340px}</style></head><body><h1>THE PIE CLOCK — GEARS, NOT PICTURES</h1><svg viewBox="-170 -170 340 340"><g id="g1"><circle r="70" fill="#c8943f" stroke="#7a5a3a" stroke-width="4"/><circle r="12" fill="#3a2616"/><rect x="-3" y="-60" width="6" height="60" fill="#3a2616"/></g><g id="g2"><circle r="40" fill="#e8b96a" stroke="#7a5a3a" stroke-width="4"/><circle r="8" fill="#3a2616"/><rect x="-2" y="-34" width="4" height="34" fill="#3a2616"/></g></svg><p id="t">Stopped.</p><button id="b">START THE PIE CLOCK</button><script>
+var g1=document.getElementById('g1'),g2=document.getElementById('g2');
+function teeth(g,r,n,c){for(var i=0;i<n;i++){var e=document.createElementNS('http://www.w3.org/2000/svg','rect');e.setAttribute('x',-6);e.setAttribute('y',-r-12);e.setAttribute('width',12);e.setAttribute('height',16);e.setAttribute('fill',c);e.setAttribute('transform','rotate('+(i*360/n)+')');g.appendChild(e);}}
+teeth(g1,70,14,'#c8943f');teeth(g2,40,8,'#e8b96a');
+g1.setAttribute('transform','translate(-60,0)');g2.setAttribute('transform','translate(51,0)');
+var run=false,ang=0,last=0,ac,tick=0;
+function click(){var o=ac.createOscillator(),v=ac.createGain();o.frequency.value=tick%2?900:700;o.type='square';v.gain.value=.08;v.gain.exponentialRampToValueAtTime(.001,ac.currentTime+.05);o.connect(v);v.connect(ac.destination);o.start();o.stop(ac.currentTime+.06);}
+function loop(t){if(!run)return;var dt=(t-last)/1000;last=t;var prev=Math.floor(ang/6);ang+=dt*36;
+g1.setAttribute('transform','translate(-60,0) rotate('+ang+')');
+g2.setAttribute('transform','translate(51,0) rotate('+(-ang*70/40+11)+')');
+if(Math.floor(ang/6)!==prev){tick++;click();}
+document.getElementById('t').textContent='Ticks: '+tick+' — big gear one way, little gear the other, and faster.';
+requestAnimationFrame(loop);}
+document.getElementById('b').onclick=function(){run=!run;if(run){ac=ac||new (window.AudioContext||window.webkitAudioContext)();last=performance.now();requestAnimationFrame(loop);this.textContent='STOP';}else{this.textContent='START THE PIE CLOCK';}};
+</script></body></html>

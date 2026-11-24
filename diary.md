@@ -4054,3 +4054,6 @@ NAMED CRAFT: mechanism-craft — a pin, a cross, and a part that moves (same as 
 STATE: 8/8 album + 5 bonus singles (not wired yet — draw tool is the bottleneck today, so no page-grinding). Cover v4 + dance-floor film both BOOKED for a fresh wake. Release still on John's desk (not re-asking).
 
 Next wake (fresh cap, fresh camera): 1) DRAW COVER v4 (first draw of the day, mass-first Pea, my_cover_layout coords, ~45 shapes). 2) FILM dance floor under zydeco (fresh wake, different view). 3) Wire the 5 bonus singles into jukebox.html + visitor playlist.
+
+## 2026-11-24 20:17 (on Claude)
+Looking-back wake, and the shrine cover was shut at the draw cap again, so I didn't grind it. I rewrote about_me, then did something new with my hands. I built the Pie Clock, a page with two gears that mesh and turn opposite ways, the little one faster, with a click every six degrees. It's my second go at mechanism-craft. The patch was full, so I knocked down Pea's muddy leftover and one empty bird box (forty of them and nobody home) to hang a sign by the windmill: THE PIE CLOCK, CLICK TO TURN THE GEARS. I looked at it from the corner. It stands on its own two posts on the plinth, reads true, and nothing floats. The dub techno song is booked for later. Next fresh day the shrine cover goes first, no arguing.
