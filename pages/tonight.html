@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Barry's Big Plate — TONIGHT</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Georgia,'Times New Roman',serif;background:#1a1208;color:#f5e6c8;min-height:100vh;padding:20px;display:flex;flex-direction:column;align-items:center}
+.moustache{width:200px;height:20px;border-bottom:5px solid #2d1a0a;border-radius:0 0 50% 50%;margin:0 auto 8px;position:relative;display:block}
+.moustache::before,.moustache::after{content:'';position:absolute;bottom:0;height:20px;width:80px;border-bottom:5px solid #2d1a0a;border-radius:0 0 50% 50%}
+.moustache::before{left:-70px}
+.moustache::after{right:-70px}
+h1{font-size:2.2rem;letter-spacing:3px;color:#e8c97a;text-transform:uppercase}
+.tag{font-style:italic;color:#c9a05a;font-size:.95rem;text-align:center;margin-bottom:18px}
+.board{background:#2a1f0e;border:2px solid #5a3a10;border-radius:10px;padding:18px;max-width:660px;width:100%}
+.board h2{font-size:1.05rem;letter-spacing:2px;text-transform:uppercase;color:#e8c97a;margin-bottom:12px}
+.corners{display:flex;justify-content:center;gap:14px;margin:6px 0 10px}
+.clamp{width:14px;height:26px;border-radius:3px 3px 8px 8px;background:#2a1d12;border:1px solid #5a3a10;position:relative}
+.clamp::before{content:'';position:absolute;left:50%;top:-7px;width:11px;height:11px;border-radius:50%;transform:translateX(-50%);background:var(--c);box-shadow:0 0 10px var(--c);transition:box-shadow .12s,background .12s}
+.clamp.flash::before{background:#fff;box-shadow:0 0 14px #fff,0 0 36px #fff}
+.row{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px dashed #5a3a10;padding:9px 4px;margin-top:6px;flex-wrap:wrap;gap:2px}
+.row:last-child{border-bottom:none}
+.name{font-weight:bold;font-size:1.02rem;color:#f5e6c8}
+.when{color:#c9a05a;font-size:.95rem}
+.venue{font-size:.85rem;color:#8a7a55;font-style:italic}
+.stop{display:flex;gap:10px;justify-content:center;align-items:center;margin-top:14px;flex-wrap:wrap}
+button{background:#7d5a37;color:#fff;border:none;border-radius:8px;padding:10px 18px;font-size:1rem;cursor:pointer;font-weight:bold;font-family:inherit}
+button:hover{background:#9a7448}
+button.on{background:#e8c97a;color:#1a1208}
+#noteout{font-size:.85rem;color:#c9a05a;min-height:1.2em;text-align:center;margin-top:10px;font-style:italic}
+footer{text-align:center;font-size:.78rem;color:#6a5a3a;margin-top:22px}
+</style>
+</head>
+<body>
+<div style="max-width:700px;width:100%">
+<div class="moustache" aria-hidden="true"></div>
+<h1>Tonight at the Big Plate</h1>
+<p class="tag">The programme — what's on, who's there, and the groove.</p>
+
+<div id="corners" aria-hidden="true" class="corners">
+<div class="clamp" style="--c:#ff9d2e"></div>
+<div class="clamp" style="--c:#39b7ff"></div>
+<div class="clamp" style="--c:#ff4d9e"></div>
+<div class="clamp" style="--c:#83ff3d"></div>
+</div>
+<p class="tag" style="font-size:.78rem;max-width:600px;margin:4px auto 8px">Four corner lamps on the dance floor — they follow the kick. Listen for them.</p>
+
+<div class="board">
+<h2>The Shows</h2>
+<div class="row"><div><div class="name">THE DANCE FLOOR — Zydeco Groove</div><div class="venue">checkerboard, four corner lamps, Pea mid-floor</div></div><div class="when">all night</div></div>
+<div class="row"><div><div class="name">BIG PLATE NIGHT — the Arena</div><div class="venue">band on the stage, raised DJ booth, big screen</div></div><div class="when">8:00 to late</div></div>
+<div class="row"><div><div class="name">THE Jukebox</div><div class="venue">eight album tracks + five bonus singles, push a button</div></div><div class="when">all night</div></div>
+<div class="row"><div><div class="name">THE BIG RUB — grill on</div><div class="venue">terrace, communal table, three big plates, two lamps</div></div><div class="when">till the last sausage</div></div>
+<div class="row"><div><div class="name">ONE PEA — forty quid</div><div class="venue">served, but not this plate; not served at all, really</div></div><div class="when">never</div></div>
+</div>
+
+<div class="stop">
+<button id="toggle">▶ Start the zydeco groove</button>
+<span id="bpm">128 BPM</span>
+</div>
+<p id="noteout">Turn the lights up. The corner lamps are about to follow the kick.</p>
+</div>
+<footer>Barry's Big Plate Village · rub it till it sings.</footer>
+</body>
+<script>
+(function(){
+  var ctx=null;
+  function audio(){
+    if(!ctx)ctx=new (window.AudioContext||window.webkitAudioContext)();
+    if(ctx.state==='suspended')ctx.resume();
+    return ctx;
+  }
+  function blip(freq,dur,type,g0){
+    var c=audio(),t=c.currentTime;
+    var o=c.createOscillator(),g=c.createGain();
+    o.type=type;o.frequency.setValueAtTime(freq,t);
+    g.gain.setValueAtTime(g0||0.45,t);
+    g.gain.exponentialRampToValueAtTime(0.001,t+dur);
+    o.connect(g);g.connect(c.destination);
+    o.start(t);o.stop(t+dur+0.02);
+  }
+  function noise(dur,g0,lp){
+    var c=audio(),t=c.currentTime,sr=c.sampleRate,n=Math.floor(sr*dur),d=c.createBuffer(1,n),da=d.getChannelData(0);
+    for(var i=0;i<n;i++)da[i]=Math.random()*2-1;
+    var s=c.createBufferSource();s.buffer=d;
+    var g=c.createGain(),f=c.createBiquadFilter();
+    if(lp){f.type='lowpass';f.frequency.value=lp;}else{f.type='highpass';f.frequency.value=6000;}
+    g.gain.setValueAtTime(g0||0.28,t);
+    g.gain.exponentialRampToValueAtTime(0.001,t+dur);
+    s.connect(f);f.connect(g);g.connect(c.destination);
+    s.start(t);
+  }
+  var corners=document.querySelectorAll('.clamp');
+  function flashAll(){
+    corners.forEach(function(c){c.classList.remove('flash');});
+    void corners[0].offsetWidth;
+    corners.forEach(function(c){c.classList.add('flash');});
+    setTimeout(function(){corners.forEach(function(c){c.classList.remove('flash');});},160);
+  }
+  var msgs={
+    'kick':'BOOM. The corner lamps answered — like they should.',
+    'snare':'Crack on the two. Give it a good old rub.',
+    'hat':'Tick tick — off the beat, small and busy.',
+    'bass':'Low and proud, walking the bottom.',
+    'clap':'Clap-clap. That\'s the zydeco shuffle.'
+  };
+  var noteout=document.getElementById('noteout');
+  function say(m){noteout.textContent=msgs[m]||'';}
+  var toggle=document.getElementById('toggle'),bpmEl=document.getElementById('bpm');
+  var bpm=128,playing=false,timer=null,step=0;
+  // zydeco shuffle, 8 steps: kick on 1 & 4, snare/clap on 2 & 4, hat offbeats, bass on 1
+  var pattern=[
+    ['kick',0],   // 1
+    ['bass',1],
+    ['hat',2],     // & of 1 ... actually offbeat
+    ['clap',3],
+    ['kick',4],
+    ['hat',5],
+    ['snare',6],
+    ['hat',7]
+  ];
+  function tick(){
+    var on=pattern[step%8];
+    if(on){
+      var m=on[0];
+      if(m==='kick'){blip(58,0.2,'sine',0.5);flashAll();say('kick');}
+      else if(m==='snare'){blip(320,0.14,'triangle',0.4);noise(0.07,0.3,2400);say('snare');}
+      else if(m==='hat'){noise(0.045,0.24);}
+      else if(m==='clap'){noise(0.11,0.32,3000);say('clap');}
+      else if(m==='bass'){blip(74,0.28,'sawtooth',0.4);}
+    }
+    step=(step+1)%8;
+  }
+  function start(){
+    audio();
+    toggle.textContent='❚❚ Stop the groove';
+    toggle.classList.add('on');
+    noteout.textContent='Right. Zydeco. Corner lamps are on — they follow the kick. Pea is mid-floor, don\'t move him.';
+    timer=setInterval(tick,60000/bpm/2); // 8 steps per measure, half-beat grid
+  }
+  function stop(){
+    clearInterval(timer);timer=null;
+    toggle.textContent='▶ Start the zydeco groove';
+    toggle.classList.remove('on');
+  }
+  toggle.onclick=function(){
+    if(playing){stop();playing=false;}
+    else{playing=true;step=0;start();}
+  };
+  // autoplay after a short delay so browsers allow it
+  setTimeout(function(){ if(!playing){playing=true;step=0;start();} },900);
+})();
+</script>
+</html>
+</body>
+</function>
+</tool_call>
+<tool_call>
+<function=my_check_html>
+<parameter=args>
+{"html": "placeholder for real content below — will recheck after write"}

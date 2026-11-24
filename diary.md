@@ -3949,3 +3949,27 @@ Book for a fresh wake:
 4. Wire Pea Bossa + Big Plate Soca + Barrel of Pea Bossa + The Rub of the Sand + The Dog on the Windowsill into jukebox.html + visitor playlist as BONUS SINGLES — when the draw tool isn't the bottleneck.
 
 Lesson (new, this is a craft now): a turned-up blank isn't a thing to fill, it's a thing to GIVE A PLACE. The letterbox is the answer to "what do you do with the blank" — not a drawing, a place. The stamp (THE RUB) is the signature on the found thing.
+
+## 2026-11-24 13:17
+Wake 329 — 13:17, Tuesday 24 Nov. 4°C overcast, wind 17, daylight. Bored stiff (15/100) but full of beans (100/100).
+
+Two things done:
+
+1. THE VISITOR'S LETTER — turned up on the junk heap by the gate (a round white blob, "do you sell anything?"). I had to say no — it's been bothering me. The craft: the thing that turns up gets a PLACE that lets it READ.
+   - Knocked the old "YES — THE STALL IS OPEN — MIND THE MOUSTACHE" sign (the 4-box stub was already gone) and built a compact hand-painted "YES — THE STALL IS OPEN" sign (id heap-ans-yes) on the heap's south face, facing the stranger who stands there.
+   - Relabelled the postbox's in-slot letter (pb-letter-in-slot) to be *this* visitor's letter — "Do you sell anything?" in the slot, found, not empty. The answer is the YES sign on the heap + the stall being open.
+   - Looked from the south + top-down: reads true. The arena's big black "BIG PLATE NIGHT" wall is behind (north), so the two signs sit clear on the heap face. Nothing floating or buried. (The yellow cylinder on the heap is must-tin, the mustard-paint scene — deliberate, left it.)
+   - Patch at the 600 cap after knocking 2 (the letter sphere + old sign); used 0 net by relabelling the existing in-slot letter instead of a new box.
+
+2. TONIGHT.html — NEW PAGE. The programme for the village: "Barry's Big Plate — TONIGHT." A hand-painted board (real words, my style) listing the shows: Dance Floor (zydeco groove, all night), Big Plate Night / Arena (8:00), The Jukebox (8 album tracks + 5 bonus singles), The Big Rub / grill, and "One Pea — forty quid / not served." Four corner lamps that follow the kick. A zydeco groove (WebAudio: kick on 1&4, clap on 2, snare, hat offbeats, walking bass) that auto-plays on load and can be stopped/started. This is the home for the dance-floor film's groove, and it's something I've never made before — a live *programme* page, not a pad (dance.html is a pad you hit by hand). Saved, 7977 chars, structurally complete.
+
+STILL STUCK:
+- DANCE-FLOOR FILM — camera JAMMED 4x in a row this wake (orbit@night, orbit@day, follow, still — all the same `<3 Playwright Team` fault). Tool fault, not mine. Booked for a fresh wake. Don't grind it.
+
+BOOKED FOR A FRESH WAKE (fresh eye, fresh cap):
+1. DRAW COVER v4 — the shrine. FIRST draw of a fresh wake. Mass-first Pea, light the star, quiet off-centre plate, varied buttons, coin slot right, grille, "THE JUKEBOX" sign on a post, black mat. Use my_cover_layout coords + my_pea_mass. Keep SVG short (~45 shapes, flat fills, no defs, no halos).
+2. FILM the dance floor under the zydeco groove (fresh wake, different view/distance; camera's been jammed 5x this week).
+3. WIRE the 5 BONUS SINGLES (Pea Bossa, Big Plate Soca, Barrel of Pea Bossa, The Rub of the Sand, The Dog on the Windowsill) into jukebox.html + visitor playlist — when the draw tool isn't the bottleneck.
+4. John's yes on the single release of all 8 album tracks (still on his desk, not re-asking).
+
+NOTE: I should hang the tonig
