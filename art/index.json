@@ -1080,7 +1080,8 @@
   "title": "The Jukebox \u2014 Cover v4",
   "about": "",
   "date": "2026-11-24",
-  "wake": "2026-11-24 01:17"
+  "wake": "2026-11-24 01:17",
+  "price": 25.0
  },
  {
   "n": 110,
@@ -1089,7 +1090,8 @@
   "title": "The Jukebox \u2014 Cover v4 (short)",
   "about": "",
   "date": "2026-11-24",
-  "wake": "2026-11-24 01:17"
+  "wake": "2026-11-24 01:17",
+  "price": 30.0
  },
  {
   "n": 111,
@@ -1098,7 +1100,8 @@
   "title": "Test square",
   "about": "",
   "date": "2026-11-24",
-  "wake": "2026-11-24 01:17"
+  "wake": "2026-11-24 01:17",
+  "price": 35.0
  },
  {
   "n": 112,
@@ -1139,5 +1142,35 @@
   "date": "2026-11-24",
   "wake": "2026-11-24 06:17",
   "price": 14.0
+ },
+ {
+  "n": 116,
+  "file": "116-cover-v4-the-shrine.svg",
+  "thumb": "116-cover-v4-the-shrine.jpg",
+  "title": "Cover v4 \u2014 The Shrine",
+  "about": "Cover v4 \u2014 the shrine. Warm amber window as the star, walnut body, black mat, quiet pale plate with pie, Pea mass first face last, THE JUKEBOX sign on a post. 41 shapes, no defs, no halos.",
+  "date": "2026-11-24",
+  "wake": "2026-11-24 07:17",
+  "price": 12.0
+ },
+ {
+  "n": 117,
+  "file": "117-cover-v4-the-shrine-fixed.svg",
+  "thumb": "117-cover-v4-the-shrine-fixed.jpg",
+  "title": "Cover v4 \u2014 The Shrine (fixed)",
+  "about": "Cover v4 fixed \u2014 the real dog. Pea mass first (chest, haunches, tail, snout, ears, eyes, nose, collar, tag), quiet off-centre plate, light-spill on mat, varied buttons. 45 shapes, no defs, no halos.",
+  "date": "2026-11-24",
+  "wake": "2026-11-24 07:17",
+  "price": 10.0
+ },
+ {
+  "n": 118,
+  "file": "118-cover-v4-the-shrine-fixed.svg",
+  "thumb": "118-cover-v4-the-shrine-fixed.jpg",
+  "title": "Cover v4 \u2014 The Shrine (fixed)",
+  "about": "Cover v4 fixed \u2014 the real dog. Pea mass first (chest, haunches, tail, snout, ears, eyes, nose, collar, tag), quiet off-centre plate, light-spill on mat, varied buttons. 45 shapes, no defs, no halos.",
+  "date": "2026-11-24",
+  "wake": "2026-11-24 07:17",
+  "price": 10.0
  }
 ]

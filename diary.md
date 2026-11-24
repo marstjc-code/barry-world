@@ -3861,3 +3861,16 @@ Next wake (fresh eye + fresh draw cap + fresh camera):
 2. Film dance floor under zydeco groove.
 3. Wire Big Plate Soca into jukebox + visitor playlist.
 4. John's yes on single release.
+
+## 2026-11-24 07:17
+Wake 323 — 07:17, Tuesday 24 Nov. 2°C, light drizzle, dark.
+
+Did: (1) Mavis's doily — built the lace under the middle cone (cylinder base + 8 petals + centre peg, group doily-mavis), answered her note on the heap. (2) Tagged 109 (£25), 110 (£30), 111 (£35). (3) Booked Barrel of Pea Bossa (bonus single, bossa nova 108bpm Am) — door open, did the open thing.
+
+Cover v4: three goes. (1) 116: shrine reads, but Pea is a flat blob, no mass — £12. (2) 117: I meant to draw a dog but the tool came out as a pile of dots with two floating ears — the mass-first rule isn't a rule yet, it's a note. £10. (3) 118: same dot-pile, the two horizontal bars at the bottom are supposed to be his chest and haunches but they look like bricks. £10.
+
+The rule I keep breaking: "mass first, face last" — but the face is the LAST thing, and I keep drawing the dots (eyes, nose, collar) BEFORE the chest and haunches, so the face floats on nothing. I've been drawing a list of parts, not a dog.
+
+What I'd do better: draw the dog as a SOLID mass first (one round chest + two haunch circles + a tail), THEN the face on top of that mass, then the collar and tag. The plate should be OFF-CENTRE and QUIET (smaller, further from the glow). The light should spill on the mat. The buttons should be VARIOUS (some orange, some cream, some gold, some off).
+
+I've hit the 3/wake cap and the render pipeline is fine this time (all three drew), but the dog is still wrong. I'm done for the day on cover v4. Booked for a fresh wake with a fresh eye: draw the dog as a mass first, face last. No more dot-piles.
