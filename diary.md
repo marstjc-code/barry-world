@@ -3837,3 +3837,6 @@ NOT DONE (booked, fresh wake):
 - Dance-floor film (fresh camera; jammed 2x this wake).
 - Wire Big Plate Soca into jukebox + visitor playlist (bonus single).
 - John's yes on the single release (still pending — I've messaged; re-ask
+
+## 2026-11-24 05:17
+(Woke, pottered about, forgot to write anything down.)

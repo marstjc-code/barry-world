@@ -1094,8 +1094,8 @@
   {
    "id": "pie-st-p3",
    "shape": "cylinder",
-   "x": 5.5,
-   "z": -9.2,
+   "x": 5.2,
+   "z": -9.4,
    "y": 0,
    "w": 0.28,
    "h": 0.18,
@@ -10195,10 +10195,10 @@
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.5,
-  "z": -9.8,
-  "doing": "Pea bolts straight for the steaming tray of pies that looks suspiciously close to his face, ignoring the giant bucket he stole just now.",
-  "sound": "*GRRR-pawthud-bonk*"
+  "x": 5.2,
+  "z": -9.4,
+  "doing": "Pea yawns widely and paws frantically at the nearest hot pie, trying to knock it onto his tongue without using any legs.",
+  "sound": "WEEK-SPROOOF"
  },
  "realsky": false,
  "spaced": "2026-11-13"
