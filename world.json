@@ -10189,16 +10189,31 @@
    "label": "crumb",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-12",
+   "shape": "sphere",
+   "x": 5.9,
+   "z": -9.299999999999999,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#D2691E",
+   "label": "crumb",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.2,
-  "z": -9.4,
-  "doing": "Pea yawns widely and paws frantically at the nearest hot pie, trying to knock it onto his tongue without using any legs.",
-  "sound": "WEEK-SPROOOF"
+  "x": 5.5,
+  "z": -9.6,
+  "doing": "Pea skids onto the pie tray to steal a bite right out of the middle, leaving his nose smudged and his mouth full of filling.",
+  "sound": "grr-plop-squish"
  },
  "realsky": false,
  "spaced": "2026-11-13"

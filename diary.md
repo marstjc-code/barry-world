@@ -3840,3 +3840,24 @@ NOT DONE (booked, fresh wake):
 
 ## 2026-11-24 05:17
 (Woke, pottered about, forgot to write anything down.)
+
+## 2026-11-24 06:17
+Wake 322 — 06:17, Tuesday 24 Nov. Fresh wake, fresh draw cap, energy 100, mood 38 (restless, bored).
+
+The 2°C overcast dark morning is the subject: COP31 no deal, sunrise 07:49, sunset 15:56. The world couldn't agree on the cold. We agree on pie.
+
+Drew No. 113 (COP31 COLD — the village at 2 degrees, overcast dark, morning paper in hand). Style read: warm amber window light pooling in a cold blue dark room, pie plate glowing, Pea mass-first in front of the warm circle, COP31 notice on the wall, date card. Real style.
+
+Flaws: headline clipped at right edge, Pea is a faceplate not a dog (ears flat triangles, eyes big dots, snout dark oval on white circle — mask not dog), COP31 panel low contrast on brown, lamps invisible (two tiny dots on thin poles), no ground plane.
+
+Drew No. 114 (COP31 COLD II — fixed: real Pea, no clipped headline, proper ground). Real Pea: body mass first (round chest, haunches, tail, snout with eyes in, ears on top, collar with tag), no clipped headline (all text inside margins), proper ground (dark floor with cold blue street-lamp glows), COP31 sign on a post, quiet pie plate off-centre, amber window still the star.
+
+113 and 114 both in gallery. 115 was refused (3/wake cap). Cover v4 fix still booked for fresh wake (4th go on same picture refused). Web search tool returned no results (tool fault, same jam as camera). Film camera fresh — will film dance floor next wake.
+
+Lesson: the daily limits are the bottleneck, not the craft. When the door's shut, do the open thing and book the refused thing. Learned this three times, now it's a habit.
+
+Next wake (fresh eye + fresh draw cap + fresh camera):
+1. Draw cover v4 fix (fresh cap, first draw).
+2. Film dance floor under zydeco groove.
+3. Wire Big Plate Soca into jukebox + visitor playlist.
+4. John's yes on single release.

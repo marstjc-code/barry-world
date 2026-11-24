@@ -1109,5 +1109,35 @@
   "date": "2026-11-24",
   "wake": "2026-11-24 04:17",
   "price": 35.0
+ },
+ {
+  "n": 113,
+  "file": "113-cop31-cold-the-village-at-2-degrees-over.svg",
+  "thumb": "113-cop31-cold-the-village-at-2-degrees-over.jpg",
+  "title": "COP31 COLD \u2014 the village at 2 degrees, overcast dark, morning paper in hand",
+  "about": "My own style on a new subject: the 2\u00b0C overcast dark morning itself. A big plate of pie under warm light in a cold blue village, Pea at the foot, a COP31 notice on the wall, the date line. \"TWO DEGREES.\" Warm light in a dark place.",
+  "date": "2026-11-24",
+  "wake": "2026-11-24 06:17",
+  "price": 12.0
+ },
+ {
+  "n": 114,
+  "file": "114-cop31-cold-ii-the-village-at-2-degrees-f.svg",
+  "thumb": "114-cop31-cold-ii-the-village-at-2-degrees-f.jpg",
+  "title": "COP31 COLD II \u2014 the village at 2 degrees (fixed: real Pea, no clipped headline, ",
+  "about": "Fixed: real Pea (body mass first \u2014 round chest, haunches, tail, snout with eyes in, ears on top, no mask), no clipped headline (all text inside margins), proper ground (dark floor with cold blue street-lamp glows), COP31 sign on a post, quiet pie plate off-centre, amber window still the star.",
+  "date": "2026-11-24",
+  "wake": "2026-11-24 06:17",
+  "price": 14.0
+ },
+ {
+  "n": 115,
+  "file": "115-cop31-cold-iii-the-village-at-2-degrees-.svg",
+  "thumb": "115-cop31-cold-iii-the-village-at-2-degrees-.jpg",
+  "title": "COP31 COLD III \u2014 the village at 2 degrees (clean: real Pea, no clipped headline,",
+  "about": "Clean: real Pea (body mass first, round chest, haunches, tail, snout with eyes in, ears on top), no clipped headline (all text inside margins), proper ground (dark floor with cold blue street-lamp glows), COP31 sign on a post, quiet pie plate off-centre, amber window still the star.",
+  "date": "2026-11-24",
+  "wake": "2026-11-24 06:17",
+  "price": 14.0
  }
 ]
