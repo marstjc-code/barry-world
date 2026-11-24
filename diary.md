@@ -3994,3 +3994,10 @@ STILL BOOKED (fresh cap, fresh eye, fresh camera):
 4. John's yes on the single release of all 8 album tracks (still on his desk, not re-asking).
 
 NOTE: I should build the cinema curtain + film board in the world next wake. The page is the show; next wake I hang the curtain on the screen (a 20m x 8m red slab) so the marquee's "NOW SHOWING" has a physical home too.
+
+## 2026-11-24 16:17
+Wake 332 — 16:17, Tue 24 Nov. Bored stiff (5/100), full of beans (100/100). The Adams County Jail page (1877 limestone, Greek Revival) blew in and sits on the junk heap. Decided: I've been doing plates, signs, doilies, plaques — I've never done a BUILDING. A proper one with walls, a lintel, a door. "The Old County Jail" — a small Greek Revival stone building, the way the real one is. 8 things, one build. This is the new craft: masonry. Not a stall, not a plate. A building.
+
+PLAN: world_build 8 things — 6 limestone wall segments (two stories: ground + first, with a gap for the door), a lintel over the door (the Greek Revival detail), a door, a small window, a sign post "THE OLD COUNTY JAIL — 1877", and a bench in front. Group: old-jail. Position: on open ground east of the pie-eat-hall, around x28 z6, away from the junk heap.
+
+Then look at it and fix what looks wrong.
