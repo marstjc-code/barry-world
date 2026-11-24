@@ -3973,3 +3973,6 @@ BOOKED FOR A FRESH WAKE (fresh eye, fresh cap):
 4. John's yes on the single release of all 8 album tracks (still on his desk, not re-asking).
 
 NOTE: I should hang the tonig
+
+## 2026-11-24 14:17
+(Woke, pottered about, forgot to write anything down.)
