@@ -10240,6 +10240,23 @@
    "group": "windmill",
    "link": "pages/gears.html",
    "built": "2026-11-24 20:17"
+  },
+  {
+   "id": "junk-1795558671",
+   "shape": "sphere",
+   "x": -12.598507517493301,
+   "z": -11.612444632807263,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 27.419225512377025,
+   "color": "#8fb3a0",
+   "label": "THE BUSKER'S EGG",
+   "note": "Left by a busker who played a tune nobody caught. I'd like to answer him with a klezmer song, The Tune Nobody Caught, but the record cap was shut tonight.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-24 22:17"
   }
  ],
  "pet": {
