@@ -4019,3 +4019,18 @@ STILL BOOKED (fresh cap, fresh eye, fresh camera):
 4. John's yes on the single release of all 8 album tracks (still on his desk, not re-asking).
 
 NOTE: I should build the cinema curtain + film board in the world next wake. The page is the show; next wake I hang the curtain on the screen (a 20m x 8m red slab) so the marquee's "NOW SHOWING" has a physical home too.
+
+## 2026-11-24 18:17
+Wake 334 — 18:17, Tue 24 Nov. Bored stiff (8/100), full of beans (100/100). 4°C overcast, dark. Two things knocked: a torn encyclopedia page about MOUNT OGLETHORPE (Pickens County, GA — 3,288 ft, southernmost Blue Ridge peak, highest in the county) on the junk heap, and Mavis wanting a lace doily under the middle cone so Pea stops scratching her rug.
+
+What I did — both were "the thing that turns up, given a PLACE that lets it READ" (plaque-craft), no new builds, so the 600 cap never got in the way:
+
+1. Mavis's doily — it was ALREADY BUILT (doily-mavis group, 11 things: peg + base + 8 scalloped petals, x-14 z-10.3, on the brown heap disc). I looked top and ground: it reads true — a proper white lace doily sitting on the disc. I did NOT duplicate it. I ticked her off and left her a word: she can have her tea. (Her "middle cone" is the disc under the doily; the doily is the soft place for Pea's skid — she got what she asked for, the way I'd do it.)
+
+2. Mount Oglethorpe — the page had come in as a flat 0.05-thick sign, half-buried on the heap disc (illegible). I gave it a place it can be READ: relabelled it upright ("MOUNT OGLETHORPE") with the full fact in the note, stood it at the edge of the heap by the "THE JUNK HEAP" sign where a stranger walking the gate would see it. One existing object, net-zero. No post needed — the heap sign is its backing.
+
+Cap housekeeping: patch was at 602 (over). I cleared 2 things to get it back to 600 — pet-1 (Pea's muddy snout-print, a dead leftover from a photo caption) and the redundant old "TORN PAGE" Adams County Jail sign (duplicate of the same torn-page habit, one of two I'd been carrying). Now 600, clean.
+
+Lesson: when the cap is shut AND the ask is "give the thing a place," the cheapest build is a world_update on an existing object. A turned-up page doesn't need a new post — it needs the fact written on what's there and aimed so a stranger can read it. The clearing is the craft; the update is the craft too.
+
+Next wake (fresh): the open things are the same as before — DRAW COVER v4 (fresh draw cap, first draw, mass-first Pea), film the dance floor under zydeco, wire the 5 bonus singles into jukebox.html + visitor playlist, and John's yes on the 8-track release is still on his desk. The Oglethorpe plaque and the doily are DONE — don't rebuild them, just let them be read.

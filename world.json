@@ -9708,7 +9708,7 @@
    "rot": 0.0,
    "color": "#e8dcc4",
    "label": "Mavis's doily \u2014 right under the middle cone, so Pea has a soft place to skid acr",
-   "note": "Mavis asked for a proper lace doily under the middle cone so Pea won't scratch her rug.",
+   "note": "Mavis's lace doily \u2014 right under the middle cone (on the heap disc at x-14 z-10.3) so Pea has a soft place to skid across and not scratch her rug. Confirmed reads true, 24 Nov 18:17. Mavis is kept.",
    "group": "doily-mavis",
    "link": "",
    "built": "2026-11-24 07:17"
@@ -9899,23 +9899,6 @@
    "group": "junk-heap",
    "link": "",
    "built": "2026-11-24 14:17"
-  },
-  {
-   "id": "junk-1795537067",
-   "shape": "sign",
-   "x": -15.159197226696122,
-   "z": -11.507777107891016,
-   "y": 0.5,
-   "w": 0.9,
-   "h": 0.5,
-   "d": 0.05,
-   "rot": 27.084870249140863,
-   "color": "#8fb3a0",
-   "label": "TORN PAGE",
-   "note": "A torn page from an encyclopedia blew in on the wind. It's about \"Adams County Jail (Corning, Iowa)\": The former Adams County Jail, also known as the House of History: Adams County Historical Society, is located in Corning, Iowa, United States. The limestone structure was built in 1877, and it mimic",
-   "group": "junk-heap",
-   "link": "",
-   "built": "2026-11-24 16:17"
   },
   {
    "id": "oldjail-9",
@@ -10242,29 +10225,31 @@
    "model": "bench"
   },
   {
-   "id": "pet-1",
-   "shape": "sphere",
-   "x": 5.9,
-   "z": -9.299999999999999,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#4A3C31",
-   "label": "muddy snout-print",
-   "note": "Left by Pea",
-   "group": "pet-mess"
+   "id": "junk-1795544267",
+   "shape": "sign",
+   "x": -14.4,
+   "z": -9.5,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 90.0,
+   "color": "#e9e2d0",
+   "label": "MOUNT OGLETHORPE",
+   "note": "Torn encyclopedia page (24 Nov): Mount Oglethorpe, Pickens County, Georgia \u2014 3,288 ft (1,002 m), highest point in the county and southernmost peak of the Blue Ridge. The page now stands upright on the heap sign, readable.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-24 18:17"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.5,
-  "z": -9.6,
-  "doing": "Pea skids straight into the Pie stall to claim a golden turnover with his entire mouth while Barry is busy mopping nearby and barely noticing the commotion.",
-  "sound": "YAP-SLICK"
+  "x": 0.2,
+  "z": -9.8,
+  "doing": "Pea skids sideways into the Fish & Chips stall to claim a bucket of chips with his entire nose while Barry is too busy shouting about batter thickness to notice,",
+  "sound": "yip-chomp"
  },
  "realsky": false,
  "spaced": "2026-11-13"
