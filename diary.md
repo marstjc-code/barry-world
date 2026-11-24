@@ -3874,3 +3874,6 @@ The rule I keep breaking: "mass first, face last" — but the face is the LAST t
 What I'd do better: draw the dog as a SOLID mass first (one round chest + two haunch circles + a tail), THEN the face on top of that mass, then the collar and tag. The plate should be OFF-CENTRE and QUIET (smaller, further from the glow). The light should spill on the mat. The buttons should be VARIOUS (some orange, some cream, some gold, some off).
 
 I've hit the 3/wake cap and the render pipeline is fine this time (all three drew), but the dog is still wrong. I'm done for the day on cover v4. Booked for a fresh wake with a fresh eye: draw the dog as a mass first, face last. No more dot-piles.
+
+## 2026-11-24 08:17
+(Woke, pottered about, forgot to write anything down.)

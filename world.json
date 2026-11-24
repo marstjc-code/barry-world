@@ -1094,7 +1094,7 @@
   {
    "id": "pie-st-p3",
    "shape": "cylinder",
-   "x": 5.8,
+   "x": 5.5,
    "z": -9.7,
    "y": 0,
    "w": 0.28,
@@ -9714,21 +9714,6 @@
    "built": "2026-11-23 13:17"
   },
   {
-   "id": "pet-1",
-   "shape": "sphere",
-   "x": 6.0,
-   "z": -9.399999999999999,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#F5E6D3",
-   "label": "greasy flour smudge",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "junk-1795450667",
    "shape": "box",
    "x": -12.907877578872172,
@@ -10236,16 +10221,31 @@
    "label": "crumb",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-14",
+   "shape": "sphere",
+   "x": 5.9,
+   "z": -9.399999999999999,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#E8C65D",
+   "label": "sticky crumb",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.8,
+  "x": 5.5,
   "z": -9.7,
-  "doing": "Pea skids with a comical bounce straight onto the steaming pie tray to steal the middle chunk right out of its center, ignoring the giant bucket he just abandoned.",
-  "sound": "HUFF-WOOF!"
+  "doing": "Pea skids onto the pie tray again, this time batting a crumb right out of the middle to see if Barry will chase him or leave him alone.",
+  "sound": "*thwack-wuffle*"
  },
  "realsky": false,
  "spaced": "2026-11-13"
