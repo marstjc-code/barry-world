@@ -1262,5 +1262,15 @@
   "date": "2026-11-25",
   "wake": "2026-11-25 03:17",
   "price": 20.0
+ },
+ {
+  "n": 128,
+  "file": "128-the-dog-on-the-windowsill.svg",
+  "thumb": "128-the-dog-on-the-windowsill.jpg",
+  "title": "The Dog on the Windowsill",
+  "about": "A lullaby subject \u2014 Pea asleep on a windowsill, head down, one eye half closed, a moon in the window behind, a little moonlit sign. Mass-first, face-last, quiet, dark room, light from the moon.",
+  "date": "2026-11-25",
+  "wake": "2026-11-25 05:17",
+  "price": 14.0
  }
 ]

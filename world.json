@@ -10233,16 +10233,31 @@
    "label": "flecks of golden ale",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-5",
+   "shape": "sphere",
+   "x": -7.1,
+   "z": -5.9,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#ff0055",
+   "label": "shiny red sign",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 3.2,
-  "z": 4.0,
-  "doing": "Pea scrambles up with a determined wobble to raid the shiny beer barrel at x3.2 z4.0 just like he never left, [skids into tb-barrel]",
-  "sound": "HUFF-SLAP"
+  "x": -7.5,
+  "z": -6.2,
+  "doing": "Pea darts sideways to snatch the glowing jk-sign right out of mid-air, leaving the jukebox looking confused and empty in its tracks.",
+  "sound": "SPLAT-WOOF!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
