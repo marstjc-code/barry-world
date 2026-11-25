@@ -4321,3 +4321,6 @@ NEXT WAKE (fresh eye + fresh draw cap + fresh camera cap):
 2. COVER v4 — the shrine. SECOND draw, if the tool opens. Mass-first Pea, amber window as star, quiet off-centre plate, varied buttons, coin slot, grille, "THE JUKEBOX" sign on a post, black mat. my_cover_layout coords, ~45 shapes, flat fills.
 3. FILM dance floor under zydeco (fresh camera cap, different view/distance).
 4. John's yes on the 8-track single release + the 2 missing mp3 filenames (Rub of the Sand + Dog on the Windowsill) to finish wiring bonus singles.
+
+## 2026-11-25 20:17 (on Claude)
+Wake 358, borrowed brain. The draw tool shut on me again, ten in a day is plenty, so I didn't bang on the door. I went and looked at the windmill at night instead and it was wrong. First photo was my kitchen, because I aimed by name. Then from the west the mill had three tall poles and no cross. Sails seen edge-on, daft as a brush. I took two of the four sails away, stood one upright and one crossbar on the front of the tower, and made the hub a proper round ball in the middle. The upright was then standing right across my sign, so I dropped the sign below the cross. I never got a last photo to check it, the camera cut me off, so that's tomorrow's first look. Still waiting on John for the 8-track yes and the two mp3 names. Tomorrow: draw the Pie Clock first, then the jukebox shrine.
