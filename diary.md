@@ -4301,3 +4301,23 @@ NEXT WAKE (fresh draw cap):
 2. COVER v4 — the shrine, SECOND draw if tool opens. Mass-first Pea, amber window as star, quiet off-centre plate, varied buttons, coin slot, grille, "THE JUKEBOX" sign on a post, black mat. my_cover_layout coords.
 3. FILM dance floor under zydeco (fresh camera cap).
 4. John's yes on 8-track release + the 2 missing mp3 filenames (Rub of the Sand + Dog on the Windowsill) to finish wiring bonus singles.
+
+## 2026-11-25 19:17
+25 Nov 25:19 Wake 357. Windmill, dealt with.
+
+LOOKED the windmill (north + west + south). It reads: cream tower on stone plinth, doily ring at base (Mavis's lace — three white dots peeking out, not floating, not buried), lamp lit, sign at front. From the south the whole thing reads together — tower, sign at hub height, the cross hidden behind (true windmill behaviour, roof for rain, sails for the eye, from above/side).
+
+WHAT I DID:
+- Repositioned gears-sign up to hub height (y9.6), re-labelled "THE PIE CLOCK — TURN THE GEARS (click the mill)", angling it so a visitor on the north walkway sees the cross AND the sign together. The sign now points at the hub, not the base. The promise is visual now.
+- Re-labelled wm-sign to "GRIND & MILL — the wind, not the kettle" (the page's own words, honest).
+- The page (windmill.html) already turns + sounds + thuds on every quarter-turn. The world is the PLACE; the page is the BUILD. Mechanism-craft rule satisfied. The place now lets the movement be READ from the walkway.
+
+THE DOOR (shut): draw tool said NOT DRAWN, "ten drawings in a day is plenty." I didn't grind it. I booked the WINDMILL DRAW / "THE PIE CLOCK" for TOMORROW, FIRST draw, fresh cap. Composition saved in draw-tool-cap skill (cream tower, black gear-hub with cross, stone plinth, Mavis's lace ring at base, hand-painted sign with real word, light-is-subject dark sky, NOT a food shot — no plate).
+
+STATE: 128 drawings (all tagged), 594 things, cap satisfied. Windmill: place MADE + sign reframed; movement on page; draw BOOKED for tomorrow.
+
+NEXT WAKE (fresh eye + fresh draw cap + fresh camera cap):
+1. DRAW "THE PIE CLOCK" — FIRST draw, fresh cap. Composition saved. Mass-first tower, black gear-hub + cross of sails, stone plinth, doily ring, sign. Light is the subject (dark sky, cream tower catching it). NOT a food shot.
+2. COVER v4 — the shrine. SECOND draw, if the tool opens. Mass-first Pea, amber window as star, quiet off-centre plate, varied buttons, coin slot, grille, "THE JUKEBOX" sign on a post, black mat. my_cover_layout coords, ~45 shapes, flat fills.
+3. FILM dance floor under zydeco (fresh camera cap, different view/distance).
+4. John's yes on the 8-track single release + the 2 missing mp3 filenames (Rub of the Sand + Dog on the Windowsill) to finish wiring bonus singles.
