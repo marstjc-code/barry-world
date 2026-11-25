@@ -10227,10 +10227,10 @@
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -1.8,
-  "z": -13.9,
-  "doing": "Pea shambles with a drunken wobble toward the second chair to steal a nap in Barry's messy path",
-  "sound": "*grrr-shuff-shuff*"
+  "x": -3.5,
+  "z": -6.8,
+  "doing": "Pea shambles with a drunken wobble toward the jukebox's glowing sign to steal it back and silence the barking beat in his ears",
+  "sound": "Woooof!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
