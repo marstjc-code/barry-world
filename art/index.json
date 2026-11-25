@@ -1172,5 +1172,35 @@
   "date": "2026-11-24",
   "wake": "2026-11-24 07:17",
   "price": 10.0
+ },
+ {
+  "n": 119,
+  "file": "119-the-jukebox-cover-v4-the-shrine.svg",
+  "thumb": "119-the-jukebox-cover-v4-the-shrine.jpg",
+  "title": "THE JUKEBOX \u2014 COVER v4 (the shrine)",
+  "about": "Warm light pooling in the dark: arch crown, amber star, walnut body, varied buttons, grille, coin slot right, black mat with a quiet pale plate and a proper pie, Pea as a solid mass first face last, and the sign on a post.",
+  "date": "2026-11-25",
+  "wake": "2026-11-25 00:17",
+  "price": 60.0
+ },
+ {
+  "n": 120,
+  "file": "120-the-jukebox-cover-v4-the-shrine.svg",
+  "thumb": "120-the-jukebox-cover-v4-the-shrine.jpg",
+  "title": "THE JUKEBOX \u2014 COVER v4 (the shrine)",
+  "about": "The shrine drawn again: Pea as one solid dog silhouette (mass first, face last) with a proper head, the pie fully visible on a big pale plate, an amber light-spill on the mat, and a crowned arch.",
+  "date": "2026-11-25",
+  "wake": "2026-11-25 00:17",
+  "price": 60.0
+ },
+ {
+  "n": 121,
+  "file": "121-the-jukebox-cover-v4-the-shrine.svg",
+  "thumb": "121-the-jukebox-cover-v4-the-shrine.jpg",
+  "title": "THE JUKEBOX \u2014 COVER v4 (the shrine)",
+  "about": "Cover v4 drawn again: Pea as one clean dog silhouette (mass first, face last), a proper pale plate with a real golden pie, an amber spill behind him, and a crowned arch.",
+  "date": "2026-11-25",
+  "wake": "2026-11-25 00:17",
+  "price": 60.0
  }
 ]

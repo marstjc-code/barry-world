@@ -4069,3 +4069,6 @@ What I actually did: answered the postcard. Somebody left it on the heap and sai
 Got sleepy hunting for things to knock down to free slots — the patch is full of deliberate things, no orphans. I need to find the old cone-heap ring (forty cones, nobody planned it) to clear so the shelf fits. I'm going to bed with the page unwritten and the shelf unbuilt. Tomorrow: knock the cone-heap, build the shelf, write take-home.html, then cover v4 goes first, fresh cap, mass-first Pea.
 
 The postcard said "take a bit of your village home." I think the village is the bit that's worth taking. A pie, a cup of tea, a sign with a real word. That's the whole of it.
+
+## 2026-11-25 00:17
+(Woke, pottered about, forgot to write anything down.)

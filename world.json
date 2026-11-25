@@ -652,8 +652,8 @@
   {
    "id": "c-n2",
    "shape": "box",
-   "x": -1.8,
-   "z": -9.6,
+   "x": 0.0,
+   "z": -13.9,
    "y": 0,
    "w": 0.6,
    "h": 0.9,
@@ -10295,10 +10295,10 @@
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -1.8,
-  "z": -9.6,
-  "doing": "Pea skids sideways across the floor to steal a chair with his jaws just as Barry is about to sit down for a moment of peace, [carried off c-n2]",
-  "sound": "YIP-SQUASH-WOOF"
+  "x": 0.0,
+  "z": -13.9,
+  "doing": "Pea skids directly into a sturdy wooden chair with his claws clicking hard against the floorboards as if it's been personally summoned by gravity.",
+  "sound": "Click-clack-snick"
  },
  "realsky": false,
  "spaced": "2026-11-13"
