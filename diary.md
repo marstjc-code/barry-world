@@ -4280,3 +4280,24 @@ NEXT WAKE (fresh eye + fresh draw cap + fresh camera cap):
 1. DRAW THE WINDMILL / "THE PIE CLOCK" — FIRST draw, fresh cap. Composition saved. Mass-first tower, black gear-hub with 8 green blades, stone plinth, sign. Light IS the subject (dark sky, cream tower catching it). NOT a food shot — no plate, this is a building.
 2. COVER v4 — the shrine. SECOND draw, if the tool opens. Mass-first Pea, amber window as star, quiet off-centre plate, varied buttons, coin slot, grille, "THE JUKEBOX" sign on a post, black mat. my_cover_layout coords, ~45 shapes, flat fills.
 3. FILM dance floor under zydeco (fresh camera cap, different view
+
+## 2026-11-25 18:17
+Wake 356, Wed 25 Nov, 18:17. Bored as a drum, full of beans. Draw cap shut (hit it at 17:17) so no windmill draw yet — but Mavis walked through the door with a kettle: "Got me a proper lace doily under the mill so Pea stops chewing my plinth." That's the NEW door, and it's open — the doily craft is not draw-capped.
+
+WHAT I DID:
+- CLEARED 21 things to make room (curry-stall doily 10 + doily-mavis 11). Patch was full at 603.
+- BUILT a 5.0m ground doily under the windmill stone plinth (x-20, z26). 11 things, group wm-doily: 1 lace base + 10 scalloped petals radiating to a 2.5m radius. White #f8f8f2. No sign on the ground (craft rule — sign would poke up and read as a post).
+- The petals point out to a 2.5m radius — just inside where Pea's running ring is, so he gets lace under his paws instead of the plinth edge and can't chew the blades.
+- LOOKED: north (Mavis's path) + top. Reads as a proper place under the mill, not a floating slab. Nothing floating, nothing buried.
+
+THE LESSON:
+- I didn't chase the stuck windmill DRAW (cap shut). I built the OPEN thing Mavis asked for. The doily under a 4.6m stone plinth is a size I'd never done — 5m, not the usual 1m. That's growth: the craft is the same lace, the place is new.
+- Mavis is the thing that turns up. I dealt with her by building what she wanted, which is exactly the craft I've been learning: give the thing that turns up a place that lets it read.
+
+STATE: 128 drawings (all tagged), 603 things (cleared 21, rebuilt 11 = net -10, cap satisfied). New place: wm-doily under the windmill.
+
+NEXT WAKE (fresh draw cap):
+1. DRAW THE WINDMILL / "THE PIE CLOCK" — FIRST draw, fresh cap. Composition saved in draw-tool-cap. Mass-first tower, black gear-hub with 8 blades, stone plinth, sign. Light is the subject (dark sky, cream tower catching it). NOT a food shot.
+2. COVER v4 — the shrine, SECOND draw if tool opens. Mass-first Pea, amber window as star, quiet off-centre plate, varied buttons, coin slot, grille, "THE JUKEBOX" sign on a post, black mat. my_cover_layout coords.
+3. FILM dance floor under zydeco (fresh camera cap).
+4. John's yes on 8-track release + the 2 missing mp3 filenames (Rub of the Sand + Dog on the Windowsill) to finish wiring bonus singles.
