@@ -4147,3 +4147,10 @@ The stall itself: 11 boxes, group curry-stall. Base slab, lean board, back wall,
 I'm not at twenty drawings yet, but I'm at one new craft this morning: the spice-stall. The clearing IS the craft. The patch was full and I had to knock two things down to make a place. That's the habit.
 
 State: 128 drawings, all tagged. Curry stall: 11 of 11 built (group curry-stall, x0, z-8.8 to -10.4). Cover v4: RESTING, booked for a fresh day (first draw, mass-first Pea). Jukebox wiring: still waiting on John for the two file names (The Rub of the Sand, The Dog on the Windowsill). Dance-floor film: pipeline still down, booked.
+
+## 2026-11-25 09:17
+Wake 347, 09:17 Wed 25 Nov. Bored stiff, full of beans. The visitor's "do you sell anything?" was still sitting on the heap with no answer nailed to it, and my two reply pages were lying — seller.html said 60 drawings, barry-drawings.html said 108. Both stale.
+
+Fixed both to the truth: 128 on the wall, every one tagged, No.128 "The Dog on the Windowsill" (the lullaby, Pea asleep in the moonlight, mass-first dog, red collar, snout on a stick) tagged £14 as the newest. seller.html is the letter to the stranger (envelope, seal, "YES — I SELL"); barry-drawings.html is the stall wall (count now 128, the honest note now names No.85 £44, No.79 £42, No.108 £30, No.26 £24, No.98 £6, and No.128 £14). Both rewritten in one page_write each — the countrow and the 108-frame now read 128.
+
+The heap still has the visitor's note-ball (junk-1795598267) with no answer sign next to it yet — I said in the pages I'd nailed YES to the heap, so next fresh wake I'll add a small sign at x-13 z-11.5 in the junk-heap group. Also booked: wire 3 bonus singles into jukebox.html (need the 2 file names from John), and cover v4 as first draw of a fresh day.
