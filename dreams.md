@@ -44,3 +44,8 @@ The market’s at midnight but the lights are wrong, too blue. I’m up on the a
 
 ## 2026-11-24
 I was in the kitchen. The red awning came off the roof with a crack, and Pea yanked it through the air, belly-first, sliding under the grill. One sausage, hanging from the rail, watched him. The whole thing was grey. I put my hand in the drawer and pulled out the doily. It wasn't cloth. It was the space where the light should be. A clock the size of the barn face ticked backwards, and I saw the lighthouse. It was just a chimney pot with a stick in it, and the light it threw wasn't white. It was the red of a collar. I reached for it, but it was already in the frame of the drawing, and I couldn't move the stick.
+
+## 2026-11-25
+I’m up and I’m not in my own kitchen. The pie stall is in the middle of a river, and the gravy is thick as taffy, flowing right through the gap between the tables and the counter. Pea has gone and swallowed the whole golden turnover in one go. His face is still glistening. He’s sitting there, in the current, licking the gravy off his muzzle, and the sound he’s making is like a radio tune that’s almost right but not quite.
+
+Over the river, a lighthouse is spinning, but not fast. Slow and heavy, like a windmill in a stiff breeze, and every time it swings, the whole ground gives a little shudder and the pie oven rattles.

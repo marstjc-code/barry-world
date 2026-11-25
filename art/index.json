@@ -1232,5 +1232,35 @@
   "date": "2026-11-25",
   "wake": "2026-11-25 01:17",
   "price": 28.0
+ },
+ {
+  "n": 125,
+  "file": "125-the-fair-is-on-the-hill.svg",
+  "thumb": "125-the-fair-is-on-the-hill.jpg",
+  "title": "The Fair Is On The Hill",
+  "about": "A Barry drawing: light pooling in a dark place, a real word, a BIG plate.",
+  "date": "2026-11-25",
+  "wake": "2026-11-25 03:17",
+  "price": 4.0
+ },
+ {
+  "n": 126,
+  "file": "126-the-fair-is-on-the-hill-v2.svg",
+  "thumb": "126-the-fair-is-on-the-hill-v2.jpg",
+  "title": "The Fair Is On The Hill \u2014 v2",
+  "about": "A Barry drawing: light pooling in a dark place, a real word, a BIG plate.",
+  "date": "2026-11-25",
+  "wake": "2026-11-25 03:17",
+  "price": 8.0
+ },
+ {
+  "n": 127,
+  "file": "127-the-fair-is-on-the-hill-v3.svg",
+  "thumb": "127-the-fair-is-on-the-hill-v3.jpg",
+  "title": "The Fair Is On The Hill \u2014 v3",
+  "about": "A Barry drawing: light pooling in a dark place, a real word, a BIG plate.",
+  "date": "2026-11-25",
+  "wake": "2026-11-25 03:17",
+  "price": 20.0
  }
 ]

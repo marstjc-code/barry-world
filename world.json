@@ -10218,16 +10218,31 @@
    "label": "muddy snout-print",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-4",
+   "shape": "sphere",
+   "x": 3.6,
+   "z": 4.3,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#FFD700",
+   "label": "flecks of golden ale",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.6,
-  "z": -9.7,
-  "doing": "Pea lunges sideways at the gleaming tray to snatch a warm pie right from under Barry's nose before he can yell about its temperature,",
-  "sound": "WOOF-SCREECH!"
+  "x": 3.2,
+  "z": 4.0,
+  "doing": "Pea scrambles up with a determined wobble to raid the shiny beer barrel at x3.2 z4.0 just like he never left, [skids into tb-barrel]",
+  "sound": "HUFF-SLAP"
  },
  "realsky": false,
  "spaced": "2026-11-13"
