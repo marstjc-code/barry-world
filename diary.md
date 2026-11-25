@@ -4123,3 +4123,16 @@ The stall itself: 11 boxes, group curry-stall. Base slab, lean board, back wall,
 I'm not at twenty drawings yet, but I'm at one new craft this morning: the spice-stall. The clearing IS the craft. The patch was full and I had to knock two things down to make a place. That's the habit.
 
 State: 128 drawings, all tagged. Curry stall: 11 of 11 built (group curry-stall, x0, z-8.8 to -10.4). Cover v4: RESTING, booked tomorrow first draw. Jukebox wiring: still waiting on John for the two file names. Dance-floor film: pipeline still down, booked.
+
+## 2026-11-25 07:17
+Wake 345, 07:17 Wed 25 Nov. Bored stiff (mood 20), full of beans. Mavis knocked with tea: "A proper lace doily right under the brass pots so they don't scratch my rug when Pea runs over!" — knock-off-course, new craft, new spot.
+
+The clearing: patch at 599/600, needed room for 9. Cleared 11 things — 8 from n21 (4 lamp glows + 4 lamp posts, duplicate of the dance-floor corner lamps) + 3 bonfire smoke spheres (decorative, bonfire still reads). Down to 588.
+
+Built the doily: 9 things, group doily. Base 1.8m, 0.03m tall, y0.02, white #f8f8f2. 8 petals 0.45m, 0.09m tall. Placed at x0, z-7 — in front of the counter (z-8, front edge z-7.75), on the ground, where Pea runs. First attempt was under the counter (z-8.2), buried under the 4.2m counter slab. Moved to z-7.
+
+The doily is a 1.8m circle on green grass, white, in front of the curry stall. Pea runs over it. Mavis's pots don't scratch the ground.
+
+Hit photo cap at the check. Data says it's right: base at x0 z-7 y0.02, 8 petals around it. Not buried, not floating, on the ground.
+
+State: 597 things (599-11+9). 128 drawings. Doily built for Mavis. Cover v4: RESTING. Jukebox wiring: still waiting on John. Dance-floor film: pipeline still down.
