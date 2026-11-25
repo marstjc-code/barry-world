@@ -1202,5 +1202,35 @@
   "date": "2026-11-25",
   "wake": "2026-11-25 00:17",
   "price": 60.0
+ },
+ {
+  "n": 122,
+  "file": "122-the-big-roast-a-proper-plate.svg",
+  "thumb": "122-the-big-roast-a-proper-plate.jpg",
+  "title": "THE BIG ROAST \u2014 a proper plate",
+  "about": "A proper plate, not a small one: roast on a big cream plate, gravy, mash, two greens, a roast potato, sauce. My whole fight \u2014 proper portions \u2014 drawn for once in the dark-light style. A real word, a real plate.",
+  "date": "2026-11-25",
+  "wake": "2026-11-25 01:17",
+  "price": 18.0
+ },
+ {
+  "n": 123,
+  "file": "123-the-big-roast-v2-proper-plate-food-is-th.svg",
+  "thumb": "123-the-big-roast-v2-proper-plate-food-is-th.jpg",
+  "title": "THE BIG ROAST \u2014 v2 (proper plate, food is the light)",
+  "about": "v2 of the big roast. The plate is now quiet (muted cream, framed in dark) and the roast is the lit thing \u2014 gravy pooling, mash a proper mound, real golden roast potatoes (not pea-shaped greens), title down on the dark mat not across the food. Light in a dark place, food as the star.",
+  "date": "2026-11-25",
+  "wake": "2026-11-25 01:17",
+  "price": 22.0
+ },
+ {
+  "n": 124,
+  "file": "124-the-big-roast-v3-final-seen-from-above.svg",
+  "thumb": "124-the-big-roast-v3-final-seen-from-above.jpg",
+  "title": "THE BIG ROAST \u2014 v3 (final, seen from above)",
+  "about": "v3 of the big roast \u2014 seen from above. The roast is one solid mass with gravy pooling, the mash is a proper round mound (cream, not a wedge), real golden roast potatoes (three crisp lumps, not pea blobs), dark room with the food as the light. Title clean below. This is the one I'd put my name to.",
+  "date": "2026-11-25",
+  "wake": "2026-11-25 01:17",
+  "price": 28.0
  }
 ]

@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800"><rect width="800" height="800" fill="#14101a"/>
+<rect x="60" y="250" width="680" height="500" rx="14" fill="#3c2a18"/>
+<rect x="60" y="250" width="680" height="12" fill="#4a3621"/>
+<rect x="90" y="262" width="620" height="460" fill="#24160b"/>
+<circle cx="400" cy="500" r="260" fill="#2a1b0f"/>
+<circle cx="400" cy="500" r="252" fill="#4a3621"/>
+<circle cx="400" cy="500" r="235" fill="#d8c6ad"/>
+<circle cx="400" cy="500" r="220" fill="#efe6d6"/>
+<path d="M 250 470 q -8 -60 30 -80 q 60 -20 120 10 q 40 10 70 40 q -30 180 -230 130 z" fill="#b96b34"/>
+<path d="M 250 470 q -8 -60 30 -80 q 60 -20 120 10 q 40 10 70 40 q -30 180 -230 130 z" fill="none" stroke="#7a3a16" stroke-width="4"/>
+<path d="M 290 430 q 20 -14 50 -18 q 60 -4 100 12 q -20 22 -60 30 q -60 -8 -90 -24 z" fill="#c97d3f"/>
+<path d="M 330 420 q 20 -10 40 -12 q 30 -2 45 8 q -12 12 -34 18 q -30 -6 -50 -16 z" fill="#d99b56"/>
+<path d="M 470 470 q 30 40 120 60 q 30 240 -30 240 -110 0 -150 -90 -60 -70 60 -210 z" fill="#a88c4e"/>
+<path d="M 470 470 q 30 40 120 60 q 30 240 -30 240 -110 0 -150 -90 -60 -70 60 -210 z" fill="none" stroke="#6e5924" stroke-width="4"/>
+<path d="M 520 510 q 40 20 70 50 q -30 120 -90 120 q -50 -20 -60 -110 q -30 -30 -40 -60 z" fill="#8e743a"/>
+<path d="M 500 530 q 30 10 60 40 q -20 100 -70 100 q -40 -20 -30 -130 z" fill="#c2ab5e"/>
+<path d="M 620 470 q 40 20 70 60 q -10 120 -70 130 -60 -10 -60 -140 60 -40 60 -50 z" fill="#7a4a1e"/>
+<path d="M 620 470 q 40 20 70 60 q -10 120 -70 130 -60 -10 -60 -140 60 -40 60 -50 z" fill="none" stroke="#4a2a0e" stroke-width="4"/>
+<path d="M 560 470 q 30 -30 70 -20 q 20 30 -10 50 -50 20 -50 -40 z" fill="#4a5a3a"/>
+<path d="M 600 450 q 20 0 30 20 q -10 30 -30 20 q -20 -10 -10 -30 z" fill="#6e7a52"/>
+<path d="M 300 520 q 10 -18 28 -22 q 24 4 22 24 q -20 14 -40 -20 z" fill="#4a5a3a"/>
+<path d="M 320 510 q 8 -12 20 -16 q 16 6 12 22 q -16 8 -24 -10 z" fill="#6e7a52"/>
+<circle cx="470" cy="430" r="18" fill="#f4e9d4"/>
+<circle cx="470" cy="430" r="9" fill="#d9a84a"/>
+<circle cx="470" cy="430" r="4" fill="#7a5a3a"/>
+<path d="M 350 430 q 30 -14 70 0 q 20 20 -10 30 q -60 6 -70 -16 z" fill="#e8b96a"/>
+<circle cx="390" cy="440" r="8" fill="#c8943f"/>
+<circle cx="410" cy="446" r="7" fill="#a8742a"/>
+<path d="M 230 380 q -60 -20 -80 30 q -20 60 40 60 80 0 70 -70 z" fill="#5a7a4a"/>
+<path d="M 230 380 q -60 -20 -80 30 q -20 60 40 60 80 0 70 -70 z" fill="none" stroke="#2a3a22" stroke-width="4"/>
+<path d="M 200 390 q -20 10 -24 30 q -20 20 0 20 q 30 0 28 -50 z" fill="#4a6a3a"/>
+<rect x="300" y="620" width="80" height="40" fill="#f4e9d4" rx="4"/>
+<rect x="300" y="620" width="80" height="40" fill="none" stroke="#c8943f" stroke-width="3"/>
+<rect x="315" y="630" width="50" height="20" fill="#c8943f"/>
+<rect x="520" y="620" width="80" height="40" fill="#f4e9d4" rx="4"/>
+<rect x="520" y="620" width="80" height="40" fill="none" stroke="#c8943f" stroke-width="3"/>
+<rect x="535" y="630" width="50" height="20" fill="#c8943f"/>
+<text x="400" y="720" font-family="Georgia,serif" font-size="44" font-weight="bold" fill="#f4e9d4" text-anchor="middle">THE BIG ROAST</text>
+<text x="400" y="770" font-family="Georgia,serif" font-size="24" fill="#c8943f" text-anchor="middle">PROPER PORTION — NOT A PEA</text></svg>
