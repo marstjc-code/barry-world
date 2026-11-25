@@ -10252,16 +10252,31 @@
    "label": "a smear of brown meat juice",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-2",
+   "shape": "sphere",
+   "x": 0.4,
+   "z": -1.7,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#E6C28A",
+   "label": "grease patch",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.6,
-  "z": -9.7,
-  "doing": "Pea shoves his snout deep into the sticky crust of the leftover pie to lick every salty droplet clean before Barry can claim it back.",
-  "sound": "GLOOP-squelch-wag"
+  "x": 0.0,
+  "z": -2.0,
+  "doing": "Pea yips and shoves his entire floppy snout under Barry's chin to demand a massive scratch right where the beard tickles, completely ignoring the sticky tray beneath him.",
+  "sound": "YIP-PAD!"
  },
  "realsky": false,
  "spaced": "2026-11-13"

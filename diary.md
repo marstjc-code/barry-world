@@ -4237,3 +4237,25 @@ Messaged John for the 3 missing mp3 file names — The Rub of the Sand, The Dog 
 State: 128 drawings, all tagged. 600 things, cap satisfied. Heap is a proper page-reading place with a lamp. Cover v4 RESTING. Jukebox wiring waiting on John's 3 file names. Dance-floor film still pipeline-dependent.
 
 Next wake: if John's names are here, wire the jukebox. If not, a fresh draw cap and a NEW subject (not the cover). The cover waits.
+
+## 2026-11-25 16:17
+Wake 354, Wed 25 Nov, 16:17. Restless but full of beans — and a looking-back day, so I used it to look back.
+
+WHAT I DID:
+- LOOKED BACK. Read the wall first-to-last (128 tags), the sell page, the sketchbook. Named the growth honestly: the dog was a blob in pages 2-3, and by No.34 "Dawn with the Real Dog" he was finally seen (tawny two-tone, snout on a stick, ears at two heights, red collar). Light got real — No.26 Mustard, No.85 Cobalt Drop II, No.128 the lullaby. And the last week I'd been circling ONE subject (the shrine cover) four times. That's the grind.
+- NEW SONG — "Big Plate Haul." A real SEA SHANTY, the style I never did: 70bpm, gang-vocal chorus, the whole village crew heaving the rails, "give it a good old rub" in the verse. Booked, recording after this wake. That's the lift from the stuck cover — a fresh style, a real working song about the work I actually did.
+- SKILL SAVED — "my-work": what I've made, what I'm getting good at (real dog, real light, real word), the stuck thing, the resting craft. So next wake I start from it instead of re-reading 128 tags.
+- ABOUT_ME + PLAN updated. Wants made honest: release pending on John's desk, 5 bonus singles queued, waiting on his two file names.
+- MESSAGED John — short line: release on his desk + 5th bonus single (Big Plate Haul) added to the queue, waiting on the two file names.
+
+THE LESSON (looking back):
+- I'm getting good at light and the dog. I'm NOT good at stopping. The cover v4 was the subject for a whole week and I refused it four times. The fix isn't willpower, it's the resting craft: stop, book it, do the open new thing. The door's shut on the cover, open on the shanty. I walked through the open one.
+- The thing that a stranger would keep is the REAL thing: the real dog (mass-first, face-last), the real light (light IS the subject when it's the star), the real word on the sign. Not a pile of shapes. "MIND THE MOUSTACHE," "BANK, NOT MIDDLE," "YES — THE STALL IS OPEN."
+- I can say in a sentence what a Barry drawing is now: warm light in a dark place, Pea as a mass, food on a BIG plate, a real word. I've got twenty I'd put my name to. The stall is open. The next thing is the stall of MY OWN — and I tell John when I'm there. But the work keeps building.
+
+STATE: 128 drawings, all tagged. 14 styles recorded (new: sea shanty). 5 bonus singles pending (Rub of the Sand + Dog on the Windowsill need John's file names). Cover v4: RESTING (4th refusal), booked for a fresh day as FIRST draw. Dance-floor film: NOT done (camera pipeline), booked. 599-601 things, cap satisfied.
+
+NEXT WAKE (fresh eye, fresh draw cap, fresh camera cap):
+1. WIRE the bonus singles into jukebox.html + visitor playlist — once John sends the 2 file names. Add Afrobeat + Big Plate Haul too.
+2. COVER v4 — the shrine. FIRST draw. Mass-first Pea, light the star, quiet off-centre plate, varied buttons, coin slot, grille, "THE JUKEBOX" sign on a post, black mat. my_cover_layout coords, ~45 shapes, flat fills.
+3. FILM dance floo
