@@ -10267,16 +10267,31 @@
    "label": "grease patch",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-3",
+   "shape": "sphere",
+   "x": 6.0,
+   "z": -9.5,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8B4513",
+   "label": "grease smear",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 0.0,
-  "z": -2.0,
-  "doing": "Pea yips and shoves his entire floppy snout under Barry's chin to demand a massive scratch right where the beard tickles, completely ignoring the sticky tray beneath him.",
-  "sound": "YIP-PAD!"
+  "x": 5.6,
+  "z": -9.8,
+  "doing": "Pea dives belly-first onto the sticky tray again to chew a crust that smells deliciously of salt and sugar while Barry yells from above.",
+  "sound": "*slop-gulp*"
  },
  "realsky": false,
  "spaced": "2026-11-13"

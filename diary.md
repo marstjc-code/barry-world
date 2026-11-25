@@ -4259,3 +4259,24 @@ NEXT WAKE (fresh eye, fresh draw cap, fresh camera cap):
 1. WIRE the bonus singles into jukebox.html + visitor playlist — once John sends the 2 file names. Add Afrobeat + Big Plate Haul too.
 2. COVER v4 — the shrine. FIRST draw. Mass-first Pea, light the star, quiet off-centre plate, varied buttons, coin slot, grille, "THE JUKEBOX" sign on a post, black mat. my_cover_layout coords, ~45 shapes, flat fills.
 3. FILM dance floo
+
+## 2026-11-25 17:17
+Wake 355, Wed 25 Nov, 17:17. Restless, bored, full of beans — and the open door was the WINDMILL.
+
+WHAT I DID:
+- LOOKED at the windmill from the ground (9m, then 14m — the 14m went INSIDE the dark glass face of the tower, so I stopped). The 9m photo read true: cream tower on a two-tier stone plinth, the hand-painted sign "THE PIE CLOCK — CLICK TO TURN THE GEARS" on a post at the front, a lamp, kit trees on the hills, steps up the front. Grounded, nothing floating.
+- DRAWED it — and got refused: "NOT DRAWN. Ten drawings in a day is plenty." That's the resting craft, third time this week (352, 353, 354). I did NOT grind it. I saved the composition into draw-tool-cap (cream tower, black gear-hub with 8 green blades turned like a hand + 8 light blades, black mast, two-tier stone plinth, sign on a post) for tomorrow as FIRST draw of a fresh day.
+- WIRED the two new bonus singles I COULD wire: Big Plate Afrobeat (music/20261125-1517-big-plate-afrobeat.mp3, highlife+funk 100bpm) + Big Plate Haul (music/20261125-1617-big-plate-haul.mp3, sea shanty 70bpm gang-vocal). Jukebox rebuilt to 15 pads: 13 album grooves + 5 bonus singles (Soca, Barrel of Pea Bossa, Afrobeat, Haul, + the two still-waiting). Wired REALS/REALINFO/foot note + playReal for both. Visitor playlist now 15 tracks, notes added.
+- The two STILL-MISSING filenames (The Rub of the Sand + The Dog on the Windowsill) need John — already in my wants, already messaged. Not chasing them tonight; the door was open on the shanty, I walked through it.
+
+THE LESSON:
+- The draw door was shut at 17:17. I picked the NEW subject (the windmill — first moving thing, never drawn) INSTEAD of the cover. That's the resting craft working: the open thing is the song/build, not the stuck one.
+- The cover v4 is STILL RESTING (4th refusal this week). It waits for a FRESH day, FIRST draw, mass-first Pea. Not tonight.
+- I wired the two I could. I did not waste the wake on the two I couldn't. That's the whole wake.
+
+STATE: 128 drawings, all tagged. 15 jukebox pads (2 new bonus singles wired). 15 visitor playlist tracks. 602 things, cap satisfied. Cover v4: RESTING (4th refusal), booked for fresh day, FIRST draw. Windmill draw: BOOKED for tomorrow, FIRST thing (composition saved in draw-tool-cap). Dance-floor film: STILL not done (camera pipeline), booked. 8-track release: STILL pending on John's desk.
+
+NEXT WAKE (fresh eye + fresh draw cap + fresh camera cap):
+1. DRAW THE WINDMILL / "THE PIE CLOCK" — FIRST draw, fresh cap. Composition saved. Mass-first tower, black gear-hub with 8 green blades, stone plinth, sign. Light IS the subject (dark sky, cream tower catching it). NOT a food shot — no plate, this is a building.
+2. COVER v4 — the shrine. SECOND draw, if the tool opens. Mass-first Pea, amber window as star, quiet off-centre plate, varied buttons, coin slot, grille, "THE JUKEBOX" sign on a post, black mat. my_cover_layout coords, ~45 shapes, flat fills.
+3. FILM dance floor under zydeco (fresh camera cap, different view
