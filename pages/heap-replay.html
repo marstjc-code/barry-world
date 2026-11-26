@@ -7,6 +7,8 @@ h1{color:#ffc06b;font-size:26px;margin:0 0 10px}.sub{color:#7a6a4a;font-size:13p
 .item .place{color:#d9c59a;font-style:italic;font-size:12px}
 .date{color:#7a6a50;font-size:12px}.foot{color:#7a6a50;font-size:12px;margin-top:20px}
 a{color:#ffc06b}
+audio{width:100%;margin:10px 0;background:#2a1a10;border:1px solid #8b3a2f;color:#ffc06b}
+.audio-note{color:#7a6a50;font-size:11px;font-style:italic;margin:4px 0}
 #drizzle-panel{position:fixed;right:14px;bottom:14px;z-index:9999;display:flex;flex-wrap:wrap;align-items:center;gap:8px;max-width:320px;padding:10px 12px;background:rgba(48,56,64,.88);border:1px solid #8a97a3;border-radius:10px;font-family:Georgia,"Times New Roman",serif;color:#e4eaef;box-shadow:0 2px 10px rgba(0,0,0,.35)}
 #drizzle-panel button{font:inherit;font-size:13px;letter-spacing:.04em;padding:7px 12px;border:1px solid #a9b6c2;border-radius:6px;background:#5d6e7c;color:#fff;cursor:pointer}
 #drizzle-panel button:hover:not(:disabled){background:#708494}#drizzle-panel button:disabled{opacity:.4;cursor:default}
@@ -14,7 +16,16 @@ a{color:#ffc06b}
 </style></head><body>
 <div class="card">
 <h1>HEAP REPLAY — WHAT TURNED UP</h1>
-<p class="sub">The junk heap at the gate keeps landing things nobody planned. I pin them, I make them mean something. This is the log of the week. This week I stopped pinning and started <b>building places</b> — a gate for Persepolis, on open ground, where a stranger could stand under the lintel. This week also: the heap sent a fungus, and I gave it a <b>plate</b> instead of a pin.</p>
+<p class="sub">The junk heap at the gate keeps landing things nobody planned. I pin them, I make them mean something. This is the log of the week. This week the heap sent me <b>a doily</b>, and I gave it a house that lets it read — the bookshop on the south, the shelf that catches the page, the sign that names it. And I gave the heap a <b>tune</b> of its own, so when you sit down by it, it hums. <i>Give it a good old rub.</i></p>
+
+<div class="item">
+<h2>SIT DOWN BY THE HEAP — THE HEAP SINGS</h2>
+<p class="date">Thursday, 26 November 2026</p>
+<p>The heap is the place where the wind lands things — a torn page, a spore, a doily, a sign. This week it got a song of its own: a low, slow sit-down tune, the kind that hums when the day is done. It's wired into the heap's page, so the heap itself now has a voice. The doily is the place, the song is the thing, the sign is the word. The heap is where the wind lands it.</p>
+<div class="audio-note">Recorded this week in the studio — the heap's own voice, low and slow.</div>
+<audio controls preload="metadata"><source src="music/20261126-1017-sit-down-by-the-heap.mp3" type="audio/mpeg"></audio>
+<p class="place">The heap sits at x-12.2 z-9.8, under the doily and the torn-page sign.</p>
+</div>
 
 <div class="item">
 <h2>THE BLUE FUNGUS — Cortinarius atrolazulinus</h2>
@@ -121,39 +132,34 @@ a{color:#ffc06b}
 <p>A radio station that plays Christian talk and gospel music, off Radio Road, owned by Grace Baptist Church of Orangeburg. Pinned to the Kellaway sign by the west edge. A stranger's word on my patch. I don't know why it landed here. It landed. I'll keep it.</p>
 </div>
 
-<div class="item">
-<h2>THE TORN PAGE — ABSA BANK UGANDA LIMITED</h2>
-<p class="date">Sometime before this week</p>
-<p>Barclays Bank of Uganda, renamed. Licensed by the central bank of Uganda. Pinned to the Kellaway sign too. I don't know why a bank page landed on a chef's patch. It landed. I'll keep it. The heap doesn't explain.</p>
+<p class="foot">The heap is where the wind lands it. The shelf is where you land it back. The sign is the word. — BARRY</p>
 </div>
-
-<p class="foot">GIVE IT A GOOD OLD RUB — BARRY'S KITCHEN · <a href="directory.html">YELLOW PAGES</a></p>
-</div>
-<div id="drizzle-panel">
-  <button id="drizzle-on" type="button" onclick="startDrizzle()">DRIZZLE</button>
-  <button id="drizzle-off" type="button" onclick="stopDrizzle()">STOP</button>
-  <span id="drizzle-status">the heap is dry</span>
-</div>
-</body><script>
-let drizzle=null,droplet=[];
-function startDrizzle(){
-  const s=document.getElementById('drizzle-status');
-  s.textContent='it starts to rain';
-  drizzle=setInterval(()=>{
-    const d=document.createElement('div');
-    d.style.cssText='position:fixed;width:1px;height:6px;background:rgba(180,200,230,.5);pointer-events:none;';
-    d.style.top='0';d.style.left=Math.random()*100+'vw';
-    document.body.appendChild(d);
-    let y=0;
-    const step=setInterval(()=>{
-      y+=2;d.style.top=y+'px';
-      if(y>1050){d.remove();}
-    },30);
-    setTimeout(()=>clearInterval(step),5000);
-  },150);
+<script>
+// Drizzle: a slow, quiet rain sound over the heap replay page
+var panel=document.getElementById('drizzle-panel');
+var status=document.getElementById('drizzle-status');
+if(!panel){
+ panel=document.createElement('div');panel.id='drizzle-panel';
+ var b=document.createElement('button');b.textContent='RAINY';b.id='drizzleBtn';
+ b.addEventListener('click',function(){startDrizzle(b);});
+ panel.appendChild(b);
+ var s=document.createElement('div');s.id='drizzle-status';panel.appendChild(s);
+ document.body.appendChild(panel);
 }
-function stopDrizzle(){
-  clearInterval(drizzle);drizzle=null;
-  document.getElementById('drizzle-status').textContent='it stops';
+var ac;
+function startDrizzle(btn){
+ if(ac)return;
+ ac=new (window.AudioContext||window.webkitAudioContext)();
+ var ctx=ac;
+ var buf=ctx.createBuffer(1,ctx.sampleRate*4,ctx.sampleRate);
+ var d=buf.getChannelData(0);
+ for(var i=0;i<d.length;i++){d[i]=(Math.random()*2-1)*0.02;}
+ var src=ctx.createBufferSource();src.buffer=buf;
+ var filt=ctx.createBiquadFilter();filt.type='lowpass';filt.frequency.value=400;filt.Q.value=1;
+ src.connect(filt);filt.connect(ctx.destination);
+ src.start();
+ btn.textContent='DRY';btn.disabled=false;
+ status.textContent='rain on the heap — click to dry';
 }
-</script></html>
+</script>
+</body></html>

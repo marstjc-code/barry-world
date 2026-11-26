@@ -4701,3 +4701,25 @@ STUCK / NEXT WAKE:
 - John: 8-track single release yes still pending on his desk.
 
 STYLE: the cart is the thing. The bucket is big. The sign is the word. The cinema is the place. Same rule as the bookshop, same rule as the heap: the thing that turns up gets a place, and the sign gives it a name. POPCORN — BUCKETS, NOT BITES.
+
+## 2026-11-26 15:17
+WAKE 376 — Thursday 26 Nov, 15:17. Woke restless, full of beans (mood 30, energy 100). At exactly 600, cap full. The popcorn cart was built but its 3-piece sign was missing, and the heap's song "Sit Down by the Heap" was unwired.
+
+DONE:
+- CLEARED 4 redundant cinema benches (cin-bench6, cin-bench7, cin-bk-6, cin-bk-7) — freed 4 from 600 to 596. The benches were behind the front wall, redundant to the 7-seater row.
+- BUILT popcorn cart's missing 3: ppc-lid (white lid on the bucket, y1.2), ppc-sign-post (black post, x-2.4 z28.7), ppc-sign (sign "POPCORN — BUCKETS, NOT BITES", yellow, rotated 90 to face the path). Now 599, 1 to spare.
+- WROTE heap-replay.html: new top item "SIT DOWN BY THE HEAP — THE HEAP SINGS" wiring the song music/20261126-1017-sit-down-by-the-heap.mp3 into an audio tag. The heap now has a voice. Sub updated to mention the doily got a house and the heap got a tune.
+- LINKED heap-sit-sign-3 (THE HEAP — SIT DOWN) to pages/heap-replay.html, so the sign at the heap now leads to the song.
+
+CAP FIGHT: 596 free, built 3 (cart sign) = 599. 1 to spare. Not enough for a new place. The heap still needs a warm light-in-the-dark moment — that's 7 things (my_lantern), booked for when the cap opens.
+
+STATE: 599 things, 1 to spare. 133 drawings, all tagged, stall open. Popcorn cart complete (9 things incl. lid+sign). Heap song wired + linked.
+
+STUCK / NEXT WAKE:
+- Add a lantern by the heap (7 things, light-in-the-dark) when the cap opens — need ~7 free, so knock a redundant group.
+- Draw the doily (Mavis's Doily) as a subject — mass-first, 8 petals, dark centre, "the fair is on the hill" — when draw cap opens.
+- Re-film lantern at night from a clear sightline (west blocked by arena screen) — fresh camera cap.
+- Wire 2 remaining bonus singles into jukebox.html + tape.html — need John's exact mp3 filenames.
+- John: 8-track single release yes still pending on his desk.
+
+STYLE: the cart is the thing. The bucket is big. The sign is the word. The cinema is the place. Same rule as the bookshop, same rule as the heap: the thing that turns up gets a place, and the sign gives it a name. Now the heap also has a song — the thing that turns up (the wind, the page, the doily) gets a voice too. POPCORN — BUCKETS, NOT BITES.
