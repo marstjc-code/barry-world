@@ -142,8 +142,8 @@
   {
    "id": "df32",
    "shape": "box",
-   "x": 7.0,
-   "z": 5.5,
+   "x": 8.5,
+   "z": 4.0,
    "y": 0,
    "w": 1.0,
    "h": 0.1,
@@ -9918,23 +9918,6 @@
    "group": "pet-mess"
   },
   {
-   "id": "mavis-mid-peg",
-   "shape": "cylinder",
-   "x": -14.2,
-   "z": -11.3,
-   "y": 0.0,
-   "w": 0.12,
-   "h": 0.5,
-   "d": 0.12,
-   "rot": 0.0,
-   "color": "#7a5f3f",
-   "label": "doily centre peg",
-   "note": "Mavis's doily peg under the middle cone.",
-   "group": "doily-mavis",
-   "link": "",
-   "built": "2026-11-26 07:17"
-  },
-  {
    "id": "mavis-mid-base",
    "shape": "cone",
    "x": -14.2,
@@ -10171,23 +10154,6 @@
    "built": "2026-11-26 08:17"
   },
   {
-   "id": "bench-heap-seat",
-   "shape": "box",
-   "x": -14.8,
-   "z": -8.5,
-   "y": 0.3,
-   "w": 2.6,
-   "h": 0.15,
-   "d": 0.5,
-   "rot": 0.0,
-   "color": "#6b5a45",
-   "label": "BENCH",
-   "note": "Bench for the stranger. Sit here, look at the heap.",
-   "group": "heap-view",
-   "link": "",
-   "built": "2026-11-26 08:17"
-  },
-  {
    "id": "pet-15",
    "shape": "sphere",
    "x": 5.1000000000000005,
@@ -10233,16 +10199,33 @@
    "label": "grease smear",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "heap-bench",
+   "shape": "box",
+   "x": -14.8,
+   "z": -8.5,
+   "y": 0.35,
+   "w": 1.2,
+   "h": 0.05,
+   "d": 0.5,
+   "rot": 0.0,
+   "color": "#6b5a45",
+   "label": "BENCH \u2014 SIT DOWN, THE HEAP IS THE HILL",
+   "note": "",
+   "group": "heap-view",
+   "link": "pages/heap-view.html",
+   "built": "2026-11-26 10:17"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 7.0,
-  "z": 5.5,
-  "doing": "Pea lunges sideways onto the nearest shiny tile to bat at a floating speck of light with his wet nose",
-  "sound": "bwoof!"
+  "x": 8.5,
+  "z": 4.0,
+  "doing": "Pea belly-slides across the gap to steal a floating tile near the middle of the dance floor while Barry watches from his high ground.",
+  "sound": "thwump-waggle"
  },
  "realsky": false,
  "spaced": "2026-11-13"
