@@ -8956,9 +8956,9 @@
    "rot": 0.0,
    "color": "#e6d8c3",
    "label": "TO THE ARTIST \u2014 BARRY'S VILLAGE",
-   "note": "",
+   "note": "TO THE ARTIST \u2014 BARRY'S VILLAGE. Click to read the reply: YES \u2014 I SELL. 131 drawings, every tag mine, with the small-plate folk-punk song.",
    "group": "postbox",
-   "link": "",
+   "link": "pages/seller.html",
    "built": "2026-11-24 12:17"
   },
   {
@@ -10288,16 +10288,31 @@
    "label": "shiny blue reflection",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-12",
+   "shape": "sphere",
+   "x": 5.5,
+   "z": -8.299999999999999,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "shiny blue reflection",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 16.9,
-  "z": -14.8,
-  "doing": "Pea scrambles across the slick dance floor tiles to dive belly-first into the glowing arena screen's reflection for a phantom treat while Barry tries to clap him away.",
-  "sound": "YIP-SLICK! WHEE-SPLOOSH!"
+  "x": 5.1,
+  "z": -8.6,
+  "doing": "Pea skids sideways on his grease-slicked belly to steal the very step of the arena booth before Barry can clap him away again",
+  "sound": "Skidoof-woof!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
