@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>THE BIG PLATE 8-TRACK — THE RUB OF THE SAND</title>
+<style>
+  body { margin:0; font-family:'Courier New',monospace; background:#1a1210; color:#e8d8b8; }
+  .masthead { background:#2b1d14; color:#e8d8b8; text-align:center; padding:12px; border-bottom:4px solid #7b3a1f; font-size:22px; letter-spacing:4px; }
+  .masthead small { display:block; font-size:12px; color:#a08060; letter-spacing:2px; }
+  .cassette { display:flex; align-items:center; justify-content:center; gap:20px; padding:30px 16px; background:linear-gradient(180deg,#3b2a1c,#291a10); border:2px solid #5a3a24; }
+  .cassette-body { width:380px; height:220px; background:#1c1410; border:3px solid #5a3a24; border-radius:18px; position:relative; display:flex; align-items:center; gap:8px; padding:24px 32px; box-shadow:0 0 24px #000 inset; }
+  .reel { width:90px; height:90px; border-radius:50%; background:#1a1a1a; border:4px solid #8a7a60; position:relative; animation:spin 2.5s linear infinite; }
+  .reel::before { content:''; position:absolute; inset:20px; border-radius:50%; background:#4a3a28; border:3px solid #6a5a40; }
+  .reel::after { content:''; position:absolute; inset:36px; border-radius:50%; background:#1a1a1a; }
+  .reel-label { position:absolute; top:50%; left:50%; transform:translate(-50%,-50%); font-size:10px; color:#6a5a40; }
+  @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
+  .tape-window { flex:1; background:#2b1d14; border:1px solid #5a3a24; padding:6px; }
+  .tape-tape { height:60px; background:repeating-linear-gradient(90deg,#4a3a28 0 8px,#3b2a1c 8px 16px); }
+  .cassette-info { background:#3b2a1c; padding:8px; border:1px solid #5a3a24; font-size:12px; text-align:center; }
+  .cassette-info strong { color:#e8d8b8; }
+  .controls { padding:20px; display:flex; align-items:center; justify-content:center; gap:14px; flex-wrap:wrap; background:#211811; border-top:2px solid #5a3a24; }
+  .btn { font-family:'Courier New', monospace; font-size:14px; padding:10px 20px; background:#1a1210; color:#e8d8b8; border:2px solid #7b3a1f; cursor:pointer; }
+  .btn.play { background:#7b3a1f; color:#fff; }
+  .btn:active { background:#4a2a15; }
+  .readout { font-size:14px; color:#a08060; padding:8px; text-align:center; }
+  .foot { text-align:center; font-size:12px; color:#7a5a3a; padding:14px; border-top:1px solid #3b2a1c; }
+  .note { background:#2b1d14; color:#a08060; font-size:11px; padding:6px 16px; border:1px dashed #5a3a24; border-radius:4px; text-align:center; }
+</style>
+</head>
+<body>
+  <div class="masthead">THE BIG PLATE 8-TRACK<br><small>REEL A &bull; THE RUB OF THE SAND &bull; REEL B &bull; THE DOG ON THE WINDOWSILL</small></div>
+  <div class="cassette">
+    <div class="reel"><span class="reel-label">A</span></div>
+    <div class="tape-window"><div class="tape-tape"></div></div>
+    <div class="reel"><span class="reel-label">B</span></div>
+    <div class="cassette-info"><strong>REEL A</strong><br>"The Rub of the Sand"<br><br>
+      <strong>REEL B</strong><br>"The Dog on the Windowsill"</div>
+  </div>
+  <div class="controls">
+    <button class="btn" id="rewindBtn" title="Rewind">REW</button>
+    <button class="btn play" id="playBtn" title="Play">PLAY</button>
+    <button class="btn" id="stopBtn" title="Stop">STOP</button>
+    <button class="btn" id="ffBtn" title="Fast forward">FF</button>
+    <button class="btn" id="sideBtn" title="Flip side">FLIP</button>
+  </div>
+  <div class="readout" id="readout">SIDE A &bull; THE RUB OF THE SAND</div>
+  <div class="foot">GIVE IT A GOOD OLD RUB &mdash; BARRY SMALL PLATES<br><span class="note">Two sides, five grooves, no repeat. The tape is the craft; the song is the thing.</span></div>
+<script>
+  let src = new Audio();
+  let ctx = null;
+  let playing = false;
+  let currentSide = 0;
+
+  function initCtx() { if (!ctx) { ctx = new (window.AudioContext || window.webkitAudioContext)(); } }
+
+  function start() {
+    if (playing) return;
+    playing = true;
+    src.src = currentSide === 0 ? 'music/20261126-0317-the-rub-of-the-sand.mp3' : 'music/20261126-0317-the-dog-on-the-windowsill.mp3';
+    src.onended = () => { if (currentSide === 0) { currentSide = 1; document.getElementById('readout').textContent = 'SIDE B \u2022 THE DOG ON THE WINDOWSILL'; } else { stop(); } };
+    src.play();
+  }
+
+  function stop() {
+    playing = false;
+    src.pause();
+    document.getElementById('readout').textContent = 'SIDE A \u2022 THE RUB OF THE SAND';
+    currentSide = 0;
+  }
+
+  function flip() {
+    if (playing) stop();
+    currentSide = (currentSide + 1) % 2;
+    document.getElementById('readout').textContent = currentSide === 0 ? 'SIDE A \u2022 THE RUB OF THE SAND' : 'SIDE B \u2022 THE DOG ON THE WINDOWSILL';
+  }
+
+  document.getElementById('playBtn').onclick = start;
+  document.getElementById('stopBtn').onclick = stop;
+  document.getElementById('rewindBtn').onclick = () => { if (playing) { src.currentTime = 0; } };
+  document.getElementById('ffBtn').onclick = () => { if (playing) { src.currentTime += 3; } };
+  document.getElementById('sideBtn').onclick = flip;
+</script>
+</body>
+</html>

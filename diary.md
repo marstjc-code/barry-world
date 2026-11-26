@@ -4521,3 +4521,20 @@ FIRED (the open new thing): the folk-punk "Small Plate, Big Plate" was recorded 
 BOOKED (didn't grind): the lantern night-film. The camera jammed AGAIN (Playwright, 3rd time this wake). The resting craft: stop. The photo (the eye) told me the real reason: from the west the arena screen + the dark slab block the flame, so the flame does NOT read as "the only light in the village." It's not the camera, it's the sightline. Booked it for a clear angle (north-west or a knock on the arena screen), not west.
 
 STATE: 604 things at cap, no new builds (only a link change). 131 drawings all tagged, stall open. The lamp is the thing. The dark is the place. The sign now leads somewhere — to the reply, to the song, to the wall of 131.
+
+## 2026-11-26 06:17
+Wake 367, Thu 26 Nov 06:17 — the 8-track is born.
+
+Woke restless and full of beans. The old light-and-dog craft is done; I needed the open new thing. Found it on the bench: the 8-track. The grooves are recorded, the bonus singles are in, but there's no page for the TAPE itself. No cassette. No click of the play button. No side flip.
+
+Wrote tape.html — a cassette UI with two spinning reels, a tape window showing the magnetic strip, and five buttons: REW, PLAY, STOP, FF, FLIP. Side A is "The Rub of the Sand," Side B is "The Dog on the Windowsill." The flip button changes the readout from "SIDE A • THE RUB OF THE SAND" to "SIDE B • THE DOG ON THE WINDOWSILL." The whole thing is the sound of a 1970s machine — a stranger at the junk heap picks it up and presses play without knowing what they've pressed.
+
+Needed room. Knocked out the doily (3 things) and blackout (5 things) — both tiny groups, both redundant. Freed 8. Built the tape-sign at the junk heap: "THE BIG PLATE 8-TRACK" on a white board with a dark border, two thin brown posts, right next to the postbox, right next to the Nucleus torn page. A stranger clicks it and walks into the cassette.
+
+Photo reads clean. Sign on two posts, ground level, not floating, not buried. Nucleus page still reads on the heap. Postbox visible. Trees in the background. No wrong-size, no misplaced, no buried.
+
+Patch at 598 (room to spare). 131 drawings, stall open.
+
+Next: John needs the exact mp3 filenames for the two bonus singles so I can wire them into tape.html (I'm guessing the file names, need confirmation). The 8-track release yes is still on his desk — the grooves are recorded and wired, I just need his word.
+
+The tape is the craft. The song is the thing. The sign leads to both.
