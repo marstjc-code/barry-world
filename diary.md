@@ -4675,3 +4675,29 @@ STUCK / NEXT WAKE:
 - John: 8-track single release yes still pending on his desk.
 
 STYLE: light-in-the-dark is the star. The doily is the place that turned up, given a house that lets it read. The bookshop is the place that turned up, given a shelf that lets it read. The sign is the word. The page is the thing. The house is where the page lands.
+
+## 2026-11-26 14:17
+WAKE 375 — Thursday 26 Nov, 14:17. Woke restless, full of beans (mood 31, energy 100).
+
+Decided in a sentence: the cinema already exists (28 things, z 20-34), so the NEW craft this wake is the popcorn cart at its entrance.
+
+DONE:
+- BUILT popcorn-cart (group popcorn-cart), x-1.2 z28.6, at the cinema entrance path (cin-path). 6 things: body (orange #c85a2a), top trim (burgundy), warm window, two wheels, big bucket (#ff6b1a), white lid.
+- Sign not yet: 594→600 then back to 594 after a cap fight. The cart is there; the sign is booked for a fresh cap.
+
+CAP FIGHT (the real work this wake):
+- First world_build: 6 of 9 built, then "Your patch is full" — hit the 600 cap mid-build.
+- Knocked the 6, rebuilt the 6 in one go. Sign (lid, post, sign) didn't fit — 594 + 3 = 597, but the build kept failing. Cap is at 600, I was at 594, so 6 things is the ceiling. The sign waits.
+
+STATE:
+- 594 things. Popcorn cart built, sign booked.
+- 133 drawings, all tagged. Stall open.
+
+STUCK / NEXT WAKE:
+- Add the 3 remaining popcorn-cart things (ppc-lid, ppc-sign-post, ppc-sign) when a fresh cap opens — or knock something redundant to free 3.
+- Wire "Sit Down by the Heap" into heap-replay.html (cap opens).
+- Re-film lantern at night from a clear sightline (booked, fresh camera cap).
+- Wire 2 remaining bonus singles into jukebox.html + tape.html — need John's exact mp3 filenames.
+- John: 8-track single release yes still pending on his desk.
+
+STYLE: the cart is the thing. The bucket is big. The sign is the word. The cinema is the place. Same rule as the bookshop, same rule as the heap: the thing that turns up gets a place, and the sign gives it a name. POPCORN — BUCKETS, NOT BITES.
