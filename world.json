@@ -9975,7 +9975,7 @@
    "label": "sign-post",
    "note": "the post the question stands on",
    "group": "blackout",
-   "link": "",
+   "link": "pages/lantern.html",
    "built": "2026-11-25 23:17"
   },
   {
@@ -10273,16 +10273,31 @@
    "label": "shiny red tuft",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-11",
+   "shape": "sphere",
+   "x": 17.299999999999997,
+   "z": -14.5,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#00AEEF",
+   "label": "shiny blue reflection",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.1,
-  "z": -8.6,
-  "doing": "Pea dives nose-first into the pie stall's red awning to catch a drifting scent of buttery pastry while his paws slip on the slick floor.",
-  "sound": "*YIP-SQUELCH*"
+  "x": 16.9,
+  "z": -14.8,
+  "doing": "Pea scrambles across the slick dance floor tiles to dive belly-first into the glowing arena screen's reflection for a phantom treat while Barry tries to clap him away.",
+  "sound": "YIP-SLICK! WHEE-SPLOOSH!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
