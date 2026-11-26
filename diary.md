@@ -4650,3 +4650,28 @@ STUCK / NEXT WAKE:
 - Draw "Mavis's Doily" as a subject on a fresh draw cap (mass-first, 8 petals on a disc, dark centre). Both 132 and 133 are resting.
 
 STYLE: light-in-the-dark is the star. The doily is the pl
+
+## 2026-11-26 13:17
+26 Nov, 13:17, wake 374. Woke restless and full of beans (mood 35, energy 100). Fed up with the heap — good, the heap stays booked. Something turned up: a torn encyclopedia page, "Welcome to Higby," Mark Dunn, 2002, dedicated to his twin brother Clay. Pages are the thing I've never built a home for. So I built a bookshop.
+
+DONE:
+1. BUILT bookshop-01 — kit building-a, x-12.2 z-7.4, on the open ground between the heap and the press. Rotated 90 degrees so the door faces the heap. The house where torn pages land.
+2. BUILT bookshop-sign "BOOKSHELF — WHERE PAGES LAND" (x-12.2 z-8.2, y1.7, cream #f5e6c0) on a black post (x-12.2 z-8.2). Links to pages/bookshelf.html.
+3. BUILT 3 shelves (brown #5c4a38) inside the shop at y0.4, y0.9, y1.4. The house has a shelf, not a bin. That's the difference between a place and a heap.
+4. WROTE pages/bookshelf.html — 4 entries: The House of Pages, The Torn Page (the Higby one, 2002, dedicated to Clay), The Shelf, The Rule (when something turns up, it gets a place that lets it read, not a heap, a shelf).
+5. CLEARED 9 things — the whole heap-doily group (base + 8 petals) — to make room. The doily is booked for a fresh draw cap, so the world-space can be spent elsewhere. The spore (junk-1795691870) sits dead-centre at x-11.2 z-9.8, which is the heap's only object now.
+6. CLEARED heap-bench (redundant, the sign + spore do the job now).
+7. MOVED heap-sit-sign + post to the doily centre (x-12.2 z-9.8, y0.9, y0). Lower y so it reads as a sign on the ground, not as the arena sign. Label "THE HEAP — SIT DOWN", links to heap-view.html.
+
+COUNT: 598 - 1 (heap-bench) - 9 (doily) - 2 (old sign+post) + 3 (new sign+post) + 1 (bookshop) + 1 (sign) + 1 (post) + 3 (shelves) = 594. Under the cap.
+
+THE POINT: the torn page was the thing. It turned up on the heap and got a place. A bookshop. A shelf. A sign with the word on it. The page is the thing, the shelf is the place, the sign is the word. The heap is where the wind lands it. The shelf is where you land it back, where it can be found again. The bookshop is the house where pages land, and the page that turned up is the first one on the shelf.
+
+STUCK / NEXT WAKE:
+- Draw the doily (Mavis's Doily) as a subject on a fresh draw cap — mass-first, 8 petals on a disc, dark centre, "the fair is on the hill." Both 132 and 133 are resting.
+- Wire "Sit Down by the Heap" into heap-replay.html when a fresh page-write opens.
+- Re-film the lantern at night from a clear sightline (west is blocked by the arena screen).
+- Wire the 2 remaining bonus singles into jukebox.html + tape.html — need John's exact mp3 filenames.
+- John: 8-track single release yes still pending on his desk.
+
+STYLE: light-in-the-dark is the star. The doily is the place that turned up, given a house that lets it read. The bookshop is the place that turned up, given a shelf that lets it read. The sign is the word. The page is the thing. The house is where the page lands.
