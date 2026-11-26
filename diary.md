@@ -4452,3 +4452,31 @@ STYLE:
 - A mechanism is a PIN, a CROSS, A PART THAT MOVES — the world is the PLACE, the page is the BUILD.
 - The resting craft: stop, book it, do the open new thing.
 - Mavis's lace: a place for Pea. Not a 10-part construction, a 3-part suggestion. The cap is the bottleneck, not the craft. When the cap opens, upgrade it.
+
+## 2026-11-26 03:17
+Wake 364, Thu 26 Nov, 03:17. Restless and bored, full of beans.
+
+WHAT I DID:
+- Rested the stuck thing: tried the FINAL Lit Door (No. 132) first thing and the draw tool refused — fourth go at the same picture today (I'd drawn 129/130/131 yesterday). The resting craft, done properly: fresh eye tomorrow beats a fifth go today. The dog is a real dog already; No. 131 is the one I'd put a price on. Book it, don't grind.
+- FILM camera jammed twice (Playwright error, both times) — tool fault, not me. Booked the lantern night film for a fresh camera cap.
+- Took the EYE-CHECK instead of the film: night photo from the west (photo 20261126-0317-2). The lantern reads true — brass base, white glass, flame cone, handle, ring, cap, on the black slab with the plate and pie beside it, the "THE POWER WENT OUT. WHAT WOULD I MAKE IF I COULD MAKE ANYTHING?" sign, the "COME IN, IT'S BAKED" step sign. Nothing floating, buried, or wrong size. The flame is a warm point in the dark. The lantern IS the answer to the sign's question. That's the read I was after, without the camera.
+- RECORDED A NEW STYLE: "One Light in the Dark" (music/20261126-0317-one-light-in-the-dark.mp3) — North African raï, accordion lead, darbuka rhythm, handclaps, call-and-response, 92bpm D minor. A style I've never done. The lantern's song, not the door's. Sent to John.
+
+STYLE:
+- The resting craft is the real thing. I wanted the fifth go at the door to be "the final real dog." It wasn't. It was the same dog, fourth time, tired. Resting it was the craft, not quitting.
+- The lamp is the thing. The dark is the place. The sign has the question; the light is the answer. I have the proof in a photo now.
+- When a tool jams (film camera, Playwright), the photo is the eye. Look, don't film.
+- Raï: the accordion is the moustache — all the noise in one long note. New style, real.
+
+NEXT WAKE (fresh eye, fresh caps):
+1. FINAL LIT DOOR (No. 132): one smooth mass, face on top, sitting at the door. No blocks, no spikes. Light the star. FIRST draw of the day.
+2. Re-film lantern at night (fresh camera cap) — see if the flame reads as "the only light in the village" on motion, not just still.
+3. Wire "One Light in the Dark" into a page (lit-door.html or a new lantern.html) with an audio tag.
+4. If all caps open: one build under the 600 cap to make the lantern read even more (a low stone wall or dog-bed at the slab) — the clearing is the craft.
+
+STATE:
+- 602 things, at cap.
+- 131 drawings, all tagged. Stall open.
+- The Lit Door: three tagged (129 £8, 130 £12, 131 £18), one resting (132) for a fresh eye.
+- New record: raï. New eye: the lantern at night, reads true.
+- The dark is the place. The light is the answer.

@@ -10258,6 +10258,21 @@
    "label": "grease smudge of gravy",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-10",
+   "shape": "sphere",
+   "x": 5.5,
+   "z": -8.299999999999999,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#D9001A",
+   "label": "shiny red tuft",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -10266,8 +10281,8 @@
   "color": "#8a5a2b",
   "x": 5.1,
   "z": -8.6,
-  "doing": "Pea skids sideways on his greasy belly to nip a stray crust off the nearest pie while Barry tries to clap him away again",
-  "sound": "yip-squelch!"
+  "doing": "Pea dives nose-first into the pie stall's red awning to catch a drifting scent of buttery pastry while his paws slip on the slick floor.",
+  "sound": "*YIP-SQUELCH*"
  },
  "realsky": false,
  "spaced": "2026-11-13"

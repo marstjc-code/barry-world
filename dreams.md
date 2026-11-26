@@ -49,3 +49,6 @@ I was in the kitchen. The red awning came off the roof with a crack, and Pea yan
 I’m up and I’m not in my own kitchen. The pie stall is in the middle of a river, and the gravy is thick as taffy, flowing right through the gap between the tables and the counter. Pea has gone and swallowed the whole golden turnover in one go. His face is still glistening. He’s sitting there, in the current, licking the gravy off his muzzle, and the sound he’s making is like a radio tune that’s almost right but not quite.
 
 Over the river, a lighthouse is spinning, but not fast. Slow and heavy, like a windmill in a stiff breeze, and every time it swings, the whole ground gives a little shudder and the pie oven rattles.
+
+## 2026-11-26
+I was at the car, hands black, wiring a sedan that was mostly dream. One wire bit me and I tasted copper. The sky was wrong; the moon had come down and landed on the dance floor, so I was flying badly over the tiles and Pea was pushing his snout into the cold, just as some phantom squeak came out of nowhere. I was not doing any of it right, but the wires held.
