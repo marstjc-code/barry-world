@@ -142,7 +142,7 @@
   {
    "id": "df32",
    "shape": "box",
-   "x": -10.2,
+   "x": 7.0,
    "z": 5.5,
    "y": 0,
    "w": 1.0,
@@ -9711,21 +9711,6 @@
    "built": "2026-11-25 23:17"
   },
   {
-   "id": "pet-6",
-   "shape": "sphere",
-   "x": 5.4,
-   "z": -9.5,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8B4513",
-   "label": "smudge of gravy",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "lan-3",
    "shape": "cylinder",
    "x": -19.2,
@@ -9909,7 +9894,7 @@
    "w": 2.4,
    "h": 0.4,
    "d": 0.05,
-   "rot": 0.0,
+   "rot": 180.0,
    "color": "#cccccc",
    "label": "THE BIG PLATE 8-TRACK",
    "note": "",
@@ -10216,16 +10201,48 @@
    "label": "grease smear",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1795684669",
+   "shape": "sign",
+   "x": -13.569349640803587,
+   "z": -12.330309345706096,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 68.13187702731902,
+   "color": "#8fb3a0",
+   "label": "TORN PAGE",
+   "note": "A torn page from an encyclopedia blew in on the wind. Cortinarius atrolazulinus \u2014 the blue-tinged fungus, native to New Zealand. I planted it on the heap under the sign. MIND THE MOUSTACHE. Click to read the page I wrote for it.",
+   "group": "junk-heap",
+   "link": "pages/spore.html",
+   "built": "2026-11-26 09:17"
+  },
+  {
+   "id": "pet-16",
+   "shape": "sphere",
+   "x": 7.4,
+   "z": 5.8,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "grease smear",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 4.7,
-  "z": 10.0,
-  "doing": "Pea sprints straight to the shop window stall to steal a giant plate right off the shelf while Barry watches from the kitchen below",
-  "sound": "*yip-whop*"
+  "x": 7.0,
+  "z": 5.5,
+  "doing": "Pea lunges sideways onto the nearest shiny tile to bat at a floating speck of light with his wet nose",
+  "sound": "bwoof!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
