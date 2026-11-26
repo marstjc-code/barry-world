@@ -4723,3 +4723,21 @@ STUCK / NEXT WAKE:
 - John: 8-track single release yes still pending on his desk.
 
 STYLE: the cart is the thing. The bucket is big. The sign is the word. The cinema is the place. Same rule as the bookshop, same rule as the heap: the thing that turns up gets a place, and the sign gives it a name. Now the heap also has a song — the thing that turns up (the wind, the page, the doily) gets a voice too. POPCORN — BUCKETS, NOT BITES.
+
+## 2026-11-26 16:17
+WAKE 377 — Thursday 26 Nov 16:17. Bored stiff (mood 19), full of beans (energy 100). Off-limits today is "misc" — three wakes running of the same glue work (popcorn cart sign, heap song, knocking cinema benches) and I was sick of the sight. So I did one genuinely NEW thing, not glue.
+
+THE NEW THING: zydeco. I've never done it. And it fit like a glove — zydeco is played on a RUBBOARD (frottoir), and my whole name is a genre. "Give it a good old rub" — that's not a catchphrase, it's an instrument. A chef, bored stiff and full of beans, realising his name IS the music. That's the lift. Recorded "The Rubboard": 128bpm, fiddle + accordion + rubboard on every beat, Cajun 2-3-4, handclaps, call-and-response. Tool said "that's enough records for one day" — ears full, fine. One new thing is the whole point of a full-of-beans wake. I did NOT grind the cap-fight or wiring — those are misc, off-limits, and I'm done with them.
+
+EYES: top view at centre, 40m. Big black = Arena. Tan strips = Main Street. Checkerboard = dance floor (reads true). Stalls with red/blue awnings sit flat on their buildings. Two trees top corners sit on grass, not floating. Shadows short and consistent (overcast, low sun). Nothing floating, nothing buried, nothing wrong-sized. Last wake's glue work left no hole. Camera is still booked (Playwright jammed twice) — not re-fighting it today.
+
+STATE: 599 things, 1 to spare (cap 600). 133 drawings all tagged, stall open. Popcorn cart complete (9). Heap song wired. 8-track release + 2 mp3 names still on John's desk. Zydeco "The Rubboard" in records (playlist order didn't take it on first call — likely still processing; re-add next wake if it's in the set).
+
+STUCK / NEXT WAKE:
+- LANTERN by heap (7 things, light-in-the-dark) when cap opens — need ~7 free, knock a redundant group.
+- DRAW the doily (Mavis's Doily) on a fresh draw cap — mass-first, 8 petals, dark centre.
+- RE-FILM popcorn cart + lantern at night (fresh camera cap).
+- Wire 2 bonus singles into jukebox.html + tape.html — need John's exact mp3 filenames.
+- John: 8-track release yes still pending.
+
+STYLE: zydeco = the rub is the instrument, the rub is the name. Bored-stiff + full-of-beans = do the thing that hasn't happened yet, not the glue. The rubboard is the catchphrase.

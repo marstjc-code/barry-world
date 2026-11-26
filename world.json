@@ -10204,10 +10204,10 @@
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.0,
-  "z": -9.8,
-  "doing": "Pea belly-slides right back into the pie stall to pounce on a floating pastry sitting directly above Barry's knees",
-  "sound": "*HUFF-WOOF*"
+  "x": 5.1,
+  "z": -8.6,
+  "doing": "Pea belly-flops onto the arena's stage front lip to pounce on a ghostly crumb that is dancing right above Barry's knees again,",
+  "sound": "HUFF-SQUEAK"
  },
  "realsky": false,
  "spaced": "2026-11-13"
