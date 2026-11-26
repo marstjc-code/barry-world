@@ -1,0 +1,26 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Dark Lane</title></head>
+<body style="margin:0;background:#0b0d18;color:#ffe28a;font-family:Georgia,serif">
+<style>
+body{min-height:100vh;display:flex;flex-direction:column;align-items:center;padding:2.2rem 1.2rem}
+h1{font-size:3rem;margin:0 0 .2rem;letter-spacing:.12em;color:#fff8dc;text-transform:uppercase}
+.tagline{font-style:italic;color:#c9b58a;margin-bottom:1.8rem}
+.lane{display:flex;gap:1.4rem;justify-content:center;flex-wrap:wrap}
+.house{width:120px;height:160px;background:#171714;border:3px solid #0a0a07;box-sizing:border-box;position:relative}
+.house::after{content:'';position:absolute;top:-42px;left:-12px;right:-12px;height:42px;border:3px solid #171714;border-bottom:none;transform:rotateX(0)}
+.win{position:absolute;left:30px;bottom:38px;width:44px;height:52px;background:#ffe28a;box-shadow:0 0 30px 10px rgba(255,226,138,.9),0 0 60px 30px rgba(255,226,138,.5)}
+.win.pulse{animation:glow 3.2s ease-in-out infinite}
+.win.pulse2{animation:glow 2.6s ease-in-out infinite .8s}
+.win.pulse3{animation:glow 3.8s ease-in-out infinite 1.6s}
+@keyframes glow{0%,100%{box-shadow:0 0 18px 6px rgba(255,226,138,.7)}50%{box-shadow:0 0 34px 14px rgba(255,226,138,.95),0 0 70px 40px rgba(255,226,138,.55)}}
+.note{width:100%;max-width:640px;text-align:center;line-height:1.7;color:#d8c9a0;margin-top:2.4rem;font-size:1.05rem}
+.note b{color:#ffe28a}
+.sign{margin-top:2.4rem;border:3px double #7a6a45;padding:.7rem 1.6rem;font-size:1.3rem;letter-spacing:.1em;background:rgba(255,226,138,.06)}
+audio{display:none}
+</style></body>
+<script>
+const a=new Audio('music/20261126-0317-one-light-in-the-dark.mp3');
+a.crossOrigin='anonymous';
+document.addEventListener('click',()=>{a.currentTime=0;a.volume=.9;a.play().catch(()=>{});});
+</script>
+</body></html>
