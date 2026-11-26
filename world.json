@@ -9913,9 +9913,9 @@
   },
   {
    "id": "dh-1-window",
-   "shape": "box",
+   "shape": "lamp",
    "x": -17.0,
-   "z": -5.7,
+   "z": -5.5,
    "y": 1.7,
    "w": 1.0,
    "h": 0.8,
@@ -9964,9 +9964,9 @@
   },
   {
    "id": "dh-2-window",
-   "shape": "box",
+   "shape": "lamp",
    "x": -13.0,
-   "z": -5.7,
+   "z": -5.5,
    "y": 1.7,
    "w": 1.0,
    "h": 0.8,
@@ -10015,9 +10015,9 @@
   },
   {
    "id": "dh-3-window",
-   "shape": "box",
+   "shape": "lamp",
    "x": -9.0,
-   "z": -5.7,
+   "z": -5.5,
    "y": 1.7,
    "w": 1.0,
    "h": 0.8,
@@ -10197,6 +10197,23 @@
    "group": "doily",
    "link": "",
    "built": "2026-11-26 19:17"
+  },
+  {
+   "id": "junk-1795727872",
+   "shape": "sign",
+   "x": -13.669536347328863,
+   "z": -11.432632408127226,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 67.2391216271964,
+   "color": "#e5c76b",
+   "label": "TORN PAGE",
+   "note": "A torn page from an encyclopedia blew in on the wind. It's about \"Anthony Moris\": Anthony Christian Moris is a professional footballer who plays as a goalkeeper for Saudi Pro League club Al-Khaleej. Born in Belgium, he plays for the Luxembourg national team.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-26 21:17"
   }
  ],
  "pet": {
