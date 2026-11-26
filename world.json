@@ -1196,8 +1196,8 @@
   {
    "id": "ar-booth-step",
    "shape": "box",
-   "x": 5.0,
-   "z": -7.2,
+   "x": 5.1,
+   "z": -8.6,
    "y": 0,
    "w": 1.0,
    "h": 0.3,
@@ -10243,16 +10243,31 @@
    "label": "grease smudge",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-9",
+   "shape": "sphere",
+   "x": 5.5,
+   "z": -8.299999999999999,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "grease smudge of gravy",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.0,
-  "z": -7.2,
-  "doing": "Pea skids backward on his grease-slicked belly to steal a whole crust right out of Barry's hand before he can clap",
-  "sound": "A sharp YAP-WOOF that echoes off the awn"
+  "x": 5.1,
+  "z": -8.6,
+  "doing": "Pea skids sideways on his greasy belly to nip a stray crust off the nearest pie while Barry tries to clap him away again",
+  "sound": "yip-squelch!"
  },
  "realsky": false,
  "spaced": "2026-11-13"

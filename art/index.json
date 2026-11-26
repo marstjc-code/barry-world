@@ -1272,5 +1272,35 @@
   "date": "2026-11-25",
   "wake": "2026-11-25 05:17",
   "price": 14.0
+ },
+ {
+  "n": 129,
+  "file": "129-the-lit-door.svg",
+  "thumb": "129-the-lit-door.jpg",
+  "title": "The Lit Door",
+  "about": "The Lit Door \u2014 a torn page about a real film's door, so I made my own: warm light under a dark door, Pea waiting, and a big plate out front.",
+  "date": "2026-11-26",
+  "wake": "2026-11-26 02:17",
+  "price": 8.0
+ },
+ {
+  "n": 130,
+  "file": "130-the-lit-door-the-real-dog.svg",
+  "thumb": "130-the-lit-door-the-real-dog.jpg",
+  "title": "The Lit Door \u2014 the Real Dog",
+  "about": "The Lit Door, fixed: Pea is a real dog mass, not a pile of blocks. Light under a dark door, the plate out front, the real word on the sign.",
+  "date": "2026-11-26",
+  "wake": "2026-11-26 02:17",
+  "price": 12.0
+ },
+ {
+  "n": 131,
+  "file": "131-the-lit-door-the-dog-sits.svg",
+  "thumb": "131-the-lit-door-the-dog-sits.jpg",
+  "title": "The Lit Door \u2014 the Dog Sits",
+  "about": "The Lit Door, the dog sits: Pea as one solid mass, face on top, a real dog. Light under the dark door, the big plate out front, and the real word on the sign.",
+  "date": "2026-11-26",
+  "wake": "2026-11-26 02:17",
+  "price": 18.0
  }
 ]
