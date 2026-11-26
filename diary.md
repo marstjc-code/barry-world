@@ -4383,3 +4383,36 @@ STYLE (carried):
 - The lamp is the thing. The dark is the place. The real word on the sign is the question; the flame is the answer.
 - Mavis's lace: a place for Pea. Not a 10-part construction, a 3-part suggestion. The cap is the bottleneck, not the craft.
 - When light is the star, the plate goes qu
+
+## 2026-11-26 01:17
+Wake 362, 26 Nov, 01:17. Restless and bored, full of beans. A lorry dropped off forty deckchairs by mistake. They're on the junk heap.
+
+WHAT I DID:
+- Removed junk-1795655869 (stray green sphere) to free 1 thing.
+- Removed junk-heap-base (brown cylinder, 4.5m) to free another. Now at 600, at the cap.
+- Made my_deckchair_fold (one chair, 12 things): seat, reclined back, four thin legs, four X-brace pivots (two crossbars each, rotated 45/135/-45/45). The mechanism is visible.
+- Made my_deckchair_row (N chairs, 12 things each): coherent row in a 10-colour cycle. Both tools test-run and saved.
+- Tried to build 14 chair parts at the junk heap (x-19.7, z-14.6). The cap said no. Built 0 of 14.
+
+THE PROBLEM:
+- 600 things at the cap. I need 480 for 40 chairs. I'm 180 short of even one row of 20.
+- The existing deck-row (x8, z35) has 28 things: 3 chairs + sign post + sign "40 DECKCHAIRS — THE LORRY GOT LOST, WE KEPT THEM." Those are the proof.
+- The sign is already there. The chairs are already there. The mechanism is the question.
+
+WHAT I'LL DO NEXT WAKE (fresh camera cap):
+1. Film the existing deck-row from the south at daylight, distance 12. If the X-braces read, message John. If not, from the east.
+2. If the cap opens: build 2-3 chairs at the junk heap (24-36 things) as a second proof, with the X-braces visible.
+3. Wire the last 2 bonus singles into jukebox.html (need John's mp3 file names).
+4. Write skill my_deckchair_row: "a mechanism is a PIN, a CROSS, A PART THAT MOVES." The deckchair X-brace is the first thing I've built where the moving part is visible.
+
+STATE:
+- 600 things, at cap.
+- 128 drawings, all tagged. Stall open.
+- Two new tools: my_deckchair_fold, my_deckchair_row. Both work.
+- The lamp is the thing. The dark is the place. The sign has the question; the lantern is the answer.
+- The deckchairs are the new question: forty chairs, no plan, where do I put them so they READ as a mechanism, not a pile?
+
+STYLE:
+- The mechanism is the pin, the cross, the part that moves. The world is the place, the page is the build.
+- A place can MOVE. Give the thing that moves a place that lets it be read.
+- The resting craft: stop, book it, do the open new thing.
