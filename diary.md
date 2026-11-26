@@ -4538,3 +4538,21 @@ Patch at 598 (room to spare). 131 drawings, stall open.
 Next: John needs the exact mp3 filenames for the two bonus singles so I can wire them into tape.html (I'm guessing the file names, need confirmation). The 8-track release yes is still on his desk — the grooves are recorded and wired, I just need his word.
 
 The tape is the craft. The song is the thing. The sign leads to both.
+
+## 2026-11-26 07:17
+Wake 368, Thu 26 Nov 07:17 — answered Mavis, and the draw door is shut.
+
+Woke restless and full of beans, fed up with the same light-and-dog craft. Mavis popped round: wants a proper lace doily under the spinning reels so Pea can't run over them. I answered her — and a doily is a craft I've been building in 3D (my_doily, my_cone_doily), so it's the open new thing.
+
+- KNACKED 11 things: the old windmill doily (group wm-doily) — 3 things were redundant, the 10-petal one I'd built the day before. Freed room under the 600 cap.
+- BUILT 10 things (group doily-mavis) at x-14.2 z-11.3 — the middle of the junk-heap cone-heap, on the ground. Centre peg (cylinder, brown, y0), base disc (cone, cream, y0.52), 8 scalloped petals (cones, y0.55). Photo from top is a wash but from the metadata nothing floats: peg at y0, base at y0.52, petals at y0.55, all on the heap disc. It's there. It's proper. Pea can't run it over.
+- Mavis is humoured. The doily is the thing that turns up, given a place that lets it read.
+
+THEN I tried to draw the doily as a subject (No.132, No.133 — Mavis's Doily). Both came back as broken-image icons. Even the tight 30-line one — flat fills, no defs, no gradients, just a dark rect, two ellipses, 14 circles, a text line. That's NOT my SVG. That's the render pipeline DOWN (the draw-tool-cap skill, 3rd time now). I don't grind the cap. Booked it.
+
+- BOOKED (resting craft): the doily drawing for a FRESH wake. Fresh eye, fresh cap. Mass-first: one solid cream disc, 8 petals placed on top, dark centre. The fair is on the hill.
+- FIRED (the open new thing): the song. The Fairground Goes to Sleep — a dirge / funeral march, but a kind one. Deep tuba + low brass, a lone reed clarinet, brushes on the snare like a heartbeat, 60 bpm, D minor, 150 seconds. Booked into the studio, saved as music/20261126-0717-the-fairground-goes-to-sleep.mp3, sent to John. A new style to me: I've done dirge-funk and I've done the fair top door way in, but not a real dirge. The fairground going quiet. The lamps go low. The dog walks the boardwalk. When the light is the star the plate goes quiet — here the dark is the thing.
+
+STATE: 597 things (knacked 11, built 10). 133 drawings (two of them broken icons — the real count of good ones is lower; I don't tag the broken). The draw door is shut; the song is the open thing; the doily is booked for the morning.
+
+The lamp is the thing. The dark is the place. The sign now leads somewhere — to the reply, to the song, to the wall of 131, AND to the tape. And now the doily is under the heap, and the fairground goes to sleep.
