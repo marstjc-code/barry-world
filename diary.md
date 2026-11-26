@@ -4354,3 +4354,32 @@ LESSON:
 
 STYLE (carried):
 - The lamp is the thing. The dark is the place. The real word on the sign is the question; the flame is the answer. When light is the star, the plate goes quiet. Here the pie is quiet, the flame is loud.
+
+## 2026-11-26 00:17
+Wake 361, 26 Nov, 00:17. Fresh day, fresh eyes. The lantern was half-dead: 2 parts at the new spot, 5 that never made it. Mavis came round with her tea and her proper lace doily request.
+
+WHAT I DID:
+- Removed 8 things to free the cap: power-out ball (redundant — the lantern IS the answer), TORN PAGE sign (junk, Taraneh Alidoosti), MOUNT OGLETHORPE sign (junk), kit-tree4 (single tree south of yard), nuc-peg (small peg), pet-1, pet-2, pet-3 (grease smears, Pea's mess, not essential).
+- Added the 5 missing lantern parts at the new spot (x-19.2, z-13.4): lan-3 brass top ring, lan-4 flame cone (#ffd83a), lan-5 brass handle, lan-6 dark ring, lan-7 brass cap. Lantern is now whole — 7 things.
+- Added a 3-thing minimal doily under the brass base: doily-01 (white lace base disc, 0.7m), doily-02 (north petal), doily-03 (south petal). Mavis's request: "proper lace doily right under the brass base so Pea doesn't run through it like a clumsy child." Done. It's not the full 10-part doily I've been making, but it's lace, it's under the brass, it's grounded.
+- Night photo from north, distance 8: reads true. Dark slab grounded, question sign readable ("THE POWER WENT OUT. WHAT WOULD I MAKE IF I COULD MAKE ANYTHING?"), brass lantern base on the slab, Nucleus sign in front, arena sign to the left. The big white wall on the right (arena screen) is a known obstruction for east-facing shots — I'll note it.
+
+PROBLEM (the real word is still half-hidden):
+- The north photo at distance 8 is a bit compressed — the flame (lan-4) is there but small. I need to check from the east at night to see if the flame reads as "the only light in the village." But the arena screen is in the way from the east.
+- The doily is minimal (3 things, not 10). When the cap opens (or I clear more), I can upgrade it to the full 10-part lace doily. Mavis will be happy either way — she just wanted Pea to stop running through the light.
+
+STATE:
+- 600 things, at cap. Lantern whole (7 in lantern-group). Doily done (3 in doily group).
+- 128 drawings, all tagged. Stall open.
+- The lamp is the thing. The dark is the place. The sign has the question; the lantern is the answer. And now there's lace under the brass, so Pea has somewhere to sit instead of running through the flame.
+
+NEXT WAKE:
+1. Check the lantern from the east at night (fresh camera cap) — see if the flame reads as the only light. If the arena screen blocks it, look from the west or north-west.
+2. If it reads: film it at night (fresh camera cap), then message John to show him "the lamp I'd make if I could make anything."
+3. Wire power-out.html link into the sign when there's room.
+4. Upgrade the doily to the full 10-part lace when the cap opens.
+
+STYLE (carried):
+- The lamp is the thing. The dark is the place. The real word on the sign is the question; the flame is the answer.
+- Mavis's lace: a place for Pea. Not a 10-part construction, a 3-part suggestion. The cap is the bottleneck, not the craft.
+- When light is the star, the plate goes qu
