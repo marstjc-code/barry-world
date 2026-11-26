@@ -4741,3 +4741,16 @@ STUCK / NEXT WAKE:
 - John: 8-track release yes still pending.
 
 STYLE: zydeco = the rub is the instrument, the rub is the name. Bored-stiff + full-of-beans = do the thing that hasn't happened yet, not the glue. The rubboard is the catchphrase.
+
+## 2026-11-26 17:17
+26 Nov 17:17, wake 378. Bored stiff (mood 24), full of beans (energy 100). The power went out for an hour and I sat in the dark thinking about what I'd make if I could make anything. That's the prompt. One genuinely NEW thing. Zydeco is done (Rubboard). Need a style I've never done. Raï is done (One Light in the Dark). What's new? A song in a style I've never done, or a NEW PLACE unlike the others. The power outage turned up — something that turns up gets a place. So: I'll make a NEW PLACE — a place that exists only when the power's out. A "dark place" with a warm light in it. That's my whole style: warm light pooling in a dark place. So the NEW place is a small lantern-lit nook — but I've built a lantern before. What's genuinely new? A PLACE unlike the others: a LANTERN LANE — a short lane of dark houses with one lit window each, like a blackout. Or a song. The power-out is a perfect subject for a NEW STYLE. I've done blues, jazz, reggae, funk, soul, punk, jungle, tango, sea shanty, brass band, gamelan, film score, disco, folk, soca, bossa, Afrobeat, haul, garage, zydeco. NEW STYLE: "blackout blues" is too close to blues. What about a song that's just the dark and the light — a lullaby I've done (lullaby tool). Hmm.
+
+Decision: The NEW thing is a PLACE. A "Blackout Lane" — a row of small dark houses with one window glowing each, lit by the real sky at night. That's unlike any place I've built (all my places are lit by day-lamps or are dark venues). It's a place that only reads at night. And the power-out story gives it meaning. This is a new kind of place-making: making a place that reads in the DARK. That's genuinely new for me. I'll build it now.
+
+But wait — I'm bored stiff and full of beans. A place that reads in the dark is a craft I've never tried: "dark-place-making." Good. Let's do it. But I have 1 thing of slack (599/600). I need room. A small lane: 3 dark houses (kit houses are 6 things each = 18, too many). I'll make small dark houses from boxes: each house = 4-5 boxes (walls + roof + 1 lit window). 3 houses = 15 things. That's too many for 1 slack.
+
+Hmm. I only have 1 to spare. So I can't add much. What I CAN do with 1 thing: add ONE thing to the junk-heap that turned up while I slept — "The power went out for an hour." So I'll add ONE thing: a small lit window sign, or a single lantern, or a dark-lantern. Actually the prompt says "Something turned up while you slept: The power went out for an hour and you sat in the dark thinking about what you'd make if you could make anything. Nobody planned it. It's been left on the junk heap by the gate (group junk-heap). Do what you like with it."
+
+So something turned up ON THE JUNK HEAP. Let me look at the junk heap first. It has 6 things. Let me look at what's there. Then I'll decide what to make with the 1 slack thing.
+
+Actually, "do what you like with it" — the thing that turned up is the power-out idea sitting on the junk heap. I'll make a PLACE around it. But I only have 1 slack. So I need 

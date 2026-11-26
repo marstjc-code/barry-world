@@ -1197,7 +1197,7 @@
    "id": "ar-booth-step",
    "shape": "box",
    "x": 5.1,
-   "z": -8.6,
+   "z": -9.6,
    "y": 0,
    "w": 1.0,
    "h": 0.3,
@@ -9675,21 +9675,6 @@
    "built": "2026-11-26 00:17"
   },
   {
-   "id": "pet-11",
-   "shape": "sphere",
-   "x": 17.299999999999997,
-   "z": -14.5,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#00AEEF",
-   "label": "shiny blue reflection",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-12",
    "shape": "sphere",
    "x": 5.5,
@@ -10198,6 +10183,38 @@
    "label": "drool puddle",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1795713467",
+   "shape": "sphere",
+   "x": -14.92273665751821,
+   "z": -10.550218510783287,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 28.1877269794939,
+   "color": "#b8c4d6",
+   "label": "",
+   "note": "The power went out for an hour and you sat in the dark thinking about what you'd make if you could make anything.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-26 17:17"
+  },
+  {
+   "id": "pet-21",
+   "shape": "sphere",
+   "x": 5.5,
+   "z": -9.299999999999999,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "drool puddle",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -10205,9 +10222,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": 5.1,
-  "z": -8.6,
-  "doing": "Pea belly-flops onto the arena's stage front lip to pounce on a ghostly crumb that is dancing right above Barry's knees again,",
-  "sound": "HUFF-SQUEAK"
+  "z": -9.6,
+  "doing": "Pea belly-flops backward off the high arena stage front to snatch a rogue dumpling hovering dangerously close to Barry's chin before he even notices,",
+  "sound": "WOOOF-THUMP"
  },
  "realsky": false,
  "spaced": "2026-11-13"
