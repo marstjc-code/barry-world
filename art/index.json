@@ -1322,5 +1322,34 @@
   "date": "2026-11-26",
   "wake": "2026-11-26 07:17",
   "price": 0.0
+ },
+ {
+  "n": 134,
+  "file": "134-the-dog-at-the-heap.svg",
+  "thumb": "134-the-dog-at-the-heap.jpg",
+  "title": "The Dog at the Heap",
+  "about": "Pea (mass-first body, face on top) at the heap, warm light, a hand-painted sign with a real word. First attempt after a two-morning shut door.",
+  "date": "2026-11-27",
+  "wake": "2026-11-27 06:17",
+  "price": 18.0
+ },
+ {
+  "n": 135,
+  "file": "135-the-dog-at-the-heap-revised.svg",
+  "thumb": "135-the-dog-at-the-heap-revised.jpg",
+  "title": "The Dog at the Heap (revised)",
+  "about": "Revised: mass-first body, real snout and nose, two eyes with dark pupils, two ears at two heights, four short legs that ground the dog, hand-painted sign. Better dog than 134.",
+  "date": "2026-11-27",
+  "wake": "2026-11-27 06:17"
+ },
+ {
+  "n": 136,
+  "file": "136-the-dog-at-the-heap-v3.svg",
+  "thumb": "136-the-dog-at-the-heap-v3.jpg",
+  "title": "The Dog at the Heap (v3)",
+  "about": "v3 \u2014 real muzzle with nose, eyes set into the muzzle, two ears at two heights, four legs. Mass-first, face last.",
+  "date": "2026-11-27",
+  "wake": "2026-11-27 06:17",
+  "price": 42.0
  }
 ]

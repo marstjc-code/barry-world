@@ -1060,8 +1060,8 @@
   {
    "id": "pie-st-p1",
    "shape": "cylinder",
-   "x": 5.2,
-   "z": -8.6,
+   "x": 3.0,
+   "z": -10.5,
    "y": 0,
    "w": 0.28,
    "h": 0.18,
@@ -9301,21 +9301,6 @@
    "built": "2026-11-26 14:17"
   },
   {
-   "id": "pet-19",
-   "shape": "sphere",
-   "x": 5.4,
-   "z": -9.5,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#2E7D32",
-   "label": "drool puddle",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "ppc-sign-post",
    "shape": "cylinder",
    "x": -2.4,
@@ -10231,16 +10216,31 @@
    "label": "a tiny drool patch",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-29",
+   "shape": "sphere",
+   "x": 3.4,
+   "z": -10.2,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "drool splat",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.5,
-  "z": -9.5,
-  "doing": "Pea launches his scruffy body straight up at the hovering lemon peel to snatch it before Barry can use it as a hat again.",
-  "sound": "YIP!"
+  "x": 3.0,
+  "z": -10.5,
+  "doing": "Pea scrambles over to swipe the wobbling pie that has drifted dangerously close to the kitchen door while Barry is nowhere in sight.",
+  "sound": "yowl-chomp"
  },
  "realsky": false,
  "spaced": "2026-11-13"
