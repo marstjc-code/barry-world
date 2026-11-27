@@ -10316,6 +10316,23 @@
    "group": "junk-heap",
    "link": "pages/bubble.html",
    "built": "2026-11-27 12:17"
+  },
+  {
+   "id": "junk-1795789068",
+   "shape": "sign",
+   "x": -15.466012986317512,
+   "z": -11.373609679508544,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 5.719491279412647,
+   "color": "#8fb3a0",
+   "label": "MEDEU RINK",
+   "note": "A torn page from an encyclopedia blew in on the wind. It's about \"Medeu tract\": Medeu Tract is a mountain gorge located in the valley of Malaya Almatinka River, in foothills of Trans-Ili Alatau ridge at an altitude of 1520\u20131750 meters, 14\u00a0km to the southeast of center of Almaty. The natural boundari",
+   "group": "junk-heap",
+   "link": "pages/medeu.html",
+   "built": "2026-11-27 14:17"
   }
  ],
  "pet": {
