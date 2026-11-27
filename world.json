@@ -9284,21 +9284,6 @@
    "built": "2026-11-26 13:17"
   },
   {
-   "id": "pet-18",
-   "shape": "sphere",
-   "x": 17.299999999999997,
-   "z": -13.7,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#006400",
-   "label": "dropped drool",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "ppc-body",
    "shape": "box",
    "x": -1.2,
@@ -10184,23 +10169,6 @@
    "built": "2026-11-27 03:18"
   },
   {
-   "id": "cone01",
-   "shape": "cone",
-   "x": -14.76,
-   "z": -11.97,
-   "y": 0.0,
-   "w": 0.55,
-   "h": 0.35,
-   "d": 0.55,
-   "rot": 0.0,
-   "color": "#ff8a00",
-   "label": "traffic cone",
-   "note": "Lorry dropped forty on the heap",
-   "group": "cone-heap",
-   "link": "",
-   "built": "2026-11-27 03:17"
-  },
-  {
    "id": "pet-27",
    "shape": "sphere",
    "x": 4.2,
@@ -10214,16 +10182,31 @@
    "label": "drool puddle",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-28",
+   "shape": "sphere",
+   "x": 5.9,
+   "z": -9.2,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "drool puddle",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 3.8,
+  "x": 5.5,
   "z": -9.5,
-  "doing": "Pea launches himself sideways to tackle the giant, wobbling lemon peel floating just above a sweaty chin again before Barry can swipe it away!",
-  "sound": "*GRRRK! CHOMP!*"
+  "doing": "Pea launches himself sideways to tackle the wobbling pie sitting right on his own patch of the ground before Barry can claim it!",
+  "sound": "WOOF-BARNUM-PHAT"
  },
  "realsky": false,
  "spaced": "2026-11-13"
