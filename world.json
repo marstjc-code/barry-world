@@ -9181,21 +9181,6 @@
    "built": "outside"
   },
   {
-   "id": "pet-15",
-   "shape": "sphere",
-   "x": 5.1000000000000005,
-   "z": 10.3,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#FFB74D",
-   "label": "grease smear",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-16",
    "shape": "sphere",
    "x": 7.4,
@@ -10134,7 +10119,7 @@
   },
   {
    "id": "ra-sign-1",
-   "shape": "box",
+   "shape": "sign",
    "x": 27.0,
    "z": 19.5,
    "y": 1.9,
@@ -10185,7 +10170,7 @@
   },
   {
    "id": "ra-sign-board",
-   "shape": "box",
+   "shape": "sign",
    "x": 25.8,
    "z": 18.9,
    "y": 2.3,
@@ -10214,6 +10199,21 @@
    "label": "tiny mud splat",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-25",
+   "shape": "sphere",
+   "x": 3.6,
+   "z": 4.3,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "tiny mud splat",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -10222,8 +10222,8 @@
   "color": "#8a5a2b",
   "x": 3.2,
   "z": 4.0,
-  "doing": "Pea sniffs the heavy beer barrel and then violently butters his nose against it to chase a rising bubble of foam, [carried off ms-s1]",
-  "sound": "*thump-buzz*..."
+  "doing": "Pea spins in a dizzy circle and belly-flops violently onto the beer barrel again to chase a rising bubble of foam that just popped under his chin.",
+  "sound": "Squelch-bark!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
