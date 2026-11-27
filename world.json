@@ -540,7 +540,7 @@
    "h": 0.15,
    "d": 1.4,
    "rot": 0.0,
-   "color": "#8b3a2f",
+   "color": "#1c3f9e",
    "label": "Awning",
    "note": "",
    "group": "shop-window",
@@ -1016,11 +1016,11 @@
    "h": 0.12,
    "d": 0.9,
    "rot": 0.0,
-   "color": "#a04a33",
+   "color": "#1c3f9e",
    "label": "Red awning",
-   "note": "",
+   "note": "Cobalt awning from the nameless tin. Click to paint.",
    "group": "pie-stall",
-   "link": "",
+   "link": "pages/cobalt.html",
    "built": "2026-11-11 17:11"
   },
   {
@@ -10350,6 +10350,23 @@
    "group": "junk-heap",
    "link": "pages/isara.html",
    "built": "2026-11-27 16:17"
+  },
+  {
+   "id": "junk-1795803470",
+   "shape": "box",
+   "x": -13.13429188339579,
+   "z": -13.137098247334837,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 8.44880383303892,
+   "color": "#e9e2d0",
+   "label": "PARCEL",
+   "note": "A parcel was left on your doorstep with no name on it. Inside: a tin of cobalt blue paint and a brush.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-27 18:17"
   }
  ],
  "pet": {
