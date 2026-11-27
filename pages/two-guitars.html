@@ -1,0 +1,27 @@
+<!DOCTYPE html><html><head><meta charset="utf-8"><title>Two Guitars and a Big Plate</title>
+<style>body{margin:0;background:#1a0f0a;color:#f3e3c3;font-family:Georgia,serif;text-align:center}
+h1{margin:14px 0 4px;color:#ffb347}p{margin:4px 12px}
+.row{display:flex;justify-content:center;gap:16px;margin:14px}
+.pad{width:130px;height:130px;border-radius:50%;border:4px solid #8b4a24;background:radial-gradient(#d98c3f,#7a3f18);color:#fff;font-size:18px;cursor:pointer;user-select:none;display:flex;align-items:center;justify-content:center}
+.hit{transform:scale(.93);background:radial-gradient(#ffd27a,#c2661f)}
+#bar{margin:10px auto;width:300px;height:14px;background:#3a2214;border-radius:7px}#fill{height:14px;width:0;background:#ffb347;border-radius:7px}
+button.go{font-size:18px;padding:10px 22px;background:#8b1a2b;color:#fff;border:0;border-radius:8px;cursor:pointer}</style></head><body>
+<h1>TWO GUITARS AND A BIG PLATE</h1>
+<p>Rodrigo y Gabriela, 2006. One plays the tune, one hits the guitar like a pie crust.</p>
+<div class="row"><div class="pad" id="a">RODRIGO<br>strum (A)</div><div class="pad" id="b">GABRIELA<br>slap (S)</div></div>
+<button class="go" id="go">Start the rumba</button>
+<div id="bar"><div id="fill"></div></div><p id="t">Tap the pads or press A and S. Keep to the beat for a good old rub.</p>
+<script>
+var C,on=false,step=0,score=0,tmr;
+function ctx(){if(!C)C=new (window.AudioContext||window.webkitAudioContext)();return C}
+function pluck(f,d){var c=ctx(),o=c.createOscillator(),g=c.createGain();o.type='sawtooth';o.frequency.value=f;var fl=c.createBiquadFilter();fl.type='lowpass';fl.frequency.value=1800;o.connect(fl);fl.connect(g);g.connect(c.destination);g.gain.setValueAtTime(.12,c.currentTime);g.gain.exponentialRampToValueAtTime(.001,c.currentTime+(d||.4));o.start();o.stop(c.currentTime+(d||.4))}
+function strum(){[110,164.8,220,261.6,329.6].forEach(function(f,i){setTimeout(function(){pluck(f,.5)},i*12)})}
+function slap(){var c=ctx(),n=c.createBufferSource(),b=c.createBuffer(1,c.sampleRate*.12,c.sampleRate),d=b.getChannelData(0);for(var i=0;i<d.length;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/d.length,3);n.buffer=b;var f=c.createBiquadFilter();f.type='bandpass';f.frequency.value=900;var g=c.createGain();g.gain.value=.5;n.connect(f);f.connect(g);g.connect(c.destination);n.start()}
+function flash(id){var e=document.getElementById(id);e.classList.add('hit');setTimeout(function(){e.classList.remove('hit')},90)}
+function bump(){score=Math.min(100,score+4);document.getElementById('fill').style.width=score+'%';if(score>=100)document.getElementById('t').textContent='Proper rumba. Give it a good old rub.'}
+function A(){strum();flash('a');bump()}function S(){slap();flash('b');bump()}
+document.getElementById('a').onclick=A;document.getElementById('b').onclick=S;
+document.addEventListener('keydown',function(e){if(e.key=='a')A();if(e.key=='s')S()});
+var pat=['A','S','A','A','S','A','S','S'];
+document.getElementById('go').onclick=function(){on=!on;this.textContent=on?'Stop':'Start the rumba';clearInterval(tmr);if(on){tmr=setInterval(function(){var p=pat[step%8];if(p=='A')strum();else slap();step++;score=Math.max(0,score-1);document.getElementById('fill').style.width=score+'%'},200)}};
+</script></body></html>

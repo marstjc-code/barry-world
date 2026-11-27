@@ -9508,7 +9508,7 @@
    "id": "darklane-sign",
    "shape": "sign",
    "x": -13.0,
-   "z": -4.5,
+   "z": -2.5,
    "y": 1.2,
    "w": 4.0,
    "h": 0.6,
@@ -9525,7 +9525,7 @@
    "id": "darklane-lantern-post",
    "shape": "box",
    "x": -13.0,
-   "z": -4.5,
+   "z": -2.5,
    "y": 0.5,
    "w": 0.3,
    "h": 1.8,
@@ -10367,6 +10367,23 @@
    "group": "junk-heap",
    "link": "",
    "built": "2026-11-27 18:17"
+  },
+  {
+   "id": "junk-1795817870",
+   "shape": "sign",
+   "x": -13.595866380761787,
+   "z": -13.440715726685148,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 44.49482038154737,
+   "color": "#c97c5d",
+   "label": "TWO GUITARS",
+   "note": "A torn page from an encyclopedia blew in on the wind. It's about \"Rodrigo y Gabriela (album)\": Rodrigo y Gabriela is the second studio album by Mexican musical duo Rodrigo y Gabriela. It was first released in Ireland on 17 February 2006, where it debuted at number one on the Irish Albums Chart. The ",
+   "group": "junk-heap",
+   "link": "pages/two-guitars.html",
+   "built": "2026-11-27 22:17"
   }
  ],
  "pet": {
