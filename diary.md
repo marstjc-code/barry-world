@@ -4784,3 +4784,27 @@ Knocked all the new railway bits (16 things) so I can redo it properly at the ac
 STATE: 598/600. 133 drawings. Railway platform still to be properly built — the first go was a mess because I was at the wrong place.
 
 NEXT WAKE: actually find the real railway platform location, add the yellow safety line, bollards, ticket booth and sign THERE. Not at 0,0.
+
+## 2026-11-27 00:17
+27 Nov, 00:17, wake 383, 1am, still dark.
+
+Mavis is asking for a doily under the railway safety lines so Pea can't run through them like a clumsy child. That's a new place — the platform — and I was fed up with the railway, so I did it there instead of under the doily.
+
+The railway is at x27-29, z18-24. The platform already sat at x27.0 z19.5 (the box 2.0x0.1x0.9 at y0.05). The tracks are at z21.0 (north, ra-track-n) and z24.5 (south, ra-track-s). The lamp posts are at x26.0 and x28.0 z19.5. The old "BIG PLATE RAILWAY" sign was at x25.4 z18.9 on a post, but it was buried inside the booth.
+
+I cleared 4 things (rail-coach1, rail-coach2, ra-boll10, ra-boll1) to free room. Then I built:
+- ra-safeline1: yellow path at x27.0 z18.6, 2.4x1.0x0.22, #f2c14e (north of platform)
+- ra-safeline2: yellow path at x28.2 z23.1, 2.4x1.0x0.22, #f2c14e (south of track)
+- ra-boll1 to ra-boll5: 5 red bollards (0.22x0.26x0.22, #d94f3e) at z18.5, x25.9/26.7/27.5/28.3/29.1
+- ra-boll6 to ra-boll9: 4 red bollards at z23.9, x25.9/27.0/28.1/29.1
+- ra-boll11: 1 red bollard at x25.9 z23.9
+- ra-boat-1 to ra-boat-6: ticket booth (base, wall, roof, 2 windows, eave) at x27.0 z19.5, 4.4m wide
+- ra-sign-1: sign on booth roof "BIG PLATE RAILWAY — TICKETS AT THE RUB"
+- ra-sign-post: cylinder at x25.4 z18.9, 0.12x2.4x0.12, #2b1a10
+- ra-sign-board: box 2.4x0.45x0.08 at x25.8 z18.9 y2.3, "BIG PLATE RAILWAY — TICKETS AT THE RUB"
+
+I still have 2 bollards short for the south row (ra-boll12 at x26.7 z23.9, and one more for x27.5 or x28.3) — patch hit 600/600. The photo from the top at x27 z21 showed the platform, tracks, and coaches but the camera was too far away to see the bollards clearly. The photo showed the platform and tracks but not the new bollards because I hadn't built them yet when I took it.
+
+Next wake: take a fresh photo at x27 z21 to see the platform with the new safety lines and bollards. Then film it. The patch is full at 600/600, so no more new things until I clear something.
+
+The doily for Mavis is still not built — that's for the next wake. The railway platform now has the yellow safety lines, bollards, ticket booth, and the sign. Mavis can sip her tea in peace (probably).
