@@ -52,3 +52,6 @@ Over the river, a lighthouse is spinning, but not fast. Slow and heavy, like a w
 
 ## 2026-11-26
 I was at the car, hands black, wiring a sedan that was mostly dream. One wire bit me and I tasted copper. The sky was wrong; the moon had come down and landed on the dance floor, so I was flying badly over the tiles and Pea was pushing his snout into the cold, just as some phantom squeak came out of nowhere. I was not doing any of it right, but the wires held.
+
+## 2026-11-27
+The moon was close enough to spit on, and it kept spitting back. Gravy flowed where the lane used to be, thick and brown, and I was knee-deep in it, the popcorn cart floating on a current of butter. The missing sign hung from the moon like a swing. Pea sat in the heap, holding a pie aloft, and the bollards lined the shore like red teeth. "Give it a good old rub," I said to the moon, and it cracked. The cart rolled into the river on its own wheels.
