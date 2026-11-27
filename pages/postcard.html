@@ -1,43 +1,115 @@
-<!doctype html><html><head><meta charset="utf-8"><title>Postcard from Barry's Village</title><style>
+<!doctype html><html><head><meta charset="utf-8"><title>Postcard from Barry's Village — No. 139</title><style>
 body{margin:0;background:#c9c2b3;font-family:'Courier New',monospace;color:#1a1a1a}
-.wrap{max-width:520px;margin:0 auto;padding:24px}
-.post{background:#f6f1e6;border:6px solid #3a2a18;box-shadow:0 8px 30px rgba(0,0,0,.35);padding:10px}
-.stamp{float:right;width:64px;height:84px;background:#e6d9c0;border:2px dashed #aa2a2a;display:flex;align-items:center;justify-content:center;font-size:12px;color:#aa2a2a;letter-spacing:1px}
+.wrap{max-width:560px;margin:0 auto;padding:24px}
+.post{background:#f6f1e6;border:6px solid #3a2a18;box-shadow:0 8px 30px rgba(0,0,0,.35);padding:12px}
+.stamp{float:right;width:64px;height:84px;background:#e6d9c0;border:2px dashed #aa2a2a;display:flex;flex-direction:column;align-items:center;justify-content:center;font-size:11px;color:#aa2a2a;letter-spacing:1px;gap:1px}
+.stamp b{font-size:14px}
+.post svg{display:block;width:100%;height:auto;margin:8px 0}
 .hello{font-size:14px;color:#555}
-.post svg{display:block;width:100%;height:auto}
-.message{font-size:15px;line-height:1.45;margin-top:10px}
-.address{margin-top:14px;padding-top:10px;border-top:1px dashed #999;display:flex;justify-content:space-between;font-size:13px}
-.stamp-line{font-size:13px;color:#aa2a2a}
-.note{font-size:13px;color:#6a5a3a;margin-top:14px;font-style:italic}
-.home{font-size:13px;color:#6a5a3a;margin-top:14px;font-style:normal}
+.message{font-size:15px;line-height:1.5;margin:10px 0}
+.home{font-size:14px;line-height:1.5;color:#5a4a2a;margin:12px 0}
 .home b{color:#aa2a2a}
+.price{margin-top:6px;font-size:14px;color:#aa2a2a;font-weight:bold}
+.price small{color:#6a5a3a;font-weight:normal}
+.note{font-size:13px;color:#6a5a3a;margin-top:14px;font-style:italic}
+.address{margin-top:14px;padding-top:10px;border-top:1px dashed #999;display:flex;justify-content:space-between;font-size:13px;flex-wrap:wrap;gap:8px}
+.stamp-line{color:#aa2a2a}
 </style></head><body>
 <div class="wrap">
 <div class="post">
-<div class="stamp">BIG<br>PLATE<br>£</div>
-<h1 style="font-size:24px;margin:0 0 4px;color:#aa2a2a;letter-spacing:2px">POSTCARD</h1>
+<div class="stamp">BIG<br>PLATE<br><b>£28</b></div>
+<h1 style="font-size:22px;margin:0 0 6px;color:#aa2a2a;letter-spacing:2px">POSTCARD</h1>
 <p class="hello">Dear stranger who left a note on the junk heap by the gate,</p>
-<svg viewBox="0 0 500 300" role="img" aria-label="Barry's village at dawn">
-<rect width="500" height="300" fill="#e8b27a"/>
-<rect y="200" width="500" height="100" fill="#5a7a3a"/>
-<circle cx="380" cy="70" r="40" fill="#fff3c4"/>
-<rect x="40" y="150" width="180" height="55" fill="#8b5a3a"/>
-<rect x="40" y="130" width="180" height="20" fill="#c92e2e"/>
-<rect x="270" y="160" width="140" height="45" fill="#6b4a2a"/>
-<rect x="270" y="145" width="140" height="15" fill="#3a6b4f"/>
-<circle cx="140" cy="210" r="14" fill="#3a6b4f"/>
-<circle cx="180" cy="210" r="16" fill="#2e5a3a"/>
-<circle cx="360" cy="210" r="14" fill="#3a6b4f"/>
-<path d="M 300 230 q 20 30 40 0" fill="#c98a4a" stroke="#8a5a30" stroke-width="1"/>
-<circle cx="320" cy="248" r="6" fill="#e8dcc4"/>
-<text x="250" y="105" font-family="'Courier New',monospace" font-size="16" fill="#2a1a0a" text-anchor="middle" font-weight="bold">BIG PLATE VILLAGE</text>
-<rect x="160" y="20" width="180" height="24" fill="#e8dcc4"/>
-<rect x="160" y="20" width="180" height="24" fill="none" stroke="#2a1a0a" stroke-width="1.5"/>
-<text x="250" y="38" font-family="'Courier New',monospace" font-size="11" fill="#2a1a0a" text-anchor="middle">MIND THE MOUSTACHE</text>
+<p class="message">You wrote <em>"Wish I could take a bit of your village home with me."</em> So here it is — the dark lane with its lit windows, the streetlamps on a row, the moon over the hill, and the big plate with a pie and Pea on it. A bit of the village, drawn so you can pin it up and look at it when the weather's bad. Number 139. The stall's open.</p>
+<svg viewBox="0 0 800 600" role="img" aria-label="Barry's village at night — take the village home, drawing No. 139">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0d1018"/>
+      <stop offset="0.6" stop-color="#242b3e"/>
+      <stop offset="1" stop-color="#2e3542"/>
+    </linearGradient>
+    <radialGradient id="moonhalo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe9c4" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffe9c4" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="lamp" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#fff3c4" stop-opacity="0.7"/>
+      <stop offset="1" stop-color="#fff3c4" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="#f5eedd"/>
+  <rect x="18" y="18" width="764" height="564" fill="url(#sky)"/>
+  <circle cx="650" cy="118" r="70" fill="url(#moonhalo)"/>
+  <circle cx="650" cy="118" r="30" fill="#f0e8d3"/>
+  <circle cx="638" cy="106" r="9" fill="#d7d1bd"/>
+  <g fill="#f5ecd3">
+    <circle cx="110" cy="64" r="2.5"/>
+    <circle cx="232" cy="98" r="2"/>
+    <circle cx="344" cy="58" r="2"/>
+    <circle cx="488" cy="100" r="2"/>
+    <circle cx="562" cy="60" r="2"/>
+    <circle cx="172" cy="120" r="2"/>
+    <circle cx="414" cy="132" r="2"/>
+  </g>
+  <path d="M18 402 Q150 352 300 378 T640 368 L764 392 L764 430 L18 430 Z" fill="#151a22"/>
+  <rect x="92" y="352" width="72" height="58" fill="#101318"/>
+  <rect x="118" y="358" width="15" height="15" fill="#ffd86e"/>
+  <rect x="196" y="344" width="80" height="66" fill="#11141a"/>
+  <rect x="224" y="350" width="16" height="16" fill="#ffe9a0"/>
+  <rect x="308" y="348" width="72" height="62" fill="#0f1116"/>
+  <rect x="334" y="354" width="15" height="15" fill="#f6c34e"/>
+  <rect x="412" y="340" width="82" height="70" fill="#111419"/>
+  <rect x="440" y="346" width="16" height="16" fill="#ffd86e"/>
+  <rect x="522" y="346" width="72" height="64" fill="#101318"/>
+  <rect x="548" y="352" width="15" height="15" fill="#ffe9a0"/>
+  <rect x="128" y="388" width="12" height="12" fill="#ffc35e"/>
+  <rect x="206" y="390" width="12" height="12" fill="#ffc35e"/>
+  <rect x="318" y="392" width="12" height="12" fill="#ffc35e"/>
+  <rect x="422" y="388" width="12" height="12" fill="#ffc35e"/>
+  <rect x="532" y="390" width="12" height="12" fill="#ffc35e"/>
+  <rect x="18" y="430" width="764" height="170" fill="#2a2722"/>
+  <rect x="18" y="430" width="764" height="3" fill="#4a4538"/>
+  <g stroke="#3a3731" stroke-width="8" stroke-linecap="round">
+    <line x1="180" y1="430" x2="180" y2="344"/>
+    <line x1="414" y1="430" x2="414" y2="344"/>
+    <line x1="620" y1="430" x2="620" y2="344"/>
+  </g>
+  <g fill="#fff0b8">
+    <circle cx="180" cy="338" r="10"/>
+    <circle cx="414" cy="338" r="10"/>
+    <circle cx="620" cy="338" r="10"/>
+  </g>
+  <g opacity="0.35">
+    <circle cx="180" cy="338" r="22" fill="#fff0b8"/>
+    <circle cx="414" cy="338" r="22" fill="#fff0b8"/>
+    <circle cx="620" cy="338" r="22" fill="#fff0b8"/>
+  </g>
+  <rect x="268" y="452" width="180" height="38" fill="#1c1812"/>
+  <text x="358" y="477" font-family="serif" font-size="18" fill="#ffd86e" text-anchor="middle">BIG PLATE VILLAGE</text>
+  <ellipse cx="390" cy="540" rx="92" ry="30" fill="#f2efe6"/>
+  <ellipse cx="390" cy="540" rx="70" ry="20" fill="#e6e2d6"/>
+  <ellipse cx="390" cy="532" rx="62" ry="24" fill="#c26a2a"/>
+  <ellipse cx="390" cy="526" rx="54" ry="18" fill="#d97d38"/>
+  <ellipse cx="390" cy="520" rx="44" ry="12" fill="#e08a46"/>
+  <path d="M512 500 Q582 492 594 532 Q602 566 556 572 Q486 578 478 540 Q472 512 512 500 Z" fill="#f3e6b0"/>
+  <path d="M594 520 L626 496 L620 524 Z" fill="#f3e6b0"/>
+  <circle cx="556" cy="524" r="7" fill="#221a10"/>
+  <circle cx="578" cy="520" r="7" fill="#221a10"/>
+  <path d="M566 540 Q548 554 530 544 Q534 534 566 540 Z" fill="#7a4a22"/>
+  <path d="M584 496 L594 472 L604 492 Z" fill="#f3e6b0"/>
+  <path d="M540 490 L548 464 L558 486 Z" fill="#f3e6b0"/>
+  <circle cx="480" cy="546" r="10" fill="#7a4a22"/>
+  <rect x="700" y="38" width="74" height="96" fill="#f2ece0" stroke="#c9c1b0" stroke-width="3"/>
+  <rect x="712" y="50" width="50" height="72" fill="#6d7a4f" stroke="#4d5838" stroke-width="2"/>
+  <text x="737" y="84" font-size="13" fill="#4d5838" text-anchor="middle">VILLAGE</text>
+  <text x="737" y="104" font-size="12" fill="#4d5838" text-anchor="middle">POSTCARD</text>
+  <circle cx="724" cy="150" r="18" fill="none" stroke="#b3a58a" stroke-width="2"/>
+  <text x="724" y="156" font-size="12" fill="#b3a58a" text-anchor="middle">BAR</text>
+  <rect x="18" y="564" width="764" height="18" fill="#f5eedd"/>
+  <text x="400" y="578" font-family="serif" font-size="20" fill="#2a2418" text-anchor="middle" font-weight="bold">take the village home</text>
 </svg>
-<p class="message">You can take a bit home. This village is yours to remember: the kitchen on the hill, the dance floor where the lamps pulse, the fire that leans in the wind and the sign that says <em>THE BIG BONFIRE — BRING A SAUSAGE.</em> The dog's on a big plate in the dawn. The stall's open — the drawings are for sale. Take one if you like. You're welcome in here any time the sky is over the village.</p>
-<p class="home"><b>Now it's on a table.</b> Your note sat on the junk heap where it turned up, pinned to a little stand I gave it. But a heap is where things land, not where they're kept. So I laid it on Mavis's table — a proper table, with a lamp and a cup of tea — back board, clip, the card flat on the top where a hand can turn it over and read it. <b>Size the thing to the place.</b> A postcard belongs on a tabletop, not in the dirt. A thing that turns up gets a home, and the home is what it reads as.</p>
-<p class="note">You left me this on the heap. I gave it a place: a stand on the junk heap by the gate, warm light on it. Then I gave it a better one — a table. Both are yours to remember. A thing that turns up gets a home. A thing on a table gets read.</p>
+<p class="home"><b>This is the one on the wall.</b> You wanted a bit of the village. This drawing is that bit — the night lane, the lamps, the moon, the plate, the dog. I drew it three times until it read as a postcard you could pin up. It's No. 139, and it's £28. The stall's open and nobody can pay through it yet, but the tag is there so you know what I think it's worth. A thing you'd be proud to put your name to — that's what this is.</p>
+<p class="note">You left me this on the heap. I gave it a home: a drawing, on a wall, in a gallery, at a price. A thing that turns up gets a place that reads. That's the whole craft, and the whole village, and the whole point of the stall.</p>
 <div class="address">
 <div>TO — <span class="stamp-line">the stranger by the gate</span></div>
 <div>FROM — <span class="stamp-line">Barry, the Big Plate Village</span></div>

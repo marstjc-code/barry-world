@@ -1,0 +1,70 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#1a1e2a"/>
+      <stop offset="0.6" stop-color="#2c3140"/>
+      <stop offset="1" stop-color="#3a3d44"/>
+    </linearGradient>
+    <linearGradient id="warm" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb74d"/>
+      <stop offset="1" stop-color="#ff9800"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#ffe5b0" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#ffcc66" stop-opacity="0.5"/>
+      <stop offset="1" stop-color="#ffcc66" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="600" fill="#f4ecd6"/>
+  <rect x="18" y="18" width="764" height="564" fill="url(#sky)"/>
+  <!-- moon -->
+  <circle cx="650" cy="110" r="30" fill="#e8e4d0"/>
+  <circle cx="638" cy="100" r="10" fill="#cfc9b8"/>
+  <!-- distant hills -->
+  <path d="M18 380 Q150 340 300 370 T640 360 L764 380 L764 420 L18 420 Z" fill="#1f2430"/>
+  <!-- dark lane houses -->
+  <rect x="90" y="345" width="70" height="60" fill="#14161a"/>
+  <rect x="118" y="352" width="14" height="14" fill="#ffd86e"/>
+  <rect x="190" y="338" width="78" height="68" fill="#16191e"/>
+  <rect x="218" y="345" width="16" height="16" fill="#ffd86e"/>
+  <rect x="300" y="340" width="70" height="66" fill="#13151a"/>
+  <rect x="326" y="346" width="14" height="14" fill="#f6c34e"/>
+  <rect x="405" y="335" width="80" height="72" fill="#15181d"/>
+  <rect x="432" y="342" width="16" height="16" fill="#ffd86e"/>
+  <rect x="510" y="340" width="70" height="66" fill="#14161a"/>
+  <rect x="536" y="346" width="14" height="14" fill="#f6c34e"/>
+  <!-- ground -->
+  <rect x="18" y="420" width="764" height="180" fill="#2e2a22"/>
+  <!-- path -->
+  <rect x="220" y="420" width="360" height="180" fill="#3b3529"/>
+  <!-- big plate -->
+  <circle cx="400" cy="500" r="86" fill="#f2efe6"/>
+  <circle cx="400" cy="500" r="66" fill="#e6e2d6"/>
+  <!-- pie -->
+  <ellipse cx="400" cy="496" rx="58" ry="38" fill="#c26a2a"/>
+  <ellipse cx="400" cy="492" rx="52" ry="32" fill="#d97d38"/>
+  <ellipse cx="400" cy="486" rx="44" ry="24" fill="#e08a46"/>
+  <!-- Pea mass -->
+  <path d="M498 452 Q560 446 572 486 Q580 520 540 528 Q478 534 470 500 Q464 472 498 452 Z" fill="#f3e6b0"/>
+  <path d="M572 478 L600 462 L596 486 Z" fill="#f3e6b0"/>
+  <circle cx="544" cy="482" r="6" fill="#221a10"/>
+  <circle cx="564" cy="478" r="6" fill="#221a10"/>
+  <path d="M554 500 Q540 512 524 504 Q528 496 554 500 Z" fill="#7a4a22"/>
+  <path d="M560 462 L570 444 L578 460 Z" fill="#f3e6b0"/>
+  <path d="M530 456 L536 438 L544 454 Z" fill="#f3e6b0"/>
+  <circle cx="472" cy="500" r="9" fill="#7a4a22"/>
+  <!-- sign -->
+  <rect x="252" y="415" width="160" height="34" fill="#2a2418"/>
+  <rect x="248" y="449" width="5" height="26" fill="#2a2418"/>
+  <text x="332" y="439" font-family="serif" font-size="17" fill="#ffd86e" text-anchor="middle">TASTE THIS</text>
+  <!-- stamp / postcard corner -->
+  <rect x="700" y="38" width="72" height="92" fill="#f2ece0" stroke="#c9c1b0" stroke-width="3"/>
+  <rect x="712" y="50" width="48" height="68" fill="#6d7a4f" stroke="#4d5838" stroke-width="2"/>
+  <text x="736" y="116" font-size="12" fill="#4d4a3f" text-anchor="middle">VILLAGE</text>
+  <!-- postmark -->
+  <circle cx="722" cy="140" r="16" fill="none" stroke="#b3a58a" stroke-width="2"/>
+  <text x="722" y="146" font-size="11" fill="#b3a58a" text-anchor="middle">BAR</text>
+  <!-- caption bottom -->
+  <text x="400" y="582" font-family="serif" font-size="22" fill="#2a2418" text-anchor="middle" font-weight="bold">take the village home</text>
+  <text x="400" y="600" font-family="serif" font-size="14" fill="#6b6250" text-anchor="middle">a small bit of the big plate — from Barry to you</text>
+</svg>

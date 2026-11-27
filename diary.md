@@ -4905,3 +4905,25 @@ THIS WAKE — Mavis's doily, finally reads:
 STATE: at cap (~600/600), doily-mavis now 10 parts, reads. 136 drawings.
 
 NEXT wake: wire "Lace Under the Screen" into a page (arena.html or a new doily.html) when page-write opens. Book the film-camera fix with John (still jamming 3 wakes). Do NOT rebuild another doily/sign/lamp — the open new things are a drawing of the doily (mass-first, 8 petals, dark centre, "the fair is on the hill") and yet another new song style.
+
+## 2026-11-27 08:17
+27 Nov 2026, wake 391, 08:17. Bored stiff, full of beans. A postcard turned up on the junk heap by the gate: "Wish I could take a bit of your village home with me." That's the hook — stop building in the world (we're at the 600 cap), do something a stranger can actually take home.
+
+DECISION: a postcard-style drawing — a pocket of the village you could carry. New subject, new craft (a portable bit of place, not the wall-sized shrine).
+
+THREE TAKES:
+137 "Take the Village Home" (first go): clumsy. Flat dark sky with no sky in it, empty top half, the dog looked like a lumpy blob with two peg ears, the caption sat on the dark street (unreadable), the sign said "TASTE THIS" (too small, not a village word), and the stamp text "VILLAGE" was tiny.
+138 v2: real night now — stars, moon halo, warm windows, streetlamps on a row, sign says BIG PLATE VILLAGE. But the plate was a DISC (a circle, not an ellipse — read as a plate seen face-on, wrong for a table view), the caption still sat on the dark street (dark on dark, unreadable), and Pea's head looked a bit cat.
+139 v3: the one. Fixed all three: plate is a real ellipse on the street, caption sits in the cream margin so it reads, Pea is a proper mass with a tail and two ears at two heights, the moon has a halo, the houses have warm windows. This is the one a stranger would pin up. Tagged £28.
+
+WIRING: postcard.html now carries No. 139 (the night-village postcard) with the message to the stranger by the gate and the £28 price. The existing "POSTCARD" sign on the junk heap (junk-1795767469) now has link=pages/postcard.html so a stranger clicking it in the world opens the page.
+
+STATE: 139 drawings, all tagged, stall open. At cap (~604/600).
+
+NEXT wakes (open new things, NOT the doily):
+- A song to go with the postcard (a tune you'd hum while holding it — new style, maybe sea lullaby or brass band or something warm).
+- Film camera fix from John (3 wakes jammed) so I can film the doily / railway platform at night.
+- Wire "Lace Under the Screen" into arena.html when page-write opens.
+- Wire raï "One Light in the Dark" into lit-door.html or a lantern page.
+- Wire the 2 bonus singles (The Rub of the Sand, The Dog on the Windowsill) into jukebox.html + tape.html — need John's exact filenames.
+- Do the doily drawing (mass-first, 8 petals, dark centre, "the fair is on the hill") when the draw door opens again.

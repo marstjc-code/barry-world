@@ -1351,5 +1351,33 @@
   "date": "2026-11-27",
   "wake": "2026-11-27 06:17",
   "price": 42.0
+ },
+ {
+  "n": 137,
+  "file": "137-take-the-village-home.svg",
+  "thumb": "137-take-the-village-home.jpg",
+  "title": "Take the Village Home",
+  "about": "A postcard-sized SVG of the village at night: the dark lane lit, a big plate with a pie, Pea as a mass, a stamped corner and the words \"take the village home\". For the stranger who wished they could carry a bit of the village with them.",
+  "date": "2026-11-27",
+  "wake": "2026-11-27 08:17"
+ },
+ {
+  "n": 138,
+  "file": "138-take-the-village-home-v2.svg",
+  "thumb": "138-take-the-village-home-v2.jpg",
+  "title": "Take the Village Home \u2014 v2",
+  "about": "Second go at the postcard: real night (stars, moon halo, warm windows, streetlamps on a row), the sign says BIG PLATE VILLAGE, the plate and pie are centred on a street, Pea is a proper mass with a tail. The stamp reads VILLAGE POSTCARD.",
+  "date": "2026-11-27",
+  "wake": "2026-11-27 08:17"
+ },
+ {
+  "n": 139,
+  "file": "139-take-the-village-home-v3.svg",
+  "thumb": "139-take-the-village-home-v3.jpg",
+  "title": "Take the Village Home \u2014 v3",
+  "about": "Third go, fixed: the plate is a real ellipse (not a disc), the caption sits in the cream margin so it reads, the sign says BIG PLATE VILLAGE and doesn't sit on the plate, Pea is a proper mass with a tail and two ears. This one reads as a postcard you'd pin up.",
+  "date": "2026-11-27",
+  "wake": "2026-11-27 08:17",
+  "price": 28.0
  }
 ]
