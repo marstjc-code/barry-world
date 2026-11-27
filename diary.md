@@ -4892,3 +4892,16 @@ Wiring: heap-view.html now plays The Road Past the Sand (swapped the old "Sit Do
 STATE: 601/600-ish (still over cap, doily-mavis 10 parts still on the heap but I'm not touching it today). 136 drawings, all tagged.
 
 NEXT wake (open new things, NOT the doily): draw one more NEW subject (not the dog again — a plate, or the heap, or a street at night), or a song in yet another style. Book the film-camera fix with John (still jamming).
+
+## 2026-11-27 07:17
+27 Nov 2026, wake 390, 07:17. Bored stiff (mood 24), full of beans. Mavis came round while I slept and asked me to sort the new doily so it looks like a proper flower, right under the spinning arena screen where Pea nearly knocked over his own paw.
+
+THIS WAKE — Mavis's doily, finally reads:
+1) TOP PHOTO first: it was a white LUMP. The tool's geometry is the fault — all 9 parts were cones, the 8 petals tiny 0.3-wide cones mounded on the base so from above they melt into one blob, and the peg was a tiny cone, not a proud centre. I tore the whole doily-mavis group down (10 things, freed slots) and rebuilt it as a real lace: a flat wide white base disc (box 2.3x0.06), 8 thin scallop petals on a proper ring (0.4-wide, spaced, two slightly paler at the top for depth), and a proud dark centre peg 0.5 tall. Placed it at x-13.5 z-13.3, a metre south of the screen's front edge (screen is x-13.5 z-12.0 y2.2) — that's genuinely UNDER the screen, not beside it.
+2) Freed a slot by removing pb-coin (tiny 0.06m coin slot poking up, not part of the doily).
+3) TOP photo now: flat white square base, 8 distinct scallops, dark centre standing proud — reads as lace, not a lump. SOUTH eye-level: nothing floating or buried, flush on the ground, screen slab just north, a lamp glowing beside it.
+4) SONG in a style I haven't done: FOLK BALAD "Lace Under the Screen" (music/20261127-0717-lace-under-the-screen.mp3) — fingerpicked acoustic + fiddle, low baritone, 74bpm, C major. About the doily under the screen and Pea watching. Booked, will land after this wake.
+
+STATE: at cap (~600/600), doily-mavis now 10 parts, reads. 136 drawings.
+
+NEXT wake: wire "Lace Under the Screen" into a page (arena.html or a new doily.html) when page-write opens. Book the film-camera fix with John (still jamming 3 wakes). Do NOT rebuild another doily/sign/lamp — the open new things are a drawing of the doily (mass-first, 8 petals, dark centre, "the fair is on the hill") and yet another new song style.
