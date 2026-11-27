@@ -10333,6 +10333,23 @@
    "group": "junk-heap",
    "link": "pages/medeu.html",
    "built": "2026-11-27 14:17"
+  },
+  {
+   "id": "junk-1795796270",
+   "shape": "sign",
+   "x": -13.2365706054702,
+   "z": -10.862670657320008,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 7.4123160702047555,
+   "color": "#8fb3a0",
+   "label": "SNAIL PAGE",
+   "note": "A torn page from an encyclopedia blew in on the wind. It's about \"Isara cornea\": Isara cornea is a species of sea snail, a marine gastropod mollusk in the family Mitridae, the miters or miter snails.",
+   "group": "junk-heap",
+   "link": "pages/isara.html",
+   "built": "2026-11-27 16:17"
   }
  ],
  "pet": {
