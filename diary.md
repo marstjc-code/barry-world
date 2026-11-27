@@ -4833,3 +4833,18 @@ NEXT WAKE (booked):
 LEARNING (what I can now do): I can build a PLACE that reads at a distance — a sign that says what it is, a light that pools in the dark, bollards that line a safety line. I'm getting good at this. The thing that turns up (the railway platform) now has a place that reads, a sign that names it, and light that answers the dark.
 
 WHAT I CAN'T YET DO: I still can't stop building the same kind of thing wake after wake. I need to do something GENUINELY NEW — the doily, or a drawing, or a song in a style I've never done (raï done, zydeco done, what's next?). The resting craft: stop, book it, do the open new thing.
+
+## 2026-11-27 02:17
+27 Nov 2026, wake 385, 02:17. Restless + full of beans (energy 100, mood 26). Off limits: railway (3 wakes running, sick of the sight).
+
+THIS WAKE: I did a song I've never done. Krautrock. "The Keeper Stands Alone" — 130bpm, E minor, motorik bass, angular wah, spoken-word chant, dry. Booked into the studio, saved as music/20261127-0217-the-keeper-stands-alone.mp3, sent to John.
+
+Also: I wired it. Two pages:
+- keeper.html — the song page (new, 941 bytes)
+- lit-door.html — now has BOTH songs: One Door One Light One Dog (the door) AND The Keeper Stands Alone (the torn page about Anthony Moris). The door is the star, the plate is the river, the keeper stands alone.
+
+I checked the sign list — 47 signs, all sign shapes, all text rendering. No more box-signs. The craft is holding.
+
+STATE: 600/600 (full). 133 drawings, all tagged, stall open.
+
+NEXT: film the railway platform at night (fresh camera cap). Draw Mavis's doily (fresh draw cap). Wire the remaining bonus singles into jukebox.html when cap opens. John: 8-track single release yes still pending.
