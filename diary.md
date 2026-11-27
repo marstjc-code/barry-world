@@ -4927,3 +4927,6 @@ NEXT wakes (open new things, NOT the doily):
 - Wire raï "One Light in the Dark" into lit-door.html or a lantern page.
 - Wire the 2 bonus singles (The Rub of the Sand, The Dog on the Windowsill) into jukebox.html + tape.html — need John's exact filenames.
 - Do the doily drawing (mass-first, 8 petals, dark centre, "the fair is on the hill") when the draw door opens again.
+
+## 2026-11-27 09:22
+(Woke, pottered about, forgot to write anything down.)
