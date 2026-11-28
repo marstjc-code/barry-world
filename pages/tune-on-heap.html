@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>The Busker's Tune — on the heap</title>
 <style>
-:root{--ink:#0d1020;--warm:#e8c378;--red:#b03a3a}
+:root{--ink:#0d1020;--warm:#e8c378;--red:#b03a3a;--brass:#c9a227}
 body{margin:0;font-family:Georgia,'Times New Roman',serif;background:radial-gradient(ellipse at 50% 30%,#1c1a2e 0%,#0d0f1c 60%,#05060e 100%);color:#e8dcc4;min-height:100vh;overflow-x:hidden;position:relative}
 .halo{position:fixed;top:22%;left:50%;transform:translateX(-50%);width:70vmin;aspect-ratio:1;border-radius:50%;background:radial-gradient(circle,#f4d9a0cc 0%,#e0b05b33 45%,transparent 72%);filter:blur(6px);pointer-events:none;animation:pulse 4.2s ease-in-out infinite}
 @keyframes pulse{0%,100%{opacity:.55;transform:translateX(-50%) scale(1)}50%{opacity:.85;transform:translateX(-50%) scale(1.06)}}
@@ -19,11 +19,15 @@ body{margin:0;font-family:Georgia,'Times New Roman',serif;background:radial-grad
 .tune-card h2{font-size:1rem;margin:0 0 6px;color:var(--warm);text-transform:uppercase;letter-spacing:1.5px}
 .tune-card p{margin:0;font-size:.95rem;line-height:1.55}
 .tune-card .heard{font-size:.8rem;color:#9a9482;margin-top:10px;font-style:italic}
+.mech{margin-top:14px;padding:10px 14px;background:#151220;border:1px dashed #5a5240;border-radius:6px;font-size:.85rem;color:#c9a227}
+.mech b{color:#e8dcc4}
 .controls{margin-top:18px;display:flex;gap:10px;flex-wrap:wrap}
 button{background:var(--red);color:#ffe9d6;border:2px solid #5b1212;font-size:1rem;padding:10px 16px;border-radius:6px;cursor:pointer;font-family:inherit;font-weight:700;transition:transform .12s,box-shadow .12s}
 button:hover{transform:translateY(-2px);box-shadow:0 6px 0 #5b1212}
 button:active{transform:translateY(0);box-shadow:0 2px 0 #5b1212}
 button.ghost{background:transparent;color:#e8dcc4;border-color:#7a725f}
+button.brass{background:var(--brass);border-color:#5a4a10;color:#2a2318}
+button.brass:hover{box-shadow:0 6px 0 #5a4a10}
 .note{margin-top:18px;font-size:.85rem;color:#9a9482;border-top:1px dashed #5a5240;padding-top:10px;font-style:italic}
 .foot{margin-top:14px;font-size:.8rem;color:#7a725f}
 .foot b{color:#d8c38c}
@@ -40,14 +44,17 @@ button.ghost{background:transparent;color:#e8dcc4;border-color:#7a725f}
     <h1>The Busker's Tune</h1>
     <div class="sub">found on the junk heap by the gate</div>
     <p><b>What turned up:</b> a busker, one tune, no name, no note. Played it once, slow, by the gate, then gone before I could ask.</p>
-    <p><b>Where it's kept:</b> the orange ball on the heap at the gate. Press the button and it'll hum in the studio's own voice, the way I heard it through the payphone.</p>
+    <p><b>Where it's kept:</b> the orange ball on the heap at the gate. Beside it now hangs a small brass bell — the tune's heart, so you can hear it without asking.</p>
   </div>
-  <div class="tune-card">
+  <div class=tune-card">
     <h2>Tune #1 — The Heap Hum</h2>
     <p>One low note, a little wobble, and a second voice an octave up that doesn't quite stay in key. It's the kind of tune that doesn't want to be named, and I'm not going to try to name it yet.</p>
     <p class="heard">What I heard: a low string, a reed, maybe a bell. Something from a country I've never been to. The busker didn't look at me when I called out. Just played the last note longer.</p>
+    <div class="mech">
+      <b>The mechanism:</b> the brass bell on the pole next to the ball is the sound source. Press the bell button and it'll ring in the studio's own voice — one press = one full hum, two presses = the low voice drops, three presses = a bell comes up. The ball stays quiet; the bell does the talking.
+    </div>
     <div class="controls">
-      <button id="playBtn" onclick="window.tunePlay()">Play the heap hum</button>
+      <button id="playBtn" class="brass" onclick="window.tunePlay()">Ring the bell</button>
       <button id="stopBtn" class="ghost" onclick="window.tuneStop()">Stop</button>
     </div>
     <div class="note">One press = one full hum. Two presses = the low voice drops. Three presses = a bell comes up.</div>

@@ -142,8 +142,8 @@
   {
    "id": "df32",
    "shape": "box",
-   "x": -6.5,
-   "z": -6.0,
+   "x": -2.5,
+   "z": -2.0,
    "y": 0,
    "w": 1.0,
    "h": 0.1,
@@ -9352,21 +9352,6 @@
    "built": "2026-11-27 07:17"
   },
   {
-   "id": "pet-30",
-   "shape": "sphere",
-   "x": 5.9,
-   "z": -8.7,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#FFA500",
-   "label": "a string of drool that stretches to x5.0",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-31",
    "shape": "sphere",
    "x": 3.6,
@@ -9481,7 +9466,7 @@
    "label": "THE BUSKER'S TUNE",
    "note": "sign naming the ball",
    "group": "busker-spot",
-   "link": "",
+   "link": "pages/tune-on-heap.html",
    "built": "2026-11-27 23:17"
   },
   {
@@ -9944,16 +9929,65 @@
    "label": "a glossy black rectangle",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "ball-bell-pole",
+   "shape": "cylinder",
+   "x": -14.5,
+   "z": -12.8,
+   "y": 0.0,
+   "w": 0.05,
+   "h": 1.6,
+   "d": 0.05,
+   "rot": 0.0,
+   "color": "#4a3a22",
+   "label": "BELL POLE",
+   "note": "",
+   "group": "busker-spot",
+   "link": "",
+   "built": "2026-11-28 08:17"
+  },
+  {
+   "id": "ball-bell",
+   "shape": "cylinder",
+   "x": -14.5,
+   "z": -12.8,
+   "y": 1.55,
+   "w": 0.25,
+   "h": 0.18,
+   "d": 0.25,
+   "rot": 90.0,
+   "color": "#c9a227",
+   "label": "BELL \u2014 THE TUNE'S HEART",
+   "note": "",
+   "group": "busker-spot",
+   "link": "",
+   "built": "2026-11-28 08:17"
+  },
+  {
+   "id": "pet-40",
+   "shape": "sphere",
+   "x": -2.1,
+   "z": -1.7,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "a wobbly crust",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -6.5,
-  "z": -6.0,
-  "doing": "Pea sniffs the dusty air by the jukebox and violently yanks a heavy ceramic tile out of thin air just to see it drop at his feet.",
-  "sound": "THUMP-bark-WOOF"
+  "x": -2.5,
+  "z": -2.0,
+  "doing": "Pea lunges wildly at the warm glow of the corner lamp and paws frantically until he knocks a heavy glass tray right off its edge just to hear it clatter.",
+  "sound": "bark-thump-clack"
  },
  "realsky": false,
  "spaced": "2026-11-13"
