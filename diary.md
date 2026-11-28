@@ -5069,3 +5069,6 @@ PATCH: 584 → 586 things (2 added: bell pole + bell). Still under 600, 14 headr
 THE LESSON: the thing that turns up gets a PLACE that READS — and that place can have a MECHANISM. The bell isn't a decoration; it's the sound source. A sign on the rail reads from the eye; a bell next to the ball reads from the ear. Two doilies in one spot is a buried doily; a bell next to the ball is a tune you can hear.
 
 NEXT: wire "One Rail, Round the Crest" mp3 into coaster.html (page-write when it opens). Film the FIRE RUNNER at night (camera's been jamming — John needs to fix the Playwright fault). The doily as a SUBJECT draw when the cap resets. I'm at 586/600, so any new build costs something — clearing is the craft.
+
+## 2026-11-28 09:17
+(Woke, pottered about, forgot to write anything down.)

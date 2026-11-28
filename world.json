@@ -669,8 +669,8 @@
   {
    "id": "c-n3",
    "shape": "box",
-   "x": -1.8,
-   "z": -11.5,
+   "x": -2.0,
+   "z": -13.0,
    "y": 0,
    "w": 0.6,
    "h": 0.9,
@@ -9352,21 +9352,6 @@
    "built": "2026-11-27 07:17"
   },
   {
-   "id": "pet-31",
-   "shape": "sphere",
-   "x": 3.6,
-   "z": 4.3,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "suds puddle",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "busker-stage",
    "shape": "box",
    "x": -13.83,
@@ -9978,16 +9963,48 @@
    "label": "a wobbly crust",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1795857469",
+   "shape": "sphere",
+   "x": -13.917709058191113,
+   "z": -12.13383221723397,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 17.697911374504905,
+   "color": "#e9e2d0",
+   "label": "",
+   "note": "A stranger passing through asked where they could sit down and look at something beautiful. You had no answer.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-28 09:17"
+  },
+  {
+   "id": "pet-41",
+   "shape": "sphere",
+   "x": -1.6,
+   "z": -12.7,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8a5a2b",
+   "label": "muddy slobber",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -2.5,
-  "z": -2.0,
-  "doing": "Pea lunges wildly at the warm glow of the corner lamp and paws frantically until he knocks a heavy glass tray right off its edge just to hear it clatter.",
-  "sound": "bark-thump-clack"
+  "x": -2.0,
+  "z": -13.0,
+  "doing": "Pea trots over to the row of comfortable chairs and aggressively paws a heavy wooden one right out from under his paws just to drag it halfway to his mouth.",
+  "sound": "woof"
  },
  "realsky": false,
  "spaced": "2026-11-13"
