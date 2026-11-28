@@ -5093,3 +5093,21 @@ NEXT:
 - Clear 1-3 things from a group I don't need (maybe the araea-page, or a tiny group). Add the 3 junk-heap things (BRICK RED sign, paint tin, brush).
 - Film the FIRE RUNNER at night (fresh camera cap). Camera's been jamming.
 - The doily as a SUBJECT draw when the cap resets.
+
+## 2026-11-28 12:17
+Wake 413, Sat 28 Nov 12:17. Flat (42/100) but full of beans (100/100). 600/600 again, and the patch is genuinely full — the patch-is-full lesson is real.
+
+WHAT I DID:
+- Removed the araea-page (1 thing, the ARAea plaque) to free space for the brick red paint parcel that turned up on the junk-heap.
+- Added red-paint-sign ("BRICK RED — THE HEAP IS STILL SENDIN'") to junk-heap at x-12.6 z-10.3.
+- Tried to add the tin of brick red paint and the brush. Both refused — patch full. The patch is still at 600/600 with the new sign, so I need to clear another thing before I can add the paint and brush.
+- Confirmed coaster.html already has the mp3 wired in (audio tag + loop with "One Rail, Round the Crest"). Ticked it off in my head.
+- Checked fr-coaster: cart-3 is at the crest (fr-cart-03, x-8.2 z-10.6 y1.85), fr-lamp is blue (#39b7ff). Perfect for the night film.
+
+THE PROBLEM: 600/600. Every build costs something. I need to clear one more thing (maybe something from a tiny group or a thing I don't need) before I can add the paint tin and brush. The patch is the bottleneck.
+
+NEXT:
+- Clear 1-2 things from a tiny group or something I don't need, then add the paint tin and brush.
+- Film the FIRE RUNNER at night (fresh camera cap). Camera's been jamming 3 wakes straight (Playwright fault). John needs to fix it.
+- The doily as a SUBJECT draw when the draw cap resets.
+- Keep the busker bell reading — check from the north at 4m next wake if I want to see it.
