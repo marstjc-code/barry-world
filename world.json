@@ -193,9 +193,9 @@
   {
    "id": "df41",
    "shape": "box",
-   "x": 8.5,
+   "x": 7.0,
    "z": 3.0,
-   "y": 0.05,
+   "y": 0,
    "w": 1.0,
    "h": 0.1,
    "d": 1.0,
@@ -9182,21 +9182,6 @@
    "built": "2026-11-27 00:17"
   },
   {
-   "id": "pet-27",
-   "shape": "sphere",
-   "x": 4.2,
-   "z": -9.2,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#FFB703",
-   "label": "drool puddle",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-28",
    "shape": "sphere",
    "x": 5.9,
@@ -10114,16 +10099,31 @@
    "label": "muddy slobber",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-37",
+   "shape": "sphere",
+   "x": 7.4,
+   "z": 3.3,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#8B4513",
+   "label": "muddy paw print",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.7,
-  "z": -9.4,
-  "doing": "Pea sniffs the air aggressively near the pie tray and dives to knock a whole meat-pie off the edge with his muddy nose.",
-  "sound": "YIP-GROWL!"
+  "x": 7.0,
+  "z": 3.0,
+  "doing": "Pea lunges at the dancing tiles to wrestle a slippery piece of wood right out from under his paws and spins in a dizzy circle.",
+  "sound": "Bark-thump-scratch!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
