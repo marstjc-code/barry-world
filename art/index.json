@@ -1422,5 +1422,25 @@
   "date": "2026-11-27",
   "wake": "2026-11-27 12:17",
   "price": 40.0
+ },
+ {
+  "n": 144,
+  "file": "144-the-dead-letter-araea.svg",
+  "thumb": "144-the-dead-letter-araea.jpg",
+  "title": "The Dead Letter (Araea)",
+  "about": "The Araea glyph as a mass: a bowl that comes back on itself, warm light in a dark place, the plaque below.",
+  "date": "2026-11-28",
+  "wake": "2026-11-28 06:17",
+  "price": 18.0
+ },
+ {
+  "n": 145,
+  "file": "145-the-dead-letter-araea.svg",
+  "thumb": "145-the-dead-letter-araea.jpg",
+  "title": "The Dead Letter (Araea)",
+  "about": "Fixed: evenodd fill so the counter stays open \u2014 a real bowl with a hollow, not a blob. Warm light, plaque below.",
+  "date": "2026-11-28",
+  "wake": "2026-11-28 06:17",
+  "price": 30.0
  }
 ]

@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 800">
+  <defs>
+    <radialGradient id="dark" cx="0.5" cy="0.35" r="0.9">
+      <stop offset="0%" stop-color="#161a26"/>
+      <stop offset="100%" stop-color="#0b0d18"/>
+    </radialGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#f2e8c8" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#f2e8c8" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="800" height="800" fill="url(#dark)"/>
+  <circle cx="400" cy="340" r="320" fill="url(#glow)"/>
+
+  <!-- glyph: outer mass + inner counter, evenodd so the hole stays open -->
+  <g transform="translate(400,330)" fill-rule="evenodd">
+    <path d="
+      M-170,-190
+      C-215,-110 -215,30 -165,130
+      C-115,205 -25,225 70,195
+      C165,165 215,55 205,-50
+      C195,-165 120,-240 25,-240
+      C-70,-240 -170,-190 -170,-190 Z
+
+      M-45,-90
+      C-95,-135 -95,-25 -55,25
+      C-15,65 35,60 55,20
+      C75,-25 45,-110 -10,-135
+      C-45,-150 -95,-135 -45,-90 Z
+    "
+      fill="#f2e8c8"/>
+  </g>
+
+  <text x="400" y="80" text-anchor="middle" font-family="Georgia,serif" font-size="22" fill="#9a8a70">dead in Seoul, alive in Jeju</text>
+
+  <rect x="70" y="615" width="660" height="55" fill="#d8cbb0" stroke="#4a3a20" stroke-width="3"/>
+  <text x="400" y="650" text-anchor="middle" font-family="Georgia,serif" font-size="26" font-weight="bold" fill="#2a1f0f">
+    ARAea — dead in Seoul, alive in Jeju
+  </text>
+  <text x="400" y="698" text-anchor="middle" font-family="Georgia,serif" font-size="15" font-style="italic" fill="#8a7a5f">
+    U+11F00
+  </text>
+</svg>

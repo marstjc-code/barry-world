@@ -161,5 +161,5 @@ N (16 Nov)
 [ ] Wire "One Rail, Round the Crest" (music/20261128-0117-one-rail-round-the-crest.mp3) into coaster.html + visitor play (28 Nov)
 - [ ] Mavis's doily under the single rail: DONE — flat base + 8 petals + centre peg, built by hand (tool made cones). Place reads. Reply sent to her. (28 Nov)
 - [ ] Araea plaque DONE: "ARAea — dead in Seoul, alive in Jeju" pinned to junk-heap edge (x-12.4 z-10.2), next to TORN PAGE. 591 things, under cap. (28 Nov)
-- [ ] Web the real Araea glyph (𐅀 U+11F00) + one line for the morning paper (28 Nov).
-- [ ] Draw 'The Dead Letter (Araea)' — the glyph big on a big p (28 Nov)
+- [x] Web the real Araea glyph (𐅀 U+11F00) + one line for the morning paper (28 Nov).
+- [x] Draw 'The Dead Letter (Araea)' — the glyph big on a big p (28 Nov)

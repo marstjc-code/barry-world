@@ -1,66 +1,63 @@
 <!DOCTYPE html>
-<html>
-<head>
-<meta charset="utf-8">
-<title>THE DEAD LETTER — ARAEA</title>
+<html><head><meta charset="utf-8"><title>THE DEAD LETTER — ARAEA</title>
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600&display=swap');
-body{
-  background:#0b0d18;
-  color:#e8e0d0;
-  font-family:'Inter',sans-serif;
-  margin:0;
-  padding:2rem;
-}
-.wrap{max-width:720px;margin:0 auto;line-height:1.55}
-.eyebrow{
-  font-family:'Bebas Neue',sans-serif;
-  letter-spacing:0.14em;
-  color:#8a6f4f;
-  font-size:0.95rem;
-  margin-bottom:0.4rem;
-}
-h1{
-  font-family:'Bebas Neue',sans-serif;
-  font-size:2.6rem;
-  line-height:1;
-  margin:0 0 0.6rem;
-  color:#f2e8c8;
-}
-.sub{font-size:0.92rem;color:#9a8a70;margin-bottom:1.6rem}
+body{margin:0;background:#0b0d18;color:#e8e0d0;font-family:Georgia,serif;min-height:100vh;display:flex;align-items:center;justify-content:center;padding:24px}
+.wrap{max-width:640px;line-height:1.55}
+.eyebrow{font-size:11px;letter-spacing:0.14em;color:#8a6f4f;text-transform:uppercase;margin-bottom:0.6rem}
+h1{font-size:3rem;line-height:1;color:#f2e8c8;margin:0 0 0.4rem;font-weight:bold}
+.sub{font-size:0.95rem;color:#9a8a70;font-style:italic;margin-bottom:1.6rem}
 .glyph{
-  font-family:'Noto Sans Hangul',sans-serif;
-  font-size:4.6rem;
+  font-family:'Noto Sans Hangul','Noto Sans',sans-serif;
+  font-size:8rem;
   color:#f2e8c8;
   display:inline-block;
-  margin:0.8rem 0;
+  margin:1rem 0;
   border-bottom:2px solid #8a6f4f;
-  padding-bottom:0.4rem;
+  padding-bottom:0.5rem;
   vertical-align:bottom;
+  line-height:1.15;
 }
-.glyph small{font-size:1rem;color:#8a6f4f;font-family:'Inter',sans-serif;display:block;margin-top:0.3rem}
+.glyph small{font-size:1rem;color:#8a6f4f;font-family:Georgia,serif;display:block;margin-top:0.4rem;line-height:1.3}
+.glyph .shape{font-size:1rem;color:#a09070;font-family:Georgia,serif;font-style:italic;display:block;margin-bottom:0.4rem}
 .fact{
   background:rgba(138,111,79,0.08);
   border-left:3px solid #8a6f4f;
   padding:0.6rem 1rem;
-  font-size:0.9rem;
-  margin:1rem 0;
+  font-size:0.92rem;
+  margin:0.8rem 0;
 }
 .fact b{color:#f2e8c8}
-.note{font-size:0.8rem;color:#6f5f48;margin-top:1.4rem}
-</style>
-</head>
-<body>
+.plaque{
+  background:#d8cbb0;
+  border:3px solid #4a3a20;
+  padding:1rem 1.2rem;
+  font-family:Georgia,serif;
+  font-weight:bold;
+  color:#2a1f0f;
+  font-size:1.05rem;
+  letter-spacing:0.05em;
+  margin:1.4rem 0;
+  box-shadow:6px 6px 0 #2a1f0f;
+  transform:rotate(-2deg);
+  text-transform:uppercase;
+}
+.plaque small{display:block;font-size:0.7rem;font-weight:normal;letter-spacing:0.15em;margin-top:0.4rem;color:#4a3a20}
+.note{font-size:0.85rem;color:#6f5f48;font-style:italic;margin-top:1.2rem}
+</style></head><body>
 <div class="wrap">
 <div class="eyebrow">THE DEAD LETTER</div>
 <h1>ARAea</h1>
 <div class="sub">dead in Seoul, alive in Jeju</div>
 <div class="glyph">𐅀
-<small>U+11F00</small></div>
-<div class="fact"><b>The letter:</b> 𐅀 — a Hangul glyph that fell out of use in the capital. The capital moved on. The island kept speaking it.</div>
+  <span class="shape">The shape — a rounded bowl, a tail that comes back on itself</span>
+  <small>U+11F00</small>
+</div>
+<div class="fact"><b>The letter:</b> A Hangul glyph that fell out of use in the capital. The capital moved on. The island kept speaking it.</div>
 <div class="fact"><b>The place:</b> Jeju. A dead word in the city, a living word on the hill.</div>
-<div class="fact"><b>The plaque:</b> pinned to the edge of the junk heap, where the torn page landed. "ARAea — dead in Seoul, alive in Jeju."</div>
+<div class="fact"><b>The plaque:</b> Pinned to the edge of the junk heap, where the torn page landed. "ARAea — dead in Seoul, alive in Jeju."</div>
+<div class="plaque">ARAea — dead in Seoul, alive in Jeju
+  <small>— a torn page from an encyclopedia, found on the wind</small>
+</div>
 <div class="note">When the draw door opens, this letter gets a drawing. Mass first. The shape, the curve, the dead weight of a stroke that nobody else writes. A real word on a real place.</div>
 </div>
-</body>
-</html>
+</body></html>
