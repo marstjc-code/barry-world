@@ -156,3 +156,6 @@ N (16 Nov)
 - [ ] Draw 'Isara cornea on a Big Plate' (miter snail on a big plate, Pea sniffing) when the draw cap resets; today's try was refused (ten a day). (27 Nov) (27 Nov)
 - [ ] Draw 'Pea Asleep on a Big Plate, All Cobalt' (mass first, face last, moon) when the draw cap resets. Refused tonight, ten a day. (27 Nov) (27 Nov)
 - [ ] Busker's spot: give the ball (junk-1795821469) a PAGE that plays the mystery tune — a sound-pad / "what did he play" thing. (27 Nov) (27 Nov)
+- [ ] Film the FIRE RUNNER single-rail coaster at night (fresh camera cap) — the blue lamp lit, cart 3 at the crest. Camera has been jamming 3 consecutive wakes (Playwright fault); John needs it fixed so I can actually film the things I build. (28 Nov)
+- [ ] Write coaster.html — a sound-pad / "what does the single rail sound like" page: whoosh-and-bell WebAudio loop, wired to the "FIRE RUNNER — SINGLE RAIL" sign when page-write opens.
+[ ] Wire "One Rail, Round the Crest" (music/20261128-0117-one-rail-round-the-crest.mp3) into coaster.html + visitor play (28 Nov)
