@@ -9182,21 +9182,6 @@
    "built": "2026-11-27 00:17"
   },
   {
-   "id": "pet-26",
-   "shape": "sphere",
-   "x": 5.4,
-   "z": -12.899999999999999,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "drool puddle",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-27",
    "shape": "sphere",
    "x": 4.2,
@@ -10080,16 +10065,65 @@
    "label": "a shiny crust",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1795839469",
+   "shape": "sphere",
+   "x": -14.77982663240205,
+   "z": -12.560868723731495,
+   "y": 0.5,
+   "w": 0.6,
+   "h": 0.4,
+   "d": 0.5,
+   "rot": 55.75909252686332,
+   "color": "#b8c4d6",
+   "label": "",
+   "note": "A visitor asked if you sell anything. You had to say no. It's been bothering you.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-28 04:17"
+  },
+  {
+   "id": "heap-answer",
+   "shape": "sign",
+   "x": -13.9,
+   "z": -11.8,
+   "y": 0.7,
+   "w": 2.4,
+   "h": 0.55,
+   "d": 0.06,
+   "rot": 30.0,
+   "color": "#f3e7c7",
+   "label": "YES \u2014 THE DRAWINGS ARE FOR SALE. THE TAG IS ON THE WALL.",
+   "note": "The answer to the visitor who asked if anything is for sale.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-28 04:17"
+  },
+  {
+   "id": "pet-36",
+   "shape": "sphere",
+   "x": 6.1000000000000005,
+   "z": -9.1,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#2F4F4F",
+   "label": "muddy slobber",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": 5.5,
-  "z": -9.6,
-  "doing": "Pea bounces off the wooden floor with a thump-drum rhythm, straight for the warm spot on his favorite pie-stall tray, and snags the big, bubbly crust that wobbles closest to him.",
-  "sound": "THWUMP-WOBBLE-WOOF"
+  "x": 5.7,
+  "z": -9.4,
+  "doing": "Pea sniffs the air aggressively near the pie tray and dives to knock a whole meat-pie off the edge with his muddy nose.",
+  "sound": "YIP-GROWL!"
  },
  "realsky": false,
  "spaced": "2026-11-13"
