@@ -9694,21 +9694,6 @@
    "model": "bench"
   },
   {
-   "id": "pet-33",
-   "shape": "sphere",
-   "x": -1.8000000000000003,
-   "z": -9.299999999999999,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#8a5a2b",
-   "label": "a drool spot",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-34",
    "shape": "sphere",
    "x": -1.6,
@@ -10216,16 +10201,31 @@
    "label": "shiny white rectangle",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "pet-43",
+   "shape": "sphere",
+   "x": 5.9,
+   "z": -8.7,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#F5F0E1",
+   "label": "shiny white rectangle",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
   "name": "Pea",
   "animal": "dog",
   "color": "#8a5a2b",
-  "x": -2.5,
-  "z": -2.2,
-  "doing": "Pea lunges directly into the humming corner lamp and rakes a frantic claw-swipe at the warm light, knocking a heavy ceramic tile flying from its perch onto his waiting tongue.",
-  "sound": "BARK-WOOF!"
+  "x": 5.5,
+  "z": -9.0,
+  "doing": "Pea lunges directly into the warm glow of a red awning and paws frantically at a round, golden pie sitting on a tray just to steal it for his own greedy belly.",
+  "sound": "HUFF-WOOF-CLACK"
  },
  "realsky": false,
  "spaced": "2026-11-13"
