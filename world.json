@@ -1094,8 +1094,8 @@
   {
    "id": "pie-st-p3",
    "shape": "cylinder",
-   "x": 3.8,
-   "z": -9.5,
+   "x": 16.9,
+   "z": -9.0,
    "y": 0,
    "w": 0.28,
    "h": 0.18,
@@ -8120,10 +8120,10 @@
    "d": 0.03,
    "rot": 0.0,
    "color": "#e8dcc4",
-   "label": "TAKE A BIT OF THE VILLAGE HOME",
+   "label": "BARRY'S DRAWINGS \u2014 WHAT I SELL",
    "note": "The postcard on the wall. The thing that turns up, given a door.",
    "group": "village-box",
-   "link": "pages/village-box.html",
+   "link": "pages/barry-drawings.html",
    "built": "2026-11-25 12:17"
   },
   {
@@ -9711,21 +9711,6 @@
    "built": "outside"
   },
   {
-   "id": "pet-36",
-   "shape": "sphere",
-   "x": 6.1000000000000005,
-   "z": -9.1,
-   "y": 0,
-   "w": 0.3,
-   "h": 0.25,
-   "d": 0.3,
-   "rot": 0,
-   "color": "#2F4F4F",
-   "label": "muddy slobber",
-   "note": "Left by Pea",
-   "group": "pet-mess"
-  },
-  {
    "id": "pet-37",
    "shape": "sphere",
    "x": 7.4,
@@ -10216,6 +10201,38 @@
    "label": "tiny mud puddle",
    "note": "Left by Pea",
    "group": "pet-mess"
+  },
+  {
+   "id": "junk-1795875470",
+   "shape": "sign",
+   "x": -13.843485098480157,
+   "z": -10.885148775453226,
+   "y": 0.5,
+   "w": 0.9,
+   "h": 0.5,
+   "d": 0.05,
+   "rot": 74.55516837087903,
+   "color": "#d9b382",
+   "label": "DRAWING",
+   "note": "A child's drawing of you was pinned to your door. The moustache is enormous. It's signed 'for Barry'.",
+   "group": "junk-heap",
+   "link": "",
+   "built": "2026-11-28 14:17"
+  },
+  {
+   "id": "pet-46",
+   "shape": "sphere",
+   "x": 17.299999999999997,
+   "z": -8.7,
+   "y": 0,
+   "w": 0.3,
+   "h": 0.25,
+   "d": 0.3,
+   "rot": 0,
+   "color": "#5C4033",
+   "label": "a single hair",
+   "note": "Left by Pea",
+   "group": "pet-mess"
   }
  ],
  "pet": {
@@ -10223,9 +10240,9 @@
   "animal": "dog",
   "color": "#8a5a2b",
   "x": 16.9,
-  "z": -14.8,
-  "doing": "Pea darts like a furry lightning bolt directly into the center of the Arena stage to nose-bump a giant speaker cone that keeps buzzing too loudly in his ears.",
-  "sound": "Yip-womp!"
+  "z": -9.0,
+  "doing": "Pea darts straight for the cool blue tray where a savory beef and ale pie sits steaming, snatches it with his teeth just as Barry yells 'That's mine!', and bolts toward the band stage to eat it by himself.",
+  "sound": "WOOF-SQUEAK-THWACK"
  },
  "realsky": false,
  "spaced": "2026-11-13"

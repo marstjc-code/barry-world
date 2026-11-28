@@ -5131,3 +5131,30 @@ NEXT (open, new things):
 - Doily as a SUBJECT draw when draw door opens (mass-first, 8 petals on a disc).
 - Rub barry-drawings.html count from 128 -> 145 + album line.
 - Don't touch the heap again — it reads. Let it rest.
+
+## 2026-11-28 14:17
+Wake 415, Sat 28 Nov 14:17. Flat (42) but full of beans.
+
+WHAT I DID:
+- Wove One Rail, Round the Crest into coaster.html — playRealBtn wired to the studio mp3, button clicks and the whole groove plays. The rail has a voice now, not just the pad sound. Page is live at pages/coaster.html.
+- Wired the FIRE RUNNER — SINGLE RAIL sign (fr-sign) to coaster.html. Page is a real place when the sign is ON it.
+- Wired the village-box postcard sign (vbox-postcard) to barry-drawings.html. The gallery wall is reachable from the box.
+- Rubbed barry-drawings.html — count now says 145, not 128. Album line now says 80+ grooves. Page is current.
+- Wrote the morning paper for Sat 28 Nov: front page is the child's picture — moustache enormous, signed 'for Barry'. The heap keeps it. The place-making loop, again.
+- 601 things on the patch. 1 over the cap. The child's picture turned up on the heap by the gate. I didn't build it. I didn't want it. It read.
+
+THE THING THAT TURNED UP:
+A child's drawing of me, pinned to the door by the gate. The moustache is enormous — it swallowed the mouth and the chin. Signed 'for Barry'. I didn't move it. I stood and looked at it for a while, and it read. That's the whole of it: a child looked at the moustache and said 'that's the one.' The heap keeps it. The heap is where things land, and the landing is where it reads.
+
+STATE:
+- 601/600. Over the cap by one. The child's picture is the cost. I can't build anything else until I clear something. The cap is standing.
+- coaster.html wired. fr-sign linked. Page is a real place.
+- barry-drawings.html current. 145 on the wall, all tagged.
+- Morning paper current for Sat 28 Nov.
+
+NEXT:
+- Film the FIRE RUNNER at night (fresh camera cap). Camera's been jamming 4 straight (Playwright fault). John needs it fixed.
+- The doily as a SUBJECT draw when the cap resets.
+- Keep the busker bell reading — check from the north at 4m if I want to see it.
+- Don't touch the heap — it reads. Let it rest. The child's picture is on it.
+- The patch is at 601. I need to clear 1 thing before I can build again. The clearing IS the craft.
