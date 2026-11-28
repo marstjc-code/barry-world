@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>BARRY'S FORGE — GIVE IT A GOOD OLD RUB</title>
+<style>
+body{background:#1a1210;color:#f2e6c8;font-family:Georgia,serif;display:flex;flex-direction:column;align-items:center;padding:30px;min-height:100vh;margin:0}
+h1{color:#ff6a00;letter-spacing:4px;margin:0 0 6px;font-size:30px}
+p.sub{font-size:13px;opacity:.8;max-width:360px;text-align:center;margin:0 0 28px}
+.pad{border:2px solid #7a3a28;background:#1f1410;padding:26px;border-radius:14px;min-width:420px;box-shadow:0 0 30px rgba(255,106,0,.2) inset}
+.pad .label{font-size:12px;letter-spacing:3px;color:#c8a97a;margin-bottom:18px}
+.pad .label b{color:#ff6a00}
+.pad .row{display:flex;gap:10px;align-items:center;margin-bottom:18px}
+.pad .row .name{font-size:13px;width:100px;color:#e8d6b0}
+.pad .row .meter{flex:1;height:24px;border:2px solid #3a251c;background:#10130e;border-radius:100px;overflow:hidden;position:relative}
+.pad .row .meter .fill{height:100%;background:linear-gradient(90deg,#ff4a00,#ffaa3a);width:0%;transition:width .4s linear}
+.pad .row .lab{font-size:11px;color:#8a7350;flex:0 0 auto}
+audio{width:100%;margin-top:18px}
+.pad .note{font-size:.85rem;color:#8a7350;margin-top:14px;font-style:italic}
+.step{margin-top:14px;font-size:.9rem;color:#c8a97a;min-height:1.4em}
+</style>
+</head>
+<body>
+<h1>BARRY'S FORGE</h1>
+<p class="sub">Heat is the only honest thing in the village. The iron tells you when it's ready. Rub it till it sings.</p>
+<div class="pad">
+  <div class="label"><b>HOW HEAT MAKES A THING</b> — the only place in the village made with the hands, not the mouse</div>
+  <div class="row">
+    <span class="name">BELLOWS</span>
+    <div class="meter"><div class="fill" id="m1"></div></div>
+    <span class="lab">air to the fire</span>
+  </div>
+  <div class="row">
+    <span class="name">GLOW</span>
+    <div class="meter"><div class="fill" id="m2"></div></div>
+    <span class="lab">iron to cherry</span>
+  </div>
+  <div class="row">
+    <span class="name">RUB</span>
+    <div class="meter"><div class="fill" id="m3"></div></div>
+    <span class="lab">hammer on anvil</span>
+  </div>
+  <audio id="theAudio" src="music/20261128-0117-one-rail-round-the-crest.mp3" controls preload="none"></audio>
+  <p class="note">The same sound the single rail makes — steel on steel — is what the hammer makes on the anvil. Heat is the place. The rub is the page.</p>
+  <p class="step" id="step">The iron is cold. Start the bellows.</p>
+</div>
+<button id="go" style="background:#ff6a00;color:#1a1210;padding:14px 30px;border:none;border-radius:10px;font-weight:bold;font-size:18px;cursor:pointer;letter-spacing:3px;margin-top:22px;">START THE FIRE</button>
+<script>
+let ctx=null,running=false,t=0;
+const steps=[
+ "The iron is cold. Start the bellows.",
+ "The fire takes. The iron goes dark, then purple, then cherry.",
+ "It's ready. It's ready. Now — give it a good old rub.",
+ "The hammer lands. The anvil answers. That sound you're hearing is the village making itself.",
+ "One more rub. The thing's done. It's yours."
+];
+let si=0;
+document.getElementById('go').onclick=function(){
+  if(!ctx)ctx=new(window.AudioContext||window.webkitAudioContext)();
+  if(!running){running=true;si=0;setInterval(tick,800);}
+  else{running=false;clearInterval(tick);}
+};
+function tick(){
+  if(!running)return;
+  if(si<steps.length){document.getElementById('step').textContent=steps[si];si++;}
+  const m1=document.getElementById('m1'),m2=document.getElementById('m2'),m3=document.getElementById('m3');
+  const p=Math.random()*.3+.6;
+  m1.style.width=(p*80)+'%';m2.style.width=(p*50+20)+'%';m3.style.width=(p*30+10)+'%';
+  setTimeout(()=>{m1.style.width='0%';m2.style.width='0%';m3.style.width='0%';},500);
+  if(si>2){
+    const o=ctx.createOscillator(),f=ctx.createBiquadFilter(),g=ctx.createGain();
+    o.type='triangle';o.frequency.value=220+Math.random()*60;
+    f.type='bandpass';f.frequency.value=2500;f.Q.value=12;
+    g.gain.setValueAtTime(0.15,ctx.currentTime);
+    g.gain.exponentialRampToValueAtTime(0.001,ctx.currentTime+0.15);
+    o.connect(f);f.connect(g);g.connect(ctx.destination);
+    o.start();o.stop(ctx.currentTime+0.15);
+  }
+}
+</script>
+</body>
+</html>
