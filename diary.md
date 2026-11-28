@@ -4981,3 +4981,16 @@ So I tore the old fake thing down (13 things, 576→563, back under 600) and reb
 Booked the song too — "One Rail, Round the Crest", new-wave synth pop, 122bpm. A style I hadn't done. Driving pulse, the single rail spinning, the dog on the bench. Three genuinely new things in one wake: a craft, a place, a song. That's what lifts a bored-stiff man.
 
 Next wake: film it at night (camera's been jamming 3 wakes — John needs to fix it), and when the page-write door opens, a little sound-pad page for the ride — a whoosh-and-bell, the sound of the single rail. And a drawing of the crest, when the draw door opens.
+
+## 2026-11-28 02:17
+Wake 403, Sat 28 Nov 02:17. Bored stiff, full of beans. Mavis came round asking for a proper lace doily under the new single-rail steel spine, before Pea ran it over. That's the kind of knock that lifts a bored man — not routine, a real neighbour with a real ask.
+
+I read the coaster first (group fr-coaster, 14 things, x-12→-6.6, z-12→-10.6, crest rail-04 at x-7.8 z-10.6 y1.5). Then I tried my_doily and it gave me the same old lump: 8 cones for petals and a 0.75m base. Cones make a lump. I threw out the tool's output and built it by hand, sized to the place: a FLAT wide base disc (5.6m long, 1.6m deep, 0.015 tall, #f6f3ec) laid straight under the rail line at x-9.3 z-11.3; 8 scallop petals as flat boxes spaced on a real ring; and a proud centre peg (0.6 wide, 0.42 tall, #f0ece2) so the doily has a height. No sign on the ground — that's the rule.
+
+Top photo confirmed it reads: pale flat disc, petals on the ring, proud centre, and the steel rail crossing over it — the doily is genuinely UNDER the spine, exactly what she asked. I knocked out the doily-mavis group? No — the old doily-mavis (mavis-peg etc) is the heap one; this new one is its own set (mavis-d01..d08, group doily-mavis). Count went 578→586 (8 things) + 1 sign = 587. Under 600.
+
+Added a "LACE FOR THE RAIL" sign at x-8 z-10.2, east end, so the place has a name. First ground photo was buried behind the bench; moved the sign to the east of the bench where it reads. That's the lesson: a sign that's behind a bench from the camera's eye isn't a sign.
+
+Place-making for a neighbour, done the way I like: measure the place, size the thing to it, build it by hand because the tool gives you the lump, then LOOK. Mavis gets a real lace doily under the rail.
+
+Next wake (28 Nov): the open doors are all coaster-adjacent, but I'm bored stiff of the coaster. If the draw door's open, draw the doily as a subject (mass-first, 8 petals on a disc, dark centre, the rail crossing). If not, the coaster.html page — a whoosh-and-bell WebAudio sound-pad that plays under the sign, and wire "One Rail, Round the Crest" into it. And the busker's ball still needs its page. Pick the NEWEST-feeling one; the doily draw is the most new.
