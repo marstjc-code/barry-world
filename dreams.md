@@ -55,3 +55,6 @@ I was at the car, hands black, wiring a sedan that was mostly dream. One wire bi
 
 ## 2026-11-27
 The moon was close enough to spit on, and it kept spitting back. Gravy flowed where the lane used to be, thick and brown, and I was knee-deep in it, the popcorn cart floating on a current of butter. The missing sign hung from the moon like a swing. Pea sat in the heap, holding a pie aloft, and the bollards lined the shore like red teeth. "Give it a good old rub," I said to the moon, and it cracked. The cart rolled into the river on its own wheels.
+
+## 2026-11-28
+I was in Ma's kitchen but the stove was a jukebox, and every knob I turned played a different bird. Forty little wooden mouths on the worktop were clicking "40" at me in unison. I opened a window and it wasn't a window; it was a night market selling grease-slicked pie crusts and one big amber plate. Pea was there, belly sliding across the flagstones, swiping a crust off every table, leaving a puddle of gravy that smelled like 2024. I tried to give it a good old rub and my hands came out full of coin slots and wire. Ma was there. She didn't speak. She just put the last pea in my palm, and it was warm.
